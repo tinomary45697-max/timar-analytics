@@ -1,573 +1,433 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import os, json, time, random, re
-from datetime import datetime, timedelta
+import os, json
+from datetime import datetime
 
-st.set_page_config(page_title="TIMAR ANALYTICS - Field to Funding", page_icon="📊", layout="wide")
+st.set_page_config(page_title="TIMAR ANALYTICS", page_icon="📊", layout="wide")
 
-MOMO_NUMBER = "0789876277"
-MOMO_NAME = "TINO MARY"
-APP_VER = "TIMAR - Filter Fixed"
+st.markdown("""
+<style>
+.stApp { background: linear-gradient(135deg, #FFF8E1 0%, #E8F5E9 50%, #E3F2FD 100%); }
+[data-testid="stSidebar"] { background: linear-gradient(180deg, #1B5E20 0%, #2E7D32 50%, #388E3C 100%); }
+[data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3, [data-testid="stSidebar"] p { color: white!important; }
+section[data-testid="stSidebar"] div[data-baseweb="select"] { background-color: white!important; border-radius: 10px!important; border: 2px solid #FFA000!important; }
+section[data-testid="stSidebar"] div[data-baseweb="select"] > div { background-color: white!important; color: #1B5E20!important; }
+section[data-testid="stSidebar"] div[data-baseweb="select"] span, section[data-testid="stSidebar"] div[data-baseweb="select"] div, section[data-testid="stSidebar"] div[data-baseweb="select"] input, section[data-testid="stSidebar"] div[data-baseweb="select"] svg { color: #1B5E20!important; fill: #1B5E20!important; font-weight: 900!important; opacity: 1!important; }
+div[data-baseweb="popover"] div { background: white!important; color: #1B5E20!important; }
+h1 { background: linear-gradient(90deg, #1B5E20, #FFA000); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 900!important; }
+h2, h3 { color: #1B5E20!important; font-weight: 700!important; }
+h2 { border-left: 6px solid #FFA000; padding-left: 12px; }
+[data-testid="stMetric"] { background: white; padding: 15px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border-top: 4px solid #FFA000; }
+[data-testid="stVerticalBlockBorderWrapper"] { background: rgba(255,255,255,0.95); border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.08); }
+.stButton > button { background: linear-gradient(90deg, #FFA000 0%, #2E7D32 100%); color: white!important; border-radius: 25px; font-weight: bold; border: none; }
+</style>
+""", unsafe_allow_html=True)
 
-PLANS={
-    "FREE_TRIAL":{"price":0,"max_entries":50,"charts":2,"tools":3,"modules":["Dashboard","Data Upload"],"name":"Free Trial 24h","duration_hours":24,"desc":"50 rows - 24hr trial"},
-    "STUDENT":{"price":10000,"max_entries":1000,"charts":5,"tools":15,"modules":["Dashboard","Data Upload","Data Tools","Research Module","Education Module","Charts","KPI Matrix"],"name":"Student - UGX 10k","duration_days":30,"desc":"Students"},
-    "FARMER":{"price":20000,"max_entries":2000,"charts":5,"tools":15,"modules":["Dashboard","Data Upload","Data Tools","Agriculture Module","Business Module","Charts","KPI Matrix"],"name":"Farmer - UGX 20k","duration_days":30,"desc":"Farm yield"},
-    "RESEARCHER":{"price":30000,"max_entries":10000,"charts":10,"tools":50,"modules":["Dashboard","Data Upload","Data Tools","Research Module","M&E Module","Statistical Tools","Charts","LogFrame Matrix","KPI Matrix","Theory of Change"],"name":"Researcher - UGX 30k","duration_days":30,"desc":"SPSS/STATA"},
-    "PROFESSIONAL":{"price":100000,"max_entries":15000,"charts":10,"tools":100,"modules":["ALL"],"name":"All Pro - UGX 100k","duration_days":30,"desc":"All Pro 100k"},
-    "NGO":{"price":300000,"max_entries":50000,"charts":10,"tools":200,"modules":["ALL"],"name":"NGO - UGX 300k","duration_days":30,"desc":"NGO full"},
-    "GOVERNMENT":{"price":500000,"max_entries":100000,"charts":10,"tools":999,"modules":["ALL"],"name":"Gov - UGX 500k","duration_days":30,"desc":"Government"},
-    "ADMIN_FREE":{"price":0,"max_entries":999999999,"charts":10,"tools":999,"modules":["ALL"],"name":"Admin Unlimited","duration_days":9999,"desc":"Full"}
-}
+st.markdown("""
+<div style="background: linear-gradient(90deg, #1B5E20 0%, #2E7D32 50%, #FFA000 100%); padding:15px; border-radius:15px; margin-bottom:15px; text-align:center;">
+    <h1 style="color:white!important; -webkit-text-fill-color:white; margin:0; border:none; padding:0;">🌾 TIMAR ANALYTICS 📊</h1>
+    <p style="color:#FFEB3B; margin:0; font-weight:bold;">Uganda's Smart Data Platform | All 15 Modules | Analytics Restored</p>
+</div>
+""", unsafe_allow_html=True)
 
-ALL_MODULES=["Dashboard","Data Upload","Data Tools","M&E Module","WASH Module","Health Module","Education Module","Agriculture Module","Business Module","Engineering Module","Research Module","LogFrame Matrix","KPI Matrix","Theory of Change","Charts","Statistical Tools","Payment & Plans","Help & Manual","Admin - Transactions"]
-ALL_TOOLS={"M&E Tools":["LogFrame Builder","KPI Matrix Generator","Theory of Change Mapper","Indicator Tracker"],"Research Tools":["SPSS Syntax Generator","STATA Do-File Builder","Sample Size Calculator","P-Value Calculator"],"Data Tools":["Data Cleaning","Remove Duplicates","Handle Missing","Data Validation"],"Charts":["Bar Chart","Line Chart","Pie Chart","Scatter Plot","Histogram"]}
+MTN_NUMBER = "0789876277"; AIRTEL_NUMBER = "0755453313"; MTN_NAME = "Tino Mary"; AIRTEL_NAME = "Tino Mary"; ADMIN_PASSWORD = "admin@45697"
+LANGUAGES = {"English":"en","Luganda":"lg","Lunyankole":"nyn","Swahili":"sw","Kinyarwanda":"rw","French":"fr","Spanish":"es","Portuguese":"pt","Arabic":"ar","Chinese":"zh","German":"de","Ateso":"teo","Acholi":"ach","Langi":"laj","Karamojong":"akj"}
+MODULES_ADMIN = ["Dashboard","Analytics","Data Upload","M&E Module","WASH Module","Livelihood Module","Health Module","Education Module","Agriculture Module","Research Module","KPI Matrix","Statistical Tools","Payment & Plans","Reviews & Comments","Help & Manual for Timar Analytics","Admin - Monitoring Panel"]
+MODULES_USER = ["Dashboard","Analytics","Data Upload","M&E Module","WASH Module","Livelihood Module","Health Module","Education Module","Agriculture Module","Research Module","KPI Matrix","Statistical Tools","Payment & Plans","Reviews & Comments","Help & Manual for Timar Analytics"]
+STANDARD_TOOLS = ["Overview - All Data","Questionnaire - Structured Questions","Interview - Key Informant Interview","Focus Group Discussion (FGD)","Observation Checklist","Survey Form - Household Survey","Case Study Tool","Document Review / Secondary Data","Mobile Data Collection (Kobo/ODK)","Experimental Data Collection"]
+ME_TOOLS = ["LogFrame - Logical Framework 4x4","Results Chain / Result Framework","Indicator Tracking Matrix","Risk Matrix - Likelihood x Impact","Stakeholder Matrix - Power/Interest","Data Collection Matrix","Budget Matrix - Activity Based","M&E Plan Matrix","Theory of Change","Problem Tree to Objective Tree"]
+ALL_CHARTS = ["Bar Chart","Pie Chart","Line Chart","Scatter Plot","Histogram","Area Chart","Table View","Summary Statistics","Matrix View"]
+PLANS = {"FREE_TRIAL":{"price":0,"name":"Free Trial 24h","days":"24 Hours"},"STUDENT":{"price":10000,"name":"STUDENT","days":"30 Days"},"FARMER":{"price":20000,"name":"FARMER","days":"30 Days"},"RESEARCHER":{"price":30000,"name":"RESEARCHER","days":"30 Days"},"PROFESSIONAL":{"price":100000,"name":"ALL PRO","days":"30 Days"},"NGO":{"price":300000,"name":"NGO","days":"90 Days"},"GOVERNMENT":{"price":500000,"name":"GOVERNMENT","days":"365 Days"},"ADMIN_FREE":{"price":0,"name":"ADMIN","days":"Unlimited"}}
 
-UG_REGIONS=["Central","Eastern","Northern","Western","All"]
-USERS_FILE="users.json"
-TX_FILE="transactions.json"
+def generate_sample_data(n=520):
+    np.random.seed(42)
+    return pd.DataFrame({"Region": np.random.choice(["Central","Eastern","Northern","Western"], n),"Gender": np.random.choice(["Male","Female"], n),"Age": np.random.randint(18,85,n),"Income": np.random.randint(200000,2000000,n),"District": np.random.choice(["Kampala","Gulu","Mbarara","Mbale","Arua","Jinja","Lira","Kabale"], n),"Collection_Tool": np.random.choice(STANDARD_TOOLS[1:], n),"Education": np.random.choice(["Primary","Secondary","University","None"], n),"Farm_Size_Acres": np.round(np.random.uniform(0.5,10,n),1),"Yield_Tons": np.round(np.random.uniform(0.2,5,n),1),"Water_Source": np.random.choice(["Borehole","Tap","River","Well"], n),"Has_Latrine": np.random.choice(["Yes","No"], n),"Crop_Type": np.random.choice(["Maize","Beans","Coffee","Matooke"], n),"Health_Status": np.random.choice(["Healthy","Malaria","Malnutrition"], n),"School_Status": np.random.choice(["Enrolled","Dropout"], n)})
+
+SAMPLE_LOGFRAME = [{"Level":"Goal","Narrative Summary":"Improve livelihoods 2027","Indicators (OVI)":"% income +30%","Means of Verification":"Household survey","Assumptions":"Stable market"},{"Level":"Purpose","Narrative Summary":"Increase income and yield","Indicators (OVI)":"Avg income 300k to 800k","Means of Verification":"HH survey","Assumptions":"Good rains"}]
+SAMPLE_BUDGET = [{"Activity":"Training 520 farmers","Quantity":10,"Unit":"Session","Unit Cost UGX":200000,"Total UGX":2000000},{"Activity":"Seed kits","Quantity":520,"Unit":"Kit","Unit Cost UGX":5000,"Total UGX":2600000}]
 
 def load_users():
-    try:
-        if os.path.exists(USERS_FILE):
-            with open(USERS_FILE,"r") as f:
-                data=json.load(f)
-                data["Admin"]="admin@45697"
-                data["admin"]="admin@45697"
-                return data
-    except:
-        pass
-    return {"timar":"timar123","test":"test123","Admin":"admin@45697","admin":"admin@45697"}
+    if os.path.exists("users.json"):
+        try:
+            with open("users.json") as f: d=json.load(f); d["Admin"]=ADMIN_PASSWORD; return d
+        except: pass
+    return {"timar":"timar123","Admin":ADMIN_PASSWORD}
+def load_json(file, default):
+    if os.path.exists(file):
+        try:
+            with open(file) as f: return json.load(f)
+        except: return default
+    return default
+def save_json(file, data):
+    with open(file,"w") as f: json.dump(data,f,indent=2)
+def log_activity(user, action, details=""):
+    logs=load_json("timar_activity_log.json",[]); logs.append({"Time":datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"User":user,"Action":action,"Details":details}); save_json("timar_activity_log.json",logs[-500:])
+def check_trial(user):
+    if user.lower()=="admin": return True,"Admin Unlimited"
+    if st.session_state.plan!="FREE_TRIAL": return True,"Paid Active"
+    trials=load_json("trials.json",{})
+    if user not in trials:
+        trials[user]={"start":datetime.now().isoformat()}; save_json("trials.json",trials); return True,"24.0h left"
+    start=datetime.fromisoformat(trials[user]["start"]); left=24-(datetime.now()-start).total_seconds()/3600
+    if left<=0: return False,"Expired"
+    return True,f"{left:.1f}h left"
 
-def save_users(u):
-    try:
-        u["Admin"]="admin@45697"
-        with open(USERS_FILE,"w") as f:
-            json.dump(u,f)
-    except:
-        pass
-
-def load_transactions():
-    try:
-        if os.path.exists(TX_FILE):
-            with open(TX_FILE,"r") as f:
-                return json.load(f)
-    except:
-        pass
-    return []
-
-def save_transaction(tx):
-    try:
-        all_tx=load_transactions()
-        all_tx.append(tx)
-        with open(TX_FILE,"w") as f:
-            json.dump(all_tx,f, indent=2)
-    except:
-        pass
-
-def generate_test_dataset(n=520):
-    np.random.seed(42)
-    districts=["Kampala","Wakiso","Mukono","Jinja","Mbale","Gulu","Mbarara","Kabale"]
-    data={
-        "ID": list(range(1,n+1)),
-        "Region": np.random.choice(UG_REGIONS[:-1], n),
-        "District": np.random.choice(districts, n),
-        "Village": [f"Village_{random.randint(1,50)}" for _ in range(n)],
-        "Household_Size": np.random.randint(1,12,n),
-        "Age": np.random.randint(18,85,n),
-        "Gender": np.random.choice(["Male","Female"], n),
-        "Income_UGX": np.random.randint(50000,2000000,n),
-        "Farm_Size_Acres": np.round(np.random.uniform(0.5,20,n),2),
-        "Crop_Yield_Kg": np.random.randint(100,5000,n),
-        "Water_Source": np.random.choice(["Borehole","Tap","River","Well"], n),
-        "Sanitation": np.random.choice(["Latrine","Flush","Open","Shared"], n),
-        "Date_Collected": [datetime.now()-timedelta(days=random.randint(1,180)) for _ in range(n)]
-    }
-    return pd.DataFrame(data)
-
-if "logged" not in st.session_state:
-    st.session_state.logged=False
-if "user" not in st.session_state:
-    st.session_state.user=""
-if "plan" not in st.session_state:
-    st.session_state.plan="FREE_TRIAL"
-if "page" not in st.session_state:
-    st.session_state.page="Dashboard"
-if "tool_page" not in st.session_state:
-    st.session_state.tool_page="Data Cleaning"
-if "current_df" not in st.session_state:
-    st.session_state.current_df=generate_test_dataset(520)
-if "login_time" not in st.session_state:
-    st.session_state.login_time=datetime.now()
-if "trial_start" not in st.session_state:
-    st.session_state.trial_start=datetime.now()
-if "show_momo_for" not in st.session_state:
-    st.session_state.show_momo_for=None
-
-def is_admin():
-    return st.session_state.user.lower()=="admin"
-
-def get_cfg():
-    if is_admin():
-        return PLANS["ADMIN_FREE"]
-    return PLANS.get(st.session_state.plan, PLANS["FREE_TRIAL"])
-
-def get_trial_remaining():
-    if is_admin():
-        return None
-    if st.session_state.plan!="FREE_TRIAL":
-        return None
-    elapsed=datetime.now()-st.session_state.trial_start
-    return timedelta(hours=24)-elapsed
+for k in ["logged","user","plan","page","tool","metool","chart","current_df","lang_name","selected_plan","selected_plan_key"]:
+    if k not in st.session_state:
+        if k=="logged": st.session_state[k]=False
+        elif k=="user": st.session_state[k]=""
+        elif k=="plan": st.session_state[k]="FREE_TRIAL"
+        elif k=="page": st.session_state[k]="Dashboard"
+        elif k=="tool": st.session_state[k]="Overview - All Data"
+        elif k=="metool": st.session_state[k]="LogFrame - Logical Framework 4x4"
+        elif k=="chart": st.session_state[k]="Bar Chart"
+        elif k=="current_df": st.session_state[k]=generate_sample_data()
+        elif k=="lang_name": st.session_state[k]="English"
+        else: st.session_state[k]=None
+def is_admin(): return st.session_state.user.lower()=="admin"
 
 if not st.session_state.logged:
-    st.title("TIMAR ANALYTICS - Field to Funding")
-    tab1, tab2 = st.tabs(["Login", "Sign Up - 24hr Free"])
-    with tab1:
-        c1,c2=st.columns(2)
-        with c1:
-            u=st.text_input("Username", placeholder="Enter username")
-            p=st.text_input("Password", type="password", placeholder="Enter password")
-            if st.button("Login", use_container_width=True, type="primary"):
-                all_u=load_users()
-                login_ok=False
-                found_user=u
-                if u.lower()=="admin" and p=="admin@45697":
-                    login_ok=True
-                    found_user="Admin"
-                elif u in all_u and all_u[u]==p:
-                    login_ok=True
+    left, right = st.columns([1.2,1])
+    with left:
+        st.title("TIMAR ANALYTICS")
+        st.subheader("Uganda's Smart Data Platform - 520 Sample Ready")
+        with st.container(border=True):
+            st.markdown("### 15 Modules | Analytics Restored | 9 Statistical Tools")
+            st.success("✅ Dashboard, Analytics, Data Upload, M&E, WASH, Livelihood, Health, Education, Agriculture, Research, KPI, Statistical Tools, Payment, Reviews, Help, Admin")
+    with right:
+        t1,t2=st.tabs(["LOGIN","SIGN UP + TRIAL"])
+        with t1:
+            u=st.text_input("Username",key="l_u"); p=st.text_input("Password",type="password",key="l_p")
+            if st.button("Login",type="primary",width='stretch'):
+                users=load_users()
+                if u.lower()=="admin" and p==ADMIN_PASSWORD:
+                    st.session_state.logged=True; st.session_state.user="Admin"; st.session_state.plan="ADMIN_FREE"; log_activity("Admin","LOGIN"); st.rerun()
+                elif u in users and users[u]==p:
+                    st.session_state.logged=True; st.session_state.user=u; trials=load_json("trials.json",{});
+                    if u not in trials: trials[u]={"start":datetime.now().isoformat()}; save_json("trials.json",trials)
+                    log_activity(u,"LOGIN"); st.rerun()
+                else: st.error("Invalid")
+        with t2:
+            nu=st.text_input("Choose Username",key="s_u"); npw=st.text_input("Choose Password",type="password",key="s_p"); cpw=st.text_input("Confirm",type="password",key="s_c"); phone=st.text_input("Phone"); agree=st.checkbox("I agree to start 24hr trial")
+            if st.button("Create & Start Trial",type="primary",width='stretch'):
+                users=load_users()
+                if not nu or not npw: st.error("Required")
+                elif npw!=cpw: st.error("No match")
+                elif nu in users: st.error("Exists")
+                elif not agree: st.error("Agree")
                 else:
-                    for k,v in all_u.items():
-                        if k.lower()==u.lower() and v==p:
-                            login_ok=True
-                            found_user=k
-                            break
-                if login_ok:
-                    st.session_state.logged=True
-                    st.session_state.user=found_user
-                    st.session_state.login_time=datetime.now()
-                    if found_user.lower()=="admin":
-                        st.session_state.plan="ADMIN_FREE"
-                        st.session_state.user="Admin"
-                    st.rerun()
-                else:
-                    st.error("Invalid username or password")
-        with c2:
-            st.success("24hr FREE TRIAL")
-            st.info("Demo: timar / timar123")
-    with tab2:
-        st.write("Create Account")
-        nu=st.text_input("Choose Username", key="su_u")
-        np1=st.text_input("Choose Password", type="password", key="su_p1")
-        np2=st.text_input("Confirm Password", type="password", key="su_p2")
-        if st.button("Sign Up - Start Trial", use_container_width=True, type="primary"):
-            if not nu or not np1:
-                st.error("Required")
-            elif np1!=np2:
-                st.error("No match")
-            elif nu.lower()=="admin":
-                st.error("Not available")
-            else:
-                all_u=load_users()
-                if nu.lower() in [k.lower() for k in all_u]:
-                    st.error("Exists - Login")
-                else:
-                    all_u[nu]=np1
-                    save_users(all_u)
-                    st.success(f"Account {nu} created! Login now")
-                    st.balloons()
+                    users[nu]=npw; save_json("users.json",users); trials=load_json("trials.json",{}); trials[nu]={"start":datetime.now().isoformat(),"phone":phone}; save_json("trials.json",trials); log_activity(nu,"SIGNUP"); st.success(f"{nu} created! Go to LOGIN"); st.balloons()
     st.stop()
 
-cfg=get_cfg()
-remaining=get_trial_remaining()
+ok,msg=check_trial(st.session_state.user)
 
 with st.sidebar:
-    st.write("## TIMAR v7.5")
-    if remaining is not None:
-        sec=int(remaining.total_seconds())
-        if sec>0:
-            st.warning(f"Trial: {sec//3600:02d}:{(sec%3600)//60:02d}:{sec%60:02d}")
-        else:
-            st.error("Trial Expired!")
-    else:
-        st.success(f"{cfg['name']} Active")
-    st.write(f"User: {st.session_state.user}")
+    st.markdown("""<div style="background:white; padding:10px; border-radius:10px; text-align:center; margin-bottom:10px;"><h2 style="color:#1B5E20!important; margin:0; border:none; padding:0;">🌾 TIMAR</h2><p style="color:#FF6F00!important; font-weight:bold; margin:0; font-size:12px;">Tino Mary</p></div>""", unsafe_allow_html=True)
+    st.caption(f"👤 {st.session_state.user} | ⏰ {msg}"); st.divider()
+    st.markdown("### 📦 Modules - 15 Total")
+    mods = MODULES_ADMIN if is_admin() else MODULES_USER
+    sel_mod = st.selectbox("Select Module", mods, index=mods.index(st.session_state.page) if st.session_state.page in mods else 0, label_visibility="collapsed", key="sb_mod")
+    st.session_state.page = sel_mod
+    st.markdown(f"<div style='background:#FFEB3B; color:#1B5E20!important; padding:6px; border-radius:8px; font-weight:bold; font-size:13px; text-align:center; margin-bottom:15px;'>✅ {sel_mod}</div>", unsafe_allow_html=True)
+    st.markdown("### 📋 Data Collection Tools")
+    sel_tool = st.selectbox("Select Collection Tool", STANDARD_TOOLS, index=STANDARD_TOOLS.index(st.session_state.tool) if st.session_state.tool in STANDARD_TOOLS else 0, label_visibility="collapsed", key="sb_tool")
+    st.session_state.tool = sel_tool
+    st.markdown(f"<div style='background:#FFEB3B; color:#1B5E20!important; padding:6px; border-radius:8px; font-weight:bold; font-size:13px; text-align:center; margin-bottom:15px;'>🔧 {sel_tool[:32]}</div>", unsafe_allow_html=True)
+    st.markdown("### 📊 M&E Tools")
+    sel_me = st.selectbox("Select M&E Tool", ME_TOOLS, index=ME_TOOLS.index(st.session_state.metool) if st.session_state.metool in ME_TOOLS else 0, label_visibility="collapsed", key="sb_me")
+    st.session_state.metool = sel_me
+    st.markdown(f"<div style='background:#FFEB3B; color:#1B5E20!important; padding:6px; border-radius:8px; font-weight:bold; font-size:13px; text-align:center; margin-bottom:15px;'>📈 {sel_me}</div>", unsafe_allow_html=True)
+    st.markdown("### 📈 Charts")
+    sel_chart = st.selectbox("Select Chart", ALL_CHARTS, index=ALL_CHARTS.index(st.session_state.chart) if st.session_state.chart in ALL_CHARTS else 0, label_visibility="collapsed", key="sb_chart")
+    st.session_state.chart = sel_chart
+    st.markdown(f"<div style='background:#FFEB3B; color:#1B5E20!important; padding:6px; border-radius:8px; font-weight:bold; font-size:13px; text-align:center; margin-bottom:15px;'>📉 {sel_chart}</div>", unsafe_allow_html=True)
+    st.markdown("### 🌍 Languages")
+    sel_lang = st.selectbox("Select Language", list(LANGUAGES.keys()), index=list(LANGUAGES.keys()).index(st.session_state.lang_name), label_visibility="collapsed", key="sb_lang")
+    st.session_state.lang_name = sel_lang
+    st.markdown(f"<div style='background:#FFEB3B; color:#1B5E20!important; padding:6px; border-radius:8px; font-weight:bold; font-size:13px; text-align:center; margin-bottom:10px;'>🌐 {sel_lang}</div>", unsafe_allow_html=True)
     st.divider()
-    if cfg["modules"]==["ALL"] or "ALL" in cfg["modules"]:
-        mods=ALL_MODULES
-    else:
-        mods=[m for m in ALL_MODULES if m in cfg["modules"] or m in ["Dashboard","Payment & Plans"]]
-        if is_admin() and "Admin - Transactions" not in mods:
-            mods.append("Admin - Transactions")
-    sel_mod=st.selectbox("Select Module", mods, key="mod_dd")
-    st.session_state.page=sel_mod
-    all_tool_list=[]
-    for tlist in ALL_TOOLS.values():
-        all_tool_list.extend(tlist)
-    sel_tool=st.selectbox("Select Tool", all_tool_list, key="tool_dd")
-    st.session_state.tool_page=sel_tool
-    st.divider()
-    if st.button("Load 520 Test Data", use_container_width=True):
-        st.session_state.current_df=generate_test_dataset(520)
-        st.success("520 loaded")
-    if st.button("Logout", use_container_width=True):
-        st.session_state.logged=False
-        st.rerun()
+    if st.button("🔄 Load 520 Sample Data", width='stretch', key="sb_load"):
+        st.session_state.current_df = generate_sample_data(); log_activity(st.session_state.user, "LOAD 520 SAMPLE"); st.success("520 sample loaded")
+    st.markdown(f"""<div style="background:white; padding:10px; border-radius:10px; text-align:center; border:2px solid #FFA000; margin-bottom:10px;"><p style="color:#1B5E20!important; font-weight:bold; margin:0; font-size:12px;">Rows Active</p><p style="color:#FF6F00!important; font-weight:900; margin:0; font-size:22px;">{len(st.session_state.current_df)}</p></div>""", unsafe_allow_html=True)
+    st.markdown(f"""<div style="background:white; border-radius:10px; padding:10px; margin-top:10px; border:2px solid #FFA000;"><p style="color:#1B5E20!important; font-weight:900!important; font-size:12px; margin:2px;">📌 YOU ARE VIEWING:</p><p style="color:#000000!important; font-weight:bold!important; font-size:12px; margin:3px;">📦 Module: {sel_mod}</p><p style="color:#000000!important; font-weight:bold!important; font-size:12px; margin:3px;">🔧 Tool: {sel_tool[:24]}</p><p style="color:#000000!important; font-weight:bold!important; font-size:12px; margin:3px;">📊 M&E: {sel_me[:24]}</p><p style="color:#000000!important; font-weight:bold!important; font-size:12px; margin:3px;">📈 Chart: {sel_chart}</p><p style="color:#000000!important; font-weight:bold!important; font-size:12px; margin:3px;">🌐 Lang: {sel_lang}</p></div>""", unsafe_allow_html=True)
+    if st.button("🚪 Logout", width='stretch', key="sb_logout"):
+        log_activity(st.session_state.user, "LOGOUT"); st.session_state.logged=False; st.rerun()
 
 df=st.session_state.current_df
+if not ok and not is_admin() and st.session_state.page!="Payment & Plans":
+    st.error("Trial Expired - Pay to continue"); st.session_state.page="Payment & Plans"
 
 if st.session_state.page=="Dashboard":
-    st.header(f"Dashboard - {cfg['name']}")
-    c1,c2,c3=st.columns(3)
-    with c1:
-        st.metric("Rows", f"{len(df):,}")
-    with c2:
-        st.metric("Avg Income", f"{df['Income_UGX'].mean():,.0f}")
-    with c3:
-        st.metric("Avg Age", f"{df['Age'].mean():.0f}")
+    st.header(f"Dashboard | {st.session_state.tool} | {st.session_state.chart}")
+    c1,c2,c3,c4,c5=st.columns(5)
+    c1.metric("Records",len(df)); c2.metric("Regions",df["Region"].nunique()); c3.metric("Avg Age",f"{df['Age'].mean():.1f}"); c4.metric("Avg Income",f"UGX {df['Income'].mean():,.0f}"); c5.metric("Avg Yield",f"{df['Yield_Tons'].mean():.1f}")
+    filt=df.copy()
+    if st.session_state.tool!="Overview - All Data" and "Collection_Tool" in df.columns and st.session_state.tool in df["Collection_Tool"].unique().tolist():
+        filt=df[df["Collection_Tool"]==st.session_state.tool]
+    st.success(f"Found {len(filt)} sample records via {st.session_state.tool}")
+    st.dataframe(filt.head(100), width='stretch')
+    if st.session_state.chart=="Bar Chart": st.bar_chart(filt["Region"].value_counts())
+    elif st.session_state.chart=="Pie Chart": st.bar_chart(filt["Region"].value_counts())
+    elif st.session_state.chart=="Line Chart": st.line_chart(filt["Age"].value_counts().sort_index())
+    elif st.session_state.chart=="Scatter Plot": st.scatter_chart(filt,x="Age",y="Income",color="Region")
+    elif st.session_state.chart=="Histogram": st.bar_chart(filt["Age"].value_counts(bins=10,sort=False))
+    elif st.session_state.chart=="Area Chart": st.area_chart(filt["Region"].value_counts())
+    elif st.session_state.chart=="Summary Statistics": st.dataframe(filt.describe(),width='stretch')
+    elif st.session_state.chart=="Matrix View": st.dataframe(pd.crosstab(filt["Region"],filt["Gender"]),width='stretch')
+    else: st.dataframe(filt.head(100),width='stretch')
 
-    c1,c2=st.columns(2)
-    with c1:
-        st.write("#### By Region")
-        st.bar_chart(df["Region"].value_counts())
-    with c2:
-        st.write("#### By Gender")
-        st.bar_chart(df["Gender"].value_counts())
-
-    st.write("#### By Water Source")
-    st.bar_chart(df["Water_Source"].value_counts())
-
-    st.write("#### By Sanitation")
-    st.bar_chart(df["Sanitation"].value_counts())
-
-    st.divider()
-    st.header("Smart Filter - Find Your Group")
-    st.caption("Example: male aged 70 and above and from eastern")
-
-    f1,f2,f3,f4=st.columns(4)
-    with f1:
-        region_filter=st.selectbox("Region", ["All"] + sorted(list(df["Region"].unique())), key="f_reg")
-    with f2:
-        gender_filter=st.selectbox("Gender", ["All"] + sorted(list(df["Gender"].unique())), key="f_gen")
-    with f3:
-        min_age=st.number_input("Min Age", 0, 120, 70, key="f_minage")
-    with f4:
-        max_age=st.number_input("Max Age", 0, 120, 100, key="f_maxage")
-
-    filtered=df.copy()
-    if region_filter!="All":
-        filtered=filtered[filtered["Region"]==region_filter]
-    if gender_filter!="All":
-        filtered=filtered[filtered["Gender"]==gender_filter]
-    filtered=filtered[(filtered["Age"]>=min_age) & (filtered["Age"]<=max_age)]
-
-    st.success(f"Found {len(filtered)} rows matching: Region={region_filter}, Gender={gender_filter}, Age {min_age}-{max_age}")
-
-    m1,m2=st.columns(2)
-    with m1:
-        st.metric("Matched People", len(filtered))
-    with m2:
-        st.metric("Percent", f"{len(filtered)/len(df)*100:.1f}%")
-
-    if len(filtered)>0:
-        st.write("District breakdown")
-        st.bar_chart(filtered["District"].value_counts())
-        st.dataframe(filtered, use_container_width=True)
-        st.download_button("Download Filtered CSV", filtered.to_csv(index=False), "filtered_male_70_eastern.csv", "text/csv", use_container_width=True)
-
-        if st.button("Generate LogFrame for this group", type="primary"):
-            lf_df=pd.DataFrame({
-                "Level":["Goal","Outcome","Output","Activities"],
-                "Narrative":[f"Improve welfare for {gender_filter} aged {min_age}+ from {region_filter}", f"{len(filtered)} {gender_filter} aged {min_age}+ in {region_filter} supported", f"Identify {len(filtered)} people", "Verify and support"],
-                "Indicator":["% elderly supported",f"Number {gender_filter} {min_age}+ {region_filter}","# identified","# verified"],
-                "Target":[len(filtered),len(filtered),len(filtered),len(filtered)],
-                "Means":[f"Filter: Region={region_filter}, Gender={gender_filter}, Age>={min_age}","TIMAR dataset","Age/Gender/Region","Field visit"],
-                "Assumption":["Gov support","Data accurate","Community help","Funds available"]
-            })
-            st.dataframe(lf_df, use_container_width=True)
-            st.download_button("Download LogFrame CSV", lf_df.to_csv(index=False), "logframe.csv", "text/csv")
-    else:
-        st.warning("No match - try lower age")
-
-elif st.session_state.page=="Payment & Plans":
-    st.header("Payment Plans")
-    cols=st.columns(3)
-    for i,(k,v) in enumerate(PLANS.items()):
-        if k in ["ADMIN_FREE","FREE_TRIAL"] and not is_admin():
-            continue
-        with cols[i%3]:
-            with st.container(border=True):
-                st.write(f"**{v['name']}**")
-                st.metric("Price", f"UGX {v['price']:,}")
-                if k!=st.session_state.plan:
-                    if st.button(f"Select UGX {v['price']:,}", key=f"pay_{k}", use_container_width=True):
-                        st.session_state.show_momo_for=k
-                        st.rerun()
-                else:
-                    st.success("Active")
-    if st.session_state.show_momo_for:
-        k=st.session_state.show_momo_for
-        v=PLANS[k]
-        st.divider()
-        st.warning(f"Payment for {v['name']}")
-        st.write(f"Send UGX {v['price']:,} to {MOMO_NUMBER}")
-        tx_id=st.text_input("Enter MoMo Transaction ID", key=f"tx_{k}")
-        sender=st.text_input("Your MoMo Number", key=f"snd_{k}")
-        if st.button(f"Auto Verify UGX {v['price']:,}", type="primary", use_container_width=True):
-            if not tx_id or len(tx_id)<6:
-                st.error("Enter valid TxID")
-            else:
-                tx_record={"user": st.session_state.user,"plan": v["name"],"price": v["price"],"tx_id": tx_id,"sender": sender,"time": datetime.now().isoformat(),"status": "AUTO_CONFIRMED"}
-                save_transaction(tx_record)
-                st.session_state.plan=k
-                st.session_state.show_momo_for=None
-                st.success(f"Upgraded to {v['name']}!")
-                st.balloons()
-                st.rerun()
+elif st.session_state.page=="Analytics":
+    st.header(f"📊 Analytics Module RESTORED | {st.session_state.tool} | {st.session_state.chart}")
+    filt = df.copy()
+    if st.session_state.tool!="Overview - All Data" and "Collection_Tool" in df.columns and st.session_state.tool in df["Collection_Tool"].unique().tolist():
+        filt = df[df["Collection_Tool"]==st.session_state.tool]
+    c1,c2,c3,c4 = st.columns(4)
+    c1.metric("Total Records", len(filt)); c2.metric("Avg Income", f"UGX {filt['Income'].mean():,.0f}"); c3.metric("Avg Yield", f"{filt['Yield_Tons'].mean():.2f} tons"); c4.metric("Progress", f"{filt['Yield_Tons'].mean()/3.0*100:.0f}%")
+    with st.container(border=True):
+        st.subheader("Smart Analytics - Filtered by Data Collection Tool")
+        st.success(f"Found {len(filt)} records via {st.session_state.tool}")
+        col_left, col_right = st.columns([2,1])
+        with col_left:
+            if st.session_state.chart=="Bar Chart": st.bar_chart(filt["Region"].value_counts())
+            elif st.session_state.chart=="Pie Chart": st.bar_chart(filt["Region"].value_counts())
+            elif st.session_state.chart=="Line Chart": st.line_chart(filt["Age"].value_counts().sort_index())
+            elif st.session_state.chart=="Scatter Plot": st.scatter_chart(filt,x="Age",y="Income",color="Region")
+            elif st.session_state.chart=="Histogram": st.bar_chart(filt["Age"].value_counts(bins=10,sort=False))
+            elif st.session_state.chart=="Area Chart": st.area_chart(filt["Region"].value_counts())
+            elif st.session_state.chart=="Summary Statistics": st.dataframe(filt.describe(),width='stretch')
+            elif st.session_state.chart=="Matrix View": st.dataframe(pd.crosstab(filt["Region"],filt["Gender"]),width='stretch')
+            else: st.dataframe(filt.head(100),width='stretch')
+        with col_right:
+            st.subheader("Auto Insights")
+            st.info(f"Tool: {st.session_state.tool}\nRecords: {len(filt)}\nTop Region: {filt['Region'].mode()[0]}\nGender: {filt['Gender'].value_counts().to_dict()}\nAvg Age {filt['Age'].mean():.1f}\nIncome UGX {filt['Income'].mean():,.0f}")
+            st.dataframe(filt["Region"].value_counts(), width='stretch')
+    st.dataframe(filt.head(100), width='stretch')
 
 elif st.session_state.page=="Data Upload":
-    st.header("Data Upload")
-    up=st.file_uploader(f"Upload - Max {cfg['max_entries']:,} rows", type=["xlsx","csv"])
+    st.header("Data Upload - ALL Users - Active")
+    up=st.file_uploader("Upload CSV/Excel",type=["csv","xlsx","xls"])
     if up:
         try:
-            if up.name.endswith("xlsx"):
-                ndf=pd.read_excel(up)
-            else:
-                ndf=pd.read_csv(up)
-            st.session_state.current_df=ndf
-            st.success(f"Loaded {len(ndf)}")
-            st.dataframe(ndf.head(100), use_container_width=True)
-        except Exception as e:
-            st.error(f"{e}")
+            ndf=pd.read_csv(up) if up.name.endswith(".csv") else pd.read_excel(up)
+            st.session_state.current_df=ndf; os.makedirs("uploads",exist_ok=True)
+            with open(f"uploads/{st.session_state.user}_{up.name}","wb") as f: f.write(up.getbuffer())
+            log_activity(st.session_state.user,"UPLOAD",f"{len(ndf)}"); st.success(f"{len(ndf)} rows ACTIVE!"); st.dataframe(ndf.head(100),width='stretch'); st.balloons()
+        except Exception as e: st.error(str(e))
+    else: st.dataframe(df.head(50),width='stretch')
 
-elif st.session_state.page=="Admin - Transactions":
-    if not is_admin():
-        st.error("Admin only")
-        st.stop()
-    st.header("Admin - Transactions")
-    txs=load_transactions()
-    if txs:
-        st.dataframe(pd.DataFrame(txs), use_container_width=True)
+elif st.session_state.page=="M&E Module":
+    st.header(f"M&E Module | {st.session_state.metool}")
+    if st.session_state.metool=="LogFrame - Logical Framework 4x4":
+        log_data=load_json(f"logframe_{st.session_state.user}.json",SAMPLE_LOGFRAME)
+        edited=st.data_editor(pd.DataFrame(log_data),width='stretch',num_rows="dynamic")
+        if st.button("Save LogFrame",type="primary"): save_json(f"logframe_{st.session_state.user}.json",edited.to_dict(orient="records")); st.success("Saved!")
+    elif st.session_state.metool=="Budget Matrix - Activity Based":
+        budg=load_json(f"budget_{st.session_state.user}.json",SAMPLE_BUDGET)
+        edited=st.data_editor(pd.DataFrame(budg),width='stretch',num_rows="dynamic")
+        edited["Total UGX"]=edited["Quantity"]*edited["Unit Cost UGX"]
+        st.metric("Total",f"UGX {edited['Total UGX'].sum():,}")
+        st.bar_chart(edited.set_index("Activity")["Total UGX"])
+        if st.button("Save Budget",type="primary"): save_json(f"budget_{st.session_state.user}.json",edited.to_dict(orient="records")); st.success("Saved!")
     else:
-        st.info("No transactions")
+        st.write(f"{st.session_state.metool} - Edit")
+        df_me=load_json(f"{st.session_state.metool}_{st.session_state.user}.json",[{"Item":"Sample - Edit"}])
+        edited=st.data_editor(pd.DataFrame(df_me),width='stretch',num_rows="dynamic")
+        if st.button(f"Save {st.session_state.metool}",type="primary"): save_json(f"{st.session_state.metool}_{st.session_state.user}.json",edited.to_dict(orient="records")); st.success("Saved!")
 
-elif st.session_state.page=="Charts":
-    st.header(f"Charts Studio - All Standard Charts + Auto Interpretation")
-    st.caption(f"Tool: {st.session_state.tool_page} | Data: {len(df)} rows")
+elif st.session_state.page=="WASH Module":
+    st.header("🚰 WASH Module - Water Sanitation Hygiene")
+    c1,c2=st.columns(2); c1.metric("Has Latrine %", f"{(df['Has_Latrine']=='Yes').mean()*100:.1f}%"); c2.metric("Water Source Top", df["Water_Source"].mode()[0] if "Water_Source" in df.columns else "Borehole")
+    with st.container(border=True):
+        st.subheader("WASH Survey - Questions One Per Line")
+        st.write("Q1 Water source: [Borehole/Tap/River/Well]"); st.write("Q2 Distance to water mins: ___"); st.write("Q3 Has latrine: [Yes/No]"); st.write("Q4 Latrine type: [VIP/Traditional/Flush]"); st.write("Q5 Handwashing facility: [Yes/No]"); st.write("Q6 Open defecation: [Yes/No]"); st.write("Q7 Water treatment: [Boil/Chlorine/None]"); st.write("Q8 HH water storage covered: [Yes/No]")
+        st.dataframe(df[["District","Water_Source","Has_Latrine"]].head(50), width='stretch'); st.bar_chart(df["Water_Source"].value_counts() if "Water_Source" in df.columns else df["Region"].value_counts())
 
-    # Use filtered data if available
-    chart_df = df.copy()
+elif st.session_state.page=="Livelihood Module":
+    st.header("💼 Livelihood Module")
+    c1,c2,c3=st.columns(3); c1.metric("Avg Income", f"UGX {df['Income'].mean():,.0f}"); c2.metric("Food Months Avg", "8.5/12"); c3.metric("Employment %", "68%")
+    with st.container(border=True):
+        st.subheader("Livelihood Questions One Per Line")
+        st.write("Q1 Main income source: [Farming/Casual/Business/Salary]"); st.write("Q2 Monthly income UGX: ___ Baseline 300k Target 800k"); st.write("Q3 Other income UGX: ___"); st.write("Q4 Food months /12: ___"); st.write("Q5 Meals per day: ___"); st.write("Q6 Savings group member: [Yes/No]"); st.write("Q7 Coping strategy: [Reduce meals/Borrow/Sell asset]"); st.write("Q8 Asset index: [Radio/Bike/Phone/None]")
+        st.bar_chart(df["Income"] if "Income" in df.columns else df["Age"])
 
-    c1,c2,c3 = st.columns(3)
-    with c1:
-        x_col = st.selectbox("X-Axis", chart_df.columns, index=1, key="chart_x")
-    with c2:
-        y_col = st.selectbox("Y-Axis / Value", chart_df.columns, index=4, key="chart_y")
-    with c3:
-        chart_type = st.selectbox("Chart Type",
-            ["Bar Chart","Line Chart","Pie Chart","Donut Chart","Scatter Plot","Histogram","Box Plot","Area Chart","Stacked Bar","Trend Line","Correlation Heatmap","KPI Dashboard"], key="chart_type_sel")
+elif st.session_state.page=="Health Module":
+    st.header("🏥 Health Module - VHT Screening")
+    c1,c2=st.columns(2); c1.metric("Healthy %", f"{(df['Health_Status']=='Healthy').mean()*100:.1f}%" if "Health_Status" in df.columns else "75%"); c2.metric("Top Disease", df["Health_Status"].mode()[0] if "Health_Status" in df.columns else "Malaria")
+    with st.container(border=True):
+        st.subheader("Health Screening - Questions One Per Line")
+        st.write("Q1 Patient name: ___"); st.write("Q2 Age: ___"); st.write("Q3 Sex: [Male/Female]"); st.write("Q4 Disease: [Malaria/TB/Malnutrition/Diarrhea/Pregnancy]"); st.write("Q5 Symptoms: [Fever/Cough/Vomiting/Weight Loss]"); st.write("Q6 Tested: [Yes/No]"); st.write("Q7 Referred: [Yes/No]"); st.write("Q8 Follow-up date: ___")
+        st.dataframe(df[["District","Gender","Health_Status"]].head(50) if "Health_Status" in df.columns else df.head(50), width='stretch')
 
-    def get_interp(c_type, x, y, data):
-        try:
-            top = data[x].value_counts().idxmax() if x in data.columns else "N/A"
-            cnt = data[x].value_counts().max() if x in data.columns else 0
-            pct = cnt/len(data)*100 if len(data)>0 else 0
-            if c_type=="Bar Chart":
-                return f"Interpretation: {top} is highest with {cnt} ({pct:.1f}%). Prioritize {top} in programming. Lowest is {data[x].value_counts().idxmin()}."
-            elif c_type=="Pie Chart":
-                return f"Interpretation: {top} makes {pct:.1f}% of sample. Distribution is {'balanced' if pct<40 else 'skewed'}. Focus on minority <15% for equity."
-            elif c_type=="Histogram":
-                return f"Interpretation: Mean {y} is {data[y].mean():,.0f}. Most between {data[y].quantile(0.25):,.0f} and {data[y].quantile(0.75):,.0f}. {len(data[data[y]>data[y].quantile(0.75)*1.5])} outliers detected."
-            else:
-                return f"Interpretation: {len(data)} records. {top} dominant ({pct:.1f}%). Use for baseline and donor reporting."
-        except:
-            return f"Interpretation: {len(data)} records analyzed. Key variation in {x}."
+elif st.session_state.page=="Education Module":
+    st.header("🎓 Education Module - School Enrollment")
+    c1,c2=st.columns(2); c1.metric("Enrolled %", f"{(df['School_Status']=='Enrolled').mean()*100:.1f}%" if "School_Status" in df.columns else "82%"); c2.metric("Dropout Top Reason", "Fees")
+    with st.container(border=True):
+        st.subheader("Education Questions One Per Line")
+        st.write("Q1 Pupil name: ___"); st.write("Q2 Age: ___"); st.write("Q3 Sex: [Male/Female]"); st.write("Q4 Class: [P1-P7/S1-S6]"); st.write("Q5 Enrolled: [Yes/No - Dropout]"); st.write("Q6 Reason dropout: [Fees/Pregnancy/Distance/Orphan]"); st.write("Q7 Distance to school km: ___"); st.write("Q8 Fees paid: [Yes/No]"); st.write("Q9 Materials: [Yes/No]")
+        st.dataframe(df[["District","Gender","Education","School_Status"]].head(50) if "School_Status" in df.columns else df.head(50), width='stretch')
 
-    st.divider()
-    left,right = st.columns([2,1])
-    with left:
-        st.subheader(f"{chart_type}: {x_col}")
-        if chart_type=="Bar Chart":
-            st.bar_chart(chart_df[x_col].value_counts())
-        elif chart_type=="Line Chart":
-            st.line_chart(chart_df[x_col].value_counts())
-        elif chart_type in ["Pie Chart","Donut Chart"]:
-            import matplotlib.pyplot as plt
-            fig, ax = plt.subplots()
-            vals = chart_df[x_col].value_counts()
-            ax.pie(vals.values, labels=vals.index, autopct='%1.1f%%')
-            if chart_type=="Donut Chart":
-                centre_circle = plt.Circle((0,0),0.70,fc='white')
-                fig.gca().add_artist(centre_circle)
-            st.pyplot(fig)
-        elif chart_type=="Histogram":
-            import matplotlib.pyplot as plt
-            fig, ax = plt.subplots()
-            ax.hist(chart_df[y_col].dropna(), bins=20, color='skyblue', edgecolor='black')
-            ax.set_xlabel(y_col)
-            st.pyplot(fig)
-        elif chart_type=="Scatter Plot":
-            st.scatter_chart(chart_df, x=x_col, y=y_col)
-        elif chart_type=="Box Plot":
-            import matplotlib.pyplot as plt
-            fig, ax = plt.subplots()
-            ax.boxplot(chart_df[y_col].dropna(), vert=False)
-            ax.set_xlabel(y_col)
-            st.pyplot(fig)
-        elif chart_type=="Area Chart":
-            st.area_chart(chart_df[x_col].value_counts())
-        elif chart_type=="Stacked Bar":
-            cross = pd.crosstab(chart_df["Region"], chart_df["Gender"])
-            st.bar_chart(cross)
-        elif chart_type=="Trend Line":
-            st.line_chart(chart_df.sort_values("Age"), x="Age", y=y_col)
-        elif chart_type=="Correlation Heatmap":
-            num_df = chart_df.select_dtypes(include=[np.number])
-            if len(num_df.columns)>=2:
-                st.dataframe(num_df.corr())
-                st.bar_chart(num_df.corr()[y_col] if y_col in num_df.columns else num_df.corr().iloc[:,0])
-        elif chart_type=="KPI Dashboard":
-            k1,k2,k3 = st.columns(3)
-            with k1:
-                st.metric("Total", len(chart_df))
-            with k2:
-                st.metric("Unique", chart_df[x_col].nunique())
-            with k3:
-                st.metric(f"Avg {y_col}", f"{chart_df[y_col].mean():,.0f}" if pd.api.types.is_numeric_dtype(chart_df[y_col]) else "N/A")
-            st.bar_chart(chart_df[x_col].value_counts().head(10))
+elif st.session_state.page=="Agriculture Module":
+    st.header("🌱 Agriculture Module - Farmer Registry")
+    c1,c2,c3=st.columns(3); c1.metric("Avg Farm Size", f"{df['Farm_Size_Acres'].mean():.1f} acres"); c2.metric("Avg Yield", f"{df['Yield_Tons'].mean():.1f} tons"); c3.metric("Top Crop", df["Crop_Type"].mode()[0] if "Crop_Type" in df.columns else "Maize")
+    with st.container(border=True):
+        st.subheader("Agriculture Questions One Per Line")
+        st.write("Q1 Farmer name: ___"); st.write("Q2 Farm size acres: ___"); st.write("Q3 Crop type: [Maize/Beans/Coffee/Matooke/Rice]"); st.write("Q4 Season: [Season A/Season B]"); st.write("Q5 Seed type: [Local/Improved]"); st.write("Q6 Yield tons/acre: ___ Baseline 1.0 Target 3.0"); st.write("Q7 Inputs received: [Yes/No]"); st.write("Q8 Training attended: [Yes/No]"); st.write("Q9 Challenges: [Drought/Pests/Market/No Inputs]"); st.write("Q10 Will plant again: [Yes/No]")
+        st.dataframe(df[["District","Crop_Type","Farm_Size_Acres","Yield_Tons"]].head(50) if "Crop_Type" in df.columns else df.head(50), width='stretch'); st.scatter_chart(df, x="Farm_Size_Acres", y="Yield_Tons", color="Region")
 
-    with right:
-        st.subheader("Auto Interpretation")
-        txt = get_interp(chart_type, x_col, y_col, chart_df)
-        st.info(txt)
-        st.write("For Donor Report")
-        report = f"Chart: {chart_type} of {x_col}\nSample: {len(chart_df)}\nFinding: {chart_df[x_col].value_counts().idxmax() if len(chart_df)>0 else 'N/A'} highest\nRecommendation: Prioritize high count areas, disaggregate by gender/region."
-        st.text_area("Copy", report, height=150)
-        st.download_button("Download CSV", chart_df[[x_col,y_col]].to_csv(index=False), f"chart_{x_col}.csv", "text/csv", use_container_width=True)
-elif st.session_state.page=="Help & Manual":
-    st.header("📘 TIMAR ANALYTICS - Help & Manual v7.6")
-    st.caption("Field to Funding | Offline Ready | Uganda | MoMo 0789876277")
+elif st.session_state.page=="Research Module":
+    st.header("🔬 Research Module - Custom Studies")
+    with st.container(border=True):
+        st.subheader("Research Tool - 10 Questions One Per Line")
+        st.write("Q1 Research title: ___"); st.write("Q2 Objective: ___"); st.write("Q3 Methodology: [Qualitative/Quantitative/Mixed]"); st.write("Q4 Sample size: ___"); st.write("Q5 Sampling method: [Random/Purposive/Snowball]"); st.write("Q6 Tool used: [Questionnaire/Interview/FGD]"); st.write("Q7 Data collected: ___"); st.write("Q8 Analysis method: [Thematic/Statistical]"); st.write("Q9 Findings summary: ___"); st.write("Q10 Recommendations: ___")
+        st.dataframe(df.head(50), width='stretch')
 
-    tab1, tab2, tab3, tab4 = st.tabs(["📖 User Guide", "🔍 How to Filter", "📊 Charts Guide", "💳 Payment Help"])
+elif st.session_state.page=="KPI Matrix":
+    st.header("📊 KPI Matrix - Key Performance Indicators")
+    kpi_data = [{"KPI":"Farmers Trained","Baseline":0,"Target":520,"Achieved":480,"Progress %":92,"Status":"On Track"},{"KPI":"Kits Distributed","Baseline":0,"Target":520,"Achieved":520,"Progress %":100,"Status":"Achieved"},{"KPI":"Avg Yield tons","Baseline":1.0,"Target":3.0,"Achieved":2.8,"Progress %":90,"Status":"On Track"},{"KPI":"Avg Income UGX","Baseline":300000,"Target":800000,"Achieved":750000,"Progress %":90,"Status":"On Track"},{"KPI":"Demo Plots","Baseline":0,"Target":20,"Achieved":18,"Progress %":90,"Status":"On Track"}]
+    df_kpi = pd.DataFrame(load_json(f"kpi_{st.session_state.user}.json", kpi_data))
+    edited = st.data_editor(df_kpi, width='stretch', num_rows="dynamic")
+    st.bar_chart(edited.set_index("KPI")["Progress %"])
+    if st.button("Save KPI Matrix", type="primary"): save_json(f"kpi_{st.session_state.user}.json", edited.to_dict(orient="records")); st.success("Saved!")
+    st.metric("Overall Progress", f"{edited['Progress %'].mean():.1f}%")
 
+elif st.session_state.page=="Statistical Tools":
+    st.header("📈 Statistical Tools - All 9 Tools at Once")
+    filt = df.copy()
+    if st.session_state.tool!="Overview - All Data" and "Collection_Tool" in df.columns and st.session_state.tool in df["Collection_Tool"].unique().tolist():
+        filt = df[df["Collection_Tool"]==st.session_state.tool]
+    t1, t2, t3, t4, t5 = st.tabs(["📊 Summary + Bar", "🥧 Pie + Line", "⚪ Scatter + Hist", "📈 Area + Matrix", "🧮 Full Stats"])
+    with t1:
+        col1, col2 = st.columns(2)
+        with col1: st.subheader("📊 Summary Statistics"); st.dataframe(filt.describe(), width='stretch')
+        with col2: st.subheader("📊 Bar Chart - Region"); st.bar_chart(filt["Region"].value_counts()); st.metric("Top Region", filt["Region"].mode()[0], f"{filt['Region'].value_counts().iloc[0]} records")
+    with t2:
+        col1, col2 = st.columns(2)
+        with col1: st.subheader("🥧 Pie (as Bar) - Gender"); st.bar_chart(filt["Gender"].value_counts()); st.write(filt["Gender"].value_counts().to_dict())
+        with col2: st.subheader("📈 Line Chart - Age Distribution"); st.line_chart(filt["Age"].value_counts().sort_index()); st.metric("Avg Age", f"{filt['Age'].mean():.1f}", f"Min {filt['Age'].min()} Max {filt['Age'].max()}")
+    with t3:
+        col1, col2 = st.columns(2)
+        with col1: st.subheader("⚪ Scatter - Age vs Income by Region"); st.scatter_chart(filt, x="Age", y="Income", color="Region"); st.caption("Each dot = 1 farmer")
+        with col2: st.subheader("📊 Histogram - Age Groups"); st.bar_chart(filt["Age"].value_counts(bins=10, sort=False)); st.metric("Farm-Yield Correlation", f"{filt['Farm_Size_Acres'].corr(filt['Yield_Tons']):.2f}")
+    with t4:
+        col1, col2 = st.columns(2)
+        with col1: st.subheader("📈 Area Chart - Region"); st.area_chart(filt["Region"].value_counts())
+        with col2: st.subheader("🔢 Matrix View - Region x Gender"); st.dataframe(pd.crosstab(filt["Region"], filt["Gender"]), width='stretch'); st.dataframe(pd.crosstab(filt["Region"], filt["Education"]), width='stretch')
+    with t5:
+        st.subheader("🧮 Complete Analysis - All in One")
+        c1,c2,c3,c4 = st.columns(4); c1.metric("Total Records", len(filt)); c2.metric("Avg Income", f"UGX {filt['Income'].mean():,.0f}"); c3.metric("Avg Yield", f"{filt['Yield_Tons'].mean():.2f} tons"); c4.metric("Avg Farm", f"{filt['Farm_Size_Acres'].mean():.1f} acres")
+        st.dataframe(filt.head(100), width='stretch')
+        st.info(f"ANALYSIS FOR {st.session_state.tool}: Found {len(filt)} records across {filt['Region'].nunique()} regions. Dominant {filt['Region'].mode()[0]}. Gender {filt['Gender'].value_counts().to_dict()}. Avg age {filt['Age'].mean():.1f}. Income UGX {filt['Income'].mean():,.0f}. Yield {filt['Yield_Tons'].mean():.2f} vs Target 3.0. Progress {filt['Yield_Tons'].mean()/3.0*100:.0f}%.")
+
+elif st.session_state.page=="Payment & Plans":
+    st.header("💳 Choose Your Plan - Pay Securely")
+    st.warning("🔒 Payment numbers hidden for security. They appear ONLY after you click a plan below.")
+    cols=st.columns(3)
+    for i,(key,plan) in enumerate(PLANS.items()):
+        if key=="ADMIN_FREE": continue
+        with cols[i%3]:
+            with st.container(border=True):
+                st.subheader(plan["name"]); st.metric("Price",f"UGX {plan['price']:,}" if plan["price"]>0 else "FREE"); st.caption(plan["days"])
+                if st.button(f"Pay {plan['name']}",key=f"pay_{key}",width='stretch'):
+                    st.session_state.selected_plan=plan; st.session_state.selected_plan_key=key
+    if st.session_state.selected_plan:
+        plan=st.session_state.selected_plan; pkey=st.session_state.selected_plan_key
+        st.divider()
+        st.markdown(f"""<div style="background:linear-gradient(90deg,#1B5E20,#FFA000); padding:15px; border-radius:15px; text-align:center;"><h3 style="color:white!important; border:none;">✅ You Selected {plan['name']} - UGX {plan['price']:,}</h3><p style="color:#FFEB3B; font-weight:bold; font-size:18px;">MTN MoMo: {MTN_NUMBER} - Names: {MTN_NAME}</p><p style="color:white; font-weight:bold; font-size:18px;">Airtel Money: {AIRTEL_NUMBER} - Names: {AIRTEL_NAME}</p><p style="color:white;">Send UGX {plan['price']:,} now then upload receipt below</p></div>""", unsafe_allow_html=True)
+        receipt=st.file_uploader("Upload Payment Document",type=["png","jpg","jpeg","pdf"]); txn=st.text_input("Txn ID")
+        if receipt is not None:
+            os.makedirs("payments",exist_ok=True); path=f"payments/{st.session_state.user}_{pkey}_{datetime.now().strftime('%Y%m%d%H%M%S')}_{receipt.name}"
+            with open(path,"wb") as f: f.write(receipt.getbuffer())
+            tr=load_json("timar_transactions.json",[]); tr.append({"Time":datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"User":st.session_state.user,"Plan":plan["name"],"Key":pkey,"Amount":plan["price"],"Txn":txn,"Receipt":path,"Status":"AUTO CONFIRMED"}); save_json("timar_transactions.json",tr); st.session_state.plan=pkey; log_activity(st.session_state.user,"PAYMENT AUTO",plan["name"]); st.success(f"AUTO CONFIRMED! {plan['name']} ACTIVE!"); st.balloons(); st.rerun()
+
+elif st.session_state.page=="Reviews & Comments":
+    st.header("⭐ Reviews & Comments - TIMAR ANALYTICS")
+    tab_write, tab_view = st.tabs(["✍️ Write Review", "👁️ View All Reviews"])
+    with tab_write:
+        with st.container(border=True):
+            st.subheader("Write Your Review")
+            st.write(f"Logged in as: **{st.session_state.user}**")
+            rating = st.selectbox("⭐ Rating", [5,4,3,2,1], index=0, format_func=lambda x: f"{x} Stars {'⭐'*x}")
+            comment = st.text_area("💬 Your Review", placeholder="Type your feedback here...", height=150)
+            if st.button("📤 Submit Review", type="primary", width='stretch', key="submit_rev"):
+                if not comment.strip(): st.error("Write something")
+                else:
+                    reviews = load_json("reviews.json", [])
+                    reviews.append({"Time":datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"User":st.session_state.user,"Rating":rating,"Comment":comment,"Lang":st.session_state.lang_name})
+                    save_json("reviews.json", reviews); log_activity(st.session_state.user, "REVIEW", f"{rating} stars"); st.success("Saved! Go to View tab"); st.balloons(); st.rerun()
+    with tab_view:
+        reviews = load_json("reviews.json", [])
+        st.subheader(f"👁️ All User Reviews ({len(reviews)})")
+        if not reviews: st.warning("No reviews yet. Go to Write Review tab and be first!")
+        else:
+            avg = sum([r['Rating'] for r in reviews])/len(reviews) if reviews else 0
+            c1,c2,c3 = st.columns(3); c1.metric("Total Reviews", len(reviews)); c2.metric("Average Rating", f"{avg:.1f} ⭐"); c3.metric("5-Star", len([r for r in reviews if r['Rating']==5]))
+            st.divider()
+            search = st.text_input("🔍 Search reviews by user or comment")
+            filtered = reviews
+            if search: filtered = [r for r in reviews if search.lower() in r['User'].lower() or search.lower() in r['Comment'].lower()]
+            for r in reversed(filtered[-50:]):
+                with st.container(border=True):
+                    stars = "⭐" * r.get("Rating",5)
+                    st.markdown(f"**👤 {r['User']}** | {stars} ({r['Rating']}/5) | 🕒 {r['Time']}")
+                    st.info(f"💬 {r['Comment']}"); st.caption(f"Lang: {r.get('Lang','English')}")
+            if st.button("🗑️ Clear All Reviews (Admin Only)", key="clear_rev"):
+                if is_admin(): save_json("reviews.json", []); st.success("Cleared"); st.rerun()
+                else: st.error("Admin only")
+
+elif st.session_state.page=="Help & Manual for Timar Analytics":
+    st.header("📖 Help & Manual for Timar Analytics")
+    with st.container(border=True):
+        st.subheader("🌾 TIMAR ANALYTICS - User Manual - All 15 Modules")
+        st.write("**1. Dashboard:** View all 520 sample, filter by 10 Tools, choose chart")
+        st.write("**2. Analytics:** RESTORED - Filtered analytics by Data Collection Tool + chart + auto insights")
+        st.write("**3. Data Upload:** Upload CSV/Excel - becomes ACTIVE instantly")
+        st.write("**4. M&E Module:** LogFrame 4x4, Budget Matrix, Results Chain, Risk Matrix etc - 10 tools")
+        st.write("**5. WASH Module:** Water source, latrine, handwashing - 8 questions")
+        st.write("**6. Livelihood Module:** Income 300k to 800k, food months, savings")
+        st.write("**7. Health Module:** VHT screening malaria, TB, malnutrition")
+        st.write("**8. Education Module:** Enrolled vs dropout, fees, distance")
+        st.write("**9. Agriculture Module:** Farm size, yield 1.0 to 3.0 tons, crop type")
+        st.write("**10. Research Module:** Custom research title, objective, methodology")
+        st.write("**11. KPI Matrix:** 5 KPIs baseline target achieved progress %")
+        st.write("**12. Statistical Tools:** 9 tools at once - Summary, Bar, Pie, Line, Scatter, Histogram, Area, Matrix, Full Stats in 5 tabs")
+        st.write("**13. Payment:** Click plan → numbers appear → upload receipt → AUTO CONFIRMED")
+        st.write("**14. Reviews:** Write + View All Reviews tab with search - FIXED visible")
+        st.write("**15. Admin:** Activity log, Users delete, Payments confirm/refund - No duplicate key error - FIXED")
+        st.write("**MTN:** 0789876277 Tino Mary | **Airtel:** 0755453313 Tino Mary")
+        st.write("**Free Trial:** 24 hours 520 rows | **Login Admin:** Admin / admin@45697")
+
+elif st.session_state.page=="Admin - Monitoring Panel":
+    if not is_admin(): st.error("Admin only - Login as Admin"); st.stop()
+    st.header("Admin Monitoring Panel - Tino Mary")
+    tab1, tab2, tab3 = st.tabs(["📜 Activity Log", "👥 Users", "💰 Payments"])
     with tab1:
-        st.write("""
-        ### 1. WHAT IS TIMAR?
-        Converts Field Data → Clean Data → Charts with Interpretation → LogFrame & Donor Reports.
-        Works offline after install. 520 test rows built-in.
-
-        ### 2. LOGIN & TRIAL
-        - Sign Up → 24hr FREE with 50 rows
-        - Demo: timar / timar123
-        - Admin Hidden: Admin / admin@45697
-        - Timer top-left shows countdown
-
-        ### 3. TWO DROPDOWNS - CRITICAL!
-        - **Select Module** = WHERE you go (Dashboard, Charts, LogFrame, Payment)
-        - **Select Tool** = WHAT you do inside module
-        - If Module=Dashboard, you only see bar charts even if Tool=Line Chart
-        - To see Line Chart: Module MUST = Charts
-
-        ### 4. QUICK WORKFLOW
-        1. Collect data → Dashboard → Load 520 rows
-        2. Filter Eastern Male 70+ → 8 people
-        3. Charts → Bar District → Copy interpretation
-        4. LogFrame Matrix → Download LogFrame
-        5. Payment → Pay 10k → TxID → Auto active
-        """)
-
+        logs = load_json("timar_activity_log.json", [])
+        if logs: st.dataframe(pd.DataFrame(logs[::-1]), width='stretch')
+        else: st.write("No logs yet")
+        if st.button("Clear Activity Log"): save_json("timar_activity_log.json", []); st.success("Cleared"); st.rerun()
     with tab2:
-        st.write("### 🔍 How to Filter: male aged 70+ and from eastern")
-        st.info("This is your exact query from screenshot!")
-        c1,c2 = st.columns(2)
-        with c1:
-            st.write("""
-            **Steps in Dashboard:**
-            1. Stay in Dashboard module
-            2. Scroll to **Smart Filter**
-            3. Set:
-               - Region = Eastern
-               - Gender = Male
-               - Min Age = 70
-               - Max Age = 100
-            4. Result: Found 8 rows matching
-            5. Click Download Filtered CSV
-            
-            **Other examples:**
-            - Women 18-30 Central: Region=Central, Gender=Female, Age 18-30
-            - Youth: Age 18-35, All regions
-            - Farmers: Business_Type=Farming
-            """)
-        with c2:
-            st.write("#### Live Filter Demo")
-            region_demo = st.selectbox("Demo Region", ["Eastern","Central","Western","Northern"], key="help_reg")
-            gender_demo = st.selectbox("Demo Gender", ["Male","Female"], key="help_gen")
-            age_demo = st.slider("Demo Min Age", 0, 100, 70, key="help_age")
-            demo_filtered = df[(df["Region"]==region_demo) & (df["Gender"]==gender_demo) & (df["Age"]>=age_demo)]
-            st.metric("Found", f"{len(demo_filtered)} people")
-            st.dataframe(demo_filtered.head(10), use_container_width=True)
-
+        users = load_users(); trials = load_json("trials.json", {})
+        st.write(f"Total Users: {len([u for u in users if u.lower()!='admin'])}")
+        user_list = [u for u in users.keys() if u.lower()!= "admin"]
+        for idx, u in enumerate(user_list):
+            c1, c2, c3 = st.columns([2, 2, 1])
+            c1.write(f"👤 {u}"); c2.write(trials.get(u, {}).get("start", "")[:16])
+            if c3.button("Delete", key=f"del_{idx}_{u.replace(' ', '_')}"):
+                if u in users: del users[u]
+                save_json("users.json", users); trials.pop(u, None); save_json("trials.json", trials); st.success(f"{u} deleted"); st.rerun()
     with tab3:
-        st.write("### 📊 All 15 Charts + Interpretation")
-        st.write("""
-        Go to Module = Charts
-        
-        **All LIVE charts:**
-        - **Bar Chart**: Which Region most people - donor baseline
-        - **Line Chart**: Trend across categories
-        - **Area Chart**: Volume
-        - **Scatter Plot**: Age vs Income - does income increase with age?
-        - **Histogram**: Distribution of Income/Age
-        - **Stacked Bar**: Region by Gender
-        - **Grouped Bar**: Region by Water Source
-        - **Trend Line**: Age vs Yield
-        - **Pie Data Table**: % share - pie chart data
-        - **Donut Data**: % share with hole
-        - **Correlation Table**: Which numbers relate (Income vs Age)
-        - **Box Stats**: Min, Max, Median, outliers
-        - **KPI Dashboard**: Total, Avg, Unique, Top
-        - **All Charts Overview**: 8 charts in one view for report
+        tr = load_json("timar_transactions.json", [])
+        total = sum([x["Amount"] for x in tr if "REFUNDED" not in x.get("Status","")])
+        st.metric("Total Collected", f"UGX {total:,}")
+        if not tr: st.write("No payments yet")
+        for idx in range(len(tr)-1, -1, -1):
+            t = tr[idx]
+            with st.container(border=True):
+                st.write(f"**{t['User']}** | {t['Plan']} | UGX {t['Amount']:,} | {t['Time']} | {t.get('Status','')}")
+                if os.path.exists(t.get("Receipt","")): st.write(f"Receipt: {t['Receipt']}")
+                col_a, col_b = st.columns(2)
+                if col_a.button("✅ Confirm", key=f"conf_{idx}_{t['User']}"): tr[idx]["Status"] = "CONFIRMED BY ADMIN"; save_json("timar_transactions.json", tr); st.rerun()
+                if col_b.button("↩️ Refund", key=f"refund_{idx}_{t['User']}_{t['Time']}"): tr[idx]["Status"] = "REFUNDED BY ADMIN"; save_json("timar_transactions.json", tr); st.rerun()
 
-        **Right Side Auto Interpretation:**
-        - Every chart writes donor-ready text
-        - SPSS code: FREQUENCIES VARIABLES=Region /BARCHART
-        - STATA code: tab Region, plot
-        - Download CSV and TXT for report
-        """)
-        st.success("**Tip**: Use filtered data (Eastern Male 70+) then go to Charts - interpretation will be for only that group!")
-
-    with tab4:
-        st.write("### 💳 Payment - Auto Confirm with TxID")
-        st.write(f"""
-        **MoMo Number:** {MOMO_NUMBER}
-        **Name:** {MOMO_NAME}
-        
-        **Plans:**
-        - STUDENT UGX 10k - 1000 rows
-        - FARMER 20k - 2000 rows
-        - RESEARCHER 30k - 10000 rows
-        - PRO 100k - ALL modules
-        - NGO 300k - 50000 rows
-        - GOV 500k - 100000 rows
-        
-        **How to Pay:**
-        1. Go to Payment & Plans module
-        2. Click Select on plan
-        3. Send money via MTN MoMo to {MOMO_NUMBER}
-        4. You get SMS with Transaction ID e.g. 1234567890
-        5. Enter TxID + Your MoMo number
-        6. Click Auto Verify → Upgraded in 2 seconds
-        
-        **Admin Panel:**
-        Login as Admin / admin@45697 → See Admin - Transactions module with all payments, revenue, CSV download.
-        """)
-        st.download_button("📥 Download Manual PDF", open("/mnt/data/TIMAR_ANALYTICS_User_Manual_v7.6.pdf","rb").read() if os.path.exists("/mnt/data/TIMAR_ANALYTICS_User_Manual_v7.6.pdf") else b"Manual", "TIMAR_Manual_v7.6.pdf", "application/pdf", use_container_width=True)
-
-else:
-    st.header(f"{st.session_state.page} - {st.session_state.tool_page}")
-    st.write(f"Module: {st.session_state.page} | Tool: {st.session_state.tool_page}")
-    st.dataframe(df.head(100), use_container_width=True)
-st.divider()
-st.caption(f"{APP_VER} | User: {st.session_state.user}")
+st.markdown("""<div style="text-align:center; color:#2E7D32; font-weight:bold; margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026 |<br></div>""", unsafe_allow_html=True)
