@@ -105,10 +105,13 @@ def load_sample_data(choice):
         return df, "UBOS Poverty - Real 2020-2024"
     elif "BoU Inflation" in choice:
         dates = pd.date_range('2023-01-01','2025-06-01', freq='MS')
+        # FIXED BRACKETS HERE
+        inflation = np.round(5.0 + np.cumsum(np.random.randn(len(dates)) * 0.2), 1)
+        usd = np.round(3700 + np.arange(len(dates)) * 15 + np.random.randn(len(dates)) * 30).astype(int)
         df = pd.DataFrame({
             "Date": dates.strftime('%Y-%m-%d'),
-            "Inflation_Rate_%": np.round(5.0 + np.cumsum(np.random.randn(len(dates))*0.2),1),
-            "USD_UGX": np.round(3700 + np.arange(len(dates))*15 + np.random.randn(len(dates))*30).astype(int),
+            "Inflation_Rate_%": inflation,
+            "USD_UGX": usd,
             "Year": dates.year
         })
         return df, "BoU Inflation - Real Trend"
@@ -346,11 +349,9 @@ with st.sidebar:
     if st.button("🚪 Logout", width='stretch', key="logout_btn"):
         log_activity(st.session_state.username,"LOGOUT"); st.session_state.logged_in=False; st.session_state.username=""; st.session_state.user=""; st.rerun()
 
-# === ONLY CHANGE: HEADER NOW ONLY TIMAR ANALYTICS + ADMIN UNLIMITED ACCESS ===
 st.markdown(f"""
 <div style="background:linear-gradient(90deg,#1E3A8A 0%,#1E40AF 50%,#D4AF37 100%);padding:20px;border-radius:15px;margin-bottom:15px;text-align:center;">
 <h1 style="color:white!important;margin:0;font-size:32px;font-weight:900;">🌾 TIMAR ANALYTICS</h1>
-<p style="color:#FEF3C7;margin:5px 0 0 0;font-size:18px;font-weight:bold;">✅ ADMIN UNLIMITED ACCESS</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -512,4 +513,4 @@ elif st.session_state.page in ["Dashboard","Analytics","Data Upload","Data Colle
     best_col = get_best_chart_column(df, df.columns[0], st.session_state.chart)
     render_chart(df, st.session_state.chart, best_col, st.session_state.page)
 
-st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026 | glob.glob {len(glob.glob('*.csv'))} CSVs</div>""", unsafe_allow_html=True)
+st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026 | glob.glob {len(glob.glob('*.csv'))} CSVs | Charts Ignore Irrelevant | Generated Sidebar Only</div>""", unsafe_allow_html=True)
