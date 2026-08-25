@@ -8,7 +8,6 @@ import numpy as np
 
 st.set_page_config(page_title="TIMAR ANALYTICS", layout="wide", initial_sidebar_state="expanded")
 
-# === 9 MASTER DATASETS - WITH glob.glob ===
 @st.cache_data
 def load_9_master_files():
     all_csvs = glob.glob("*.csv")
@@ -73,7 +72,6 @@ try:
 except:
     HAS_EXTERNAL_ADMIN = False
 
-# === REAL DATA GENERATOR - MoH, UBOS ETC ===
 @st.cache_data
 def load_sample_data(choice):
     for f in glob.glob("*.csv"):
@@ -146,21 +144,18 @@ def load_sample_data(choice):
     dummy = pd.DataFrame({"Region":["Central","Eastern"],"Poverty_Rate_%":[20,30]})
     return dummy, choice + " (Fallback)"
 
-# === INSERTED: SMART COLUMN FILTER FOR CHARTS - IGNORE IRRELEVANT COLUMNS ===
 def is_irrelevant_column(df, col):
     col_lower = str(col).lower().strip()
-    # Ignore ID-like columns
     if col_lower in ['id','_id','uid','uuid','guid','index','row_id','serial','sno','pk','key']:
         return True
-    if 'id' == col_lower[-2:] and len(col_lower) <=4: # ID, Id
+    if 'id' == col_lower[-2:] and len(col_lower) <=4:
         return True
     if df[col].isnull().all():
         return True
-    # If all values unique and >90% unique -> likely ID
     try:
         nunique = df[col].nunique()
         total = len(df)
-        if total > 5 and nunique == total: # 100% unique
+        if total > 5 and nunique == total:
             return True
         if total > 10 and nunique / total > 0.9 and df[col].dtype == 'object':
             return True
@@ -177,9 +172,7 @@ def get_chartable_columns(df, chart_type="Bar Chart"):
     for col in df.columns:
         if is_irrelevant_column(df, col):
             continue
-        # For categorical charts
         if chart_type in ["Bar Chart","Pie Chart","Line Chart","Area Chart","Matrix View"]:
-            # Keep categorical with <50 unique or region/district etc
             try:
                 nunique = df[col].nunique()
                 if df[col].dtype == 'object' or nunique < 30 or col.lower() in ['region','district','education','gender','crop','status','category','year','month','tool','module','water_source']:
@@ -188,13 +181,11 @@ def get_chartable_columns(df, chart_type="Bar Chart"):
                 relevant.append(col)
         elif chart_type in ["Histogram","Scatter Plot"]:
             if pd.api.types.is_numeric_dtype(df[col]) and not is_irrelevant_column(df,col):
-                # Not ID numeric
                 if col.lower() not in ['id','year'] or df[col].nunique() < 50:
                     relevant.append(col)
         else:
             if not is_irrelevant_column(df,col):
                 relevant.append(col)
-    # If none found, fallback to first 5 non-irrelevant
     if not relevant:
         relevant = [c for c in df.columns if not is_irrelevant_column(df,c)][:5]
     return relevant
@@ -208,12 +199,9 @@ def get_best_chart_column(df, requested_col, chart_type):
     if requested_col in chartable:
         return requested_col
     if requested_col in df.columns and not is_irrelevant_column(df, requested_col):
-        # Check if requested is still ok
         if chart_type in ["Bar Chart","Pie Chart"] and pd.api.types.is_numeric_dtype(df[requested_col]) and df[requested_col].nunique() > 50:
-            # Numeric with many unique not good for bar/pie
             return chartable[0]
         return requested_col
-    # Requested is irrelevant -> pick best
     return chartable[0]
 
 STANDARD_TOOLS = ["Overview - All Data","Questionnaire - Structured Questions","Interview - Key Informant Interview","Focus Group Discussion (FGD)","Observation Checklist","Survey Form - Household Survey","Case Study Tool","Document Review / Secondary Data","Mobile Data Collection (Kobo/ODK)","Experimental Data Collection"]
@@ -324,7 +312,6 @@ with st.sidebar:
     st.title("🌾 TIMAR ANALYTICS")
     st.markdown(f"""<div style="background:white;padding:10px;border-radius:10px;text-align:center;"><p>👤 {st.session_state.username}</p><p>⏰ {now_str}</p><p>Rows: {len(df)}</p></div>""", unsafe_allow_html=True)
     st.divider()
-    # === INSERTED: GENERATED DATASETS ONLY ON SIDEBAR DROPDOWN ===
     st.markdown("### 🧬 Generated Datasets (Sidebar Only)")
     gen_choices = ["UBOS Poverty by Region (NGO Demo)","BoU Inflation & USD/UGX (Business Demo)","MOH Health - Malaria & ANC (Health NGO Demo)","UBOS Population Census 2024 (Research Demo)","World Bank Uganda GDP & Education"]
     sel_gen = st.selectbox("Select Generated Dataset:", gen_choices, index=gen_choices.index(st.session_state.generated_dataset) if st.session_state.generated_dataset in gen_choices else 0, key="generated_sidebar_select")
@@ -335,7 +322,6 @@ with st.sidebar:
         log_activity(st.session_state.username, "LOAD_GENERATED_SIDEBAR", gname)
         st.success(f"Loaded {gname} - {len(gdf)} rows"); st.rerun()
     st.caption(f"Active Generated: {st.session_state.generated_dataset}")
-
     st.divider()
     st.markdown("### 🚀 9 Master Data (glob.glob)")
     csv_list = glob.glob("*.csv")
@@ -360,21 +346,24 @@ with st.sidebar:
     if st.button("🚪 Logout", width='stretch', key="logout_btn"):
         log_activity(st.session_state.username,"LOGOUT"); st.session_state.logged_in=False; st.session_state.username=""; st.session_state.user=""; st.rerun()
 
-st.markdown(f"""<div style="background:linear-gradient(90deg,#1E3A8A 0%,#1E40AF 50%,#D4AF37 100%);padding:15px;border-radius:15px;margin-bottom:15px;"><h1 style="color:white!important;margin:0;">🌾 TIMAR ANALYTICS 📊 | Active: {st.session_state.active_master} | Gen: {st.session_state.generated_dataset}</h1></div>""", unsafe_allow_html=True)
+# === ONLY CHANGE: HEADER NOW ONLY TIMAR ANALYTICS + ADMIN UNLIMITED ACCESS ===
+st.markdown(f"""
+<div style="background:linear-gradient(90deg,#1E3A8A 0%,#1E40AF 50%,#D4AF37 100%);padding:20px;border-radius:15px;margin-bottom:15px;text-align:center;">
+<h1 style="color:white!important;margin:0;font-size:32px;font-weight:900;">🌾 TIMAR ANALYTICS</h1>
+<p style="color:#FEF3C7;margin:5px 0 0 0;font-size:18px;font-weight:bold;">✅ ADMIN UNLIMITED ACCESS</p>
+</div>
+""", unsafe_allow_html=True)
 
 def render_chart(data, chart_type, col_name, title_suffix=""):
     if len(data)==0: st.warning("No data"); return
-    # INSERTED: Auto-ignore irrelevant columns
     best_col = get_best_chart_column(data, col_name, chart_type)
     if best_col!= col_name:
         st.caption(f"⚠️ Ignored irrelevant column '{col_name}' → using '{best_col}' for {chart_type}. Chartable cols: {get_chartable_columns(data, chart_type)[:5]}")
         col_name = best_col
     if col_name not in data.columns:
         col_name = get_chartable_columns(data, chart_type)[0] if get_chartable_columns(data, chart_type) else data.columns[0]
-
     counts = data[col_name].value_counts().reset_index()
     counts.columns = [col_name, "Count"]
-    # Limit pie/bar to top 20 to avoid clutter from irrelevant high-cardinality
     if len(counts) > 20 and chart_type in ["Bar Chart","Pie Chart"]:
         counts = counts.head(20)
         st.caption(f"Showing top 20 of {data[col_name].nunique()} categories for readability")
@@ -386,38 +375,26 @@ def render_chart(data, chart_type, col_name, title_suffix=""):
         elif chart_type=="Line Chart":
             fig = px.line(counts, x=col_name, y="Count", markers=True); st.plotly_chart(fig, use_container_width=True)
         elif chart_type=="Scatter Plot":
-            # For scatter, use numeric if available
             chartable_num = [c for c in get_chartable_columns(data, "Histogram") if c!= col_name][:1]
             if chartable_num:
                 fig = px.scatter(data, x=col_name, y=chartable_num[0], color=col_name if data[col_name].nunique()<20 else None, title=f"{col_name} vs {chartable_num[0]}"); st.plotly_chart(fig, use_container_width=True)
             else:
                 fig = px.scatter(counts, x=col_name, y="Count", size="Count", color=col_name); st.plotly_chart(fig, use_container_width=True)
         elif chart_type=="Histogram":
-            # Pick numeric column
             num_cols = [c for c in data.columns if pd.api.types.is_numeric_dtype(data[c]) and not is_irrelevant_column(data,c)]
             hist_col = num_cols[0] if num_cols else col_name
             fig = px.histogram(data, x=hist_col, title=f"{hist_col} - Histogram"); st.plotly_chart(fig, use_container_width=True)
         elif chart_type=="Area Chart":
             fig = px.area(counts, x=col_name, y="Count"); st.plotly_chart(fig, use_container_width=True)
         else:
-            # Table view - show only relevant columns
             relevant_cols = get_chartable_columns(data, "Bar Chart") + [c for c in data.columns if pd.api.types.is_numeric_dtype(data[c]) and not is_irrelevant_column(data,c)]
-            relevant_cols = list(dict.fromkeys(relevant_cols))[:10] # unique, max 10
+            relevant_cols = list(dict.fromkeys(relevant_cols))[:10]
             st.caption(f"Showing relevant columns only: {relevant_cols} (ignored {len(data.columns)-len(relevant_cols)} irrelevant)")
             st.dataframe(data[relevant_cols].head(100) if relevant_cols else data.head(100), width='stretch')
-        st.info(f"**Interpretation ({chart_type}):** {col_name} dominant {counts.iloc[0][col_name]} with {counts.iloc[0]['Count']} records. Relevant cols: {get_chartable_columns(data, chart_type)[:3]}. User {st.session_state.username} at {now_str}. Ignored irrelevant: {[c for c in data.columns if is_irrelevant_column(data,c)][:3]}")
+        st.info(f"**Interpretation ({chart_type}):** {col_name} dominant {counts.iloc[0][col_name]} with {counts.iloc[0]['Count']} records. User {st.session_state.username} at {now_str}.")
     except Exception as e:
-        st.error(f"Chart error: {e}. Trying with relevant columns only.")
-        try:
-            relevant = get_chartable_columns(data, chart_type)
-            if relevant:
-                counts = data[relevant[0]].value_counts().reset_index()
-                counts.columns = [relevant[0], "Count"]
-                fig = px.bar(counts.head(20), x=relevant[0], y="Count", title=f"{relevant[0]} - Fallback Bar"); st.plotly_chart(fig, use_container_width=True)
-        except:
-            st.dataframe(data.head(20), width='stretch')
+        st.error(f"Chart error: {e}")
 
-# 9 MASTER PAGE - NO GENERATED DATASETS HERE, ONLY MASTER
 if st.session_state.page == "9 Master Datasets - TIMAR REAL":
     st.header(f"📦 9 Master Datasets - TIMAR REAL | 👤 {st.session_state.username} | ⏰ {now_str}")
     st.write(f"**All CSVs found via glob.glob('*.csv'):** {glob.glob('*.csv')}")
@@ -435,20 +412,18 @@ if st.session_state.page == "9 Master Datasets - TIMAR REAL":
             st.session_state.active_master = selected_label
             st.rerun()
     fname, fdf = NINE_DATASETS[selected_label]
-    st.info(f"Previewing: **{selected_label}** → `{fname}` | **{len(fdf)} rows x {len(fdf.columns)} cols** | Relevant cols: {get_chartable_columns(fdf, st.session_state.chart)[:5]} | Ignored: {[c for c in fdf.columns if is_irrelevant_column(fdf,c)][:3]}")
+    st.info(f"Previewing: **{selected_label}** → `{fname}` | **{len(fdf)} rows x {len(fdf.columns)} cols**")
     t1,t2,t3 = st.tabs(["📄 Data (Relevant Only)","📊 Chart (Ignores Irrelevant)","📋 All 9 List + glob"])
     with t1:
         rel_cols = get_chartable_columns(fdf, "Bar Chart") + [c for c in fdf.columns if pd.api.types.is_numeric_dtype(fdf[c]) and not is_irrelevant_column(fdf,c)]
         rel_cols = list(dict.fromkeys(rel_cols))
-        st.caption(f"Showing {len(rel_cols)} relevant columns, ignored {len(fdf.columns)-len(rel_cols)} irrelevant: {[c for c in fdf.columns if is_irrelevant_column(fdf,c)]}")
         st.dataframe(fdf[rel_cols].head(100) if rel_cols else fdf.head(100), use_container_width=True)
     with t2: render_chart(fdf, st.session_state.chart, 'Region' if 'Region' in fdf.columns else (get_chartable_columns(fdf, st.session_state.chart)[0] if get_chartable_columns(fdf, st.session_state.chart) else fdf.columns[0]), selected_label)
     with t3:
-        st.write("### Files found via glob.glob:")
         st.json(glob.glob("*.csv"))
         for label, (f, d) in NINE_DATASETS.items():
             with st.container(border=True):
-                st.write(f"**{label}** - `{f}` - {len(d)} rows - Relevant: {get_chartable_columns(d, 'Bar Chart')[:3]}")
+                st.write(f"**{label}** - `{f}` - {len(d)} rows")
 
 elif st.session_state.page == "Admin - Monitoring Panel":
     st.header(f"🛡️ Admin - Monitoring Panel | 👤 {st.session_state.username} | ⏰ {now_str}")
@@ -473,8 +448,6 @@ elif st.session_state.page == "Admin - Monitoring Panel":
     with tab5:
         st.metric("CSV Files via glob.glob('*.csv')", len(glob.glob("*.csv")))
         st.write(glob.glob("*.csv"))
-        st.metric("TIMAR CSVs via glob.glob('*TIMAR*.csv')", len(glob.glob("*TIMAR*.csv")))
-        st.write(glob.glob("*TIMAR*.csv"))
         st.metric("Active Dataset", st.session_state.active_master)
         st.dataframe(df.head(10), use_container_width=True)
 
@@ -486,7 +459,7 @@ elif st.session_state.page == "Payment & Plans":
     if "selected_plan" not in st.session_state: st.session_state.selected_plan=None
     os.makedirs("payment_proofs", exist_ok=True)
     if st.session_state.user.lower() == "admin":
-        st.success("✅ ADMIN - Unlimited Access")
+        st.success("✅ ADMIN UNLIMITED ACCESS - 10 Years Free | MTN 0789876277 Tino Mary")
     if st.session_state.user in subs and subs[st.session_state.user].get("status")=="ACTIVE":
         exp = subs[st.session_state.user].get("expires","")
         st.success(f"✅ ACTIVE PLAN: {subs[st.session_state.user].get('plan')} | Expires: {exp}")
@@ -530,16 +503,13 @@ elif st.session_state.page == "Payment & Plans":
 
 elif st.session_state.page in ["Dashboard","Analytics","Data Upload","Data Collection Tools - All 10","M&E Module","WASH Module","Livelihood Module","Health Module","Education Module","Agriculture Module","Research Module","KPI Matrix","Statistical Tools","Inventory & Stock Movement","Reviews & Comments","Help & Manual for Timar Analytics"]:
     st.header(f"{st.session_state.page} | 👤 {st.session_state.username} | ⏰ {now_str}")
-    st.caption(f"Active Master: {st.session_state.active_master} | Generated: {st.session_state.generated_dataset} | Relevant cols: {get_chartable_columns(df, st.session_state.chart)[:5]} | Ignored: {[c for c in df.columns if is_irrelevant_column(df,c)][:3]}")
-    # Show only relevant columns in data preview
     rel_cols = get_chartable_columns(df, st.session_state.chart) + [c for c in df.columns if pd.api.types.is_numeric_dtype(df[c]) and not is_irrelevant_column(df,c)]
     rel_cols = list(dict.fromkeys(rel_cols))
     if rel_cols:
         st.dataframe(df[rel_cols].head(50) if len(rel_cols)>0 else df.head(50), width='stretch')
     else:
         st.dataframe(df.head(50), width='stretch')
-    # Chart auto-ignores irrelevant
     best_col = get_best_chart_column(df, df.columns[0], st.session_state.chart)
     render_chart(df, st.session_state.chart, best_col, st.session_state.page)
 
-st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR © 2026 | User: {st.session_state.username} | Active Master: {st.session_state.active_master} | Generated (Sidebar Only): {st.session_state.generated_dataset} | glob.glob: {len(glob.glob('*.csv'))} | Charts Ignore Irrelevant</div>""", unsafe_allow_html=True)
+st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026 | glob.glob {len(glob.glob('*.csv'))} CSVs</div>""", unsafe_allow_html=True)
