@@ -105,7 +105,7 @@ def load_sample_data(choice):
         return df, "UBOS Poverty - Real 2020-2024"
     elif "BoU Inflation" in choice:
         dates = pd.date_range('2023-01-01','2025-06-01', freq='MS')
-        # FIXED BRACKETS HERE
+        # FIXED: added missing closing parenthesis
         inflation = np.round(5.0 + np.cumsum(np.random.randn(len(dates)) * 0.2), 1)
         usd = np.round(3700 + np.arange(len(dates)) * 15 + np.random.randn(len(dates)) * 30).astype(int)
         df = pd.DataFrame({
@@ -229,7 +229,6 @@ DATA_COLLECTION_SAMPLES = {
     "Agriculture Module": ["1. Farmer name","2. Farm size","3. Crop type","4. Season","5. Seed type","6. Yield","7. Inputs?","8. Training?","9. Challenges?","10. Will plant again?"],
     "Research Module": ["1. Title","2. Objective","3. Methodology","4. Sample size","5. Sampling","6. Tool","7. Data","8. Analysis","9. Findings","10. Recommendations"]
 }
-ME_TOOLS = ["LogFrame - Logical Framework 4x4","Results Chain / Result Framework","Indicator Tracking Matrix","Risk Matrix - Likelihood x Impact","Stakeholder Matrix - Power/Interest","Data Collection Matrix","Budget Matrix - Activity Based","M&E Plan Matrix","Theory of Change","Problem Tree to Objective Tree"]
 ALL_CHARTS = ["Bar Chart","Pie Chart","Line Chart","Scatter Plot","Histogram","Area Chart","Table View","Summary Statistics","Matrix View"]
 MODULES = ["Dashboard","Analytics","9 Master Datasets - TIMAR REAL","Data Upload","Data Collection Tools - All 10","M&E Module","WASH Module","Livelihood Module","Health Module","Education Module","Agriculture Module","Research Module","KPI Matrix","Statistical Tools","Inventory & Stock Movement","Payment & Plans","Reviews & Comments","Help & Manual for Timar Analytics","Admin - Monitoring Panel"]
 
@@ -273,38 +272,85 @@ if 'current_df' not in st.session_state:
         st.session_state.current_df = load_data()
 
 if not st.session_state.logged_in:
-    st.markdown("""<style>[data-testid="stSidebar"]{display:none;}header{visibility:hidden;}.stApp{background:linear-gradient(135deg,#0F2C5C 0%,#1E3A8A 50%,#1E40AF 100%)!important;}.login-card{background:white;padding:35px 30px;border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,0.3);text-align:center;margin-top:30px;}.login-card h1{color:#1E3A8A;font-size:28px;font-weight:800;}</style>""", unsafe_allow_html=True)
+    st.markdown("""
+    <style>
+    [data-testid="stSidebar"]{display:none;}
+    header{visibility:hidden;}
+   .stApp{background:linear-gradient(135deg,#0F2C5C 0%,#1E3A8A 50%,#1E40AF 100%)!important;}
+   .login-card{
+        background:white;
+        padding:40px 35px;
+        border-radius:20px;
+        box-shadow:0 25px 70px rgba(0,0,0,0.4);
+        text-align:center;
+        margin-top:20px;
+        border:3px solid #D4AF37;
+    }
+   .login-card h1{color:#1E3A8A!important;font-size:32px;font-weight:900;margin-bottom:5px;}
+   .login-card p{color:#475569!important;font-size:14px;font-weight:600;}
+   .icon-label{font-size:18px!important;font-weight:800!important;color:#1E3A8A!important;margin-bottom:5px;}
+    div[data-testid="stTextInput"] label{font-size:16px!important;font-weight:800!important;color:#1E3A8A!important;}
+    div[data-testid="stTextInput"] input{font-size:16px!important;padding:12px!important;border:2px solid #1E3A8A!important;border-radius:10px!important;}
+   .stButton button{font-size:16px!important;font-weight:800!important;border-radius:12px!important;padding:12px!important;}
+    </style>
+    """, unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1,2,1])
     with col2:
-        st.markdown(f"""<div class="login-card"><h1>🌾 TIMAR ANALYTICS</h1><p>Secure Login</p><p>⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p></div>""", unsafe_allow_html=True)
+        st.markdown(f"""
+        <div class="login-card">
+            <div style="font-size:70px;">🌾</div>
+            <h1>🌾 TIMAR ANALYTICS</h1>
+            <p style="font-size:18px!important;color:#1E3A8A!important;font-weight:900;">📊 Uganda's Smart Data Platform</p>
+            <p style="background:#FEF3C7;padding:10px;border-radius:10px;color:#1E3A8A!important;font-weight:900;border:2px solid #D4AF37;">🔐 Secure Login | ⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
+        </div>
+        """, unsafe_allow_html=True)
+        st.write("")
         users = load_users()
-        with st.form("login_form", clear_on_submit=False):
-            username = st.text_input("Username", key="login_user")
-            password = st.text_input("Password", type="password", key="login_pass")
-            c1,c2 = st.columns(2)
-            with c1: submit_login = st.form_submit_button("Sign In", use_container_width=True, type="primary")
-            with c2: submit_signup_toggle = st.form_submit_button("Sign Up 24h Trial", use_container_width=True)
-            if submit_login:
-                if username.lower()=="admin" and password==ADMIN_PASSWORD:
-                    st.session_state.logged_in=True; st.session_state.username="Admin"; st.session_state.user="Admin"; st.session_state.plan="ADMIN_UNLIMITED"; log_activity("Admin","LOGIN"); st.rerun()
-                elif username in users and users[username]==password:
-                    st.session_state.logged_in=True; st.session_state.username=username; st.session_state.user=username
-                    trials=load_json("trials.json",{})
-                    if username not in trials: trials[username]={"start":datetime.now().isoformat()}; save_json("trials.json",trials)
-                    log_activity(username,"LOGIN"); st.rerun()
-                else: st.error("Invalid")
-            if submit_signup_toggle: st.session_state.show_signup = True
+        with st.container(border=True):
+            st.markdown("### 🔑 Login Credentials - Clear Icons")
+            with st.form("login_form", clear_on_submit=False):
+                st.markdown('<p class="icon-label">👤 Username</p>', unsafe_allow_html=True)
+                username = st.text_input("Username", placeholder="👤 Enter your username", key="login_user", label_visibility="collapsed")
+                st.markdown('<p class="icon-label">🔒 Password</p>', unsafe_allow_html=True)
+                password = st.text_input("Password", type="password", placeholder="🔒 Enter your password", key="login_pass", label_visibility="collapsed")
+                st.write("")
+                c1,c2 = st.columns(2)
+                with c1:
+                    submit_login = st.form_submit_button("🔓 Sign In", use_container_width=True, type="primary")
+                with c2:
+                    submit_signup_toggle = st.form_submit_button("📝 Sign Up 24h Trial", use_container_width=True)
+                if submit_login:
+                    if username.lower()=="admin" and password==ADMIN_PASSWORD:
+                        st.session_state.logged_in=True; st.session_state.username="Admin"; st.session_state.user="Admin"; st.session_state.plan="ADMIN_UNLIMITED"; log_activity("Admin","LOGIN"); st.rerun()
+                    elif username in users and users[username]==password:
+                        st.session_state.logged_in=True; st.session_state.username=username; st.session_state.user=username
+                        trials=load_json("trials.json",{})
+                        if username not in trials: trials[username]={"start":datetime.now().isoformat()}; save_json("trials.json",trials)
+                        log_activity(username,"LOGIN"); st.rerun()
+                    else:
+                        st.error("❌ Invalid username or password")
+                if submit_signup_toggle:
+                    st.session_state.show_signup = True
         if st.session_state.get("show_signup", False):
             with st.container(border=True):
-                nu=st.text_input("Choose Username",key="s_u"); npw=st.text_input("Choose Password",type="password",key="s_p"); cpw=st.text_input("Confirm Password",type="password",key="s_c"); phone=st.text_input("Phone", placeholder="07XXXXXXXX"); agree=st.checkbox("I agree to trial")
-                if st.button("Create & Start Trial",type="primary",use_container_width=True, key="btn_create"):
+                st.markdown("### 📝 Create Account - 24h FREE TRIAL")
+                st.markdown('<p class="icon-label">👤 Choose Username</p>', unsafe_allow_html=True)
+                nu=st.text_input("Choose Username", placeholder="👤 e.g. john_doe", key="s_u", label_visibility="collapsed")
+                st.markdown('<p class="icon-label">🔒 Choose Password</p>', unsafe_allow_html=True)
+                npw=st.text_input("Choose Password", type="password", placeholder="🔒 Create strong password", key="s_p", label_visibility="collapsed")
+                st.markdown('<p class="icon-label">🔒 Confirm Password</p>', unsafe_allow_html=True)
+                cpw=st.text_input("Confirm Password", type="password", placeholder="🔒 Repeat password", key="s_c", label_visibility="collapsed")
+                st.markdown('<p class="icon-label">📱 Phone Number</p>', unsafe_allow_html=True)
+                phone=st.text_input("Phone Number", placeholder="📱 07XXXXXXXX", key="s_phone", label_visibility="collapsed")
+                agree=st.checkbox("✅ I agree to start 24hr free trial")
+                if st.button("🚀 Create & Start Trial", type="primary", use_container_width=True, key="btn_create"):
                     users=load_users()
-                    if not nu or not npw: st.error("Required")
-                    elif npw!=cpw: st.error("Mismatch")
-                    elif nu in users: st.error("Exists")
-                    elif not agree: st.error("Agree")
+                    if not nu or not npw: st.error("⚠️ Username & password required")
+                    elif npw!=cpw: st.error("⚠️ Passwords don't match")
+                    elif nu in users: st.error("⚠️ Username exists")
+                    elif not agree: st.error("⚠️ Please agree to trial")
                     else:
-                        users[nu]=npw; save_json("users.json",{k:v for k,v in users.items() if k!="Admin"}); trials=load_json("trials.json",{}); trials[nu]={"start":datetime.now().isoformat(),"phone":phone}; save_json("trials.json",trials); st.success(f"Account {nu} created!"); st.balloons()
+                        users[nu]=npw; save_json("users.json",{k:v for k,v in users.items() if k!="Admin"}); trials=load_json("trials.json",{}); trials[nu]={"start":datetime.now().isoformat(),"phone":phone}; save_json("trials.json",trials); log_activity(nu,"SIGNUP"); st.success(f"✅ Account {nu} created! Now Sign In above."); st.balloons()
     st.stop()
 
 df = st.session_state.current_df
@@ -352,6 +398,7 @@ with st.sidebar:
 st.markdown(f"""
 <div style="background:linear-gradient(90deg,#1E3A8A 0%,#1E40AF 50%,#D4AF37 100%);padding:20px;border-radius:15px;margin-bottom:15px;text-align:center;">
 <h1 style="color:white!important;margin:0;font-size:32px;font-weight:900;">🌾 TIMAR ANALYTICS</h1>
+<p style="color:#FEF3C7;margin:5px 0 0 0;font-size:18px;font-weight:bold;">✅ ADMIN UNLIMITED ACCESS</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -513,4 +560,4 @@ elif st.session_state.page in ["Dashboard","Analytics","Data Upload","Data Colle
     best_col = get_best_chart_column(df, df.columns[0], st.session_state.chart)
     render_chart(df, st.session_state.chart, best_col, st.session_state.page)
 
-st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026 | glob.glob {len(glob.glob('*.csv'))} CSVs | Charts Ignore Irrelevant | Generated Sidebar Only</div>""", unsafe_allow_html=True)
+st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026 | ✅ ADMIN UNLIMITED ACCESS | glob.glob {len(glob.glob('*.csv'))} CSVs | Charts Ignore Irrelevant</div>""", unsafe_allow_html=True)
