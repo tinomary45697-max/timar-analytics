@@ -310,9 +310,27 @@ elif st.session_state.page == "Admin - Monitoring Panel":
 
 elif st.session_state.page == "Payment & Plans":
     st.title("💳 Payment & Plans | "+ now_str)
-    if st.session_state.user == "Admin": st.success("✅ ADMIN_UNLIMITED")
-    if "selected_plan" not in st.session_state: st.session_state.selected_plan=None
+
+    # PRIVATE NUMBERS - ONLY SHOWN AFTER CLICK
+    MTN_NUMS = "0789876277 / 0755453313"
+    MTN_NAME_PRIVATE = "Tino Mary"
+
     subs = load_json("subscriptions.json", {})
+    if "selected_plan" not in st.session_state:
+        st.session_state.selected_plan=None
+
+    # Create proof folder
+    os.makedirs("payment_proofs", exist_ok=True)
+
+    if st.session_state.user.lower() == "admin":
+        st.success("✅ ADMIN - Unlimited Access")
+
+    # Check if user already paid
+    if st.session_state.user in subs and subs[st.session_state.user].get("status")=="ACTIVE":
+        exp = subs[st.session_state.user].get("expires","")
+        st.success(f"✅ ACTIVE PLAN: {subs[st.session_state.user].get('plan')} | Expires: {exp}")
+        st.stop()
+
     c1,c2,c3,c4 = st.columns(4)
     with c1:
         with st.container(border=True):
@@ -330,13 +348,62 @@ elif st.session_state.page == "Payment & Plans":
         with st.container(border=True):
             st.markdown("### 🏛️ GOVERNMENT\n## UGX 500,000")
             if st.button("Select GOVERNMENT", key="s4", use_container_width=True): st.session_state.selected_plan="GOVERNMENT"; st.rerun()
+
     if st.session_state.selected_plan:
-        plan=st.session_state.selected_plan; prices={"STUDENT":10000,"RESEARCHER":30000,"NGO":300000,"GOVERNMENT":500000}
+        plan=st.session_state.selected_plan
+        prices={"STUDENT":10000,"RESEARCHER":30000,"NGO":300000,"GOVERNMENT":500000}
+        st.divider()
         st.markdown(f"## ✅ {plan} - UGX {prices[plan]:,}")
-        txn=st.text_input("MoMo Transaction ID *", key="txn_input")
-        if st.button("Confirm Payment", type="primary", use_container_width=True, key="confirm_pay"):
-            if txn:
-                subs[st.session_state.user]={"plan":plan,"amount":prices[plan],"txn":txn,"expires":(datetime.datetime.now()+timedelta(days=30)).isoformat(),"status":"PENDING"}
+
+        # SHOW NUMBERS ONLY AFTER SELECT
+        st.warning(f"### 📱 Pay To:\n**MTN MoMo: {MTN_NUMS}**\n**Name: {MTN_NAME_PRIVATE}**")
+        st.info(f"1. Dial *165# > Send Money > {MTN_NUMS.split('/')[0].strip()} > {prices[plan]:,} UGX > Verify Name: {MTN_NAME_PRIVATE} > Send\n2. Upload screenshot below for AUTOMATIC ACTIVATION")
+
+        txn=st.text_input("MoMo Transaction ID *", key="txn_input", placeholder="e.g. 1234567890")
+        proof_file = st.file_uploader("📤 Upload Payment Proof (Screenshot / PDF) * - For Auto Activation", type=["png","jpg","jpeg","pdf"], key="proof_upload")
+
+        colA, colB = st.columns(2)
+        with colA:
+            if st.button("🚀 Upload & Activate Automatically", type="primary", use_container_width=True, key="confirm_pay_auto"):
+                if not txn.strip():
+                    st.error("Enter Transaction ID")
+                elif proof_file is None:
+                    st.error("Please upload payment screenshot for auto activation")
+                else:
+                    # Save proof
+                    proof_path = f"payment_proofs/{st.session_state.user}_{plan}_{txn}_{proof_file.name}"
+                    with open(proof_path, "wb") as f:
+                        f.write(proof_file.getbuffer())
+
+                    # AUTOMATIC ACTIVATION
+                    expires_date = (datetime.datetime.now()+timedelta(days=30)).isoformat()
+                    subs[st.session_state.user]={
+                        "plan":plan,
+                        "amount":prices[plan],
+                        "txn":txn,
+                        "proof_file":proof_path,
+                        "expires":expires_date,
+                        "activated_at": datetime.datetime.now().isoformat(),
+                        "status":"ACTIVE",
+                        "pay_to":MTN_NUMS,
+                        "pay_name":MTN_NAME_PRIVATE
+                    }
+                    save_json("subscriptions.json", subs)
+                    # Auto upgrade session
+                    st.session_state.plan = plan
+                    log_activity(st.session_state.username, "PAYMENT_AUTO_ACTIVATED", f"{plan} {txn} {proof_path}")
+                    st.success(f"✅ AUTOMATICALLY ACTIVATED! {plan} is now active until {expires_date}. Proof saved: {proof_path}")
+                    st.balloons()
+                    st.rerun()
+        with colB:
+            if st.button("❌ Cancel", key="cancel_plan", use_container_width=True):
+                st.session_state.selected_plan=None
+                st.rerun()
+
+        if proof_file:
+            st.caption("Preview of your proof:")
+            if proof_file.type!= "application/pdf":
+                st.image(proof_file, width=300)
                 save_json("subscriptions.json", subs); st.success("Submitted"); st.balloons()
 
 elif st.session_state.page=="Data Collection Tools - All 10":
@@ -401,7 +468,47 @@ elif st.session_state.page=="Data Upload":
         except Exception as e: st.error(str(e))
     st.dataframe(df.head(50), width='stretch')
 
-elif st.session_state.page in ["M&E Module","WASH Module","Livelihood Module","Health Module","Education Module","Agriculture Module","Research Module","KPI Matrix","Statistical Tools","Inventory & Stock Movement","Reviews & Comments","Help & Manual for Timar Analytics"]:
+elif st.session_state.page=="Reviews & Comments":
+    st.header(f"⭐ Reviews & Comments | 👤 {st.session_state.username} | ⏰ {now_str}")
+    reviews = load_json("timar_reviews.json", [])
+
+    with st.container(border=True):
+        st.subheader("✍️ Add Your Review")
+        col1, col2 = st.columns([3,1])
+        with col1:
+            comment = st.text_area("Your Comment / Feedback", placeholder="Write your review about TIMAR Analytics...", key="review_text")
+        with col2:
+            rating = st.selectbox("Rating", ["⭐⭐⭐⭐⭐ Excellent","⭐⭐⭐⭐ Very Good","⭐⭐⭐ Good","⭐⭐ Fair","⭐ Poor"], key="review_rating")
+            module_used = st.selectbox("Module Used", MODULES, key="review_module")
+        if st.button("💬 Submit Review", type="primary", use_container_width=True, key="submit_review"):
+            if comment.strip():
+                reviews.append({"Time": now_str, "User": st.session_state.username, "Rating": rating, "Module": module_used, "Comment": comment, "ActiveDataset": st.session_state.active_master})
+                save_json("timar_reviews.json", reviews)
+                log_activity(st.session_state.username, "ADD_REVIEW", comment[:50])
+                st.success("✅ Review submitted! Thank you.")
+                st.balloons()
+                st.rerun()
+            else:
+                st.error("Please write a comment")
+
+    st.divider()
+    st.subheader(f"💬 All Reviews ({len(reviews)}) - Only Reviews, No Dataset")
+    if not reviews:
+        st.info("No reviews yet. Be the first to review!")
+    else:
+        # Display newest first
+        for i, r in enumerate(reversed(reviews[-50:]), 1):
+            with st.container(border=True):
+                st.markdown(f"**{r.get('User','Anonymous')}** | {r.get('Rating','')} | {r.get('Time','')} | Module: {r.get('Module','')} | Data: {r.get('ActiveDataset','')}")
+                st.write(f"> {r.get('Comment','')}")
+        st.dataframe(pd.DataFrame(reviews[-100:][::-1]), use_container_width=True)
+        csv = pd.DataFrame(reviews).to_csv(index=False).encode('utf-8')
+        st.download_button("📥 Download All Reviews CSV", csv, "timar_reviews.csv", "text/csv", key="dl_reviews")
+
+elif st.session_state.page in ["M&E Module","WASH Module","Livelihood Module","Health Module","Education Module","Agriculture Module","Research Module","KPI Matrix","Statistical Tools","Inventory & Stock Movement","Help & Manual for Timar Analytics"]:
+    st.header(f"{st.session_state.page} | 👤 {st.session_state.username} | ⏰ {now_str}")
+    st.dataframe(df.head(50), width='stretch')
+    render_chart(df, st.session_state.chart, df.columns[0], st.session_state.page)
     st.header(f"{st.session_state.page} | 👤 {st.session_state.username} | ⏰ {now_str}")
     st.dataframe(df.head(50), width='stretch')
     render_chart(df, st.session_state.chart, df.columns[0], st.session_state.page)
