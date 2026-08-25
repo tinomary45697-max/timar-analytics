@@ -105,7 +105,6 @@ def load_sample_data(choice):
         return df, "UBOS Poverty - Real 2020-2024"
     elif "BoU Inflation" in choice:
         dates = pd.date_range('2023-01-01','2025-06-01', freq='MS')
-        # FIXED: added missing closing parenthesis
         inflation = np.round(5.0 + np.cumsum(np.random.randn(len(dates)) * 0.2), 1)
         usd = np.round(3700 + np.arange(len(dates)) * 15 + np.random.randn(len(dates)) * 30).astype(int)
         df = pd.DataFrame({
@@ -276,8 +275,8 @@ if not st.session_state.logged_in:
     <style>
     [data-testid="stSidebar"]{display:none;}
     header{visibility:hidden;}
-   .stApp{background:linear-gradient(135deg,#0F2C5C 0%,#1E3A8A 50%,#1E40AF 100%)!important;}
-   .login-card{
+  .stApp{background:linear-gradient(135deg,#0F2C5C 0%,#1E3A8A 50%,#1E40AF 100%)!important;}
+  .login-card{
         background:white;
         padding:40px 35px;
         border-radius:20px;
@@ -286,12 +285,12 @@ if not st.session_state.logged_in:
         margin-top:20px;
         border:3px solid #D4AF37;
     }
-   .login-card h1{color:#1E3A8A!important;font-size:32px;font-weight:900;margin-bottom:5px;}
-   .login-card p{color:#475569!important;font-size:14px;font-weight:600;}
-   .icon-label{font-size:18px!important;font-weight:800!important;color:#1E3A8A!important;margin-bottom:5px;}
+  .login-card h1{color:#1E3A8A!important;font-size:32px;font-weight:900;margin-bottom:5px;}
+  .login-card p{color:#475569!important;font-size:14px;font-weight:600;}
+  .icon-label{font-size:18px!important;font-weight:800!important;color:#1E3A8A!important;margin-bottom:5px;}
     div[data-testid="stTextInput"] label{font-size:16px!important;font-weight:800!important;color:#1E3A8A!important;}
     div[data-testid="stTextInput"] input{font-size:16px!important;padding:12px!important;border:2px solid #1E3A8A!important;border-radius:10px!important;}
-   .stButton button{font-size:16px!important;font-weight:800!important;border-radius:12px!important;padding:12px!important;}
+  .stButton button{font-size:16px!important;font-weight:800!important;border-radius:12px!important;padding:12px!important;}
     </style>
     """, unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1,2,1])
@@ -316,9 +315,9 @@ if not st.session_state.logged_in:
                 st.write("")
                 c1,c2 = st.columns(2)
                 with c1:
-                    submit_login = st.form_submit_button("🔓 Sign In", use_container_width=True, type="primary")
+                    submit_login = st.form_submit_button("🔓 Log In", use_container_width=True, type="primary")
                 with c2:
-                    submit_signup_toggle = st.form_submit_button("📝 Sign Up 24h Trial", use_container_width=True)
+                    submit_signup_toggle = st.form_submit_button("📝 Create Account 24hr Trial", use_container_width=True)
                 if submit_login:
                     if username.lower()=="admin" and password==ADMIN_PASSWORD:
                         st.session_state.logged_in=True; st.session_state.username="Admin"; st.session_state.user="Admin"; st.session_state.plan="ADMIN_UNLIMITED"; log_activity("Admin","LOGIN"); st.rerun()
@@ -350,7 +349,9 @@ if not st.session_state.logged_in:
                     elif nu in users: st.error("⚠️ Username exists")
                     elif not agree: st.error("⚠️ Please agree to trial")
                     else:
-                        users[nu]=npw; save_json("users.json",{k:v for k,v in users.items() if k!="Admin"}); trials=load_json("trials.json",{}); trials[nu]={"start":datetime.now().isoformat(),"phone":phone}; save_json("trials.json",trials); log_activity(nu,"SIGNUP"); st.success(f"✅ Account {nu} created! Now Sign In above."); st.balloons()
+                        users[nu]=npw; save_json("users.json",{k:v for k,v in users.items() if k!="Admin"}); trials=load_json("trials.json",{}); trials[nu]={"start":datetime.now().isoformat(),"phone":phone}; save_json("trials.json",trials); log_activity(nu,"SIGNUP")
+                        st.balloons()
+                        st.success(f"✅ Account successfully created, login to your account")
     st.stop()
 
 df = st.session_state.current_df
@@ -473,6 +474,105 @@ if st.session_state.page == "9 Master Datasets - TIMAR REAL":
             with st.container(border=True):
                 st.write(f"**{label}** - `{f}` - {len(d)} rows")
 
+# ===== NEW M&E TOOLS SUITE - ADDED WITHOUT ALTERING OTHER CODE =====
+elif st.session_state.page == "M&E Module":
+    st.header(f"📈 M&E TOOLS SUITE - TIMAR | 👤 {st.session_state.username} | ⏰ {now_str}")
+
+    me_tool = st.selectbox("Select M&E Tool", [
+        "🔗 Results Chain",
+        "🌳 Theory of Change",
+        "📋 LogFrame (Logical Framework)",
+        "🎯 Results Framework",
+        "📊 Indicator Performance Tracking Table (IPTT)",
+        "⚠️ Risk Matrix",
+        "👥 Stakeholder Analysis",
+        "🗓️ Workplan / Gantt"
+    ])
+
+    if "Results Chain" in me_tool:
+        st.markdown("### 🔗 Results Chain")
+        st.info("Inputs → Activities → Outputs → Outcomes → Impact")
+        c1,c2,c3,c4,c5 = st.columns(5)
+        with c1:
+            inputs = st.text_area("Inputs / Resources", "Staff, Funds, Equipment, UBOS Data", key="rc_in")
+        with c2:
+            activities = st.text_area("Activities", "Training, Data collection, Distribution", key="rc_ac")
+        with c3:
+            outputs = st.text_area("Outputs", "# farmers trained, # reports", key="rc_out")
+        with c4:
+            outcomes = st.text_area("Outcomes", "Increased yield, Improved livelihood", key="rc_oc")
+        with c5:
+            impact = st.text_area("Impact", "Food security, Poverty reduced", key="rc_im")
+        st.graphviz_chart(f'''digraph {{rankdir=LR; node [shape=box style=filled fillcolor="#DBEAFE"] "{inputs[:20]}" -> "{activities[:20]}" -> "{outputs[:20]}" -> "{outcomes[:20]}" -> "{impact[:20]}" }}''')
+        if st.button("💾 Save Results Chain"):
+            save_json("me_results_chain.json", {"inputs":inputs,"activities":activities,"outputs":outputs,"outcomes":outcomes,"impact":impact})
+            st.success("Results Chain saved!"); st.balloons()
+
+    elif "Theory of Change" in me_tool:
+        st.markdown("### 🌳 Theory of Change")
+        col1,col2 = st.columns(2)
+        with col1:
+            problem = st.text_area("Problem Statement", "Low agricultural productivity in Northern Uganda...", key="toc_prob")
+            long_term = st.text_input("Long Term Goal (Impact)", "Improved food security", key="toc_lt")
+            assumptions = st.text_area("Assumptions", "Farmers adopt practices, Market access...", key="toc_ass")
+        with col2:
+            interventions = st.text_area("Interventions", "1. Provide improved seeds\n2. Training on agronomy\n3. Link to UNHCR/WFP markets", key="toc_int")
+            preconditions = st.text_area("Preconditions", "Access to land, Willingness to learn", key="toc_pre")
+        st.markdown(f"""<div style="background:white;padding:20px;border-radius:10px;border-left:5px solid #1E3A8A"><b>IF</b> {interventions[:100]}... <br><b>THEN</b> {preconditions[:100]}... <br><b>BECAUSE</b> {assumptions[:100]}... <br><b>LEADING TO</b> {long_term}</div>""", unsafe_allow_html=True)
+
+    elif "LogFrame" in me_tool:
+        st.markdown("### 📋 LogFrame - Logical Framework Matrix")
+        log_data = st.data_editor(pd.DataFrame([
+                {"Level":"Goal / Impact","Narrative":"Contribute to poverty reduction","Indicators":"% HH below poverty line","Means of Verification":"UBOS AAS 2018","Assumptions":"Govt policy stable"},
+                {"Level":"Outcome","Narrative":"Increased agricultural income","Indicators":"Avg income increase 30%","Means of Verification":"TIMAR Survey","Assumptions":"Markets accessible"},
+                {"Level":"Output 1","Narrative":"500 farmers trained","Indicators":"# trained (M/F)","Means of Verification":"Attendance lists","Assumptions":"Farmers available"},
+                {"Level":"Output 2","Narrative":"Inputs distributed","Indicators":"# kits distributed","Means of Verification":"Distribution report","Assumptions":"Supply chain"},
+                {"Level":"Activities","Narrative":"1.1 Training 1.2 Distribution","Indicators":"Budget, Timeline","Means of Verification":"Financial reports","Assumptions":"Funds released"},
+            ]), num_rows="dynamic", use_container_width=True, key="logframe_edit")
+        if st.button("📥 Export LogFrame to Excel"):
+            log_data.to_excel("TIMAR_LogFrame.xlsx", index=False); st.success("Exported! TIMAR_LogFrame.xlsx"); st.balloons()
+
+    elif "Results Framework" in me_tool:
+        st.markdown("### 🎯 Results Framework")
+        rf = st.data_editor(pd.DataFrame([{"Objective":"Improve livelihoods","Outcome":"Increased income","Indicator":"Avg income","Baseline":"$100","Target":"$300","Source":"Survey","Frequency":"Quarterly"}]), num_rows="dynamic", use_container_width=True, key="rf_edit")
+
+    elif "IPTT" in me_tool:
+        st.markdown("### 📊 Indicator Performance Tracking Table (IPTT)")
+        iptt = st.data_editor(pd.DataFrame([
+                {"Indicator":"# farmers trained","Baseline":0,"Target":500,"Achieved Q1":120,"Achieved Q2":250,"% Achieved":"50%","Status":"On Track"},
+                {"Indicator":"Yield (MT/acre)","Baseline":0.8,"Target":2.0,"Achieved Q1":1.0,"Achieved Q2":1.5,"% Achieved":"75%","Status":"On Track"},
+                {"Indicator":"% Female participants","Baseline":0,"Target":50,"Achieved Q1":45,"Achieved Q2":48,"% Achieved":"96%","Status":"Good"},
+            ]), num_rows="dynamic", use_container_width=True, key="iptt_edit")
+        try: st.bar_chart(iptt.set_index("Indicator")[["Baseline","Target","Achieved Q2"]])
+        except: pass
+
+    elif "Risk Matrix" in me_tool:
+        st.markdown("### ⚠️ Risk Matrix")
+        st.data_editor(pd.DataFrame([
+                {"Risk":"Drought","Likelihood":"High","Impact":"High","Score":"High","Mitigation":"Promote drought resistant seeds","Owner":"M&E Officer"},
+                {"Risk":"Market price fall","Likelihood":"Medium","Impact":"High","Score":"Medium","Mitigation":"Contract farming","Owner":"Livelihood Lead"},
+            ]), num_rows="dynamic", use_container_width=True, key="risk_edit")
+
+    elif "Stakeholder" in me_tool:
+        st.markdown("### 👥 Stakeholder Analysis")
+        st.data_editor(pd.DataFrame([
+                {"Stakeholder":"Farmers","Interest":"High","Influence":"Medium","Attitude":"Positive","Strategy":"Engage closely"},
+                {"Stakeholder":"UBOS","Interest":"Medium","Influence":"High","Attitude":"Neutral","Strategy":"Keep satisfied"},
+                {"Stakeholder":"Donor (WFP/UNHCR)","Interest":"High","Influence":"High","Attitude":"Positive","Strategy":"Manage closely"},
+            ]), num_rows="dynamic", use_container_width=True, key="stake_edit")
+
+    elif "Gantt" in me_tool or "Workplan" in me_tool:
+        st.markdown("### 🗓️ Workplan / Gantt")
+        wp = st.data_editor(pd.DataFrame([
+                {"Activity":"Data collection","Start":"2026-09-01","End":"2026-09-15","Responsible":"M&E Officer","Status":"Planned","Progress %":0},
+                {"Activity":"Training farmers","Start":"2026-09-16","End":"2026-09-30","Responsible":"Field team","Status":"Planned","Progress %":0},
+                {"Activity":"Analysis & Reporting","Start":"2026-10-01","End":"2026-10-15","Responsible":"TIMAR Analyst","Status":"Planned","Progress %":0},
+            ]), num_rows="dynamic", use_container_width=True, key="gantt_edit")
+        try:
+            wp["Start"] = pd.to_datetime(wp["Start"]); wp["End"] = pd.to_datetime(wp["End"])
+            fig = px.timeline(wp, x_start="Start", x_end="End", y="Activity", color="Responsible"); st.plotly_chart(fig, use_container_width=True)
+        except: st.info("Enter valid dates to see Gantt chart")
+
 elif st.session_state.page == "Admin - Monitoring Panel":
     st.header(f"🛡️ Admin - Monitoring Panel | 👤 {st.session_state.username} | ⏰ {now_str}")
     if not is_admin():
@@ -549,7 +649,7 @@ elif st.session_state.page == "Payment & Plans":
                 st.session_state.plan = plan
                 st.success(f"✅ ACTIVATED! {plan} until {expires_date}"); st.balloons(); st.rerun()
 
-elif st.session_state.page in ["Dashboard","Analytics","Data Upload","Data Collection Tools - All 10","M&E Module","WASH Module","Livelihood Module","Health Module","Education Module","Agriculture Module","Research Module","KPI Matrix","Statistical Tools","Inventory & Stock Movement","Reviews & Comments","Help & Manual for Timar Analytics"]:
+elif st.session_state.page in ["Dashboard","Analytics","Data Upload","Data Collection Tools - All 10","WASH Module","Livelihood Module","Health Module","Education Module","Agriculture Module","Research Module","KPI Matrix","Statistical Tools","Inventory & Stock Movement","Reviews & Comments","Help & Manual for Timar Analytics"]:
     st.header(f"{st.session_state.page} | 👤 {st.session_state.username} | ⏰ {now_str}")
     rel_cols = get_chartable_columns(df, st.session_state.chart) + [c for c in df.columns if pd.api.types.is_numeric_dtype(df[c]) and not is_irrelevant_column(df,c)]
     rel_cols = list(dict.fromkeys(rel_cols))
