@@ -1,0 +1,521 @@
+ID,Region,District,Education,Yield,Age,Gender,Income,Water_Source,Crop,Year,Main_Income,Food_Months,Savings_UGX,Coping_Strategy
+1,Northern,Gulu,Primary,3.686387412215288,32,Male,1503375,Borehole,Beans,2023,Farming,3,471628,Reduce Meals
+2,Western,Mbarara,Secondary,3.9636471660756407,21,Male,1634467,Borehole,Cassava,2024,Farming,3,280199,Borrow
+3,Central,Gulu,Primary,1.3145799953196888,62,Female,1421381,River,Maize,2024,Business,11,492436,Reduce Meals
+4,Northern,Gulu,University,6.401107507746449,55,Female,1787282,Tap,Cassava,2024,Casual,8,218580,Borrow
+5,Northern,Gulu,None,1.9704252171166425,37,Female,454494,Borehole,Coffee,2022,Business,7,418709,Reduce Meals
+6,Western,Kampala,Primary,3.176770270716955,40,Male,1547905,Well,Coffee,2022,Casual,8,74861,None
+7,Central,Kampala,Primary,3.018639647613567,54,Female,241745,Borehole,Coffee,2022,Farming,8,383328,None
+8,Central,Kampala,Secondary,3.575293276837897,64,Male,948777,River,Coffee,2024,Casual,3,378668,None
+9,Northern,Mbarara,University,7.551902618032698,25,Female,909147,River,Cassava,2022,Farming,7,378970,Borrow
+10,Eastern,Lira,None,2.176899078037066,54,Male,1066555,Borehole,Coffee,2023,Business,11,298919,Reduce Meals
+11,Northern,Gulu,University,6.104578370110024,62,Female,907395,Borehole,Maize,2024,Business,6,444273,Borrow
+12,Northern,Gulu,None,1.1584299024574753,50,Male,549948,Well,Cassava,2022,Casual,5,348053,Borrow
+13,Northern,Mbarara,University,8.820401963682112,50,Male,1183488,Well,Coffee,2024,Farming,3,298397,Reduce Meals
+14,Northern,Gulu,None,0.4601257235366124,24,Male,1169966,Tap,Cassava,2024,Farming,4,217789,Borrow
+15,Western,Kampala,None,0.2,39,Female,1679145,Tap,Cassava,2022,Casual,5,256072,Reduce Meals
+16,Central,Lira,Secondary,5.582904434464799,22,Male,573199,Well,Cassava,2024,Farming,6,51884,Reduce Meals
+17,Western,Arua,University,7.93660477170456,63,Male,1191148,Tap,Beans,2022,Farming,9,76497,None
+18,Western,Gulu,University,6.343032676422575,32,Female,319097,Tap,Coffee,2022,Farming,8,279849,None
+19,Western,Kampala,Secondary,4.087008218131913,38,Male,1296878,Borehole,Beans,2022,Business,10,175748,None
+20,Northern,Arua,University,5.575064949811048,42,Male,1895425,Well,Maize,2024,Business,11,232730,Reduce Meals
+21,Eastern,Lira,None,1.288952272609702,34,Female,1980915,Borehole,Maize,2024,Business,8,353784,None
+22,Central,Arua,University,7.9659137153714,24,Male,1664227,Borehole,Beans,2022,Farming,9,210117,Reduce Meals
+23,Eastern,Kampala,Secondary,3.657395158241722,36,Female,782016,Tap,Coffee,2024,Business,6,7101,Borrow
+24,Western,Arua,Secondary,5.077101978786293,24,Male,987670,Borehole,Cassava,2022,Farming,4,324639,None
+25,Western,Mbarara,University,7.263723857390432,57,Female,1460505,River,Maize,2023,Farming,11,397959,Reduce Meals
+26,Eastern,Arua,Secondary,4.77781689088114,62,Male,1392697,Tap,Maize,2024,Casual,11,8951,Reduce Meals
+27,Eastern,Gulu,Secondary,3.715690819413632,41,Male,781481,River,Maize,2024,Farming,6,138086,Reduce Meals
+28,Eastern,Gulu,Secondary,3.8453758170665058,28,Male,1939520,Tap,Coffee,2023,Business,5,36180,Reduce Meals
+29,Western,Mbarara,University,4.953227565528598,58,Female,1577354,Borehole,Beans,2023,Business,8,319121,None
+30,Western,Kampala,Primary,1.9333305874898943,18,Male,1787543,Tap,Beans,2023,Farming,5,247117,None
+31,Central,Gulu,University,7.963485458031259,49,Male,1545225,River,Coffee,2022,Business,3,190606,None
+32,Central,Lira,Secondary,3.2706678058977268,57,Female,1562061,Tap,Maize,2022,Farming,6,63209,Reduce Meals
+33,Western,Gulu,Primary,1.7196983461430952,61,Female,694285,River,Coffee,2023,Casual,3,249241,Borrow
+34,Eastern,Gulu,Secondary,4.840189823707124,19,Female,774662,Well,Coffee,2022,Farming,4,172980,Reduce Meals
+35,Eastern,Kampala,Secondary,4.602768291993094,32,Male,1033430,Borehole,Beans,2024,Farming,5,370719,Borrow
+36,Central,Arua,Secondary,4.889863249796301,38,Male,1194474,River,Coffee,2023,Casual,10,313062,None
+37,Western,Gulu,Secondary,3.0367794599095963,41,Male,1435349,Well,Coffee,2024,Business,6,401435,Reduce Meals
+38,Central,Mbarara,None,3.764057949300346,34,Female,375931,Borehole,Maize,2022,Casual,6,138235,Reduce Meals
+39,Central,Arua,Secondary,2.98424662583275,64,Female,1637923,Well,Cassava,2023,Casual,11,133542,None
+40,Northern,Lira,University,6.954247313734068,26,Male,757466,River,Maize,2022,Farming,9,409759,Reduce Meals
+41,Northern,Kampala,Primary,2.3413445041314134,52,Male,1145079,Borehole,Beans,2024,Farming,4,150348,Borrow
+42,Northern,Lira,Secondary,3.0133584826349527,37,Female,1661121,Well,Cassava,2022,Casual,5,120014,Borrow
+43,Eastern,Arua,Primary,2.1297905771867502,36,Female,1699046,River,Maize,2024,Business,6,167953,Borrow
+44,Western,Arua,Secondary,4.22330760088587,35,Female,1482738,Well,Coffee,2022,Casual,6,341094,Reduce Meals
+45,Western,Arua,Secondary,3.55002678813653,37,Male,569517,Borehole,Coffee,2024,Business,10,7749,Reduce Meals
+46,Western,Lira,Secondary,5.137223621534849,47,Female,1757266,Borehole,Cassava,2022,Casual,8,286326,Borrow
+47,Western,Arua,Primary,2.338374254537529,57,Female,415101,Borehole,Cassava,2023,Casual,5,339594,Reduce Meals
+48,Northern,Lira,Secondary,2.8587253289817136,18,Female,418438,River,Coffee,2023,Business,11,80543,Borrow
+49,Eastern,Arua,None,0.2,41,Female,1877003,Well,Beans,2022,Casual,10,96487,None
+50,Eastern,Mbarara,Primary,3.106165090611456,41,Male,1348866,Well,Maize,2024,Farming,11,372371,Borrow
+51,Northern,Arua,None,0.2,64,Female,1191166,River,Coffee,2022,Casual,7,229216,None
+52,Eastern,Lira,Primary,2.8164260730490835,36,Male,1749166,Borehole,Maize,2023,Farming,5,414599,None
+53,Northern,Gulu,Secondary,4.644655185666959,47,Male,1419716,Tap,Maize,2024,Business,6,340722,None
+54,Western,Arua,Secondary,3.204644636075983,43,Female,1307527,Borehole,Maize,2022,Business,7,116258,Borrow
+55,Northern,Gulu,Secondary,5.090738083774891,59,Female,1598349,Tap,Maize,2022,Farming,11,156484,Borrow
+56,Western,Mbarara,Primary,0.7822063762383678,61,Male,1676963,Borehole,Beans,2024,Casual,11,13181,Reduce Meals
+57,Western,Kampala,University,7.096458933998559,55,Female,863622,River,Beans,2022,Farming,5,44898,Reduce Meals
+58,Central,Mbarara,Secondary,4.159142066403992,46,Male,351857,Tap,Beans,2023,Farming,9,452846,None
+59,Northern,Arua,Secondary,4.0810020242691065,30,Female,543367,River,Coffee,2023,Business,8,265549,Borrow
+60,Central,Gulu,University,5.622103357019427,21,Male,1765433,Tap,Coffee,2024,Farming,6,489620,Reduce Meals
+61,Northern,Gulu,University,5.862977995600074,62,Male,769931,Well,Coffee,2022,Casual,7,273006,Reduce Meals
+62,Northern,Lira,Primary,4.118802025020598,34,Male,1447305,Tap,Beans,2022,Farming,4,185751,Reduce Meals
+63,Central,Gulu,Primary,3.7151550088717538,50,Female,1776446,Tap,Maize,2023,Business,9,290832,Borrow
+64,Central,Lira,University,7.542084588523799,22,Male,1885645,Tap,Beans,2024,Casual,6,48017,Reduce Meals
+65,Northern,Kampala,Secondary,5.139848103529688,45,Male,828292,Well,Coffee,2024,Business,4,489697,None
+66,Eastern,Arua,None,2.046013544671269,41,Female,764288,River,Cassava,2024,Farming,8,275083,Borrow
+67,Western,Lira,Secondary,3.8766437877137916,34,Female,826880,Well,Coffee,2023,Farming,4,243343,Reduce Meals
+68,Central,Kampala,University,6.847603551814351,56,Male,690424,Tap,Maize,2023,Business,4,487683,Reduce Meals
+69,Western,Gulu,Secondary,2.7274916219589915,57,Male,1249661,Borehole,Beans,2024,Business,9,366296,Borrow
+70,Eastern,Gulu,Secondary,4.110304373192474,61,Female,1198931,Well,Cassava,2024,Casual,3,301729,Reduce Meals
+71,Eastern,Kampala,University,7.983414249539186,63,Male,1084426,Borehole,Cassava,2022,Business,9,378459,Reduce Meals
+72,Eastern,Gulu,Primary,1.8392927517428643,28,Female,1701593,Well,Maize,2022,Business,7,104447,None
+73,Central,Kampala,Primary,3.523141204687226,29,Female,392811,Well,Beans,2024,Farming,3,243885,Borrow
+74,Eastern,Lira,Secondary,4.2915857386937635,30,Female,1767938,Tap,Cassava,2023,Farming,8,239434,Reduce Meals
+75,Central,Lira,University,5.414628134330267,25,Male,929541,River,Coffee,2023,Business,9,499916,Borrow
+76,Eastern,Kampala,Primary,1.3926804866536884,18,Female,1093546,River,Maize,2022,Business,3,154014,Borrow
+77,Western,Lira,Secondary,5.119302869707755,26,Male,1683388,Tap,Cassava,2024,Farming,11,241147,None
+78,Western,Lira,Secondary,4.752524085258385,45,Male,1758828,Well,Maize,2023,Casual,9,398488,None
+79,Northern,Lira,Secondary,4.301764072987625,19,Female,1056842,River,Beans,2023,Casual,3,437350,Borrow
+80,Western,Mbarara,Secondary,3.9259681857520548,31,Female,672519,River,Beans,2023,Casual,5,155337,None
+81,Northern,Arua,University,7.010567977628585,30,Female,907548,River,Beans,2023,Casual,7,254743,None
+82,Western,Gulu,Secondary,5.080296249253249,19,Female,1537545,Tap,Coffee,2022,Farming,6,179264,Reduce Meals
+83,Central,Mbarara,Secondary,5.675853280487285,21,Male,1914849,Borehole,Cassava,2023,Business,4,159740,None
+84,Western,Lira,Secondary,5.723684199440605,29,Male,1461399,Borehole,Beans,2023,Casual,3,81560,None
+85,Northern,Kampala,Secondary,4.571959900758499,27,Female,284269,Borehole,Coffee,2024,Farming,6,359579,Reduce Meals
+86,Northern,Lira,Primary,2.3280683096354795,20,Male,254895,Borehole,Beans,2024,Business,9,69283,Reduce Meals
+87,Eastern,Arua,Primary,2.6462480078188557,21,Female,1646224,Borehole,Beans,2022,Casual,6,9297,Borrow
+88,Central,Lira,Secondary,4.72212035725508,23,Male,436641,River,Cassava,2022,Business,11,64005,None
+89,Western,Kampala,None,1.7180669438450913,40,Male,599319,River,Coffee,2022,Casual,10,390977,Reduce Meals
+90,Eastern,Arua,Primary,3.8079866371401048,22,Male,984118,Well,Beans,2022,Business,10,189506,None
+91,Western,Lira,Secondary,6.315755721916656,20,Female,1751108,River,Coffee,2023,Casual,7,457965,Borrow
+92,Western,Arua,Secondary,3.994745370385914,27,Male,1108478,Tap,Coffee,2024,Casual,3,394823,None
+93,Eastern,Gulu,Primary,4.655884908824462,60,Male,1578287,Well,Beans,2023,Business,11,130654,None
+94,Eastern,Gulu,Secondary,5.372239246758394,36,Male,524857,River,Beans,2023,Business,4,190255,None
+95,Eastern,Lira,Secondary,4.099177009814793,31,Male,414241,Well,Maize,2023,Business,8,86994,Reduce Meals
+96,Eastern,Arua,Primary,3.9985648388650796,38,Female,782927,Well,Cassava,2024,Farming,7,56305,Reduce Meals
+97,Eastern,Kampala,University,8.485648301419165,60,Male,1730520,Borehole,Beans,2022,Farming,10,159045,Borrow
+98,Western,Lira,Secondary,3.7397045558061532,45,Female,1614323,Well,Maize,2022,Business,5,416333,None
+99,Eastern,Gulu,Secondary,5.932215252485648,38,Female,1243245,River,Cassava,2024,Farming,8,213058,Borrow
+100,Central,Gulu,Secondary,5.275082821035964,53,Male,278488,Borehole,Beans,2024,Casual,8,212143,Borrow
+101,Northern,Lira,University,9.0,41,Male,1603625,River,Coffee,2022,Business,5,384832,Reduce Meals
+102,Eastern,Arua,Secondary,3.7759614180005014,55,Female,694614,Borehole,Cassava,2023,Farming,9,225963,None
+103,Eastern,Gulu,Secondary,3.846573256264004,34,Female,465121,River,Coffee,2022,Business,6,269789,None
+104,Western,Arua,Secondary,2.17333787025666,39,Female,1102082,Borehole,Maize,2024,Casual,7,304382,Borrow
+105,Eastern,Gulu,Primary,3.0711939205679624,36,Male,1483677,Borehole,Beans,2022,Casual,11,69694,None
+106,Eastern,Gulu,Primary,2.875251255618718,62,Male,1565361,Tap,Maize,2022,Farming,8,172845,Reduce Meals
+107,Eastern,Mbarara,Secondary,3.6370063284643335,27,Female,594484,River,Beans,2022,Casual,6,278930,Borrow
+108,Western,Gulu,Secondary,4.118149268511942,28,Female,1100897,Well,Beans,2024,Business,10,40693,Borrow
+109,Eastern,Kampala,Secondary,2.888778989824885,55,Female,1827295,Borehole,Coffee,2024,Farming,11,358591,Reduce Meals
+110,Northern,Lira,Primary,3.698444952831686,19,Male,1527476,River,Maize,2022,Business,7,419794,Reduce Meals
+111,Western,Lira,Secondary,3.71030052547169,50,Male,1924700,Borehole,Coffee,2022,Business,4,439624,Reduce Meals
+112,Northern,Arua,Primary,5.594049015620952,60,Female,390984,Tap,Coffee,2023,Business,8,69702,Reduce Meals
+113,Western,Gulu,Secondary,4.024398699288968,48,Male,870392,Tap,Coffee,2023,Casual,10,346989,Reduce Meals
+114,Eastern,Kampala,Secondary,3.4403811589516904,52,Female,1998950,Tap,Maize,2022,Business,7,277220,Reduce Meals
+115,Northern,Arua,Secondary,3.787686881265138,54,Male,1949638,Tap,Beans,2024,Casual,3,281521,Borrow
+116,Western,Mbarara,Secondary,2.788039023455749,64,Female,1915821,Well,Beans,2023,Business,10,140350,None
+117,Central,Arua,Secondary,4.682271890702943,64,Male,1412511,Well,Maize,2022,Casual,11,458024,None
+118,Eastern,Arua,Secondary,3.780100300220878,53,Male,1853878,Borehole,Beans,2023,Casual,3,389512,Borrow
+119,Western,Gulu,Secondary,5.331252790397738,40,Male,887477,River,Maize,2023,Casual,10,33539,None
+120,Central,Mbarara,None,0.9252525048255825,53,Male,1138257,Tap,Maize,2023,Business,4,126552,None
+121,Western,Arua,Secondary,5.584442111685647,57,Male,1531045,Tap,Beans,2024,Business,6,142512,Borrow
+122,Central,Kampala,Secondary,4.957455749317041,56,Male,1648813,Well,Cassava,2022,Casual,4,288389,None
+123,Eastern,Kampala,Secondary,4.228596776718344,43,Male,673937,Well,Coffee,2024,Business,4,415313,None
+124,Northern,Lira,Secondary,5.780232587350822,42,Female,253096,Tap,Maize,2024,Casual,5,204775,Borrow
+125,Central,Mbarara,University,7.752293461037209,34,Female,1975340,River,Maize,2023,Business,10,329236,None
+126,Western,Mbarara,University,9.0,32,Female,868431,Borehole,Cassava,2022,Casual,6,371598,Reduce Meals
+127,Eastern,Lira,Primary,2.0905447550217957,54,Male,1237588,Borehole,Maize,2023,Casual,9,394367,Borrow
+128,Central,Arua,Primary,2.5766161054584606,62,Male,994473,Borehole,Maize,2024,Farming,5,152770,None
+129,Western,Mbarara,Secondary,5.76870901101093,21,Male,937411,Borehole,Beans,2024,Business,5,148673,None
+130,Western,Kampala,Primary,0.9564621881648876,39,Female,702827,River,Beans,2022,Business,4,157879,Reduce Meals
+131,Western,Kampala,Secondary,5.516943563232562,34,Female,1288634,River,Cassava,2024,Farming,8,176374,Borrow
+132,Central,Gulu,University,7.239302757681471,39,Female,772551,River,Maize,2024,Casual,8,216936,Borrow
+133,Central,Mbarara,Primary,1.6117892445527522,34,Female,422574,Well,Coffee,2022,Casual,3,139111,None
+134,Central,Arua,Primary,1.1369603414488785,31,Female,1353396,Tap,Beans,2023,Farming,9,309571,Reduce Meals
+135,Northern,Lira,Primary,1.827510526869716,31,Female,831933,River,Coffee,2022,Farming,6,333983,Reduce Meals
+136,Central,Lira,Secondary,1.9151804276744282,34,Male,899830,Borehole,Coffee,2024,Casual,5,189121,Reduce Meals
+137,Central,Arua,Secondary,3.7104605563084965,25,Female,1991762,River,Cassava,2022,Business,10,412269,Reduce Meals
+138,Central,Gulu,Primary,3.1225563333425814,51,Male,689454,Tap,Cassava,2023,Farming,4,228252,Reduce Meals
+139,Northern,Lira,University,6.323699359031172,43,Female,1538943,Well,Maize,2024,Farming,11,378945,Reduce Meals
+140,Central,Mbarara,Secondary,5.588312701433808,62,Female,1020007,Borehole,Cassava,2023,Farming,10,494497,Borrow
+141,Western,Gulu,None,2.8599476027252875,47,Male,1163303,Well,Beans,2023,Farming,10,372989,None
+142,Central,Mbarara,Secondary,5.475644482625775,39,Male,965064,River,Maize,2022,Farming,5,348442,None
+143,Western,Kampala,Secondary,4.430640910264366,33,Male,1532381,Borehole,Maize,2023,Farming,6,89147,Reduce Meals
+144,Western,Gulu,Primary,0.2,47,Female,430119,Borehole,Coffee,2022,Casual,4,55413,Borrow
+145,Western,Lira,None,0.49630250796739406,33,Female,624363,River,Coffee,2022,Casual,4,65958,Borrow
+146,Northern,Gulu,None,1.057961473225613,55,Male,753402,River,Coffee,2023,Farming,6,31275,Reduce Meals
+147,Northern,Gulu,Primary,1.6061323504951892,41,Female,1778894,Tap,Maize,2022,Casual,8,26597,None
+148,Northern,Gulu,University,6.660494524513429,53,Male,552195,River,Cassava,2022,Business,7,339665,Reduce Meals
+149,Central,Gulu,University,8.410067468693379,52,Female,1951365,River,Cassava,2023,Business,3,94243,Borrow
+150,Western,Mbarara,Primary,0.8542234704846818,23,Female,1034175,River,Cassava,2024,Farming,3,254482,Reduce Meals
+151,Northern,Kampala,Primary,4.311692056119027,21,Female,426941,Borehole,Maize,2022,Business,8,68908,None
+152,Northern,Arua,Primary,3.384726421754137,35,Male,1636476,Tap,Maize,2022,Business,5,474835,None
+153,Central,Gulu,Primary,2.7682168082776957,23,Female,1576335,Borehole,Maize,2023,Casual,5,317332,Borrow
+154,Northern,Lira,University,6.086383444259236,43,Male,1296153,River,Maize,2022,Casual,9,296854,Reduce Meals
+155,Central,Gulu,Primary,1.6260496545085745,54,Male,687800,Tap,Maize,2023,Casual,3,380637,Reduce Meals
+156,Eastern,Lira,Primary,0.8737822854112602,44,Male,572580,River,Cassava,2024,Casual,3,222424,Borrow
+157,Northern,Mbarara,Primary,4.216765480314387,58,Male,727254,Borehole,Maize,2024,Business,5,468702,Reduce Meals
+158,Eastern,Lira,Secondary,5.737611560074042,28,Male,1624558,Borehole,Cassava,2023,Farming,10,180122,Borrow
+159,Central,Arua,Primary,1.0937153714167178,55,Male,1776592,River,Maize,2024,Casual,3,311393,Reduce Meals
+160,Western,Kampala,Secondary,3.647372005093799,33,Male,1941240,Tap,Cassava,2023,Business,6,34247,None
+161,Northern,Lira,Primary,2.933144769231909,36,Male,1691069,Borehole,Beans,2022,Casual,11,463378,Borrow
+162,Central,Lira,Secondary,3.9004908618277923,60,Male,1483765,River,Beans,2024,Business,6,288552,Reduce Meals
+163,Western,Kampala,Secondary,2.2813252429681823,32,Female,1732122,Well,Cassava,2022,Casual,10,76313,Reduce Meals
+164,Western,Arua,Primary,1.8422272394443118,43,Male,1904883,River,Beans,2022,Farming,9,201755,Reduce Meals
+165,Eastern,Gulu,Secondary,6.1510342980200186,58,Female,1576850,River,Beans,2023,Casual,5,249407,Borrow
+166,Central,Lira,University,6.210021409585556,48,Male,745702,Tap,Cassava,2024,Farming,9,267587,None
+167,Western,Kampala,University,6.636532663297793,36,Female,1213730,River,Maize,2024,Casual,9,392414,Reduce Meals
+168,Northern,Mbarara,Secondary,3.0548225759646197,41,Female,1199564,Well,Maize,2022,Casual,5,131151,Borrow
+169,Northern,Kampala,Secondary,4.787762985283749,26,Female,293005,River,Cassava,2022,Casual,4,358962,Reduce Meals
+170,Eastern,Mbarara,University,6.915151799024583,40,Female,612655,Well,Coffee,2023,Business,11,431561,None
+171,Western,Arua,Secondary,3.4579802584430217,21,Female,651436,Borehole,Coffee,2024,Business,3,143973,None
+172,Central,Gulu,None,0.2,27,Female,902145,River,Beans,2023,Farming,9,198831,None
+173,Northern,Kampala,University,8.204543374010875,26,Male,1547693,Tap,Coffee,2023,Farming,6,494089,Borrow
+174,Western,Lira,Primary,0.8944565933589197,36,Male,404390,River,Beans,2023,Business,4,173804,Reduce Meals
+175,Western,Arua,Secondary,4.703815695589555,32,Male,923556,Well,Maize,2024,Farming,4,210376,Borrow
+176,Eastern,Kampala,Primary,0.3461207552884269,51,Male,1493965,Well,Cassava,2023,Farming,10,250278,Reduce Meals
+177,Northern,Lira,None,1.9072116830123824,59,Male,1910025,Tap,Maize,2024,Business,9,148579,Borrow
+178,Northern,Kampala,Primary,3.4702988872600606,36,Male,1243774,Well,Cassava,2023,Business,9,260082,Reduce Meals
+179,Central,Mbarara,Secondary,5.294783711639914,38,Female,401926,River,Coffee,2022,Business,7,343929,Borrow
+180,Northern,Kampala,Primary,2.338791531430132,51,Male,1733933,Well,Maize,2023,Business,10,126691,Reduce Meals
+181,Central,Kampala,Primary,4.084003605563696,34,Female,229400,River,Maize,2023,Casual,4,257426,Borrow
+182,Northern,Kampala,Primary,4.807791694996068,35,Female,1395053,River,Beans,2024,Business,4,297535,None
+183,Eastern,Arua,Secondary,3.878376863954037,34,Female,1627960,Well,Cassava,2022,Farming,7,34171,Borrow
+184,Northern,Kampala,University,6.3489949698700725,19,Female,252763,Tap,Coffee,2022,Casual,3,444946,None
+185,Central,Lira,Secondary,4.349177260344936,18,Female,1672001,Borehole,Maize,2024,Casual,8,377163,None
+186,Central,Mbarara,Secondary,3.722319854105793,60,Female,1453246,Tap,Cassava,2024,Farming,6,269629,Reduce Meals
+187,Eastern,Mbarara,University,6.1761298039898795,27,Male,872784,Borehole,Coffee,2022,Casual,8,389772,None
+188,Northern,Kampala,Secondary,3.6632614597584907,54,Female,1093242,Tap,Maize,2024,Farming,9,372248,None
+189,Northern,Arua,Primary,4.215756008006245,22,Female,309955,River,Cassava,2022,Casual,5,377571,Reduce Meals
+190,Eastern,Arua,Primary,3.271881995035432,29,Male,1400204,River,Beans,2023,Casual,10,226392,Borrow
+191,Northern,Lira,Primary,2.019053872741909,53,Male,1603857,Well,Maize,2023,Farming,9,242174,Borrow
+192,Northern,Kampala,Primary,0.2,48,Male,1136834,Borehole,Cassava,2022,Farming,3,90153,None
+193,Central,Mbarara,Secondary,2.655535506393533,55,Male,936626,Borehole,Coffee,2022,Farming,8,37748,Borrow
+194,Northern,Arua,Secondary,4.703429082601878,26,Male,858596,Well,Coffee,2023,Farming,9,397094,None
+195,Northern,Kampala,Primary,0.3784440586111826,61,Male,924576,Tap,Beans,2023,Business,6,133021,Borrow
+196,Eastern,Arua,Secondary,4.492993527451956,43,Male,1662983,Well,Maize,2022,Business,4,216452,Borrow
+197,Eastern,Arua,Secondary,3.1344362751349744,32,Female,1358178,Tap,Beans,2024,Farming,11,247888,Borrow
+198,Western,Mbarara,Primary,2.5918057745806733,33,Male,1463105,Well,Cassava,2024,Business,9,414097,None
+199,Central,Gulu,University,6.863856301334143,30,Female,562315,Borehole,Coffee,2022,Farming,3,182378,Reduce Meals
+200,Northern,Lira,Secondary,4.3205899338907106,42,Male,524437,Borehole,Beans,2024,Farming,10,87150,Borrow
+201,Northern,Lira,Primary,2.1055781529214794,47,Male,838412,Tap,Maize,2023,Casual,5,89364,Borrow
+202,Western,Mbarara,Secondary,3.772714374392268,24,Female,446921,Borehole,Cassava,2023,Farming,6,115925,Borrow
+203,Northern,Arua,Secondary,3.4792095810635617,21,Male,1154192,Borehole,Maize,2024,Farming,7,9958,None
+204,Central,Kampala,Secondary,4.68389231724189,60,Male,1975165,Borehole,Beans,2022,Farming,3,452401,Reduce Meals
+205,Western,Arua,Secondary,5.0051926747809485,57,Male,1858666,Borehole,Coffee,2023,Farming,8,139769,None
+206,Central,Mbarara,Secondary,2.981027477463874,55,Male,1488900,River,Coffee,2023,Casual,8,87160,Borrow
+207,Western,Lira,Secondary,4.148371527707731,47,Male,1602744,Well,Beans,2023,Farming,4,277637,None
+208,Western,Arua,Primary,2.696582073487738,27,Male,355194,Well,Maize,2024,Casual,8,173873,Borrow
+209,Eastern,Lira,Primary,2.683771134623042,47,Male,1945160,River,Maize,2022,Farming,10,283343,Borrow
+210,Central,Kampala,None,1.3667696195965178,56,Female,425612,Borehole,Maize,2024,Casual,8,262081,None
+211,Northern,Lira,Secondary,3.797965189654776,24,Male,599547,Well,Maize,2022,Business,6,238962,Borrow
+212,Northern,Lira,Primary,2.779030425462539,53,Female,942462,Well,Coffee,2022,Casual,6,459008,Borrow
+213,Central,Gulu,University,7.41802871098362,52,Female,573555,Well,Maize,2024,Casual,11,427704,Reduce Meals
+214,Northern,Gulu,Secondary,4.341036655822564,41,Female,242262,Tap,Beans,2023,Farming,8,292637,None
+215,Northern,Gulu,University,7.305939836533724,56,Female,1225194,River,Beans,2022,Casual,10,111545,None
+216,Central,Lira,University,7.790353411037507,53,Female,1626934,Tap,Beans,2024,Casual,10,311146,Borrow
+217,Western,Mbarara,University,4.949059642104732,62,Female,306435,Tap,Beans,2023,Farming,9,23731,Borrow
+218,Central,Lira,University,7.743463841865367,37,Female,1227604,River,Maize,2022,Business,5,138148,None
+219,Western,Mbarara,Secondary,4.542427765221275,49,Male,1859178,Well,Coffee,2022,Business,3,263215,None
+220,Northern,Mbarara,Secondary,3.0883746722612733,56,Male,914952,Tap,Cassava,2023,Business,7,362070,None
+221,Northern,Gulu,Primary,3.3024708823196884,43,Male,889286,Well,Maize,2022,Casual,4,127872,Borrow
+222,Northern,Arua,Primary,2.1016790939760384,43,Female,1072719,Tap,Cassava,2024,Farming,4,460818,Reduce Meals
+223,Eastern,Kampala,Secondary,3.938033563681447,53,Male,843606,Well,Coffee,2022,Business,9,484397,Reduce Meals
+224,Western,Gulu,Secondary,3.692320217534338,60,Female,592278,Borehole,Maize,2022,Business,5,41410,Borrow
+225,Eastern,Gulu,Primary,2.8023988442382244,52,Female,741816,Borehole,Cassava,2023,Business,10,230273,Borrow
+226,Eastern,Arua,Secondary,3.414646857487947,60,Male,1248644,Borehole,Coffee,2024,Business,11,447543,Borrow
+227,Central,Kampala,University,7.701474629947786,52,Female,1055685,River,Cassava,2023,Farming,10,357092,None
+228,Eastern,Lira,Secondary,4.061137412805328,29,Female,1067186,Borehole,Beans,2024,Business,8,192144,Borrow
+229,Central,Lira,Secondary,3.835797516512063,50,Male,1947904,Tap,Beans,2023,Casual,7,228443,None
+230,Central,Gulu,University,7.55287567761397,53,Female,553082,Well,Coffee,2022,Casual,5,41041,Reduce Meals
+231,Eastern,Kampala,University,6.48044323768092,31,Male,1738971,Well,Coffee,2024,Farming,5,385760,Borrow
+232,Western,Gulu,Secondary,5.1481768253623015,50,Female,1814993,Well,Cassava,2024,Business,9,53326,Borrow
+233,Western,Mbarara,University,7.779592950840866,63,Female,1503511,Well,Coffee,2022,Business,7,431765,None
+234,Western,Gulu,University,5.465196161781023,62,Male,576140,Tap,Beans,2023,Casual,8,315240,None
+235,Western,Gulu,University,7.9092602022229235,62,Male,1474336,Well,Beans,2024,Farming,8,186650,None
+236,Western,Lira,Primary,1.0379640284981144,41,Male,1309897,Tap,Maize,2022,Casual,11,439606,Reduce Meals
+237,Eastern,Lira,Secondary,5.371580526882511,32,Female,735814,Tap,Cassava,2022,Farming,3,439268,Reduce Meals
+238,Eastern,Lira,Primary,4.528357192230239,48,Female,1996388,Well,Coffee,2024,Farming,10,305311,Borrow
+239,Northern,Mbarara,None,2.0748344382691313,34,Male,963871,Well,Coffee,2024,Farming,7,447803,Borrow
+240,Western,Lira,Secondary,2.043019355300327,29,Male,684780,Well,Coffee,2024,Casual,8,323436,None
+241,Eastern,Kampala,Secondary,5.263565719386019,39,Male,1930645,Tap,Cassava,2022,Farming,8,485330,Reduce Meals
+242,Northern,Arua,University,9.0,40,Female,307535,River,Beans,2023,Casual,3,337563,Borrow
+243,Western,Kampala,Primary,2.196968359001971,43,Female,215063,Tap,Coffee,2023,Casual,5,173211,None
+244,Central,Kampala,University,6.76529667997011,31,Male,1908659,River,Coffee,2024,Business,8,349897,None
+245,Northern,Lira,Secondary,3.011513278073568,29,Male,1777077,Well,Beans,2022,Casual,11,141779,Reduce Meals
+246,Eastern,Arua,Secondary,4.51207941881967,21,Male,1481418,Tap,Coffee,2022,Casual,8,237464,Reduce Meals
+247,Central,Arua,University,8.069177182543129,63,Female,1333522,Well,Maize,2024,Business,8,406356,Borrow
+248,Central,Arua,Secondary,4.897737128149454,30,Male,813206,River,Beans,2022,Business,3,11093,Borrow
+249,Central,Mbarara,Primary,5.641966977287799,35,Male,1949153,River,Beans,2022,Business,11,475252,None
+250,Northern,Lira,University,6.8330270429657975,60,Male,1272231,Tap,Beans,2022,Farming,6,366233,None
+251,Eastern,Arua,Primary,0.8693266325847357,45,Female,1737676,Tap,Maize,2024,Farming,4,72043,None
+252,Central,Mbarara,None,1.370970971568219,55,Female,1981926,Tap,Beans,2024,Business,3,491338,Borrow
+253,Western,Gulu,University,4.38354823478751,58,Male,343659,Tap,Cassava,2024,Farming,5,386678,Reduce Meals
+254,Central,Gulu,Primary,1.9668960751354865,61,Female,752359,Borehole,Cassava,2023,Business,5,399046,Borrow
+255,Central,Mbarara,Secondary,5.824382058600213,36,Male,1372017,Borehole,Cassava,2023,Farming,7,161680,Reduce Meals
+256,Northern,Mbarara,Primary,2.8251336486317715,63,Male,1607858,Well,Beans,2024,Casual,3,365009,Borrow
+257,Northern,Lira,University,6.979416812831269,64,Male,1559871,River,Beans,2022,Farming,9,386822,Borrow
+258,Eastern,Lira,Primary,4.320780376715357,60,Male,726491,River,Beans,2022,Farming,3,309431,Reduce Meals
+259,Western,Gulu,University,6.52940010833663,55,Female,1393283,Well,Maize,2024,Casual,6,483263,Borrow
+260,Northern,Arua,Secondary,5.4618204129341095,63,Male,1432219,Well,Cassava,2022,Business,8,33427,Borrow
+261,Central,Gulu,Primary,2.6293069751663403,20,Male,1905080,Well,Coffee,2022,Farming,3,477258,None
+262,Eastern,Arua,Secondary,4.580047463459026,36,Female,1674491,Borehole,Coffee,2023,Farming,9,159467,Reduce Meals
+263,Central,Arua,University,5.582695144136987,37,Male,1988555,Well,Beans,2022,Casual,9,391993,Reduce Meals
+264,Central,Lira,Secondary,3.717953205171783,42,Female,1602383,River,Maize,2022,Casual,5,371983,None
+265,Northern,Kampala,Primary,1.1024817671561264,28,Male,1640564,Well,Beans,2024,Casual,6,354806,Reduce Meals
+266,Eastern,Kampala,Secondary,4.104754921774655,34,Male,1522933,Tap,Coffee,2023,Casual,8,226074,None
+267,Western,Mbarara,Secondary,4.590402343916267,52,Male,216944,River,Cassava,2023,Business,9,280114,Reduce Meals
+268,Western,Lira,Secondary,3.089961894908548,31,Male,1839587,River,Coffee,2022,Farming,6,70218,Reduce Meals
+269,Northern,Arua,Secondary,6.249178922684823,56,Female,399741,River,Cassava,2024,Farming,11,207547,Reduce Meals
+270,Northern,Kampala,Secondary,4.478106019091961,36,Male,268947,Borehole,Cassava,2023,Farming,11,336506,Reduce Meals
+271,Eastern,Arua,Primary,2.5577955855852195,20,Female,1414105,Borehole,Maize,2023,Farming,11,154443,None
+272,Western,Kampala,Secondary,4.9696577513456255,51,Female,1744503,River,Coffee,2022,Business,8,488698,None
+273,Western,Kampala,Secondary,3.3710719191340783,58,Female,235191,Tap,Beans,2023,Farming,4,220967,Reduce Meals
+274,Western,Kampala,Primary,2.663477479167453,39,Male,447129,River,Maize,2024,Business,4,412482,Borrow
+275,Central,Lira,University,6.0831337796424085,55,Female,1770965,Borehole,Cassava,2024,Business,6,234625,None
+276,Western,Gulu,Secondary,5.758679910088983,44,Female,1500343,Tap,Coffee,2023,Casual,11,150267,Reduce Meals
+277,Central,Arua,Secondary,3.141360650602919,38,Female,272264,River,Beans,2024,Casual,5,110949,None
+278,Eastern,Lira,University,6.863165459307173,58,Male,388996,Borehole,Maize,2024,Farming,8,126895,Borrow
+279,Central,Lira,Secondary,4.529315785151776,48,Male,1675536,Tap,Beans,2022,Business,4,289459,Borrow
+280,Eastern,Lira,University,7.1948257444077015,44,Female,1695216,Well,Coffee,2023,Casual,3,251287,Borrow
+281,Western,Lira,Secondary,3.618764826917168,54,Female,681633,Well,Beans,2023,Business,7,83804,Reduce Meals
+282,Western,Lira,None,0.3044905978549022,19,Male,409409,River,Maize,2022,Casual,10,206318,Reduce Meals
+283,Eastern,Mbarara,Secondary,3.633204826953901,64,Female,1717876,Well,Beans,2022,Business,4,303725,Borrow
+284,Northern,Arua,Secondary,4.728325434210283,26,Female,1674678,Borehole,Coffee,2022,Farming,11,176609,None
+285,Eastern,Lira,Secondary,4.056154229088037,36,Female,1610566,Tap,Maize,2022,Farming,10,472913,None
+286,Northern,Arua,Primary,3.2962088084525214,59,Male,809251,River,Cassava,2024,Business,5,97357,Borrow
+287,Central,Mbarara,Primary,2.977003719395073,53,Female,1609939,Tap,Maize,2024,Casual,3,381905,Reduce Meals
+288,Central,Mbarara,Primary,0.22308730190039228,27,Female,337693,Tap,Coffee,2022,Casual,6,206337,None
+289,Central,Arua,Primary,2.747497796837211,57,Male,422621,Tap,Beans,2023,Farming,10,113984,None
+290,Western,Kampala,Secondary,6.45045476781627,62,Female,1298314,Borehole,Cassava,2023,Farming,5,354593,None
+291,Central,Gulu,Primary,3.8252690510383314,56,Male,388766,River,Cassava,2023,Farming,4,251176,Reduce Meals
+292,Northern,Kampala,Secondary,4.6220131607069685,24,Male,1525250,Well,Beans,2022,Casual,9,153256,Borrow
+293,Central,Kampala,Secondary,3.140607869530056,21,Male,338426,Tap,Coffee,2024,Casual,6,416495,Reduce Meals
+294,Eastern,Kampala,Secondary,4.677553716125646,32,Female,1089327,Tap,Maize,2024,Farming,8,157642,None
+295,Eastern,Lira,University,7.539749939878259,29,Female,419831,Tap,Coffee,2024,Business,7,130522,Borrow
+296,Western,Mbarara,Secondary,3.946253319172416,23,Female,324750,Borehole,Cassava,2024,Casual,4,305174,Reduce Meals
+297,Eastern,Kampala,Secondary,4.516742058804438,26,Female,1158736,Well,Maize,2023,Farming,4,324389,Borrow
+298,Northern,Mbarara,Secondary,5.709662458396041,52,Female,1693871,Tap,Maize,2023,Business,11,186539,None
+299,Central,Arua,Primary,1.6427255802582743,25,Female,1893747,Borehole,Beans,2024,Casual,4,250690,Reduce Meals
+300,Western,Gulu,University,5.741700395040873,24,Female,1392198,Borehole,Coffee,2022,Business,10,35133,Borrow
+301,Central,Arua,Primary,3.1926993259942127,21,Female,1505967,Tap,Maize,2024,Business,10,209803,Reduce Meals
+302,Central,Arua,None,1.6575426361980803,30,Male,1598916,Tap,Beans,2024,Casual,3,437021,None
+303,Northern,Lira,Secondary,5.228838295412812,36,Female,1571105,Borehole,Coffee,2022,Farming,3,43998,Borrow
+304,Eastern,Gulu,None,1.7697938119037695,24,Female,1051168,Borehole,Cassava,2024,Business,6,148310,None
+305,Eastern,Arua,University,6.232244936825806,27,Male,1016700,Tap,Cassava,2023,Farming,4,212160,Borrow
+306,Central,Arua,Secondary,4.632192651465405,42,Female,1244332,Borehole,Coffee,2022,Casual,3,461480,None
+307,Western,Gulu,University,5.657873456703826,61,Male,705871,Borehole,Maize,2022,Business,11,377747,None
+308,Eastern,Gulu,Secondary,3.9496812882670063,52,Female,859650,Tap,Maize,2024,Business,5,48245,Reduce Meals
+309,Western,Arua,Secondary,4.702799230966404,42,Female,648250,Tap,Cassava,2023,Business,3,285701,None
+310,Eastern,Gulu,University,6.43948578327611,46,Male,1499503,River,Cassava,2023,Business,4,332618,Reduce Meals
+311,Western,Arua,Primary,4.968052182229827,29,Male,586794,Well,Maize,2023,Business,10,227810,None
+312,Northern,Arua,University,4.907815751176333,64,Female,999864,Tap,Coffee,2024,Casual,7,196739,None
+313,Western,Lira,Primary,1.9525096430011892,57,Male,1839922,Tap,Cassava,2024,Business,9,353372,None
+314,Northern,Kampala,Secondary,3.26222016613009,29,Female,258175,Tap,Maize,2023,Casual,8,261882,Borrow
+315,Northern,Arua,Primary,1.7996511925420466,23,Female,1281905,Well,Coffee,2024,Farming,3,216585,Reduce Meals
+316,Western,Mbarara,Secondary,3.5570017765191215,27,Female,1654120,River,Beans,2023,Casual,8,65074,Borrow
+317,Northern,Kampala,Primary,1.1735793131410068,19,Female,627463,Borehole,Coffee,2024,Business,9,58204,Reduce Meals
+318,Central,Kampala,University,7.552702148572627,62,Female,468821,Well,Maize,2022,Farming,6,229669,None
+319,Northern,Kampala,University,6.2529047026128985,42,Female,1179314,Tap,Coffee,2022,Casual,10,223872,Borrow
+320,Eastern,Lira,University,6.963573335588655,24,Male,250357,Tap,Maize,2024,Casual,10,156647,Reduce Meals
+321,Western,Arua,Primary,2.065174238089755,57,Male,1304388,River,Cassava,2024,Casual,9,473479,None
+322,Central,Lira,Secondary,3.5091195877137906,40,Male,765904,River,Beans,2023,Business,4,207096,Reduce Meals
+323,Western,Arua,Secondary,5.872279236086849,28,Female,654500,River,Cassava,2022,Business,8,413285,Reduce Meals
+324,Eastern,Lira,Primary,3.422932182209408,53,Male,1691533,Borehole,Cassava,2023,Casual,8,155472,None
+325,Eastern,Lira,Primary,0.6317996000448551,40,Female,1695270,Well,Maize,2024,Casual,9,417362,Borrow
+326,Eastern,Mbarara,Secondary,2.2258625516641133,60,Male,385128,Well,Maize,2023,Farming,8,6846,None
+327,Northern,Lira,Secondary,5.242608835636487,24,Female,684699,River,Maize,2023,Business,4,433568,Borrow
+328,Northern,Gulu,Secondary,3.6801466084512464,44,Female,507678,Borehole,Maize,2024,Business,10,23694,Reduce Meals
+329,Western,Mbarara,Secondary,2.5509176660657777,30,Female,410128,Well,Cassava,2022,Farming,6,283884,Reduce Meals
+330,Western,Lira,None,2.245735132540341,34,Female,1837026,Tap,Maize,2023,Casual,11,442654,Reduce Meals
+331,Central,Kampala,None,1.3691240500990902,49,Female,1402453,Tap,Maize,2024,Casual,10,30996,Borrow
+332,Central,Gulu,None,1.4515710848323196,43,Male,1082412,Tap,Cassava,2023,Farming,5,63874,None
+333,Western,Gulu,University,7.609539272005907,39,Female,1006575,Well,Beans,2024,Casual,5,97661,Borrow
+334,Northern,Gulu,None,0.2,30,Male,1193332,River,Beans,2024,Casual,10,106945,Reduce Meals
+335,Eastern,Mbarara,Primary,0.8684991786158354,29,Female,1356956,Tap,Coffee,2024,Farming,4,190754,Reduce Meals
+336,Western,Lira,Primary,4.0809542949032025,24,Female,917833,River,Cassava,2022,Farming,11,175272,None
+337,Central,Lira,University,5.362833239257707,18,Female,347089,Borehole,Maize,2022,Farming,6,22970,Borrow
+338,Northern,Kampala,University,5.577762202924436,50,Male,1704994,Tap,Coffee,2024,Casual,8,404111,Reduce Meals
+339,Western,Kampala,Secondary,3.177564620454234,31,Female,1732651,Borehole,Beans,2022,Farming,5,169143,Borrow
+340,Western,Gulu,Secondary,6.279945923690523,64,Male,1289999,River,Beans,2023,Casual,5,183340,Borrow
+341,Northern,Kampala,Secondary,4.693383300411523,60,Female,241713,Well,Cassava,2022,Business,5,415474,None
+342,Western,Mbarara,None,2.16540797443538,58,Male,1729648,River,Maize,2022,Business,4,88890,None
+343,Northern,Lira,University,6.996167545578729,34,Male,798598,Tap,Maize,2023,Farming,10,227249,Reduce Meals
+344,Eastern,Gulu,Secondary,3.5981127887987667,21,Male,988637,Tap,Coffee,2023,Casual,11,57300,None
+345,Northern,Kampala,Secondary,4.8312912832601675,56,Female,515410,River,Beans,2023,Casual,10,261387,Borrow
+346,Northern,Mbarara,Secondary,2.6433840292031965,18,Female,867702,Tap,Coffee,2024,Casual,5,61915,None
+347,Northern,Mbarara,Secondary,3.1047165479035055,58,Male,918550,Tap,Coffee,2023,Farming,9,139516,Borrow
+348,Western,Kampala,Secondary,4.932975179261481,62,Female,1854727,Borehole,Coffee,2023,Casual,4,75147,Reduce Meals
+349,Western,Lira,University,5.44274476917322,41,Female,876560,Well,Maize,2023,Casual,6,76064,Borrow
+350,Northern,Kampala,University,6.610918530838126,51,Female,338260,River,Beans,2024,Casual,8,66535,None
+351,Western,Gulu,Secondary,4.056487655644588,51,Male,1636953,Borehole,Coffee,2022,Business,7,3760,None
+352,Central,Kampala,Secondary,3.6713379966628383,41,Male,464952,Tap,Beans,2024,Casual,11,167956,Reduce Meals
+353,Central,Mbarara,None,0.2,32,Female,475995,Borehole,Beans,2022,Business,6,364859,None
+354,Western,Kampala,Secondary,3.5710711088113074,34,Male,674106,Well,Coffee,2023,Casual,7,387635,Reduce Meals
+355,Western,Lira,None,0.3750316230675145,30,Female,1444576,River,Coffee,2024,Casual,6,480693,Reduce Meals
+356,Northern,Arua,Secondary,4.361439863287699,24,Female,723047,Well,Cassava,2024,Casual,10,419238,None
+357,Eastern,Kampala,University,6.910490538699468,26,Male,608274,Well,Maize,2022,Business,10,185576,Borrow
+358,Western,Lira,Secondary,4.5779614599368745,61,Male,738908,Borehole,Beans,2024,Casual,5,130992,Reduce Meals
+359,Central,Lira,Secondary,3.5240137270256024,52,Female,1170259,Borehole,Coffee,2024,Farming,3,436346,Borrow
+360,Northern,Mbarara,Primary,3.022777950465892,40,Female,787283,Well,Coffee,2022,Casual,8,174953,None
+361,Western,Lira,Primary,0.9439932672263169,64,Female,1738558,Tap,Beans,2024,Business,4,62399,Borrow
+362,Central,Lira,Secondary,2.3780952673476463,56,Male,760969,River,Coffee,2024,Business,4,429667,Borrow
+363,Central,Lira,Primary,0.2,40,Male,1050941,Tap,Cassava,2023,Farming,5,444629,Borrow
+364,Eastern,Lira,Primary,2.0007027604280028,43,Female,676555,Tap,Beans,2023,Farming,10,223129,Borrow
+365,Northern,Gulu,Secondary,3.4467017756614426,18,Female,267703,River,Coffee,2023,Farming,5,324422,None
+366,Northern,Gulu,Secondary,4.9893156118546,31,Male,923040,Borehole,Beans,2023,Business,9,113286,None
+367,Eastern,Mbarara,Secondary,3.5513374129511304,49,Female,504280,Tap,Coffee,2023,Casual,11,422855,Borrow
+368,Eastern,Kampala,None,1.4733763479442672,27,Male,1471028,Borehole,Coffee,2024,Casual,10,165693,None
+369,Northern,Lira,Secondary,5.013296576583077,18,Male,713795,River,Maize,2024,Farming,3,228057,None
+370,Northern,Kampala,Secondary,3.5136809243508846,22,Female,1599176,Tap,Beans,2023,Farming,9,254551,Reduce Meals
+371,Western,Kampala,Secondary,4.498052210107176,20,Female,283086,Borehole,Maize,2022,Casual,9,144151,None
+372,Western,Mbarara,Secondary,5.201927548955195,44,Male,1940279,Borehole,Coffee,2023,Farming,10,400111,Borrow
+373,Eastern,Lira,Primary,1.2618372251944328,39,Female,1628249,Tap,Beans,2024,Casual,7,355659,None
+374,Western,Lira,Secondary,4.224852338244644,35,Male,480398,River,Beans,2022,Casual,11,52142,None
+375,Central,Arua,Secondary,3.517965616800686,33,Male,523417,Well,Cassava,2023,Casual,11,389301,None
+376,Western,Kampala,University,5.625510117506861,19,Male,1701403,Borehole,Cassava,2022,Casual,10,405768,None
+377,Western,Kampala,Secondary,2.6635482595097715,64,Female,317574,River,Coffee,2023,Business,8,92930,Reduce Meals
+378,Central,Gulu,Secondary,3.0093514278213,30,Female,839135,Tap,Coffee,2024,Casual,8,442037,Borrow
+379,Eastern,Arua,Secondary,4.2600290057520125,62,Female,305547,Borehole,Coffee,2023,Farming,3,97812,Borrow
+380,Central,Gulu,Secondary,2.5891555444382535,33,Male,1701794,Borehole,Coffee,2022,Farming,8,164702,None
+381,Western,Gulu,University,6.249272975911363,25,Male,737214,Borehole,Cassava,2024,Farming,6,70063,None
+382,Eastern,Gulu,Secondary,5.0131944068528975,60,Male,954719,River,Beans,2023,Farming,6,130990,Reduce Meals
+383,Western,Mbarara,Secondary,4.649010963418936,25,Male,1706056,Borehole,Maize,2023,Business,4,274391,None
+384,Central,Mbarara,Secondary,3.669492377061843,27,Female,708237,Borehole,Beans,2023,Casual,6,279747,Reduce Meals
+385,Central,Gulu,Secondary,5.889690413358724,50,Female,711500,Tap,Beans,2023,Casual,7,102099,Borrow
+386,Western,Arua,Secondary,6.093036413911661,48,Female,1600247,Borehole,Cassava,2024,Farming,7,176636,Borrow
+387,Northern,Kampala,University,6.8261224315397255,29,Male,569531,River,Beans,2024,Farming,7,262671,Reduce Meals
+388,Northern,Arua,Secondary,1.731457084115692,26,Male,1538283,Tap,Beans,2023,Farming,6,449737,Borrow
+389,Central,Lira,Secondary,5.08644819701626,54,Female,1148192,Well,Coffee,2024,Casual,3,199530,None
+390,Central,Mbarara,University,4.506023659966415,26,Male,1212063,Tap,Maize,2022,Business,10,267993,None
+391,Northern,Kampala,None,2.676146110720066,35,Female,1413778,Borehole,Beans,2024,Business,5,489052,Reduce Meals
+392,Northern,Kampala,Primary,3.5835849007422986,47,Male,987357,Well,Beans,2022,Business,4,224388,Borrow
+393,Western,Lira,Primary,4.274212504138021,49,Male,1237711,Tap,Maize,2022,Business,11,312458,Borrow
+394,Western,Lira,University,7.0602655583677265,57,Male,775883,Borehole,Coffee,2024,Farming,9,176796,Reduce Meals
+395,Northern,Gulu,None,0.838614232818162,40,Male,1378825,Tap,Cassava,2023,Casual,11,224748,Reduce Meals
+396,Western,Mbarara,None,0.7498988663097761,28,Male,740609,River,Cassava,2024,Farming,4,279374,Borrow
+397,Western,Mbarara,None,0.6537398289691029,37,Female,1416396,Borehole,Beans,2022,Business,11,354373,Reduce Meals
+398,Eastern,Arua,None,2.1810686536747026,36,Female,1943964,River,Coffee,2022,Farming,11,334639,None
+399,Western,Gulu,None,1.912271489505878,53,Female,1526871,Borehole,Cassava,2024,Business,11,363534,Borrow
+400,Central,Gulu,Secondary,4.320225633434213,43,Male,1324709,River,Cassava,2022,Casual,6,435946,Reduce Meals
+401,Western,Gulu,Secondary,3.477818692073028,27,Female,234187,Well,Cassava,2024,Business,5,478419,Reduce Meals
+402,Western,Gulu,Primary,5.129212631300273,41,Female,243835,River,Cassava,2024,Farming,8,91937,Reduce Meals
+403,Northern,Mbarara,Primary,3.4123746139628697,30,Male,1510779,Tap,Cassava,2023,Casual,5,375867,Borrow
+404,Central,Mbarara,None,0.2,63,Male,1742620,Borehole,Beans,2022,Business,11,265467,None
+405,Western,Gulu,Primary,1.983743984062873,51,Female,1465365,Tap,Cassava,2024,Business,5,393661,None
+406,Western,Arua,Secondary,5.131776097408705,46,Female,1275811,River,Beans,2022,Casual,4,345089,Borrow
+407,Eastern,Kampala,Secondary,3.400461078767316,53,Female,818496,Borehole,Maize,2024,Farming,10,141035,Reduce Meals
+408,Western,Kampala,None,1.5515479588258887,24,Female,267114,River,Maize,2024,Casual,8,443727,Borrow
+409,Western,Arua,Secondary,5.1507963003361485,47,Female,1949302,Well,Coffee,2023,Farming,10,382945,Borrow
+410,Eastern,Gulu,Primary,0.2,34,Male,853479,Well,Beans,2024,Business,9,146509,Reduce Meals
+411,Northern,Mbarara,University,6.69196230021075,30,Female,1632609,Well,Coffee,2023,Business,5,410071,Borrow
+412,Western,Kampala,Secondary,4.131209153565122,41,Female,1854447,River,Maize,2022,Casual,10,81947,None
+413,Eastern,Lira,Secondary,3.7879275443162106,48,Female,1280736,River,Maize,2023,Business,3,404063,Borrow
+414,Central,Lira,Primary,2.801695134946041,44,Female,1085443,Well,Maize,2023,Casual,3,396452,Reduce Meals
+415,Northern,Arua,University,7.4575196074958745,38,Female,1119284,River,Maize,2022,Business,10,324041,Borrow
+416,Central,Gulu,None,1.3420509443246091,61,Female,1245843,Tap,Cassava,2023,Business,11,118636,None
+417,Central,Kampala,Primary,2.126172605950568,18,Male,1829766,River,Maize,2023,Farming,8,275631,Borrow
+418,Eastern,Gulu,Primary,3.1326212997842697,32,Male,1459846,Tap,Cassava,2024,Casual,7,339528,Borrow
+419,Western,Kampala,Primary,2.549053409274357,20,Male,841137,Well,Cassava,2023,Casual,4,455639,Borrow
+420,Eastern,Arua,University,6.569299586804521,23,Female,297052,River,Coffee,2024,Business,11,13155,Borrow
+421,Eastern,Arua,Secondary,2.887720614661081,31,Female,852182,Well,Cassava,2023,Farming,8,273399,Reduce Meals
+422,Eastern,Lira,Primary,0.9373452147339216,55,Male,363233,Borehole,Coffee,2022,Farming,10,120860,None
+423,Eastern,Gulu,Secondary,2.86877020728593,50,Female,637715,River,Cassava,2022,Casual,11,395195,None
+424,Northern,Lira,University,7.078329061220215,55,Female,887246,River,Cassava,2023,Casual,11,387740,None
+425,Western,Gulu,University,6.720921252393648,25,Female,602016,Well,Maize,2024,Business,10,414521,Borrow
+426,Central,Lira,Secondary,2.719715901792537,43,Male,249460,Well,Beans,2023,Casual,10,74543,None
+427,Central,Mbarara,University,7.445917825793811,32,Male,1640144,Well,Cassava,2024,Business,5,35094,Reduce Meals
+428,Western,Mbarara,University,8.174309513179095,31,Male,270975,Borehole,Beans,2023,Farming,5,428314,Borrow
+429,Central,Mbarara,Secondary,3.6015063832836645,37,Female,1119868,Borehole,Beans,2022,Casual,4,220638,Borrow
+430,Western,Mbarara,None,0.2,36,Male,1789432,Well,Beans,2022,Farming,3,426986,None
+431,Central,Kampala,Secondary,3.4908736150980877,50,Male,1417740,River,Cassava,2024,Farming,6,9734,Borrow
+432,Eastern,Mbarara,University,7.654460626794694,53,Male,1835543,River,Beans,2023,Business,4,203056,Borrow
+433,Central,Arua,Primary,3.048529858534774,41,Female,265781,Well,Cassava,2024,Farming,4,301749,None
+434,Western,Arua,University,5.877567313988521,27,Male,470574,Tap,Maize,2022,Business,7,77932,Reduce Meals
+435,Western,Kampala,Primary,4.021172137764742,51,Male,666935,Borehole,Cassava,2024,Business,6,448835,Reduce Meals
+436,Western,Mbarara,None,2.5482800659263987,53,Female,762980,Borehole,Coffee,2023,Farming,3,124109,None
+437,Western,Mbarara,Primary,1.766993936723359,64,Male,1278662,Tap,Maize,2024,Farming,11,27881,Reduce Meals
+438,Western,Mbarara,None,0.45670999703503323,53,Female,429334,Well,Beans,2023,Business,6,194473,Reduce Meals
+439,Northern,Lira,University,6.2071720626205105,33,Female,1393549,River,Beans,2023,Business,7,424393,Reduce Meals
+440,Northern,Gulu,University,6.292667224611454,32,Male,466051,River,Coffee,2022,Farming,9,40122,Borrow
+441,Central,Lira,University,7.750538007928443,35,Male,429652,Borehole,Maize,2023,Business,4,243627,Borrow
+442,Western,Gulu,Secondary,4.625329060476594,24,Male,1277180,Tap,Coffee,2023,Business,10,297441,Borrow
+443,Central,Mbarara,Primary,3.3770787693505877,64,Female,1286445,River,Beans,2023,Casual,4,111513,Reduce Meals
+444,Western,Mbarara,Secondary,4.8735651431867,39,Male,869897,Borehole,Cassava,2024,Casual,7,36680,Borrow
+445,Western,Lira,Secondary,5.914527068193732,49,Male,1916437,River,Beans,2022,Casual,4,83452,Reduce Meals
+446,Northern,Lira,Secondary,3.1406144561908595,60,Male,978845,River,Coffee,2024,Casual,4,51044,None
+447,Northern,Gulu,Primary,2.880358530383916,36,Female,843549,River,Cassava,2024,Casual,6,489991,Reduce Meals
+448,Eastern,Arua,Secondary,2.0261787437653025,57,Female,1679163,Borehole,Cassava,2022,Business,6,175156,Borrow
+449,Northern,Gulu,Secondary,2.883044425903142,18,Female,576783,Tap,Beans,2024,Business,10,427405,Reduce Meals
+450,Eastern,Lira,University,6.725146614065153,52,Male,630037,Well,Cassava,2024,Casual,8,144582,Borrow
+451,Eastern,Lira,University,7.2182066127545355,22,Male,1992668,Tap,Maize,2023,Farming,10,352646,Borrow
+452,Eastern,Kampala,Secondary,4.098184257970431,29,Female,587736,River,Beans,2024,Casual,9,22152,None
+453,Eastern,Lira,Secondary,3.632807581187322,29,Male,1516793,Tap,Beans,2022,Farming,6,84738,None
+454,Eastern,Kampala,Secondary,3.8105821225069625,38,Male,1232333,River,Maize,2024,Business,4,157517,Borrow
+455,Central,Arua,None,2.5694409764241044,36,Female,1440653,Borehole,Beans,2023,Farming,11,207760,Reduce Meals
+456,Northern,Gulu,University,6.4159678221198595,26,Female,1717889,Borehole,Coffee,2024,Business,4,464369,None
+457,Eastern,Gulu,University,8.549241622043528,60,Female,1528821,Borehole,Coffee,2022,Farming,3,394411,None
+458,Western,Kampala,Secondary,4.9940170735411336,53,Male,1752844,River,Beans,2023,Business,10,104533,Borrow
+459,Northern,Gulu,Primary,2.9575373461482304,59,Male,624642,Tap,Maize,2024,Business,11,191021,Reduce Meals
+460,Northern,Lira,Primary,1.3064030896790044,64,Male,819165,Well,Cassava,2022,Casual,3,25433,None
+461,Eastern,Mbarara,Secondary,5.135238161399627,49,Female,469457,Well,Maize,2022,Business,9,398521,None
+462,Central,Kampala,None,0.7062294222515006,52,Female,1934709,Borehole,Coffee,2024,Casual,4,189932,Reduce Meals
+463,Eastern,Gulu,University,5.6055602419943,48,Male,259668,Well,Beans,2024,Casual,8,204685,None
+464,Central,Kampala,None,1.7128436130793774,49,Female,554100,River,Maize,2023,Casual,7,48648,Reduce Meals
+465,Western,Kampala,Primary,1.1120539394334603,54,Female,926610,Tap,Cassava,2024,Farming,3,194162,Borrow
+466,Northern,Mbarara,University,6.037758537870418,49,Male,839375,Well,Cassava,2023,Farming,4,227993,None
+467,Western,Lira,Secondary,4.189884088531088,60,Female,581595,Well,Cassava,2024,Business,4,42113,Borrow
+468,Central,Kampala,Primary,4.7184214241147275,54,Male,1865539,Tap,Cassava,2022,Casual,8,246602,Reduce Meals
+469,Central,Gulu,Primary,1.8130842442075124,56,Female,291634,Well,Maize,2022,Casual,3,365648,Borrow
+470,Western,Arua,None,0.7417834806994246,55,Male,1159798,Tap,Cassava,2022,Business,6,130431,Borrow
+471,Central,Kampala,Secondary,4.932345054421646,47,Female,1917518,River,Coffee,2022,Casual,7,173714,Borrow
+472,Western,Kampala,None,0.2,49,Male,309119,River,Cassava,2023,Business,4,295206,Reduce Meals
+473,Northern,Mbarara,Secondary,4.6428063810209155,62,Female,1917696,River,Coffee,2022,Casual,4,333777,Reduce Meals
+474,Western,Lira,University,8.005926807616587,19,Female,533935,Borehole,Maize,2023,Farming,9,497932,Reduce Meals
+475,Northern,Arua,Primary,2.1929051152888985,28,Female,1592878,River,Coffee,2023,Business,9,41604,Reduce Meals
+476,Western,Gulu,University,7.826154281396866,37,Female,1153487,Well,Maize,2023,Business,8,241201,Reduce Meals
+477,Central,Arua,University,7.0914499232118064,54,Female,1682101,Borehole,Cassava,2024,Farming,3,137750,None
+478,Western,Gulu,None,0.46931803619621937,26,Male,229715,Borehole,Beans,2023,Business,5,32121,None
+479,Central,Lira,University,6.6021953141034935,55,Male,1153919,Borehole,Coffee,2024,Farming,11,441719,None
+480,Western,Gulu,Secondary,3.8202426600197583,36,Male,418400,River,Coffee,2023,Casual,3,125015,Borrow
+481,Western,Mbarara,University,6.712361742183522,57,Female,1749904,Borehole,Beans,2024,Farming,4,349084,Borrow
+482,Eastern,Mbarara,Secondary,4.3527178992198285,24,Male,1598980,River,Maize,2024,Farming,10,464495,Reduce Meals
+483,Central,Mbarara,Secondary,4.788199934971857,22,Female,1169085,River,Maize,2022,Business,9,278638,Reduce Meals
+484,Eastern,Mbarara,Secondary,4.708668249587136,64,Female,859012,Borehole,Cassava,2023,Casual,11,175257,None
+485,Central,Arua,University,4.368286428737852,59,Male,1477606,Borehole,Coffee,2024,Farming,6,402894,Reduce Meals
+486,Eastern,Lira,Secondary,4.102691811227974,41,Male,1655820,Well,Maize,2022,Casual,6,168704,Borrow
+487,Northern,Gulu,Secondary,2.690578086593238,58,Female,344875,Borehole,Cassava,2023,Farming,9,46235,Reduce Meals
+488,Western,Gulu,University,6.524272747532674,24,Female,468451,River,Maize,2022,Business,3,132720,None
+489,Central,Mbarara,Primary,2.37621041218908,28,Male,1673117,Well,Beans,2024,Farming,11,343357,Reduce Meals
+490,Central,Mbarara,Primary,3.476148358084709,26,Male,520760,Well,Beans,2022,Farming,4,481517,Borrow
+491,Western,Kampala,Primary,2.4698845328999006,47,Female,1177987,River,Beans,2022,Casual,3,198989,None
+492,Central,Lira,Primary,2.75921801834326,58,Female,1149078,Borehole,Cassava,2023,Farming,9,16489,Reduce Meals
+493,Central,Arua,Primary,3.293056380657429,20,Male,844116,Borehole,Coffee,2024,Business,8,339425,Borrow
+494,Eastern,Gulu,University,8.0277522598193,39,Female,1988734,Tap,Beans,2023,Business,5,399034,None
+495,Central,Kampala,Primary,2.3769860766430897,57,Female,660287,Borehole,Beans,2023,Farming,3,370334,None
+496,Northern,Kampala,Secondary,4.294179441680409,37,Male,346004,Tap,Maize,2022,Farming,7,386757,Borrow
+497,Northern,Gulu,Primary,2.510023302242254,49,Male,1657541,Well,Beans,2024,Casual,6,426365,Reduce Meals
+498,Western,Arua,University,6.257401035568924,24,Female,1519447,Well,Coffee,2023,Casual,7,420528,Reduce Meals
+499,Central,Kampala,University,6.03088477655761,24,Female,386478,Well,Cassava,2024,Business,3,430340,Reduce Meals
+500,Western,Kampala,Secondary,1.9281140835740649,37,Male,1790196,Tap,Beans,2023,Casual,3,104222,None
+501,Northern,Lira,University,5.72333906547567,42,Female,1736862,River,Cassava,2022,Farming,7,1316,None
+502,Central,Arua,None,0.2,62,Male,1652626,River,Cassava,2023,Business,8,464206,Reduce Meals
+503,Central,Kampala,University,8.055198484453252,52,Female,351397,Well,Coffee,2023,Casual,7,60046,None
+504,Western,Arua,Primary,2.688416008297428,61,Male,1913149,Tap,Maize,2023,Business,4,340787,None
+505,Northern,Gulu,University,6.674061027053166,41,Female,714507,Tap,Maize,2024,Farming,11,462826,Borrow
+506,Central,Mbarara,None,0.48251481391891826,57,Female,1100173,Well,Cassava,2022,Casual,7,479940,Reduce Meals
+507,Western,Kampala,Secondary,4.229779263234624,30,Female,716529,Borehole,Beans,2024,Farming,7,244187,Reduce Meals
+508,Northern,Lira,Secondary,3.352020122344666,56,Male,1381051,Well,Cassava,2023,Farming,11,359648,Reduce Meals
+509,Western,Gulu,Primary,2.6740185566206036,21,Male,1567691,Tap,Maize,2022,Business,5,115594,None
+510,Eastern,Arua,Primary,2.7457339829213536,29,Male,973559,Borehole,Beans,2024,Business,7,64042,None
+511,Central,Gulu,None,0.3386162976432562,34,Female,647246,River,Maize,2023,Business,7,499141,None
+512,Eastern,Kampala,Primary,1.619538035177594,18,Female,1845906,Borehole,Coffee,2022,Casual,4,128295,Reduce Meals
+513,Northern,Arua,Secondary,5.162199354595118,34,Male,1343771,River,Maize,2022,Casual,6,154174,None
+514,Eastern,Mbarara,Primary,2.4471400457086996,19,Male,1911527,Tap,Beans,2023,Business,4,260737,Reduce Meals
+515,Eastern,Gulu,Primary,1.7189795707351094,23,Female,589288,Well,Beans,2022,Casual,7,114430,None
+516,Northern,Kampala,None,0.8294936983104809,61,Female,999428,Well,Cassava,2022,Casual,4,238030,Reduce Meals
+517,Western,Lira,University,5.789405913293392,28,Female,1220868,Well,Beans,2024,Business,11,387926,Borrow
+518,Eastern,Arua,Primary,2.4328164193380832,60,Female,1038917,Well,Coffee,2022,Farming,8,425173,None
+519,Western,Gulu,Primary,3.3316283076644684,35,Male,247830,Well,Maize,2024,Casual,10,406088,Reduce Meals
+520,Eastern,Gulu,None,1.1723293324057387,57,Male,1282946,Tap,Cassava,2024,Casual,11,50094,Borrow

@@ -1,0 +1,1001 @@
+ID,Region,District,Education,Gender_HH_Head,Age_HH_Head,Household_Size,Dependents,Livelihood_Main,Livelihood_Secondary,Crop,Yield,Farm_Size_Acres,Water_Source,Irrigation,Livestock_TLU,Food_Insecurity_Score,Food_Consumption_Score,Months_Food_Secure,Coping_Strategy_Index,Savings_UGX,Loan_UGX,Income_UGX,Expenditure_Food_Pct,Shocks_Last_Year,Assistance_Received
+340,Western,Gulu,University,Female,71,9,1,Fishing,Construction,Coffee,0.5,2.5,Rain,Yes,3.1,4,90,9,1,990751,457915,206071,74,Flood,Food
+341,Northern,Kampala,None,Male,21,9,0,Boda Boda,Subsistence Farming,Maize,0.5,1.5,Rain,No,0.4,3,57,2,14,589852,49143,378893,63,Drought,None
+342,Eastern,Kampala,Secondary,Male,23,2,1,Commercial Farming,Salaried Employment,Beans,0.58,1.9,Rain,Yes,5.8,5,76,11,17,943368,247049,1985076,79,None,Cash
+343,Northern,Mbale,University,Female,56,9,0,Fishing,Salaried Employment,Coffee,0.5,2.2,Rain,Yes,3.2,0,52,5,19,860502,359444,230082,38,Price Rise,None
+344,Western,Gulu,University,Female,68,9,0,Salaried Employment,Livestock,Maize,0.5,2.2,Borehole,No,2.4,3,91,5,27,316090,17091,1407688,73,Flood,Food
+345,Northern,Mbarara,None,Male,61,8,2,Construction,Commercial Farming,Coffee,0.5,2.1,Borehole,Yes,8.0,10,35,5,0,37108,493058,550731,40,None,None
+346,Eastern,Mbale,Secondary,Male,41,5,1,Salaried Employment,Small Business,Beans,0.5,4.7,Borehole,Yes,6.4,6,82,8,20,474706,41397,3574908,78,None,Cash
+347,Central,Kampala,None,Male,20,5,0,Charcoal Burning,Livestock,Coffee,0.5,3.1,Borehole,Yes,7.2,0,111,6,24,265583,72389,851509,36,None,Cash
+348,Northern,Mbale,Secondary,Female,34,4,3,Livestock,Charcoal Burning,Beans,0.5,4.1,Rain,No,2.4,2,49,6,30,435153,114377,375147,82,Price Rise,None
+349,Eastern,Mbarara,University,Male,47,5,2,Salaried Employment,Subsistence Farming,Beans,0.5,2.6,Borehole,Yes,1.1,8,48,9,30,81228,213623,3720416,37,None,Cash
+350,Northern,Kampala,Secondary,Female,72,4,4,Fishing,Small Business,Beans,0.5,0.2,Rain,No,7.4,3,69,7,16,108577,367817,700213,38,None,Food
+351,Northern,Gulu,Primary,Male,43,4,2,Boda Boda,Livestock,Maize,0.5,5.9,Borehole,Yes,3.1,10,91,8,32,35512,37149,846948,64,None,Food
+352,Central,Mbale,University,Female,60,5,3,Construction,Subsistence Farming,Beans,0.5,5.4,Rain,No,5.1,9,102,4,2,611704,493247,712072,61,None,Food
+353,Central,Kampala,Secondary,Male,47,8,3,Casual Labor,Casual Labor,Coffee,0.5,1.4,Borehole,No,4.0,8,64,6,27,609690,417650,752545,39,Flood,None
+354,Northern,Mbarara,None,Female,24,10,0,Fishing,Casual Labor,Coffee,0.5,4.9,Rain,No,4.1,9,105,11,12,135993,124712,506191,53,Flood,Cash
+355,Central,Mbarara,Secondary,Male,65,9,0,Commercial Farming,Small Business,Beans,3.3,2.9,Borehole,No,4.6,3,86,12,33,906622,128100,2488781,51,Flood,Cash
+356,Northern,Gulu,Secondary,Male,70,4,4,Boda Boda,Boda Boda,Maize,0.5,4.2,Rain,Yes,0.1,1,83,8,0,210955,450968,719326,54,Price Rise,None
+357,Central,Mbarara,University,Male,40,8,2,Charcoal Burning,Construction,Maize,0.5,5.9,Rain,Yes,6.8,8,100,7,6,964561,183848,472342,74,Price Rise,Cash
+358,Northern,Mbale,University,Female,61,7,3,Small Business,Commercial Farming,Maize,0.5,0.6,Borehole,No,6.7,5,106,7,1,487657,158374,701753,54,Flood,Cash
+359,Eastern,Gulu,Primary,Male,31,5,4,Salaried Employment,Commercial Farming,Beans,0.5,3.1,Borehole,No,5.9,8,70,11,9,410265,444055,3466871,44,Price Rise,Cash
+360,Northern,Mbale,Primary,Female,72,3,2,Subsistence Farming,Commercial Farming,Beans,2.52,5.9,Borehole,Yes,7.7,1,58,7,1,566136,309230,322300,49,Price Rise,Food
+361,Northern,Gulu,Primary,Male,63,4,4,Boda Boda,Salaried Employment,Coffee,0.5,0.6,Borehole,No,5.7,10,93,9,26,114156,358315,791277,83,None,Cash
+362,Eastern,Mbale,University,Female,52,6,3,Subsistence Farming,Boda Boda,Coffee,5.34,3.5,Rain,Yes,6.3,4,37,12,18,994203,352162,89574,68,Flood,Cash
+363,Western,Mbale,None,Female,54,7,4,Charcoal Burning,Charcoal Burning,Beans,0.5,1.4,Rain,Yes,5.5,10,111,8,11,633921,307689,459960,63,Flood,Food
+364,Northern,Mbarara,None,Female,36,2,2,Construction,Charcoal Burning,Maize,0.5,2.0,Rain,No,5.5,9,23,7,18,584750,450589,242526,40,None,Food
+365,Central,Mbale,None,Male,45,7,1,Construction,Commercial Farming,Beans,0.5,1.5,Borehole,No,4.3,9,100,3,4,796905,226183,496776,37,Drought,Cash
+366,Northern,Mbarara,Primary,Female,47,4,0,Commercial Farming,Commercial Farming,Maize,4.25,2.1,Rain,Yes,3.1,9,88,8,26,70471,399830,2059652,58,Flood,Cash
+367,Northern,Mbale,None,Female,53,5,1,Charcoal Burning,Boda Boda,Coffee,0.5,5.0,Borehole,Yes,6.4,5,68,4,32,821396,633,327288,49,None,None
+368,Northern,Mbale,Primary,Male,37,9,4,Salaried Employment,Construction,Beans,0.5,5.8,Borehole,Yes,6.7,0,26,7,16,77605,100097,1839626,49,Drought,Food
+369,Western,Kampala,None,Male,34,5,0,Small Business,Fishing,Coffee,0.5,0.6,Rain,Yes,3.5,6,73,3,29,498493,220064,146528,36,None,Food
+370,Northern,Gulu,Primary,Male,48,4,3,Subsistence Farming,Small Business,Coffee,3.93,3.7,Rain,Yes,3.3,1,33,4,34,299241,281245,213903,56,Flood,None
+371,Western,Mbarara,Primary,Male,68,10,2,Salaried Employment,Boda Boda,Coffee,0.5,4.0,Rain,Yes,5.0,6,84,12,16,241149,96571,3164722,37,Drought,Food
+372,Northern,Mbarara,University,Female,48,8,4,Livestock,Salaried Employment,Maize,0.5,4.0,Rain,No,5.6,4,27,11,13,581090,306734,846388,44,None,None
+373,Central,Mbarara,Primary,Male,44,8,1,Livestock,Boda Boda,Beans,0.5,5.6,Borehole,Yes,0.8,4,81,7,12,448693,495779,370820,39,Flood,Cash
+374,Western,Gulu,Secondary,Female,60,9,3,Small Business,Small Business,Maize,0.5,3.6,Rain,No,0.9,2,97,7,29,514628,200713,432447,76,None,Food
+375,Central,Kampala,Primary,Male,45,5,4,Commercial Farming,Subsistence Farming,Coffee,6.24,1.8,Rain,No,0.9,3,86,12,28,413541,205922,977146,50,Price Rise,Cash
+376,Central,Mbarara,None,Male,52,4,4,Boda Boda,Boda Boda,Coffee,0.5,3.4,Borehole,No,5.9,4,55,6,34,539309,275410,875195,43,None,Food
+377,Eastern,Mbale,Secondary,Male,34,7,0,Commercial Farming,Boda Boda,Beans,6.47,2.0,Rain,No,0.8,1,24,9,11,916962,457770,2057446,73,Drought,Cash
+378,Western,Kampala,Primary,Male,73,2,1,Salaried Employment,Livestock,Maize,0.5,2.9,Rain,Yes,1.6,9,99,7,3,444261,66044,1521355,69,Drought,Cash
+379,Northern,Mbale,Secondary,Male,36,3,4,Small Business,Charcoal Burning,Maize,0.5,1.1,Borehole,No,1.7,6,25,3,13,96424,172190,690915,60,Flood,None
+380,Western,Mbarara,None,Male,31,10,3,Charcoal Burning,Subsistence Farming,Beans,0.5,0.3,Rain,No,0.6,9,32,7,15,597862,494157,758630,50,Drought,None
+381,Western,Gulu,University,Female,30,6,2,Livestock,Casual Labor,Beans,0.5,2.8,Borehole,No,6.7,10,107,6,25,895578,149495,484192,38,Flood,Cash
+382,Eastern,Gulu,Primary,Female,73,8,1,Livestock,Construction,Coffee,0.5,4.4,Rain,No,7.1,2,61,2,2,218735,248881,456489,58,Flood,Food
+383,Northern,Kampala,Primary,Male,30,6,2,Casual Labor,Small Business,Coffee,0.5,4.3,Borehole,No,3.8,5,64,7,19,29851,70614,421382,48,Price Rise,Cash
+384,Western,Mbarara,Secondary,Male,21,2,3,Subsistence Farming,Livestock,Beans,1.86,5.3,Borehole,Yes,4.4,6,81,9,0,322628,420579,519187,73,None,Food
+385,Western,Kampala,Secondary,Female,26,6,3,Salaried Employment,Boda Boda,Coffee,0.5,0.5,Rain,Yes,5.2,0,31,11,0,774710,483420,3464065,37,None,Food
+386,Eastern,Kampala,Secondary,Male,22,6,2,Construction,Subsistence Farming,Beans,0.5,2.4,Borehole,No,4.3,7,74,2,2,261262,241929,574531,38,Flood,Food
+387,Central,Kampala,Secondary,Male,68,9,0,Charcoal Burning,Casual Labor,Beans,0.5,2.3,Rain,No,1.9,2,107,12,13,152833,269242,636172,75,None,None
+388,Western,Kampala,None,Male,27,2,2,Boda Boda,Commercial Farming,Coffee,0.5,2.6,Rain,Yes,3.8,10,102,9,10,942159,209042,447029,59,None,None
+389,Western,Mbale,University,Female,40,8,2,Charcoal Burning,Commercial Farming,Beans,0.5,4.7,Borehole,Yes,7.8,3,29,11,18,498201,144939,506281,52,Flood,None
+390,Northern,Gulu,Primary,Female,66,6,1,Subsistence Farming,Boda Boda,Beans,5.49,1.0,Rain,No,5.6,9,107,8,22,283502,41797,315288,84,Price Rise,None
+391,Central,Mbarara,Secondary,Female,44,2,3,Livestock,Subsistence Farming,Maize,0.5,2.8,Rain,Yes,7.9,0,108,6,0,43404,364754,389820,77,Price Rise,None
+392,Central,Mbale,Primary,Female,38,3,1,Boda Boda,Small Business,Coffee,0.5,2.6,Rain,Yes,3.7,8,68,2,19,314437,296993,112800,58,Flood,Food
+393,Eastern,Mbarara,Primary,Male,69,7,3,Livestock,Commercial Farming,Coffee,0.5,5.7,Rain,Yes,1.6,4,111,5,30,201154,235869,101772,61,Drought,Cash
+394,Western,Mbale,University,Male,45,2,4,Commercial Farming,Livestock,Maize,4.43,5.0,Rain,No,3.3,7,107,2,6,844176,275696,901654,78,Price Rise,None
+395,Western,Kampala,University,Male,56,7,3,Salaried Employment,Casual Labor,Maize,0.5,4.6,Rain,No,2.1,5,95,10,34,433049,102263,2653278,54,Price Rise,Cash
+396,Central,Gulu,None,Female,30,7,2,Salaried Employment,Charcoal Burning,Coffee,0.5,1.3,Rain,No,6.9,6,56,4,12,203009,166177,2659508,50,Price Rise,Cash
+397,Eastern,Kampala,Primary,Female,34,8,0,Boda Boda,Subsistence Farming,Maize,0.5,5.2,Borehole,No,2.3,8,91,3,12,809072,73187,102355,59,Price Rise,None
+398,Eastern,Mbale,None,Female,67,5,0,Fishing,Casual Labor,Coffee,0.5,5.5,Rain,Yes,0.8,1,45,6,29,296918,475828,796030,73,None,Cash
+399,Central,Kampala,University,Male,56,10,4,Casual Labor,Subsistence Farming,Maize,0.5,1.0,Rain,No,1.2,5,22,6,14,419254,338655,519567,55,Drought,None
+400,Eastern,Gulu,Secondary,Female,28,8,0,Boda Boda,Salaried Employment,Coffee,0.5,1.9,Borehole,Yes,3.9,6,23,4,17,5677,279469,685455,50,Price Rise,None
+401,Eastern,Mbale,University,Male,72,5,1,Charcoal Burning,Subsistence Farming,Maize,0.5,4.0,Borehole,No,1.7,1,32,7,3,320406,404452,635789,53,Flood,None
+402,Central,Mbale,Secondary,Female,37,2,2,Charcoal Burning,Small Business,Coffee,0.5,4.2,Rain,No,6.5,0,39,11,30,520345,111156,143609,46,Flood,None
+403,Eastern,Mbale,Secondary,Male,59,4,0,Subsistence Farming,Boda Boda,Coffee,3.47,4.4,Borehole,Yes,5.4,2,106,9,29,231044,30288,345117,68,Drought,None
+404,Central,Mbarara,None,Female,25,5,3,Casual Labor,Construction,Maize,0.5,5.3,Rain,No,5.2,2,57,7,23,53566,449203,118800,76,Flood,Food
+405,Northern,Gulu,None,Male,63,6,0,Casual Labor,Construction,Coffee,0.5,1.3,Rain,Yes,1.8,10,69,9,15,27675,53515,797068,59,Price Rise,Food
+406,Western,Kampala,None,Female,47,9,1,Commercial Farming,Commercial Farming,Coffee,4.51,4.5,Rain,Yes,5.9,4,72,12,11,297519,1977,706388,49,Flood,Cash
+407,Eastern,Gulu,Secondary,Female,73,3,2,Fishing,Livestock,Beans,0.5,2.9,Borehole,Yes,4.9,8,78,3,0,137279,9754,609978,71,Price Rise,Cash
+408,Eastern,Mbarara,None,Female,57,7,1,Subsistence Farming,Fishing,Coffee,4.39,0.4,Rain,No,1.4,2,49,10,19,549860,443141,450869,55,Drought,None
+409,Northern,Kampala,Secondary,Male,49,4,3,Commercial Farming,Livestock,Maize,4.18,4.9,Borehole,No,2.4,6,96,8,13,335948,381601,2317614,80,Flood,None
+410,Western,Mbarara,Primary,Male,41,9,2,Livestock,Construction,Beans,0.5,3.7,Borehole,Yes,2.7,1,73,7,17,604439,11807,104392,57,Price Rise,Food
+411,Western,Mbale,Secondary,Male,29,8,1,Salaried Employment,Construction,Beans,0.5,1.7,Borehole,No,5.7,4,42,11,33,534802,79961,2226375,77,Drought,None
+412,Northern,Gulu,University,Male,34,5,0,Commercial Farming,Boda Boda,Coffee,6.06,0.5,Rain,Yes,5.5,9,36,12,1,21489,20163,2202958,75,Price Rise,Cash
+413,Western,Kampala,Secondary,Male,43,9,4,Livestock,Salaried Employment,Maize,0.5,5.2,Rain,No,2.8,8,37,8,34,475362,5094,252714,73,Price Rise,Food
+414,Eastern,Gulu,Primary,Male,36,2,3,Livestock,Casual Labor,Maize,0.5,0.5,Rain,Yes,6.7,10,45,12,15,59674,53656,242969,46,Price Rise,None
+415,Western,Gulu,University,Female,29,4,1,Fishing,Charcoal Burning,Coffee,0.5,1.7,Rain,Yes,7.9,0,37,8,22,874850,422681,442591,42,Drought,Food
+416,Western,Gulu,Primary,Female,66,5,0,Charcoal Burning,Fishing,Maize,0.5,3.7,Rain,Yes,4.6,0,71,6,33,860537,406526,882100,83,Price Rise,None
+417,Western,Kampala,Secondary,Male,59,7,2,Commercial Farming,Casual Labor,Maize,3.92,1.5,Borehole,Yes,0.4,8,40,6,27,783739,6197,2424892,72,None,None
+418,Central,Mbarara,Primary,Female,60,3,3,Commercial Farming,Construction,Coffee,4.67,1.8,Borehole,No,4.4,3,81,2,14,163826,154026,1858332,77,Price Rise,None
+419,Eastern,Kampala,University,Male,72,9,3,Boda Boda,Commercial Farming,Beans,0.5,1.2,Rain,No,5.4,6,38,5,1,510617,33717,749298,44,Drought,None
+420,Western,Mbale,Secondary,Male,52,2,1,Charcoal Burning,Commercial Farming,Beans,0.5,2.4,Borehole,Yes,6.4,5,58,9,17,729981,414736,660618,78,Price Rise,Cash
+421,Eastern,Gulu,Secondary,Female,29,8,1,Livestock,Salaried Employment,Maize,0.5,3.3,Borehole,Yes,3.9,0,44,2,13,547952,372975,771647,68,Price Rise,Cash
+422,Eastern,Mbarara,None,Female,34,2,0,Commercial Farming,Commercial Farming,Beans,5.13,0.5,Borehole,No,0.6,2,105,11,8,479108,248496,2067345,67,Drought,None
+423,Northern,Kampala,Primary,Female,34,8,1,Salaried Employment,Charcoal Burning,Maize,0.5,0.8,Borehole,No,5.5,6,87,6,23,201982,2554,2866159,49,Price Rise,Cash
+424,Northern,Mbale,Secondary,Male,25,5,1,Boda Boda,Boda Boda,Beans,0.5,2.4,Rain,No,4.4,0,78,12,19,534405,269737,761588,72,Price Rise,None
+425,Central,Mbale,None,Female,71,8,2,Small Business,Salaried Employment,Maize,0.5,1.2,Rain,Yes,0.7,6,30,8,28,115136,285545,156243,60,None,Food
+426,Central,Mbarara,Primary,Female,29,8,3,Salaried Employment,Casual Labor,Beans,0.5,5.2,Borehole,No,2.1,8,98,5,31,745109,125721,1113936,61,Price Rise,None
+427,Central,Mbale,Primary,Male,50,5,4,Salaried Employment,Subsistence Farming,Maize,0.5,3.7,Borehole,Yes,7.0,3,66,9,22,37750,399742,3416061,65,Price Rise,Food
+428,Western,Kampala,University,Male,22,8,1,Commercial Farming,Fishing,Beans,5.65,3.0,Rain,No,4.0,1,55,8,22,722157,373838,1912095,45,Price Rise,None
+429,Northern,Mbale,University,Male,34,9,0,Construction,Subsistence Farming,Maize,0.5,5.9,Rain,Yes,5.1,7,65,5,18,774014,37987,529955,49,Flood,None
+430,Northern,Kampala,University,Male,51,6,2,Charcoal Burning,Casual Labor,Beans,0.5,2.3,Rain,Yes,1.6,6,23,12,27,272537,92927,629650,73,Drought,Cash
+431,Eastern,Mbale,Secondary,Female,30,7,4,Commercial Farming,Salaried Employment,Coffee,2.85,1.3,Borehole,No,6.7,7,55,10,3,466202,494305,2348764,41,Flood,Cash
+432,Eastern,Mbarara,Primary,Female,33,8,2,Casual Labor,Casual Labor,Coffee,0.5,3.3,Borehole,No,5.8,10,36,3,18,187704,428684,379226,61,Flood,Cash
+433,Central,Kampala,Primary,Male,24,7,1,Construction,Livestock,Coffee,0.5,1.2,Borehole,No,4.9,9,31,12,16,710372,144440,887848,60,Flood,Cash
+434,Western,Kampala,University,Male,49,7,2,Charcoal Burning,Salaried Employment,Coffee,0.5,4.6,Rain,No,2.4,3,27,12,31,141350,345855,388728,55,Drought,Cash
+435,Central,Gulu,University,Female,72,7,3,Charcoal Burning,Construction,Beans,0.5,5.4,Borehole,Yes,6.1,6,27,5,16,322610,191637,347580,78,None,Cash
+436,Central,Mbale,Secondary,Female,55,2,3,Fishing,Commercial Farming,Beans,0.5,2.2,Borehole,No,2.1,1,80,6,34,215455,133778,467927,69,Drought,Food
+437,Central,Kampala,Primary,Female,35,6,3,Charcoal Burning,Fishing,Coffee,0.5,1.1,Borehole,No,7.5,4,93,3,29,183461,6447,550578,56,Flood,None
+438,Eastern,Mbarara,Secondary,Female,43,7,1,Construction,Charcoal Burning,Beans,0.5,5.8,Borehole,Yes,2.3,1,63,3,23,430735,37525,260744,52,None,Food
+439,Eastern,Mbarara,University,Male,66,7,1,Subsistence Farming,Small Business,Coffee,4.46,4.4,Rain,No,7.1,9,75,6,25,656776,304185,151202,67,Price Rise,Food
+440,Western,Gulu,None,Male,41,2,3,Charcoal Burning,Small Business,Beans,0.5,1.3,Borehole,No,6.6,5,100,7,29,552007,262036,759789,65,Drought,None
+441,Northern,Mbale,Secondary,Female,62,9,2,Casual Labor,Casual Labor,Coffee,0.5,3.8,Borehole,Yes,2.1,7,32,9,1,409151,276701,852708,80,Drought,Cash
+442,Central,Kampala,Primary,Female,32,9,0,Construction,Charcoal Burning,Coffee,0.5,2.3,Borehole,Yes,3.4,3,67,11,20,981616,326203,485569,55,None,Cash
+443,Central,Kampala,Primary,Female,28,3,1,Boda Boda,Salaried Employment,Beans,0.5,5.0,Borehole,Yes,6.3,4,104,12,22,648524,179240,587305,51,Drought,None
+444,Northern,Mbarara,University,Male,54,7,3,Salaried Employment,Casual Labor,Coffee,0.5,5.2,Rain,No,6.3,1,33,5,10,454678,330465,1783738,73,Flood,Food
+445,Northern,Gulu,None,Male,43,4,0,Livestock,Charcoal Burning,Coffee,0.5,3.0,Borehole,Yes,4.3,1,59,6,1,845917,262000,569050,82,None,Food
+446,Eastern,Kampala,Secondary,Female,72,8,4,Fishing,Subsistence Farming,Coffee,0.5,5.6,Rain,Yes,0.7,0,94,2,32,932430,197801,774304,40,Flood,Food
+447,Eastern,Kampala,Secondary,Male,67,6,2,Subsistence Farming,Livestock,Beans,3.28,0.6,Borehole,No,4.1,1,52,6,20,142126,83949,432465,61,Drought,Food
+448,Western,Mbale,Primary,Female,72,5,2,Boda Boda,Subsistence Farming,Beans,0.5,4.5,Rain,No,6.3,5,93,6,21,915181,31337,874288,77,Price Rise,None
+449,Central,Kampala,University,Male,52,8,1,Salaried Employment,Fishing,Maize,0.5,0.2,Borehole,Yes,2.9,7,56,7,14,648229,127381,1192618,54,Drought,None
+450,Eastern,Gulu,University,Female,70,7,2,Small Business,Charcoal Burning,Coffee,0.5,1.4,Rain,No,5.4,1,80,11,26,183586,10909,798724,70,Price Rise,Food
+451,Northern,Mbale,None,Male,70,5,0,Salaried Employment,Subsistence Farming,Coffee,0.5,3.6,Borehole,No,1.9,1,54,12,19,897312,138688,3430958,66,Price Rise,Food
+452,Central,Kampala,Secondary,Male,47,7,0,Salaried Employment,Charcoal Burning,Coffee,0.5,4.4,Rain,No,3.9,3,52,9,26,540962,395170,2729360,66,Flood,None
+453,Central,Mbarara,None,Female,35,2,0,Boda Boda,Small Business,Coffee,0.5,4.8,Rain,Yes,1.3,0,103,8,1,291810,398459,731093,72,Flood,Food
+454,Western,Mbarara,Secondary,Female,37,7,1,Small Business,Boda Boda,Beans,0.5,0.9,Rain,No,4.3,5,72,5,32,311465,27296,491022,82,Drought,Food
+455,Northern,Mbale,Primary,Male,53,3,1,Boda Boda,Casual Labor,Maize,0.5,1.7,Borehole,No,6.8,1,70,10,14,480987,180649,829542,74,Price Rise,None
+456,Central,Kampala,Primary,Male,21,10,3,Salaried Employment,Subsistence Farming,Beans,0.5,4.1,Rain,Yes,5.5,1,97,11,28,304481,55664,3992104,61,Drought,Food
+457,Northern,Mbale,None,Female,58,10,2,Subsistence Farming,Fishing,Beans,2.07,0.7,Rain,No,7.2,9,38,3,11,452139,91147,91179,77,Drought,Cash
+458,Northern,Gulu,Secondary,Male,38,9,4,Charcoal Burning,Livestock,Coffee,0.5,2.9,Borehole,Yes,7.8,2,90,7,16,708435,431515,767612,75,None,Cash
+459,Eastern,Mbarara,University,Male,56,3,4,Fishing,Boda Boda,Coffee,0.5,3.2,Borehole,No,7.3,8,104,12,6,157975,319190,413705,44,None,None
+460,Eastern,Gulu,Secondary,Male,26,10,3,Livestock,Fishing,Coffee,0.5,1.7,Rain,Yes,1.4,3,41,7,12,28828,485381,884696,36,Drought,Food
+461,Western,Mbarara,University,Female,36,3,3,Construction,Subsistence Farming,Beans,0.5,3.3,Borehole,No,6.6,2,90,5,12,978124,16542,402397,84,Flood,Cash
+462,Western,Mbale,University,Female,40,9,2,Small Business,Commercial Farming,Maize,0.5,2.2,Rain,Yes,0.6,10,103,4,33,121427,439625,677214,82,None,None
+463,Western,Kampala,None,Male,64,2,2,Salaried Employment,Fishing,Coffee,0.5,5.0,Rain,No,4.3,9,71,5,31,175908,37832,1555678,58,None,Cash
+464,Eastern,Mbarara,Primary,Male,27,4,0,Fishing,Salaried Employment,Beans,0.5,4.6,Borehole,Yes,5.2,7,97,3,31,645649,267554,427415,35,Price Rise,Food
+465,Northern,Gulu,University,Male,29,2,1,Subsistence Farming,Livestock,Coffee,5.33,3.1,Rain,No,5.7,3,57,10,24,518406,405465,360890,52,Price Rise,Cash
+466,Eastern,Kampala,University,Female,20,8,3,Construction,Livestock,Maize,0.5,5.0,Rain,No,0.4,2,21,4,5,602128,359121,227033,64,Price Rise,Food
+467,Eastern,Mbarara,Secondary,Female,37,5,1,Construction,Salaried Employment,Maize,0.5,5.5,Rain,Yes,0.8,10,55,6,4,35614,432728,531888,68,None,Food
+468,Northern,Gulu,Secondary,Female,55,3,4,Small Business,Commercial Farming,Coffee,0.5,5.1,Borehole,Yes,0.4,2,86,3,14,999824,426534,506207,73,Drought,Food
+469,Central,Gulu,Secondary,Female,48,6,0,Charcoal Burning,Livestock,Beans,0.5,1.5,Rain,Yes,7.3,10,64,3,0,823647,318191,104096,60,Price Rise,Cash
+470,Eastern,Mbale,None,Female,66,5,2,Construction,Construction,Maize,0.5,0.8,Borehole,No,1.5,0,78,4,25,387596,87200,641326,79,Flood,None
+471,Northern,Gulu,None,Male,54,9,2,Casual Labor,Casual Labor,Maize,0.5,2.7,Borehole,Yes,3.6,9,88,4,14,135318,256650,771169,43,Drought,Cash
+472,Western,Gulu,None,Female,20,9,3,Casual Labor,Small Business,Coffee,0.5,3.2,Borehole,Yes,1.8,5,83,6,34,95647,378088,718198,72,Flood,None
+473,Western,Mbarara,None,Male,45,2,0,Salaried Employment,Small Business,Maize,0.5,0.7,Borehole,Yes,1.1,9,37,9,15,695575,220776,2984144,73,None,Food
+474,Northern,Mbarara,None,Female,54,5,2,Charcoal Burning,Subsistence Farming,Beans,0.5,1.3,Rain,Yes,0.6,9,43,7,31,295766,313138,384238,71,Price Rise,Cash
+475,Eastern,Gulu,University,Male,22,8,2,Subsistence Farming,Construction,Maize,3.1,5.0,Borehole,Yes,3.9,4,45,8,3,661128,300697,254752,69,None,None
+476,Western,Mbale,Secondary,Female,58,8,1,Small Business,Fishing,Beans,0.5,1.9,Rain,No,1.8,6,90,4,5,128387,270246,512740,38,Price Rise,None
+477,Eastern,Mbale,Primary,Female,30,8,2,Charcoal Burning,Casual Labor,Beans,0.5,1.7,Borehole,No,1.8,0,28,10,17,697038,264355,633062,69,Flood,None
+478,Eastern,Mbarara,Primary,Male,52,9,3,Boda Boda,Charcoal Burning,Beans,0.5,0.3,Rain,Yes,1.3,8,67,5,4,908993,479176,166981,39,Drought,Food
+479,Eastern,Gulu,Primary,Female,46,6,3,Commercial Farming,Fishing,Maize,5.97,1.4,Rain,Yes,3.6,3,78,6,16,745424,412297,1328023,80,Price Rise,Cash
+480,Eastern,Gulu,Secondary,Male,62,10,1,Casual Labor,Charcoal Burning,Coffee,0.5,0.4,Borehole,No,2.4,10,69,9,11,615828,1865,199744,56,Price Rise,None
+481,Eastern,Gulu,Primary,Female,59,6,4,Small Business,Casual Labor,Coffee,0.5,4.7,Borehole,Yes,1.5,7,101,9,27,707437,96737,268375,71,Flood,Cash
+482,Northern,Kampala,Primary,Male,32,2,2,Livestock,Subsistence Farming,Beans,0.5,1.9,Rain,Yes,3.3,4,37,5,17,714541,361650,245038,40,Price Rise,Food
+483,Western,Kampala,Primary,Female,63,5,4,Commercial Farming,Small Business,Coffee,3.37,3.5,Rain,No,2.7,9,27,3,3,512146,368216,802025,59,Price Rise,Cash
+484,Eastern,Kampala,Secondary,Male,40,3,3,Fishing,Subsistence Farming,Maize,0.5,4.9,Rain,Yes,6.0,5,45,3,19,982676,320701,332640,43,Drought,Food
+485,Central,Mbarara,None,Male,52,6,1,Casual Labor,Small Business,Coffee,0.5,4.7,Borehole,Yes,7.6,10,50,3,1,687394,127592,676586,43,Drought,Food
+486,Western,Mbale,University,Female,65,2,2,Fishing,Casual Labor,Coffee,0.5,1.3,Borehole,No,5.2,7,86,8,27,73902,490847,660214,38,Flood,None
+487,Central,Mbarara,None,Female,70,9,3,Salaried Employment,Boda Boda,Beans,0.5,1.7,Rain,No,2.2,2,62,2,12,425694,61072,1775942,84,Flood,Food
+488,Western,Gulu,Secondary,Female,52,4,4,Subsistence Farming,Boda Boda,Maize,3.05,3.0,Borehole,Yes,5.3,2,35,2,17,731,231124,215150,53,Flood,Food
+489,Eastern,Mbale,None,Male,38,3,0,Subsistence Farming,Casual Labor,Beans,5.62,4.8,Borehole,Yes,1.0,5,22,6,5,610798,106372,114743,41,Flood,Food
+490,Western,Mbale,Secondary,Female,46,10,4,Boda Boda,Livestock,Beans,0.5,5.5,Borehole,Yes,7.4,4,53,11,13,329638,453297,602320,81,Flood,Food
+491,Central,Kampala,Secondary,Female,34,5,0,Casual Labor,Charcoal Burning,Coffee,0.5,3.3,Rain,No,3.9,10,87,4,10,871357,28204,673239,50,None,None
+492,Central,Mbarara,Primary,Male,52,9,0,Subsistence Farming,Livestock,Maize,3.99,4.6,Borehole,Yes,4.2,4,37,7,8,473080,344486,130122,83,Price Rise,None
+493,Eastern,Mbale,Secondary,Female,40,9,1,Salaried Employment,Salaried Employment,Coffee,0.5,5.0,Rain,No,7.6,8,56,10,7,989436,279654,1437219,75,None,Food
+494,Western,Gulu,Secondary,Male,23,3,0,Casual Labor,Salaried Employment,Coffee,0.5,4.2,Rain,Yes,4.9,3,22,8,12,955377,228013,704182,77,Price Rise,Food
+495,Northern,Kampala,Secondary,Male,21,8,0,Fishing,Salaried Employment,Beans,0.5,0.6,Borehole,Yes,5.5,2,26,8,25,404740,117942,724316,75,Flood,Food
+496,Northern,Mbale,None,Male,25,3,3,Charcoal Burning,Construction,Maize,0.5,4.5,Borehole,Yes,6.3,0,98,5,29,679663,485571,772470,54,Drought,Food
+497,Northern,Gulu,Secondary,Male,55,9,2,Small Business,Small Business,Coffee,0.5,6.0,Rain,Yes,0.6,4,36,10,28,219976,379535,267578,39,None,Food
+498,Western,Mbarara,Secondary,Male,60,8,3,Subsistence Farming,Commercial Farming,Maize,6.43,5.6,Borehole,Yes,6.0,7,21,9,9,140179,42968,548567,38,Price Rise,None
+499,Eastern,Mbarara,University,Male,47,2,4,Boda Boda,Salaried Employment,Beans,0.5,3.3,Borehole,No,5.8,1,35,12,32,583491,75352,596424,67,Flood,None
+500,Northern,Gulu,Secondary,Male,20,4,4,Fishing,Charcoal Burning,Maize,0.5,3.5,Rain,Yes,1.1,6,94,11,21,678375,470450,316852,51,Flood,Food
+501,Central,Gulu,None,Female,73,5,3,Commercial Farming,Small Business,Beans,2.82,2.0,Rain,Yes,6.5,3,30,9,6,771734,481391,1677440,70,Drought,Food
+502,Northern,Kampala,None,Male,62,9,0,Construction,Fishing,Coffee,0.5,3.4,Borehole,Yes,0.8,5,87,2,3,262354,371581,396463,75,Price Rise,Food
+503,Western,Gulu,Primary,Female,65,9,2,Small Business,Subsistence Farming,Maize,0.5,1.7,Rain,Yes,6.9,0,105,4,22,908189,247528,191495,44,None,Cash
+504,Northern,Mbarara,Secondary,Male,23,9,3,Subsistence Farming,Subsistence Farming,Beans,5.19,4.0,Borehole,Yes,7.7,6,42,11,21,3651,79574,540649,49,None,None
+505,Western,Mbarara,None,Male,19,2,3,Boda Boda,Commercial Farming,Coffee,0.5,5.0,Rain,Yes,4.0,2,82,8,17,742102,210098,287954,42,Drought,Food
+506,Northern,Gulu,None,Male,71,2,0,Livestock,Livestock,Coffee,0.5,3.2,Rain,Yes,7.6,9,40,8,18,296993,98935,470830,40,Price Rise,Cash
+507,Northern,Mbarara,Primary,Female,19,8,2,Construction,Fishing,Coffee,0.5,3.4,Rain,No,6.2,9,33,2,12,63308,79637,717758,38,Drought,None
+508,Northern,Gulu,None,Female,74,7,0,Small Business,Boda Boda,Beans,0.5,0.9,Borehole,No,7.5,5,88,7,21,374895,203476,785605,55,Flood,Cash
+509,Western,Gulu,None,Male,72,7,0,Boda Boda,Salaried Employment,Maize,0.5,2.3,Rain,No,6.3,9,24,6,34,626278,309461,336751,53,None,None
+510,Central,Mbarara,University,Male,26,6,4,Casual Labor,Casual Labor,Beans,0.5,1.2,Rain,No,4.2,0,88,6,28,113361,32367,656066,76,None,None
+511,Central,Gulu,University,Female,42,8,4,Construction,Fishing,Maize,0.5,1.7,Borehole,No,7.0,5,39,11,29,156183,40454,315624,54,Price Rise,Food
+512,Eastern,Mbale,None,Female,72,4,1,Small Business,Fishing,Coffee,0.5,1.9,Rain,No,0.8,6,23,2,30,164068,492601,151064,48,None,Cash
+513,Western,Mbarara,Secondary,Female,56,3,0,Small Business,Salaried Employment,Beans,0.5,4.7,Borehole,No,6.8,3,79,8,20,322190,234905,533257,46,Flood,Food
+514,Northern,Mbarara,Primary,Female,38,4,1,Casual Labor,Livestock,Maize,0.5,4.0,Borehole,No,3.1,7,21,7,1,662119,134081,592741,62,Drought,Food
+515,Eastern,Mbarara,Secondary,Female,49,9,2,Livestock,Fishing,Coffee,0.5,6.0,Rain,No,3.2,10,86,10,32,287196,359687,292005,56,Price Rise,Food
+516,Northern,Mbale,None,Male,60,4,2,Livestock,Boda Boda,Coffee,0.5,2.5,Rain,Yes,1.3,10,38,5,2,380050,474646,594704,64,Flood,Cash
+517,Western,Gulu,University,Female,25,6,1,Small Business,Subsistence Farming,Beans,0.5,0.9,Rain,No,0.2,9,99,9,18,707726,388411,887787,72,Price Rise,Food
+518,Eastern,Kampala,Secondary,Male,23,4,3,Fishing,Construction,Coffee,0.5,5.9,Borehole,No,7.9,5,93,3,30,427431,14581,344066,56,Drought,Food
+519,Eastern,Gulu,Secondary,Male,27,7,0,Construction,Fishing,Beans,0.5,3.9,Borehole,Yes,2.8,8,106,5,16,641077,162786,881035,74,Price Rise,Food
+520,Northern,Mbale,University,Female,32,5,0,Subsistence Farming,Subsistence Farming,Coffee,6.38,2.3,Rain,No,7.7,5,78,8,33,90760,386788,356994,67,Price Rise,Cash
+521,Central,Mbale,University,Female,48,7,0,Subsistence Farming,Small Business,Beans,1.2,1.9,Rain,No,5.7,1,21,11,30,847629,33056,508111,42,Drought,Food
+522,Western,Mbarara,Secondary,Male,65,10,1,Small Business,Construction,Maize,0.5,3.4,Borehole,No,3.0,10,59,2,27,83300,10130,424444,43,None,Food
+523,Western,Kampala,Primary,Male,53,7,0,Boda Boda,Small Business,Coffee,0.5,4.1,Borehole,Yes,3.8,5,103,8,13,656488,87841,863770,51,Drought,Cash
+524,Western,Mbale,University,Female,25,8,4,Construction,Charcoal Burning,Coffee,0.5,0.6,Rain,Yes,4.0,4,43,12,2,493765,315350,249654,63,Price Rise,Cash
+525,Western,Kampala,None,Male,22,9,3,Boda Boda,Salaried Employment,Coffee,0.5,3.2,Rain,Yes,1.5,4,93,11,21,130244,317560,827040,54,Price Rise,Cash
+526,Northern,Gulu,Primary,Male,57,5,0,Salaried Employment,Fishing,Coffee,0.5,0.3,Rain,No,5.6,0,58,11,8,3981,242590,2100397,58,Price Rise,None
+527,Eastern,Mbale,University,Female,67,9,2,Fishing,Commercial Farming,Beans,0.5,1.6,Rain,No,1.5,5,72,11,0,181918,16744,347896,69,Price Rise,Cash
+528,Eastern,Gulu,None,Female,47,5,2,Subsistence Farming,Subsistence Farming,Coffee,5.9,1.1,Rain,Yes,1.7,7,89,10,9,773339,499149,291287,74,Drought,Food
+529,Western,Mbale,University,Male,53,5,2,Small Business,Salaried Employment,Beans,0.5,0.6,Borehole,Yes,0.7,0,73,6,17,111287,272808,863637,46,Flood,Cash
+530,Central,Gulu,University,Female,63,9,0,Fishing,Small Business,Maize,0.5,3.7,Borehole,No,3.8,2,36,4,24,395614,235269,315742,70,Drought,Food
+531,Western,Kampala,University,Female,41,2,3,Subsistence Farming,Subsistence Farming,Coffee,1.69,1.8,Borehole,No,6.5,0,69,7,31,318585,223571,367290,66,Drought,Food
+532,Central,Mbarara,Primary,Male,59,10,4,Small Business,Livestock,Maize,0.5,3.2,Rain,No,1.4,7,27,3,32,374997,420897,838674,36,None,None
+533,Eastern,Gulu,University,Male,61,10,0,Subsistence Farming,Commercial Farming,Maize,0.77,4.9,Borehole,No,5.7,5,76,7,9,921610,400274,216657,66,None,Cash
+534,Eastern,Mbarara,None,Male,24,8,2,Charcoal Burning,Small Business,Maize,0.5,5.2,Borehole,Yes,1.2,1,86,9,0,358281,55797,882571,40,Price Rise,Cash
+535,Northern,Gulu,University,Male,61,8,4,Casual Labor,Construction,Beans,0.5,3.5,Borehole,No,6.9,2,24,11,30,385802,66145,757833,84,Price Rise,Cash
+536,Central,Mbarara,Secondary,Female,28,10,4,Livestock,Fishing,Coffee,0.5,2.9,Rain,No,2.3,2,67,9,4,20396,370780,388174,44,Flood,Food
+537,Western,Gulu,Secondary,Male,47,4,1,Charcoal Burning,Boda Boda,Coffee,0.5,4.2,Rain,Yes,3.3,2,104,5,31,107778,203876,548468,82,Price Rise,Food
+538,Northern,Mbale,Primary,Female,74,9,3,Casual Labor,Salaried Employment,Coffee,0.5,2.8,Rain,Yes,1.1,2,70,8,23,608326,281374,538990,47,Price Rise,Cash
+539,Eastern,Kampala,Secondary,Male,39,5,3,Casual Labor,Casual Labor,Maize,0.5,5.2,Borehole,Yes,0.1,4,110,2,31,49172,401036,659787,55,Flood,Cash
+540,Eastern,Gulu,University,Female,34,2,4,Small Business,Commercial Farming,Maize,0.5,0.7,Borehole,No,5.0,7,58,8,19,483473,236778,601735,55,None,Cash
+541,Eastern,Mbale,None,Female,65,6,0,Charcoal Burning,Charcoal Burning,Coffee,0.5,2.1,Rain,No,0.2,2,102,8,18,372304,189730,657340,80,None,Cash
+542,Northern,Mbarara,University,Male,30,5,4,Boda Boda,Commercial Farming,Beans,0.5,5.6,Rain,Yes,2.2,1,55,7,2,316872,270580,228670,73,Flood,Food
+543,Western,Mbale,None,Male,71,4,0,Small Business,Salaried Employment,Beans,0.5,3.1,Rain,Yes,5.1,4,71,12,21,924734,170063,295691,72,Flood,Cash
+544,Western,Kampala,Secondary,Female,54,7,2,Livestock,Subsistence Farming,Coffee,0.5,1.0,Rain,Yes,0.2,7,93,5,17,592975,228031,821277,43,None,Food
+545,Central,Gulu,None,Female,26,8,0,Boda Boda,Livestock,Beans,0.5,4.2,Rain,Yes,4.8,9,25,4,32,749170,257550,611451,48,Flood,Food
+546,Western,Mbale,Primary,Female,48,5,0,Casual Labor,Casual Labor,Maize,0.5,4.1,Borehole,Yes,1.3,0,47,7,20,7094,386609,242414,53,Drought,None
+547,Central,Mbale,Primary,Male,64,8,1,Livestock,Casual Labor,Coffee,0.5,4.2,Borehole,Yes,7.9,9,107,11,8,456612,104343,222746,41,Drought,None
+548,Western,Mbarara,None,Male,22,8,4,Charcoal Burning,Commercial Farming,Beans,0.5,1.5,Borehole,No,5.9,4,106,6,32,247927,90072,605744,38,Flood,None
+549,Northern,Kampala,University,Female,46,9,1,Commercial Farming,Livestock,Maize,1.34,5.4,Borehole,No,7.5,2,69,2,19,651593,274764,2923126,48,None,None
+550,Western,Kampala,Secondary,Male,46,6,1,Construction,Casual Labor,Maize,0.5,3.4,Rain,Yes,0.7,4,104,2,15,594068,144762,329765,67,Drought,Food
+551,Central,Mbarara,None,Female,72,8,3,Charcoal Burning,Salaried Employment,Coffee,0.5,0.2,Rain,Yes,1.1,10,70,3,4,691981,422431,663321,46,Price Rise,Food
+552,Central,Mbale,None,Male,29,4,3,Charcoal Burning,Charcoal Burning,Beans,0.5,5.8,Rain,Yes,7.9,6,78,12,5,837166,93902,724798,38,None,Food
+553,Central,Mbale,Primary,Female,70,2,4,Subsistence Farming,Salaried Employment,Beans,1.83,4.7,Borehole,No,1.2,7,40,9,32,602074,306566,510030,44,None,Food
+554,Northern,Mbale,University,Female,38,8,1,Small Business,Livestock,Beans,0.5,2.5,Borehole,Yes,7.2,6,40,2,27,927950,476086,126627,67,Drought,None
+555,Central,Kampala,Primary,Female,48,6,4,Small Business,Boda Boda,Maize,0.5,4.9,Borehole,No,0.2,8,91,9,13,524689,53594,629838,74,None,Cash
+556,Eastern,Mbale,University,Male,45,4,0,Commercial Farming,Casual Labor,Beans,3.7,0.8,Rain,No,1.4,2,30,8,3,131182,301831,1415365,56,Flood,Cash
+557,Western,Mbarara,University,Male,68,4,0,Commercial Farming,Subsistence Farming,Maize,1.38,3.3,Borehole,No,6.1,3,65,6,21,123987,320045,2614956,52,Price Rise,Food
+558,Eastern,Mbarara,None,Male,26,9,4,Small Business,Salaried Employment,Maize,0.5,2.2,Rain,Yes,0.5,5,109,7,3,415171,332471,600687,53,Price Rise,Food
+559,Western,Gulu,Secondary,Male,47,6,3,Fishing,Charcoal Burning,Maize,0.5,5.2,Borehole,No,3.6,9,23,12,16,802094,300184,417310,66,Drought,None
+560,Eastern,Gulu,None,Female,54,5,2,Salaried Employment,Subsistence Farming,Maize,0.5,3.2,Borehole,Yes,1.5,3,79,4,16,93012,86681,2010650,67,None,None
+561,Central,Gulu,University,Male,42,6,4,Salaried Employment,Small Business,Maize,0.5,5.7,Borehole,Yes,3.1,6,40,8,8,12640,202409,3431651,62,None,Cash
+562,Eastern,Mbarara,University,Male,72,6,0,Commercial Farming,Livestock,Maize,2.88,1.0,Borehole,Yes,6.6,2,100,12,31,881199,238052,2478920,68,Drought,None
+563,Northern,Mbarara,Primary,Male,47,4,1,Commercial Farming,Commercial Farming,Coffee,4.47,4.8,Borehole,No,4.3,4,110,6,26,34008,281184,2358999,73,Price Rise,None
+564,Central,Mbale,Primary,Male,26,5,1,Small Business,Construction,Maize,0.5,2.2,Rain,No,1.3,9,63,4,9,5261,109956,681564,78,Price Rise,Cash
+565,Northern,Kampala,Secondary,Male,74,6,2,Subsistence Farming,Small Business,Maize,3.42,1.1,Borehole,No,0.9,7,40,11,25,236336,64616,232881,50,None,None
+566,Central,Mbale,Primary,Male,47,4,0,Livestock,Salaried Employment,Coffee,0.5,1.6,Borehole,Yes,4.6,4,50,10,33,989148,128412,590458,72,None,None
+567,Western,Gulu,Secondary,Male,31,6,2,Construction,Subsistence Farming,Maize,0.5,6.0,Borehole,No,0.1,1,56,5,33,399602,146582,655298,72,None,Food
+568,Northern,Gulu,None,Female,67,9,4,Casual Labor,Subsistence Farming,Beans,0.5,4.0,Borehole,No,4.3,5,42,11,18,125426,80334,734557,65,Flood,None
+569,Northern,Mbarara,None,Male,48,5,0,Livestock,Boda Boda,Coffee,0.5,5.5,Borehole,No,2.8,9,93,6,29,697143,316607,730772,57,None,None
+570,Eastern,Mbale,None,Female,71,6,0,Salaried Employment,Construction,Beans,0.5,1.0,Borehole,No,4.3,4,88,5,31,956646,203720,1427133,44,None,None
+571,Western,Gulu,Primary,Male,63,6,1,Fishing,Livestock,Maize,0.5,1.8,Borehole,Yes,2.1,0,36,4,34,92297,331628,443764,40,Flood,Cash
+572,Eastern,Mbale,Secondary,Male,44,8,3,Charcoal Burning,Casual Labor,Coffee,0.5,4.7,Borehole,Yes,2.2,1,100,11,7,202300,139421,181298,58,Flood,Cash
+573,Central,Mbarara,Primary,Male,66,4,1,Fishing,Salaried Employment,Coffee,0.5,2.0,Rain,Yes,5.1,4,61,2,33,253690,65223,844500,36,Price Rise,Food
+574,Northern,Mbarara,Secondary,Female,66,10,1,Construction,Boda Boda,Maize,0.5,3.1,Rain,No,3.7,7,36,9,0,784327,280012,228908,64,None,None
+575,Eastern,Gulu,None,Male,66,6,4,Construction,Construction,Beans,0.5,4.8,Borehole,No,4.4,0,37,3,9,411654,260090,690626,45,Flood,None
+576,Central,Kampala,None,Male,19,7,4,Construction,Small Business,Maize,0.5,4.7,Borehole,No,7.0,4,29,5,27,701831,461050,241494,71,None,Food
+577,Northern,Gulu,Secondary,Male,71,2,1,Charcoal Burning,Casual Labor,Maize,0.5,1.0,Borehole,No,7.1,6,70,4,21,762079,411995,605255,48,Flood,Food
+578,Central,Mbarara,Primary,Female,39,2,1,Small Business,Small Business,Beans,0.5,5.8,Borehole,No,7.8,1,29,12,27,849597,85672,100167,76,Price Rise,Food
+579,Northern,Mbarara,University,Male,23,5,3,Fishing,Livestock,Coffee,0.5,2.3,Rain,No,6.0,9,51,5,22,808131,101487,245898,50,None,Cash
+580,Northern,Mbale,None,Female,59,5,1,Salaried Employment,Construction,Maize,0.5,4.5,Borehole,No,6.7,10,101,5,17,226765,115327,1030734,53,Flood,Cash
+581,Northern,Gulu,University,Male,30,2,3,Livestock,Commercial Farming,Coffee,0.5,2.7,Rain,No,2.2,8,88,11,4,20529,226155,296654,54,Price Rise,None
+582,Central,Mbale,Secondary,Female,36,10,0,Charcoal Burning,Construction,Maize,0.5,4.0,Borehole,No,4.5,3,37,4,32,671705,15018,606457,68,Drought,Food
+583,Northern,Gulu,University,Male,43,7,0,Subsistence Farming,Casual Labor,Maize,2.93,0.9,Borehole,No,1.2,6,64,3,8,212373,59666,450075,59,Flood,Cash
+584,Central,Kampala,University,Male,32,2,1,Boda Boda,Subsistence Farming,Beans,0.5,2.3,Borehole,No,7.4,0,29,6,33,719225,431424,394415,50,Flood,Food
+585,Northern,Kampala,Secondary,Male,27,9,4,Boda Boda,Fishing,Maize,0.5,2.3,Rain,Yes,2.7,5,78,11,13,604297,434636,710979,42,Price Rise,Food
+586,Central,Gulu,Secondary,Male,61,8,2,Casual Labor,Salaried Employment,Maize,0.5,5.9,Rain,Yes,2.5,9,61,3,9,89437,175533,620699,66,Flood,None
+587,Central,Mbarara,Secondary,Female,52,7,4,Casual Labor,Charcoal Burning,Coffee,0.5,0.4,Rain,No,3.8,9,28,7,13,629064,450627,409407,57,Flood,Food
+588,Central,Gulu,Primary,Male,73,2,2,Salaried Employment,Salaried Employment,Beans,0.5,4.2,Rain,No,1.8,1,46,7,9,475090,140812,3140613,71,Drought,None
+589,Eastern,Mbale,University,Male,70,3,2,Subsistence Farming,Casual Labor,Maize,1.18,1.4,Rain,No,1.1,2,80,12,17,330379,109454,106677,74,Price Rise,Cash
+590,Eastern,Mbale,Secondary,Female,32,7,1,Fishing,Commercial Farming,Maize,0.5,0.8,Rain,No,4.9,5,26,3,5,590722,448773,598366,53,Drought,Cash
+591,Central,Gulu,University,Female,39,9,0,Livestock,Salaried Employment,Beans,0.5,3.9,Rain,Yes,3.7,6,34,2,1,428831,16440,574273,78,None,Food
+592,Northern,Gulu,University,Female,52,2,3,Boda Boda,Fishing,Maize,0.5,0.9,Borehole,Yes,6.4,8,99,11,29,117508,65410,798177,64,Flood,None
+593,Central,Gulu,Primary,Male,57,4,2,Casual Labor,Subsistence Farming,Beans,0.5,4.7,Borehole,Yes,6.2,5,66,6,7,292227,421522,417115,35,Price Rise,Cash
+594,Central,Mbale,Secondary,Female,20,3,4,Boda Boda,Construction,Beans,0.5,4.3,Borehole,Yes,0.1,10,28,9,34,992468,292981,459990,83,Price Rise,None
+595,Eastern,Mbale,Primary,Male,41,6,2,Construction,Casual Labor,Maize,0.5,1.0,Rain,No,7.5,8,108,3,24,95878,420722,325813,66,Flood,Cash
+596,Western,Mbale,Secondary,Male,24,3,1,Subsistence Farming,Salaried Employment,Maize,6.34,5.1,Rain,No,2.7,8,55,6,5,818568,364011,303468,74,Price Rise,Food
+597,Eastern,Kampala,Secondary,Female,43,9,2,Salaried Employment,Boda Boda,Beans,0.5,3.7,Borehole,No,1.2,4,52,8,3,411893,302056,2168182,35,Drought,Food
+598,Northern,Mbale,Primary,Male,43,6,2,Small Business,Charcoal Burning,Beans,0.5,5.4,Rain,No,3.4,8,41,9,8,511629,317177,585432,52,None,Cash
+599,Northern,Mbale,Secondary,Male,38,9,0,Charcoal Burning,Charcoal Burning,Beans,0.5,5.6,Rain,No,5.9,5,45,4,29,735866,241617,478904,82,None,Food
+600,Western,Mbarara,None,Female,19,6,3,Commercial Farming,Commercial Farming,Maize,4.99,3.7,Rain,Yes,4.0,5,51,4,28,515170,257303,2811238,63,Flood,None
+601,Northern,Kampala,None,Male,23,10,2,Construction,Boda Boda,Coffee,0.5,1.7,Rain,Yes,4.3,5,53,9,16,525701,444041,837581,65,Flood,Food
+602,Central,Mbarara,Secondary,Male,19,6,2,Subsistence Farming,Casual Labor,Beans,0.97,1.7,Borehole,Yes,3.0,9,104,5,14,42732,38429,546757,65,None,None
+603,Eastern,Gulu,Primary,Female,38,5,4,Subsistence Farming,Construction,Maize,5.99,3.5,Rain,No,3.7,7,75,10,22,926796,481790,256875,58,Price Rise,Cash
+604,Western,Kampala,University,Female,45,8,4,Construction,Salaried Employment,Maize,0.5,2.1,Borehole,Yes,5.7,0,29,3,28,386765,483225,707842,41,Price Rise,Cash
+605,Northern,Mbale,University,Female,43,6,1,Casual Labor,Casual Labor,Maize,0.5,0.4,Rain,Yes,3.7,3,93,7,20,96388,359123,596979,43,Price Rise,None
+606,Eastern,Kampala,Primary,Male,72,4,4,Livestock,Subsistence Farming,Maize,0.5,2.2,Borehole,No,0.0,9,67,2,31,138139,171491,853732,50,Drought,Food
+607,Northern,Gulu,Secondary,Male,35,10,3,Charcoal Burning,Livestock,Beans,0.5,4.4,Rain,Yes,7.5,4,22,7,27,156651,71156,677849,74,None,Cash
+608,Central,Gulu,Primary,Male,35,7,1,Commercial Farming,Fishing,Beans,5.7,4.4,Rain,Yes,3.2,8,53,2,23,449374,56066,2720786,57,Price Rise,Food
+609,Western,Gulu,None,Male,27,6,3,Charcoal Burning,Construction,Maize,0.5,4.8,Borehole,No,4.7,6,79,4,12,390916,395849,411191,39,None,None
+610,Central,Mbale,None,Male,59,8,4,Salaried Employment,Boda Boda,Coffee,0.5,0.2,Rain,No,0.6,0,89,9,30,859647,457362,896071,44,Flood,Food
+611,Western,Mbale,Secondary,Male,26,6,0,Fishing,Charcoal Burning,Beans,0.5,2.4,Borehole,Yes,5.4,9,84,10,18,95694,263035,290115,42,Flood,Food
+612,Northern,Mbarara,Secondary,Male,48,7,1,Small Business,Casual Labor,Maize,0.5,4.0,Rain,No,1.4,9,59,9,33,860604,498173,777352,68,Flood,None
+613,Western,Mbale,University,Female,26,5,3,Construction,Construction,Maize,0.5,1.7,Rain,No,6.9,8,90,8,34,246386,104708,406911,47,Drought,Food
+614,Northern,Gulu,University,Female,63,8,3,Charcoal Burning,Charcoal Burning,Coffee,0.5,2.7,Borehole,No,4.0,3,97,2,15,867185,432915,698263,62,Flood,None
+615,Western,Gulu,None,Male,36,5,0,Charcoal Burning,Boda Boda,Beans,0.5,0.7,Borehole,Yes,7.5,4,109,6,6,724892,361817,181434,62,None,Cash
+616,Northern,Mbale,Secondary,Male,32,2,1,Livestock,Construction,Coffee,0.5,1.9,Rain,No,2.9,0,57,11,10,501982,178397,770696,39,None,Food
+617,Northern,Kampala,None,Female,47,3,4,Construction,Fishing,Beans,0.5,3.4,Borehole,No,6.3,2,34,2,13,853791,430851,179822,40,Price Rise,Cash
+618,Central,Gulu,University,Male,20,7,0,Construction,Fishing,Coffee,0.5,4.3,Rain,No,4.5,2,34,9,9,654744,159884,877856,55,None,None
+619,Northern,Kampala,None,Female,63,4,4,Casual Labor,Casual Labor,Coffee,0.5,3.9,Rain,No,5.3,7,38,7,34,464623,363246,245552,68,Drought,None
+620,Eastern,Mbale,Primary,Female,70,9,3,Fishing,Salaried Employment,Beans,0.5,5.4,Borehole,Yes,2.7,0,36,10,32,301586,316741,268636,42,Flood,Cash
+621,Central,Mbarara,University,Male,59,8,4,Construction,Livestock,Beans,0.5,4.5,Borehole,Yes,5.0,5,43,4,3,858311,174404,541008,49,Drought,None
+622,Western,Gulu,None,Female,39,8,2,Commercial Farming,Fishing,Coffee,2.14,4.6,Rain,No,3.6,7,44,5,19,167424,159691,2398801,77,Drought,Cash
+623,Central,Mbale,University,Female,58,10,3,Subsistence Farming,Salaried Employment,Beans,2.91,2.2,Rain,Yes,1.9,6,48,6,0,68632,458776,220606,41,Flood,None
+624,Eastern,Mbarara,Secondary,Female,62,5,3,Construction,Livestock,Maize,0.5,0.5,Borehole,Yes,0.2,0,102,9,34,210345,144834,783423,65,Drought,Cash
+625,Central,Kampala,None,Male,47,10,3,Salaried Employment,Livestock,Maize,0.5,4.6,Borehole,Yes,0.2,9,101,7,11,625805,365675,1827959,61,None,Food
+626,Northern,Mbarara,Primary,Female,24,2,4,Livestock,Boda Boda,Beans,0.5,4.3,Rain,No,6.9,0,37,3,6,506147,49526,679787,41,Price Rise,Cash
+627,Northern,Mbale,None,Female,19,4,3,Construction,Commercial Farming,Maize,0.5,5.5,Rain,No,5.8,1,28,3,11,966493,115586,443504,55,Price Rise,None
+628,Western,Mbale,None,Male,63,8,1,Fishing,Fishing,Maize,0.5,4.3,Borehole,Yes,4.2,10,49,7,21,438552,404508,153695,38,Flood,None
+629,Eastern,Kampala,None,Female,21,6,0,Construction,Construction,Beans,0.5,4.0,Rain,No,2.0,8,55,10,2,689009,477919,161717,41,None,Food
+630,Northern,Mbale,University,Male,25,9,3,Boda Boda,Livestock,Maize,0.5,3.2,Rain,Yes,6.7,9,43,6,17,143247,303860,238150,53,Drought,Cash
+631,Eastern,Mbale,None,Female,52,5,0,Small Business,Subsistence Farming,Maize,0.5,4.2,Borehole,Yes,1.1,2,52,11,30,885730,420414,733825,51,Price Rise,None
+632,Central,Mbarara,University,Female,35,5,1,Casual Labor,Casual Labor,Beans,0.5,1.9,Borehole,No,0.4,10,108,8,26,62592,17837,647264,67,Price Rise,Cash
+633,Northern,Kampala,None,Male,70,9,3,Boda Boda,Salaried Employment,Beans,0.5,5.6,Rain,Yes,4.9,7,81,9,9,97975,237877,861585,49,Price Rise,None
+634,Eastern,Gulu,Secondary,Male,70,10,3,Salaried Employment,Casual Labor,Maize,0.5,3.7,Rain,No,4.4,3,94,9,8,53197,192940,2625528,44,None,Cash
+635,Western,Mbale,None,Male,29,6,4,Construction,Commercial Farming,Maize,0.5,0.7,Borehole,No,7.5,0,76,5,0,167471,340515,204575,82,None,Cash
+636,Central,Kampala,University,Female,19,5,1,Charcoal Burning,Livestock,Maize,0.5,3.1,Borehole,Yes,8.0,10,37,11,32,794832,101849,161703,64,None,Cash
+637,Eastern,Kampala,Primary,Male,23,9,0,Subsistence Farming,Commercial Farming,Beans,2.03,2.6,Borehole,No,5.5,2,75,12,12,51720,7284,588994,43,Flood,None
+638,Eastern,Mbarara,None,Female,34,4,3,Commercial Farming,Small Business,Beans,1.74,2.9,Borehole,Yes,7.7,9,21,9,31,61722,366796,2061242,66,Price Rise,Food
+639,Eastern,Mbarara,None,Male,57,5,2,Commercial Farming,Fishing,Beans,0.8,3.9,Borehole,No,1.3,3,37,6,2,94065,130009,2743193,54,Price Rise,Food
+640,Western,Kampala,University,Female,58,3,0,Small Business,Livestock,Coffee,0.5,5.3,Rain,No,4.1,8,87,11,28,180752,281551,257427,56,Drought,Cash
+641,Eastern,Gulu,None,Male,30,6,1,Salaried Employment,Salaried Employment,Coffee,0.5,1.4,Rain,No,4.6,0,71,8,18,913282,381183,3874301,36,Price Rise,Cash
+642,Northern,Mbale,University,Female,59,6,3,Casual Labor,Casual Labor,Coffee,0.5,5.2,Rain,No,1.3,0,48,3,8,109642,337533,791337,50,Drought,None
+643,Central,Gulu,Secondary,Female,53,8,1,Commercial Farming,Boda Boda,Coffee,1.8,1.4,Rain,No,3.1,9,111,5,26,827746,344506,2751751,76,None,None
+644,Eastern,Kampala,None,Male,55,3,0,Charcoal Burning,Small Business,Coffee,0.5,3.0,Rain,No,5.2,9,89,9,28,335962,189477,281258,74,None,Cash
+645,Northern,Mbarara,None,Female,59,6,2,Fishing,Salaried Employment,Beans,0.5,1.9,Borehole,No,4.7,2,56,10,20,124486,491272,506980,79,Drought,None
+646,Northern,Mbale,University,Female,52,9,1,Fishing,Fishing,Beans,0.5,2.6,Rain,No,3.9,6,87,11,13,917916,475517,460933,49,None,None
+647,Western,Gulu,University,Female,70,9,1,Small Business,Livestock,Coffee,0.5,3.4,Borehole,No,6.3,5,32,11,2,238282,179261,409782,51,None,Cash
+648,Eastern,Kampala,None,Male,21,10,3,Construction,Commercial Farming,Maize,0.5,6.0,Rain,Yes,2.8,5,66,2,26,845467,35057,526877,82,Flood,Cash
+649,Northern,Gulu,None,Female,66,4,0,Subsistence Farming,Boda Boda,Beans,6.12,4.9,Borehole,No,0.6,0,55,10,23,246437,278391,421862,36,None,Cash
+650,Northern,Kampala,Secondary,Female,64,9,2,Fishing,Construction,Coffee,0.5,2.9,Borehole,Yes,0.4,0,60,11,34,727016,261449,440760,65,Price Rise,Cash
+651,Northern,Gulu,University,Male,19,7,4,Subsistence Farming,Subsistence Farming,Coffee,6.49,2.6,Borehole,No,6.8,0,49,7,28,356181,222066,559362,60,Price Rise,Food
+652,Western,Mbarara,University,Male,23,7,2,Salaried Employment,Fishing,Maize,0.5,4.8,Rain,Yes,1.3,0,78,12,8,987414,1325,3400359,59,Drought,None
+653,Eastern,Gulu,University,Male,40,6,0,Salaried Employment,Charcoal Burning,Maize,0.5,3.3,Rain,No,1.4,8,24,4,2,846024,166351,3417235,40,None,Cash
+654,Central,Gulu,University,Male,44,8,3,Charcoal Burning,Construction,Maize,0.5,1.2,Borehole,No,1.7,6,59,4,20,796474,397742,497358,74,Flood,None
+655,Eastern,Mbarara,University,Male,52,9,3,Small Business,Commercial Farming,Maize,0.5,0.5,Rain,Yes,3.4,5,23,12,16,13240,257370,521350,65,None,Cash
+656,Central,Mbarara,Secondary,Male,60,9,0,Small Business,Boda Boda,Coffee,0.5,2.5,Rain,No,3.8,7,102,3,16,379834,327156,250172,40,Flood,Food
+657,Central,Kampala,Secondary,Male,61,5,2,Livestock,Livestock,Maize,0.5,5.3,Borehole,No,0.8,9,26,12,4,349584,259629,526950,83,None,Food
+658,Western,Mbale,Secondary,Male,71,3,3,Small Business,Fishing,Beans,0.5,5.8,Rain,Yes,2.8,2,89,4,3,483953,142537,416224,73,Price Rise,None
+659,Eastern,Mbale,None,Female,35,10,2,Fishing,Small Business,Coffee,0.5,1.9,Rain,Yes,3.6,9,74,7,5,54096,24053,693084,78,Price Rise,None
+660,Central,Mbale,None,Male,64,9,0,Construction,Fishing,Beans,0.5,1.0,Rain,Yes,5.8,2,39,5,29,421231,23834,723561,65,Drought,Cash
+661,Central,Mbale,Secondary,Female,33,10,0,Casual Labor,Casual Labor,Maize,0.5,4.4,Rain,Yes,6.0,7,103,4,3,848451,75401,860010,37,Drought,None
+662,Central,Kampala,Primary,Male,62,2,4,Boda Boda,Small Business,Coffee,0.5,5.1,Borehole,No,0.3,10,93,10,34,324843,39498,604125,76,Price Rise,Food
+663,Western,Gulu,Secondary,Male,57,5,1,Charcoal Burning,Casual Labor,Maize,0.5,5.3,Rain,Yes,1.5,0,70,12,14,677981,476769,580078,52,Flood,Food
+664,Western,Mbale,None,Male,73,10,2,Charcoal Burning,Boda Boda,Coffee,0.5,3.4,Rain,No,3.8,0,37,12,31,306688,131044,859326,60,Flood,Cash
+665,Western,Mbarara,University,Female,41,6,4,Subsistence Farming,Subsistence Farming,Maize,1.54,4.0,Rain,No,3.3,8,23,7,26,176632,253646,392021,71,Price Rise,Cash
+666,Central,Gulu,University,Male,44,8,4,Small Business,Boda Boda,Coffee,0.5,5.2,Borehole,Yes,0.4,8,102,11,2,436559,432473,843257,50,Price Rise,Food
+667,Northern,Kampala,Secondary,Female,46,9,4,Casual Labor,Construction,Beans,0.5,2.7,Borehole,No,2.8,5,45,11,29,615684,244256,171582,38,Drought,Food
+668,Western,Mbarara,None,Female,48,4,4,Commercial Farming,Fishing,Beans,2.85,3.2,Rain,No,7.0,2,93,8,33,275270,481059,1884209,80,Price Rise,None
+669,Eastern,Gulu,Secondary,Female,38,5,4,Subsistence Farming,Boda Boda,Maize,0.77,2.4,Borehole,Yes,1.8,4,60,7,2,945177,224819,123189,67,Drought,Cash
+670,Western,Mbale,Primary,Female,55,6,0,Casual Labor,Subsistence Farming,Coffee,0.5,5.4,Rain,No,3.6,8,23,9,14,880459,30885,877280,67,None,Cash
+671,Northern,Mbarara,Primary,Male,41,9,3,Livestock,Fishing,Beans,0.5,3.9,Borehole,No,4.0,1,101,4,12,817291,326949,211837,43,None,Cash
+672,Northern,Gulu,Primary,Female,33,6,0,Salaried Employment,Commercial Farming,Maize,0.5,4.3,Rain,No,5.6,0,63,7,25,120679,54767,1542286,58,Price Rise,None
+673,Northern,Gulu,Secondary,Female,59,3,1,Boda Boda,Salaried Employment,Maize,0.5,3.8,Rain,No,7.9,0,73,8,4,671047,317994,667895,79,Price Rise,Food
+674,Eastern,Gulu,University,Male,64,8,0,Charcoal Burning,Livestock,Maize,0.5,6.0,Borehole,Yes,1.4,7,96,3,1,583756,320406,681612,58,Drought,Cash
+675,Northern,Gulu,Primary,Male,38,6,2,Small Business,Commercial Farming,Coffee,0.5,3.6,Borehole,No,1.7,5,92,2,30,799726,32801,624792,83,None,Food
+676,Northern,Mbale,Primary,Female,53,3,3,Small Business,Small Business,Coffee,0.5,5.8,Borehole,Yes,3.3,4,81,4,22,659621,211973,611929,52,Price Rise,Cash
+677,Northern,Mbale,Secondary,Male,61,2,3,Subsistence Farming,Fishing,Coffee,5.98,2.3,Rain,Yes,1.6,1,22,4,2,812383,178954,450559,52,None,Cash
+678,Northern,Mbale,University,Female,61,2,0,Subsistence Farming,Commercial Farming,Beans,3.77,1.5,Rain,No,4.8,1,106,8,9,181632,264878,424247,79,Drought,None
+679,Eastern,Gulu,Primary,Female,37,9,0,Construction,Salaried Employment,Beans,0.5,2.9,Rain,Yes,7.8,6,104,4,32,327499,43511,165473,57,Flood,None
+680,Eastern,Mbale,None,Female,71,6,3,Livestock,Salaried Employment,Maize,0.5,1.8,Rain,No,1.5,5,77,7,7,621254,356776,697534,53,Drought,None
+681,Northern,Kampala,None,Male,47,2,0,Commercial Farming,Subsistence Farming,Beans,5.98,5.5,Rain,Yes,4.6,4,101,5,24,753819,33203,1214705,48,Drought,Cash
+682,Eastern,Gulu,University,Male,50,10,1,Commercial Farming,Subsistence Farming,Beans,5.98,1.6,Rain,No,1.5,4,32,11,12,753844,337000,633052,50,None,Food
+683,Western,Kampala,None,Female,51,8,4,Salaried Employment,Casual Labor,Maize,0.5,2.5,Borehole,No,3.2,4,78,7,34,10291,235577,1958823,75,Flood,Food
+684,Northern,Gulu,University,Female,43,2,3,Charcoal Burning,Fishing,Maize,0.5,1.0,Borehole,No,0.9,8,34,2,25,677244,220618,721061,56,Drought,Food
+685,Central,Gulu,Primary,Female,59,9,4,Charcoal Burning,Salaried Employment,Maize,0.5,4.0,Borehole,Yes,6.7,10,28,2,10,313841,494861,208128,49,Price Rise,Cash
+686,Western,Kampala,None,Male,43,10,2,Commercial Farming,Livestock,Coffee,1.23,2.6,Borehole,Yes,1.5,1,79,7,29,376370,162047,1775456,38,Price Rise,None
+687,Central,Mbarara,University,Male,35,3,2,Construction,Livestock,Maize,0.5,3.7,Borehole,No,1.1,4,74,8,21,32489,222741,316939,68,Flood,Food
+688,Western,Kampala,None,Female,61,6,0,Small Business,Casual Labor,Maize,0.5,2.9,Borehole,No,0.8,9,72,10,0,723120,460052,123026,63,None,Cash
+689,Western,Kampala,University,Male,68,10,0,Charcoal Burning,Casual Labor,Beans,0.5,1.1,Rain,Yes,7.5,10,45,6,29,684024,404944,456676,44,None,Food
+690,Eastern,Kampala,None,Female,47,2,3,Commercial Farming,Boda Boda,Maize,0.95,3.8,Rain,Yes,6.3,5,42,7,10,384069,195020,2069918,80,None,Cash
+691,Central,Gulu,Secondary,Female,35,2,2,Small Business,Salaried Employment,Beans,0.5,3.1,Borehole,No,2.6,7,53,9,13,538281,393149,144334,60,Price Rise,None
+692,Northern,Gulu,None,Female,34,6,4,Commercial Farming,Small Business,Coffee,4.63,2.4,Borehole,No,3.8,8,24,2,11,5454,376418,2765747,82,Drought,None
+693,Western,Mbarara,None,Female,30,5,0,Commercial Farming,Construction,Beans,3.4,4.9,Rain,Yes,3.4,0,36,10,9,157900,222406,1128283,50,Price Rise,Cash
+694,Western,Gulu,None,Male,60,10,0,Construction,Commercial Farming,Coffee,0.5,4.7,Borehole,Yes,0.2,2,45,5,10,803080,125031,345050,64,Price Rise,Cash
+695,Central,Mbale,University,Female,61,10,2,Construction,Small Business,Beans,0.5,1.2,Rain,No,2.9,8,48,12,2,300687,49356,343224,75,None,Food
+696,Central,Gulu,University,Female,58,2,1,Commercial Farming,Charcoal Burning,Maize,4.49,5.5,Borehole,No,5.8,4,43,7,34,147020,310209,2342800,68,Flood,None
+697,Eastern,Gulu,None,Female,33,9,2,Commercial Farming,Subsistence Farming,Coffee,4.81,4.0,Rain,Yes,6.3,0,75,9,24,797698,362785,542994,67,Price Rise,Food
+698,Central,Kampala,Primary,Male,70,7,4,Boda Boda,Fishing,Coffee,0.5,4.6,Rain,Yes,3.2,0,31,12,27,603468,486352,433423,75,None,Food
+699,Eastern,Kampala,None,Male,47,10,1,Charcoal Burning,Small Business,Maize,0.5,4.4,Borehole,No,1.7,9,47,3,32,151333,387673,534575,51,Flood,Food
+700,Northern,Mbarara,None,Male,26,9,2,Subsistence Farming,Boda Boda,Beans,2.76,2.7,Borehole,Yes,0.5,4,97,10,10,231213,278957,218274,71,None,Food
+701,Northern,Mbale,University,Female,39,10,0,Salaried Employment,Livestock,Maize,0.5,2.8,Rain,No,1.2,5,50,12,15,219149,441213,3221108,65,None,Food
+702,Northern,Gulu,Primary,Female,58,10,4,Salaried Employment,Casual Labor,Maize,0.5,4.4,Rain,No,4.9,10,29,4,22,765627,193684,1155789,47,Drought,Cash
+703,Northern,Mbale,Primary,Male,67,4,0,Boda Boda,Commercial Farming,Maize,0.5,2.6,Borehole,Yes,2.3,4,107,7,16,196029,316924,722859,38,Price Rise,Food
+704,Western,Mbale,None,Male,64,7,1,Salaried Employment,Charcoal Burning,Coffee,0.5,3.3,Borehole,No,0.5,9,110,3,27,394462,59647,2156267,60,Drought,None
+705,Western,Gulu,University,Female,69,9,0,Charcoal Burning,Subsistence Farming,Maize,0.5,5.7,Borehole,No,2.8,6,62,4,29,343398,319263,634226,37,Flood,Cash
+706,Northern,Mbarara,Primary,Male,24,7,2,Fishing,Small Business,Coffee,0.5,3.7,Borehole,Yes,5.4,5,40,5,6,22557,4613,252220,59,Price Rise,Cash
+707,Western,Mbale,None,Female,56,7,0,Charcoal Burning,Boda Boda,Beans,0.5,0.3,Borehole,Yes,7.5,10,22,12,16,117851,143989,336849,80,Flood,None
+708,Central,Kampala,Secondary,Female,47,7,1,Construction,Charcoal Burning,Beans,0.5,5.6,Rain,Yes,7.1,4,97,9,30,718751,121884,461695,42,Drought,None
+709,Eastern,Kampala,Secondary,Female,39,10,4,Small Business,Subsistence Farming,Maize,0.5,2.6,Borehole,Yes,1.2,7,75,8,15,282162,291949,866085,45,Drought,Cash
+710,Eastern,Gulu,Primary,Female,60,4,0,Boda Boda,Casual Labor,Beans,0.5,2.7,Rain,Yes,1.8,8,50,2,0,773789,298436,438285,60,Flood,None
+711,Western,Mbarara,Secondary,Male,42,4,2,Subsistence Farming,Small Business,Beans,0.55,4.8,Borehole,Yes,5.9,0,61,9,26,765549,495468,332408,55,Flood,None
+712,Northern,Gulu,University,Female,51,3,0,Charcoal Burning,Casual Labor,Maize,0.5,0.5,Borehole,No,6.2,4,106,10,34,506426,445231,525997,61,Drought,None
+713,Northern,Mbarara,None,Female,32,6,0,Subsistence Farming,Commercial Farming,Beans,0.77,5.5,Rain,No,1.0,5,22,11,21,127290,134091,579343,37,Drought,None
+714,Northern,Kampala,University,Female,47,6,1,Construction,Small Business,Coffee,0.5,3.4,Borehole,Yes,4.5,5,54,8,2,504776,6636,775679,53,None,Cash
+715,Central,Kampala,Primary,Male,35,2,1,Subsistence Farming,Casual Labor,Coffee,6.06,2.4,Rain,Yes,4.6,0,44,12,15,197789,31703,144282,47,Drought,None
+716,Northern,Kampala,None,Female,26,5,0,Livestock,Charcoal Burning,Coffee,0.5,4.5,Borehole,Yes,5.9,6,29,5,31,340315,294544,623137,52,Drought,Food
+717,Central,Gulu,Primary,Male,28,3,0,Casual Labor,Fishing,Coffee,0.5,2.4,Rain,Yes,6.3,2,95,5,18,24258,424407,618056,64,None,Cash
+718,Central,Gulu,None,Male,29,10,2,Small Business,Casual Labor,Beans,0.5,2.2,Rain,Yes,1.8,5,92,11,1,563616,132729,721222,70,Drought,Food
+719,Eastern,Mbale,None,Male,63,7,0,Charcoal Burning,Salaried Employment,Maize,0.5,1.0,Rain,No,1.1,8,108,11,24,889560,441955,706206,52,Flood,Cash
+720,Northern,Gulu,Secondary,Male,24,7,1,Fishing,Fishing,Beans,0.5,0.9,Borehole,No,8.0,3,101,8,6,884202,74681,526852,78,None,Food
+721,Central,Mbale,Secondary,Male,30,6,2,Commercial Farming,Subsistence Farming,Coffee,2.74,3.3,Borehole,Yes,2.7,10,90,3,29,312259,180961,781427,51,Flood,Cash
+722,Central,Mbale,None,Male,23,6,2,Commercial Farming,Construction,Maize,0.67,4.1,Rain,Yes,7.3,3,62,5,27,976909,192898,1150847,77,Drought,Food
+723,Northern,Gulu,Primary,Male,45,6,1,Fishing,Construction,Beans,0.5,0.7,Rain,Yes,2.5,4,49,10,2,648303,11052,187047,41,Price Rise,Food
+724,Northern,Gulu,Primary,Male,39,2,3,Fishing,Small Business,Beans,0.5,4.9,Borehole,Yes,3.8,4,110,9,34,981736,181372,302335,61,None,Food
+725,Central,Mbarara,Primary,Male,46,9,4,Construction,Salaried Employment,Coffee,0.5,4.2,Borehole,Yes,6.6,8,84,12,3,450962,315819,163247,76,Drought,Cash
+726,Western,Gulu,University,Female,35,10,0,Charcoal Burning,Boda Boda,Beans,0.5,1.2,Rain,Yes,6.5,5,101,10,15,374573,451989,709729,71,None,None
+727,Western,Mbale,None,Male,53,7,2,Salaried Employment,Livestock,Maize,0.5,2.6,Borehole,Yes,4.5,10,40,9,22,690810,282401,2737105,58,Flood,Cash
+728,Eastern,Mbarara,Primary,Female,54,2,3,Charcoal Burning,Subsistence Farming,Maize,0.5,0.8,Borehole,No,1.5,7,28,6,34,145440,327610,254249,80,Flood,Food
+729,Western,Gulu,Primary,Female,24,9,1,Subsistence Farming,Small Business,Coffee,0.7,4.3,Borehole,Yes,7.3,3,64,6,28,40167,443686,141095,69,Drought,Food
+730,Central,Mbale,None,Female,37,4,0,Livestock,Livestock,Beans,0.5,0.9,Rain,Yes,1.7,10,53,4,2,885804,81043,423174,42,None,None
+731,Central,Kampala,University,Male,61,8,1,Livestock,Livestock,Beans,0.5,3.1,Rain,Yes,5.5,4,44,6,9,299610,263023,603506,60,Drought,None
+732,Eastern,Kampala,University,Male,20,2,0,Casual Labor,Commercial Farming,Coffee,0.5,1.6,Borehole,No,5.3,10,63,12,2,275683,498977,707121,45,Drought,Food
+733,Northern,Mbale,Secondary,Male,24,8,2,Boda Boda,Salaried Employment,Coffee,0.5,3.5,Borehole,Yes,1.2,10,67,7,6,940291,177962,302861,52,Price Rise,Food
+734,Northern,Mbale,Primary,Female,44,10,2,Livestock,Livestock,Coffee,0.5,5.0,Borehole,No,4.4,0,100,8,20,175701,24000,831090,43,Drought,Cash
+735,Eastern,Kampala,University,Male,21,4,0,Subsistence Farming,Charcoal Burning,Beans,0.99,4.7,Borehole,Yes,2.0,0,48,9,28,97127,116987,360918,67,Drought,Cash
+736,Western,Mbale,University,Male,23,6,2,Commercial Farming,Salaried Employment,Beans,6.04,5.5,Borehole,Yes,7.5,4,74,8,33,637623,437085,1581181,39,Price Rise,None
+737,Northern,Mbarara,University,Male,53,5,4,Salaried Employment,Commercial Farming,Coffee,0.5,1.6,Borehole,Yes,5.2,10,96,9,33,208111,76281,3556570,37,Drought,Food
+738,Northern,Gulu,None,Male,59,3,1,Fishing,Salaried Employment,Coffee,0.5,3.2,Rain,Yes,6.2,3,103,7,33,413162,230408,765474,36,None,Food
+739,Northern,Gulu,University,Male,20,5,3,Small Business,Fishing,Beans,0.5,3.9,Borehole,Yes,6.1,0,57,4,33,174885,98091,141142,62,Price Rise,Cash
+740,Western,Kampala,Secondary,Female,66,4,3,Boda Boda,Construction,Maize,0.5,4.0,Borehole,No,2.3,2,82,3,28,737068,44754,371820,63,Price Rise,None
+741,Eastern,Mbale,None,Female,61,2,4,Small Business,Livestock,Beans,0.5,2.6,Rain,Yes,5.6,6,27,4,34,602200,184672,373919,51,Flood,None
+742,Central,Kampala,None,Male,43,6,0,Subsistence Farming,Construction,Maize,4.33,5.1,Rain,Yes,1.9,7,75,8,14,876548,443027,263015,50,Price Rise,Food
+743,Western,Mbarara,Primary,Male,69,8,3,Subsistence Farming,Construction,Coffee,4.66,0.9,Borehole,No,1.4,1,75,3,2,958811,28967,154708,78,None,Cash
+744,Western,Gulu,None,Female,66,10,3,Boda Boda,Charcoal Burning,Maize,0.5,5.8,Borehole,No,4.2,0,95,12,16,992677,159520,162775,67,None,Food
+745,Western,Mbarara,Secondary,Male,60,5,4,Casual Labor,Livestock,Beans,0.5,4.9,Rain,No,5.4,7,56,8,9,638163,484176,632061,61,Drought,Cash
+746,Central,Mbarara,Primary,Male,51,10,3,Boda Boda,Casual Labor,Maize,0.5,2.8,Rain,No,7.6,1,82,8,34,442832,96406,256729,74,None,Food
+747,Western,Mbale,University,Male,62,10,1,Fishing,Small Business,Beans,0.5,0.7,Rain,Yes,1.0,5,47,9,32,529453,337501,277084,37,Flood,Food
+748,Northern,Mbale,Primary,Male,68,7,4,Small Business,Charcoal Burning,Beans,0.5,3.6,Rain,Yes,0.0,9,66,3,26,566114,177991,240212,46,Price Rise,Cash
+749,Central,Mbale,Secondary,Male,30,8,0,Charcoal Burning,Salaried Employment,Beans,0.5,1.7,Rain,Yes,6.5,1,106,11,24,541125,492646,227869,55,Flood,None
+750,Western,Mbale,Primary,Male,32,3,0,Small Business,Small Business,Beans,0.5,5.5,Rain,No,6.0,8,62,8,7,90836,136651,878496,35,None,None
+751,Eastern,Kampala,None,Male,49,5,4,Commercial Farming,Fishing,Beans,4.31,3.9,Rain,No,7.4,5,91,7,21,225004,274552,2549086,81,None,None
+752,Northern,Gulu,None,Female,38,5,1,Salaried Employment,Construction,Maize,0.5,4.3,Borehole,No,2.8,6,33,7,9,503838,84867,1488877,45,None,Cash
+753,Eastern,Gulu,University,Female,34,4,0,Livestock,Charcoal Burning,Coffee,0.5,1.1,Rain,No,0.8,6,61,7,10,94900,342441,652888,37,Flood,Cash
+754,Central,Kampala,University,Female,74,7,4,Small Business,Boda Boda,Beans,0.5,0.5,Rain,Yes,5.2,3,111,12,5,708119,64650,851117,55,Drought,Food
+755,Northern,Mbale,Secondary,Male,28,3,4,Commercial Farming,Small Business,Beans,1.91,0.5,Rain,Yes,0.5,8,32,5,30,692485,245122,1914293,54,Flood,Food
+756,Eastern,Mbarara,Primary,Male,55,4,3,Charcoal Burning,Livestock,Beans,0.5,5.8,Rain,Yes,5.0,9,103,12,0,736987,197238,836071,39,Drought,Food
+757,Northern,Gulu,University,Male,19,9,2,Small Business,Livestock,Beans,0.5,2.9,Borehole,Yes,2.2,10,24,2,7,872489,23001,788029,48,Flood,None
+758,Central,Gulu,University,Male,19,3,4,Salaried Employment,Subsistence Farming,Coffee,0.5,5.9,Borehole,Yes,7.7,3,101,2,30,951896,336994,3383606,69,Drought,Food
+759,Western,Mbale,None,Female,26,2,1,Casual Labor,Small Business,Coffee,0.5,4.6,Borehole,Yes,3.2,10,55,2,12,54003,9280,339429,52,Flood,Food
+760,Eastern,Gulu,Secondary,Male,25,6,4,Casual Labor,Fishing,Coffee,0.5,2.0,Rain,Yes,4.0,8,55,8,14,741920,90927,634819,39,None,Food
+761,Central,Mbale,None,Male,51,9,2,Commercial Farming,Casual Labor,Maize,1.91,2.1,Borehole,Yes,0.8,7,60,7,4,865618,408956,884464,60,Flood,None
+762,Western,Kampala,Primary,Male,25,9,1,Charcoal Burning,Livestock,Maize,0.5,1.8,Rain,No,1.9,7,40,4,3,449798,271053,549728,58,Price Rise,Cash
+763,Central,Kampala,Primary,Male,38,7,2,Casual Labor,Charcoal Burning,Coffee,0.5,1.0,Rain,Yes,5.1,4,78,11,30,591128,76061,430305,57,Drought,None
+764,Western,Kampala,Primary,Female,50,5,4,Casual Labor,Commercial Farming,Beans,0.5,4.0,Rain,No,5.1,4,54,7,25,855133,457595,311722,53,Drought,Food
+765,Eastern,Mbale,Primary,Female,33,10,2,Construction,Casual Labor,Coffee,0.5,4.7,Borehole,No,7.5,6,22,5,8,200059,284396,349542,66,Flood,Cash
+766,Northern,Mbarara,University,Male,61,10,4,Charcoal Burning,Subsistence Farming,Beans,0.5,1.2,Rain,Yes,6.3,10,36,6,13,338616,290319,144483,53,Price Rise,Cash
+767,Central,Mbale,None,Male,61,2,0,Subsistence Farming,Boda Boda,Beans,6.43,4.3,Rain,Yes,2.7,0,73,12,33,67587,351341,154536,84,Flood,Cash
+768,Eastern,Gulu,Primary,Male,20,8,1,Livestock,Boda Boda,Coffee,0.5,4.3,Borehole,Yes,4.5,4,106,7,2,583727,436992,616912,71,None,None
+769,Northern,Mbale,University,Male,26,3,3,Boda Boda,Construction,Beans,0.5,3.4,Rain,No,2.0,9,44,5,34,796676,13445,509856,52,Flood,Cash
+770,Northern,Mbale,University,Female,31,8,0,Subsistence Farming,Commercial Farming,Maize,5.93,2.2,Rain,Yes,0.5,1,86,11,28,949276,56480,496444,77,Flood,None
+771,Northern,Mbale,Primary,Female,61,4,3,Charcoal Burning,Fishing,Maize,0.5,1.5,Rain,Yes,2.2,0,51,11,7,815255,69606,784768,52,Price Rise,Food
+772,Western,Mbarara,Primary,Female,69,9,4,Small Business,Casual Labor,Beans,0.5,5.0,Borehole,No,2.3,5,51,8,27,906023,473669,754470,58,Price Rise,Food
+773,Central,Mbale,Secondary,Male,66,5,3,Construction,Fishing,Beans,0.5,0.8,Borehole,Yes,4.5,7,91,9,31,267365,415530,110159,42,Flood,Food
+774,Central,Mbarara,None,Female,31,7,4,Fishing,Commercial Farming,Maize,0.5,5.0,Borehole,No,2.2,6,39,10,15,966443,211556,124169,67,Price Rise,Food
+775,Western,Mbarara,None,Male,55,2,3,Boda Boda,Commercial Farming,Beans,0.5,2.7,Borehole,Yes,4.5,3,35,6,17,884709,247965,602371,50,Flood,None
+776,Western,Mbale,University,Male,65,10,2,Charcoal Burning,Subsistence Farming,Beans,0.5,4.4,Rain,Yes,5.3,0,109,10,20,136324,87891,139630,58,Flood,Food
+777,Central,Mbale,Primary,Male,40,8,3,Boda Boda,Construction,Coffee,0.5,3.3,Rain,Yes,0.3,4,63,7,2,400518,219510,254761,81,Drought,Food
+778,Eastern,Mbale,University,Female,29,2,3,Small Business,Small Business,Maize,0.5,4.5,Rain,No,3.8,2,91,7,15,58698,482930,721089,76,Flood,None
+779,Central,Gulu,University,Male,54,3,2,Fishing,Casual Labor,Coffee,0.5,5.6,Borehole,No,5.5,1,63,2,23,503125,151870,420041,41,None,Cash
+780,Northern,Mbarara,Primary,Female,52,10,0,Small Business,Construction,Coffee,0.5,1.9,Borehole,No,3.8,3,70,7,7,708963,37165,182110,41,Drought,Food
+781,Central,Kampala,Primary,Female,73,8,1,Commercial Farming,Boda Boda,Beans,5.83,4.4,Rain,Yes,5.3,2,42,9,5,632402,361927,626944,68,Drought,Food
+782,Central,Mbarara,Secondary,Male,57,4,0,Salaried Employment,Fishing,Beans,0.5,1.0,Rain,Yes,5.6,0,76,10,5,76885,175238,3502733,52,Flood,Cash
+783,Western,Mbarara,University,Male,33,7,4,Salaried Employment,Small Business,Beans,0.5,4.8,Rain,Yes,4.4,1,55,2,17,53963,94535,3229593,69,None,None
+784,Eastern,Kampala,None,Female,28,9,2,Boda Boda,Salaried Employment,Beans,0.5,3.3,Borehole,No,2.8,10,31,2,18,773447,301109,250746,84,Price Rise,Cash
+785,Central,Gulu,None,Female,61,5,3,Subsistence Farming,Casual Labor,Beans,4.59,0.6,Rain,No,1.1,5,30,8,25,429760,140978,502506,80,None,Food
+786,Eastern,Mbale,Secondary,Male,40,10,4,Subsistence Farming,Small Business,Maize,3.46,3.4,Borehole,Yes,4.0,1,23,8,15,317254,236311,459980,72,Drought,Food
+787,Eastern,Mbarara,None,Male,23,6,4,Small Business,Salaried Employment,Beans,0.5,3.6,Borehole,No,7.1,10,36,2,2,68263,436848,438252,67,Price Rise,Cash
+788,Eastern,Gulu,None,Female,63,4,1,Charcoal Burning,Casual Labor,Coffee,0.5,4.6,Borehole,No,3.7,0,21,11,32,259036,225709,802319,44,Price Rise,None
+789,Central,Mbale,Primary,Male,21,9,4,Boda Boda,Casual Labor,Coffee,0.5,3.3,Rain,Yes,6.5,1,46,7,20,171442,97768,353848,81,Flood,Food
+790,Western,Kampala,University,Female,73,8,0,Construction,Salaried Employment,Maize,0.5,4.7,Rain,No,5.8,9,59,11,26,286627,14784,757886,48,Drought,None
+791,Eastern,Gulu,Secondary,Female,29,2,1,Commercial Farming,Fishing,Maize,1.37,2.6,Rain,No,6.0,7,75,4,2,447250,492267,641268,37,Flood,Food
+792,Central,Mbale,University,Female,30,4,3,Construction,Casual Labor,Coffee,0.5,3.3,Borehole,No,3.5,8,66,3,26,720901,442525,860888,45,None,None
+793,Central,Mbale,None,Male,54,3,0,Charcoal Burning,Boda Boda,Coffee,0.5,4.0,Borehole,No,1.2,4,75,7,17,422934,414928,179683,53,None,Food
+794,Eastern,Mbale,None,Male,31,4,1,Charcoal Burning,Commercial Farming,Coffee,0.5,1.1,Borehole,Yes,4.1,3,77,5,20,116984,423899,897878,42,Price Rise,Cash
+795,Western,Kampala,Secondary,Male,39,5,1,Charcoal Burning,Boda Boda,Coffee,0.5,1.7,Rain,Yes,7.4,3,58,12,29,700972,403209,492688,45,Drought,Cash
+796,Eastern,Gulu,Primary,Female,57,8,4,Fishing,Construction,Beans,0.5,4.0,Borehole,No,0.2,8,77,11,19,680458,267779,230939,43,Flood,Cash
+797,Eastern,Gulu,Secondary,Male,20,3,3,Fishing,Livestock,Maize,0.5,2.7,Rain,Yes,0.2,0,79,9,1,191374,60228,551445,79,None,Food
+798,Western,Mbale,None,Female,26,8,4,Salaried Employment,Salaried Employment,Coffee,0.5,0.5,Rain,Yes,1.2,1,79,6,27,891117,257814,1398597,64,Drought,Food
+799,Central,Mbale,Primary,Female,57,4,4,Salaried Employment,Fishing,Maize,0.5,5.9,Borehole,Yes,6.7,3,24,12,25,540044,368786,1029837,37,Flood,Cash
+800,Central,Mbarara,University,Female,28,7,1,Fishing,Construction,Beans,0.5,1.1,Borehole,No,0.4,8,45,2,17,602477,299304,321243,58,Flood,Food
+801,Western,Kampala,Primary,Male,70,6,2,Construction,Livestock,Maize,0.5,3.0,Borehole,No,3.4,2,52,11,24,872951,177314,307536,45,None,None
+802,Northern,Gulu,Secondary,Male,23,7,0,Subsistence Farming,Small Business,Maize,3.24,3.5,Borehole,Yes,2.8,2,37,6,12,305244,336590,381212,66,Price Rise,Food
+803,Eastern,Mbarara,University,Female,37,7,1,Casual Labor,Boda Boda,Beans,0.5,1.9,Rain,No,4.4,0,72,2,25,983764,469113,749400,41,Flood,Cash
+804,Central,Gulu,University,Female,63,3,0,Boda Boda,Salaried Employment,Coffee,0.5,5.7,Borehole,No,2.2,2,64,6,8,80390,13566,164415,79,Price Rise,Food
+805,Eastern,Mbarara,None,Male,36,8,0,Construction,Casual Labor,Maize,0.5,3.2,Rain,Yes,0.8,10,46,11,8,263450,218839,513286,51,Price Rise,Food
+806,Western,Kampala,Secondary,Male,30,3,1,Boda Boda,Commercial Farming,Maize,0.5,4.5,Borehole,No,0.9,6,41,12,15,562505,367526,581340,59,Drought,Food
+807,Western,Mbale,Primary,Female,22,5,0,Fishing,Livestock,Coffee,0.5,5.3,Borehole,Yes,2.0,5,73,10,18,242439,120199,896356,69,Flood,Cash
+808,Central,Mbarara,None,Male,49,7,3,Casual Labor,Small Business,Maize,0.5,1.8,Borehole,Yes,6.7,1,43,3,8,66564,102094,687612,73,Drought,None
+809,Eastern,Gulu,Secondary,Female,33,4,4,Casual Labor,Fishing,Beans,0.5,1.9,Rain,No,2.2,7,96,7,4,740123,225839,424761,41,Price Rise,None
+810,Northern,Kampala,None,Male,66,7,2,Boda Boda,Subsistence Farming,Coffee,0.5,4.9,Rain,No,4.2,8,30,8,26,142515,366850,689900,54,Price Rise,Cash
+811,Eastern,Kampala,Secondary,Male,63,4,0,Small Business,Commercial Farming,Beans,0.5,5.6,Borehole,No,7.6,7,28,6,10,817354,243629,129170,50,None,None
+812,Western,Mbale,Secondary,Female,36,3,3,Salaried Employment,Commercial Farming,Maize,0.5,1.8,Rain,No,2.4,6,52,5,25,913552,166788,2931935,71,Drought,None
+813,Central,Mbale,Secondary,Male,69,4,3,Fishing,Construction,Maize,0.5,1.0,Borehole,Yes,6.2,6,111,9,31,811554,211370,853272,56,Price Rise,Cash
+814,Central,Mbale,Primary,Female,60,3,4,Construction,Fishing,Coffee,0.5,3.1,Rain,No,0.2,1,34,6,5,862887,392840,891460,79,Drought,Cash
+815,Eastern,Mbale,Secondary,Male,58,9,2,Subsistence Farming,Construction,Beans,6.37,2.7,Borehole,No,7.8,8,82,2,8,53492,267377,179489,72,Drought,Cash
+816,Northern,Mbale,Secondary,Male,52,10,2,Small Business,Subsistence Farming,Maize,0.5,5.7,Borehole,No,5.2,9,38,8,14,372176,101804,175781,57,Price Rise,None
+817,Central,Kampala,None,Male,53,8,3,Subsistence Farming,Charcoal Burning,Coffee,1.98,4.0,Borehole,No,6.1,7,76,7,17,185546,52336,130631,53,Price Rise,None
+818,Northern,Kampala,Primary,Female,52,4,4,Livestock,Boda Boda,Beans,0.5,2.0,Rain,Yes,1.5,3,21,12,0,105181,439845,861315,61,None,Cash
+819,Northern,Mbale,Primary,Female,41,6,1,Charcoal Burning,Casual Labor,Beans,0.5,4.0,Borehole,Yes,6.5,10,86,2,29,172516,306022,628756,77,Price Rise,Food
+820,Eastern,Gulu,None,Female,21,2,3,Construction,Commercial Farming,Maize,0.5,1.9,Borehole,Yes,4.0,3,49,8,11,510021,316411,105548,57,Flood,Food
+821,Northern,Gulu,Secondary,Male,62,7,3,Fishing,Livestock,Maize,0.5,2.4,Borehole,Yes,1.4,0,56,8,1,25153,443710,236083,56,Flood,None
+822,Northern,Mbarara,Primary,Male,38,4,0,Livestock,Charcoal Burning,Maize,0.5,2.5,Borehole,Yes,0.9,2,104,11,21,912489,426322,781158,39,Flood,None
+823,Northern,Gulu,Primary,Female,50,2,3,Salaried Employment,Construction,Maize,0.5,4.9,Borehole,Yes,2.2,6,35,7,11,557185,413998,1908670,43,Price Rise,Food
+824,Eastern,Mbale,None,Male,67,7,0,Charcoal Burning,Fishing,Beans,0.5,1.9,Borehole,No,0.3,9,26,4,21,27574,41361,650763,36,Price Rise,None
+825,Eastern,Mbale,Secondary,Male,39,10,2,Boda Boda,Fishing,Coffee,0.5,0.6,Borehole,Yes,7.2,8,98,9,33,370295,450851,444721,82,Flood,None
+826,Central,Mbarara,Secondary,Female,53,3,1,Small Business,Livestock,Beans,0.5,2.2,Rain,Yes,5.4,3,63,12,20,151079,123977,708946,73,None,Food
+827,Eastern,Gulu,None,Female,25,9,2,Salaried Employment,Subsistence Farming,Maize,0.5,3.5,Rain,No,0.2,2,32,8,22,176499,169299,3571058,81,None,Cash
+828,Central,Mbale,Primary,Male,61,8,0,Construction,Livestock,Maize,0.5,3.7,Rain,Yes,5.7,5,64,7,7,111678,353037,780147,51,Flood,None
+829,Eastern,Kampala,Primary,Male,25,10,4,Commercial Farming,Small Business,Beans,1.6,2.1,Borehole,No,7.1,7,22,6,12,889033,18100,934914,62,Flood,Cash
+830,Central,Gulu,University,Female,57,5,0,Subsistence Farming,Charcoal Burning,Maize,2.4,3.0,Rain,Yes,4.8,0,48,8,12,313673,446898,169507,50,Price Rise,None
+831,Western,Gulu,None,Male,39,10,4,Charcoal Burning,Subsistence Farming,Beans,0.5,3.4,Rain,No,5.8,7,67,11,8,559324,248851,195299,65,Drought,None
+832,Western,Gulu,University,Male,58,6,4,Subsistence Farming,Salaried Employment,Beans,6.46,5.5,Rain,Yes,5.4,1,87,9,29,311535,323078,244874,68,Drought,Cash
+833,Central,Mbale,University,Female,49,5,2,Fishing,Casual Labor,Beans,0.5,4.1,Borehole,No,3.3,9,74,3,31,842277,115842,601991,58,Price Rise,Cash
+834,Northern,Kampala,None,Female,25,10,0,Casual Labor,Salaried Employment,Coffee,0.5,2.6,Borehole,No,2.3,3,63,2,12,189639,481643,884824,44,Drought,None
+835,Eastern,Mbarara,University,Male,57,7,0,Casual Labor,Livestock,Coffee,0.5,2.0,Rain,No,7.0,10,65,10,14,221791,383765,591903,78,None,Cash
+836,Western,Mbarara,University,Female,74,4,3,Commercial Farming,Fishing,Coffee,4.07,4.1,Borehole,Yes,6.0,6,55,7,22,597633,151594,537845,75,None,None
+837,Northern,Mbarara,None,Male,31,8,0,Fishing,Salaried Employment,Coffee,0.5,2.4,Borehole,Yes,5.8,1,42,12,17,168364,472855,175015,69,Drought,None
+838,Central,Gulu,Secondary,Female,38,10,3,Subsistence Farming,Commercial Farming,Beans,2.4,4.3,Borehole,Yes,0.1,3,41,9,15,429401,117349,266961,55,None,Cash
+839,Western,Kampala,None,Male,58,7,0,Boda Boda,Salaried Employment,Coffee,0.5,1.2,Borehole,No,3.8,1,76,7,2,41468,233773,411170,71,None,Food
+840,Eastern,Mbale,Primary,Female,32,6,0,Salaried Employment,Small Business,Beans,0.5,3.1,Borehole,No,7.3,2,58,6,34,827747,322357,926474,66,Flood,Cash
+841,Northern,Gulu,University,Female,43,6,2,Commercial Farming,Small Business,Beans,4.15,1.4,Borehole,No,5.6,7,70,5,10,797152,43857,2282089,37,Flood,None
+842,Western,Gulu,Secondary,Female,45,7,0,Boda Boda,Livestock,Coffee,0.5,2.7,Borehole,No,6.8,7,53,7,34,411098,26149,564637,83,Price Rise,Food
+843,Northern,Mbarara,Secondary,Female,37,5,4,Charcoal Burning,Fishing,Coffee,0.5,2.4,Borehole,No,3.7,2,51,4,25,171661,62543,528525,75,Price Rise,Food
+844,Northern,Kampala,None,Female,27,6,3,Casual Labor,Boda Boda,Coffee,0.5,0.3,Rain,Yes,1.3,0,111,6,27,44245,94396,211200,78,Flood,Cash
+845,Central,Mbarara,Primary,Male,44,2,4,Casual Labor,Subsistence Farming,Maize,0.5,5.0,Rain,Yes,4.9,6,96,12,16,335039,94069,289556,52,Price Rise,Food
+846,Western,Kampala,Primary,Male,56,10,2,Construction,Charcoal Burning,Maize,0.5,3.9,Borehole,Yes,6.4,8,31,2,8,683454,466720,651500,68,None,Food
+847,Northern,Mbarara,Secondary,Male,51,7,1,Fishing,Subsistence Farming,Maize,0.5,5.5,Rain,No,5.7,3,23,11,6,197194,23108,487629,50,Price Rise,Food
+848,Northern,Gulu,Primary,Male,71,5,0,Livestock,Salaried Employment,Coffee,0.5,0.7,Rain,No,5.4,5,37,5,21,840581,207034,133592,35,None,Food
+849,Northern,Kampala,Primary,Female,36,8,2,Construction,Charcoal Burning,Maize,0.5,4.6,Borehole,Yes,6.8,0,34,10,14,35030,295525,205650,62,None,None
+850,Eastern,Kampala,Secondary,Male,52,4,3,Subsistence Farming,Charcoal Burning,Maize,6.15,1.5,Borehole,No,2.4,3,71,2,11,492289,384042,168530,57,Drought,None
+851,Eastern,Mbale,Secondary,Male,56,9,4,Commercial Farming,Small Business,Beans,4.89,4.9,Borehole,No,4.1,2,80,3,30,226356,238749,2990201,37,Drought,Cash
+852,Central,Mbarara,Secondary,Female,29,8,3,Fishing,Fishing,Beans,0.5,2.9,Borehole,No,2.8,3,81,7,9,607135,423369,114361,60,Drought,None
+853,Central,Gulu,None,Female,48,9,0,Salaried Employment,Charcoal Burning,Coffee,0.5,4.3,Rain,No,4.7,5,35,7,27,481597,227300,2230220,59,Flood,None
+854,Central,Mbale,None,Female,20,3,4,Subsistence Farming,Subsistence Farming,Beans,1.39,1.8,Rain,No,3.2,10,36,11,25,5967,206839,357489,56,Price Rise,Food
+855,Central,Mbarara,Secondary,Female,37,9,4,Boda Boda,Livestock,Coffee,0.5,3.2,Borehole,Yes,0.5,4,24,3,3,811505,415528,689415,65,None,Cash
+856,Eastern,Gulu,Secondary,Female,63,6,1,Casual Labor,Construction,Beans,0.5,2.2,Borehole,Yes,3.4,8,65,11,3,10311,66925,111269,51,Price Rise,Cash
+857,Eastern,Mbarara,None,Female,72,7,1,Charcoal Burning,Construction,Beans,0.5,0.8,Borehole,Yes,2.3,6,98,6,14,397950,74103,622546,59,Price Rise,Cash
+858,Eastern,Kampala,Primary,Male,41,9,2,Boda Boda,Commercial Farming,Beans,0.5,1.1,Rain,No,1.8,4,61,2,4,284010,340428,816068,77,Drought,Cash
+859,Western,Kampala,Primary,Female,22,3,4,Commercial Farming,Fishing,Beans,6.38,3.7,Borehole,No,2.6,2,67,11,22,96175,63163,971972,41,None,Cash
+860,Eastern,Mbarara,Primary,Male,26,4,1,Small Business,Fishing,Beans,0.5,2.1,Rain,Yes,6.3,8,26,11,18,418993,330444,826825,54,Flood,Cash
+861,Northern,Kampala,None,Female,46,10,2,Subsistence Farming,Fishing,Beans,2.96,2.3,Borehole,No,0.4,0,23,12,21,678230,230148,525916,57,None,None
+862,Central,Mbale,Secondary,Male,64,6,4,Casual Labor,Construction,Beans,0.5,0.7,Rain,Yes,7.5,3,52,8,2,393048,78336,768997,80,Drought,Cash
+863,Northern,Mbarara,Primary,Female,71,5,1,Commercial Farming,Livestock,Beans,6.14,5.3,Borehole,Yes,0.1,8,76,3,31,307473,244885,2043392,80,Drought,Cash
+864,Western,Gulu,University,Female,70,2,3,Subsistence Farming,Boda Boda,Beans,1.91,3.2,Borehole,Yes,1.4,9,44,9,32,974516,168397,558224,80,Drought,None
+865,Northern,Kampala,Primary,Male,31,5,4,Livestock,Fishing,Coffee,0.5,0.3,Rain,No,0.4,2,44,12,30,234155,13012,661943,69,Drought,Food
+866,Eastern,Mbarara,Secondary,Female,58,5,1,Salaried Employment,Small Business,Beans,0.5,5.5,Rain,No,4.5,8,90,5,8,569125,458947,2573091,64,Flood,Cash
+867,Northern,Gulu,Primary,Female,48,2,3,Livestock,Construction,Beans,0.5,3.1,Rain,Yes,6.2,8,44,8,23,572634,74970,883823,55,None,Food
+868,Central,Gulu,None,Male,32,4,2,Subsistence Farming,Construction,Maize,6.37,0.4,Rain,Yes,1.6,6,45,12,27,403212,83564,109467,84,Drought,None
+869,Eastern,Mbarara,University,Female,31,3,1,Livestock,Small Business,Maize,0.5,5.6,Borehole,Yes,4.3,6,90,5,29,693153,34860,884029,74,Drought,None
+870,Western,Gulu,University,Female,42,5,2,Construction,Subsistence Farming,Coffee,0.5,4.1,Borehole,Yes,5.8,7,35,6,3,321177,357827,732505,42,Flood,Cash
+871,Western,Mbale,Primary,Female,24,10,2,Salaried Employment,Fishing,Coffee,0.5,2.8,Borehole,No,1.0,4,106,8,29,276886,250527,2451354,61,None,Cash
+872,Eastern,Mbarara,None,Female,51,8,0,Casual Labor,Charcoal Burning,Beans,0.5,4.0,Borehole,Yes,4.9,9,69,7,3,404404,284500,768856,66,Flood,Cash
+873,Northern,Mbarara,University,Male,74,4,2,Small Business,Charcoal Burning,Beans,0.5,5.9,Rain,No,3.9,0,64,10,7,912061,74829,232240,43,None,Food
+874,Northern,Kampala,Secondary,Male,65,7,3,Boda Boda,Casual Labor,Beans,0.5,5.6,Borehole,Yes,4.5,7,101,4,15,198009,39953,161054,74,None,Cash
+875,Central,Mbarara,None,Male,37,3,2,Construction,Salaried Employment,Beans,0.5,3.8,Rain,No,2.8,4,57,3,10,178836,139825,661590,40,Price Rise,Cash
+876,Central,Gulu,Secondary,Female,63,5,4,Construction,Commercial Farming,Beans,0.5,1.8,Borehole,No,2.0,6,82,12,12,876987,14556,672465,68,None,Food
+877,Central,Mbarara,None,Female,28,4,3,Fishing,Boda Boda,Coffee,0.5,2.1,Rain,Yes,6.2,5,35,8,18,872672,186250,176795,71,Drought,Cash
+878,Central,Mbarara,University,Male,62,6,1,Construction,Livestock,Beans,0.5,3.8,Borehole,No,3.0,0,50,10,33,483799,299817,112757,82,Drought,None
+879,Eastern,Gulu,University,Male,57,5,3,Boda Boda,Charcoal Burning,Beans,0.5,5.7,Borehole,No,7.1,6,33,6,5,416892,159059,812796,35,Flood,None
+880,Northern,Gulu,Primary,Female,40,3,1,Subsistence Farming,Casual Labor,Coffee,4.54,0.3,Rain,No,4.8,4,34,3,29,472014,228115,425723,67,Drought,Cash
+881,Northern,Mbale,None,Male,35,4,3,Subsistence Farming,Livestock,Coffee,1.83,4.1,Borehole,No,1.9,4,32,11,22,226329,461994,110950,57,None,Cash
+882,Eastern,Mbale,Primary,Female,65,10,4,Small Business,Charcoal Burning,Maize,0.5,5.8,Rain,No,4.5,4,108,3,25,414602,341809,683849,62,None,Food
+883,Northern,Mbale,Secondary,Female,74,7,3,Livestock,Construction,Beans,0.5,5.7,Borehole,Yes,4.9,6,96,3,26,873750,81260,460179,80,Drought,Food
+884,Northern,Mbarara,None,Male,62,9,4,Casual Labor,Fishing,Maize,0.5,5.2,Borehole,No,4.9,4,56,7,20,959467,374807,612898,84,Flood,Food
+885,Eastern,Kampala,None,Male,60,9,1,Construction,Casual Labor,Maize,0.5,0.5,Borehole,No,4.3,5,78,4,32,311495,31307,488182,76,Price Rise,None
+886,Northern,Mbarara,Primary,Male,32,4,2,Livestock,Boda Boda,Coffee,0.5,4.9,Borehole,No,5.8,3,28,11,33,260570,57695,611937,56,None,Cash
+887,Central,Kampala,Secondary,Male,66,7,2,Casual Labor,Commercial Farming,Beans,0.5,4.7,Borehole,Yes,6.8,3,104,8,23,474019,117941,611638,65,Drought,Cash
+888,Eastern,Mbarara,Secondary,Male,68,9,4,Small Business,Commercial Farming,Beans,0.5,3.4,Borehole,No,0.1,1,96,6,29,124516,269218,333820,45,Drought,Food
+889,Western,Mbarara,Secondary,Female,23,4,4,Casual Labor,Charcoal Burning,Beans,0.5,4.5,Borehole,Yes,3.6,9,60,2,15,663268,391286,687207,59,Drought,Food
+890,Northern,Mbale,None,Male,45,7,4,Small Business,Subsistence Farming,Coffee,0.5,4.8,Rain,Yes,3.9,7,40,4,16,174133,36021,769841,76,Price Rise,Food
+891,Eastern,Gulu,Primary,Male,51,5,2,Charcoal Burning,Livestock,Maize,0.5,4.3,Rain,No,6.7,9,25,11,13,499141,207528,597698,61,Flood,Cash
+892,Central,Kampala,Primary,Female,67,6,2,Boda Boda,Boda Boda,Beans,0.5,2.1,Borehole,No,1.5,9,30,11,27,530978,454982,309203,83,Drought,Food
+893,Northern,Kampala,Primary,Male,47,2,4,Subsistence Farming,Construction,Coffee,1.21,4.0,Borehole,No,2.4,0,98,10,0,389675,432257,361320,71,None,Cash
+894,Western,Gulu,University,Male,44,6,0,Salaried Employment,Subsistence Farming,Coffee,0.5,4.9,Borehole,No,2.3,7,78,9,20,227741,304270,3126463,74,Price Rise,Cash
+895,Western,Gulu,None,Female,25,10,3,Salaried Employment,Boda Boda,Maize,0.5,3.4,Borehole,Yes,3.8,0,90,6,13,624111,162419,2818112,39,Drought,Cash
+896,Eastern,Mbarara,University,Female,31,10,0,Small Business,Small Business,Maize,0.5,2.2,Rain,No,7.0,2,23,7,29,136092,15138,217392,60,None,Cash
+897,Eastern,Gulu,University,Female,27,4,2,Casual Labor,Boda Boda,Coffee,0.5,0.5,Borehole,Yes,2.3,8,57,3,28,157746,26552,441264,69,None,Cash
+898,Central,Kampala,Primary,Male,51,5,4,Casual Labor,Construction,Coffee,0.5,0.3,Rain,Yes,5.0,9,104,5,33,468133,496844,487827,83,Price Rise,Food
+899,Eastern,Mbarara,University,Female,20,4,2,Boda Boda,Livestock,Maize,0.5,2.9,Rain,No,5.8,3,86,6,8,975945,244948,205820,60,Price Rise,Food
+900,Western,Gulu,Secondary,Female,45,3,2,Small Business,Commercial Farming,Coffee,0.5,1.9,Borehole,Yes,5.3,0,54,3,1,310514,425799,112259,74,Flood,Cash
+901,Western,Mbale,University,Male,19,6,4,Boda Boda,Subsistence Farming,Beans,0.5,1.7,Rain,Yes,2.8,10,73,2,24,957556,467241,124233,43,Drought,None
+902,Central,Gulu,None,Male,27,10,1,Subsistence Farming,Fishing,Maize,1.23,1.9,Rain,No,4.6,3,81,10,5,156775,193221,197386,43,Drought,Food
+903,Northern,Mbale,Primary,Male,38,3,1,Salaried Employment,Livestock,Coffee,0.5,1.8,Borehole,No,7.1,8,90,10,24,756322,372999,2224708,68,None,Food
+904,Northern,Mbale,Secondary,Female,40,3,4,Commercial Farming,Casual Labor,Maize,2.64,1.6,Rain,No,6.4,1,88,8,2,498820,21880,2800626,67,None,None
+905,Northern,Kampala,Secondary,Male,21,10,2,Boda Boda,Commercial Farming,Beans,0.5,6.0,Borehole,Yes,7.0,6,111,7,19,496955,352232,850088,82,Price Rise,None
+906,Eastern,Gulu,None,Female,72,8,4,Charcoal Burning,Casual Labor,Maize,0.5,1.7,Rain,Yes,0.6,7,64,9,15,420756,311883,460999,80,None,Cash
+907,Central,Kampala,University,Female,20,7,3,Livestock,Salaried Employment,Beans,0.5,2.7,Borehole,Yes,4.0,2,104,6,18,317653,499727,229685,78,Flood,Food
+908,Western,Mbale,Secondary,Female,49,10,4,Small Business,Commercial Farming,Maize,0.5,1.6,Borehole,Yes,4.0,0,82,6,14,196678,109759,654874,52,Flood,Cash
+909,Central,Kampala,Secondary,Male,30,8,3,Salaried Employment,Subsistence Farming,Beans,0.5,1.0,Rain,Yes,1.3,6,37,3,17,956870,1553,2306829,65,Drought,Food
+910,Western,Mbarara,University,Female,53,4,3,Fishing,Commercial Farming,Maize,0.5,0.4,Borehole,Yes,5.8,10,48,2,22,792485,132331,393529,80,Drought,None
+911,Western,Kampala,None,Male,46,4,4,Boda Boda,Subsistence Farming,Coffee,0.5,1.1,Rain,Yes,0.6,4,108,5,27,792813,365012,371281,52,None,Cash
+912,Northern,Gulu,Secondary,Female,73,9,3,Charcoal Burning,Livestock,Maize,0.5,1.2,Borehole,Yes,0.9,10,92,4,2,742254,167062,754141,59,Price Rise,Cash
+913,Western,Mbarara,Secondary,Female,38,4,1,Livestock,Charcoal Burning,Maize,0.5,2.1,Borehole,No,6.2,4,85,5,18,655924,266240,330701,71,None,Food
+914,Central,Gulu,None,Female,43,7,4,Fishing,Commercial Farming,Beans,0.5,2.7,Rain,No,5.7,5,31,3,30,494330,463735,587214,65,None,None
+915,Northern,Mbale,University,Female,35,3,3,Commercial Farming,Casual Labor,Maize,5.38,4.6,Borehole,No,3.2,6,81,7,12,64253,136210,1752829,49,Flood,Food
+916,Eastern,Mbale,None,Female,72,6,0,Livestock,Fishing,Maize,0.5,1.7,Rain,Yes,4.5,7,108,9,33,413791,461891,680402,38,None,None
+917,Central,Kampala,None,Female,40,9,4,Fishing,Subsistence Farming,Coffee,0.5,2.5,Borehole,No,6.5,9,38,4,19,646727,164419,264814,56,None,Cash
+918,Central,Kampala,Secondary,Male,42,2,1,Salaried Employment,Charcoal Burning,Maize,0.5,1.0,Borehole,Yes,2.4,9,75,10,3,385569,329198,3495841,42,Price Rise,None
+919,Western,Gulu,Primary,Male,40,3,4,Livestock,Livestock,Maize,0.5,0.7,Rain,No,6.3,2,88,2,20,847815,233992,712389,37,Price Rise,Cash
+920,Western,Mbale,None,Male,64,8,2,Subsistence Farming,Subsistence Farming,Maize,4.19,1.6,Borehole,No,3.0,1,37,12,6,236223,477130,382350,54,Flood,Cash
+921,Eastern,Mbarara,Secondary,Female,60,2,2,Casual Labor,Commercial Farming,Coffee,0.5,4.9,Rain,No,5.0,2,21,3,20,23297,63689,868434,69,None,Food
+922,Central,Mbale,None,Female,49,4,1,Subsistence Farming,Boda Boda,Maize,5.97,2.8,Borehole,Yes,3.5,5,45,5,5,396244,409350,520145,83,None,None
+923,Eastern,Mbarara,None,Male,59,3,4,Livestock,Construction,Coffee,0.5,3.5,Borehole,Yes,7.6,4,94,5,15,112300,260411,638988,69,Price Rise,None
+924,Eastern,Gulu,Secondary,Female,58,9,2,Boda Boda,Charcoal Burning,Maize,0.5,5.0,Rain,Yes,6.8,0,71,11,22,382670,192699,614934,56,Drought,Cash
+925,Central,Gulu,Secondary,Female,27,5,4,Boda Boda,Subsistence Farming,Coffee,0.5,0.5,Rain,No,6.8,0,75,9,3,30939,262737,872398,71,Price Rise,Food
+926,Western,Gulu,Secondary,Male,36,7,4,Salaried Employment,Fishing,Beans,0.5,4.5,Borehole,No,5.3,2,111,11,10,907217,44382,3742629,52,None,None
+927,Eastern,Mbale,Secondary,Male,44,10,1,Fishing,Casual Labor,Beans,0.5,5.6,Borehole,No,5.7,8,92,4,29,773581,151755,899136,74,Price Rise,None
+928,Central,Mbale,University,Female,52,6,4,Livestock,Small Business,Beans,0.5,5.3,Borehole,No,8.0,8,97,5,22,360992,351390,387420,39,Price Rise,Food
+929,Western,Gulu,None,Male,71,4,0,Fishing,Subsistence Farming,Coffee,0.5,5.8,Borehole,Yes,3.5,4,51,12,16,837461,89313,794317,77,Flood,None
+930,Western,Mbale,University,Female,74,8,1,Subsistence Farming,Construction,Maize,2.68,2.0,Rain,Yes,0.5,2,82,10,2,507994,474214,198915,81,Drought,Cash
+931,Eastern,Gulu,University,Female,21,2,4,Salaried Employment,Boda Boda,Beans,0.5,2.6,Borehole,No,7.4,10,87,12,8,940955,319943,2012035,52,Flood,Food
+932,Western,Gulu,None,Female,49,5,0,Fishing,Commercial Farming,Coffee,0.5,2.2,Rain,Yes,7.4,1,54,11,34,882915,312425,428054,61,Flood,Cash
+933,Northern,Mbarara,None,Female,39,3,4,Commercial Farming,Construction,Coffee,6.39,2.4,Rain,Yes,2.3,5,33,3,32,247903,482545,700319,83,Drought,Food
+934,Central,Kampala,University,Female,39,5,4,Casual Labor,Casual Labor,Maize,0.5,0.6,Borehole,Yes,7.3,6,45,3,17,670525,21338,814570,61,Flood,None
+935,Western,Mbarara,Primary,Female,43,4,0,Fishing,Construction,Coffee,0.5,5.9,Rain,No,3.2,6,33,3,28,151573,308712,601897,81,Drought,Cash
+936,Central,Mbarara,None,Male,57,9,0,Casual Labor,Subsistence Farming,Coffee,0.5,2.0,Borehole,No,7.0,3,50,3,34,344575,415726,572037,59,Drought,None
+937,Northern,Gulu,University,Male,53,7,1,Livestock,Commercial Farming,Beans,0.5,3.4,Rain,Yes,2.2,2,97,7,33,416769,62652,312884,82,Drought,Cash
+938,Northern,Mbale,University,Female,48,3,0,Commercial Farming,Livestock,Maize,5.0,5.5,Rain,Yes,3.0,0,74,7,6,665109,412557,1809140,35,Drought,None
+939,Eastern,Kampala,None,Male,64,7,0,Small Business,Boda Boda,Beans,0.5,0.5,Borehole,No,7.6,0,90,6,15,691594,453348,328522,60,Price Rise,None
+940,Northern,Kampala,Secondary,Female,53,6,3,Charcoal Burning,Salaried Employment,Maize,0.5,4.1,Borehole,Yes,0.6,1,31,9,32,336317,294008,537252,77,Drought,Food
+941,Northern,Kampala,None,Female,23,7,4,Subsistence Farming,Livestock,Beans,1.95,6.0,Rain,Yes,1.7,8,70,8,3,264420,297774,295963,66,Drought,None
+942,Northern,Mbarara,Primary,Male,60,2,0,Charcoal Burning,Boda Boda,Beans,0.5,5.1,Borehole,Yes,7.8,1,59,10,15,775066,292382,704196,74,Flood,Food
+943,Western,Kampala,Secondary,Female,60,7,3,Charcoal Burning,Casual Labor,Coffee,0.5,2.4,Rain,Yes,7.9,7,80,5,26,305068,392251,482832,79,Price Rise,Cash
+944,Eastern,Kampala,Primary,Female,19,4,3,Livestock,Construction,Beans,0.5,2.8,Rain,Yes,6.9,3,108,9,20,982296,94005,845431,54,None,None
+945,Northern,Gulu,Primary,Female,53,3,3,Casual Labor,Subsistence Farming,Coffee,0.5,5.4,Rain,No,5.3,8,29,7,17,192543,267661,114732,65,Price Rise,None
+946,Northern,Mbale,University,Male,28,9,3,Commercial Farming,Fishing,Beans,4.51,4.4,Borehole,No,2.6,8,97,7,34,511736,338911,1465550,56,None,Food
+947,Northern,Mbale,University,Male,72,9,4,Small Business,Charcoal Burning,Maize,0.5,0.2,Borehole,Yes,0.6,5,44,2,28,749083,60016,351859,48,Price Rise,Cash
+948,Eastern,Gulu,None,Female,74,8,0,Commercial Farming,Salaried Employment,Beans,2.3,5.4,Rain,No,3.1,3,25,12,24,721898,440273,615277,53,None,Cash
+949,Northern,Kampala,University,Female,51,5,2,Fishing,Commercial Farming,Beans,0.5,4.5,Rain,No,2.8,1,23,8,30,285708,388181,388179,81,None,Food
+950,Eastern,Mbale,University,Male,60,10,2,Charcoal Burning,Small Business,Coffee,0.5,3.1,Borehole,Yes,5.0,4,60,12,11,401322,139504,397587,41,Price Rise,None
+951,Western,Mbarara,None,Female,53,7,3,Small Business,Subsistence Farming,Beans,0.5,2.9,Rain,No,2.9,0,96,7,10,947970,308195,776376,69,Drought,None
+952,Central,Mbale,Secondary,Male,43,2,1,Commercial Farming,Casual Labor,Maize,3.06,4.8,Borehole,No,4.2,4,77,5,27,777098,131427,1026578,77,Flood,Cash
+953,Eastern,Kampala,Primary,Male,27,7,4,Charcoal Burning,Boda Boda,Beans,0.5,3.3,Rain,No,0.7,8,30,11,26,511983,3773,651767,53,Flood,Food
+954,Central,Mbale,Primary,Female,19,5,1,Casual Labor,Charcoal Burning,Maize,0.5,4.7,Rain,Yes,1.6,5,34,5,18,165624,112151,554151,82,Price Rise,None
+955,Western,Kampala,None,Female,39,6,2,Casual Labor,Livestock,Coffee,0.5,0.2,Rain,No,6.6,0,55,3,19,969891,57785,548750,58,None,Cash
+956,Western,Mbale,Secondary,Female,30,9,4,Livestock,Construction,Maize,0.5,4.7,Borehole,No,2.7,5,87,11,15,946360,462234,810802,63,None,Cash
+957,Central,Mbarara,None,Female,54,3,4,Fishing,Small Business,Beans,0.5,2.0,Borehole,Yes,1.7,3,76,6,24,628219,94957,189407,55,Price Rise,Cash
+958,Western,Mbale,University,Female,45,7,4,Commercial Farming,Commercial Farming,Maize,3.69,1.6,Borehole,Yes,2.5,10,23,9,26,749853,92109,2865181,51,Price Rise,Cash
+959,Western,Mbarara,Primary,Female,47,8,4,Boda Boda,Commercial Farming,Coffee,0.5,4.8,Rain,No,3.2,10,22,4,8,289657,113989,722470,65,None,None
+960,Northern,Gulu,Primary,Female,41,10,3,Charcoal Burning,Salaried Employment,Maize,0.5,2.0,Borehole,Yes,5.3,3,105,8,28,248753,114280,725401,55,Drought,Cash
+961,Eastern,Mbarara,None,Female,43,9,4,Commercial Farming,Livestock,Beans,0.73,5.4,Rain,Yes,1.9,10,42,3,8,702120,310901,2641880,49,Drought,Food
+962,Western,Gulu,None,Female,57,7,4,Subsistence Farming,Subsistence Farming,Coffee,4.37,3.8,Borehole,Yes,4.6,0,94,10,1,676938,305608,441628,69,Price Rise,Food
+963,Western,Mbarara,University,Female,48,7,0,Commercial Farming,Subsistence Farming,Coffee,4.67,1.9,Rain,No,6.7,9,91,5,14,482084,299600,982943,38,Flood,None
+964,Western,Mbale,Secondary,Female,73,4,0,Salaried Employment,Boda Boda,Beans,0.5,2.9,Borehole,No,2.4,1,92,6,23,670141,24764,1838866,51,None,None
+965,Eastern,Gulu,Primary,Female,71,10,3,Small Business,Charcoal Burning,Beans,0.5,3.5,Borehole,No,2.1,1,43,11,24,579622,481533,493834,62,Drought,Food
+966,Western,Gulu,Primary,Male,64,8,2,Charcoal Burning,Subsistence Farming,Beans,0.5,1.6,Borehole,No,3.6,10,108,11,20,730489,455390,661218,44,Flood,None
+967,Central,Mbale,Secondary,Male,26,8,1,Casual Labor,Commercial Farming,Maize,0.5,4.6,Borehole,No,7.7,9,68,12,13,419053,252925,510229,66,Drought,Food
+968,Northern,Gulu,Secondary,Male,43,3,0,Livestock,Charcoal Burning,Maize,0.5,3.9,Rain,Yes,7.8,2,110,11,16,649963,394013,202476,84,None,Cash
+969,Eastern,Mbale,None,Male,74,4,3,Subsistence Farming,Small Business,Beans,3.44,3.6,Rain,Yes,1.3,2,21,10,27,894427,294765,586283,41,Price Rise,None
+970,Eastern,Kampala,University,Male,69,7,3,Small Business,Small Business,Coffee,0.5,4.6,Rain,No,1.3,2,78,11,12,722244,467999,361525,45,None,Food
+971,Central,Mbarara,University,Male,37,5,3,Livestock,Commercial Farming,Maize,0.5,1.8,Rain,No,4.2,1,72,3,34,644360,117173,649836,42,None,Cash
+972,Western,Mbarara,Primary,Male,28,5,2,Fishing,Commercial Farming,Beans,0.5,1.0,Borehole,Yes,4.1,1,43,9,19,560109,58612,482603,39,Price Rise,Food
+973,Western,Mbale,None,Female,68,4,1,Construction,Commercial Farming,Maize,0.5,2.4,Borehole,Yes,6.1,4,26,3,7,397678,18644,896197,38,None,None
+974,Western,Mbarara,Secondary,Female,24,8,3,Small Business,Casual Labor,Coffee,0.5,4.3,Rain,No,2.0,5,95,12,11,307449,221832,172812,47,Drought,Cash
+975,Central,Kampala,Secondary,Female,73,3,3,Commercial Farming,Small Business,Beans,4.78,3.0,Rain,Yes,5.0,9,30,5,25,580067,179386,2183718,47,None,Food
+976,Eastern,Mbarara,None,Female,51,8,1,Commercial Farming,Small Business,Coffee,5.3,4.5,Borehole,Yes,6.6,5,100,6,7,203560,229404,2423694,69,None,Food
+977,Central,Kampala,None,Female,28,5,1,Fishing,Fishing,Coffee,0.5,3.7,Rain,No,2.2,2,74,3,16,810626,79514,428608,53,Flood,None
+978,Eastern,Kampala,Primary,Female,29,4,3,Charcoal Burning,Charcoal Burning,Beans,0.5,1.6,Borehole,Yes,5.9,4,46,3,22,801039,291079,799154,57,None,Cash
+979,Western,Mbale,University,Male,42,4,0,Subsistence Farming,Casual Labor,Coffee,4.98,3.6,Rain,Yes,6.3,4,107,6,27,727401,161952,118423,39,Price Rise,Food
+980,Western,Gulu,None,Male,65,3,3,Boda Boda,Subsistence Farming,Beans,0.5,1.4,Borehole,No,4.6,8,22,12,19,424337,182496,725817,71,None,None
+981,Eastern,Kampala,Secondary,Male,40,6,3,Construction,Livestock,Maize,0.5,0.9,Rain,Yes,6.7,9,89,6,11,28270,294985,508930,55,Flood,Cash
+982,Central,Mbale,None,Male,67,9,0,Charcoal Burning,Small Business,Coffee,0.5,2.5,Borehole,Yes,2.7,8,55,2,9,115959,344109,743888,51,Flood,None
+983,Northern,Kampala,None,Male,51,8,0,Salaried Employment,Fishing,Beans,0.5,5.8,Rain,Yes,7.0,9,69,8,8,190001,237091,1028301,38,Flood,Cash
+984,Northern,Gulu,University,Male,72,5,3,Livestock,Small Business,Coffee,0.5,4.8,Borehole,No,2.4,2,65,4,18,775427,393589,402875,52,Price Rise,Food
+985,Northern,Gulu,Secondary,Female,19,6,0,Construction,Construction,Maize,0.5,4.0,Rain,Yes,6.8,2,32,7,12,806772,477197,321103,46,Price Rise,Cash
+986,Eastern,Kampala,University,Male,62,9,3,Charcoal Burning,Fishing,Beans,0.5,4.0,Rain,Yes,0.1,3,105,7,33,818031,412856,642300,76,Drought,Cash
+987,Western,Kampala,Primary,Female,46,5,1,Boda Boda,Salaried Employment,Beans,0.5,0.6,Rain,No,0.7,3,68,6,29,158893,131561,519489,59,Price Rise,None
+988,Central,Gulu,Secondary,Male,21,7,1,Commercial Farming,Livestock,Maize,1.59,4.9,Borehole,Yes,7.7,4,58,11,15,321170,76950,1627278,56,Drought,Cash
+989,Eastern,Kampala,University,Male,28,7,3,Casual Labor,Construction,Beans,0.5,2.9,Borehole,No,2.5,1,37,2,2,437846,129086,414383,37,Price Rise,Cash
+990,Eastern,Mbale,Secondary,Male,59,4,3,Livestock,Commercial Farming,Maize,0.5,1.5,Rain,Yes,4.9,8,96,11,19,369044,480530,855952,61,None,Food
+991,Central,Gulu,None,Male,37,5,2,Livestock,Small Business,Maize,0.5,5.5,Borehole,Yes,0.6,6,44,10,12,695442,9448,528400,49,Flood,None
+992,Western,Gulu,None,Male,62,2,0,Charcoal Burning,Small Business,Maize,0.5,5.8,Rain,No,6.5,10,23,8,18,250030,90905,346052,70,Flood,Food
+993,Central,Mbale,Primary,Male,40,6,0,Commercial Farming,Fishing,Maize,0.56,4.7,Borehole,No,1.9,10,105,5,13,10957,2678,2695964,52,Drought,Food
+994,Eastern,Gulu,University,Female,34,7,1,Charcoal Burning,Small Business,Beans,0.5,4.4,Rain,No,1.8,2,25,7,12,99080,28548,204070,80,Price Rise,Cash
+995,Northern,Mbarara,Secondary,Male,54,10,0,Casual Labor,Salaried Employment,Maize,0.5,4.3,Rain,Yes,5.4,3,80,7,7,383204,449210,121913,45,Flood,None
+996,Central,Gulu,Secondary,Male,63,8,3,Salaried Employment,Subsistence Farming,Beans,0.5,2.2,Borehole,Yes,7.6,8,49,6,24,738877,37429,2343807,84,Price Rise,None
+997,Eastern,Mbale,University,Female,36,2,2,Livestock,Boda Boda,Beans,0.5,4.0,Borehole,No,1.2,4,94,9,32,80143,12502,372369,56,None,None
+998,Eastern,Kampala,Primary,Male,30,10,0,Livestock,Casual Labor,Maize,0.5,3.3,Borehole,No,7.9,7,55,12,20,364440,403121,373700,40,Drought,Food
+999,Western,Kampala,Secondary,Female,23,4,0,Charcoal Burning,Commercial Farming,Beans,0.5,3.4,Rain,Yes,7.2,10,96,5,11,481885,132850,312665,53,Drought,None
+1000,Eastern,Kampala,University,Female,20,5,2,Boda Boda,Small Business,Beans,0.5,1.3,Borehole,No,6.8,5,46,8,11,476277,166230,199859,72,Flood,Cash
+1001,Eastern,Kampala,None,Male,66,10,1,Commercial Farming,Charcoal Burning,Beans,0.52,1.1,Rain,No,6.6,4,32,10,14,318771,315410,1471737,43,Price Rise,Cash
+1002,Central,Mbale,Secondary,Male,19,6,3,Casual Labor,Construction,Coffee,0.5,2.5,Borehole,No,7.6,1,69,10,6,586462,99831,865499,52,Price Rise,None
+1003,Western,Mbale,Secondary,Male,56,6,1,Small Business,Salaried Employment,Maize,0.5,5.1,Borehole,No,7.7,3,86,11,10,960236,125793,783229,39,Drought,Food
+1004,Eastern,Gulu,None,Female,27,5,3,Livestock,Subsistence Farming,Maize,0.5,2.9,Rain,No,8.0,1,21,11,15,122549,465030,334355,52,None,Food
+1005,Eastern,Kampala,None,Male,49,4,2,Commercial Farming,Boda Boda,Beans,4.83,2.8,Rain,Yes,4.1,6,105,5,16,143592,270341,1824100,66,None,Cash
+1006,Northern,Gulu,None,Female,40,10,1,Fishing,Casual Labor,Coffee,0.5,2.2,Rain,Yes,3.2,7,82,7,4,546702,203813,440800,68,Price Rise,Food
+1007,Northern,Gulu,University,Male,19,8,2,Boda Boda,Construction,Beans,0.5,5.2,Borehole,Yes,2.9,8,69,6,0,627292,280727,602472,49,Flood,Food
+1008,Central,Kampala,None,Male,44,7,4,Boda Boda,Commercial Farming,Maize,0.5,4.6,Rain,Yes,7.9,9,26,6,20,242800,410515,149567,63,Drought,None
+1009,Western,Gulu,None,Female,70,4,3,Commercial Farming,Salaried Employment,Beans,3.05,3.6,Borehole,No,4.7,6,65,3,12,174034,171112,1577452,60,Flood,Cash
+1010,Eastern,Gulu,Primary,Female,60,8,3,Charcoal Burning,Charcoal Burning,Beans,0.5,5.3,Rain,No,6.4,10,73,10,18,129910,169140,807253,80,Drought,Food
+1011,Western,Mbarara,Primary,Female,58,10,1,Boda Boda,Salaried Employment,Beans,0.5,5.4,Borehole,No,7.9,0,46,2,28,573269,25617,298540,62,Drought,Cash
+1012,Eastern,Gulu,University,Female,47,10,3,Salaried Employment,Casual Labor,Maize,0.5,5.5,Rain,No,5.9,10,62,8,24,466763,66943,3978086,46,Price Rise,Cash
+1013,Northern,Mbale,None,Female,42,6,4,Commercial Farming,Charcoal Burning,Beans,1.51,4.2,Borehole,No,4.3,4,51,11,9,583864,338103,2893199,50,Price Rise,Cash
+1014,Central,Kampala,None,Female,44,6,1,Commercial Farming,Fishing,Coffee,6.27,0.7,Rain,No,0.1,1,103,10,23,443656,36624,739554,60,Drought,None
+1015,Northern,Mbale,None,Female,21,3,4,Small Business,Construction,Coffee,0.5,3.6,Rain,Yes,5.6,9,94,10,14,699298,324976,760616,63,None,None
+1016,Central,Mbarara,Primary,Male,74,2,0,Boda Boda,Salaried Employment,Maize,0.5,1.9,Rain,Yes,3.3,9,57,11,29,184079,428648,192295,40,Price Rise,Cash
+1017,Eastern,Mbarara,Primary,Female,32,8,1,Construction,Charcoal Burning,Beans,0.5,5.2,Borehole,No,3.4,8,51,3,5,38071,374587,813859,57,Drought,None
+1018,Western,Mbale,Secondary,Female,43,4,4,Subsistence Farming,Subsistence Farming,Beans,1.72,0.2,Borehole,No,1.0,6,40,8,31,318794,236916,86550,54,Drought,Cash
+1019,Northern,Mbarara,None,Male,50,6,1,Subsistence Farming,Boda Boda,Coffee,6.27,3.5,Borehole,Yes,7.9,5,69,2,0,150486,303791,470652,44,Flood,None
+1020,Northern,Mbarara,Primary,Male,59,8,3,Livestock,Commercial Farming,Maize,0.5,3.3,Borehole,No,5.9,8,101,5,14,619466,413315,694957,64,Drought,None
+1021,Eastern,Gulu,Primary,Female,61,9,1,Small Business,Small Business,Maize,0.5,4.8,Borehole,Yes,7.8,4,26,4,4,867595,419067,501580,47,Flood,Cash
+1022,Northern,Kampala,None,Female,36,10,2,Boda Boda,Charcoal Burning,Beans,0.5,3.8,Borehole,Yes,2.3,10,67,10,31,167221,351470,307221,80,Drought,Cash
+1023,Central,Gulu,Primary,Female,29,4,3,Fishing,Fishing,Beans,0.5,5.4,Borehole,No,2.3,3,35,6,20,976544,225399,841949,37,Drought,Cash
+1024,Western,Gulu,None,Male,39,7,0,Livestock,Small Business,Coffee,0.5,2.3,Rain,No,7.3,10,71,6,0,723891,495001,369069,45,Flood,None
+1025,Central,Kampala,None,Female,61,8,3,Boda Boda,Livestock,Coffee,0.5,1.2,Borehole,No,5.3,2,101,4,13,718293,58704,256584,79,Flood,Cash
+1026,Northern,Gulu,University,Male,49,7,3,Livestock,Commercial Farming,Maize,0.5,1.8,Rain,Yes,7.0,9,107,7,28,909956,428373,180934,75,Flood,None
+1027,Central,Mbale,None,Female,39,4,3,Commercial Farming,Casual Labor,Coffee,3.58,2.9,Rain,Yes,7.0,6,71,6,12,347037,255084,608779,38,Flood,None
+1028,Eastern,Mbarara,University,Female,34,8,3,Salaried Employment,Casual Labor,Maize,0.5,0.2,Borehole,Yes,1.8,6,80,12,29,874068,134839,3632705,37,Flood,Food
+1029,Northern,Mbarara,University,Female,74,5,0,Boda Boda,Small Business,Maize,0.5,1.8,Rain,Yes,2.4,4,55,5,17,901178,93830,328827,82,None,Food
+1030,Western,Kampala,None,Male,53,6,1,Charcoal Burning,Subsistence Farming,Beans,0.5,4.9,Borehole,No,3.2,10,48,11,6,933760,342546,265073,84,Drought,None
+1031,Northern,Mbarara,University,Female,51,4,0,Construction,Fishing,Maize,0.5,5.7,Borehole,Yes,2.1,6,103,8,19,644202,448853,192730,83,Price Rise,Cash
+1032,Western,Kampala,University,Female,74,8,1,Fishing,Commercial Farming,Maize,0.5,2.1,Borehole,No,5.3,10,35,11,26,332061,229159,173966,61,None,None
+1033,Central,Mbarara,None,Female,56,2,4,Fishing,Subsistence Farming,Beans,0.5,3.1,Rain,No,7.4,7,50,7,32,760056,120038,880875,40,Drought,Cash
+1034,Eastern,Mbarara,University,Female,69,5,2,Fishing,Construction,Maize,0.5,3.2,Rain,No,3.6,9,90,4,8,74352,405560,819198,49,Flood,Cash
+1035,Eastern,Gulu,Secondary,Male,27,8,2,Construction,Small Business,Maize,0.5,4.8,Borehole,No,5.4,0,61,2,9,323286,53737,501840,54,Price Rise,Cash
+1036,Eastern,Gulu,None,Male,24,7,4,Casual Labor,Boda Boda,Coffee,0.5,5.3,Borehole,Yes,4.4,4,30,5,14,505193,240028,567432,73,Flood,Food
+1037,Central,Kampala,None,Female,35,6,4,Construction,Subsistence Farming,Beans,0.5,3.4,Rain,No,7.3,0,57,10,19,405838,471782,240481,40,Flood,None
+1038,Western,Mbarara,Primary,Male,22,7,3,Casual Labor,Charcoal Burning,Maize,0.5,0.7,Rain,Yes,7.0,8,66,2,4,699565,291650,299909,66,Drought,Cash
+1039,Western,Mbarara,Secondary,Male,24,8,0,Livestock,Fishing,Coffee,0.5,1.4,Borehole,No,1.0,10,94,12,33,576588,379499,474486,65,Drought,None
+1040,Eastern,Mbarara,None,Male,21,4,3,Casual Labor,Fishing,Beans,0.5,3.6,Borehole,No,2.9,2,56,9,4,266693,56183,127075,80,None,None
+1041,Western,Mbale,University,Male,24,9,2,Subsistence Farming,Charcoal Burning,Coffee,1.06,1.0,Borehole,No,5.8,7,105,7,18,141953,107996,193528,78,Price Rise,None
+1042,Western,Gulu,None,Male,55,5,0,Subsistence Farming,Construction,Coffee,1.75,1.1,Borehole,No,4.4,1,95,2,34,832044,474534,463291,70,Drought,None
+1043,Eastern,Kampala,University,Female,64,5,1,Salaried Employment,Boda Boda,Coffee,0.5,4.5,Rain,No,5.6,3,45,7,22,713306,137439,1005854,67,None,Food
+1044,Eastern,Mbale,None,Female,60,7,3,Salaried Employment,Casual Labor,Coffee,0.5,0.6,Rain,No,3.0,4,27,8,33,842848,160403,1487535,67,Drought,None
+1045,Northern,Mbarara,Primary,Female,60,3,2,Boda Boda,Subsistence Farming,Beans,0.5,5.3,Borehole,Yes,7.2,0,100,10,2,472204,196085,810456,52,Drought,Cash
+1046,Eastern,Mbale,None,Female,36,5,4,Livestock,Small Business,Coffee,0.5,2.8,Rain,No,0.5,2,69,6,20,345805,200042,775228,74,Flood,Cash
+1047,Northern,Gulu,University,Female,34,9,3,Casual Labor,Salaried Employment,Maize,0.5,5.9,Rain,No,2.2,0,42,11,29,356138,317767,669735,41,Price Rise,Food
+1048,Northern,Kampala,None,Male,66,8,3,Fishing,Fishing,Coffee,0.5,2.4,Rain,No,3.3,10,35,7,30,743910,383153,481698,56,Drought,None
+1049,Eastern,Kampala,None,Male,46,3,2,Subsistence Farming,Livestock,Beans,6.35,2.3,Borehole,Yes,3.8,10,46,10,19,454400,64581,126208,76,None,Food
+1050,Western,Gulu,None,Male,39,4,4,Construction,Salaried Employment,Coffee,0.5,2.6,Rain,No,3.3,7,90,2,20,176543,493467,520283,56,Price Rise,Food
+1051,Eastern,Kampala,Primary,Female,45,6,1,Livestock,Small Business,Beans,0.5,5.7,Rain,Yes,7.5,9,58,10,30,319217,19400,364231,44,Drought,Food
+1052,Central,Kampala,Secondary,Female,34,2,4,Livestock,Livestock,Beans,0.5,4.6,Borehole,Yes,4.9,2,106,5,12,664000,262415,561604,64,Drought,Food
+1053,Northern,Mbale,Secondary,Male,70,4,4,Boda Boda,Commercial Farming,Beans,0.5,5.6,Borehole,Yes,3.1,3,32,4,30,590201,46818,492461,70,None,Cash
+1054,Western,Gulu,Primary,Female,70,9,2,Livestock,Subsistence Farming,Maize,0.5,3.9,Borehole,No,3.3,9,88,10,7,488500,366884,440072,77,Flood,Food
+1055,Western,Gulu,University,Female,50,10,2,Subsistence Farming,Boda Boda,Maize,3.9,2.1,Borehole,No,7.5,5,78,10,7,582177,285755,312033,43,None,Cash
+1056,Northern,Mbale,University,Female,60,7,0,Livestock,Livestock,Coffee,0.5,3.2,Rain,No,8.0,0,100,10,13,531617,149686,742842,52,Price Rise,Food
+1057,Northern,Gulu,Secondary,Male,72,3,0,Small Business,Small Business,Beans,0.5,1.7,Rain,Yes,0.0,6,58,3,19,338403,412820,522774,77,Drought,None
+1058,Northern,Mbarara,University,Female,33,5,4,Commercial Farming,Commercial Farming,Maize,0.69,3.5,Borehole,No,5.2,4,62,10,15,759557,240747,1995329,47,Flood,None
+1059,Northern,Kampala,Primary,Female,25,10,2,Small Business,Boda Boda,Coffee,0.5,3.5,Rain,No,1.7,7,83,10,10,130510,74644,420932,52,None,Cash
+1060,Eastern,Kampala,University,Male,28,10,0,Salaried Employment,Livestock,Maize,0.5,4.4,Rain,No,0.3,9,90,10,1,464008,343870,2718497,61,Drought,Food
+1061,Eastern,Mbarara,Secondary,Male,50,3,0,Commercial Farming,Livestock,Maize,0.93,2.7,Rain,Yes,1.2,10,83,8,16,421197,297303,2829285,63,Flood,None
+1062,Central,Kampala,University,Female,57,5,1,Boda Boda,Charcoal Burning,Coffee,0.5,3.1,Rain,Yes,4.2,1,58,2,31,657768,178856,126285,84,Flood,None
+1063,Western,Mbale,Secondary,Female,27,2,1,Commercial Farming,Charcoal Burning,Maize,5.21,1.7,Borehole,Yes,0.9,6,23,7,28,933391,437693,837543,42,Drought,Food
+1064,Northern,Kampala,University,Male,24,2,0,Fishing,Casual Labor,Maize,0.5,0.9,Rain,No,5.8,2,42,2,34,180835,430340,372146,54,Price Rise,None
+1065,Western,Gulu,Secondary,Male,53,5,0,Subsistence Farming,Construction,Coffee,5.87,4.6,Rain,Yes,1.4,4,80,6,12,925013,191475,512013,51,Drought,None
+1066,Central,Mbarara,Secondary,Male,47,9,0,Small Business,Construction,Maize,0.5,3.5,Rain,No,3.2,0,51,6,20,250236,325284,176746,64,Flood,Cash
+1067,Eastern,Kampala,None,Female,40,3,4,Subsistence Farming,Charcoal Burning,Coffee,5.49,5.6,Borehole,No,1.4,10,73,9,19,91670,221767,470996,81,None,None
+1068,Central,Mbarara,Primary,Male,65,5,2,Boda Boda,Boda Boda,Beans,0.5,0.9,Rain,Yes,3.8,0,29,8,31,531797,35589,267940,65,Price Rise,Cash
+1069,Northern,Kampala,None,Male,70,6,2,Construction,Construction,Beans,0.5,5.2,Borehole,Yes,4.3,7,90,3,26,69547,81534,540740,74,Price Rise,None
+1070,Eastern,Mbale,Secondary,Female,19,4,3,Construction,Charcoal Burning,Beans,0.5,6.0,Borehole,No,2.8,2,56,8,15,996771,475250,473707,36,None,Cash
+1071,Central,Mbale,Secondary,Male,31,3,4,Livestock,Casual Labor,Coffee,0.5,4.8,Rain,Yes,4.6,10,66,9,8,28986,468145,258416,71,None,Food
+1072,Western,Kampala,Secondary,Female,69,8,1,Charcoal Burning,Charcoal Burning,Maize,0.5,5.5,Rain,Yes,5.4,0,42,12,13,113585,305557,209629,63,Price Rise,Food
+1073,Eastern,Gulu,None,Male,67,9,1,Charcoal Burning,Casual Labor,Maize,0.5,5.5,Rain,Yes,4.6,7,54,9,30,341298,203275,896081,50,Drought,Cash
+1074,Eastern,Kampala,University,Male,59,9,1,Commercial Farming,Fishing,Coffee,2.71,1.9,Borehole,Yes,0.0,1,107,9,19,953362,424761,2259559,83,Drought,Cash
+1075,Western,Mbarara,None,Male,35,2,2,Small Business,Commercial Farming,Coffee,0.5,2.9,Rain,No,0.2,9,102,10,32,674527,344395,694173,61,Drought,Cash
+1076,Northern,Gulu,None,Male,49,9,3,Charcoal Burning,Subsistence Farming,Maize,0.5,3.0,Rain,Yes,3.8,2,106,11,12,357276,393509,121883,61,Drought,Food
+1077,Northern,Mbale,Primary,Female,34,10,1,Casual Labor,Salaried Employment,Coffee,0.5,2.6,Borehole,Yes,2.8,2,48,9,18,548928,315888,719881,68,Flood,Food
+1078,Central,Mbarara,Primary,Female,51,3,1,Charcoal Burning,Charcoal Burning,Coffee,0.5,3.3,Borehole,No,3.1,1,109,7,5,735022,130768,591708,41,Drought,Food
+1079,Western,Gulu,Primary,Female,65,9,2,Salaried Employment,Subsistence Farming,Beans,0.5,2.9,Borehole,No,6.8,7,83,7,9,53303,447031,3777801,57,Drought,Food
+1080,Eastern,Gulu,None,Female,19,10,3,Fishing,Livestock,Beans,0.5,5.4,Rain,Yes,7.2,3,62,7,27,54300,366273,886416,36,Flood,Cash
+1081,Western,Mbale,None,Male,45,5,3,Casual Labor,Subsistence Farming,Coffee,0.5,0.9,Rain,Yes,3.2,2,45,11,15,212898,185931,751024,51,Drought,None
+1082,Central,Kampala,None,Female,40,7,4,Small Business,Salaried Employment,Beans,0.5,2.6,Rain,No,7.2,7,59,2,24,22477,44808,225605,69,Drought,Food
+1083,Central,Mbale,Secondary,Male,45,10,0,Commercial Farming,Livestock,Coffee,4.5,4.9,Rain,Yes,2.5,10,110,5,5,827735,329835,1840367,65,Drought,Food
+1084,Central,Gulu,Secondary,Female,52,8,4,Commercial Farming,Boda Boda,Maize,2.71,5.3,Borehole,No,3.0,9,79,5,5,146912,162052,2085423,47,Drought,Food
+1085,Northern,Kampala,University,Male,42,6,0,Casual Labor,Commercial Farming,Coffee,0.5,4.5,Rain,Yes,0.9,2,99,7,14,1174,284143,115463,47,Drought,None
+1086,Central,Kampala,Primary,Male,30,7,4,Commercial Farming,Construction,Coffee,2.14,3.4,Borehole,No,4.1,6,37,4,16,665696,351737,1553860,63,Flood,Cash
+1087,Northern,Mbale,None,Female,29,10,1,Livestock,Casual Labor,Coffee,0.5,0.2,Borehole,Yes,6.4,6,60,3,10,317229,122393,615221,48,Price Rise,Cash
+1088,Northern,Mbarara,University,Female,52,9,4,Fishing,Subsistence Farming,Beans,0.5,2.2,Borehole,No,7.3,8,35,3,10,872495,209241,205328,46,Drought,None
+1089,Central,Gulu,Secondary,Male,37,10,3,Livestock,Commercial Farming,Beans,0.5,1.0,Borehole,Yes,2.2,0,89,12,15,635436,277450,239650,67,Drought,None
+1090,Eastern,Gulu,Primary,Female,65,5,4,Subsistence Farming,Commercial Farming,Beans,5.55,1.4,Rain,No,3.9,4,67,6,3,747521,188469,329556,41,Drought,Cash
+1091,Central,Kampala,Primary,Male,23,5,3,Boda Boda,Casual Labor,Maize,0.5,4.4,Rain,Yes,0.4,0,47,10,3,42245,71945,811488,57,None,None
+1092,Northern,Kampala,University,Female,66,6,0,Small Business,Casual Labor,Beans,0.5,4.0,Borehole,Yes,4.5,5,85,4,33,235420,175248,198898,75,None,None
+1093,Western,Mbale,Primary,Male,67,6,1,Boda Boda,Salaried Employment,Coffee,0.5,3.9,Rain,Yes,3.6,2,79,9,15,143039,230705,196128,56,Price Rise,None
+1094,Northern,Mbale,Secondary,Male,53,3,1,Livestock,Boda Boda,Beans,0.5,4.2,Borehole,Yes,1.3,7,54,2,9,192377,286292,231466,44,Drought,Food
+1095,Western,Mbale,None,Male,63,5,4,Livestock,Commercial Farming,Maize,0.5,4.9,Borehole,No,5.6,0,33,4,30,951805,357446,222636,80,None,Food
+1096,Central,Gulu,Secondary,Male,51,9,4,Charcoal Burning,Fishing,Coffee,0.5,1.7,Borehole,No,2.1,1,89,12,32,726369,373723,316375,35,Price Rise,None
+1097,Eastern,Mbarara,Secondary,Female,42,7,3,Subsistence Farming,Small Business,Maize,5.21,2.2,Borehole,Yes,6.7,9,64,6,20,404701,430621,84699,67,Drought,Cash
+1098,Western,Gulu,Primary,Male,27,2,2,Construction,Salaried Employment,Beans,0.5,5.2,Rain,No,3.7,6,72,5,25,479519,224434,163436,39,None,Food
+1099,Eastern,Gulu,University,Female,74,6,1,Charcoal Burning,Subsistence Farming,Beans,0.5,3.3,Rain,Yes,6.7,5,36,3,34,26355,444195,678689,83,Drought,Cash
+1100,Western,Gulu,University,Female,41,9,2,Construction,Small Business,Maize,0.5,2.3,Rain,No,5.5,10,90,9,30,135337,338456,528047,73,None,None
+1101,Western,Mbale,Secondary,Male,25,2,1,Charcoal Burning,Subsistence Farming,Beans,0.5,2.1,Rain,No,2.1,3,22,10,21,373533,213624,138614,54,None,Cash
+1102,Northern,Kampala,University,Male,32,9,2,Boda Boda,Small Business,Coffee,0.5,3.0,Rain,No,3.3,1,54,9,6,855966,411340,405508,39,None,Food
+1103,Northern,Kampala,Secondary,Male,33,7,3,Commercial Farming,Fishing,Coffee,3.27,5.1,Borehole,Yes,0.4,5,78,5,16,719269,374025,886151,61,Flood,Cash
+1104,Central,Gulu,Primary,Female,39,4,3,Charcoal Burning,Subsistence Farming,Beans,0.5,2.8,Rain,No,4.0,0,72,9,25,447775,493831,527529,47,None,Cash
+1105,Western,Mbarara,None,Male,31,2,1,Charcoal Burning,Small Business,Coffee,0.5,5.3,Rain,Yes,5.6,0,88,3,28,392950,69773,154937,74,None,Cash
+1106,Central,Kampala,None,Male,60,10,2,Small Business,Commercial Farming,Maize,0.5,0.3,Borehole,No,4.3,1,80,7,8,66898,79256,593424,84,Drought,None
+1107,Eastern,Mbale,Secondary,Female,41,9,4,Boda Boda,Livestock,Maize,0.5,5.9,Rain,Yes,4.8,7,110,4,0,972097,227574,738510,55,Drought,Food
+1108,Eastern,Mbarara,Primary,Male,68,9,1,Construction,Commercial Farming,Maize,0.5,0.3,Rain,No,7.7,9,53,11,12,352984,360777,425699,76,Flood,Cash
+1109,Northern,Mbale,None,Female,27,10,2,Construction,Salaried Employment,Coffee,0.5,0.4,Rain,Yes,3.3,10,36,12,2,884160,416661,637313,48,Drought,None
+1110,Northern,Gulu,University,Female,38,2,4,Livestock,Livestock,Beans,0.5,1.0,Borehole,Yes,5.6,10,78,8,32,538718,2451,526810,37,Drought,Cash
+1111,Eastern,Gulu,Secondary,Male,58,8,4,Commercial Farming,Boda Boda,Coffee,1.37,1.4,Borehole,No,5.1,1,104,4,5,810199,55854,1693316,48,Drought,None
+1112,Northern,Kampala,Primary,Male,42,8,1,Subsistence Farming,Fishing,Maize,2.35,0.9,Borehole,Yes,6.6,3,58,11,27,372159,98163,590923,56,Price Rise,None
+1113,Western,Mbale,Secondary,Female,26,8,2,Boda Boda,Salaried Employment,Beans,0.5,2.8,Borehole,No,6.9,9,48,9,29,294320,402996,665210,63,None,Cash
+1114,Eastern,Mbarara,None,Female,74,9,0,Commercial Farming,Boda Boda,Beans,3.33,2.0,Borehole,No,5.4,0,25,4,33,931476,292366,1205017,82,None,None
+1115,Central,Mbale,Secondary,Male,22,10,2,Salaried Employment,Fishing,Maize,0.5,4.7,Rain,No,7.4,8,50,6,26,528876,259286,2053018,44,None,None
+1116,Eastern,Mbarara,None,Female,36,8,2,Small Business,Commercial Farming,Coffee,0.5,2.8,Rain,Yes,7.2,1,38,7,0,76586,385141,306206,51,Flood,None
+1117,Eastern,Gulu,University,Male,66,9,1,Salaried Employment,Small Business,Beans,0.5,5.6,Rain,Yes,6.5,5,77,7,32,432651,132577,920628,49,Price Rise,None
+1118,Western,Gulu,None,Female,53,4,4,Boda Boda,Small Business,Beans,0.5,1.5,Borehole,No,4.4,9,65,5,15,806742,425993,661869,69,Flood,Cash
+1119,Eastern,Mbarara,None,Female,72,8,0,Charcoal Burning,Construction,Coffee,0.5,5.5,Borehole,Yes,3.0,8,36,4,17,60557,332105,196932,57,None,None
+1120,Western,Mbale,None,Male,26,5,0,Fishing,Fishing,Beans,0.5,3.1,Rain,No,0.7,9,99,2,2,825522,277464,474225,76,Price Rise,None
+1121,Northern,Mbale,University,Male,49,3,1,Charcoal Burning,Fishing,Maize,0.5,4.0,Rain,Yes,3.9,1,59,10,2,468434,396830,679415,68,Flood,None
+1122,Eastern,Mbale,University,Male,23,2,4,Boda Boda,Fishing,Beans,0.5,3.4,Borehole,Yes,0.8,5,21,6,13,503202,411842,434518,58,Drought,Food
+1123,Central,Mbale,University,Female,37,4,4,Salaried Employment,Casual Labor,Coffee,0.5,2.5,Borehole,No,2.7,1,26,5,15,701848,258739,3871100,57,Flood,None
+1124,Eastern,Mbale,University,Male,55,9,0,Small Business,Charcoal Burning,Maize,0.5,2.6,Rain,No,7.4,1,90,10,21,779962,238646,688650,66,Drought,None
+1125,Western,Mbarara,Secondary,Female,44,3,3,Fishing,Livestock,Beans,0.5,2.1,Rain,Yes,5.4,2,25,8,34,869969,336874,626488,57,Flood,None
+1126,Western,Mbarara,Primary,Female,23,9,0,Commercial Farming,Fishing,Coffee,5.12,4.8,Rain,Yes,0.4,8,36,2,23,152584,137896,1137129,56,Flood,Cash
+1127,Central,Gulu,Secondary,Female,37,6,4,Salaried Employment,Subsistence Farming,Maize,0.5,1.4,Borehole,No,6.6,6,98,8,26,717149,54709,2128051,42,Drought,None
+1128,Northern,Kampala,University,Male,52,10,2,Small Business,Fishing,Beans,0.5,4.0,Rain,No,6.8,7,60,11,14,839806,12814,274921,83,Drought,None
+1129,Northern,Mbale,Secondary,Female,68,4,3,Fishing,Construction,Maize,0.5,5.3,Rain,No,7.0,8,59,6,32,292016,309270,624745,42,Price Rise,None
+1130,Northern,Mbale,University,Male,49,5,0,Livestock,Subsistence Farming,Maize,0.5,5.5,Rain,No,1.5,5,101,7,7,609270,80989,226456,80,Price Rise,Cash
+1131,Central,Mbale,Secondary,Female,22,6,3,Fishing,Salaried Employment,Beans,0.5,3.5,Borehole,Yes,0.4,4,92,9,11,45177,246416,625583,48,None,None
+1132,Central,Gulu,Secondary,Male,52,8,0,Commercial Farming,Small Business,Maize,3.34,4.3,Rain,No,3.5,10,73,9,33,913105,451947,2995049,84,Drought,None
+1133,Western,Kampala,Primary,Female,66,5,4,Subsistence Farming,Casual Labor,Coffee,6.37,5.1,Rain,Yes,1.8,5,103,2,19,823059,180458,82589,82,None,None
+1134,Western,Mbarara,None,Male,63,3,1,Small Business,Small Business,Maize,0.5,4.6,Rain,No,0.7,1,105,3,34,559509,225925,257872,49,None,None
+1135,Eastern,Kampala,Primary,Male,26,5,0,Boda Boda,Subsistence Farming,Beans,0.5,0.9,Borehole,No,5.1,4,91,9,32,865776,283473,485920,80,Price Rise,Food
+1136,Eastern,Mbale,Primary,Female,30,5,0,Commercial Farming,Fishing,Coffee,1.71,2.2,Borehole,Yes,1.5,1,100,5,2,627105,472273,975969,60,Flood,None
+1137,Central,Mbarara,Secondary,Male,61,6,2,Small Business,Charcoal Burning,Beans,0.5,2.8,Rain,No,1.1,9,67,9,34,812900,416519,333643,50,Price Rise,None
+1138,Northern,Kampala,Secondary,Female,52,8,3,Boda Boda,Casual Labor,Beans,0.5,4.5,Rain,Yes,7.0,8,95,2,18,162507,275337,877741,75,Price Rise,Food
+1139,Central,Mbale,None,Female,60,7,3,Fishing,Livestock,Beans,0.5,5.0,Borehole,No,5.9,2,76,11,16,589068,474304,250374,43,Drought,None
+1140,Eastern,Mbale,Primary,Male,56,5,3,Boda Boda,Salaried Employment,Beans,0.5,5.8,Rain,Yes,0.6,6,93,3,25,663780,244343,545999,52,Price Rise,None
+1141,Eastern,Kampala,Secondary,Female,66,6,1,Fishing,Livestock,Coffee,0.5,0.3,Borehole,Yes,3.9,1,106,4,30,801619,328480,832572,84,Price Rise,Cash
+1142,Northern,Mbarara,Primary,Female,30,3,4,Small Business,Commercial Farming,Beans,0.5,1.3,Rain,No,1.7,4,105,11,12,110673,83130,683749,46,Drought,Cash
+1143,Eastern,Mbarara,University,Male,57,5,4,Commercial Farming,Commercial Farming,Beans,5.12,1.3,Borehole,No,2.3,3,33,8,29,222849,471409,2940689,84,None,None
+1144,Northern,Mbarara,Secondary,Male,58,6,1,Casual Labor,Charcoal Burning,Coffee,0.5,1.6,Borehole,Yes,2.8,4,62,4,28,442009,150803,127647,49,Price Rise,Cash
+1145,Central,Mbale,Primary,Male,46,3,4,Casual Labor,Fishing,Beans,0.5,0.8,Borehole,Yes,7.1,3,42,12,0,764677,190710,812908,36,None,None
+1146,Western,Mbarara,University,Male,40,7,2,Casual Labor,Commercial Farming,Coffee,0.5,4.9,Borehole,Yes,2.7,1,104,6,9,431229,44678,210168,42,Price Rise,None
+1147,Central,Mbale,University,Female,56,10,0,Small Business,Boda Boda,Beans,0.5,2.8,Borehole,Yes,3.1,7,107,12,4,750360,391723,312342,37,None,Cash
+1148,Eastern,Kampala,Primary,Female,42,7,4,Commercial Farming,Small Business,Maize,5.6,1.4,Rain,Yes,6.8,1,107,11,34,604198,352554,1949379,47,Drought,Food
+1149,Central,Mbale,None,Female,33,3,1,Fishing,Casual Labor,Beans,0.5,1.8,Borehole,No,1.2,1,85,12,22,94779,255642,427007,35,Price Rise,Food
+1150,Western,Mbarara,None,Male,49,8,1,Fishing,Livestock,Maize,0.5,2.0,Rain,No,1.0,8,53,5,6,285119,273846,414924,42,None,Cash
+1151,Central,Mbale,None,Female,68,6,2,Boda Boda,Charcoal Burning,Maize,0.5,0.8,Rain,No,2.0,2,98,9,29,222470,187382,613172,77,None,None
+1152,Western,Gulu,University,Female,35,9,4,Subsistence Farming,Salaried Employment,Beans,5.13,2.6,Rain,No,3.8,0,51,10,1,715853,311619,372369,57,None,Food
+1153,Central,Mbale,Primary,Male,52,7,1,Commercial Farming,Casual Labor,Coffee,1.04,0.9,Borehole,No,5.8,3,75,2,13,451358,369899,2611235,47,None,None
+1154,Eastern,Kampala,Secondary,Female,51,3,4,Fishing,Construction,Beans,0.5,3.7,Borehole,No,6.6,4,39,7,10,635209,385121,734419,65,Flood,Cash
+1155,Eastern,Kampala,Primary,Female,59,6,0,Construction,Livestock,Maize,0.5,3.7,Rain,No,0.4,9,91,11,34,586550,320469,607001,82,Drought,None
+1156,Central,Gulu,University,Male,49,6,0,Fishing,Charcoal Burning,Coffee,0.5,3.0,Rain,Yes,2.4,5,31,2,1,790470,159422,469857,68,None,Food
+1157,Western,Kampala,University,Male,64,3,0,Charcoal Burning,Small Business,Coffee,0.5,1.1,Rain,Yes,3.6,5,26,11,23,37047,394605,233760,47,Price Rise,Food
+1158,Northern,Kampala,University,Female,41,6,2,Salaried Employment,Subsistence Farming,Maize,0.5,0.7,Borehole,No,6.0,9,37,2,2,353748,404211,1682064,67,Drought,Food
+1159,Northern,Mbarara,Primary,Female,44,8,2,Boda Boda,Fishing,Beans,0.5,4.3,Borehole,No,6.7,7,58,2,26,730555,226705,657305,50,Flood,None
+1160,Northern,Gulu,University,Female,46,9,4,Small Business,Livestock,Coffee,0.5,0.4,Rain,No,2.4,9,42,7,8,386418,135558,530964,84,Price Rise,Cash
+1161,Western,Kampala,Secondary,Male,69,4,1,Commercial Farming,Boda Boda,Beans,0.58,2.8,Rain,Yes,4.4,9,44,7,30,129307,290786,1507287,50,Flood,Food
+1162,Western,Mbarara,None,Male,51,6,0,Livestock,Boda Boda,Beans,0.5,2.5,Rain,Yes,6.0,7,70,8,9,759865,342377,313708,56,Price Rise,Cash
+1163,Western,Kampala,Primary,Female,64,10,4,Fishing,Boda Boda,Beans,0.5,1.7,Rain,No,0.6,1,107,12,0,549561,71306,716868,78,None,Cash
+1164,Eastern,Gulu,Primary,Female,52,8,3,Fishing,Charcoal Burning,Maize,0.5,2.6,Borehole,No,2.8,4,103,4,30,907643,460545,635949,70,Price Rise,Food
+1165,Central,Mbarara,None,Female,58,10,2,Commercial Farming,Casual Labor,Coffee,2.92,5.9,Borehole,Yes,4.3,3,50,3,29,518373,273820,2132953,84,Flood,Food
+1166,Eastern,Mbale,Primary,Female,72,8,2,Subsistence Farming,Subsistence Farming,Beans,5.87,1.7,Borehole,Yes,0.3,8,31,9,6,161337,273987,402104,50,Flood,Cash
+1167,Western,Mbarara,Primary,Female,34,7,3,Casual Labor,Boda Boda,Maize,0.5,5.2,Rain,No,3.2,8,62,7,34,525184,71925,683773,37,None,Cash
+1168,Central,Gulu,Primary,Male,60,8,0,Boda Boda,Salaried Employment,Beans,0.5,4.6,Rain,No,2.5,7,68,7,11,58574,10709,212021,83,Drought,None
+1169,Western,Gulu,University,Female,54,9,0,Fishing,Salaried Employment,Coffee,0.5,2.5,Rain,Yes,0.1,7,88,6,3,115229,144392,504648,83,None,None
+1170,Central,Mbarara,Secondary,Male,56,6,2,Construction,Construction,Coffee,0.5,3.2,Rain,No,3.8,9,51,7,27,385795,479106,463715,63,Drought,Cash
+1171,Central,Mbarara,None,Female,59,10,2,Charcoal Burning,Subsistence Farming,Beans,0.5,1.6,Borehole,No,4.7,1,64,2,7,832156,31616,547320,37,Drought,Food
+1172,Eastern,Mbarara,University,Male,42,5,1,Boda Boda,Subsistence Farming,Maize,0.5,5.3,Rain,No,3.6,10,94,8,16,791520,419990,222324,72,Drought,None
+1173,Eastern,Mbale,Secondary,Female,63,8,0,Small Business,Casual Labor,Maize,0.5,1.7,Borehole,No,3.5,4,49,8,18,733126,118164,148497,35,Price Rise,Food
+1174,Central,Mbale,Primary,Male,26,3,2,Charcoal Burning,Livestock,Beans,0.5,3.4,Borehole,No,5.1,0,64,7,8,943483,358522,893777,50,None,Food
+1175,Eastern,Kampala,Secondary,Male,55,7,4,Small Business,Livestock,Coffee,0.5,0.3,Borehole,Yes,4.5,2,40,8,20,635770,299962,550565,83,None,None
+1176,Western,Mbarara,Primary,Female,27,5,1,Commercial Farming,Casual Labor,Coffee,4.25,1.3,Rain,No,7.1,1,85,6,33,317684,395891,1565366,73,Price Rise,Cash
+1177,Western,Mbale,University,Male,20,4,2,Charcoal Burning,Casual Labor,Maize,0.5,4.4,Borehole,Yes,2.5,8,51,7,29,860129,316796,109509,35,Drought,Food
+1178,Eastern,Mbarara,Secondary,Male,31,7,0,Commercial Farming,Small Business,Maize,3.03,3.2,Borehole,Yes,7.5,3,74,9,9,758970,223400,2479553,47,Drought,Cash
+1179,Western,Mbale,Secondary,Male,19,6,1,Construction,Casual Labor,Maize,0.5,4.6,Rain,Yes,4.2,9,67,7,3,978722,148206,424785,84,Flood,Food
+1180,Central,Mbale,Secondary,Female,34,3,4,Casual Labor,Construction,Beans,0.5,4.5,Borehole,Yes,2.6,1,91,5,29,777089,48204,193173,68,Price Rise,Food
+1181,Northern,Kampala,University,Female,34,8,0,Casual Labor,Construction,Beans,0.5,2.0,Rain,No,7.5,4,83,9,5,121002,204477,798627,72,Drought,Cash
+1182,Western,Mbale,Primary,Female,58,7,0,Charcoal Burning,Livestock,Maize,0.5,5.3,Borehole,No,0.7,9,44,2,16,775685,75213,431547,46,None,None
+1183,Central,Mbarara,Secondary,Female,60,9,1,Livestock,Commercial Farming,Maize,0.5,4.4,Rain,Yes,7.3,2,51,6,16,907177,277788,369801,81,Drought,Food
+1184,Central,Kampala,University,Male,38,5,1,Boda Boda,Small Business,Coffee,0.5,1.2,Rain,Yes,4.7,2,31,12,20,461788,419109,871915,60,Drought,Food
+1185,Northern,Mbale,None,Male,39,3,0,Small Business,Casual Labor,Maize,0.5,4.7,Rain,No,1.1,6,25,8,17,97069,73011,196434,78,Flood,None
+1186,Western,Mbarara,Secondary,Male,51,7,2,Boda Boda,Livestock,Maize,0.5,4.7,Rain,No,4.7,4,29,11,1,606884,86946,501615,46,Drought,Food
+1187,Central,Kampala,University,Male,71,7,2,Commercial Farming,Casual Labor,Maize,4.47,5.8,Borehole,No,4.6,5,43,4,16,833418,48428,1166082,47,Price Rise,None
+1188,Eastern,Mbale,Primary,Female,41,7,3,Casual Labor,Fishing,Coffee,0.5,3.5,Rain,Yes,0.3,9,111,5,29,31840,393455,131423,48,Price Rise,None
+1189,Eastern,Kampala,University,Female,48,9,2,Construction,Fishing,Maize,0.5,2.5,Rain,Yes,5.9,6,89,4,21,721437,398900,464467,64,Drought,Cash
+1190,Central,Kampala,Secondary,Female,40,9,4,Boda Boda,Construction,Maize,0.5,0.3,Borehole,Yes,2.6,1,22,11,28,255105,95536,463341,81,Price Rise,None
+1191,Central,Mbale,None,Female,43,5,1,Subsistence Farming,Boda Boda,Coffee,1.3,1.1,Borehole,No,3.9,6,50,12,34,943635,104262,344166,35,Flood,Cash
+1192,Northern,Gulu,University,Male,23,3,1,Commercial Farming,Fishing,Coffee,0.68,1.8,Rain,No,6.8,9,59,8,21,101503,82498,787195,36,Flood,None
+1193,Eastern,Mbale,Primary,Female,51,4,2,Fishing,Casual Labor,Maize,0.5,1.1,Borehole,No,7.3,10,77,5,1,518798,298984,690894,80,Price Rise,None
+1194,Northern,Gulu,Primary,Female,63,9,4,Construction,Fishing,Coffee,0.5,0.9,Rain,No,5.0,6,24,4,19,526735,141284,898618,83,Flood,None
+1195,Central,Mbarara,Secondary,Female,19,10,4,Construction,Subsistence Farming,Beans,0.5,1.1,Rain,No,5.7,6,48,3,10,906146,452227,257745,61,None,None
+1196,Central,Mbarara,Secondary,Male,32,4,1,Boda Boda,Casual Labor,Beans,0.5,4.4,Rain,Yes,7.0,6,85,8,34,102561,313596,294194,52,Drought,None
+1197,Eastern,Mbarara,University,Male,32,5,2,Commercial Farming,Fishing,Beans,3.5,4.7,Borehole,No,4.1,1,110,9,21,21439,344957,2624439,49,None,Food
+1198,Eastern,Gulu,None,Male,59,6,3,Subsistence Farming,Fishing,Coffee,3.88,5.7,Borehole,No,1.8,3,74,9,30,768813,335203,409775,59,Price Rise,Cash
+1199,Eastern,Kampala,Secondary,Female,45,10,1,Casual Labor,Boda Boda,Maize,0.5,5.1,Borehole,No,5.1,4,99,5,24,498977,487561,765346,57,None,Food
+1200,Northern,Mbarara,Secondary,Female,33,5,3,Livestock,Construction,Maize,0.5,2.0,Borehole,No,2.5,9,83,4,20,363550,408775,623916,43,Price Rise,None
+1201,Eastern,Gulu,Secondary,Male,38,8,1,Boda Boda,Livestock,Maize,0.5,3.2,Rain,No,6.1,4,99,11,16,90655,27252,315477,43,Drought,Cash
+1202,Western,Kampala,Secondary,Male,52,4,3,Salaried Employment,Construction,Beans,0.5,0.6,Borehole,No,5.5,1,66,8,31,757716,38574,2044864,68,Drought,Cash
+1203,Eastern,Kampala,Primary,Male,30,7,1,Charcoal Burning,Construction,Beans,0.5,5.6,Borehole,Yes,7.9,5,83,6,24,935592,68622,144109,59,Flood,Food
+1204,Northern,Kampala,None,Female,25,5,2,Salaried Employment,Boda Boda,Coffee,0.5,0.9,Borehole,No,6.2,1,103,8,7,848007,468402,2501137,72,None,None
+1205,Northern,Mbarara,Primary,Male,22,9,1,Charcoal Burning,Construction,Beans,0.5,0.3,Rain,No,7.7,10,24,12,25,38526,102597,399188,40,None,Food
+1206,Western,Mbarara,Primary,Male,71,2,4,Casual Labor,Small Business,Maize,0.5,4.9,Borehole,No,3.0,3,58,11,4,716026,388336,430763,61,None,Cash
+1207,Northern,Kampala,None,Male,68,9,4,Casual Labor,Commercial Farming,Beans,0.5,0.4,Rain,Yes,3.8,3,75,9,2,824020,80802,861135,47,Flood,None
+1208,Central,Mbale,Primary,Male,44,8,1,Fishing,Salaried Employment,Maize,0.5,1.2,Rain,No,1.1,10,100,10,2,634807,226896,891892,51,None,Food
+1209,Western,Kampala,University,Female,35,4,1,Salaried Employment,Subsistence Farming,Coffee,0.5,1.0,Borehole,No,0.3,6,78,9,18,86383,187961,2875328,76,None,Cash
+1210,Northern,Mbale,Primary,Female,19,4,3,Boda Boda,Boda Boda,Beans,0.5,2.8,Rain,No,2.0,6,83,2,32,55974,245401,160095,39,Flood,None
+1211,Northern,Mbarara,Primary,Female,68,8,4,Charcoal Burning,Charcoal Burning,Coffee,0.5,1.3,Borehole,Yes,7.2,3,96,11,7,618146,219257,335630,59,None,Food
+1212,Northern,Mbarara,Primary,Male,59,8,4,Small Business,Small Business,Coffee,0.5,1.6,Borehole,Yes,5.1,0,62,8,13,353102,480180,851758,44,Price Rise,Food
+1213,Northern,Gulu,Secondary,Female,61,5,0,Commercial Farming,Subsistence Farming,Coffee,2.56,2.4,Borehole,No,3.8,2,73,5,15,682080,35557,1098261,48,Flood,Cash
+1214,Central,Mbarara,Secondary,Female,38,8,4,Boda Boda,Casual Labor,Coffee,0.5,2.7,Borehole,Yes,5.6,10,95,4,16,487449,320107,216287,53,Flood,None
+1215,Central,Mbarara,University,Male,51,7,1,Commercial Farming,Boda Boda,Coffee,2.41,4.2,Rain,No,7.4,3,33,6,16,924004,348422,2375843,74,Price Rise,None
+1216,Western,Gulu,Primary,Male,38,9,2,Charcoal Burning,Subsistence Farming,Maize,0.5,2.0,Borehole,Yes,7.6,10,89,9,13,880662,114439,464765,35,None,Food
+1217,Eastern,Gulu,University,Female,62,4,1,Salaried Employment,Salaried Employment,Beans,0.5,1.2,Rain,Yes,1.0,7,99,8,4,13761,419957,1088564,76,Drought,Food
+1218,Western,Mbale,University,Female,42,8,1,Subsistence Farming,Construction,Maize,2.02,4.5,Borehole,Yes,0.5,8,39,3,20,367981,499733,166013,74,None,Cash
+1219,Northern,Kampala,Secondary,Female,53,8,0,Salaried Employment,Small Business,Coffee,0.5,3.9,Borehole,Yes,6.7,7,27,5,1,691809,162729,2401330,65,Flood,None
+1220,Northern,Kampala,Secondary,Female,33,7,4,Commercial Farming,Subsistence Farming,Maize,1.34,1.5,Borehole,Yes,1.5,8,75,6,0,607856,409753,2705412,82,None,Food
+1221,Northern,Mbarara,Primary,Male,37,2,1,Casual Labor,Boda Boda,Beans,0.5,1.9,Borehole,No,2.2,3,69,4,3,58423,394504,382858,55,Price Rise,Cash
+1222,Eastern,Mbale,Secondary,Female,67,10,0,Fishing,Charcoal Burning,Maize,0.5,3.5,Borehole,Yes,6.7,2,50,11,32,877393,60167,720876,64,Flood,Food
+1223,Central,Mbale,University,Male,31,7,0,Livestock,Small Business,Coffee,0.5,0.2,Rain,No,3.3,0,57,4,17,421672,67774,307593,71,Drought,None
+1224,Western,Gulu,Secondary,Female,34,10,4,Livestock,Fishing,Maize,0.5,5.3,Borehole,Yes,7.1,7,106,8,7,406107,183559,275658,55,Drought,None
+1225,Northern,Gulu,Primary,Male,26,8,3,Boda Boda,Fishing,Coffee,0.5,1.0,Rain,No,0.0,6,77,4,23,764260,278721,562363,62,Drought,Food
+1226,Eastern,Gulu,University,Female,52,7,2,Small Business,Commercial Farming,Maize,0.5,0.7,Borehole,No,0.0,1,104,11,24,883031,87342,318107,37,Price Rise,Cash
+1227,Western,Mbarara,Secondary,Female,32,4,4,Commercial Farming,Livestock,Maize,6.07,2.5,Rain,No,7.1,6,28,11,18,121916,45657,2990180,77,Flood,Cash
+1228,Western,Mbarara,Secondary,Female,23,3,4,Charcoal Burning,Boda Boda,Beans,0.5,5.2,Borehole,Yes,7.6,6,53,11,4,260760,486592,711477,39,Drought,None
+1229,Northern,Gulu,Primary,Male,72,2,2,Livestock,Charcoal Burning,Coffee,0.5,2.2,Rain,No,0.0,9,57,6,22,55207,176502,862124,48,None,Cash
+1230,Eastern,Mbarara,Primary,Male,22,9,2,Fishing,Commercial Farming,Beans,0.5,1.8,Rain,No,1.1,10,36,7,15,94369,102006,551303,80,Price Rise,Cash
+1231,Northern,Kampala,University,Female,27,3,2,Salaried Employment,Salaried Employment,Beans,0.5,0.6,Rain,Yes,7.5,9,31,4,21,225979,369998,1001080,49,Flood,None
+1232,Northern,Mbale,University,Male,25,2,3,Casual Labor,Boda Boda,Coffee,0.5,3.2,Borehole,No,4.6,5,85,3,18,520618,186976,135823,43,None,Cash
+1233,Western,Gulu,Primary,Female,27,8,1,Subsistence Farming,Construction,Coffee,2.61,2.8,Rain,No,7.6,0,50,10,6,760594,297916,518331,74,Flood,Food
+1234,Eastern,Mbale,Secondary,Male,64,4,2,Casual Labor,Small Business,Maize,0.5,1.1,Rain,Yes,6.9,7,83,3,28,204504,392719,140908,55,Drought,None
+1235,Eastern,Kampala,None,Female,42,10,3,Construction,Boda Boda,Coffee,0.5,2.2,Rain,No,7.2,3,88,4,4,572824,188371,343873,67,Price Rise,Food
+1236,Northern,Kampala,None,Male,28,5,1,Livestock,Charcoal Burning,Beans,0.5,0.8,Rain,No,8.0,5,110,8,6,521930,486932,657420,60,Flood,Food
+1237,Western,Gulu,University,Male,53,8,1,Boda Boda,Boda Boda,Coffee,0.5,3.1,Borehole,No,6.4,7,58,4,30,90351,106264,754854,42,Flood,Food
+1238,Eastern,Mbarara,Primary,Female,30,2,2,Fishing,Subsistence Farming,Coffee,0.5,3.8,Borehole,No,1.6,8,95,8,16,638327,234614,795498,45,Flood,Food
+1239,Western,Mbale,University,Female,41,8,1,Salaried Employment,Casual Labor,Coffee,0.5,4.6,Borehole,No,6.7,7,47,12,15,771386,296667,3497595,80,Drought,None
+1240,Northern,Gulu,None,Female,68,2,3,Charcoal Burning,Boda Boda,Beans,0.5,3.4,Rain,Yes,6.9,7,110,10,1,90872,450744,481551,56,Drought,Cash
+1241,Eastern,Mbarara,Secondary,Male,50,8,1,Casual Labor,Casual Labor,Maize,0.5,3.6,Rain,No,3.5,1,78,2,14,575285,147321,339662,55,None,Food
+1242,Western,Mbale,University,Male,70,3,3,Commercial Farming,Subsistence Farming,Coffee,4.6,1.6,Rain,Yes,0.0,9,103,2,30,962526,8885,1617837,39,None,Food
+1243,Western,Kampala,None,Male,52,6,4,Small Business,Commercial Farming,Maize,0.5,4.1,Borehole,Yes,6.1,6,93,2,20,710630,314627,407516,48,Flood,Cash
+1244,Western,Kampala,None,Male,57,4,4,Boda Boda,Casual Labor,Maize,0.5,2.9,Borehole,Yes,1.2,10,111,2,4,734358,475400,292106,69,Drought,Cash
+1245,Eastern,Kampala,Primary,Male,55,7,4,Construction,Subsistence Farming,Maize,0.5,5.6,Rain,No,3.4,5,110,12,2,568659,193365,664420,47,Flood,None
+1246,Central,Mbarara,Primary,Female,47,8,2,Salaried Employment,Commercial Farming,Maize,0.5,5.5,Borehole,Yes,2.3,7,42,8,20,726023,365989,2364428,75,Flood,Food
+1247,Central,Kampala,Secondary,Male,58,2,0,Casual Labor,Commercial Farming,Maize,0.5,3.2,Rain,Yes,7.4,4,24,5,26,490979,313130,183074,59,Flood,Food
+1248,Central,Gulu,Secondary,Female,46,3,2,Charcoal Burning,Small Business,Maize,0.5,2.9,Rain,Yes,6.5,4,54,12,31,91879,434682,797020,63,Price Rise,None
+1249,Central,Kampala,None,Male,49,8,3,Boda Boda,Fishing,Beans,0.5,2.3,Rain,No,6.1,7,82,4,11,337859,448002,508159,78,Flood,None
+1250,Eastern,Mbarara,Secondary,Male,64,4,0,Boda Boda,Construction,Beans,0.5,0.4,Borehole,No,3.1,0,73,11,34,739539,457529,237699,77,Price Rise,Food
+1251,Eastern,Kampala,None,Female,63,7,4,Charcoal Burning,Small Business,Coffee,0.5,0.8,Rain,No,1.6,5,80,6,29,847909,394692,700974,82,Price Rise,Cash
+1252,Northern,Mbarara,Secondary,Female,35,9,0,Commercial Farming,Casual Labor,Maize,3.91,5.0,Borehole,Yes,2.1,3,44,7,10,916191,480829,1752232,36,None,None
+1253,Northern,Gulu,Primary,Male,19,5,0,Fishing,Boda Boda,Maize,0.5,2.9,Borehole,No,4.1,1,48,9,27,953739,25335,764087,80,None,None
+1254,Eastern,Mbale,University,Female,53,9,3,Boda Boda,Salaried Employment,Coffee,0.5,2.3,Borehole,Yes,3.9,5,37,6,14,957727,210977,119554,59,Flood,Cash
+1255,Northern,Kampala,Secondary,Female,73,4,1,Fishing,Commercial Farming,Maize,0.5,2.0,Borehole,Yes,1.9,2,84,9,10,836982,161947,359112,54,Flood,Cash
+1256,Western,Gulu,University,Female,36,7,0,Boda Boda,Casual Labor,Beans,0.5,4.8,Rain,No,2.5,7,108,3,11,815012,407680,599003,74,Flood,Cash
+1257,Central,Mbarara,Secondary,Female,69,9,4,Charcoal Burning,Construction,Maize,0.5,1.5,Rain,No,5.3,6,45,3,18,986350,329977,405910,84,None,None
+1258,Western,Kampala,None,Female,49,3,2,Commercial Farming,Fishing,Maize,2.08,1.1,Rain,Yes,7.8,2,89,12,14,220121,136481,1204602,78,None,Cash
+1259,Northern,Mbarara,None,Female,37,2,2,Casual Labor,Charcoal Burning,Maize,0.5,0.7,Rain,No,2.1,3,62,3,27,680446,339175,532859,82,Price Rise,None
+1260,Central,Kampala,University,Female,37,10,1,Commercial Farming,Salaried Employment,Maize,1.7,1.7,Borehole,Yes,2.0,9,62,9,0,85456,462943,2887676,55,Drought,Food
+1261,Central,Mbarara,University,Female,41,2,3,Salaried Employment,Salaried Employment,Beans,0.5,4.8,Borehole,No,6.6,8,53,10,12,444231,287080,1390635,51,Drought,Food
+1262,Northern,Gulu,University,Female,63,9,1,Fishing,Boda Boda,Coffee,0.5,6.0,Borehole,No,2.1,6,107,4,12,340119,369370,276821,80,Drought,None
+1263,Central,Mbarara,University,Female,71,3,4,Small Business,Fishing,Coffee,0.5,2.8,Rain,No,0.7,4,38,10,16,893260,44069,464686,72,Drought,None
+1264,Eastern,Kampala,University,Male,36,3,3,Small Business,Boda Boda,Beans,0.5,3.4,Borehole,No,3.5,3,62,2,27,913367,278895,610255,61,None,Cash
+1265,Eastern,Mbale,Primary,Male,72,8,3,Commercial Farming,Charcoal Burning,Beans,2.91,3.7,Borehole,No,1.9,10,80,8,11,170968,130814,685107,60,Price Rise,Cash
+1266,Northern,Mbarara,Secondary,Male,26,7,2,Commercial Farming,Charcoal Burning,Coffee,3.38,2.8,Borehole,Yes,5.7,9,48,9,14,187987,279963,1103250,70,Price Rise,Cash
+1267,Eastern,Kampala,Primary,Female,26,3,0,Boda Boda,Subsistence Farming,Beans,0.5,5.0,Rain,Yes,2.2,8,66,3,12,374413,371354,477426,75,Price Rise,None
+1268,Eastern,Gulu,Secondary,Male,69,5,2,Charcoal Burning,Commercial Farming,Coffee,0.5,4.8,Borehole,No,5.0,9,76,12,30,443878,317374,111545,51,Price Rise,Food
+1269,Central,Mbale,Secondary,Female,45,4,0,Livestock,Livestock,Maize,0.5,5.7,Borehole,Yes,5.7,2,91,3,11,812954,53479,510823,59,None,None
+1270,Eastern,Kampala,None,Male,44,9,1,Commercial Farming,Fishing,Maize,0.88,0.7,Rain,Yes,5.1,0,105,5,28,685969,200881,2217118,73,Drought,None
+1271,Northern,Gulu,Primary,Male,42,4,1,Subsistence Farming,Subsistence Farming,Coffee,2.38,2.0,Borehole,Yes,3.6,3,82,7,22,716975,200385,546026,65,Drought,Cash
+1272,Central,Mbarara,University,Female,66,6,4,Small Business,Boda Boda,Beans,0.5,2.2,Borehole,No,1.9,5,21,12,5,271093,104053,348085,72,None,None
+1273,Western,Mbale,University,Female,59,5,0,Salaried Employment,Fishing,Coffee,0.5,5.9,Borehole,Yes,1.5,10,35,11,20,929737,295202,3913150,52,Flood,Food
+1274,Northern,Gulu,University,Female,35,4,1,Fishing,Casual Labor,Beans,0.5,5.8,Rain,Yes,8.0,4,70,11,20,750794,461950,429289,65,None,None
+1275,Northern,Mbarara,None,Female,31,10,4,Casual Labor,Subsistence Farming,Coffee,0.5,5.7,Borehole,Yes,7.6,8,92,8,26,886155,280156,179216,80,Flood,Food
+1276,Northern,Mbarara,None,Female,63,3,4,Fishing,Subsistence Farming,Beans,0.5,2.3,Rain,Yes,1.1,1,70,12,28,398091,467522,550042,61,Drought,Food
+1277,Eastern,Mbale,None,Female,58,5,3,Casual Labor,Small Business,Maize,0.5,2.2,Borehole,No,7.0,8,71,4,21,7696,367162,191429,61,None,None
+1278,Northern,Gulu,Secondary,Female,49,4,1,Small Business,Fishing,Beans,0.5,1.9,Rain,Yes,2.0,5,22,6,4,547023,54878,426652,48,None,Cash
+1279,Northern,Kampala,Primary,Female,29,3,0,Charcoal Burning,Commercial Farming,Maize,0.5,0.9,Borehole,Yes,4.9,0,90,6,13,179058,403075,797930,69,Flood,Food
+1280,Eastern,Mbale,Primary,Male,59,8,0,Commercial Farming,Commercial Farming,Beans,2.53,1.6,Rain,Yes,2.6,6,24,11,8,13210,125793,980117,42,Price Rise,None
+1281,Northern,Kampala,Secondary,Female,49,8,1,Commercial Farming,Fishing,Maize,4.88,2.9,Borehole,Yes,1.4,0,78,2,22,570439,415886,1938831,71,Flood,None
+1282,Central,Mbale,Secondary,Male,74,5,4,Casual Labor,Small Business,Maize,0.5,1.1,Rain,Yes,5.2,3,102,6,3,724432,482965,795684,42,Flood,None
+1283,Western,Kampala,Primary,Female,34,6,1,Casual Labor,Salaried Employment,Maize,0.5,4.8,Rain,Yes,4.5,4,48,11,22,762338,376973,214697,37,Drought,None
+1284,Eastern,Mbarara,Secondary,Female,46,8,4,Subsistence Farming,Livestock,Maize,3.19,1.6,Rain,Yes,1.4,4,108,3,34,390375,307682,522212,38,Flood,None
+1285,Western,Mbarara,Secondary,Male,40,3,1,Livestock,Subsistence Farming,Maize,0.5,4.1,Borehole,No,1.4,1,30,9,26,896759,492539,866024,80,None,Cash
+1286,Western,Mbarara,Primary,Male,47,5,3,Commercial Farming,Commercial Farming,Coffee,2.16,3.7,Rain,Yes,4.8,4,101,3,31,404381,339117,1868331,54,Drought,None
+1287,Central,Gulu,Secondary,Male,34,9,2,Fishing,Casual Labor,Beans,0.5,1.6,Borehole,Yes,5.8,6,75,5,28,77330,420432,646845,76,Flood,Food
+1288,Eastern,Gulu,Secondary,Female,69,2,4,Fishing,Commercial Farming,Coffee,0.5,1.2,Borehole,Yes,5.4,8,43,10,19,239971,406111,295980,35,Flood,Cash
+1289,Northern,Mbarara,Secondary,Female,20,9,0,Charcoal Burning,Commercial Farming,Maize,0.5,5.3,Borehole,Yes,1.8,5,62,5,5,697894,458555,725681,37,Price Rise,Cash
+1290,Northern,Gulu,University,Male,31,4,2,Construction,Small Business,Maize,0.5,4.1,Borehole,No,6.9,3,40,7,33,326,413195,197580,81,None,None
+1291,Central,Kampala,Secondary,Female,34,2,3,Boda Boda,Charcoal Burning,Coffee,0.5,2.0,Rain,No,1.1,3,53,12,6,507574,380449,318778,65,Flood,Food
+1292,Northern,Kampala,None,Female,31,4,3,Subsistence Farming,Subsistence Farming,Coffee,3.78,1.4,Rain,No,0.5,9,69,11,3,834603,187118,462357,66,Flood,Food
+1293,Northern,Mbale,None,Female,61,7,0,Salaried Employment,Charcoal Burning,Beans,0.5,5.7,Rain,No,3.3,7,77,7,19,932437,21383,2491744,80,None,Food
+1294,Northern,Mbale,Primary,Female,33,8,0,Subsistence Farming,Construction,Coffee,1.95,2.9,Rain,No,3.5,7,100,11,8,293562,45037,250167,41,Drought,Cash
+1295,Central,Kampala,Primary,Female,31,10,2,Casual Labor,Salaried Employment,Maize,0.5,0.3,Borehole,Yes,1.0,3,30,9,18,774582,27171,334709,49,Drought,None
+1296,Eastern,Kampala,University,Female,32,8,0,Construction,Commercial Farming,Coffee,0.5,4.3,Borehole,Yes,4.6,5,87,4,26,453593,217934,437958,75,Drought,Cash
+1297,Central,Mbale,None,Female,59,4,1,Boda Boda,Salaried Employment,Maize,0.5,5.8,Rain,Yes,0.1,8,26,8,28,446366,347322,436037,81,Drought,Food
+1298,Central,Mbarara,University,Male,35,2,1,Small Business,Commercial Farming,Beans,0.5,4.1,Rain,Yes,6.1,8,71,5,10,959789,112832,461746,70,None,Food
+1299,Northern,Mbarara,University,Female,38,4,4,Casual Labor,Fishing,Coffee,0.5,6.0,Borehole,Yes,3.0,2,78,7,6,779191,9555,241558,57,None,Cash
+1300,Western,Mbarara,Secondary,Male,41,3,3,Boda Boda,Boda Boda,Coffee,0.5,4.1,Rain,Yes,4.6,7,51,11,12,640718,475412,760052,67,None,Cash
+1301,Central,Kampala,Primary,Female,32,6,3,Small Business,Boda Boda,Beans,0.5,3.9,Borehole,Yes,5.1,9,70,7,33,460642,249840,567382,37,Drought,None
+1302,Central,Mbarara,University,Female,60,5,2,Small Business,Casual Labor,Maize,0.5,4.7,Rain,No,5.6,7,107,9,13,896689,233420,590282,63,Drought,None
+1303,Eastern,Kampala,Primary,Male,34,9,3,Fishing,Boda Boda,Coffee,0.5,2.0,Borehole,Yes,1.2,6,105,8,30,485820,97742,820221,36,Drought,Cash
+1304,Western,Mbarara,University,Male,48,9,3,Casual Labor,Charcoal Burning,Coffee,0.5,5.1,Borehole,No,2.0,7,57,9,33,410825,361699,416172,71,Flood,Food
+1305,Northern,Gulu,None,Female,43,6,4,Small Business,Casual Labor,Coffee,0.5,0.9,Borehole,Yes,1.6,1,52,11,19,237178,76985,434395,74,Flood,Food
+1306,Central,Kampala,None,Male,61,4,3,Subsistence Farming,Commercial Farming,Beans,2.65,5.7,Borehole,No,0.8,6,98,10,15,698719,157625,108440,75,Price Rise,Cash
+1307,Northern,Gulu,Primary,Male,57,6,0,Fishing,Construction,Coffee,0.5,3.3,Rain,Yes,2.7,8,40,9,30,771884,157712,874753,56,None,None
+1308,Northern,Kampala,None,Male,32,8,1,Small Business,Casual Labor,Beans,0.5,4.0,Rain,No,5.2,7,64,2,1,291430,62576,405743,59,Price Rise,Cash
+1309,Western,Kampala,None,Male,50,4,2,Boda Boda,Boda Boda,Maize,0.5,2.7,Rain,Yes,6.9,9,23,6,30,656063,28823,196325,58,Drought,Cash
+1310,Western,Kampala,Secondary,Female,61,2,0,Construction,Commercial Farming,Beans,0.5,0.3,Borehole,No,3.7,0,86,12,7,836494,449935,232862,66,Price Rise,Cash
+1311,Eastern,Mbale,University,Female,58,6,3,Commercial Farming,Charcoal Burning,Beans,3.05,5.3,Rain,No,4.0,3,72,5,29,381989,74527,2399821,65,Drought,None
+1312,Western,Gulu,None,Male,63,7,0,Casual Labor,Fishing,Coffee,0.5,5.9,Rain,No,4.5,8,73,8,11,666424,363029,861386,59,Price Rise,Cash
+1313,Northern,Mbale,Primary,Female,22,6,4,Livestock,Charcoal Burning,Beans,0.5,2.6,Borehole,Yes,5.1,10,88,12,18,108017,388957,281606,57,None,Cash
+1314,Northern,Mbarara,None,Female,59,2,3,Subsistence Farming,Small Business,Beans,3.37,2.2,Rain,Yes,0.6,8,105,9,6,362303,318602,434501,38,Price Rise,None
+1315,Western,Gulu,University,Female,56,6,4,Construction,Subsistence Farming,Beans,0.5,4.1,Rain,No,2.4,2,26,2,23,256851,297498,245842,81,Drought,None
+1316,Central,Mbale,Secondary,Male,42,5,4,Fishing,Salaried Employment,Maize,0.5,5.9,Borehole,No,1.9,0,68,3,18,760685,116550,583503,59,Price Rise,Food
+1317,Central,Kampala,Secondary,Male,72,5,2,Small Business,Commercial Farming,Coffee,0.5,3.4,Borehole,No,5.2,8,55,3,33,565395,34968,894117,50,Flood,None
+1318,Central,Kampala,University,Female,22,3,2,Casual Labor,Subsistence Farming,Coffee,0.5,2.4,Rain,Yes,3.3,5,61,12,3,31474,202414,488406,54,Flood,Cash
+1319,Eastern,Kampala,None,Male,51,5,3,Charcoal Burning,Livestock,Coffee,0.5,1.4,Rain,No,4.1,4,42,3,23,79229,243606,692139,71,Price Rise,None
+1320,Western,Mbarara,Primary,Male,19,9,1,Construction,Construction,Beans,0.5,4.0,Rain,No,4.2,6,92,3,1,833346,194632,336857,58,Drought,Food
+1321,Western,Gulu,Secondary,Male,29,3,3,Casual Labor,Small Business,Maize,0.5,6.0,Borehole,Yes,7.2,6,83,4,10,933608,410221,276272,66,Price Rise,Cash
+1322,Western,Mbale,Primary,Female,34,5,3,Charcoal Burning,Subsistence Farming,Coffee,0.5,0.6,Rain,No,4.1,8,111,10,21,904867,498890,108411,52,Flood,Food
+1323,Northern,Gulu,None,Female,58,8,2,Fishing,Livestock,Coffee,0.5,3.3,Borehole,No,6.1,7,40,11,8,374874,238626,630243,44,Price Rise,Cash
+1324,Central,Gulu,University,Female,20,7,2,Commercial Farming,Fishing,Maize,4.96,3.6,Rain,No,2.2,4,27,6,2,58919,425302,1870600,39,Flood,Cash
+1325,Central,Kampala,None,Female,54,8,1,Casual Labor,Commercial Farming,Beans,0.5,5.4,Borehole,No,6.0,3,111,10,8,124550,459530,579624,67,Drought,Food
+1326,Eastern,Mbarara,None,Male,31,6,4,Commercial Farming,Commercial Farming,Maize,3.61,4.0,Rain,Yes,5.1,10,99,9,31,334514,295243,2848478,70,None,Food
+1327,Eastern,Kampala,None,Female,48,4,3,Charcoal Burning,Fishing,Beans,0.5,2.1,Rain,No,4.1,9,105,9,9,72964,127227,706076,42,Flood,None
+1328,Eastern,Mbale,Primary,Male,20,5,4,Fishing,Fishing,Maize,0.5,0.2,Borehole,Yes,3.9,7,48,11,18,713570,315376,311552,47,Flood,Food
+1329,Northern,Mbale,Primary,Female,43,2,3,Construction,Boda Boda,Maize,0.5,2.6,Rain,Yes,6.2,10,41,10,18,199122,108601,490830,50,Price Rise,Food
+1330,Western,Mbale,Secondary,Male,73,7,4,Boda Boda,Commercial Farming,Maize,0.5,3.4,Rain,No,7.1,6,74,12,6,984394,14993,268646,66,None,Food
+1331,Northern,Mbarara,Secondary,Female,39,10,4,Construction,Fishing,Coffee,0.5,1.3,Borehole,Yes,1.1,9,30,6,2,298941,419502,847296,55,Drought,Food
+1332,Central,Gulu,Primary,Female,63,9,0,Boda Boda,Commercial Farming,Coffee,0.5,2.6,Borehole,Yes,7.1,3,62,4,2,502532,393608,349162,50,Flood,Food
+1333,Northern,Mbale,University,Female,42,8,0,Casual Labor,Casual Labor,Beans,0.5,0.8,Borehole,Yes,4.7,0,107,3,6,53035,399426,872697,44,Price Rise,Food
+1334,Western,Kampala,Secondary,Female,61,9,3,Fishing,Subsistence Farming,Coffee,0.5,4.9,Borehole,No,1.1,3,71,4,11,311424,237398,476945,51,Flood,None
+1335,Western,Kampala,University,Female,48,2,3,Salaried Employment,Subsistence Farming,Maize,0.5,3.9,Borehole,No,6.3,4,39,2,9,723223,465060,3993320,81,None,Food
+1336,Eastern,Mbarara,None,Male,28,6,3,Fishing,Commercial Farming,Maize,0.5,5.3,Rain,No,5.4,3,100,2,8,742212,212200,838030,68,Flood,Cash
+1337,Eastern,Mbale,University,Male,30,10,4,Casual Labor,Subsistence Farming,Coffee,0.5,3.9,Borehole,Yes,6.1,9,75,12,0,944057,295019,123391,56,Price Rise,Cash
+1338,Eastern,Mbarara,None,Male,40,10,1,Charcoal Burning,Small Business,Beans,0.5,3.2,Borehole,No,2.6,10,27,6,19,486248,471359,132810,48,Drought,None
+1339,Western,Gulu,University,Female,23,3,0,Livestock,Charcoal Burning,Coffee,0.5,1.5,Rain,Yes,0.7,2,107,12,27,994277,331039,554817,44,Flood,Food

@@ -1,0 +1,521 @@
+ID,Region,District,Education,Yield,Age,Gender,Income,Water_Source,Crop,Year,Item_Code,Item_Name,Stock,Location
+1,Northern,Gulu,Primary,3.686387412215288,33,Male,1096429,Tap,Cassava,2022,ITEM-0,Hoe,44,Store B
+2,Western,Mbarara,Secondary,3.9636471660756407,52,Female,1770442,Borehole,Beans,2022,ITEM-1,DAP,627,Store B
+3,Central,Gulu,Primary,1.3145799953196888,26,Male,689660,Well,Maize,2022,ITEM-2,Maize Seed,997,Store B
+4,Northern,Gulu,University,6.401107507746449,56,Female,1481930,Tap,Cassava,2022,ITEM-3,Maize Seed,849,Store B
+5,Northern,Gulu,None,1.9704252171166425,54,Male,1526331,Tap,Beans,2024,ITEM-4,DAP,425,Store B
+6,Western,Kampala,Primary,3.176770270716955,27,Male,1515210,Borehole,Coffee,2022,ITEM-5,Hoe,717,Store A
+7,Central,Kampala,Primary,3.018639647613567,29,Female,1769429,Borehole,Beans,2024,ITEM-6,Hoe,630,Store A
+8,Central,Kampala,Secondary,3.575293276837897,25,Female,1560724,Borehole,Coffee,2022,ITEM-7,DAP,646,Store A
+9,Northern,Mbarara,University,7.551902618032698,20,Male,653850,Borehole,Maize,2022,ITEM-8,Maize Seed,336,Store A
+10,Eastern,Lira,None,2.176899078037066,36,Female,296849,Well,Coffee,2023,ITEM-9,Hoe,304,Store B
+11,Northern,Gulu,University,6.104578370110024,28,Male,1377789,Well,Beans,2023,ITEM-10,DAP,441,Store B
+12,Northern,Gulu,None,1.1584299024574753,25,Male,1910313,Well,Cassava,2023,ITEM-11,Hoe,356,Store A
+13,Northern,Mbarara,University,8.820401963682112,43,Female,472047,River,Beans,2023,ITEM-12,Maize Seed,46,Store B
+14,Northern,Gulu,None,0.4601257235366124,62,Male,1394215,Borehole,Cassava,2023,ITEM-13,Hoe,709,Store A
+15,Western,Kampala,None,0.2,40,Female,1468069,Borehole,Beans,2023,ITEM-14,DAP,521,Store B
+16,Central,Lira,Secondary,5.582904434464799,27,Male,1013038,Well,Beans,2022,ITEM-15,Hoe,858,Store B
+17,Western,Arua,University,7.93660477170456,35,Male,847404,Tap,Maize,2022,ITEM-16,Hoe,979,Store A
+18,Western,Gulu,University,6.343032676422575,29,Male,676192,Tap,Coffee,2023,ITEM-17,Maize Seed,909,Store A
+19,Western,Kampala,Secondary,4.087008218131913,56,Female,857620,Borehole,Beans,2023,ITEM-18,Maize Seed,544,Store A
+20,Northern,Arua,University,5.575064949811048,43,Male,1409915,Borehole,Cassava,2023,ITEM-19,Maize Seed,919,Store B
+21,Eastern,Lira,None,1.288952272609702,28,Male,913729,Well,Coffee,2022,ITEM-20,Maize Seed,782,Store B
+22,Central,Arua,University,7.9659137153714,27,Female,1691852,Borehole,Maize,2023,ITEM-21,DAP,715,Store B
+23,Eastern,Kampala,Secondary,3.657395158241722,20,Male,216833,Tap,Coffee,2023,ITEM-22,Hoe,887,Store A
+24,Western,Arua,Secondary,5.077101978786293,24,Female,315256,Tap,Beans,2022,ITEM-23,Hoe,673,Store A
+25,Western,Mbarara,University,7.263723857390432,21,Female,1252074,Borehole,Cassava,2022,ITEM-24,Hoe,27,Store A
+26,Eastern,Arua,Secondary,4.77781689088114,57,Female,1636460,Well,Cassava,2024,ITEM-25,Hoe,36,Store B
+27,Eastern,Gulu,Secondary,3.715690819413632,25,Male,396382,Well,Coffee,2023,ITEM-26,DAP,545,Store B
+28,Eastern,Gulu,Secondary,3.8453758170665058,55,Female,1164233,Tap,Cassava,2022,ITEM-27,Maize Seed,38,Store A
+29,Western,Mbarara,University,4.953227565528598,30,Male,210518,Well,Beans,2024,ITEM-28,Hoe,660,Store A
+30,Western,Kampala,Primary,1.9333305874898943,29,Female,933397,Tap,Cassava,2022,ITEM-29,Hoe,667,Store A
+31,Central,Gulu,University,7.963485458031259,52,Male,1270830,Borehole,Cassava,2024,ITEM-30,Maize Seed,644,Store B
+32,Central,Lira,Secondary,3.2706678058977268,55,Female,430684,Tap,Cassava,2024,ITEM-31,Maize Seed,649,Store B
+33,Western,Gulu,Primary,1.7196983461430952,60,Female,805726,Borehole,Beans,2023,ITEM-32,Hoe,889,Store A
+34,Eastern,Gulu,Secondary,4.840189823707124,53,Female,954381,Well,Maize,2023,ITEM-33,Maize Seed,126,Store A
+35,Eastern,Kampala,Secondary,4.602768291993094,64,Male,618761,River,Cassava,2024,ITEM-34,Hoe,141,Store A
+36,Central,Arua,Secondary,4.889863249796301,19,Female,596561,River,Maize,2023,ITEM-35,Hoe,298,Store B
+37,Western,Gulu,Secondary,3.0367794599095963,32,Male,1460554,River,Coffee,2022,ITEM-36,Hoe,727,Store B
+38,Central,Mbarara,None,3.764057949300346,51,Male,985254,Tap,Coffee,2022,ITEM-37,Hoe,245,Store B
+39,Central,Arua,Secondary,2.98424662583275,56,Male,649582,River,Beans,2024,ITEM-38,Hoe,51,Store A
+40,Northern,Lira,University,6.954247313734068,43,Male,453442,Tap,Beans,2024,ITEM-39,Hoe,169,Store A
+41,Northern,Kampala,Primary,2.3413445041314134,22,Male,902081,Well,Beans,2022,ITEM-40,Maize Seed,773,Store A
+42,Northern,Lira,Secondary,3.0133584826349527,42,Male,1046261,Borehole,Beans,2022,ITEM-41,DAP,700,Store A
+43,Eastern,Arua,Primary,2.1297905771867502,51,Female,1759198,River,Maize,2024,ITEM-42,DAP,134,Store A
+44,Western,Arua,Secondary,4.22330760088587,64,Female,1355975,Tap,Beans,2022,ITEM-43,Hoe,269,Store A
+45,Western,Arua,Secondary,3.55002678813653,21,Male,733930,Well,Maize,2022,ITEM-44,Maize Seed,285,Store A
+46,Western,Lira,Secondary,5.137223621534849,51,Male,545519,Well,Cassava,2024,ITEM-45,Hoe,222,Store A
+47,Western,Arua,Primary,2.338374254537529,44,Female,1862081,River,Cassava,2023,ITEM-46,Maize Seed,972,Store A
+48,Northern,Lira,Secondary,2.8587253289817136,59,Female,1706325,Well,Coffee,2022,ITEM-47,Hoe,482,Store A
+49,Eastern,Arua,None,0.2,46,Male,403643,Well,Coffee,2023,ITEM-48,Hoe,845,Store A
+50,Eastern,Mbarara,Primary,3.106165090611456,22,Female,1957318,Well,Maize,2023,ITEM-49,DAP,711,Store B
+51,Northern,Arua,None,0.2,35,Male,890395,Tap,Beans,2022,ITEM-50,Maize Seed,579,Store A
+52,Eastern,Lira,Primary,2.8164260730490835,21,Female,1625740,Well,Coffee,2023,ITEM-51,Maize Seed,440,Store A
+53,Northern,Gulu,Secondary,4.644655185666959,18,Female,319937,Well,Maize,2024,ITEM-52,DAP,724,Store B
+54,Western,Arua,Secondary,3.204644636075983,37,Female,1403231,Well,Coffee,2022,ITEM-53,DAP,89,Store A
+55,Northern,Gulu,Secondary,5.090738083774891,23,Female,674882,Well,Beans,2022,ITEM-54,DAP,964,Store B
+56,Western,Mbarara,Primary,0.7822063762383678,37,Female,1786600,Well,Maize,2023,ITEM-55,DAP,237,Store B
+57,Western,Kampala,University,7.096458933998559,37,Male,1290857,Tap,Coffee,2022,ITEM-56,Maize Seed,911,Store A
+58,Central,Mbarara,Secondary,4.159142066403992,63,Male,1327927,Well,Beans,2022,ITEM-57,Maize Seed,104,Store A
+59,Northern,Arua,Secondary,4.0810020242691065,44,Female,1338508,Well,Maize,2023,ITEM-58,DAP,433,Store B
+60,Central,Gulu,University,5.622103357019427,43,Male,617528,Borehole,Maize,2023,ITEM-59,Hoe,982,Store A
+61,Northern,Gulu,University,5.862977995600074,49,Male,1588500,Well,Maize,2022,ITEM-60,Hoe,928,Store A
+62,Northern,Lira,Primary,4.118802025020598,27,Female,1946604,Well,Cassava,2022,ITEM-61,Hoe,957,Store A
+63,Central,Gulu,Primary,3.7151550088717538,35,Male,779940,Tap,Maize,2024,ITEM-62,Hoe,525,Store B
+64,Central,Lira,University,7.542084588523799,58,Male,593174,Well,Coffee,2024,ITEM-63,Maize Seed,174,Store B
+65,Northern,Kampala,Secondary,5.139848103529688,29,Female,1522438,Tap,Maize,2022,ITEM-64,Maize Seed,435,Store A
+66,Eastern,Arua,None,2.046013544671269,27,Male,1199824,River,Maize,2022,ITEM-65,Maize Seed,821,Store A
+67,Western,Lira,Secondary,3.8766437877137916,41,Female,296219,Well,Maize,2024,ITEM-66,Hoe,902,Store B
+68,Central,Kampala,University,6.847603551814351,41,Female,1489774,Borehole,Maize,2023,ITEM-67,DAP,51,Store B
+69,Western,Gulu,Secondary,2.7274916219589915,55,Male,1161501,Tap,Maize,2022,ITEM-68,Hoe,806,Store A
+70,Eastern,Gulu,Secondary,4.110304373192474,63,Female,624644,River,Cassava,2024,ITEM-69,Maize Seed,750,Store A
+71,Eastern,Kampala,University,7.983414249539186,42,Male,1481943,Borehole,Beans,2024,ITEM-70,Hoe,412,Store A
+72,Eastern,Gulu,Primary,1.8392927517428643,25,Male,1438470,Tap,Cassava,2022,ITEM-71,DAP,764,Store B
+73,Central,Kampala,Primary,3.523141204687226,31,Female,1406138,River,Coffee,2022,ITEM-72,DAP,733,Store B
+74,Eastern,Lira,Secondary,4.2915857386937635,60,Male,509495,Borehole,Beans,2024,ITEM-73,Hoe,425,Store A
+75,Central,Lira,University,5.414628134330267,48,Male,1289577,Well,Coffee,2022,ITEM-74,Maize Seed,309,Store B
+76,Eastern,Kampala,Primary,1.3926804866536884,41,Male,1163360,Borehole,Maize,2023,ITEM-75,Maize Seed,64,Store A
+77,Western,Lira,Secondary,5.119302869707755,33,Male,587194,Borehole,Coffee,2022,ITEM-76,Maize Seed,345,Store A
+78,Western,Lira,Secondary,4.752524085258385,37,Male,1825549,Borehole,Cassava,2024,ITEM-77,Hoe,910,Store A
+79,Northern,Lira,Secondary,4.301764072987625,55,Male,1716690,Tap,Cassava,2024,ITEM-78,Maize Seed,890,Store A
+80,Western,Mbarara,Secondary,3.9259681857520548,64,Male,1222447,Well,Maize,2022,ITEM-79,Hoe,439,Store A
+81,Northern,Arua,University,7.010567977628585,32,Female,1768370,Well,Maize,2024,ITEM-80,Maize Seed,981,Store B
+82,Western,Gulu,Secondary,5.080296249253249,31,Male,1107749,Tap,Beans,2023,ITEM-81,DAP,694,Store B
+83,Central,Mbarara,Secondary,5.675853280487285,29,Female,1862411,Borehole,Cassava,2022,ITEM-82,DAP,798,Store A
+84,Western,Lira,Secondary,5.723684199440605,51,Female,1929222,Well,Cassava,2022,ITEM-83,Maize Seed,343,Store B
+85,Northern,Kampala,Secondary,4.571959900758499,25,Male,342463,Borehole,Beans,2024,ITEM-84,Hoe,750,Store A
+86,Northern,Lira,Primary,2.3280683096354795,36,Female,489143,Well,Cassava,2023,ITEM-85,Maize Seed,415,Store B
+87,Eastern,Arua,Primary,2.6462480078188557,63,Female,737240,Tap,Beans,2022,ITEM-86,Hoe,39,Store B
+88,Central,Lira,Secondary,4.72212035725508,22,Female,1461424,River,Cassava,2024,ITEM-87,DAP,544,Store B
+89,Western,Kampala,None,1.7180669438450913,44,Male,1204302,Borehole,Coffee,2022,ITEM-88,Hoe,526,Store B
+90,Eastern,Arua,Primary,3.8079866371401048,58,Female,612498,Well,Coffee,2023,ITEM-89,Maize Seed,584,Store A
+91,Western,Lira,Secondary,6.315755721916656,30,Female,1873215,Well,Beans,2024,ITEM-90,DAP,230,Store B
+92,Western,Arua,Secondary,3.994745370385914,49,Female,909714,Well,Beans,2022,ITEM-91,Hoe,836,Store B
+93,Eastern,Gulu,Primary,4.655884908824462,48,Female,1266518,Tap,Maize,2024,ITEM-92,Hoe,999,Store B
+94,Eastern,Gulu,Secondary,5.372239246758394,58,Female,201722,Tap,Cassava,2024,ITEM-93,DAP,603,Store B
+95,Eastern,Lira,Secondary,4.099177009814793,63,Female,630036,River,Coffee,2023,ITEM-94,Maize Seed,503,Store B
+96,Eastern,Arua,Primary,3.9985648388650796,54,Male,1182534,Tap,Maize,2023,ITEM-95,DAP,763,Store B
+97,Eastern,Kampala,University,8.485648301419165,19,Female,1640105,Borehole,Cassava,2022,ITEM-96,Maize Seed,262,Store B
+98,Western,Lira,Secondary,3.7397045558061532,24,Female,790507,Tap,Coffee,2024,ITEM-97,Maize Seed,573,Store B
+99,Eastern,Gulu,Secondary,5.932215252485648,28,Male,980534,Well,Cassava,2024,ITEM-98,Hoe,330,Store A
+100,Central,Gulu,Secondary,5.275082821035964,28,Male,611610,Borehole,Beans,2024,ITEM-99,Maize Seed,48,Store A
+101,Northern,Lira,University,9.0,40,Female,1176063,Tap,Coffee,2022,ITEM-100,Maize Seed,474,Store A
+102,Eastern,Arua,Secondary,3.7759614180005014,48,Female,619685,Borehole,Coffee,2023,ITEM-101,DAP,780,Store B
+103,Eastern,Gulu,Secondary,3.846573256264004,61,Male,1060473,Borehole,Maize,2023,ITEM-102,DAP,947,Store A
+104,Western,Arua,Secondary,2.17333787025666,62,Female,1354323,Tap,Cassava,2024,ITEM-103,Maize Seed,848,Store A
+105,Eastern,Gulu,Primary,3.0711939205679624,25,Female,1047770,Borehole,Beans,2022,ITEM-104,Hoe,420,Store A
+106,Eastern,Gulu,Primary,2.875251255618718,49,Male,205492,Well,Beans,2024,ITEM-105,DAP,421,Store B
+107,Eastern,Mbarara,Secondary,3.6370063284643335,38,Female,610043,Well,Cassava,2023,ITEM-106,Hoe,501,Store A
+108,Western,Gulu,Secondary,4.118149268511942,48,Male,316359,Tap,Cassava,2024,ITEM-107,DAP,447,Store A
+109,Eastern,Kampala,Secondary,2.888778989824885,18,Female,358564,Tap,Beans,2024,ITEM-108,DAP,488,Store A
+110,Northern,Lira,Primary,3.698444952831686,30,Female,924162,Well,Cassava,2024,ITEM-109,Maize Seed,792,Store A
+111,Western,Lira,Secondary,3.71030052547169,28,Male,1239617,Tap,Maize,2023,ITEM-110,DAP,958,Store A
+112,Northern,Arua,Primary,5.594049015620952,46,Male,402517,Well,Cassava,2022,ITEM-111,DAP,81,Store A
+113,Western,Gulu,Secondary,4.024398699288968,21,Female,1916805,Borehole,Maize,2024,ITEM-112,Hoe,591,Store A
+114,Eastern,Kampala,Secondary,3.4403811589516904,53,Female,1943718,Tap,Maize,2023,ITEM-113,DAP,229,Store B
+115,Northern,Arua,Secondary,3.787686881265138,32,Female,1139367,River,Cassava,2024,ITEM-114,DAP,13,Store A
+116,Western,Mbarara,Secondary,2.788039023455749,20,Male,1441635,Well,Coffee,2022,ITEM-115,Hoe,871,Store A
+117,Central,Arua,Secondary,4.682271890702943,46,Male,721323,Well,Coffee,2024,ITEM-116,Maize Seed,922,Store B
+118,Eastern,Arua,Secondary,3.780100300220878,38,Male,1161559,Borehole,Maize,2022,ITEM-117,Maize Seed,299,Store B
+119,Western,Gulu,Secondary,5.331252790397738,19,Male,404427,River,Cassava,2023,ITEM-118,DAP,389,Store B
+120,Central,Mbarara,None,0.9252525048255825,23,Male,491280,River,Maize,2022,ITEM-119,DAP,911,Store B
+121,Western,Arua,Secondary,5.584442111685647,48,Male,1106261,River,Cassava,2022,ITEM-120,Hoe,813,Store B
+122,Central,Kampala,Secondary,4.957455749317041,41,Female,1001269,Well,Cassava,2023,ITEM-121,Maize Seed,364,Store A
+123,Eastern,Kampala,Secondary,4.228596776718344,57,Male,1755282,Well,Beans,2022,ITEM-122,Maize Seed,752,Store A
+124,Northern,Lira,Secondary,5.780232587350822,34,Male,275592,River,Coffee,2022,ITEM-123,Maize Seed,944,Store A
+125,Central,Mbarara,University,7.752293461037209,22,Male,593931,Tap,Coffee,2023,ITEM-124,Hoe,89,Store B
+126,Western,Mbarara,University,9.0,19,Male,1396923,River,Beans,2022,ITEM-125,Hoe,75,Store A
+127,Eastern,Lira,Primary,2.0905447550217957,29,Female,1268767,Borehole,Beans,2022,ITEM-126,Hoe,145,Store A
+128,Central,Arua,Primary,2.5766161054584606,22,Male,1199924,River,Beans,2024,ITEM-127,DAP,408,Store B
+129,Western,Mbarara,Secondary,5.76870901101093,59,Female,1046558,River,Maize,2022,ITEM-128,Maize Seed,712,Store B
+130,Western,Kampala,Primary,0.9564621881648876,58,Male,645008,River,Maize,2022,ITEM-129,DAP,356,Store A
+131,Western,Kampala,Secondary,5.516943563232562,37,Female,442070,Tap,Maize,2022,ITEM-130,DAP,857,Store B
+132,Central,Gulu,University,7.239302757681471,25,Male,1856978,River,Maize,2023,ITEM-131,Hoe,970,Store A
+133,Central,Mbarara,Primary,1.6117892445527522,18,Male,1271897,River,Maize,2022,ITEM-132,Maize Seed,68,Store B
+134,Central,Arua,Primary,1.1369603414488785,23,Male,832793,Well,Coffee,2023,ITEM-133,DAP,787,Store A
+135,Northern,Lira,Primary,1.827510526869716,28,Male,749247,River,Coffee,2023,ITEM-134,Maize Seed,528,Store A
+136,Central,Lira,Secondary,1.9151804276744282,20,Female,603731,Borehole,Cassava,2022,ITEM-135,DAP,889,Store A
+137,Central,Arua,Secondary,3.7104605563084965,48,Female,1716405,Well,Coffee,2022,ITEM-136,Hoe,723,Store B
+138,Central,Gulu,Primary,3.1225563333425814,45,Male,789484,Tap,Beans,2022,ITEM-137,DAP,853,Store B
+139,Northern,Lira,University,6.323699359031172,64,Male,876803,Well,Coffee,2022,ITEM-138,Hoe,986,Store B
+140,Central,Mbarara,Secondary,5.588312701433808,60,Female,1433198,Tap,Beans,2022,ITEM-139,Maize Seed,246,Store B
+141,Western,Gulu,None,2.8599476027252875,22,Female,1193483,Tap,Coffee,2022,ITEM-140,DAP,789,Store A
+142,Central,Mbarara,Secondary,5.475644482625775,43,Female,368280,Borehole,Maize,2022,ITEM-141,DAP,88,Store A
+143,Western,Kampala,Secondary,4.430640910264366,33,Male,332855,River,Coffee,2023,ITEM-142,Hoe,567,Store A
+144,Western,Gulu,Primary,0.2,48,Female,1851513,Borehole,Cassava,2024,ITEM-143,Hoe,764,Store A
+145,Western,Lira,None,0.49630250796739406,45,Male,1219925,Well,Maize,2023,ITEM-144,Maize Seed,809,Store B
+146,Northern,Gulu,None,1.057961473225613,24,Male,1910918,Tap,Maize,2022,ITEM-145,Hoe,681,Store B
+147,Northern,Gulu,Primary,1.6061323504951892,55,Female,1611607,Well,Cassava,2024,ITEM-146,Maize Seed,124,Store B
+148,Northern,Gulu,University,6.660494524513429,26,Male,1487873,Tap,Coffee,2024,ITEM-147,DAP,995,Store B
+149,Central,Gulu,University,8.410067468693379,56,Male,672159,Well,Coffee,2022,ITEM-148,Maize Seed,471,Store A
+150,Western,Mbarara,Primary,0.8542234704846818,52,Female,477460,Tap,Cassava,2022,ITEM-149,Maize Seed,635,Store B
+151,Northern,Kampala,Primary,4.311692056119027,60,Male,1207878,Borehole,Maize,2023,ITEM-150,Maize Seed,135,Store B
+152,Northern,Arua,Primary,3.384726421754137,44,Female,1734535,Tap,Cassava,2024,ITEM-151,DAP,611,Store B
+153,Central,Gulu,Primary,2.7682168082776957,29,Female,1624372,River,Beans,2024,ITEM-152,DAP,582,Store A
+154,Northern,Lira,University,6.086383444259236,42,Female,687154,Borehole,Beans,2022,ITEM-153,Hoe,974,Store A
+155,Central,Gulu,Primary,1.6260496545085745,60,Male,1709758,River,Coffee,2022,ITEM-154,Maize Seed,509,Store A
+156,Eastern,Lira,Primary,0.8737822854112602,46,Female,1893221,Well,Maize,2024,ITEM-155,DAP,838,Store B
+157,Northern,Mbarara,Primary,4.216765480314387,48,Female,305364,Well,Beans,2024,ITEM-156,Maize Seed,111,Store A
+158,Eastern,Lira,Secondary,5.737611560074042,51,Male,1240775,Tap,Cassava,2022,ITEM-157,Maize Seed,635,Store A
+159,Central,Arua,Primary,1.0937153714167178,50,Male,1513656,Tap,Coffee,2022,ITEM-158,Maize Seed,183,Store A
+160,Western,Kampala,Secondary,3.647372005093799,44,Female,1063832,Well,Coffee,2022,ITEM-159,DAP,461,Store A
+161,Northern,Lira,Primary,2.933144769231909,19,Male,946011,Borehole,Maize,2023,ITEM-160,Maize Seed,101,Store A
+162,Central,Lira,Secondary,3.9004908618277923,31,Male,1323419,River,Beans,2023,ITEM-161,Maize Seed,704,Store A
+163,Western,Kampala,Secondary,2.2813252429681823,30,Male,1517429,Well,Coffee,2022,ITEM-162,Hoe,394,Store B
+164,Western,Arua,Primary,1.8422272394443118,41,Male,1999326,Borehole,Cassava,2023,ITEM-163,Maize Seed,214,Store B
+165,Eastern,Gulu,Secondary,6.1510342980200186,22,Male,1224883,River,Beans,2024,ITEM-164,Hoe,372,Store A
+166,Central,Lira,University,6.210021409585556,51,Female,1531427,Tap,Coffee,2024,ITEM-165,Maize Seed,716,Store B
+167,Western,Kampala,University,6.636532663297793,40,Female,1812248,Borehole,Coffee,2022,ITEM-166,Hoe,826,Store A
+168,Northern,Mbarara,Secondary,3.0548225759646197,36,Female,1021619,Borehole,Beans,2024,ITEM-167,DAP,507,Store B
+169,Northern,Kampala,Secondary,4.787762985283749,47,Male,1291112,Well,Beans,2024,ITEM-168,DAP,546,Store A
+170,Eastern,Mbarara,University,6.915151799024583,60,Male,578916,River,Maize,2024,ITEM-169,Maize Seed,243,Store B
+171,Western,Arua,Secondary,3.4579802584430217,33,Female,1524965,Well,Cassava,2024,ITEM-170,Hoe,25,Store A
+172,Central,Gulu,None,0.2,57,Female,944267,Tap,Maize,2024,ITEM-171,DAP,990,Store A
+173,Northern,Kampala,University,8.204543374010875,51,Female,1761636,Tap,Maize,2023,ITEM-172,Maize Seed,150,Store B
+174,Western,Lira,Primary,0.8944565933589197,28,Male,1623460,River,Cassava,2023,ITEM-173,Maize Seed,957,Store A
+175,Western,Arua,Secondary,4.703815695589555,31,Female,232286,River,Cassava,2022,ITEM-174,Hoe,629,Store B
+176,Eastern,Kampala,Primary,0.3461207552884269,64,Male,1204733,River,Maize,2024,ITEM-175,Hoe,429,Store A
+177,Northern,Lira,None,1.9072116830123824,32,Female,365375,Well,Beans,2023,ITEM-176,Maize Seed,465,Store A
+178,Northern,Kampala,Primary,3.4702988872600606,52,Female,1990609,River,Cassava,2023,ITEM-177,Hoe,309,Store A
+179,Central,Mbarara,Secondary,5.294783711639914,24,Male,372121,River,Maize,2023,ITEM-178,Hoe,348,Store A
+180,Northern,Kampala,Primary,2.338791531430132,46,Male,543045,Well,Beans,2024,ITEM-179,DAP,312,Store B
+181,Central,Kampala,Primary,4.084003605563696,61,Female,1435848,Tap,Coffee,2023,ITEM-180,Hoe,901,Store B
+182,Northern,Kampala,Primary,4.807791694996068,39,Female,1589706,Tap,Beans,2022,ITEM-181,Maize Seed,601,Store B
+183,Eastern,Arua,Secondary,3.878376863954037,40,Female,269726,Borehole,Maize,2022,ITEM-182,Hoe,85,Store B
+184,Northern,Kampala,University,6.3489949698700725,41,Male,578486,Tap,Cassava,2024,ITEM-183,Maize Seed,797,Store B
+185,Central,Lira,Secondary,4.349177260344936,52,Male,1422509,River,Beans,2022,ITEM-184,Maize Seed,923,Store A
+186,Central,Mbarara,Secondary,3.722319854105793,27,Female,898999,Tap,Beans,2023,ITEM-185,Hoe,959,Store A
+187,Eastern,Mbarara,University,6.1761298039898795,25,Female,390586,Well,Beans,2024,ITEM-186,Hoe,789,Store B
+188,Northern,Kampala,Secondary,3.6632614597584907,29,Female,666204,Tap,Cassava,2022,ITEM-187,Hoe,633,Store A
+189,Northern,Arua,Primary,4.215756008006245,46,Male,585389,Tap,Cassava,2024,ITEM-188,DAP,930,Store B
+190,Eastern,Arua,Primary,3.271881995035432,46,Female,466104,Borehole,Beans,2023,ITEM-189,DAP,325,Store A
+191,Northern,Lira,Primary,2.019053872741909,40,Female,501746,Borehole,Beans,2022,ITEM-190,Hoe,509,Store B
+192,Northern,Kampala,Primary,0.2,43,Male,1737513,River,Maize,2023,ITEM-191,Maize Seed,84,Store A
+193,Central,Mbarara,Secondary,2.655535506393533,54,Female,1914500,Well,Cassava,2022,ITEM-192,Hoe,735,Store A
+194,Northern,Arua,Secondary,4.703429082601878,49,Female,1033942,River,Beans,2024,ITEM-193,DAP,375,Store B
+195,Northern,Kampala,Primary,0.3784440586111826,55,Male,708422,Well,Cassava,2022,ITEM-194,DAP,555,Store A
+196,Eastern,Arua,Secondary,4.492993527451956,23,Male,1835199,Well,Cassava,2022,ITEM-195,Hoe,662,Store B
+197,Eastern,Arua,Secondary,3.1344362751349744,25,Female,1672311,Borehole,Cassava,2022,ITEM-196,Maize Seed,687,Store A
+198,Western,Mbarara,Primary,2.5918057745806733,34,Male,1121214,Tap,Maize,2024,ITEM-197,Maize Seed,405,Store B
+199,Central,Gulu,University,6.863856301334143,29,Male,263564,Tap,Coffee,2022,ITEM-198,DAP,240,Store A
+200,Northern,Lira,Secondary,4.3205899338907106,39,Male,1377833,Borehole,Cassava,2023,ITEM-199,DAP,813,Store B
+201,Northern,Lira,Primary,2.1055781529214794,31,Male,315517,River,Cassava,2024,ITEM-200,DAP,37,Store A
+202,Western,Mbarara,Secondary,3.772714374392268,51,Male,1308553,Tap,Beans,2024,ITEM-201,Maize Seed,484,Store A
+203,Northern,Arua,Secondary,3.4792095810635617,36,Male,1877795,River,Cassava,2023,ITEM-202,DAP,304,Store B
+204,Central,Kampala,Secondary,4.68389231724189,23,Male,1182479,Tap,Coffee,2024,ITEM-203,DAP,854,Store B
+205,Western,Arua,Secondary,5.0051926747809485,35,Female,1699406,River,Cassava,2022,ITEM-204,Maize Seed,436,Store B
+206,Central,Mbarara,Secondary,2.981027477463874,53,Male,994420,Well,Maize,2024,ITEM-205,DAP,881,Store B
+207,Western,Lira,Secondary,4.148371527707731,54,Male,1415402,Well,Beans,2023,ITEM-206,DAP,100,Store A
+208,Western,Arua,Primary,2.696582073487738,55,Male,485218,Tap,Coffee,2024,ITEM-207,Hoe,124,Store A
+209,Eastern,Lira,Primary,2.683771134623042,32,Male,717103,River,Maize,2023,ITEM-208,DAP,168,Store A
+210,Central,Kampala,None,1.3667696195965178,55,Female,1062477,River,Coffee,2024,ITEM-209,Hoe,267,Store A
+211,Northern,Lira,Secondary,3.797965189654776,57,Female,1929116,Well,Beans,2023,ITEM-210,DAP,382,Store A
+212,Northern,Lira,Primary,2.779030425462539,26,Male,772356,River,Cassava,2024,ITEM-211,DAP,859,Store B
+213,Central,Gulu,University,7.41802871098362,23,Female,835257,Borehole,Beans,2022,ITEM-212,Hoe,99,Store B
+214,Northern,Gulu,Secondary,4.341036655822564,19,Female,1265136,River,Beans,2023,ITEM-213,DAP,766,Store B
+215,Northern,Gulu,University,7.305939836533724,33,Female,1226321,Well,Cassava,2023,ITEM-214,Hoe,307,Store B
+216,Central,Lira,University,7.790353411037507,18,Female,1422322,Borehole,Maize,2024,ITEM-215,DAP,40,Store B
+217,Western,Mbarara,University,4.949059642104732,47,Female,1575872,Borehole,Coffee,2024,ITEM-216,Hoe,838,Store A
+218,Central,Lira,University,7.743463841865367,50,Male,1896380,River,Maize,2024,ITEM-217,Hoe,367,Store A
+219,Western,Mbarara,Secondary,4.542427765221275,18,Male,370010,Well,Cassava,2022,ITEM-218,DAP,833,Store B
+220,Northern,Mbarara,Secondary,3.0883746722612733,56,Male,1546111,Well,Coffee,2024,ITEM-219,DAP,479,Store B
+221,Northern,Gulu,Primary,3.3024708823196884,33,Female,1539451,Well,Cassava,2023,ITEM-220,Hoe,749,Store B
+222,Northern,Arua,Primary,2.1016790939760384,34,Male,1071130,Borehole,Maize,2024,ITEM-221,Maize Seed,860,Store A
+223,Eastern,Kampala,Secondary,3.938033563681447,55,Female,1624600,Well,Beans,2022,ITEM-222,DAP,137,Store B
+224,Western,Gulu,Secondary,3.692320217534338,35,Male,1367016,Borehole,Coffee,2024,ITEM-223,DAP,791,Store B
+225,Eastern,Gulu,Primary,2.8023988442382244,39,Male,630349,Borehole,Cassava,2024,ITEM-224,Maize Seed,279,Store B
+226,Eastern,Arua,Secondary,3.414646857487947,39,Male,932275,Tap,Coffee,2023,ITEM-225,Maize Seed,507,Store A
+227,Central,Kampala,University,7.701474629947786,52,Male,728628,River,Coffee,2024,ITEM-226,Hoe,422,Store B
+228,Eastern,Lira,Secondary,4.061137412805328,48,Female,1318867,Well,Maize,2022,ITEM-227,DAP,218,Store A
+229,Central,Lira,Secondary,3.835797516512063,57,Male,248731,Borehole,Beans,2024,ITEM-228,Hoe,699,Store B
+230,Central,Gulu,University,7.55287567761397,44,Male,912788,River,Coffee,2024,ITEM-229,DAP,315,Store B
+231,Eastern,Kampala,University,6.48044323768092,53,Female,1625015,Borehole,Maize,2023,ITEM-230,Maize Seed,200,Store A
+232,Western,Gulu,Secondary,5.1481768253623015,21,Female,940801,River,Coffee,2024,ITEM-231,Hoe,366,Store A
+233,Western,Mbarara,University,7.779592950840866,22,Male,1987731,Borehole,Beans,2023,ITEM-232,DAP,466,Store B
+234,Western,Gulu,University,5.465196161781023,42,Male,1350838,Well,Coffee,2023,ITEM-233,DAP,458,Store B
+235,Western,Gulu,University,7.9092602022229235,48,Female,955800,Tap,Beans,2024,ITEM-234,Maize Seed,77,Store A
+236,Western,Lira,Primary,1.0379640284981144,31,Female,1214654,Tap,Maize,2023,ITEM-235,Maize Seed,848,Store A
+237,Eastern,Lira,Secondary,5.371580526882511,47,Male,1453783,Tap,Maize,2023,ITEM-236,DAP,788,Store B
+238,Eastern,Lira,Primary,4.528357192230239,64,Female,601931,Borehole,Beans,2024,ITEM-237,Maize Seed,791,Store A
+239,Northern,Mbarara,None,2.0748344382691313,29,Female,1205037,River,Beans,2024,ITEM-238,Maize Seed,883,Store A
+240,Western,Lira,Secondary,2.043019355300327,44,Male,649118,Well,Maize,2022,ITEM-239,Hoe,476,Store B
+241,Eastern,Kampala,Secondary,5.263565719386019,62,Male,1349930,Well,Beans,2022,ITEM-240,DAP,369,Store B
+242,Northern,Arua,University,9.0,41,Male,1476446,Borehole,Beans,2023,ITEM-241,Hoe,396,Store B
+243,Western,Kampala,Primary,2.196968359001971,47,Female,1599732,Tap,Cassava,2023,ITEM-242,Maize Seed,137,Store A
+244,Central,Kampala,University,6.76529667997011,35,Male,502824,Borehole,Coffee,2024,ITEM-243,DAP,785,Store B
+245,Northern,Lira,Secondary,3.011513278073568,31,Male,1472659,River,Maize,2022,ITEM-244,Maize Seed,742,Store B
+246,Eastern,Arua,Secondary,4.51207941881967,36,Male,585351,Tap,Maize,2022,ITEM-245,Maize Seed,763,Store A
+247,Central,Arua,University,8.069177182543129,39,Female,259179,Borehole,Cassava,2024,ITEM-246,DAP,494,Store B
+248,Central,Arua,Secondary,4.897737128149454,43,Male,1086045,River,Beans,2024,ITEM-247,Maize Seed,253,Store A
+249,Central,Mbarara,Primary,5.641966977287799,24,Male,502114,Tap,Beans,2024,ITEM-248,Hoe,948,Store A
+250,Northern,Lira,University,6.8330270429657975,45,Female,204718,Well,Beans,2024,ITEM-249,DAP,914,Store B
+251,Eastern,Arua,Primary,0.8693266325847357,55,Female,620327,River,Maize,2022,ITEM-250,Maize Seed,28,Store B
+252,Central,Mbarara,None,1.370970971568219,22,Male,1156222,Well,Cassava,2024,ITEM-251,Maize Seed,405,Store A
+253,Western,Gulu,University,4.38354823478751,53,Male,537913,River,Coffee,2024,ITEM-252,Maize Seed,676,Store B
+254,Central,Gulu,Primary,1.9668960751354865,35,Male,1852571,Tap,Cassava,2022,ITEM-253,DAP,238,Store A
+255,Central,Mbarara,Secondary,5.824382058600213,31,Female,341798,Borehole,Maize,2024,ITEM-254,Hoe,377,Store A
+256,Northern,Mbarara,Primary,2.8251336486317715,40,Male,1603024,Borehole,Coffee,2022,ITEM-255,Maize Seed,67,Store B
+257,Northern,Lira,University,6.979416812831269,31,Male,985931,Borehole,Beans,2022,ITEM-256,Maize Seed,290,Store B
+258,Eastern,Lira,Primary,4.320780376715357,49,Female,741427,Borehole,Cassava,2024,ITEM-257,Maize Seed,566,Store A
+259,Western,Gulu,University,6.52940010833663,22,Female,1510705,River,Cassava,2024,ITEM-258,DAP,111,Store A
+260,Northern,Arua,Secondary,5.4618204129341095,39,Male,1969617,Borehole,Maize,2023,ITEM-259,Maize Seed,57,Store B
+261,Central,Gulu,Primary,2.6293069751663403,45,Female,319804,Borehole,Cassava,2023,ITEM-260,Maize Seed,571,Store A
+262,Eastern,Arua,Secondary,4.580047463459026,60,Male,769070,River,Coffee,2022,ITEM-261,Maize Seed,602,Store A
+263,Central,Arua,University,5.582695144136987,29,Male,744246,River,Cassava,2022,ITEM-262,DAP,821,Store A
+264,Central,Lira,Secondary,3.717953205171783,35,Female,422811,Tap,Maize,2023,ITEM-263,Hoe,68,Store B
+265,Northern,Kampala,Primary,1.1024817671561264,53,Female,1925243,River,Cassava,2022,ITEM-264,DAP,170,Store A
+266,Eastern,Kampala,Secondary,4.104754921774655,48,Female,1875890,Well,Coffee,2023,ITEM-265,Hoe,112,Store A
+267,Western,Mbarara,Secondary,4.590402343916267,30,Female,1579854,Tap,Coffee,2024,ITEM-266,Hoe,855,Store B
+268,Western,Lira,Secondary,3.089961894908548,37,Male,1000015,Tap,Maize,2024,ITEM-267,DAP,421,Store A
+269,Northern,Arua,Secondary,6.249178922684823,62,Female,1492821,Borehole,Beans,2024,ITEM-268,Maize Seed,795,Store A
+270,Northern,Kampala,Secondary,4.478106019091961,53,Female,1034416,Borehole,Maize,2022,ITEM-269,Hoe,192,Store B
+271,Eastern,Arua,Primary,2.5577955855852195,24,Male,440734,Well,Beans,2024,ITEM-270,Maize Seed,426,Store B
+272,Western,Kampala,Secondary,4.9696577513456255,40,Male,1219326,Borehole,Coffee,2022,ITEM-271,Hoe,125,Store B
+273,Western,Kampala,Secondary,3.3710719191340783,51,Male,845534,River,Cassava,2024,ITEM-272,Maize Seed,883,Store B
+274,Western,Kampala,Primary,2.663477479167453,49,Female,1220160,River,Cassava,2022,ITEM-273,Maize Seed,408,Store B
+275,Central,Lira,University,6.0831337796424085,38,Male,375946,Borehole,Coffee,2022,ITEM-274,DAP,966,Store A
+276,Western,Gulu,Secondary,5.758679910088983,23,Female,1157701,Borehole,Maize,2023,ITEM-275,Maize Seed,788,Store A
+277,Central,Arua,Secondary,3.141360650602919,33,Female,853398,River,Cassava,2023,ITEM-276,Hoe,685,Store B
+278,Eastern,Lira,University,6.863165459307173,52,Female,733384,Tap,Maize,2023,ITEM-277,Maize Seed,664,Store A
+279,Central,Lira,Secondary,4.529315785151776,64,Female,1450739,Well,Cassava,2022,ITEM-278,Maize Seed,446,Store B
+280,Eastern,Lira,University,7.1948257444077015,37,Male,691471,Well,Beans,2023,ITEM-279,Maize Seed,327,Store A
+281,Western,Lira,Secondary,3.618764826917168,59,Male,1846397,Tap,Cassava,2023,ITEM-280,Hoe,825,Store A
+282,Western,Lira,None,0.3044905978549022,58,Male,1980281,Well,Beans,2023,ITEM-281,Hoe,615,Store A
+283,Eastern,Mbarara,Secondary,3.633204826953901,28,Male,1210405,Borehole,Cassava,2022,ITEM-282,Hoe,259,Store B
+284,Northern,Arua,Secondary,4.728325434210283,49,Male,1536338,Borehole,Cassava,2022,ITEM-283,Maize Seed,920,Store B
+285,Eastern,Lira,Secondary,4.056154229088037,31,Female,422572,Borehole,Cassava,2023,ITEM-284,DAP,456,Store B
+286,Northern,Arua,Primary,3.2962088084525214,41,Female,734156,Well,Cassava,2023,ITEM-285,Hoe,506,Store A
+287,Central,Mbarara,Primary,2.977003719395073,61,Female,484026,Tap,Cassava,2022,ITEM-286,Maize Seed,352,Store B
+288,Central,Mbarara,Primary,0.22308730190039228,56,Female,1662431,Borehole,Maize,2022,ITEM-287,Hoe,436,Store A
+289,Central,Arua,Primary,2.747497796837211,60,Male,892323,Tap,Beans,2023,ITEM-288,DAP,827,Store A
+290,Western,Kampala,Secondary,6.45045476781627,48,Female,1617480,River,Beans,2023,ITEM-289,Maize Seed,837,Store B
+291,Central,Gulu,Primary,3.8252690510383314,34,Female,1088557,River,Cassava,2023,ITEM-290,Hoe,249,Store A
+292,Northern,Kampala,Secondary,4.6220131607069685,42,Female,1636397,River,Maize,2022,ITEM-291,Hoe,68,Store A
+293,Central,Kampala,Secondary,3.140607869530056,26,Female,970724,Well,Maize,2023,ITEM-292,DAP,536,Store A
+294,Eastern,Kampala,Secondary,4.677553716125646,39,Female,360542,Well,Coffee,2022,ITEM-293,Hoe,806,Store B
+295,Eastern,Lira,University,7.539749939878259,62,Female,1096414,Borehole,Coffee,2024,ITEM-294,Maize Seed,212,Store B
+296,Western,Mbarara,Secondary,3.946253319172416,52,Male,1843578,River,Maize,2023,ITEM-295,Maize Seed,758,Store B
+297,Eastern,Kampala,Secondary,4.516742058804438,54,Male,1443318,Tap,Coffee,2024,ITEM-296,DAP,475,Store A
+298,Northern,Mbarara,Secondary,5.709662458396041,34,Female,931794,Well,Beans,2022,ITEM-297,DAP,305,Store A
+299,Central,Arua,Primary,1.6427255802582743,45,Female,1581822,Tap,Maize,2024,ITEM-298,DAP,296,Store B
+300,Western,Gulu,University,5.741700395040873,18,Female,1924289,Tap,Coffee,2023,ITEM-299,Maize Seed,82,Store A
+301,Central,Arua,Primary,3.1926993259942127,26,Female,495519,Borehole,Maize,2024,ITEM-300,DAP,735,Store B
+302,Central,Arua,None,1.6575426361980803,30,Female,533354,Borehole,Coffee,2024,ITEM-301,Hoe,532,Store B
+303,Northern,Lira,Secondary,5.228838295412812,64,Male,1768097,Tap,Maize,2024,ITEM-302,Hoe,346,Store B
+304,Eastern,Gulu,None,1.7697938119037695,49,Male,877632,Tap,Cassava,2022,ITEM-303,Maize Seed,746,Store B
+305,Eastern,Arua,University,6.232244936825806,45,Female,1139220,Tap,Beans,2023,ITEM-304,Hoe,327,Store A
+306,Central,Arua,Secondary,4.632192651465405,48,Male,1599996,Tap,Coffee,2022,ITEM-305,DAP,212,Store A
+307,Western,Gulu,University,5.657873456703826,25,Female,1075138,River,Cassava,2024,ITEM-306,Hoe,240,Store A
+308,Eastern,Gulu,Secondary,3.9496812882670063,25,Female,366234,Tap,Maize,2024,ITEM-307,DAP,913,Store B
+309,Western,Arua,Secondary,4.702799230966404,51,Male,1846470,Well,Cassava,2022,ITEM-308,Hoe,572,Store A
+310,Eastern,Gulu,University,6.43948578327611,40,Male,1671264,Borehole,Beans,2022,ITEM-309,Maize Seed,66,Store B
+311,Western,Arua,Primary,4.968052182229827,27,Male,1438152,Well,Coffee,2024,ITEM-310,DAP,653,Store B
+312,Northern,Arua,University,4.907815751176333,54,Male,844125,Borehole,Coffee,2023,ITEM-311,Hoe,429,Store B
+313,Western,Lira,Primary,1.9525096430011892,42,Female,1435089,Borehole,Maize,2022,ITEM-312,Maize Seed,924,Store A
+314,Northern,Kampala,Secondary,3.26222016613009,50,Male,1619063,Borehole,Beans,2024,ITEM-313,Hoe,289,Store B
+315,Northern,Arua,Primary,1.7996511925420466,62,Male,261401,Well,Cassava,2024,ITEM-314,Maize Seed,818,Store A
+316,Western,Mbarara,Secondary,3.5570017765191215,21,Male,1569555,Borehole,Maize,2023,ITEM-315,Hoe,314,Store A
+317,Northern,Kampala,Primary,1.1735793131410068,24,Female,519080,Tap,Coffee,2024,ITEM-316,DAP,475,Store A
+318,Central,Kampala,University,7.552702148572627,50,Female,362590,Tap,Cassava,2022,ITEM-317,DAP,746,Store A
+319,Northern,Kampala,University,6.2529047026128985,19,Female,1464583,River,Maize,2024,ITEM-318,DAP,183,Store A
+320,Eastern,Lira,University,6.963573335588655,63,Male,385534,River,Cassava,2024,ITEM-319,DAP,813,Store A
+321,Western,Arua,Primary,2.065174238089755,49,Male,1113878,River,Cassava,2024,ITEM-320,DAP,275,Store A
+322,Central,Lira,Secondary,3.5091195877137906,22,Male,1931249,Tap,Maize,2024,ITEM-321,Hoe,256,Store A
+323,Western,Arua,Secondary,5.872279236086849,63,Female,1639064,Well,Cassava,2023,ITEM-322,Hoe,87,Store B
+324,Eastern,Lira,Primary,3.422932182209408,34,Male,1047981,River,Cassava,2022,ITEM-323,Hoe,656,Store B
+325,Eastern,Lira,Primary,0.6317996000448551,29,Male,1117266,Tap,Beans,2024,ITEM-324,Hoe,661,Store A
+326,Eastern,Mbarara,Secondary,2.2258625516641133,29,Female,1115177,Borehole,Beans,2022,ITEM-325,DAP,863,Store A
+327,Northern,Lira,Secondary,5.242608835636487,52,Male,848255,Well,Coffee,2023,ITEM-326,Maize Seed,262,Store A
+328,Northern,Gulu,Secondary,3.6801466084512464,38,Male,704563,Well,Beans,2022,ITEM-327,DAP,484,Store A
+329,Western,Mbarara,Secondary,2.5509176660657777,38,Male,1604980,Tap,Maize,2023,ITEM-328,Hoe,185,Store A
+330,Western,Lira,None,2.245735132540341,19,Male,1013317,Tap,Cassava,2022,ITEM-329,DAP,430,Store B
+331,Central,Kampala,None,1.3691240500990902,38,Female,1293136,Borehole,Coffee,2022,ITEM-330,DAP,980,Store A
+332,Central,Gulu,None,1.4515710848323196,32,Female,1262189,Borehole,Beans,2024,ITEM-331,DAP,941,Store A
+333,Western,Gulu,University,7.609539272005907,28,Female,1385735,Borehole,Cassava,2022,ITEM-332,Maize Seed,581,Store A
+334,Northern,Gulu,None,0.2,27,Male,1677493,Well,Maize,2024,ITEM-333,DAP,470,Store B
+335,Eastern,Mbarara,Primary,0.8684991786158354,35,Male,1267241,Well,Cassava,2024,ITEM-334,DAP,873,Store B
+336,Western,Lira,Primary,4.0809542949032025,40,Female,830856,River,Maize,2022,ITEM-335,Maize Seed,263,Store A
+337,Central,Lira,University,5.362833239257707,48,Male,491766,River,Cassava,2024,ITEM-336,DAP,529,Store B
+338,Northern,Kampala,University,5.577762202924436,43,Female,1606554,River,Coffee,2022,ITEM-337,DAP,912,Store B
+339,Western,Kampala,Secondary,3.177564620454234,19,Female,1986339,Well,Coffee,2024,ITEM-338,DAP,116,Store B
+340,Western,Gulu,Secondary,6.279945923690523,56,Male,1290565,Borehole,Beans,2024,ITEM-339,DAP,180,Store B
+341,Northern,Kampala,Secondary,4.693383300411523,24,Female,1817605,River,Beans,2023,ITEM-340,DAP,67,Store B
+342,Western,Mbarara,None,2.16540797443538,41,Female,1720492,Borehole,Cassava,2023,ITEM-341,Hoe,346,Store B
+343,Northern,Lira,University,6.996167545578729,56,Female,1793027,Borehole,Cassava,2022,ITEM-342,DAP,351,Store B
+344,Eastern,Gulu,Secondary,3.5981127887987667,49,Female,271637,Borehole,Beans,2024,ITEM-343,Maize Seed,951,Store B
+345,Northern,Kampala,Secondary,4.8312912832601675,43,Female,1307751,River,Beans,2023,ITEM-344,DAP,299,Store A
+346,Northern,Mbarara,Secondary,2.6433840292031965,40,Female,958618,River,Cassava,2023,ITEM-345,Hoe,93,Store A
+347,Northern,Mbarara,Secondary,3.1047165479035055,31,Male,455972,Borehole,Cassava,2023,ITEM-346,Maize Seed,126,Store B
+348,Western,Kampala,Secondary,4.932975179261481,46,Female,1746376,River,Cassava,2024,ITEM-347,Maize Seed,721,Store B
+349,Western,Lira,University,5.44274476917322,42,Female,1383123,Tap,Coffee,2022,ITEM-348,DAP,543,Store A
+350,Northern,Kampala,University,6.610918530838126,48,Male,794547,River,Maize,2024,ITEM-349,Hoe,228,Store A
+351,Western,Gulu,Secondary,4.056487655644588,19,Male,1525610,Borehole,Maize,2024,ITEM-350,DAP,747,Store B
+352,Central,Kampala,Secondary,3.6713379966628383,19,Female,1402918,Borehole,Beans,2023,ITEM-351,Hoe,926,Store A
+353,Central,Mbarara,None,0.2,40,Male,1341965,Well,Coffee,2024,ITEM-352,Hoe,792,Store B
+354,Western,Kampala,Secondary,3.5710711088113074,64,Male,667353,Well,Cassava,2024,ITEM-353,DAP,910,Store A
+355,Western,Lira,None,0.3750316230675145,28,Female,527461,Borehole,Cassava,2023,ITEM-354,Hoe,111,Store B
+356,Northern,Arua,Secondary,4.361439863287699,46,Male,1969053,Tap,Beans,2023,ITEM-355,DAP,666,Store A
+357,Eastern,Kampala,University,6.910490538699468,59,Female,545123,Well,Beans,2024,ITEM-356,Hoe,465,Store B
+358,Western,Lira,Secondary,4.5779614599368745,52,Female,1631781,Borehole,Coffee,2023,ITEM-357,Maize Seed,668,Store A
+359,Central,Lira,Secondary,3.5240137270256024,26,Female,453154,Well,Maize,2022,ITEM-358,DAP,782,Store A
+360,Northern,Mbarara,Primary,3.022777950465892,49,Female,1117174,Well,Maize,2022,ITEM-359,Hoe,800,Store B
+361,Western,Lira,Primary,0.9439932672263169,47,Male,1234501,Borehole,Cassava,2022,ITEM-360,Maize Seed,860,Store B
+362,Central,Lira,Secondary,2.3780952673476463,32,Female,1442242,River,Beans,2022,ITEM-361,Maize Seed,535,Store A
+363,Central,Lira,Primary,0.2,31,Male,938880,Tap,Coffee,2022,ITEM-362,Maize Seed,275,Store A
+364,Eastern,Lira,Primary,2.0007027604280028,34,Male,983227,River,Cassava,2023,ITEM-363,Maize Seed,296,Store B
+365,Northern,Gulu,Secondary,3.4467017756614426,39,Female,1209268,Borehole,Maize,2023,ITEM-364,DAP,150,Store A
+366,Northern,Gulu,Secondary,4.9893156118546,47,Female,911865,Borehole,Maize,2022,ITEM-365,Hoe,904,Store A
+367,Eastern,Mbarara,Secondary,3.5513374129511304,34,Male,1421905,Tap,Coffee,2022,ITEM-366,Maize Seed,415,Store A
+368,Eastern,Kampala,None,1.4733763479442672,33,Female,410582,Borehole,Cassava,2022,ITEM-367,Hoe,302,Store A
+369,Northern,Lira,Secondary,5.013296576583077,25,Female,839327,Well,Coffee,2023,ITEM-368,Hoe,944,Store A
+370,Northern,Kampala,Secondary,3.5136809243508846,56,Female,834006,Tap,Cassava,2023,ITEM-369,Hoe,915,Store B
+371,Western,Kampala,Secondary,4.498052210107176,48,Male,1193663,River,Maize,2024,ITEM-370,DAP,40,Store A
+372,Western,Mbarara,Secondary,5.201927548955195,29,Male,1657187,Tap,Beans,2024,ITEM-371,DAP,180,Store A
+373,Eastern,Lira,Primary,1.2618372251944328,50,Male,1320581,River,Beans,2024,ITEM-372,Maize Seed,364,Store B
+374,Western,Lira,Secondary,4.224852338244644,29,Male,1273616,Borehole,Maize,2024,ITEM-373,Hoe,214,Store B
+375,Central,Arua,Secondary,3.517965616800686,42,Female,309009,River,Beans,2023,ITEM-374,DAP,487,Store B
+376,Western,Kampala,University,5.625510117506861,55,Female,1841566,River,Beans,2023,ITEM-375,DAP,941,Store B
+377,Western,Kampala,Secondary,2.6635482595097715,35,Male,1270213,River,Cassava,2023,ITEM-376,DAP,300,Store B
+378,Central,Gulu,Secondary,3.0093514278213,36,Male,267745,Tap,Coffee,2023,ITEM-377,Maize Seed,120,Store A
+379,Eastern,Arua,Secondary,4.2600290057520125,20,Male,1126251,Well,Cassava,2022,ITEM-378,DAP,77,Store A
+380,Central,Gulu,Secondary,2.5891555444382535,52,Male,1216107,River,Coffee,2024,ITEM-379,Hoe,704,Store A
+381,Western,Gulu,University,6.249272975911363,22,Male,351322,Tap,Coffee,2023,ITEM-380,DAP,382,Store B
+382,Eastern,Gulu,Secondary,5.0131944068528975,52,Female,1076899,Tap,Beans,2023,ITEM-381,DAP,205,Store B
+383,Western,Mbarara,Secondary,4.649010963418936,44,Male,311855,Well,Coffee,2024,ITEM-382,Maize Seed,135,Store B
+384,Central,Mbarara,Secondary,3.669492377061843,54,Male,1478515,Tap,Coffee,2023,ITEM-383,Hoe,696,Store A
+385,Central,Gulu,Secondary,5.889690413358724,63,Female,778328,Borehole,Maize,2022,ITEM-384,DAP,271,Store A
+386,Western,Arua,Secondary,6.093036413911661,38,Female,1356094,Borehole,Coffee,2023,ITEM-385,Hoe,896,Store A
+387,Northern,Kampala,University,6.8261224315397255,33,Female,1673097,Borehole,Maize,2024,ITEM-386,Hoe,933,Store A
+388,Northern,Arua,Secondary,1.731457084115692,45,Male,920678,Well,Cassava,2022,ITEM-387,DAP,807,Store A
+389,Central,Lira,Secondary,5.08644819701626,42,Female,1968173,Tap,Beans,2022,ITEM-388,Maize Seed,164,Store A
+390,Central,Mbarara,University,4.506023659966415,50,Male,1855974,Borehole,Coffee,2024,ITEM-389,Hoe,590,Store B
+391,Northern,Kampala,None,2.676146110720066,34,Male,1082827,River,Maize,2024,ITEM-390,DAP,117,Store A
+392,Northern,Kampala,Primary,3.5835849007422986,60,Female,1432010,Tap,Cassava,2022,ITEM-391,Hoe,432,Store A
+393,Western,Lira,Primary,4.274212504138021,47,Male,603312,Borehole,Cassava,2023,ITEM-392,Hoe,44,Store A
+394,Western,Lira,University,7.0602655583677265,58,Male,452138,Tap,Cassava,2024,ITEM-393,Hoe,880,Store A
+395,Northern,Gulu,None,0.838614232818162,21,Female,275764,Borehole,Maize,2022,ITEM-394,DAP,53,Store A
+396,Western,Mbarara,None,0.7498988663097761,19,Female,864578,River,Maize,2024,ITEM-395,Hoe,664,Store B
+397,Western,Mbarara,None,0.6537398289691029,26,Female,1601087,Tap,Beans,2023,ITEM-396,Hoe,732,Store A
+398,Eastern,Arua,None,2.1810686536747026,48,Female,1595058,Borehole,Coffee,2023,ITEM-397,Maize Seed,999,Store A
+399,Western,Gulu,None,1.912271489505878,42,Female,1689173,Borehole,Cassava,2022,ITEM-398,DAP,425,Store B
+400,Central,Gulu,Secondary,4.320225633434213,54,Female,415555,River,Beans,2023,ITEM-399,DAP,294,Store B
+401,Western,Gulu,Secondary,3.477818692073028,53,Female,1398983,River,Maize,2023,ITEM-400,Hoe,456,Store A
+402,Western,Gulu,Primary,5.129212631300273,22,Female,1950797,Borehole,Beans,2023,ITEM-401,Maize Seed,527,Store A
+403,Northern,Mbarara,Primary,3.4123746139628697,41,Female,1016339,Borehole,Cassava,2024,ITEM-402,Hoe,739,Store A
+404,Central,Mbarara,None,0.2,41,Female,977431,Well,Cassava,2022,ITEM-403,Hoe,36,Store A
+405,Western,Gulu,Primary,1.983743984062873,46,Male,1287963,Well,Beans,2022,ITEM-404,DAP,236,Store A
+406,Western,Arua,Secondary,5.131776097408705,62,Male,680783,Tap,Cassava,2022,ITEM-405,Maize Seed,805,Store B
+407,Eastern,Kampala,Secondary,3.400461078767316,48,Male,1323231,Tap,Maize,2023,ITEM-406,Hoe,910,Store B
+408,Western,Kampala,None,1.5515479588258887,54,Female,1830271,Well,Cassava,2024,ITEM-407,DAP,434,Store A
+409,Western,Arua,Secondary,5.1507963003361485,36,Male,658478,Borehole,Coffee,2022,ITEM-408,Hoe,577,Store A
+410,Eastern,Gulu,Primary,0.2,40,Male,1646347,River,Coffee,2024,ITEM-409,Hoe,377,Store B
+411,Northern,Mbarara,University,6.69196230021075,52,Male,1556815,Tap,Cassava,2022,ITEM-410,Maize Seed,319,Store B
+412,Western,Kampala,Secondary,4.131209153565122,23,Male,725330,Borehole,Beans,2023,ITEM-411,Maize Seed,857,Store A
+413,Eastern,Lira,Secondary,3.7879275443162106,23,Male,303748,River,Cassava,2022,ITEM-412,Maize Seed,114,Store A
+414,Central,Lira,Primary,2.801695134946041,54,Female,450763,River,Coffee,2022,ITEM-413,Hoe,27,Store A
+415,Northern,Arua,University,7.4575196074958745,47,Female,1065028,Borehole,Maize,2023,ITEM-414,Maize Seed,214,Store A
+416,Central,Gulu,None,1.3420509443246091,18,Female,865593,Borehole,Coffee,2023,ITEM-415,DAP,52,Store A
+417,Central,Kampala,Primary,2.126172605950568,25,Male,465232,Tap,Cassava,2022,ITEM-416,Hoe,98,Store A
+418,Eastern,Gulu,Primary,3.1326212997842697,45,Male,463790,Well,Cassava,2024,ITEM-417,Maize Seed,595,Store B
+419,Western,Kampala,Primary,2.549053409274357,42,Female,1392775,Borehole,Beans,2023,ITEM-418,Hoe,166,Store B
+420,Eastern,Arua,University,6.569299586804521,50,Female,1936551,Well,Cassava,2022,ITEM-419,Hoe,275,Store B
+421,Eastern,Arua,Secondary,2.887720614661081,55,Female,1969959,Tap,Cassava,2023,ITEM-420,DAP,143,Store B
+422,Eastern,Lira,Primary,0.9373452147339216,31,Male,1001885,Well,Maize,2024,ITEM-421,DAP,473,Store A
+423,Eastern,Gulu,Secondary,2.86877020728593,28,Female,1038665,Well,Maize,2022,ITEM-422,DAP,610,Store B
+424,Northern,Lira,University,7.078329061220215,19,Female,1676307,River,Maize,2022,ITEM-423,Hoe,757,Store B
+425,Western,Gulu,University,6.720921252393648,47,Female,1175596,Tap,Beans,2024,ITEM-424,Hoe,141,Store A
+426,Central,Lira,Secondary,2.719715901792537,47,Female,1506365,Borehole,Beans,2024,ITEM-425,DAP,750,Store B
+427,Central,Mbarara,University,7.445917825793811,21,Female,1199951,Well,Coffee,2022,ITEM-426,Hoe,43,Store A
+428,Western,Mbarara,University,8.174309513179095,30,Male,658216,Tap,Beans,2024,ITEM-427,DAP,92,Store A
+429,Central,Mbarara,Secondary,3.6015063832836645,24,Male,1593807,River,Maize,2024,ITEM-428,DAP,938,Store B
+430,Western,Mbarara,None,0.2,55,Female,384834,River,Beans,2022,ITEM-429,Maize Seed,141,Store B
+431,Central,Kampala,Secondary,3.4908736150980877,20,Male,412886,Well,Cassava,2023,ITEM-430,DAP,437,Store B
+432,Eastern,Mbarara,University,7.654460626794694,26,Female,457493,Well,Beans,2024,ITEM-431,Maize Seed,875,Store A
+433,Central,Arua,Primary,3.048529858534774,31,Female,286392,Borehole,Cassava,2023,ITEM-432,DAP,213,Store B
+434,Western,Arua,University,5.877567313988521,28,Male,1981403,Tap,Coffee,2023,ITEM-433,Hoe,808,Store A
+435,Western,Kampala,Primary,4.021172137764742,54,Male,846637,Borehole,Cassava,2023,ITEM-434,Maize Seed,345,Store B
+436,Western,Mbarara,None,2.5482800659263987,31,Male,1926124,Borehole,Maize,2024,ITEM-435,Hoe,971,Store A
+437,Western,Mbarara,Primary,1.766993936723359,36,Male,266019,River,Coffee,2022,ITEM-436,Hoe,506,Store B
+438,Western,Mbarara,None,0.45670999703503323,25,Female,1773315,Tap,Coffee,2022,ITEM-437,DAP,451,Store B
+439,Northern,Lira,University,6.2071720626205105,24,Male,1121573,Borehole,Coffee,2022,ITEM-438,DAP,837,Store A
+440,Northern,Gulu,University,6.292667224611454,24,Female,1393034,River,Maize,2022,ITEM-439,Hoe,267,Store B
+441,Central,Lira,University,7.750538007928443,20,Female,893799,Well,Cassava,2022,ITEM-440,DAP,301,Store B
+442,Western,Gulu,Secondary,4.625329060476594,20,Female,1956221,Borehole,Coffee,2022,ITEM-441,DAP,975,Store A
+443,Central,Mbarara,Primary,3.3770787693505877,35,Female,480301,Well,Maize,2023,ITEM-442,DAP,134,Store B
+444,Western,Mbarara,Secondary,4.8735651431867,62,Female,274726,Tap,Coffee,2023,ITEM-443,Hoe,965,Store B
+445,Western,Lira,Secondary,5.914527068193732,50,Male,830004,Borehole,Coffee,2023,ITEM-444,Maize Seed,672,Store A
+446,Northern,Lira,Secondary,3.1406144561908595,54,Female,1248203,Well,Maize,2024,ITEM-445,Maize Seed,880,Store B
+447,Northern,Gulu,Primary,2.880358530383916,45,Male,1474862,Well,Beans,2024,ITEM-446,Hoe,768,Store A
+448,Eastern,Arua,Secondary,2.0261787437653025,53,Female,346001,Tap,Coffee,2024,ITEM-447,DAP,184,Store B
+449,Northern,Gulu,Secondary,2.883044425903142,33,Male,1877500,River,Beans,2022,ITEM-448,DAP,893,Store B
+450,Eastern,Lira,University,6.725146614065153,32,Male,1428395,River,Coffee,2023,ITEM-449,Maize Seed,501,Store A
+451,Eastern,Lira,University,7.2182066127545355,46,Female,470057,Borehole,Beans,2024,ITEM-450,Hoe,878,Store B
+452,Eastern,Kampala,Secondary,4.098184257970431,35,Female,668747,Well,Cassava,2023,ITEM-451,Hoe,823,Store A
+453,Eastern,Lira,Secondary,3.632807581187322,63,Male,1799591,River,Beans,2022,ITEM-452,DAP,89,Store A
+454,Eastern,Kampala,Secondary,3.8105821225069625,63,Female,333018,Borehole,Beans,2023,ITEM-453,DAP,628,Store B
+455,Central,Arua,None,2.5694409764241044,36,Female,1833925,Well,Beans,2022,ITEM-454,DAP,821,Store A
+456,Northern,Gulu,University,6.4159678221198595,46,Male,432791,Borehole,Beans,2024,ITEM-455,Hoe,924,Store B
+457,Eastern,Gulu,University,8.549241622043528,23,Male,1446578,Tap,Cassava,2022,ITEM-456,Maize Seed,314,Store A
+458,Western,Kampala,Secondary,4.9940170735411336,62,Female,1178976,Borehole,Maize,2022,ITEM-457,Hoe,519,Store B
+459,Northern,Gulu,Primary,2.9575373461482304,64,Female,313388,Tap,Beans,2023,ITEM-458,Hoe,353,Store B
+460,Northern,Lira,Primary,1.3064030896790044,44,Female,267957,Well,Maize,2022,ITEM-459,Hoe,579,Store A
+461,Eastern,Mbarara,Secondary,5.135238161399627,24,Female,547983,Well,Coffee,2024,ITEM-460,Maize Seed,100,Store B
+462,Central,Kampala,None,0.7062294222515006,44,Male,1616369,Well,Maize,2024,ITEM-461,DAP,656,Store B
+463,Eastern,Gulu,University,5.6055602419943,36,Male,612683,Borehole,Beans,2022,ITEM-462,DAP,871,Store B
+464,Central,Kampala,None,1.7128436130793774,34,Female,437406,Well,Maize,2023,ITEM-463,Hoe,178,Store A
+465,Western,Kampala,Primary,1.1120539394334603,58,Male,879864,Well,Cassava,2024,ITEM-464,Hoe,343,Store B
+466,Northern,Mbarara,University,6.037758537870418,28,Male,407588,Tap,Cassava,2024,ITEM-465,Maize Seed,643,Store B
+467,Western,Lira,Secondary,4.189884088531088,22,Male,988276,Well,Beans,2022,ITEM-466,Maize Seed,245,Store A
+468,Central,Kampala,Primary,4.7184214241147275,19,Male,1283148,Well,Maize,2022,ITEM-467,DAP,408,Store B
+469,Central,Gulu,Primary,1.8130842442075124,64,Male,1487033,Well,Coffee,2024,ITEM-468,Hoe,597,Store A
+470,Western,Arua,None,0.7417834806994246,29,Male,939783,River,Cassava,2022,ITEM-469,Maize Seed,830,Store A
+471,Central,Kampala,Secondary,4.932345054421646,59,Male,939173,Well,Beans,2022,ITEM-470,Maize Seed,486,Store B
+472,Western,Kampala,None,0.2,59,Female,1744440,Borehole,Cassava,2024,ITEM-471,Hoe,544,Store A
+473,Northern,Mbarara,Secondary,4.6428063810209155,28,Female,1140479,Tap,Beans,2023,ITEM-472,Hoe,854,Store B
+474,Western,Lira,University,8.005926807616587,27,Male,743737,Well,Maize,2023,ITEM-473,Hoe,594,Store B
+475,Northern,Arua,Primary,2.1929051152888985,45,Male,834425,Borehole,Maize,2024,ITEM-474,Hoe,97,Store B
+476,Western,Gulu,University,7.826154281396866,24,Male,1970731,Tap,Maize,2022,ITEM-475,Hoe,624,Store A
+477,Central,Arua,University,7.0914499232118064,31,Male,1136108,Tap,Maize,2024,ITEM-476,Hoe,615,Store A
+478,Western,Gulu,None,0.46931803619621937,30,Male,1499777,Borehole,Maize,2024,ITEM-477,Maize Seed,970,Store B
+479,Central,Lira,University,6.6021953141034935,22,Female,849586,Borehole,Beans,2022,ITEM-478,Hoe,837,Store B
+480,Western,Gulu,Secondary,3.8202426600197583,59,Male,1983331,River,Cassava,2023,ITEM-479,DAP,787,Store A
+481,Western,Mbarara,University,6.712361742183522,25,Female,1095766,River,Coffee,2023,ITEM-480,Hoe,262,Store B
+482,Eastern,Mbarara,Secondary,4.3527178992198285,18,Female,1046572,Well,Cassava,2022,ITEM-481,DAP,367,Store A
+483,Central,Mbarara,Secondary,4.788199934971857,22,Male,487506,River,Maize,2024,ITEM-482,DAP,67,Store A
+484,Eastern,Mbarara,Secondary,4.708668249587136,28,Male,883303,Borehole,Cassava,2022,ITEM-483,DAP,952,Store B
+485,Central,Arua,University,4.368286428737852,60,Male,1794183,River,Cassava,2024,ITEM-484,Hoe,408,Store B
+486,Eastern,Lira,Secondary,4.102691811227974,27,Female,562895,Tap,Beans,2022,ITEM-485,Hoe,530,Store B
+487,Northern,Gulu,Secondary,2.690578086593238,32,Female,432505,Borehole,Coffee,2022,ITEM-486,DAP,534,Store A
+488,Western,Gulu,University,6.524272747532674,56,Female,644266,Well,Coffee,2023,ITEM-487,Hoe,928,Store A
+489,Central,Mbarara,Primary,2.37621041218908,64,Male,1911633,Tap,Maize,2023,ITEM-488,Maize Seed,426,Store A
+490,Central,Mbarara,Primary,3.476148358084709,46,Male,419683,Tap,Beans,2022,ITEM-489,Maize Seed,402,Store A
+491,Western,Kampala,Primary,2.4698845328999006,42,Male,1957591,Tap,Beans,2022,ITEM-490,Maize Seed,652,Store B
+492,Central,Lira,Primary,2.75921801834326,23,Male,1869760,Borehole,Beans,2023,ITEM-491,Maize Seed,231,Store A
+493,Central,Arua,Primary,3.293056380657429,28,Male,1997632,Borehole,Beans,2024,ITEM-492,Hoe,338,Store B
+494,Eastern,Gulu,University,8.0277522598193,34,Male,1539455,Well,Beans,2023,ITEM-493,DAP,381,Store A
+495,Central,Kampala,Primary,2.3769860766430897,32,Female,1804157,River,Coffee,2024,ITEM-494,Hoe,520,Store A
+496,Northern,Kampala,Secondary,4.294179441680409,33,Female,1186989,River,Coffee,2023,ITEM-495,Maize Seed,162,Store B
+497,Northern,Gulu,Primary,2.510023302242254,19,Male,1455843,River,Cassava,2023,ITEM-496,Hoe,902,Store A
+498,Western,Arua,University,6.257401035568924,53,Male,339082,River,Coffee,2024,ITEM-497,Hoe,888,Store B
+499,Central,Kampala,University,6.03088477655761,36,Female,1078737,Tap,Beans,2022,ITEM-498,Maize Seed,993,Store A
+500,Western,Kampala,Secondary,1.9281140835740649,55,Female,289359,Borehole,Cassava,2023,ITEM-499,DAP,489,Store B
+501,Northern,Lira,University,5.72333906547567,38,Female,1723728,River,Coffee,2023,ITEM-500,Hoe,592,Store A
+502,Central,Arua,None,0.2,28,Male,1027159,Tap,Cassava,2023,ITEM-501,Hoe,941,Store A
+503,Central,Kampala,University,8.055198484453252,58,Female,828833,Borehole,Coffee,2022,ITEM-502,Maize Seed,866,Store B
+504,Western,Arua,Primary,2.688416008297428,20,Female,214787,Borehole,Maize,2023,ITEM-503,DAP,29,Store B
+505,Northern,Gulu,University,6.674061027053166,51,Female,1190946,Borehole,Coffee,2022,ITEM-504,Maize Seed,602,Store B
+506,Central,Mbarara,None,0.48251481391891826,35,Female,579854,Tap,Cassava,2023,ITEM-505,Maize Seed,959,Store A
+507,Western,Kampala,Secondary,4.229779263234624,32,Female,1360065,River,Maize,2024,ITEM-506,Hoe,237,Store A
+508,Northern,Lira,Secondary,3.352020122344666,42,Male,344375,Borehole,Beans,2023,ITEM-507,DAP,355,Store A
+509,Western,Gulu,Primary,2.6740185566206036,32,Male,397874,Tap,Cassava,2023,ITEM-508,Maize Seed,28,Store A
+510,Eastern,Arua,Primary,2.7457339829213536,47,Female,298782,Borehole,Beans,2022,ITEM-509,Hoe,453,Store A
+511,Central,Gulu,None,0.3386162976432562,34,Male,515592,Well,Beans,2022,ITEM-510,Maize Seed,686,Store A
+512,Eastern,Kampala,Primary,1.619538035177594,35,Male,1318089,Well,Cassava,2022,ITEM-511,Hoe,377,Store B
+513,Northern,Arua,Secondary,5.162199354595118,48,Female,992500,Tap,Beans,2024,ITEM-512,DAP,908,Store A
+514,Eastern,Mbarara,Primary,2.4471400457086996,60,Male,834328,River,Cassava,2024,ITEM-513,Maize Seed,628,Store A
+515,Eastern,Gulu,Primary,1.7189795707351094,35,Male,318962,River,Cassava,2022,ITEM-514,DAP,898,Store B
+516,Northern,Kampala,None,0.8294936983104809,52,Female,1410875,Borehole,Coffee,2024,ITEM-515,DAP,869,Store B
+517,Western,Lira,University,5.789405913293392,30,Female,737028,River,Maize,2022,ITEM-516,Hoe,735,Store B
+518,Eastern,Arua,Primary,2.4328164193380832,31,Male,1599053,River,Beans,2024,ITEM-517,Maize Seed,760,Store B
+519,Western,Gulu,Primary,3.3316283076644684,53,Male,1051177,Well,Beans,2022,ITEM-518,Maize Seed,156,Store B
+520,Eastern,Gulu,None,1.1723293324057387,35,Male,863151,Tap,Maize,2022,ITEM-519,Hoe,702,Store A

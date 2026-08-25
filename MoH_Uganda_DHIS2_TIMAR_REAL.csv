@@ -1,0 +1,1001 @@
+ID,Region,District,Health_Facility,Facility_Level,Disease,ICD10_Code,Age_Group,Gender,Cases_Reported,Deaths,Yield,Education,Water_Source,Irrigation,Crop,Reporting_Week,Reporting_Year,Month,Village_Cases,Stockout_Days,Income_UGX
+340,Eastern,Tororo,Tororo HC IV,HC III,Malnutrition,J18,0-5,Male,78,1,78,Primary,Borehole,No,N/A,29,2024,Mar,14,11,113120
+341,Eastern,Mbale,Mbale HC III,HC III,Diabetes,J18,0-5,Male,112,2,112,Primary,Borehole,No,N/A,52,2024,Jan,18,10,704713
+342,Central,Wakiso,Wakiso HC IV,HC IV,HIV/AIDS,J18,20-35,Female,106,2,106,None,Tap,No,N/A,1,2024,Jan,34,5,413321
+343,Central,Wakiso,Wakiso HC III,HC III,Anemia,J18,20-35,Male,227,4,227,Primary,Tap,No,N/A,23,2024,Jan,16,11,417931
+344,Eastern,Mbale,Mbale District Hospital,HC II,Diabetes,J18,6-12,Male,33,0,33,None,Borehole,No,N/A,34,2024,Mar,16,0,598926
+345,Western,Kabale,Kabale HC III,HC II,Malaria,B54,0-5,Female,244,4,244,Secondary,Tap,No,N/A,6,2024,Feb,15,7,205164
+346,Eastern,Mbale,Mbale HC IV,HC III,Anemia,J18,60+,Female,22,0,22,Primary,Borehole,No,N/A,14,2024,Mar,22,3,492883
+347,Central,Wakiso,Wakiso HC III,HC IV,HIV/AIDS,J18,0-5,Male,39,0,39,None,Borehole,No,N/A,33,2024,Jan,9,0,689625
+348,Northern,Lira,Lira District Hospital,HC III,Pneumonia,J18,6-12,Male,69,1,69,Secondary,Tap,No,N/A,7,2024,Jan,28,10,118153
+349,Western,Mbarara,Mbarara HC III,HC II,Diabetes,J18,20-35,Female,193,3,193,Primary,Tap,No,N/A,49,2024,Feb,7,11,95082
+350,Central,Wakiso,Wakiso District Hospital,HC III,Malaria,B54,60+,Female,193,3,193,Primary,Tap,No,N/A,15,2024,Jan,29,3,1421
+351,Eastern,Mbale,Mbale District Hospital,HC III,Anemia,J18,6-12,Male,229,4,229,Primary,Borehole,No,N/A,14,2024,Jan,12,8,753220
+352,Central,Kampala,Kampala District Hospital,HC III,Anemia,J18,60+,Female,239,4,239,None,Tap,No,N/A,28,2024,Feb,7,3,144350
+353,Northern,Gulu,Gulu District Hospital,HC II,Hypertension,J18,6-12,Male,10,0,10,None,Borehole,No,N/A,14,2024,Mar,46,9,608857
+354,Western,Fort Portal,Fort Portal District Hospital,HC II,HIV/AIDS,J18,20-35,Female,90,1,90,Primary,Tap,No,N/A,40,2024,Jan,47,13,362215
+355,Central,Kampala,Kampala HC III,HC IV,HIV/AIDS,J18,20-35,Male,104,2,104,None,Tap,No,N/A,10,2024,Mar,41,14,173878
+356,Eastern,Mbale,Mbale HC III,HC II,TB,J18,6-12,Female,210,4,210,None,Tap,No,N/A,14,2024,Feb,46,14,330930
+357,Northern,Lira,Lira HC IV,HC III,Diarrhea,J18,6-12,Female,23,0,23,Primary,Borehole,No,N/A,7,2024,Mar,10,4,92138
+358,Central,Wakiso,Wakiso HC IV,HC II,TB,J18,6-12,Male,200,4,200,Secondary,Tap,No,N/A,26,2024,Mar,31,1,445486
+359,Eastern,Mbale,Mbale HC IV,HC II,TB,J18,60+,Male,198,3,198,None,Borehole,No,N/A,33,2024,Jan,25,10,75426
+360,Northern,Gulu,Gulu HC IV,HC IV,Malnutrition,J18,6-12,Male,60,1,60,None,Borehole,No,N/A,47,2024,Feb,46,11,650488
+361,Eastern,Jinja,Jinja HC IV,HC III,Diarrhea,J18,6-12,Male,75,1,75,None,Borehole,No,N/A,1,2024,Feb,43,9,429434
+362,Northern,Lira,Lira HC IV,HC II,Anemia,J18,20-35,Female,43,0,43,Secondary,Tap,No,N/A,23,2024,Feb,2,8,285193
+363,Northern,Lira,Lira HC IV,HC II,Malnutrition,J18,0-5,Male,53,1,53,Primary,Borehole,No,N/A,26,2024,Jan,38,10,229
+364,Eastern,Tororo,Tororo HC III,HC II,Anemia,J18,60+,Female,88,1,88,None,Borehole,No,N/A,35,2024,Jan,18,10,508117
+365,Northern,Gulu,Gulu HC III,HC IV,TB,J18,60+,Male,65,1,65,None,Tap,No,N/A,1,2024,Jan,4,6,579740
+366,Northern,Gulu,Gulu HC IV,HC II,HIV/AIDS,J18,0-5,Female,128,2,128,Primary,Borehole,No,N/A,14,2024,Feb,42,14,181621
+367,Central,Mukono,Mukono HC IV,HC II,Malaria,B54,60+,Male,89,1,89,None,Tap,No,N/A,7,2024,Mar,19,8,696132
+368,Northern,Arua,Arua HC IV,HC III,TB,J18,60+,Male,100,2,100,None,Tap,No,N/A,23,2024,Feb,13,11,83850
+369,Western,Mbarara,Mbarara HC IV,HC IV,Maternal Complications,J18,0-5,Male,127,2,127,Secondary,Borehole,No,N/A,39,2024,Mar,5,0,157489
+370,Northern,Gulu,Gulu HC III,HC II,TB,J18,0-5,Female,65,1,65,Primary,Tap,No,N/A,43,2024,Feb,13,1,611749
+371,Central,Mukono,Mukono HC IV,HC II,Diabetes,J18,20-35,Male,232,4,232,Primary,Tap,No,N/A,21,2024,Jan,44,5,560357
+372,Western,Kabale,Kabale District Hospital,HC III,Malaria,B54,6-12,Female,130,2,130,None,Tap,No,N/A,16,2024,Mar,10,7,256608
+373,Eastern,Jinja,Jinja District Hospital,HC III,Diabetes,J18,6-12,Male,121,2,121,Primary,Borehole,No,N/A,44,2024,Mar,4,9,213877
+374,Central,Mukono,Mukono HC III,HC II,Malaria,B54,20-35,Female,151,3,151,Primary,Borehole,No,N/A,31,2024,Feb,15,7,597160
+375,Western,Kabale,Kabale HC III,HC III,Anemia,J18,20-35,Male,137,2,137,None,Tap,No,N/A,33,2024,Jan,16,13,181815
+376,Western,Kabale,Kabale District Hospital,HC III,HIV/AIDS,J18,20-35,Female,81,1,81,Secondary,Tap,No,N/A,48,2024,Jan,48,9,488961
+377,Northern,Gulu,Gulu HC IV,HC IV,Malnutrition,J18,0-5,Male,207,4,207,Secondary,Borehole,No,N/A,7,2024,Mar,27,9,291025
+378,Northern,Gulu,Gulu HC IV,HC III,Pneumonia,J18,6-12,Female,92,1,92,Secondary,Borehole,No,N/A,39,2024,Jan,9,7,715074
+379,Western,Fort Portal,Fort Portal HC IV,HC III,Diabetes,J18,60+,Male,129,2,129,Secondary,Borehole,No,N/A,6,2024,Feb,20,5,774353
+380,Central,Mukono,Mukono HC IV,HC II,Diarrhea,J18,20-35,Male,235,4,235,Secondary,Tap,No,N/A,10,2024,Jan,35,13,559712
+381,Central,Wakiso,Wakiso District Hospital,HC III,Pneumonia,J18,0-5,Male,145,2,145,None,Borehole,No,N/A,32,2024,Jan,12,5,561540
+382,Central,Mukono,Mukono District Hospital,HC III,Hypertension,J18,0-5,Female,89,1,89,Secondary,Borehole,No,N/A,9,2024,Jan,16,1,176865
+383,Central,Kampala,Kampala District Hospital,HC III,Anemia,J18,6-12,Male,230,4,230,Secondary,Tap,No,N/A,39,2024,Feb,17,1,257830
+384,Northern,Arua,Arua HC IV,HC III,Malaria,B54,60+,Female,162,3,162,Primary,Borehole,No,N/A,13,2024,Feb,9,4,556217
+385,Eastern,Mbale,Mbale HC IV,HC III,Pneumonia,J18,0-5,Male,111,2,111,None,Borehole,No,N/A,17,2024,Feb,36,0,391272
+386,Western,Kabale,Kabale HC IV,HC III,Hypertension,J18,20-35,Female,205,4,205,Primary,Borehole,No,N/A,3,2024,Mar,39,2,219507
+387,Eastern,Tororo,Tororo HC IV,HC IV,Malaria,B54,6-12,Female,442,8,442,Secondary,Borehole,No,N/A,51,2024,Jan,34,12,392858
+388,Northern,Arua,Arua District Hospital,HC II,Malaria,B54,6-12,Female,261,5,261,Secondary,Borehole,No,N/A,51,2024,Mar,32,8,678500
+389,Northern,Arua,Arua HC IV,HC II,Diabetes,J18,0-5,Female,154,3,154,Secondary,Tap,No,N/A,17,2024,Jan,39,0,159231
+390,Eastern,Mbale,Mbale HC III,HC III,Maternal Complications,J18,0-5,Male,223,4,223,None,Borehole,No,N/A,42,2024,Mar,4,0,162351
+391,Western,Mbarara,Mbarara HC III,HC II,HIV/AIDS,J18,20-35,Male,195,3,195,Secondary,Tap,No,N/A,50,2024,Feb,3,11,674377
+392,Eastern,Tororo,Tororo District Hospital,HC III,Pneumonia,J18,0-5,Male,202,4,202,Primary,Tap,No,N/A,35,2024,Mar,20,11,514308
+393,Western,Mbarara,Mbarara HC IV,HC II,Hypertension,J18,20-35,Female,138,2,138,None,Borehole,No,N/A,3,2024,Mar,36,13,615963
+394,Northern,Arua,Arua District Hospital,HC II,Hypertension,J18,60+,Male,201,4,201,Secondary,Tap,No,N/A,31,2024,Jan,38,0,207125
+395,Central,Wakiso,Wakiso District Hospital,HC II,Diabetes,J18,60+,Male,165,3,165,Secondary,Tap,No,N/A,15,2024,Jan,34,9,56851
+396,Northern,Arua,Arua District Hospital,HC II,Hypertension,J18,0-5,Female,45,0,45,Primary,Tap,No,N/A,15,2024,Jan,17,14,289970
+397,Northern,Lira,Lira HC IV,HC II,Hypertension,J18,60+,Female,119,2,119,None,Borehole,No,N/A,33,2024,Mar,12,7,610595
+398,Central,Wakiso,Wakiso HC IV,HC III,Anemia,J18,20-35,Male,198,3,198,Primary,Borehole,No,N/A,24,2024,Jan,44,2,69797
+399,Central,Kampala,Kampala District Hospital,HC IV,TB,J18,0-5,Male,25,0,25,Primary,Tap,No,N/A,51,2024,Feb,31,2,149425
+400,Western,Fort Portal,Fort Portal HC III,HC III,Malaria,B54,20-35,Female,187,3,187,Secondary,Tap,No,N/A,45,2024,Mar,18,5,626281
+401,Eastern,Tororo,Tororo District Hospital,HC IV,Diarrhea,J18,20-35,Male,54,1,54,None,Tap,No,N/A,46,2024,Jan,48,4,534212
+402,Western,Fort Portal,Fort Portal District Hospital,HC III,Malaria,B54,6-12,Female,89,1,89,Secondary,Borehole,No,N/A,22,2024,Feb,24,11,123023
+403,Eastern,Tororo,Tororo HC IV,HC IV,HIV/AIDS,J18,60+,Female,210,4,210,Primary,Tap,No,N/A,26,2024,Feb,1,12,273745
+404,Eastern,Mbale,Mbale HC III,HC IV,TB,J18,20-35,Male,115,2,115,Primary,Tap,No,N/A,29,2024,Jan,40,3,319111
+405,Eastern,Mbale,Mbale HC III,HC II,TB,J18,6-12,Female,6,0,6,Primary,Tap,No,N/A,52,2024,Mar,4,2,229605
+406,Western,Fort Portal,Fort Portal HC III,HC IV,Maternal Complications,J18,60+,Male,113,2,113,Secondary,Borehole,No,N/A,43,2024,Feb,48,8,190644
+407,Eastern,Jinja,Jinja District Hospital,HC II,Pneumonia,J18,6-12,Female,73,1,73,Primary,Borehole,No,N/A,35,2024,Jan,7,6,558132
+408,Northern,Lira,Lira HC III,HC IV,Malaria,B54,6-12,Male,79,1,79,Secondary,Borehole,No,N/A,32,2024,Jan,36,11,494993
+409,Northern,Lira,Lira District Hospital,HC IV,Pneumonia,J18,0-5,Male,86,1,86,Secondary,Tap,No,N/A,14,2024,Feb,37,11,144642
+410,Northern,Lira,Lira HC III,HC III,Malnutrition,J18,6-12,Female,1,0,1,None,Tap,No,N/A,4,2024,Jan,49,2,355843
+411,Eastern,Mbale,Mbale District Hospital,HC IV,Malnutrition,J18,20-35,Female,24,0,24,Primary,Borehole,No,N/A,31,2024,Jan,46,3,123464
+412,Northern,Arua,Arua District Hospital,HC IV,Diabetes,J18,20-35,Female,216,4,216,Primary,Tap,No,N/A,38,2024,Mar,42,11,366322
+413,Eastern,Jinja,Jinja HC IV,HC IV,Maternal Complications,J18,0-5,Male,54,1,54,Secondary,Tap,No,N/A,25,2024,Feb,14,10,373966
+414,Western,Kabale,Kabale HC III,HC III,TB,J18,0-5,Male,91,1,91,None,Borehole,No,N/A,13,2024,Mar,15,2,80239
+415,Western,Kabale,Kabale HC IV,HC IV,Diabetes,J18,20-35,Female,79,1,79,None,Tap,No,N/A,8,2024,Jan,44,9,406163
+416,Northern,Arua,Arua HC III,HC IV,Anemia,J18,6-12,Male,124,2,124,Secondary,Tap,No,N/A,21,2024,Mar,42,2,449250
+417,Western,Mbarara,Mbarara HC III,HC III,Malaria,B54,0-5,Female,246,4,246,Primary,Borehole,No,N/A,1,2024,Feb,43,4,617290
+418,Northern,Gulu,Gulu HC IV,HC II,Diarrhea,J18,20-35,Female,12,0,12,Secondary,Borehole,No,N/A,25,2024,Mar,48,11,55340
+419,Western,Mbarara,Mbarara HC IV,HC II,Diarrhea,J18,0-5,Male,221,4,221,None,Tap,No,N/A,44,2024,Feb,26,6,423356
+420,Western,Kabale,Kabale HC III,HC III,Anemia,J18,0-5,Female,149,2,149,None,Tap,No,N/A,29,2024,Jan,24,5,133570
+421,Western,Kabale,Kabale District Hospital,HC IV,Diabetes,J18,0-5,Female,19,0,19,Primary,Borehole,No,N/A,26,2024,Feb,19,6,336883
+422,Western,Fort Portal,Fort Portal HC III,HC IV,Diabetes,J18,0-5,Female,171,3,171,Secondary,Borehole,No,N/A,51,2024,Mar,45,0,693074
+423,Central,Wakiso,Wakiso District Hospital,HC IV,Malnutrition,J18,20-35,Female,166,3,166,Secondary,Tap,No,N/A,10,2024,Mar,28,10,717540
+424,Western,Kabale,Kabale HC III,HC IV,Malnutrition,J18,60+,Female,170,3,170,Secondary,Tap,No,N/A,23,2024,Feb,32,5,708785
+425,Eastern,Mbale,Mbale HC III,HC II,Diarrhea,J18,60+,Female,202,4,202,Secondary,Tap,No,N/A,43,2024,Feb,18,10,510650
+426,Northern,Gulu,Gulu HC IV,HC IV,Malaria,B54,20-35,Male,318,6,318,None,Tap,No,N/A,15,2024,Jan,11,6,115227
+427,Central,Wakiso,Wakiso HC IV,HC III,Maternal Complications,J18,20-35,Female,227,4,227,Primary,Borehole,No,N/A,19,2024,Feb,43,14,364995
+428,Northern,Gulu,Gulu District Hospital,HC II,Hypertension,J18,0-5,Female,20,0,20,Primary,Borehole,No,N/A,9,2024,Jan,42,5,240182
+429,Western,Kabale,Kabale HC III,HC IV,HIV/AIDS,J18,60+,Male,222,4,222,None,Borehole,No,N/A,9,2024,Jan,26,13,507164
+430,Western,Fort Portal,Fort Portal HC III,HC III,HIV/AIDS,J18,0-5,Male,185,3,185,Secondary,Tap,No,N/A,38,2024,Mar,20,0,561632
+431,Northern,Lira,Lira HC IV,HC IV,Pneumonia,J18,0-5,Female,182,3,182,Secondary,Borehole,No,N/A,15,2024,Mar,32,10,466648
+432,Western,Kabale,Kabale HC III,HC II,Diabetes,J18,20-35,Male,246,4,246,Primary,Tap,No,N/A,39,2024,Mar,37,14,321350
+433,Central,Mukono,Mukono HC III,HC III,Anemia,J18,60+,Female,70,1,70,Secondary,Tap,No,N/A,16,2024,Jan,10,4,272884
+434,Central,Mukono,Mukono District Hospital,HC III,Pneumonia,J18,0-5,Female,86,1,86,Primary,Tap,No,N/A,4,2024,Jan,10,12,68159
+435,Eastern,Jinja,Jinja HC III,HC IV,HIV/AIDS,J18,6-12,Female,233,4,233,None,Borehole,No,N/A,35,2024,Feb,1,8,539255
+436,Western,Mbarara,Mbarara HC IV,HC IV,Malnutrition,J18,0-5,Male,148,2,148,Primary,Tap,No,N/A,2,2024,Jan,42,2,494810
+437,Central,Kampala,Kampala HC IV,HC III,TB,J18,60+,Male,117,2,117,Primary,Borehole,No,N/A,37,2024,Mar,40,5,256241
+438,Eastern,Jinja,Jinja HC IV,HC IV,Malaria,B54,20-35,Male,223,4,223,None,Tap,No,N/A,5,2024,Feb,15,8,66830
+439,Central,Mukono,Mukono HC III,HC IV,Diarrhea,J18,0-5,Female,247,4,247,None,Borehole,No,N/A,4,2024,Jan,16,5,237761
+440,Northern,Gulu,Gulu HC IV,HC II,Diabetes,J18,0-5,Female,121,2,121,None,Borehole,No,N/A,42,2024,Jan,36,14,768441
+441,Central,Wakiso,Wakiso HC III,HC II,Diabetes,J18,6-12,Female,234,4,234,Secondary,Tap,No,N/A,37,2024,Feb,15,8,235296
+442,Eastern,Mbale,Mbale HC III,HC II,TB,J18,60+,Female,112,2,112,None,Borehole,No,N/A,42,2024,Mar,15,13,350057
+443,Central,Mukono,Mukono HC IV,HC III,Pneumonia,J18,6-12,Male,125,2,125,Secondary,Borehole,No,N/A,35,2024,Jan,35,2,196505
+444,Northern,Lira,Lira HC III,HC II,Diabetes,J18,20-35,Male,152,3,152,Secondary,Tap,No,N/A,40,2024,Mar,7,5,779982
+445,Central,Mukono,Mukono HC IV,HC II,HIV/AIDS,J18,60+,Male,185,3,185,Secondary,Tap,No,N/A,13,2024,Mar,6,3,442197
+446,Eastern,Mbale,Mbale HC IV,HC III,TB,J18,60+,Female,225,4,225,None,Borehole,No,N/A,34,2024,Mar,32,0,59407
+447,Central,Wakiso,Wakiso District Hospital,HC IV,Diarrhea,J18,6-12,Female,149,2,149,Primary,Borehole,No,N/A,43,2024,Feb,34,10,69353
+448,Central,Mukono,Mukono District Hospital,HC IV,Maternal Complications,J18,20-35,Male,86,1,86,Secondary,Tap,No,N/A,34,2024,Mar,5,14,385542
+449,Western,Kabale,Kabale HC IV,HC II,HIV/AIDS,J18,20-35,Male,102,2,102,Primary,Borehole,No,N/A,22,2024,Jan,19,1,375315
+450,Northern,Gulu,Gulu District Hospital,HC II,Pneumonia,J18,0-5,Female,36,0,36,None,Tap,No,N/A,34,2024,Feb,26,14,78803
+451,Central,Kampala,Kampala HC IV,HC IV,Diabetes,J18,0-5,Female,127,2,127,Secondary,Tap,No,N/A,22,2024,Mar,31,6,396339
+452,Western,Fort Portal,Fort Portal HC III,HC IV,Pneumonia,J18,6-12,Female,246,4,246,Primary,Tap,No,N/A,33,2024,Feb,9,3,39900
+453,Northern,Lira,Lira HC IV,HC II,Pneumonia,J18,6-12,Female,119,2,119,Secondary,Tap,No,N/A,25,2024,Mar,23,14,322832
+454,Western,Mbarara,Mbarara HC III,HC IV,Diabetes,J18,6-12,Male,206,4,206,Secondary,Borehole,No,N/A,28,2024,Jan,42,3,346701
+455,Eastern,Jinja,Jinja HC IV,HC III,Hypertension,J18,20-35,Female,183,3,183,None,Tap,No,N/A,46,2024,Mar,43,3,360697
+456,Western,Fort Portal,Fort Portal HC III,HC IV,Malnutrition,J18,0-5,Female,107,2,107,None,Tap,No,N/A,17,2024,Mar,11,0,261519
+457,Central,Mukono,Mukono HC III,HC III,Diabetes,J18,20-35,Male,89,1,89,None,Tap,No,N/A,44,2024,Mar,10,3,244623
+458,Central,Mukono,Mukono HC III,HC IV,Maternal Complications,J18,6-12,Male,216,4,216,None,Borehole,No,N/A,29,2024,Feb,10,5,328535
+459,Eastern,Jinja,Jinja District Hospital,HC IV,TB,J18,6-12,Female,240,4,240,Secondary,Borehole,No,N/A,18,2024,Feb,21,10,785264
+460,Central,Kampala,Kampala District Hospital,HC IV,Diarrhea,J18,60+,Female,225,4,225,Primary,Tap,No,N/A,13,2024,Mar,39,3,686523
+461,Western,Kabale,Kabale HC IV,HC II,Maternal Complications,J18,60+,Female,61,1,61,None,Borehole,No,N/A,25,2024,Jan,12,5,608718
+462,Central,Mukono,Mukono District Hospital,HC III,Malaria,B54,0-5,Male,161,3,161,Primary,Borehole,No,N/A,44,2024,Mar,3,0,238540
+463,Western,Mbarara,Mbarara HC III,HC II,HIV/AIDS,J18,0-5,Female,140,2,140,None,Borehole,No,N/A,1,2024,Mar,15,11,253307
+464,Northern,Arua,Arua HC III,HC IV,Maternal Complications,J18,20-35,Male,52,1,52,Primary,Borehole,No,N/A,51,2024,Jan,27,8,13619
+465,Western,Kabale,Kabale HC IV,HC IV,Diarrhea,J18,0-5,Male,155,3,155,None,Tap,No,N/A,48,2024,Feb,47,6,421525
+466,Central,Wakiso,Wakiso HC IV,HC II,Anemia,J18,0-5,Female,95,1,95,None,Tap,No,N/A,44,2024,Mar,48,5,360881
+467,Central,Kampala,Kampala HC III,HC II,TB,J18,0-5,Female,145,2,145,Secondary,Borehole,No,N/A,3,2024,Jan,34,7,448856
+468,Northern,Arua,Arua HC III,HC II,Anemia,J18,0-5,Male,10,0,10,Secondary,Tap,No,N/A,19,2024,Jan,7,3,583784
+469,Northern,Gulu,Gulu HC IV,HC II,Diabetes,J18,20-35,Female,136,2,136,Primary,Tap,No,N/A,51,2024,Mar,35,0,686964
+470,Northern,Lira,Lira HC IV,HC III,Malaria,B54,20-35,Female,417,8,417,None,Tap,No,N/A,40,2024,Feb,6,12,373242
+471,Western,Kabale,Kabale HC III,HC III,Maternal Complications,J18,0-5,Female,166,3,166,Secondary,Tap,No,N/A,31,2024,Jan,4,14,173189
+472,Western,Kabale,Kabale District Hospital,HC II,Hypertension,J18,20-35,Female,247,4,247,Secondary,Tap,No,N/A,13,2024,Jan,13,2,199398
+473,Central,Mukono,Mukono HC IV,HC II,Diabetes,J18,0-5,Male,175,3,175,Secondary,Borehole,No,N/A,30,2024,Feb,17,13,137615
+474,Central,Wakiso,Wakiso District Hospital,HC II,Hypertension,J18,20-35,Male,241,4,241,Primary,Tap,No,N/A,24,2024,Mar,35,1,116617
+475,Western,Kabale,Kabale HC IV,HC IV,Malnutrition,J18,0-5,Female,188,3,188,None,Borehole,No,N/A,25,2024,Jan,39,10,139085
+476,Northern,Lira,Lira HC III,HC II,HIV/AIDS,J18,6-12,Male,73,1,73,Primary,Tap,No,N/A,47,2024,Mar,9,5,479293
+477,Northern,Arua,Arua HC IV,HC IV,HIV/AIDS,J18,20-35,Female,142,2,142,Primary,Borehole,No,N/A,13,2024,Jan,40,2,449364
+478,Northern,Lira,Lira HC III,HC II,Maternal Complications,J18,0-5,Male,191,3,191,None,Borehole,No,N/A,47,2024,Feb,20,13,267571
+479,Northern,Lira,Lira HC III,HC III,TB,J18,60+,Male,44,0,44,None,Tap,No,N/A,29,2024,Feb,38,2,411156
+480,Central,Mukono,Mukono HC IV,HC III,HIV/AIDS,J18,0-5,Male,90,1,90,Primary,Borehole,No,N/A,43,2024,Jan,25,14,456222
+481,Eastern,Jinja,Jinja District Hospital,HC II,HIV/AIDS,J18,20-35,Male,246,4,246,Secondary,Tap,No,N/A,49,2024,Feb,39,12,159147
+482,Western,Mbarara,Mbarara HC III,HC IV,Anemia,J18,6-12,Male,79,1,79,None,Tap,No,N/A,23,2024,Mar,31,5,338219
+483,Western,Mbarara,Mbarara HC III,HC III,Malaria,B54,0-5,Male,85,1,85,Primary,Borehole,No,N/A,3,2024,Mar,14,9,404003
+484,Central,Kampala,Kampala HC IV,HC IV,Diabetes,J18,60+,Male,106,2,106,Secondary,Tap,No,N/A,30,2024,Feb,23,10,741575
+485,Eastern,Tororo,Tororo HC IV,HC IV,Diarrhea,J18,0-5,Female,139,2,139,None,Tap,No,N/A,2,2024,Mar,9,3,77808
+486,Central,Kampala,Kampala District Hospital,HC IV,Malnutrition,J18,20-35,Male,10,0,10,Secondary,Borehole,No,N/A,27,2024,Jan,12,6,115099
+487,Western,Fort Portal,Fort Portal District Hospital,HC IV,Malaria,B54,60+,Female,207,4,207,Primary,Tap,No,N/A,5,2024,Feb,29,9,351543
+488,Central,Mukono,Mukono HC III,HC III,Anemia,J18,6-12,Male,77,1,77,Primary,Tap,No,N/A,17,2024,Feb,24,12,785427
+489,Central,Kampala,Kampala District Hospital,HC II,Diabetes,J18,20-35,Male,121,2,121,None,Borehole,No,N/A,49,2024,Mar,40,1,267781
+490,Western,Kabale,Kabale HC IV,HC III,Diarrhea,J18,20-35,Female,223,4,223,Secondary,Tap,No,N/A,48,2024,Mar,17,6,162382
+491,Western,Mbarara,Mbarara HC III,HC II,Diabetes,J18,60+,Female,70,1,70,Primary,Borehole,No,N/A,4,2024,Mar,5,4,591556
+492,Western,Mbarara,Mbarara HC III,HC II,Malnutrition,J18,60+,Male,146,2,146,Secondary,Borehole,No,N/A,33,2024,Mar,26,8,674572
+493,Eastern,Tororo,Tororo HC IV,HC II,Hypertension,J18,20-35,Female,140,2,140,Secondary,Borehole,No,N/A,2,2024,Jan,4,3,344950
+494,Western,Mbarara,Mbarara HC III,HC III,Malaria,B54,0-5,Female,97,1,97,Primary,Tap,No,N/A,17,2024,Feb,42,3,463856
+495,Western,Kabale,Kabale HC IV,HC II,Maternal Complications,J18,60+,Male,23,0,23,Primary,Tap,No,N/A,44,2024,Mar,11,6,140704
+496,Eastern,Tororo,Tororo HC III,HC IV,TB,J18,60+,Female,245,4,245,Primary,Tap,No,N/A,41,2024,Jan,18,8,261401
+497,Eastern,Jinja,Jinja HC IV,HC II,TB,J18,6-12,Female,33,0,33,Primary,Tap,No,N/A,28,2024,Feb,2,1,330924
+498,Central,Mukono,Mukono HC III,HC IV,Pneumonia,J18,0-5,Female,102,2,102,Primary,Borehole,No,N/A,22,2024,Feb,36,1,434904
+499,Eastern,Jinja,Jinja HC III,HC II,Malnutrition,J18,20-35,Male,62,1,62,None,Tap,No,N/A,34,2024,Feb,1,0,583285
+500,Northern,Lira,Lira HC IV,HC IV,Malnutrition,J18,6-12,Male,203,4,203,None,Tap,No,N/A,3,2024,Jan,34,4,723555
+501,Central,Wakiso,Wakiso HC III,HC III,Anemia,J18,20-35,Female,99,1,99,Primary,Borehole,No,N/A,51,2024,Mar,21,5,415058
+502,Eastern,Tororo,Tororo District Hospital,HC IV,TB,J18,6-12,Male,27,0,27,Secondary,Borehole,No,N/A,44,2024,Mar,16,12,674677
+503,Eastern,Tororo,Tororo District Hospital,HC IV,Pneumonia,J18,20-35,Male,118,2,118,Secondary,Borehole,No,N/A,22,2024,Feb,19,3,418188
+504,Eastern,Mbale,Mbale HC IV,HC IV,Malnutrition,J18,0-5,Female,108,2,108,None,Borehole,No,N/A,37,2024,Jan,40,6,641058
+505,Central,Kampala,Kampala HC III,HC III,HIV/AIDS,J18,20-35,Male,38,0,38,Secondary,Tap,No,N/A,18,2024,Jan,49,4,313506
+506,Central,Kampala,Kampala HC III,HC IV,HIV/AIDS,J18,20-35,Male,80,1,80,None,Tap,No,N/A,49,2024,Jan,14,11,53673
+507,Central,Wakiso,Wakiso HC III,HC III,TB,J18,6-12,Male,175,3,175,Primary,Tap,No,N/A,36,2024,Mar,26,13,438104
+508,Western,Kabale,Kabale HC IV,HC III,Pneumonia,J18,0-5,Male,60,1,60,None,Borehole,No,N/A,6,2024,Feb,21,4,124194
+509,Northern,Lira,Lira HC III,HC II,Diabetes,J18,20-35,Male,8,0,8,Primary,Borehole,No,N/A,26,2024,Feb,22,6,224180
+510,Central,Mukono,Mukono HC IV,HC III,Pneumonia,J18,0-5,Female,185,3,185,Secondary,Tap,No,N/A,7,2024,Jan,21,1,523236
+511,Eastern,Tororo,Tororo District Hospital,HC IV,Malnutrition,J18,20-35,Female,151,3,151,Primary,Tap,No,N/A,30,2024,Feb,46,1,303905
+512,Northern,Lira,Lira HC IV,HC IV,HIV/AIDS,J18,0-5,Male,123,2,123,Primary,Tap,No,N/A,28,2024,Feb,21,9,297409
+513,Eastern,Jinja,Jinja HC III,HC IV,HIV/AIDS,J18,20-35,Male,55,1,55,Primary,Tap,No,N/A,41,2024,Feb,24,4,305227
+514,Eastern,Tororo,Tororo District Hospital,HC IV,Maternal Complications,J18,6-12,Female,211,4,211,None,Borehole,No,N/A,41,2024,Feb,45,9,267100
+515,Central,Mukono,Mukono HC IV,HC III,Malaria,B54,60+,Female,114,2,114,Secondary,Borehole,No,N/A,26,2024,Jan,38,6,40973
+516,Western,Mbarara,Mbarara HC III,HC II,TB,J18,60+,Female,234,4,234,Primary,Borehole,No,N/A,3,2024,Mar,1,11,500486
+517,Central,Kampala,Kampala HC III,HC II,Malaria,B54,0-5,Male,76,1,76,None,Tap,No,N/A,45,2024,Jan,9,3,52291
+518,Western,Mbarara,Mbarara District Hospital,HC III,Diabetes,J18,60+,Female,21,0,21,None,Tap,No,N/A,7,2024,Mar,2,13,647299
+519,Eastern,Mbale,Mbale District Hospital,HC IV,Malaria,B54,6-12,Female,117,2,117,Primary,Tap,No,N/A,6,2024,Jan,24,2,393109
+520,Central,Mukono,Mukono District Hospital,HC II,Maternal Complications,J18,0-5,Female,204,4,204,None,Borehole,No,N/A,21,2024,Mar,44,13,196769
+521,Eastern,Tororo,Tororo HC III,HC IV,Anemia,J18,6-12,Female,146,2,146,Secondary,Borehole,No,N/A,45,2024,Mar,9,14,490494
+522,Eastern,Mbale,Mbale HC IV,HC III,Anemia,J18,6-12,Female,46,0,46,Primary,Tap,No,N/A,43,2024,Jan,19,13,159249
+523,Northern,Lira,Lira District Hospital,HC IV,Malaria,B54,20-35,Female,210,4,210,None,Tap,No,N/A,45,2024,Mar,34,5,740724
+524,Eastern,Mbale,Mbale District Hospital,HC III,Malnutrition,J18,0-5,Female,232,4,232,Secondary,Tap,No,N/A,50,2024,Mar,48,4,406455
+525,Eastern,Mbale,Mbale District Hospital,HC IV,Anemia,J18,20-35,Female,65,1,65,None,Borehole,No,N/A,4,2024,Jan,36,8,510493
+526,Central,Wakiso,Wakiso District Hospital,HC III,HIV/AIDS,J18,0-5,Female,71,1,71,Secondary,Tap,No,N/A,31,2024,Jan,2,1,242517
+527,Central,Wakiso,Wakiso HC III,HC II,Diarrhea,J18,20-35,Female,98,1,98,Primary,Borehole,No,N/A,4,2024,Feb,43,12,520556
+528,Western,Kabale,Kabale HC III,HC IV,Diabetes,J18,20-35,Male,57,1,57,Primary,Borehole,No,N/A,29,2024,Jan,35,5,230248
+529,Western,Mbarara,Mbarara District Hospital,HC II,Diarrhea,J18,20-35,Female,98,1,98,Secondary,Tap,No,N/A,3,2024,Mar,13,12,157454
+530,Central,Mukono,Mukono District Hospital,HC IV,Diarrhea,J18,0-5,Female,198,3,198,Primary,Borehole,No,N/A,14,2024,Mar,16,4,585637
+531,Northern,Arua,Arua HC IV,HC II,Diabetes,J18,60+,Female,17,0,17,Primary,Borehole,No,N/A,29,2024,Jan,37,13,787600
+532,Northern,Gulu,Gulu HC IV,HC II,Diabetes,J18,60+,Male,97,1,97,Primary,Borehole,No,N/A,10,2024,Jan,1,4,647856
+533,Western,Kabale,Kabale District Hospital,HC IV,Maternal Complications,J18,20-35,Female,104,2,104,Secondary,Borehole,No,N/A,51,2024,Feb,2,10,693510
+534,Western,Kabale,Kabale HC III,HC II,Maternal Complications,J18,60+,Male,43,0,43,Secondary,Tap,No,N/A,12,2024,Mar,24,10,83144
+535,Northern,Gulu,Gulu District Hospital,HC III,Anemia,J18,6-12,Male,94,1,94,Primary,Tap,No,N/A,35,2024,Mar,32,5,79302
+536,Central,Mukono,Mukono District Hospital,HC IV,Maternal Complications,J18,20-35,Male,213,4,213,Primary,Tap,No,N/A,23,2024,Feb,25,4,622159
+537,Northern,Lira,Lira HC IV,HC IV,Malnutrition,J18,0-5,Female,95,1,95,None,Borehole,No,N/A,15,2024,Jan,39,8,250593
+538,Northern,Arua,Arua HC III,HC III,HIV/AIDS,J18,60+,Male,192,3,192,Secondary,Tap,No,N/A,44,2024,Jan,6,8,745845
+539,Central,Mukono,Mukono HC IV,HC III,HIV/AIDS,J18,0-5,Male,96,1,96,Primary,Borehole,No,N/A,27,2024,Jan,16,11,493715
+540,Central,Kampala,Kampala HC III,HC III,HIV/AIDS,J18,20-35,Male,111,2,111,Primary,Borehole,No,N/A,30,2024,Mar,26,6,416418
+541,Central,Mukono,Mukono District Hospital,HC III,Diarrhea,J18,60+,Male,19,0,19,Primary,Borehole,No,N/A,28,2024,Jan,23,6,759023
+542,Central,Kampala,Kampala HC IV,HC II,Maternal Complications,J18,20-35,Male,157,3,157,Primary,Borehole,No,N/A,43,2024,Mar,31,5,48282
+543,Western,Kabale,Kabale District Hospital,HC IV,Malaria,B54,6-12,Male,206,4,206,Secondary,Tap,No,N/A,12,2024,Feb,5,6,50768
+544,Northern,Lira,Lira District Hospital,HC IV,Hypertension,J18,20-35,Male,48,0,48,None,Borehole,No,N/A,34,2024,Feb,24,2,314890
+545,Northern,Arua,Arua HC IV,HC II,Malaria,B54,60+,Female,205,4,205,None,Borehole,No,N/A,49,2024,Feb,23,0,593509
+546,Eastern,Tororo,Tororo District Hospital,HC II,Hypertension,J18,60+,Female,113,2,113,Secondary,Borehole,No,N/A,18,2024,Mar,20,2,346480
+547,Western,Mbarara,Mbarara District Hospital,HC IV,Hypertension,J18,60+,Male,165,3,165,None,Tap,No,N/A,3,2024,Mar,13,8,471432
+548,Eastern,Mbale,Mbale District Hospital,HC IV,Malnutrition,J18,20-35,Male,86,1,86,None,Tap,No,N/A,11,2024,Jan,34,13,415802
+549,Northern,Arua,Arua HC III,HC IV,Diarrhea,J18,0-5,Female,67,1,67,None,Tap,No,N/A,42,2024,Mar,1,2,373944
+550,Northern,Arua,Arua HC III,HC IV,Pneumonia,J18,0-5,Male,224,4,224,None,Borehole,No,N/A,8,2024,Mar,28,2,53407
+551,Western,Mbarara,Mbarara HC III,HC IV,Maternal Complications,J18,0-5,Female,58,1,58,None,Tap,No,N/A,24,2024,Jan,22,13,321586
+552,Western,Fort Portal,Fort Portal District Hospital,HC III,Anemia,J18,6-12,Male,31,0,31,Secondary,Borehole,No,N/A,16,2024,Jan,43,7,371042
+553,Northern,Arua,Arua HC IV,HC II,HIV/AIDS,J18,0-5,Male,18,0,18,Primary,Borehole,No,N/A,18,2024,Mar,47,2,200003
+554,Eastern,Tororo,Tororo HC III,HC III,Hypertension,J18,60+,Female,123,2,123,Primary,Tap,No,N/A,9,2024,Feb,12,14,56632
+555,Eastern,Mbale,Mbale HC IV,HC III,Diabetes,J18,6-12,Male,179,3,179,Secondary,Borehole,No,N/A,43,2024,Mar,7,0,337384
+556,Western,Fort Portal,Fort Portal HC IV,HC II,Malaria,B54,20-35,Male,173,3,173,Primary,Tap,No,N/A,24,2024,Mar,26,12,263773
+557,Central,Wakiso,Wakiso HC III,HC III,Diabetes,J18,6-12,Male,135,2,135,None,Tap,No,N/A,49,2024,Feb,24,3,450898
+558,Central,Wakiso,Wakiso HC III,HC III,Maternal Complications,J18,6-12,Male,114,2,114,Primary,Tap,No,N/A,21,2024,Jan,13,0,100385
+559,Central,Wakiso,Wakiso District Hospital,HC II,Maternal Complications,J18,0-5,Female,48,0,48,Secondary,Borehole,No,N/A,14,2024,Jan,10,13,591863
+560,Eastern,Jinja,Jinja HC IV,HC III,Diarrhea,J18,20-35,Female,94,1,94,Secondary,Borehole,No,N/A,18,2024,Feb,29,7,565196
+561,Eastern,Tororo,Tororo HC III,HC III,TB,J18,60+,Male,52,1,52,None,Tap,No,N/A,14,2024,Jan,26,1,261230
+562,Eastern,Jinja,Jinja District Hospital,HC IV,TB,J18,6-12,Female,126,2,126,None,Borehole,No,N/A,40,2024,Mar,26,5,107477
+563,Western,Fort Portal,Fort Portal HC IV,HC IV,Hypertension,J18,60+,Female,244,4,244,Primary,Borehole,No,N/A,26,2024,Mar,46,3,6409
+564,Northern,Gulu,Gulu HC III,HC IV,HIV/AIDS,J18,6-12,Female,189,3,189,None,Tap,No,N/A,7,2024,Feb,20,10,642407
+565,Central,Wakiso,Wakiso District Hospital,HC III,HIV/AIDS,J18,60+,Male,133,2,133,Secondary,Tap,No,N/A,30,2024,Feb,13,5,356388
+566,Eastern,Mbale,Mbale HC IV,HC III,Hypertension,J18,6-12,Female,148,2,148,None,Borehole,No,N/A,15,2024,Jan,10,2,349719
+567,Western,Kabale,Kabale District Hospital,HC III,Malnutrition,J18,20-35,Male,161,3,161,None,Borehole,No,N/A,11,2024,Mar,40,11,738107
+568,Central,Kampala,Kampala HC III,HC II,Anemia,J18,0-5,Female,193,3,193,None,Borehole,No,N/A,37,2024,Feb,44,5,567543
+569,Eastern,Mbale,Mbale HC IV,HC IV,Maternal Complications,J18,0-5,Female,7,0,7,Primary,Borehole,No,N/A,4,2024,Feb,26,9,157980
+570,Northern,Gulu,Gulu HC IV,HC III,Anemia,J18,20-35,Female,101,2,101,None,Borehole,No,N/A,45,2024,Jan,12,14,256506
+571,Central,Wakiso,Wakiso HC IV,HC III,Malnutrition,J18,20-35,Male,196,3,196,Primary,Borehole,No,N/A,8,2024,Feb,41,1,593552
+572,Eastern,Tororo,Tororo HC III,HC II,Diabetes,J18,6-12,Female,119,2,119,Primary,Borehole,No,N/A,34,2024,Mar,44,4,790681
+573,Northern,Arua,Arua HC III,HC II,Diarrhea,J18,6-12,Male,156,3,156,None,Tap,No,N/A,13,2024,Jan,42,8,184930
+574,Central,Mukono,Mukono HC III,HC III,Hypertension,J18,0-5,Male,62,1,62,Primary,Borehole,No,N/A,8,2024,Jan,25,8,576365
+575,Western,Mbarara,Mbarara HC IV,HC IV,Maternal Complications,J18,20-35,Male,58,1,58,None,Tap,No,N/A,2,2024,Jan,8,9,761683
+576,Central,Mukono,Mukono HC IV,HC II,Pneumonia,J18,60+,Male,20,0,20,None,Borehole,No,N/A,26,2024,Feb,45,6,282317
+577,Northern,Arua,Arua HC IV,HC II,Diabetes,J18,0-5,Female,126,2,126,None,Borehole,No,N/A,47,2024,Feb,32,5,260956
+578,Central,Kampala,Kampala HC III,HC III,Pneumonia,J18,6-12,Male,232,4,232,Secondary,Borehole,No,N/A,40,2024,Jan,5,10,617742
+579,Eastern,Mbale,Mbale HC IV,HC IV,Diarrhea,J18,0-5,Male,162,3,162,None,Tap,No,N/A,49,2024,Feb,33,13,568708
+580,Eastern,Tororo,Tororo District Hospital,HC II,Diabetes,J18,20-35,Female,126,2,126,Secondary,Tap,No,N/A,49,2024,Feb,26,6,66536
+581,Eastern,Mbale,Mbale HC III,HC III,Maternal Complications,J18,6-12,Female,57,1,57,Primary,Tap,No,N/A,5,2024,Feb,6,5,146172
+582,Western,Fort Portal,Fort Portal HC IV,HC III,HIV/AIDS,J18,60+,Male,99,1,99,Primary,Tap,No,N/A,10,2024,Feb,46,10,732330
+583,Central,Kampala,Kampala HC IV,HC III,Anemia,J18,6-12,Female,58,1,58,Secondary,Borehole,No,N/A,4,2024,Feb,5,3,20489
+584,Western,Kabale,Kabale HC III,HC II,Diabetes,J18,20-35,Female,6,0,6,None,Tap,No,N/A,19,2024,Jan,21,14,51999
+585,Northern,Arua,Arua HC III,HC II,Malaria,B54,6-12,Female,102,2,102,None,Tap,No,N/A,52,2024,Feb,36,13,409184
+586,Eastern,Mbale,Mbale HC IV,HC II,TB,J18,6-12,Female,75,1,75,Primary,Borehole,No,N/A,43,2024,Jan,7,11,438111
+587,Northern,Lira,Lira HC IV,HC IV,Pneumonia,J18,0-5,Female,31,0,31,None,Tap,No,N/A,1,2024,Jan,3,5,214057
+588,Eastern,Tororo,Tororo HC III,HC IV,Hypertension,J18,6-12,Female,72,1,72,None,Tap,No,N/A,10,2024,Jan,45,1,150701
+589,Eastern,Jinja,Jinja District Hospital,HC II,HIV/AIDS,J18,60+,Male,46,0,46,Primary,Borehole,No,N/A,28,2024,Feb,17,1,735509
+590,Central,Kampala,Kampala HC III,HC III,Anemia,J18,20-35,Male,140,2,140,Primary,Borehole,No,N/A,19,2024,Jan,36,9,446004
+591,Central,Mukono,Mukono HC III,HC II,Anemia,J18,60+,Male,138,2,138,Secondary,Borehole,No,N/A,15,2024,Jan,6,7,765720
+592,Northern,Arua,Arua HC IV,HC IV,Diabetes,J18,0-5,Female,161,3,161,Primary,Tap,No,N/A,46,2024,Mar,28,10,240446
+593,Central,Mukono,Mukono District Hospital,HC III,Diarrhea,J18,0-5,Male,198,3,198,Secondary,Tap,No,N/A,24,2024,Feb,23,13,438531
+594,Eastern,Jinja,Jinja District Hospital,HC III,Malnutrition,J18,60+,Male,123,2,123,Secondary,Borehole,No,N/A,11,2024,Jan,2,3,225006
+595,Northern,Gulu,Gulu HC IV,HC IV,Malnutrition,J18,60+,Male,103,2,103,Secondary,Tap,No,N/A,8,2024,Jan,44,2,664008
+596,Eastern,Jinja,Jinja HC III,HC III,Malnutrition,J18,0-5,Female,204,4,204,Secondary,Tap,No,N/A,1,2024,Mar,43,2,548094
+597,Central,Wakiso,Wakiso HC IV,HC IV,Maternal Complications,J18,6-12,Male,184,3,184,Secondary,Borehole,No,N/A,51,2024,Jan,28,6,101251
+598,Western,Fort Portal,Fort Portal District Hospital,HC IV,HIV/AIDS,J18,20-35,Male,229,4,229,Secondary,Borehole,No,N/A,8,2024,Jan,30,14,687797
+599,Northern,Arua,Arua District Hospital,HC II,HIV/AIDS,J18,20-35,Male,217,4,217,None,Tap,No,N/A,23,2024,Jan,13,3,607410
+600,Northern,Gulu,Gulu District Hospital,HC IV,Diarrhea,J18,0-5,Female,134,2,134,Primary,Borehole,No,N/A,3,2024,Feb,12,11,460994
+601,Central,Mukono,Mukono District Hospital,HC IV,Malaria,B54,20-35,Female,120,2,120,None,Tap,No,N/A,17,2024,Mar,8,4,701028
+602,Western,Fort Portal,Fort Portal HC IV,HC III,Pneumonia,J18,0-5,Male,35,0,35,Primary,Borehole,No,N/A,14,2024,Mar,23,12,535327
+603,Northern,Lira,Lira HC IV,HC III,Diabetes,J18,6-12,Male,23,0,23,Primary,Borehole,No,N/A,45,2024,Mar,44,13,488037
+604,Western,Fort Portal,Fort Portal HC IV,HC III,HIV/AIDS,J18,0-5,Male,88,1,88,Primary,Borehole,No,N/A,3,2024,Mar,39,8,435243
+605,Northern,Gulu,Gulu HC III,HC II,Diabetes,J18,20-35,Male,86,1,86,Primary,Tap,No,N/A,15,2024,Jan,6,6,796850
+606,Northern,Gulu,Gulu HC III,HC II,Hypertension,J18,6-12,Female,22,0,22,Secondary,Borehole,No,N/A,4,2024,Feb,37,13,352290
+607,Eastern,Mbale,Mbale HC IV,HC II,Maternal Complications,J18,20-35,Male,47,0,47,None,Borehole,No,N/A,41,2024,Feb,46,5,187152
+608,Central,Kampala,Kampala HC III,HC IV,Anemia,J18,0-5,Male,83,1,83,Secondary,Tap,No,N/A,41,2024,Mar,43,5,3695
+609,Northern,Arua,Arua HC IV,HC IV,Diabetes,J18,20-35,Male,177,3,177,None,Tap,No,N/A,17,2024,Jan,35,0,301758
+610,Central,Mukono,Mukono HC IV,HC III,Pneumonia,J18,0-5,Male,69,1,69,Primary,Tap,No,N/A,1,2024,Mar,26,1,598075
+611,Western,Mbarara,Mbarara HC IV,HC II,Maternal Complications,J18,0-5,Female,111,2,111,Secondary,Tap,No,N/A,27,2024,Mar,25,14,361987
+612,Western,Kabale,Kabale HC IV,HC IV,Anemia,J18,6-12,Female,38,0,38,Primary,Borehole,No,N/A,23,2024,Feb,13,0,507956
+613,Eastern,Jinja,Jinja HC IV,HC III,Maternal Complications,J18,0-5,Female,3,0,3,Secondary,Borehole,No,N/A,50,2024,Mar,14,3,688697
+614,Central,Mukono,Mukono District Hospital,HC IV,Anemia,J18,6-12,Female,77,1,77,Secondary,Borehole,No,N/A,14,2024,Feb,39,10,216591
+615,Central,Mukono,Mukono HC IV,HC III,Malnutrition,J18,0-5,Male,147,2,147,None,Borehole,No,N/A,16,2024,Jan,37,0,194587
+616,Western,Fort Portal,Fort Portal District Hospital,HC III,Pneumonia,J18,6-12,Male,119,2,119,Secondary,Tap,No,N/A,34,2024,Mar,30,6,313183
+617,Eastern,Mbale,Mbale HC IV,HC III,Malnutrition,J18,6-12,Female,118,2,118,Primary,Borehole,No,N/A,9,2024,Feb,4,14,683702
+618,Northern,Lira,Lira HC IV,HC II,Diarrhea,J18,0-5,Male,215,4,215,Secondary,Borehole,No,N/A,44,2024,Jan,5,8,535219
+619,Northern,Gulu,Gulu HC III,HC II,HIV/AIDS,J18,60+,Male,147,2,147,Primary,Borehole,No,N/A,26,2024,Feb,18,3,182264
+620,Western,Fort Portal,Fort Portal HC III,HC II,Hypertension,J18,60+,Male,84,1,84,Primary,Tap,No,N/A,41,2024,Mar,30,11,292771
+621,Northern,Gulu,Gulu HC III,HC IV,HIV/AIDS,J18,0-5,Male,222,4,222,None,Tap,No,N/A,36,2024,Mar,33,10,442137
+622,Northern,Arua,Arua HC IV,HC IV,Diabetes,J18,20-35,Female,31,0,31,None,Tap,No,N/A,42,2024,Mar,9,1,231037
+623,Western,Fort Portal,Fort Portal HC IV,HC IV,Malnutrition,J18,20-35,Female,222,4,222,Secondary,Tap,No,N/A,39,2024,Jan,36,9,516319
+624,Western,Mbarara,Mbarara District Hospital,HC IV,Maternal Complications,J18,6-12,Female,203,4,203,Secondary,Borehole,No,N/A,17,2024,Feb,2,12,798622
+625,Eastern,Tororo,Tororo HC III,HC IV,Maternal Complications,J18,60+,Male,182,3,182,Primary,Tap,No,N/A,8,2024,Jan,7,8,580938
+626,Eastern,Mbale,Mbale HC III,HC IV,Diarrhea,J18,20-35,Male,217,4,217,Primary,Tap,No,N/A,10,2024,Feb,26,13,291969
+627,Eastern,Mbale,Mbale District Hospital,HC IV,Anemia,J18,6-12,Female,148,2,148,Primary,Tap,No,N/A,51,2024,Feb,10,9,65812
+628,Western,Mbarara,Mbarara HC III,HC III,Hypertension,J18,20-35,Male,5,0,5,None,Tap,No,N/A,49,2024,Feb,44,3,649835
+629,Western,Kabale,Kabale HC III,HC II,Malaria,B54,60+,Male,16,0,16,None,Tap,No,N/A,49,2024,Feb,44,10,653216
+630,Eastern,Mbale,Mbale District Hospital,HC IV,Pneumonia,J18,20-35,Female,73,1,73,Primary,Tap,No,N/A,41,2024,Mar,24,7,77201
+631,Northern,Gulu,Gulu HC III,HC II,Malaria,B54,6-12,Female,399,7,399,Primary,Borehole,No,N/A,9,2024,Jan,43,2,675598
+632,Central,Wakiso,Wakiso HC IV,HC IV,TB,J18,6-12,Male,194,3,194,None,Borehole,No,N/A,39,2024,Mar,17,7,658729
+633,Northern,Gulu,Gulu HC IV,HC II,Malnutrition,J18,6-12,Female,4,0,4,Primary,Tap,No,N/A,27,2024,Mar,24,13,101426
+634,Central,Mukono,Mukono HC IV,HC IV,Hypertension,J18,6-12,Male,209,4,209,None,Tap,No,N/A,4,2024,Jan,43,7,287555
+635,Western,Kabale,Kabale District Hospital,HC IV,Pneumonia,J18,60+,Female,127,2,127,Secondary,Borehole,No,N/A,15,2024,Feb,26,13,153247
+636,Central,Mukono,Mukono HC IV,HC III,Malnutrition,J18,60+,Male,180,3,180,Primary,Borehole,No,N/A,19,2024,Feb,45,13,446199
+637,Western,Mbarara,Mbarara HC III,HC II,Pneumonia,J18,60+,Female,124,2,124,Secondary,Tap,No,N/A,19,2024,Mar,36,6,495549
+638,Northern,Lira,Lira HC IV,HC II,TB,J18,20-35,Female,78,1,78,Secondary,Tap,No,N/A,5,2024,Mar,22,12,755371
+639,Central,Mukono,Mukono HC IV,HC III,Malaria,B54,0-5,Female,170,3,170,None,Borehole,No,N/A,28,2024,Feb,21,4,370626
+640,Western,Mbarara,Mbarara HC IV,HC II,Maternal Complications,J18,20-35,Female,127,2,127,None,Tap,No,N/A,48,2024,Mar,7,9,745810
+641,Eastern,Tororo,Tororo District Hospital,HC III,TB,J18,20-35,Female,197,3,197,Secondary,Tap,No,N/A,50,2024,Jan,11,2,338179
+642,Northern,Lira,Lira District Hospital,HC III,Hypertension,J18,0-5,Female,75,1,75,Primary,Tap,No,N/A,12,2024,Feb,43,6,519716
+643,Western,Fort Portal,Fort Portal HC III,HC III,Hypertension,J18,20-35,Male,176,3,176,None,Borehole,No,N/A,1,2024,Jan,20,3,86572
+644,Northern,Gulu,Gulu HC IV,HC III,HIV/AIDS,J18,6-12,Male,42,0,42,Secondary,Tap,No,N/A,46,2024,Mar,5,10,552091
+645,Central,Wakiso,Wakiso District Hospital,HC IV,Anemia,J18,6-12,Female,224,4,224,None,Borehole,No,N/A,32,2024,Jan,31,4,215969
+646,Northern,Arua,Arua HC IV,HC III,Malnutrition,J18,20-35,Female,81,1,81,Primary,Borehole,No,N/A,23,2024,Jan,2,11,92697
+647,Eastern,Jinja,Jinja HC IV,HC II,Hypertension,J18,6-12,Female,77,1,77,Secondary,Tap,No,N/A,7,2024,Mar,7,3,688817
+648,Northern,Lira,Lira District Hospital,HC III,Maternal Complications,J18,6-12,Male,62,1,62,Primary,Borehole,No,N/A,49,2024,Jan,26,4,110627
+649,Eastern,Mbale,Mbale HC IV,HC IV,Malaria,B54,60+,Male,199,3,199,Primary,Tap,No,N/A,3,2024,Feb,3,1,69245
+650,Western,Mbarara,Mbarara District Hospital,HC IV,Diarrhea,J18,0-5,Female,28,0,28,Primary,Borehole,No,N/A,35,2024,Feb,26,4,204851
+651,Eastern,Mbale,Mbale HC III,HC IV,Hypertension,J18,0-5,Female,93,1,93,Secondary,Borehole,No,N/A,31,2024,Feb,27,0,394763
+652,Western,Fort Portal,Fort Portal HC IV,HC II,Malaria,B54,0-5,Female,123,2,123,Primary,Borehole,No,N/A,48,2024,Jan,12,9,700908
+653,Western,Fort Portal,Fort Portal District Hospital,HC II,Pneumonia,J18,60+,Male,69,1,69,Secondary,Tap,No,N/A,22,2024,Jan,29,14,130735
+654,Eastern,Jinja,Jinja District Hospital,HC IV,Diarrhea,J18,0-5,Female,14,0,14,Secondary,Borehole,No,N/A,20,2024,Feb,19,1,301541
+655,Eastern,Tororo,Tororo District Hospital,HC II,Diabetes,J18,20-35,Female,107,2,107,None,Borehole,No,N/A,26,2024,Feb,34,1,479245
+656,Eastern,Tororo,Tororo HC III,HC IV,Diarrhea,J18,60+,Male,74,1,74,Secondary,Tap,No,N/A,33,2024,Jan,25,10,250483
+657,Eastern,Tororo,Tororo HC III,HC III,HIV/AIDS,J18,6-12,Female,50,1,50,Primary,Borehole,No,N/A,13,2024,Feb,48,4,387422
+658,Central,Mukono,Mukono District Hospital,HC III,Hypertension,J18,0-5,Female,65,1,65,None,Tap,No,N/A,17,2024,Jan,38,0,760615
+659,Central,Kampala,Kampala HC IV,HC III,Diarrhea,J18,6-12,Female,94,1,94,Primary,Borehole,No,N/A,43,2024,Mar,39,11,80513
+660,Eastern,Jinja,Jinja HC III,HC IV,Diarrhea,J18,0-5,Female,108,2,108,Secondary,Borehole,No,N/A,16,2024,Mar,49,13,578273
+661,Western,Mbarara,Mbarara District Hospital,HC II,TB,J18,6-12,Male,130,2,130,Primary,Borehole,No,N/A,21,2024,Feb,31,4,202938
+662,Central,Kampala,Kampala District Hospital,HC II,Diabetes,J18,60+,Male,241,4,241,Secondary,Tap,No,N/A,44,2024,Jan,21,8,240127
+663,Northern,Gulu,Gulu HC III,HC IV,Malaria,B54,20-35,Female,133,2,133,Primary,Borehole,No,N/A,11,2024,Feb,25,9,114337
+664,Eastern,Jinja,Jinja District Hospital,HC IV,TB,J18,60+,Male,227,4,227,None,Borehole,No,N/A,1,2024,Feb,5,6,338326
+665,Western,Mbarara,Mbarara HC III,HC II,HIV/AIDS,J18,6-12,Male,239,4,239,Primary,Tap,No,N/A,45,2024,Feb,2,11,77660
+666,Eastern,Mbale,Mbale District Hospital,HC II,Malnutrition,J18,6-12,Male,199,3,199,Primary,Borehole,No,N/A,42,2024,Jan,46,2,131294
+667,Western,Mbarara,Mbarara HC III,HC III,Anemia,J18,60+,Male,53,1,53,Secondary,Tap,No,N/A,17,2024,Jan,44,1,273385
+668,Eastern,Mbale,Mbale HC IV,HC III,Diarrhea,J18,20-35,Female,202,4,202,None,Tap,No,N/A,23,2024,Jan,24,10,617667
+669,Central,Wakiso,Wakiso District Hospital,HC II,Maternal Complications,J18,0-5,Female,99,1,99,Secondary,Tap,No,N/A,36,2024,Jan,44,2,109333
+670,Northern,Lira,Lira HC IV,HC III,HIV/AIDS,J18,60+,Male,12,0,12,Primary,Tap,No,N/A,39,2024,Mar,18,11,475123
+671,Northern,Lira,Lira HC III,HC III,Malnutrition,J18,60+,Female,49,0,49,None,Tap,No,N/A,13,2024,Mar,37,14,656885
+672,Central,Kampala,Kampala HC IV,HC III,HIV/AIDS,J18,6-12,Male,167,3,167,Secondary,Tap,No,N/A,6,2024,Feb,41,4,352831
+673,Central,Wakiso,Wakiso HC III,HC III,HIV/AIDS,J18,60+,Male,159,3,159,Primary,Borehole,No,N/A,50,2024,Feb,24,8,42776
+674,Central,Wakiso,Wakiso HC IV,HC II,TB,J18,20-35,Female,194,3,194,Secondary,Borehole,No,N/A,38,2024,Jan,29,2,25118
+675,Western,Kabale,Kabale HC IV,HC IV,Malnutrition,J18,0-5,Male,212,4,212,Secondary,Borehole,No,N/A,3,2024,Mar,14,11,247236
+676,Eastern,Jinja,Jinja HC III,HC II,Pneumonia,J18,60+,Male,226,4,226,Secondary,Tap,No,N/A,31,2024,Mar,26,11,440309
+677,Northern,Gulu,Gulu District Hospital,HC II,Hypertension,J18,60+,Female,208,4,208,Primary,Borehole,No,N/A,7,2024,Jan,19,9,406554
+678,Central,Mukono,Mukono HC IV,HC IV,Hypertension,J18,60+,Female,185,3,185,None,Borehole,No,N/A,30,2024,Feb,44,1,580196
+679,Eastern,Tororo,Tororo HC III,HC IV,Malaria,B54,20-35,Female,86,1,86,None,Borehole,No,N/A,31,2024,Feb,47,7,667454
+680,Central,Wakiso,Wakiso District Hospital,HC III,Maternal Complications,J18,60+,Male,1,0,1,Primary,Tap,No,N/A,45,2024,Feb,19,0,419710
+681,Eastern,Tororo,Tororo HC III,HC II,Hypertension,J18,60+,Female,165,3,165,None,Tap,No,N/A,28,2024,Feb,4,13,794035
+682,Central,Kampala,Kampala HC IV,HC III,Diabetes,J18,60+,Male,220,4,220,Primary,Tap,No,N/A,22,2024,Mar,12,1,233608
+683,Western,Fort Portal,Fort Portal HC III,HC II,Malnutrition,J18,6-12,Male,197,3,197,Secondary,Borehole,No,N/A,51,2024,Feb,9,14,493710
+684,Central,Mukono,Mukono HC IV,HC IV,Diabetes,J18,20-35,Female,166,3,166,Primary,Tap,No,N/A,24,2024,Mar,37,12,204575
+685,Western,Kabale,Kabale HC III,HC III,Maternal Complications,J18,0-5,Male,57,1,57,Secondary,Tap,No,N/A,49,2024,Feb,23,5,99962
+686,Eastern,Tororo,Tororo HC IV,HC IV,Pneumonia,J18,60+,Female,74,1,74,Secondary,Tap,No,N/A,33,2024,Jan,39,6,350226
+687,Eastern,Mbale,Mbale HC III,HC III,Pneumonia,J18,0-5,Male,67,1,67,Secondary,Borehole,No,N/A,21,2024,Feb,22,5,305692
+688,Northern,Arua,Arua HC IV,HC IV,TB,J18,6-12,Female,230,4,230,None,Borehole,No,N/A,48,2024,Jan,41,3,519146
+689,Eastern,Tororo,Tororo HC III,HC IV,Malnutrition,J18,6-12,Male,184,3,184,Primary,Borehole,No,N/A,23,2024,Feb,34,0,20307
+690,Western,Mbarara,Mbarara District Hospital,HC III,TB,J18,0-5,Male,5,0,5,Secondary,Tap,No,N/A,36,2024,Jan,10,2,598554
+691,Western,Kabale,Kabale District Hospital,HC III,HIV/AIDS,J18,60+,Female,182,3,182,None,Borehole,No,N/A,8,2024,Jan,28,10,395010
+692,Northern,Arua,Arua HC III,HC II,Diarrhea,J18,0-5,Female,143,2,143,Secondary,Borehole,No,N/A,18,2024,Jan,46,2,506709
+693,Central,Wakiso,Wakiso HC IV,HC III,Maternal Complications,J18,6-12,Female,151,3,151,Primary,Tap,No,N/A,6,2024,Jan,6,8,232980
+694,Northern,Arua,Arua HC III,HC II,Pneumonia,J18,20-35,Male,172,3,172,Secondary,Tap,No,N/A,13,2024,Mar,35,2,79859
+695,Central,Wakiso,Wakiso HC III,HC III,Diabetes,J18,20-35,Male,26,0,26,None,Tap,No,N/A,37,2024,Mar,11,11,249973
+696,Western,Kabale,Kabale HC IV,HC II,Diabetes,J18,20-35,Female,142,2,142,None,Borehole,No,N/A,40,2024,Feb,32,4,19323
+697,Eastern,Tororo,Tororo HC III,HC IV,Anemia,J18,0-5,Male,144,2,144,Primary,Tap,No,N/A,37,2024,Jan,27,13,627715
+698,Northern,Arua,Arua HC IV,HC IV,Malnutrition,J18,6-12,Male,111,2,111,Secondary,Borehole,No,N/A,18,2024,Jan,38,13,559888
+699,Eastern,Mbale,Mbale HC III,HC II,Malnutrition,J18,0-5,Female,116,2,116,Primary,Borehole,No,N/A,51,2024,Feb,30,13,738007
+700,Eastern,Jinja,Jinja HC IV,HC II,HIV/AIDS,J18,6-12,Female,93,1,93,None,Tap,No,N/A,21,2024,Mar,23,8,78800
+701,Western,Mbarara,Mbarara HC III,HC IV,Hypertension,J18,20-35,Female,41,0,41,None,Tap,No,N/A,26,2024,Jan,13,10,730431
+702,Eastern,Jinja,Jinja HC IV,HC IV,Diabetes,J18,20-35,Male,196,3,196,Primary,Tap,No,N/A,28,2024,Feb,46,4,365111
+703,Western,Kabale,Kabale HC IV,HC IV,Hypertension,J18,20-35,Male,21,0,21,None,Tap,No,N/A,43,2024,Mar,42,11,147270
+704,Central,Mukono,Mukono District Hospital,HC III,Diarrhea,J18,6-12,Female,125,2,125,Secondary,Tap,No,N/A,29,2024,Feb,34,11,58389
+705,Western,Fort Portal,Fort Portal HC IV,HC II,TB,J18,60+,Female,142,2,142,Secondary,Tap,No,N/A,16,2024,Jan,46,14,591022
+706,Northern,Gulu,Gulu HC III,HC IV,Diarrhea,J18,6-12,Male,138,2,138,Secondary,Borehole,No,N/A,47,2024,Feb,27,13,213287
+707,Western,Mbarara,Mbarara HC III,HC III,Diarrhea,J18,60+,Female,35,0,35,Secondary,Tap,No,N/A,22,2024,Feb,12,8,39983
+708,Northern,Arua,Arua District Hospital,HC III,Hypertension,J18,0-5,Male,107,2,107,Primary,Tap,No,N/A,22,2024,Feb,7,12,427207
+709,Eastern,Mbale,Mbale District Hospital,HC III,Anemia,J18,20-35,Male,140,2,140,None,Borehole,No,N/A,47,2024,Feb,44,6,527426
+710,Eastern,Jinja,Jinja District Hospital,HC II,Anemia,J18,6-12,Male,235,4,235,Secondary,Tap,No,N/A,22,2024,Feb,46,1,426927
+711,Central,Mukono,Mukono HC III,HC II,Hypertension,J18,60+,Female,80,1,80,Primary,Borehole,No,N/A,44,2024,Mar,15,1,402868
+712,Northern,Lira,Lira HC III,HC II,TB,J18,60+,Male,23,0,23,None,Borehole,No,N/A,15,2024,Mar,15,9,491321
+713,Eastern,Tororo,Tororo District Hospital,HC III,Diarrhea,J18,60+,Male,62,1,62,Secondary,Tap,No,N/A,8,2024,Feb,27,2,512594
+714,Central,Kampala,Kampala District Hospital,HC II,Diarrhea,J18,60+,Female,130,2,130,Primary,Tap,No,N/A,50,2024,Jan,44,1,419358
+715,Central,Wakiso,Wakiso District Hospital,HC III,Pneumonia,J18,20-35,Female,173,3,173,None,Tap,No,N/A,40,2024,Mar,21,8,209372
+716,Northern,Arua,Arua HC III,HC IV,TB,J18,0-5,Male,90,1,90,Primary,Tap,No,N/A,2,2024,Feb,10,14,728026
+717,Central,Kampala,Kampala HC IV,HC III,Hypertension,J18,20-35,Female,81,1,81,Primary,Borehole,No,N/A,3,2024,Feb,31,5,43389
+718,Central,Kampala,Kampala HC III,HC II,Diabetes,J18,0-5,Female,70,1,70,None,Tap,No,N/A,45,2024,Feb,3,3,790323
+719,Eastern,Tororo,Tororo HC III,HC II,Malaria,B54,0-5,Female,432,8,432,Secondary,Borehole,No,N/A,32,2024,Jan,35,14,611116
+720,Eastern,Tororo,Tororo HC IV,HC IV,Pneumonia,J18,20-35,Female,178,3,178,None,Tap,No,N/A,48,2024,Mar,31,13,163477
+721,Northern,Gulu,Gulu District Hospital,HC II,Malaria,B54,0-5,Male,120,2,120,Secondary,Borehole,No,N/A,40,2024,Feb,4,9,330477
+722,Western,Fort Portal,Fort Portal District Hospital,HC II,Hypertension,J18,0-5,Male,59,1,59,Secondary,Borehole,No,N/A,48,2024,Feb,7,11,453934
+723,Eastern,Tororo,Tororo HC III,HC III,Diarrhea,J18,60+,Male,18,0,18,Secondary,Tap,No,N/A,50,2024,Mar,44,1,71157
+724,Western,Kabale,Kabale District Hospital,HC III,Pneumonia,J18,60+,Male,246,4,246,None,Tap,No,N/A,38,2024,Feb,37,4,238615
+725,Eastern,Jinja,Jinja HC IV,HC II,TB,J18,6-12,Female,238,4,238,Primary,Tap,No,N/A,18,2024,Feb,23,1,549373
+726,Eastern,Jinja,Jinja District Hospital,HC II,Anemia,J18,6-12,Male,220,4,220,None,Borehole,No,N/A,43,2024,Feb,39,5,512351
+727,Western,Mbarara,Mbarara HC IV,HC II,Hypertension,J18,20-35,Male,20,0,20,Primary,Tap,No,N/A,6,2024,Feb,43,1,502488
+728,Central,Wakiso,Wakiso HC III,HC III,Pneumonia,J18,0-5,Female,13,0,13,Primary,Borehole,No,N/A,13,2024,Jan,24,4,406769
+729,Eastern,Jinja,Jinja HC III,HC IV,Anemia,J18,6-12,Male,217,4,217,Primary,Borehole,No,N/A,18,2024,Mar,24,13,658484
+730,Central,Wakiso,Wakiso HC IV,HC III,HIV/AIDS,J18,60+,Male,26,0,26,Secondary,Borehole,No,N/A,36,2024,Jan,36,5,516829
+731,Central,Kampala,Kampala HC IV,HC III,HIV/AIDS,J18,0-5,Female,147,2,147,Secondary,Tap,No,N/A,14,2024,Mar,43,6,358482
+732,Northern,Lira,Lira HC IV,HC III,Pneumonia,J18,0-5,Female,22,0,22,None,Tap,No,N/A,51,2024,Jan,2,2,691353
+733,Eastern,Mbale,Mbale HC IV,HC IV,Maternal Complications,J18,60+,Male,234,4,234,Secondary,Tap,No,N/A,50,2024,Jan,17,0,375936
+734,Central,Mukono,Mukono District Hospital,HC III,Hypertension,J18,60+,Male,40,0,40,Primary,Tap,No,N/A,13,2024,Feb,38,13,764419
+735,Northern,Arua,Arua District Hospital,HC IV,Maternal Complications,J18,0-5,Male,130,2,130,Secondary,Tap,No,N/A,2,2024,Jan,9,3,437459
+736,Central,Wakiso,Wakiso HC IV,HC IV,Diabetes,J18,6-12,Female,89,1,89,None,Tap,No,N/A,38,2024,Mar,18,0,659941
+737,Northern,Lira,Lira HC IV,HC II,TB,J18,60+,Female,167,3,167,Primary,Borehole,No,N/A,13,2024,Mar,18,0,533655
+738,Northern,Lira,Lira HC IV,HC III,Malaria,B54,60+,Male,279,5,279,Secondary,Borehole,No,N/A,42,2024,Jan,47,0,390606
+739,Northern,Arua,Arua HC IV,HC IV,Maternal Complications,J18,60+,Male,53,1,53,None,Borehole,No,N/A,4,2024,Jan,6,10,593233
+740,Eastern,Jinja,Jinja District Hospital,HC III,Diabetes,J18,6-12,Male,151,3,151,Primary,Borehole,No,N/A,43,2024,Mar,28,6,796674
+741,Western,Fort Portal,Fort Portal District Hospital,HC IV,Hypertension,J18,20-35,Female,48,0,48,None,Tap,No,N/A,14,2024,Feb,9,6,583013
+742,Central,Kampala,Kampala HC IV,HC III,Maternal Complications,J18,0-5,Female,72,1,72,Primary,Tap,No,N/A,36,2024,Mar,47,1,83945
+743,Eastern,Tororo,Tororo HC III,HC II,Diabetes,J18,60+,Male,122,2,122,None,Tap,No,N/A,46,2024,Feb,31,2,446537
+744,Eastern,Jinja,Jinja HC IV,HC III,TB,J18,0-5,Male,222,4,222,Secondary,Borehole,No,N/A,40,2024,Feb,33,4,152229
+745,Northern,Lira,Lira HC III,HC II,TB,J18,20-35,Female,41,0,41,Secondary,Borehole,No,N/A,32,2024,Feb,38,13,665018
+746,Eastern,Jinja,Jinja District Hospital,HC II,HIV/AIDS,J18,20-35,Male,16,0,16,Primary,Borehole,No,N/A,41,2024,Jan,36,12,781005
+747,Central,Wakiso,Wakiso District Hospital,HC III,Hypertension,J18,20-35,Male,8,0,8,None,Borehole,No,N/A,15,2024,Feb,12,14,517955
+748,Eastern,Tororo,Tororo District Hospital,HC III,Diabetes,J18,20-35,Female,92,1,92,Primary,Borehole,No,N/A,46,2024,Jan,15,8,233661
+749,Northern,Gulu,Gulu District Hospital,HC IV,Malnutrition,J18,20-35,Female,185,3,185,Primary,Tap,No,N/A,34,2024,Feb,49,10,197798
+750,Central,Mukono,Mukono HC IV,HC II,Diarrhea,J18,60+,Male,109,2,109,Secondary,Borehole,No,N/A,32,2024,Jan,13,3,769999
+751,Western,Mbarara,Mbarara HC III,HC IV,Anemia,J18,20-35,Female,200,4,200,None,Borehole,No,N/A,34,2024,Feb,18,1,498046
+752,Central,Wakiso,Wakiso HC III,HC IV,Anemia,J18,0-5,Male,67,1,67,Secondary,Tap,No,N/A,52,2024,Jan,16,3,140154
+753,Eastern,Mbale,Mbale District Hospital,HC IV,Diarrhea,J18,60+,Male,29,0,29,None,Borehole,No,N/A,49,2024,Jan,25,4,241595
+754,Central,Wakiso,Wakiso District Hospital,HC IV,Hypertension,J18,20-35,Female,23,0,23,Secondary,Borehole,No,N/A,22,2024,Mar,28,9,670179
+755,Eastern,Mbale,Mbale HC III,HC IV,Malnutrition,J18,0-5,Male,61,1,61,None,Borehole,No,N/A,45,2024,Mar,38,6,345876
+756,Central,Kampala,Kampala HC IV,HC III,Maternal Complications,J18,0-5,Female,40,0,40,None,Borehole,No,N/A,52,2024,Mar,46,8,244008
+757,Western,Fort Portal,Fort Portal HC IV,HC III,Malaria,B54,20-35,Male,243,4,243,None,Tap,No,N/A,29,2024,Mar,11,5,554632
+758,Central,Mukono,Mukono HC III,HC II,Malnutrition,J18,0-5,Female,130,2,130,Secondary,Borehole,No,N/A,46,2024,Mar,32,12,639000
+759,Northern,Lira,Lira HC III,HC III,Diabetes,J18,6-12,Female,230,4,230,Secondary,Borehole,No,N/A,45,2024,Mar,1,5,323867
+760,Northern,Arua,Arua District Hospital,HC III,Maternal Complications,J18,6-12,Male,167,3,167,Primary,Tap,No,N/A,52,2024,Feb,32,0,346853
+761,Eastern,Tororo,Tororo HC IV,HC IV,TB,J18,6-12,Female,158,3,158,Secondary,Tap,No,N/A,38,2024,Jan,30,14,693573
+762,Western,Kabale,Kabale District Hospital,HC III,Hypertension,J18,0-5,Male,195,3,195,Primary,Tap,No,N/A,15,2024,Feb,46,9,343483
+763,Northern,Gulu,Gulu HC III,HC II,Diabetes,J18,6-12,Female,69,1,69,Secondary,Tap,No,N/A,25,2024,Feb,13,7,495259
+764,Western,Mbarara,Mbarara HC IV,HC IV,Anemia,J18,0-5,Female,171,3,171,None,Borehole,No,N/A,34,2024,Mar,32,7,564901
+765,Central,Kampala,Kampala District Hospital,HC II,Diabetes,J18,0-5,Male,179,3,179,None,Tap,No,N/A,13,2024,Mar,23,3,269143
+766,Eastern,Mbale,Mbale HC III,HC III,Malaria,B54,60+,Female,374,7,374,None,Tap,No,N/A,17,2024,Mar,48,0,451195
+767,Northern,Arua,Arua HC IV,HC III,Anemia,J18,20-35,Female,214,4,214,Secondary,Tap,No,N/A,16,2024,Jan,1,9,559154
+768,Northern,Lira,Lira HC IV,HC III,Malaria,B54,20-35,Male,343,6,343,Secondary,Borehole,No,N/A,26,2024,Feb,33,6,408542
+769,Central,Wakiso,Wakiso District Hospital,HC III,Malnutrition,J18,6-12,Male,137,2,137,Secondary,Tap,No,N/A,4,2024,Feb,36,4,78237
+770,Northern,Lira,Lira HC IV,HC II,Pneumonia,J18,0-5,Female,182,3,182,None,Borehole,No,N/A,35,2024,Mar,8,9,59348
+771,Eastern,Jinja,Jinja District Hospital,HC IV,Anemia,J18,0-5,Female,238,4,238,Primary,Borehole,No,N/A,25,2024,Jan,9,8,689492
+772,Western,Mbarara,Mbarara HC III,HC II,Malnutrition,J18,0-5,Female,228,4,228,Primary,Borehole,No,N/A,41,2024,Feb,4,10,282142
+773,Western,Fort Portal,Fort Portal District Hospital,HC II,TB,J18,6-12,Female,209,4,209,None,Borehole,No,N/A,27,2024,Mar,47,7,695472
+774,Eastern,Tororo,Tororo District Hospital,HC IV,TB,J18,6-12,Female,217,4,217,Primary,Borehole,No,N/A,34,2024,Mar,45,13,111340
+775,Eastern,Tororo,Tororo HC IV,HC II,Maternal Complications,J18,20-35,Female,107,2,107,Primary,Tap,No,N/A,12,2024,Jan,48,11,139104
+776,Northern,Gulu,Gulu HC III,HC II,Anemia,J18,60+,Male,215,4,215,None,Tap,No,N/A,13,2024,Mar,15,12,217533
+777,Northern,Lira,Lira HC III,HC II,Maternal Complications,J18,20-35,Male,247,4,247,Secondary,Tap,No,N/A,20,2024,Jan,21,8,724001
+778,Western,Fort Portal,Fort Portal HC IV,HC IV,Malnutrition,J18,6-12,Female,118,2,118,Secondary,Tap,No,N/A,20,2024,Jan,49,0,279363
+779,Western,Kabale,Kabale District Hospital,HC IV,Diabetes,J18,20-35,Male,210,4,210,Primary,Borehole,No,N/A,17,2024,Jan,12,13,509153
+780,Central,Wakiso,Wakiso HC IV,HC III,Anemia,J18,0-5,Female,226,4,226,Primary,Tap,No,N/A,9,2024,Feb,9,13,261531
+781,Northern,Arua,Arua HC III,HC III,Malnutrition,J18,60+,Female,156,3,156,Primary,Borehole,No,N/A,47,2024,Feb,27,5,618772
+782,Central,Kampala,Kampala HC IV,HC II,Diarrhea,J18,6-12,Female,107,2,107,Primary,Tap,No,N/A,52,2024,Feb,39,3,702931
+783,Eastern,Tororo,Tororo HC III,HC IV,TB,J18,60+,Male,117,2,117,Secondary,Borehole,No,N/A,41,2024,Jan,45,3,693601
+784,Eastern,Mbale,Mbale HC III,HC II,Diabetes,J18,0-5,Female,237,4,237,None,Tap,No,N/A,41,2024,Mar,48,2,515607
+785,Western,Kabale,Kabale HC IV,HC II,Diabetes,J18,6-12,Female,153,3,153,Secondary,Borehole,No,N/A,14,2024,Feb,26,7,530047
+786,Central,Kampala,Kampala District Hospital,HC III,Malnutrition,J18,20-35,Male,48,0,48,Secondary,Borehole,No,N/A,41,2024,Feb,49,9,101860
+787,Central,Wakiso,Wakiso District Hospital,HC II,TB,J18,60+,Female,95,1,95,None,Tap,No,N/A,32,2024,Jan,42,9,321440
+788,Central,Mukono,Mukono District Hospital,HC II,TB,J18,0-5,Female,151,3,151,Secondary,Borehole,No,N/A,16,2024,Mar,8,0,691438
+789,Western,Kabale,Kabale District Hospital,HC III,Anemia,J18,0-5,Male,25,0,25,None,Borehole,No,N/A,43,2024,Jan,11,0,493628
+790,Eastern,Tororo,Tororo HC III,HC III,Pneumonia,J18,6-12,Female,133,2,133,Primary,Borehole,No,N/A,28,2024,Mar,3,4,474122
+791,Western,Mbarara,Mbarara HC IV,HC IV,HIV/AIDS,J18,6-12,Female,36,0,36,Primary,Tap,No,N/A,1,2024,Mar,34,2,576317
+792,Northern,Arua,Arua HC III,HC III,Diabetes,J18,0-5,Male,47,0,47,Primary,Borehole,No,N/A,42,2024,Mar,42,7,180818
+793,Eastern,Mbale,Mbale HC IV,HC IV,Pneumonia,J18,0-5,Male,6,0,6,None,Tap,No,N/A,34,2024,Jan,11,11,353140
+794,Northern,Lira,Lira HC IV,HC IV,Malnutrition,J18,60+,Male,195,3,195,Primary,Tap,No,N/A,22,2024,Mar,49,9,591918
+795,Western,Mbarara,Mbarara District Hospital,HC IV,Pneumonia,J18,0-5,Female,166,3,166,Secondary,Borehole,No,N/A,6,2024,Jan,7,7,720052
+796,Northern,Arua,Arua HC III,HC II,Malaria,B54,0-5,Female,347,6,347,None,Tap,No,N/A,9,2024,Mar,11,6,116112
+797,Central,Kampala,Kampala HC IV,HC III,HIV/AIDS,J18,0-5,Female,31,0,31,None,Borehole,No,N/A,13,2024,Mar,44,14,302669
+798,Eastern,Jinja,Jinja District Hospital,HC II,Diabetes,J18,0-5,Male,210,4,210,None,Tap,No,N/A,11,2024,Jan,29,3,426742
+799,Eastern,Mbale,Mbale HC III,HC II,Anemia,J18,0-5,Male,177,3,177,Primary,Borehole,No,N/A,36,2024,Mar,24,10,194405
+800,Northern,Gulu,Gulu District Hospital,HC III,Hypertension,J18,60+,Male,143,2,143,None,Tap,No,N/A,33,2024,Feb,12,5,190097
+801,Northern,Arua,Arua HC III,HC IV,Pneumonia,J18,6-12,Female,144,2,144,Primary,Tap,No,N/A,23,2024,Feb,36,11,771112
+802,Central,Kampala,Kampala HC III,HC III,HIV/AIDS,J18,20-35,Male,137,2,137,None,Borehole,No,N/A,31,2024,Jan,24,3,472476
+803,Western,Mbarara,Mbarara District Hospital,HC III,Malaria,B54,60+,Male,74,1,74,None,Borehole,No,N/A,27,2024,Jan,47,10,487608
+804,Eastern,Mbale,Mbale HC IV,HC II,Diarrhea,J18,6-12,Male,230,4,230,Primary,Borehole,No,N/A,18,2024,Feb,48,1,221567
+805,Central,Mukono,Mukono District Hospital,HC II,Maternal Complications,J18,0-5,Male,215,4,215,Secondary,Tap,No,N/A,49,2024,Feb,49,8,67906
+806,Northern,Arua,Arua HC III,HC II,TB,J18,0-5,Male,1,0,1,Primary,Borehole,No,N/A,41,2024,Jan,24,12,700827
+807,Eastern,Mbale,Mbale District Hospital,HC IV,Malaria,B54,6-12,Female,144,2,144,None,Tap,No,N/A,17,2024,Jan,26,11,208067
+808,Western,Fort Portal,Fort Portal HC III,HC II,Pneumonia,J18,60+,Male,46,0,46,Secondary,Tap,No,N/A,18,2024,Mar,7,6,499598
+809,Eastern,Tororo,Tororo HC IV,HC IV,Malnutrition,J18,60+,Male,50,1,50,Secondary,Borehole,No,N/A,42,2024,Feb,7,14,764973
+810,Northern,Lira,Lira HC IV,HC III,Anemia,J18,60+,Male,138,2,138,Secondary,Tap,No,N/A,41,2024,Feb,19,9,469061
+811,Eastern,Jinja,Jinja HC III,HC III,Diarrhea,J18,60+,Male,34,0,34,None,Tap,No,N/A,5,2024,Mar,17,3,586465
+812,Western,Fort Portal,Fort Portal HC IV,HC IV,Malnutrition,J18,0-5,Female,131,2,131,Primary,Tap,No,N/A,42,2024,Jan,49,3,415007
+813,Eastern,Mbale,Mbale HC III,HC III,Hypertension,J18,60+,Male,120,2,120,Primary,Borehole,No,N/A,40,2024,Feb,15,2,280068
+814,Eastern,Mbale,Mbale District Hospital,HC III,Maternal Complications,J18,6-12,Male,205,4,205,None,Tap,No,N/A,10,2024,Jan,45,13,178989
+815,Central,Kampala,Kampala HC IV,HC II,Hypertension,J18,6-12,Male,230,4,230,Secondary,Tap,No,N/A,18,2024,Feb,48,10,48726
+816,Central,Mukono,Mukono District Hospital,HC III,Malaria,B54,6-12,Male,67,1,67,Secondary,Borehole,No,N/A,27,2024,Mar,36,13,489771
+817,Central,Kampala,Kampala District Hospital,HC III,Malnutrition,J18,60+,Male,239,4,239,Secondary,Tap,No,N/A,22,2024,Jan,37,12,146167
+818,Eastern,Tororo,Tororo HC III,HC III,Diarrhea,J18,0-5,Female,120,2,120,Secondary,Borehole,No,N/A,8,2024,Feb,36,10,116400
+819,Eastern,Tororo,Tororo District Hospital,HC III,Malnutrition,J18,0-5,Female,237,4,237,Secondary,Tap,No,N/A,33,2024,Jan,2,13,629655
+820,Northern,Gulu,Gulu HC III,HC II,Malaria,B54,0-5,Male,144,2,144,Secondary,Borehole,No,N/A,52,2024,Feb,38,11,332091
+821,Western,Mbarara,Mbarara District Hospital,HC II,HIV/AIDS,J18,0-5,Female,118,2,118,Secondary,Borehole,No,N/A,3,2024,Mar,43,5,123675
+822,Northern,Lira,Lira District Hospital,HC II,Maternal Complications,J18,60+,Female,50,1,50,Primary,Borehole,No,N/A,26,2024,Mar,44,12,171752
+823,Eastern,Tororo,Tororo HC IV,HC IV,Maternal Complications,J18,20-35,Female,234,4,234,Primary,Borehole,No,N/A,44,2024,Feb,5,0,63430
+824,Western,Mbarara,Mbarara HC IV,HC II,Maternal Complications,J18,60+,Male,214,4,214,Secondary,Borehole,No,N/A,17,2024,Feb,6,10,552476
+825,Eastern,Mbale,Mbale HC III,HC II,Maternal Complications,J18,6-12,Male,197,3,197,Primary,Borehole,No,N/A,25,2024,Jan,8,2,616490
+826,Western,Mbarara,Mbarara HC IV,HC III,Diarrhea,J18,6-12,Female,94,1,94,Secondary,Tap,No,N/A,40,2024,Mar,9,8,184302
+827,Central,Kampala,Kampala District Hospital,HC III,TB,J18,60+,Male,59,1,59,None,Borehole,No,N/A,12,2024,Mar,5,3,481478
+828,Eastern,Tororo,Tororo District Hospital,HC IV,HIV/AIDS,J18,0-5,Male,4,0,4,Secondary,Borehole,No,N/A,24,2024,Feb,22,6,777296
+829,Northern,Lira,Lira HC IV,HC II,HIV/AIDS,J18,6-12,Female,215,4,215,None,Borehole,No,N/A,47,2024,Feb,44,8,326041
+830,Eastern,Mbale,Mbale HC III,HC IV,Anemia,J18,6-12,Male,246,4,246,Primary,Borehole,No,N/A,11,2024,Jan,9,6,781758
+831,Northern,Lira,Lira HC III,HC III,Malaria,B54,6-12,Female,216,4,216,None,Borehole,No,N/A,31,2024,Mar,44,1,593724
+832,Northern,Gulu,Gulu HC IV,HC III,HIV/AIDS,J18,20-35,Male,130,2,130,Primary,Tap,No,N/A,27,2024,Feb,49,3,708874
+833,Eastern,Jinja,Jinja HC III,HC III,TB,J18,0-5,Female,232,4,232,None,Tap,No,N/A,7,2024,Feb,4,3,258982
+834,Eastern,Tororo,Tororo HC IV,HC II,Malnutrition,J18,20-35,Female,139,2,139,Secondary,Borehole,No,N/A,30,2024,Mar,38,3,218573
+835,Central,Wakiso,Wakiso HC IV,HC IV,Anemia,J18,0-5,Male,6,0,6,None,Tap,No,N/A,40,2024,Jan,13,2,98028
+836,Western,Kabale,Kabale District Hospital,HC III,Anemia,J18,0-5,Female,190,3,190,None,Borehole,No,N/A,21,2024,Mar,34,4,20194
+837,Western,Kabale,Kabale District Hospital,HC IV,Maternal Complications,J18,0-5,Male,78,1,78,Primary,Borehole,No,N/A,34,2024,Mar,24,10,13180
+838,Eastern,Mbale,Mbale HC IV,HC III,Diarrhea,J18,60+,Male,12,0,12,None,Tap,No,N/A,44,2024,Feb,6,9,691962
+839,Eastern,Mbale,Mbale HC III,HC III,Malnutrition,J18,20-35,Male,228,4,228,Primary,Borehole,No,N/A,24,2024,Feb,36,10,196773
+840,Central,Mukono,Mukono HC III,HC III,Pneumonia,J18,6-12,Female,198,3,198,Secondary,Borehole,No,N/A,25,2024,Jan,16,10,460096
+841,Western,Fort Portal,Fort Portal HC IV,HC III,Diabetes,J18,6-12,Female,246,4,246,Primary,Borehole,No,N/A,42,2024,Mar,16,5,35784
+842,Eastern,Mbale,Mbale HC IV,HC III,Malaria,B54,20-35,Female,158,3,158,Primary,Borehole,No,N/A,35,2024,Mar,2,2,588440
+843,Northern,Gulu,Gulu District Hospital,HC II,Maternal Complications,J18,60+,Male,223,4,223,Primary,Borehole,No,N/A,30,2024,Jan,6,13,460653
+844,Central,Kampala,Kampala HC III,HC IV,Anemia,J18,20-35,Female,157,3,157,Primary,Borehole,No,N/A,30,2024,Feb,38,1,275644
+845,Eastern,Mbale,Mbale HC III,HC II,Maternal Complications,J18,60+,Male,78,1,78,Primary,Borehole,No,N/A,6,2024,Jan,32,4,718984
+846,Northern,Arua,Arua HC III,HC III,TB,J18,0-5,Male,157,3,157,Primary,Tap,No,N/A,27,2024,Jan,7,1,368024
+847,Northern,Gulu,Gulu HC IV,HC II,Malnutrition,J18,0-5,Female,183,3,183,None,Borehole,No,N/A,8,2024,Jan,16,4,250721
+848,Northern,Gulu,Gulu District Hospital,HC III,Malaria,B54,20-35,Female,113,2,113,Primary,Tap,No,N/A,25,2024,Feb,39,1,184141
+849,Central,Mukono,Mukono HC III,HC III,Diarrhea,J18,0-5,Male,110,2,110,None,Tap,No,N/A,25,2024,Mar,43,2,699107
+850,Eastern,Jinja,Jinja HC IV,HC II,Diabetes,J18,60+,Male,220,4,220,Secondary,Tap,No,N/A,17,2024,Feb,9,8,124873
+851,Central,Mukono,Mukono HC III,HC III,Maternal Complications,J18,0-5,Male,160,3,160,Secondary,Tap,No,N/A,50,2024,Jan,8,9,166942
+852,Northern,Lira,Lira HC III,HC II,TB,J18,60+,Female,167,3,167,Secondary,Tap,No,N/A,5,2024,Mar,24,6,710103
+853,Central,Wakiso,Wakiso District Hospital,HC III,Hypertension,J18,60+,Female,41,0,41,Secondary,Tap,No,N/A,17,2024,Jan,41,4,438781
+854,Central,Kampala,Kampala HC IV,HC IV,TB,J18,6-12,Male,33,0,33,Secondary,Borehole,No,N/A,36,2024,Mar,3,2,480475
+855,Eastern,Jinja,Jinja HC III,HC IV,Anemia,J18,0-5,Male,177,3,177,Secondary,Tap,No,N/A,20,2024,Mar,11,10,645317
+856,Central,Wakiso,Wakiso HC III,HC IV,Hypertension,J18,0-5,Male,83,1,83,Secondary,Tap,No,N/A,38,2024,Jan,15,9,665242
+857,Central,Wakiso,Wakiso District Hospital,HC II,Malnutrition,J18,20-35,Female,39,0,39,Primary,Tap,No,N/A,36,2024,Feb,7,9,129170
+858,Northern,Gulu,Gulu HC IV,HC II,TB,J18,20-35,Male,38,0,38,None,Tap,No,N/A,14,2024,Feb,47,0,189008
+859,Central,Wakiso,Wakiso HC III,HC II,Malaria,B54,20-35,Male,98,1,98,Primary,Tap,No,N/A,34,2024,Feb,45,7,222806
+860,Northern,Lira,Lira District Hospital,HC III,HIV/AIDS,J18,20-35,Female,211,4,211,None,Tap,No,N/A,14,2024,Jan,20,3,675893
+861,Western,Mbarara,Mbarara District Hospital,HC III,Diarrhea,J18,0-5,Female,212,4,212,Primary,Tap,No,N/A,2,2024,Feb,14,11,279062
+862,Central,Mukono,Mukono HC III,HC IV,TB,J18,6-12,Male,160,3,160,Secondary,Tap,No,N/A,39,2024,Feb,32,13,412531
+863,Northern,Arua,Arua District Hospital,HC III,Malaria,B54,20-35,Male,286,5,286,None,Borehole,No,N/A,45,2024,Mar,28,2,141434
+864,Central,Wakiso,Wakiso HC III,HC III,HIV/AIDS,J18,0-5,Female,19,0,19,None,Borehole,No,N/A,11,2024,Mar,3,13,792233
+865,Western,Fort Portal,Fort Portal District Hospital,HC IV,Diabetes,J18,60+,Female,92,1,92,Primary,Tap,No,N/A,34,2024,Feb,28,5,603129
+866,Eastern,Tororo,Tororo HC III,HC IV,TB,J18,6-12,Female,136,2,136,None,Borehole,No,N/A,23,2024,Mar,5,7,67008
+867,Northern,Arua,Arua HC IV,HC IV,Malnutrition,J18,60+,Female,136,2,136,None,Tap,No,N/A,1,2024,Mar,4,13,299031
+868,Central,Kampala,Kampala District Hospital,HC IV,Anemia,J18,20-35,Male,173,3,173,Secondary,Borehole,No,N/A,37,2024,Feb,24,4,206857
+869,Central,Kampala,Kampala District Hospital,HC IV,TB,J18,0-5,Male,199,3,199,Primary,Tap,No,N/A,17,2024,Mar,24,10,738584
+870,Northern,Arua,Arua HC IV,HC II,Pneumonia,J18,60+,Female,8,0,8,None,Tap,No,N/A,29,2024,Feb,35,14,381683
+871,Eastern,Mbale,Mbale HC III,HC IV,Hypertension,J18,60+,Female,172,3,172,Primary,Borehole,No,N/A,20,2024,Mar,47,1,63390
+872,Northern,Lira,Lira HC IV,HC II,Anemia,J18,6-12,Male,163,3,163,Primary,Borehole,No,N/A,20,2024,Mar,18,5,600342
+873,Eastern,Mbale,Mbale District Hospital,HC II,Pneumonia,J18,0-5,Female,44,0,44,None,Borehole,No,N/A,25,2024,Feb,48,11,244898
+874,Eastern,Mbale,Mbale HC IV,HC II,TB,J18,0-5,Female,138,2,138,Secondary,Borehole,No,N/A,17,2024,Jan,43,11,82192
+875,Western,Kabale,Kabale HC III,HC IV,Diabetes,J18,60+,Female,7,0,7,Primary,Borehole,No,N/A,44,2024,Feb,12,12,245811
+876,Western,Kabale,Kabale District Hospital,HC III,Hypertension,J18,0-5,Female,188,3,188,None,Borehole,No,N/A,12,2024,Jan,13,5,449506
+877,Eastern,Tororo,Tororo HC III,HC II,Malaria,B54,20-35,Male,153,3,153,Secondary,Tap,No,N/A,40,2024,Mar,39,6,574698
+878,Northern,Arua,Arua HC III,HC IV,Maternal Complications,J18,60+,Female,160,3,160,Primary,Tap,No,N/A,3,2024,Feb,8,12,342483
+879,Western,Kabale,Kabale HC III,HC IV,TB,J18,20-35,Male,86,1,86,None,Tap,No,N/A,8,2024,Jan,1,9,614605
+880,Northern,Gulu,Gulu District Hospital,HC III,TB,J18,20-35,Male,13,0,13,Primary,Tap,No,N/A,3,2024,Feb,24,14,46166
+881,Central,Kampala,Kampala HC IV,HC IV,Malnutrition,J18,0-5,Male,15,0,15,None,Tap,No,N/A,3,2024,Mar,17,3,552872
+882,Northern,Lira,Lira District Hospital,HC II,Pneumonia,J18,0-5,Male,37,0,37,None,Borehole,No,N/A,3,2024,Feb,31,3,102948
+883,Western,Kabale,Kabale HC III,HC II,HIV/AIDS,J18,0-5,Male,8,0,8,None,Borehole,No,N/A,12,2024,Mar,25,2,130716
+884,Northern,Gulu,Gulu District Hospital,HC II,Maternal Complications,J18,6-12,Male,213,4,213,Secondary,Tap,No,N/A,23,2024,Mar,7,12,384391
+885,Central,Kampala,Kampala HC IV,HC III,Anemia,J18,0-5,Female,219,4,219,Secondary,Tap,No,N/A,9,2024,Feb,46,12,187159
+886,Central,Mukono,Mukono HC IV,HC II,Anemia,J18,6-12,Male,183,3,183,Secondary,Borehole,No,N/A,50,2024,Jan,37,9,300498
+887,Northern,Lira,Lira HC III,HC IV,Malnutrition,J18,6-12,Male,31,0,31,Secondary,Tap,No,N/A,39,2024,Mar,19,10,707194
+888,Western,Kabale,Kabale HC IV,HC IV,Anemia,J18,60+,Female,13,0,13,None,Borehole,No,N/A,20,2024,Jan,22,8,419495
+889,Western,Mbarara,Mbarara HC IV,HC II,Malaria,B54,0-5,Female,133,2,133,Primary,Borehole,No,N/A,19,2024,Jan,25,13,631597
+890,Central,Wakiso,Wakiso District Hospital,HC IV,Malnutrition,J18,20-35,Female,86,1,86,None,Tap,No,N/A,52,2024,Feb,45,12,505926
+891,Eastern,Jinja,Jinja HC III,HC IV,Diabetes,J18,6-12,Male,108,2,108,Secondary,Borehole,No,N/A,48,2024,Mar,13,8,488597
+892,Western,Mbarara,Mbarara HC IV,HC II,Maternal Complications,J18,0-5,Female,194,3,194,Primary,Tap,No,N/A,14,2024,Feb,37,3,728290
+893,Western,Mbarara,Mbarara HC IV,HC III,HIV/AIDS,J18,20-35,Male,147,2,147,Primary,Borehole,No,N/A,20,2024,Mar,26,8,240369
+894,Central,Wakiso,Wakiso HC III,HC II,Malnutrition,J18,20-35,Male,103,2,103,Secondary,Borehole,No,N/A,36,2024,Mar,46,2,275460
+895,Eastern,Mbale,Mbale District Hospital,HC IV,Hypertension,J18,6-12,Male,122,2,122,None,Borehole,No,N/A,46,2024,Feb,49,1,525754
+896,Central,Kampala,Kampala HC III,HC III,Maternal Complications,J18,20-35,Female,90,1,90,Primary,Tap,No,N/A,20,2024,Mar,33,12,158740
+897,Western,Kabale,Kabale HC IV,HC IV,Malaria,B54,0-5,Female,239,4,239,Primary,Borehole,No,N/A,18,2024,Jan,14,11,548660
+898,Eastern,Jinja,Jinja HC III,HC III,Malnutrition,J18,20-35,Female,112,2,112,Secondary,Tap,No,N/A,39,2024,Jan,47,14,789562
+899,Central,Wakiso,Wakiso District Hospital,HC IV,Maternal Complications,J18,20-35,Female,189,3,189,Secondary,Tap,No,N/A,27,2024,Feb,15,0,471568
+900,Eastern,Tororo,Tororo District Hospital,HC II,Diarrhea,J18,0-5,Male,50,1,50,Secondary,Borehole,No,N/A,52,2024,Jan,27,7,482603
+901,Northern,Lira,Lira HC IV,HC IV,Malaria,B54,60+,Female,61,1,61,Primary,Borehole,No,N/A,3,2024,Jan,23,1,769667
+902,Western,Kabale,Kabale HC IV,HC IV,Malaria,B54,20-35,Male,65,1,65,None,Borehole,No,N/A,31,2024,Jan,39,2,693078
+903,Western,Fort Portal,Fort Portal HC III,HC III,Anemia,J18,0-5,Male,27,0,27,Primary,Borehole,No,N/A,20,2024,Mar,14,6,550170
+904,Northern,Lira,Lira District Hospital,HC II,Malaria,B54,6-12,Female,399,7,399,None,Tap,No,N/A,49,2024,Mar,11,7,284417
+905,Eastern,Tororo,Tororo District Hospital,HC IV,Malaria,B54,0-5,Male,192,3,192,Primary,Tap,No,N/A,13,2024,Feb,32,9,494794
+906,Eastern,Mbale,Mbale HC IV,HC II,Diarrhea,J18,60+,Male,124,2,124,None,Borehole,No,N/A,51,2024,Feb,35,8,128839
+907,Western,Fort Portal,Fort Portal HC III,HC II,Maternal Complications,J18,0-5,Female,144,2,144,Primary,Tap,No,N/A,39,2024,Feb,26,8,301824
+908,Central,Wakiso,Wakiso HC III,HC III,Maternal Complications,J18,0-5,Female,199,3,199,Secondary,Borehole,No,N/A,27,2024,Jan,28,13,648577
+909,Western,Fort Portal,Fort Portal HC IV,HC IV,Malaria,B54,0-5,Female,111,2,111,Primary,Borehole,No,N/A,6,2024,Feb,40,0,454883
+910,Northern,Lira,Lira District Hospital,HC IV,Diarrhea,J18,0-5,Female,162,3,162,Secondary,Borehole,No,N/A,40,2024,Jan,26,9,642395
+911,Eastern,Tororo,Tororo District Hospital,HC II,Anemia,J18,6-12,Male,78,1,78,Secondary,Borehole,No,N/A,35,2024,Mar,7,7,18604
+912,Central,Wakiso,Wakiso HC IV,HC IV,Diabetes,J18,6-12,Male,23,0,23,Secondary,Borehole,No,N/A,31,2024,Jan,28,6,649124
+913,Eastern,Mbale,Mbale HC III,HC III,Malaria,B54,0-5,Male,111,2,111,None,Tap,No,N/A,8,2024,Mar,29,12,718235
+914,Western,Fort Portal,Fort Portal HC IV,HC IV,Diabetes,J18,20-35,Female,92,1,92,Secondary,Borehole,No,N/A,2,2024,Mar,3,8,485107
+915,Eastern,Tororo,Tororo HC III,HC III,Pneumonia,J18,20-35,Male,164,3,164,Primary,Borehole,No,N/A,50,2024,Feb,34,10,94445
+916,Western,Fort Portal,Fort Portal HC IV,HC III,Maternal Complications,J18,20-35,Female,87,1,87,None,Borehole,No,N/A,41,2024,Feb,9,6,547988
+917,Western,Mbarara,Mbarara HC III,HC III,Diabetes,J18,20-35,Female,93,1,93,Primary,Tap,No,N/A,39,2024,Jan,49,11,578792
+918,Western,Mbarara,Mbarara District Hospital,HC IV,Diabetes,J18,60+,Male,224,4,224,Secondary,Tap,No,N/A,13,2024,Mar,21,11,509614
+919,Western,Fort Portal,Fort Portal District Hospital,HC III,Maternal Complications,J18,60+,Male,242,4,242,Secondary,Borehole,No,N/A,10,2024,Jan,25,8,780558
+920,Western,Mbarara,Mbarara HC III,HC III,Malnutrition,J18,6-12,Female,150,3,150,Primary,Borehole,No,N/A,5,2024,Jan,33,0,40164
+921,Central,Kampala,Kampala HC III,HC III,Hypertension,J18,60+,Female,79,1,79,Primary,Tap,No,N/A,22,2024,Feb,46,1,674692
+922,Western,Kabale,Kabale HC IV,HC III,HIV/AIDS,J18,60+,Female,183,3,183,Secondary,Tap,No,N/A,16,2024,Mar,19,7,55522
+923,Western,Fort Portal,Fort Portal HC III,HC III,Malaria,B54,20-35,Female,187,3,187,Primary,Borehole,No,N/A,29,2024,Mar,13,1,69278
+924,Northern,Gulu,Gulu HC IV,HC III,Diarrhea,J18,6-12,Male,87,1,87,Primary,Borehole,No,N/A,36,2024,Mar,17,5,628961
+925,Northern,Arua,Arua HC IV,HC IV,Hypertension,J18,60+,Male,247,4,247,None,Borehole,No,N/A,26,2024,Mar,38,10,158052
+926,Western,Mbarara,Mbarara HC III,HC IV,Malaria,B54,20-35,Female,20,0,20,Primary,Tap,No,N/A,41,2024,Jan,24,13,584188
+927,Northern,Lira,Lira HC IV,HC IV,Anemia,J18,20-35,Male,6,0,6,Secondary,Borehole,No,N/A,5,2024,Feb,6,9,183119
+928,Northern,Gulu,Gulu District Hospital,HC IV,Diabetes,J18,20-35,Female,39,0,39,Secondary,Borehole,No,N/A,50,2024,Feb,23,4,203861
+929,Northern,Gulu,Gulu HC III,HC III,Maternal Complications,J18,20-35,Female,56,1,56,Primary,Borehole,No,N/A,33,2024,Feb,49,0,432218
+930,Northern,Gulu,Gulu HC III,HC III,Malnutrition,J18,0-5,Female,149,2,149,None,Borehole,No,N/A,44,2024,Jan,39,5,104993
+931,Northern,Gulu,Gulu HC III,HC IV,HIV/AIDS,J18,6-12,Female,179,3,179,Primary,Tap,No,N/A,8,2024,Feb,24,5,228512
+932,Northern,Lira,Lira District Hospital,HC IV,Diarrhea,J18,20-35,Male,228,4,228,None,Borehole,No,N/A,22,2024,Jan,22,0,460926
+933,Central,Wakiso,Wakiso HC IV,HC IV,Maternal Complications,J18,60+,Male,159,3,159,None,Tap,No,N/A,21,2024,Jan,45,14,747997
+934,Western,Fort Portal,Fort Portal HC III,HC III,TB,J18,0-5,Female,159,3,159,Secondary,Borehole,No,N/A,4,2024,Mar,34,9,684577
+935,Eastern,Mbale,Mbale District Hospital,HC IV,HIV/AIDS,J18,6-12,Female,220,4,220,Secondary,Borehole,No,N/A,5,2024,Feb,13,14,270318
+936,Eastern,Tororo,Tororo HC IV,HC II,Hypertension,J18,20-35,Male,247,4,247,Primary,Borehole,No,N/A,24,2024,Jan,46,1,353215
+937,Western,Fort Portal,Fort Portal District Hospital,HC III,Hypertension,J18,6-12,Male,205,4,205,Primary,Tap,No,N/A,49,2024,Feb,16,13,142674
+938,Central,Kampala,Kampala District Hospital,HC III,Hypertension,J18,60+,Male,202,4,202,None,Tap,No,N/A,22,2024,Mar,47,6,763017
+939,Western,Fort Portal,Fort Portal HC IV,HC III,Diabetes,J18,60+,Male,148,2,148,Secondary,Tap,No,N/A,5,2024,Mar,45,7,371522
+940,Eastern,Mbale,Mbale HC III,HC II,TB,J18,0-5,Female,141,2,141,Primary,Borehole,No,N/A,31,2024,Mar,4,11,239754
+941,Northern,Arua,Arua HC III,HC IV,Malaria,B54,6-12,Male,106,2,106,None,Borehole,No,N/A,22,2024,Feb,49,12,380434
+942,Central,Mukono,Mukono HC IV,HC III,Diarrhea,J18,0-5,Male,216,4,216,Primary,Tap,No,N/A,44,2024,Mar,1,11,752880
+943,Western,Fort Portal,Fort Portal HC IV,HC III,Diabetes,J18,0-5,Male,246,4,246,None,Tap,No,N/A,37,2024,Jan,43,6,482241
+944,Northern,Lira,Lira HC IV,HC IV,TB,J18,0-5,Female,60,1,60,Primary,Tap,No,N/A,51,2024,Jan,13,10,56316
+945,Northern,Lira,Lira HC III,HC IV,Anemia,J18,60+,Male,225,4,225,None,Borehole,No,N/A,41,2024,Jan,5,11,528724
+946,Central,Kampala,Kampala HC III,HC II,Diabetes,J18,60+,Male,28,0,28,Primary,Borehole,No,N/A,49,2024,Feb,30,0,158158
+947,Eastern,Jinja,Jinja HC III,HC III,Malnutrition,J18,20-35,Female,212,4,212,Secondary,Borehole,No,N/A,20,2024,Mar,43,8,365064
+948,Eastern,Mbale,Mbale District Hospital,HC II,Pneumonia,J18,60+,Female,159,3,159,None,Borehole,No,N/A,52,2024,Mar,15,14,260883
+949,Eastern,Mbale,Mbale District Hospital,HC IV,Maternal Complications,J18,0-5,Male,150,3,150,Primary,Tap,No,N/A,34,2024,Feb,37,9,329125
+950,Eastern,Tororo,Tororo District Hospital,HC II,Maternal Complications,J18,0-5,Male,41,0,41,Primary,Borehole,No,N/A,51,2024,Feb,21,12,790487
+951,Northern,Arua,Arua HC IV,HC IV,Hypertension,J18,0-5,Female,228,4,228,Primary,Tap,No,N/A,47,2024,Feb,15,14,532652
+952,Western,Fort Portal,Fort Portal District Hospital,HC II,TB,J18,6-12,Female,7,0,7,Secondary,Tap,No,N/A,26,2024,Mar,41,6,252032
+953,Northern,Lira,Lira HC III,HC IV,Maternal Complications,J18,0-5,Male,234,4,234,Primary,Borehole,No,N/A,16,2024,Jan,44,7,172683
+954,Western,Kabale,Kabale District Hospital,HC III,HIV/AIDS,J18,0-5,Female,174,3,174,None,Tap,No,N/A,38,2024,Feb,43,0,88140
+955,Eastern,Tororo,Tororo HC III,HC IV,Hypertension,J18,0-5,Male,223,4,223,None,Tap,No,N/A,22,2024,Mar,10,0,595223
+956,Western,Fort Portal,Fort Portal District Hospital,HC III,Maternal Complications,J18,20-35,Female,59,1,59,Primary,Borehole,No,N/A,9,2024,Jan,28,8,773532
+957,Eastern,Mbale,Mbale HC III,HC II,Diarrhea,J18,0-5,Female,168,3,168,Secondary,Borehole,No,N/A,7,2024,Feb,35,1,435669
+958,Central,Kampala,Kampala HC III,HC IV,Malnutrition,J18,0-5,Female,109,2,109,Secondary,Tap,No,N/A,2,2024,Jan,24,12,71322
+959,Eastern,Mbale,Mbale HC III,HC IV,TB,J18,6-12,Male,234,4,234,Secondary,Tap,No,N/A,42,2024,Jan,6,10,748606
+960,Eastern,Mbale,Mbale HC IV,HC IV,Diabetes,J18,60+,Female,228,4,228,Secondary,Tap,No,N/A,44,2024,Feb,21,3,319916
+961,Northern,Lira,Lira District Hospital,HC IV,Anemia,J18,0-5,Male,139,2,139,Primary,Tap,No,N/A,19,2024,Jan,49,12,167096
+962,Northern,Lira,Lira District Hospital,HC III,HIV/AIDS,J18,20-35,Male,6,0,6,Primary,Borehole,No,N/A,16,2024,Mar,3,7,150689
+963,Central,Mukono,Mukono HC III,HC II,Diabetes,J18,20-35,Male,61,1,61,Secondary,Tap,No,N/A,29,2024,Feb,1,4,87633
+964,Eastern,Tororo,Tororo HC III,HC II,Diabetes,J18,60+,Male,2,0,2,Primary,Borehole,No,N/A,30,2024,Jan,39,3,52607
+965,Eastern,Jinja,Jinja HC IV,HC II,Hypertension,J18,6-12,Female,184,3,184,Secondary,Borehole,No,N/A,39,2024,Mar,41,3,609453
+966,Central,Wakiso,Wakiso District Hospital,HC III,Anemia,J18,6-12,Female,40,0,40,Primary,Tap,No,N/A,38,2024,Jan,20,14,424424
+967,Western,Kabale,Kabale District Hospital,HC IV,Diarrhea,J18,6-12,Female,33,0,33,Secondary,Borehole,No,N/A,35,2024,Mar,25,12,186936
+968,Northern,Arua,Arua HC IV,HC IV,Maternal Complications,J18,20-35,Male,140,2,140,None,Borehole,No,N/A,16,2024,Jan,43,7,189513
+969,Central,Kampala,Kampala HC III,HC IV,Pneumonia,J18,20-35,Female,154,3,154,Secondary,Tap,No,N/A,16,2024,Feb,31,9,165066
+970,Central,Mukono,Mukono HC III,HC II,HIV/AIDS,J18,6-12,Male,41,0,41,None,Borehole,No,N/A,19,2024,Feb,23,10,769333
+971,Central,Wakiso,Wakiso HC III,HC II,Maternal Complications,J18,60+,Male,164,3,164,Primary,Borehole,No,N/A,1,2024,Mar,28,3,448197
+972,Western,Fort Portal,Fort Portal HC III,HC II,Anemia,J18,20-35,Female,234,4,234,Secondary,Tap,No,N/A,4,2024,Jan,13,10,406915
+973,Western,Kabale,Kabale HC IV,HC III,TB,J18,20-35,Female,243,4,243,Secondary,Borehole,No,N/A,47,2024,Mar,1,2,784303
+974,Eastern,Jinja,Jinja HC III,HC IV,HIV/AIDS,J18,6-12,Female,136,2,136,None,Tap,No,N/A,4,2024,Mar,23,12,396026
+975,Western,Kabale,Kabale HC IV,HC III,Diarrhea,J18,6-12,Male,86,1,86,Primary,Tap,No,N/A,44,2024,Feb,27,7,639801
+976,Western,Mbarara,Mbarara District Hospital,HC IV,HIV/AIDS,J18,20-35,Male,129,2,129,Primary,Borehole,No,N/A,52,2024,Feb,19,8,273634
+977,Northern,Arua,Arua HC IV,HC II,Diarrhea,J18,0-5,Female,130,2,130,Secondary,Borehole,No,N/A,27,2024,Mar,43,14,83128
+978,Northern,Lira,Lira HC IV,HC III,Malaria,B54,20-35,Male,340,6,340,Primary,Borehole,No,N/A,42,2024,Feb,8,6,391937
+979,Western,Fort Portal,Fort Portal HC III,HC III,Malnutrition,J18,6-12,Female,80,1,80,Primary,Tap,No,N/A,27,2024,Jan,10,5,566834
+980,Western,Kabale,Kabale District Hospital,HC IV,Diarrhea,J18,60+,Male,218,4,218,Primary,Borehole,No,N/A,43,2024,Jan,12,7,301656
+981,Central,Wakiso,Wakiso HC IV,HC III,Anemia,J18,60+,Male,210,4,210,Secondary,Tap,No,N/A,45,2024,Mar,1,14,549964
+982,Northern,Arua,Arua District Hospital,HC III,Malnutrition,J18,6-12,Male,204,4,204,Secondary,Borehole,No,N/A,12,2024,Feb,21,1,605273
+983,Northern,Gulu,Gulu HC IV,HC IV,Malnutrition,J18,60+,Male,143,2,143,Primary,Tap,No,N/A,46,2024,Feb,36,12,511226
+984,Eastern,Mbale,Mbale HC III,HC II,Malaria,B54,6-12,Male,243,4,243,Secondary,Tap,No,N/A,46,2024,Feb,31,7,747540
+985,Western,Fort Portal,Fort Portal HC III,HC III,Malnutrition,J18,6-12,Male,211,4,211,Primary,Tap,No,N/A,1,2024,Feb,27,9,738517
+986,Eastern,Tororo,Tororo HC IV,HC II,TB,J18,20-35,Male,134,2,134,Secondary,Tap,No,N/A,32,2024,Mar,2,14,257580
+987,Northern,Lira,Lira District Hospital,HC IV,Maternal Complications,J18,60+,Male,125,2,125,Primary,Tap,No,N/A,43,2024,Jan,47,8,705576
+988,Eastern,Tororo,Tororo HC III,HC IV,HIV/AIDS,J18,20-35,Female,241,4,241,Secondary,Borehole,No,N/A,31,2024,Jan,41,2,420404
+989,Eastern,Tororo,Tororo HC IV,HC IV,Diarrhea,J18,0-5,Male,248,4,248,None,Borehole,No,N/A,2,2024,Mar,41,12,132020
+990,Central,Kampala,Kampala District Hospital,HC III,Diarrhea,J18,6-12,Female,4,0,4,Secondary,Tap,No,N/A,42,2024,Jan,32,6,773766
+991,Central,Kampala,Kampala District Hospital,HC III,Diarrhea,J18,60+,Male,156,3,156,Secondary,Tap,No,N/A,10,2024,Feb,38,11,360829
+992,Northern,Arua,Arua District Hospital,HC II,Anemia,J18,6-12,Female,96,1,96,Primary,Tap,No,N/A,46,2024,Jan,15,7,422272
+993,Eastern,Mbale,Mbale District Hospital,HC III,HIV/AIDS,J18,0-5,Male,80,1,80,Primary,Borehole,No,N/A,48,2024,Jan,8,3,380682
+994,Northern,Gulu,Gulu HC IV,HC III,Anemia,J18,0-5,Female,132,2,132,Primary,Borehole,No,N/A,14,2024,Mar,23,9,199194
+995,Eastern,Jinja,Jinja HC III,HC III,Diabetes,J18,6-12,Male,23,0,23,None,Borehole,No,N/A,15,2024,Feb,19,3,469144
+996,Eastern,Mbale,Mbale HC IV,HC III,Pneumonia,J18,60+,Male,160,3,160,Secondary,Tap,No,N/A,21,2024,Mar,7,11,162512
+997,Western,Mbarara,Mbarara District Hospital,HC III,Malaria,B54,6-12,Male,203,4,203,Primary,Tap,No,N/A,20,2024,Jan,48,14,735277
+998,Eastern,Mbale,Mbale HC III,HC IV,Hypertension,J18,6-12,Male,11,0,11,Secondary,Borehole,No,N/A,39,2024,Mar,39,7,785055
+999,Eastern,Jinja,Jinja District Hospital,HC III,Malnutrition,J18,6-12,Male,138,2,138,Secondary,Borehole,No,N/A,2,2024,Feb,7,2,547658
+1000,Western,Mbarara,Mbarara HC IV,HC II,Anemia,J18,6-12,Female,31,0,31,None,Borehole,No,N/A,51,2024,Feb,23,5,342213
+1001,Central,Mukono,Mukono District Hospital,HC III,Malnutrition,J18,6-12,Male,213,4,213,Primary,Tap,No,N/A,17,2024,Mar,21,13,725976
+1002,Western,Kabale,Kabale HC IV,HC III,Malnutrition,J18,60+,Female,92,1,92,Primary,Borehole,No,N/A,43,2024,Feb,44,9,370848
+1003,Northern,Lira,Lira HC III,HC III,TB,J18,6-12,Male,161,3,161,Primary,Borehole,No,N/A,33,2024,Jan,2,9,233469
+1004,Northern,Arua,Arua District Hospital,HC III,Malnutrition,J18,60+,Male,161,3,161,None,Tap,No,N/A,12,2024,Mar,4,4,98946
+1005,Eastern,Jinja,Jinja HC IV,HC IV,Hypertension,J18,6-12,Male,163,3,163,Secondary,Borehole,No,N/A,19,2024,Jan,29,7,143429
+1006,Central,Kampala,Kampala District Hospital,HC IV,Hypertension,J18,20-35,Female,102,2,102,Primary,Tap,No,N/A,42,2024,Feb,40,2,152684
+1007,Central,Mukono,Mukono District Hospital,HC IV,Diarrhea,J18,0-5,Male,1,0,1,Secondary,Borehole,No,N/A,1,2024,Jan,20,4,606225
+1008,Central,Kampala,Kampala District Hospital,HC III,Diarrhea,J18,20-35,Female,28,0,28,Primary,Borehole,No,N/A,25,2024,Jan,7,2,154395
+1009,Western,Fort Portal,Fort Portal District Hospital,HC II,Malnutrition,J18,0-5,Male,167,3,167,Primary,Borehole,No,N/A,19,2024,Feb,23,4,507958
+1010,Western,Kabale,Kabale HC III,HC II,Anemia,J18,0-5,Female,23,0,23,None,Borehole,No,N/A,38,2024,Mar,12,5,517573
+1011,Western,Kabale,Kabale District Hospital,HC IV,Maternal Complications,J18,6-12,Female,230,4,230,Secondary,Tap,No,N/A,52,2024,Feb,18,5,412174
+1012,Eastern,Mbale,Mbale District Hospital,HC II,Malnutrition,J18,20-35,Female,131,2,131,Secondary,Tap,No,N/A,39,2024,Feb,32,6,89153
+1013,Western,Fort Portal,Fort Portal HC III,HC II,Anemia,J18,60+,Male,74,1,74,None,Tap,No,N/A,29,2024,Feb,41,1,142900
+1014,Central,Wakiso,Wakiso HC IV,HC IV,Hypertension,J18,20-35,Male,6,0,6,Primary,Borehole,No,N/A,8,2024,Mar,6,0,673891
+1015,Northern,Arua,Arua HC III,HC IV,Diarrhea,J18,0-5,Male,83,1,83,None,Tap,No,N/A,14,2024,Feb,5,0,730480
+1016,Western,Mbarara,Mbarara HC III,HC IV,Anemia,J18,6-12,Male,163,3,163,Secondary,Tap,No,N/A,52,2024,Mar,2,13,319181
+1017,Eastern,Tororo,Tororo HC III,HC II,Maternal Complications,J18,20-35,Female,225,4,225,Secondary,Tap,No,N/A,41,2024,Jan,9,14,709163
+1018,Central,Kampala,Kampala HC III,HC IV,TB,J18,60+,Female,57,1,57,Primary,Tap,No,N/A,25,2024,Jan,25,5,356271
+1019,Western,Fort Portal,Fort Portal District Hospital,HC IV,Malnutrition,J18,6-12,Female,90,1,90,Primary,Tap,No,N/A,49,2024,Feb,42,12,419478
+1020,Western,Fort Portal,Fort Portal HC III,HC II,Malaria,B54,20-35,Male,140,2,140,Primary,Tap,No,N/A,14,2024,Jan,45,0,784485
+1021,Central,Kampala,Kampala HC IV,HC IV,Diarrhea,J18,60+,Male,154,3,154,Secondary,Borehole,No,N/A,34,2024,Jan,28,13,325761
+1022,Western,Kabale,Kabale HC IV,HC II,Diarrhea,J18,20-35,Male,44,0,44,None,Borehole,No,N/A,28,2024,Mar,32,7,464946
+1023,Central,Kampala,Kampala HC IV,HC II,HIV/AIDS,J18,20-35,Male,15,0,15,None,Tap,No,N/A,48,2024,Feb,4,4,96615
+1024,Western,Fort Portal,Fort Portal District Hospital,HC IV,Malnutrition,J18,6-12,Male,15,0,15,None,Tap,No,N/A,16,2024,Feb,12,13,486144
+1025,Eastern,Jinja,Jinja HC IV,HC III,Maternal Complications,J18,60+,Male,179,3,179,None,Tap,No,N/A,14,2024,Feb,49,11,654937
+1026,Central,Mukono,Mukono HC III,HC IV,TB,J18,0-5,Female,211,4,211,Primary,Tap,No,N/A,25,2024,Jan,8,13,492621
+1027,Western,Mbarara,Mbarara HC III,HC III,Diarrhea,J18,6-12,Male,157,3,157,Secondary,Borehole,No,N/A,37,2024,Mar,24,6,389464
+1028,Western,Mbarara,Mbarara HC III,HC IV,Hypertension,J18,0-5,Female,76,1,76,None,Tap,No,N/A,10,2024,Jan,44,10,693516
+1029,Northern,Gulu,Gulu HC III,HC IV,Diabetes,J18,0-5,Male,207,4,207,Primary,Tap,No,N/A,46,2024,Feb,37,10,58252
+1030,Western,Mbarara,Mbarara HC III,HC III,Diabetes,J18,6-12,Male,239,4,239,None,Tap,No,N/A,35,2024,Feb,37,14,228874
+1031,Central,Mukono,Mukono HC III,HC IV,Hypertension,J18,6-12,Male,238,4,238,Secondary,Tap,No,N/A,37,2024,Mar,34,10,649738
+1032,Eastern,Mbale,Mbale District Hospital,HC II,Malnutrition,J18,0-5,Male,235,4,235,Secondary,Tap,No,N/A,18,2024,Jan,2,6,25317
+1033,Western,Fort Portal,Fort Portal HC III,HC IV,Malaria,B54,6-12,Male,199,3,199,None,Tap,No,N/A,8,2024,Jan,49,3,719838
+1034,Western,Kabale,Kabale District Hospital,HC IV,Malnutrition,J18,60+,Male,35,0,35,Primary,Borehole,No,N/A,37,2024,Mar,39,2,210931
+1035,Northern,Arua,Arua HC III,HC IV,Hypertension,J18,6-12,Male,2,0,2,Secondary,Borehole,No,N/A,5,2024,Feb,14,14,7008
+1036,Eastern,Tororo,Tororo HC III,HC II,Hypertension,J18,0-5,Female,203,4,203,Primary,Tap,No,N/A,22,2024,Mar,20,12,496509
+1037,Central,Mukono,Mukono District Hospital,HC IV,Hypertension,J18,60+,Male,38,0,38,Secondary,Borehole,No,N/A,38,2024,Mar,1,4,81455
+1038,Western,Mbarara,Mbarara HC IV,HC III,Hypertension,J18,20-35,Female,76,1,76,None,Borehole,No,N/A,48,2024,Mar,32,8,189395
+1039,Central,Mukono,Mukono HC III,HC III,HIV/AIDS,J18,0-5,Male,189,3,189,Primary,Borehole,No,N/A,47,2024,Feb,2,3,43466
+1040,Eastern,Jinja,Jinja District Hospital,HC III,Maternal Complications,J18,0-5,Male,198,3,198,None,Tap,No,N/A,17,2024,Mar,34,0,302584
+1041,Northern,Lira,Lira District Hospital,HC III,HIV/AIDS,J18,60+,Female,158,3,158,Secondary,Borehole,No,N/A,24,2024,Jan,26,4,97106
+1042,Central,Mukono,Mukono HC IV,HC III,Maternal Complications,J18,6-12,Female,205,4,205,None,Tap,No,N/A,26,2024,Jan,4,3,114406
+1043,Eastern,Jinja,Jinja HC IV,HC IV,Malaria,B54,20-35,Male,248,4,248,Secondary,Borehole,No,N/A,51,2024,Jan,6,9,422693
+1044,Eastern,Tororo,Tororo District Hospital,HC III,TB,J18,0-5,Female,247,4,247,None,Borehole,No,N/A,51,2024,Jan,48,13,783968
+1045,Western,Fort Portal,Fort Portal HC III,HC III,Pneumonia,J18,0-5,Female,238,4,238,Secondary,Tap,No,N/A,7,2024,Feb,8,9,491936
+1046,Western,Mbarara,Mbarara HC IV,HC III,Anemia,J18,0-5,Male,149,2,149,Primary,Borehole,No,N/A,33,2024,Jan,21,7,456527
+1047,Central,Kampala,Kampala HC III,HC III,Anemia,J18,60+,Female,58,1,58,None,Borehole,No,N/A,45,2024,Jan,5,6,583816
+1048,Eastern,Mbale,Mbale HC III,HC IV,Pneumonia,J18,0-5,Female,87,1,87,Primary,Borehole,No,N/A,20,2024,Feb,12,14,724289
+1049,Western,Mbarara,Mbarara District Hospital,HC II,Anemia,J18,0-5,Female,64,1,64,None,Tap,No,N/A,4,2024,Mar,6,8,67198
+1050,Western,Fort Portal,Fort Portal District Hospital,HC II,HIV/AIDS,J18,6-12,Female,43,0,43,Secondary,Tap,No,N/A,35,2024,Mar,15,7,515830
+1051,Eastern,Jinja,Jinja HC IV,HC III,Pneumonia,J18,0-5,Male,139,2,139,Secondary,Borehole,No,N/A,33,2024,Mar,40,7,774764
+1052,Eastern,Jinja,Jinja HC IV,HC II,Maternal Complications,J18,20-35,Female,95,1,95,None,Borehole,No,N/A,43,2024,Jan,37,6,382740
+1053,Western,Fort Portal,Fort Portal HC III,HC II,Diabetes,J18,20-35,Female,51,1,51,None,Tap,No,N/A,7,2024,Jan,13,8,645823
+1054,Eastern,Mbale,Mbale HC III,HC IV,Malaria,B54,60+,Female,439,8,439,None,Borehole,No,N/A,24,2024,Jan,41,14,134922
+1055,Eastern,Mbale,Mbale HC IV,HC III,Diabetes,J18,20-35,Female,76,1,76,Secondary,Borehole,No,N/A,48,2024,Mar,34,2,445375
+1056,Eastern,Tororo,Tororo HC III,HC III,Pneumonia,J18,6-12,Male,6,0,6,Secondary,Tap,No,N/A,4,2024,Feb,22,1,708878
+1057,Central,Wakiso,Wakiso District Hospital,HC III,Malnutrition,J18,20-35,Female,161,3,161,Secondary,Borehole,No,N/A,27,2024,Jan,21,7,212570
+1058,Northern,Lira,Lira HC III,HC II,Hypertension,J18,6-12,Male,181,3,181,Secondary,Borehole,No,N/A,1,2024,Mar,5,5,366479
+1059,Eastern,Mbale,Mbale District Hospital,HC III,Anemia,J18,6-12,Female,224,4,224,Secondary,Borehole,No,N/A,14,2024,Jan,18,1,201334
+1060,Central,Wakiso,Wakiso HC IV,HC III,Malnutrition,J18,60+,Male,153,3,153,None,Borehole,No,N/A,48,2024,Feb,48,0,112242
+1061,Northern,Lira,Lira HC IV,HC III,Malnutrition,J18,20-35,Male,63,1,63,Primary,Borehole,No,N/A,17,2024,Feb,25,4,138195
+1062,Central,Mukono,Mukono HC III,HC III,Hypertension,J18,20-35,Female,7,0,7,Secondary,Tap,No,N/A,24,2024,Jan,24,0,530014
+1063,Central,Mukono,Mukono District Hospital,HC II,Hypertension,J18,20-35,Female,195,3,195,Secondary,Tap,No,N/A,43,2024,Jan,22,9,188227
+1064,Northern,Arua,Arua HC IV,HC III,Hypertension,J18,20-35,Female,108,2,108,Primary,Borehole,No,N/A,16,2024,Jan,8,3,246566
+1065,Eastern,Jinja,Jinja District Hospital,HC IV,Diabetes,J18,0-5,Male,168,3,168,Secondary,Borehole,No,N/A,12,2024,Mar,42,3,122155
+1066,Northern,Arua,Arua HC IV,HC III,TB,J18,0-5,Male,161,3,161,Secondary,Tap,No,N/A,15,2024,Jan,1,12,502633
+1067,Northern,Lira,Lira District Hospital,HC IV,TB,J18,0-5,Female,101,2,101,None,Borehole,No,N/A,14,2024,Jan,22,4,420776
+1068,Central,Mukono,Mukono District Hospital,HC II,HIV/AIDS,J18,20-35,Female,48,0,48,None,Borehole,No,N/A,32,2024,Feb,40,4,709779
+1069,Western,Kabale,Kabale HC III,HC II,TB,J18,20-35,Male,224,4,224,Primary,Borehole,No,N/A,47,2024,Feb,31,0,500968
+1070,Northern,Arua,Arua HC IV,HC IV,Hypertension,J18,60+,Male,242,4,242,Primary,Tap,No,N/A,51,2024,Mar,24,5,538056
+1071,Central,Wakiso,Wakiso District Hospital,HC III,Malnutrition,J18,60+,Female,75,1,75,Secondary,Borehole,No,N/A,50,2024,Jan,17,5,494190
+1072,Northern,Arua,Arua HC III,HC IV,Pneumonia,J18,0-5,Male,27,0,27,Secondary,Borehole,No,N/A,28,2024,Jan,12,9,255364
+1073,Eastern,Mbale,Mbale District Hospital,HC II,Malaria,B54,60+,Female,147,2,147,Primary,Tap,No,N/A,42,2024,Jan,38,7,57182
+1074,Eastern,Mbale,Mbale HC III,HC III,Maternal Complications,J18,0-5,Female,59,1,59,None,Tap,No,N/A,19,2024,Mar,11,7,711144
+1075,Northern,Arua,Arua District Hospital,HC III,Anemia,J18,20-35,Male,150,3,150,Primary,Tap,No,N/A,30,2024,Mar,10,0,260761
+1076,Central,Mukono,Mukono HC IV,HC IV,Pneumonia,J18,6-12,Female,188,3,188,Secondary,Borehole,No,N/A,23,2024,Mar,32,13,199117
+1077,Central,Wakiso,Wakiso HC IV,HC III,Diabetes,J18,6-12,Female,206,4,206,None,Tap,No,N/A,47,2024,Mar,35,12,177391
+1078,Western,Mbarara,Mbarara District Hospital,HC III,Hypertension,J18,6-12,Female,244,4,244,None,Tap,No,N/A,4,2024,Jan,36,7,275283
+1079,Eastern,Tororo,Tororo HC III,HC IV,HIV/AIDS,J18,20-35,Female,226,4,226,Primary,Tap,No,N/A,35,2024,Jan,37,10,751147
+1080,Western,Mbarara,Mbarara HC IV,HC III,HIV/AIDS,J18,20-35,Male,57,1,57,Primary,Borehole,No,N/A,26,2024,Feb,24,2,486598
+1081,Eastern,Tororo,Tororo HC III,HC IV,Maternal Complications,J18,60+,Male,155,3,155,Secondary,Borehole,No,N/A,9,2024,Mar,9,2,7755
+1082,Eastern,Mbale,Mbale HC IV,HC IV,Pneumonia,J18,20-35,Male,116,2,116,Secondary,Tap,No,N/A,40,2024,Mar,24,7,56014
+1083,Central,Kampala,Kampala HC IV,HC III,Pneumonia,J18,60+,Female,174,3,174,Secondary,Borehole,No,N/A,27,2024,Jan,8,13,423035
+1084,Northern,Gulu,Gulu District Hospital,HC II,HIV/AIDS,J18,60+,Male,92,1,92,Primary,Borehole,No,N/A,9,2024,Feb,33,12,5745
+1085,Central,Wakiso,Wakiso HC III,HC IV,Malaria,B54,6-12,Female,180,3,180,Secondary,Tap,No,N/A,40,2024,Jan,37,3,640548
+1086,Central,Mukono,Mukono District Hospital,HC II,Diarrhea,J18,20-35,Male,208,4,208,None,Borehole,No,N/A,30,2024,Jan,39,12,249924
+1087,Northern,Lira,Lira HC III,HC IV,Malaria,B54,6-12,Male,250,5,250,Secondary,Tap,No,N/A,21,2024,Feb,20,12,159942
+1088,Eastern,Mbale,Mbale HC III,HC IV,TB,J18,0-5,Male,160,3,160,Secondary,Tap,No,N/A,7,2024,Feb,42,13,559853
+1089,Eastern,Mbale,Mbale District Hospital,HC IV,Malnutrition,J18,20-35,Female,204,4,204,None,Borehole,No,N/A,13,2024,Feb,1,0,407458
+1090,Western,Mbarara,Mbarara HC IV,HC II,Hypertension,J18,0-5,Male,114,2,114,Secondary,Borehole,No,N/A,20,2024,Feb,1,3,566860
+1091,Northern,Lira,Lira District Hospital,HC III,Maternal Complications,J18,6-12,Female,58,1,58,Secondary,Borehole,No,N/A,27,2024,Jan,6,12,399303
+1092,Western,Mbarara,Mbarara HC IV,HC II,Diabetes,J18,60+,Female,40,0,40,Secondary,Tap,No,N/A,37,2024,Mar,8,1,164026
+1093,Western,Fort Portal,Fort Portal District Hospital,HC IV,Hypertension,J18,0-5,Male,176,3,176,Secondary,Tap,No,N/A,12,2024,Feb,49,0,553657
+1094,Western,Fort Portal,Fort Portal HC IV,HC III,HIV/AIDS,J18,60+,Male,125,2,125,Secondary,Borehole,No,N/A,44,2024,Mar,36,13,201287
+1095,Central,Mukono,Mukono HC IV,HC III,Pneumonia,J18,20-35,Male,227,4,227,Secondary,Tap,No,N/A,51,2024,Mar,40,8,283623
+1096,Western,Fort Portal,Fort Portal HC III,HC IV,Maternal Complications,J18,6-12,Female,138,2,138,None,Borehole,No,N/A,31,2024,Feb,29,10,258185
+1097,Central,Wakiso,Wakiso HC III,HC IV,HIV/AIDS,J18,20-35,Female,8,0,8,Primary,Borehole,No,N/A,34,2024,Feb,45,13,554760
+1098,Northern,Arua,Arua HC III,HC III,Malnutrition,J18,6-12,Male,99,1,99,Primary,Borehole,No,N/A,19,2024,Jan,12,6,314289
+1099,Northern,Lira,Lira HC IV,HC II,Malaria,B54,60+,Female,369,7,369,Secondary,Borehole,No,N/A,33,2024,Mar,15,5,677905
+1100,Northern,Gulu,Gulu HC IV,HC III,Malnutrition,J18,20-35,Female,149,2,149,Primary,Tap,No,N/A,49,2024,Feb,10,1,694458
+1101,Northern,Lira,Lira District Hospital,HC IV,TB,J18,6-12,Female,109,2,109,Secondary,Borehole,No,N/A,20,2024,Feb,22,5,95424
+1102,Central,Mukono,Mukono District Hospital,HC IV,Maternal Complications,J18,6-12,Female,129,2,129,None,Borehole,No,N/A,12,2024,Mar,2,12,575214
+1103,Western,Kabale,Kabale HC IV,HC IV,Hypertension,J18,20-35,Male,118,2,118,None,Borehole,No,N/A,38,2024,Feb,45,9,357707
+1104,Northern,Arua,Arua District Hospital,HC IV,Diarrhea,J18,0-5,Male,59,1,59,None,Borehole,No,N/A,15,2024,Jan,23,8,145223
+1105,Northern,Gulu,Gulu HC III,HC II,Diarrhea,J18,60+,Male,148,2,148,Secondary,Borehole,No,N/A,31,2024,Feb,28,13,252173
+1106,Northern,Arua,Arua HC III,HC II,Diarrhea,J18,0-5,Male,127,2,127,None,Tap,No,N/A,13,2024,Jan,7,6,299002
+1107,Eastern,Mbale,Mbale District Hospital,HC IV,Hypertension,J18,0-5,Male,11,0,11,None,Tap,No,N/A,5,2024,Mar,3,9,534046
+1108,Western,Kabale,Kabale HC IV,HC IV,Malnutrition,J18,0-5,Male,207,4,207,None,Tap,No,N/A,35,2024,Feb,41,14,375033
+1109,Central,Wakiso,Wakiso HC III,HC II,HIV/AIDS,J18,60+,Female,109,2,109,None,Borehole,No,N/A,10,2024,Mar,45,2,304705
+1110,Western,Fort Portal,Fort Portal HC III,HC II,Malaria,B54,0-5,Female,96,1,96,None,Tap,No,N/A,32,2024,Jan,7,12,572493
+1111,Eastern,Mbale,Mbale HC IV,HC IV,TB,J18,60+,Female,151,3,151,None,Borehole,No,N/A,36,2024,Jan,26,3,309462
+1112,Central,Mukono,Mukono HC III,HC II,Anemia,J18,0-5,Female,47,0,47,None,Borehole,No,N/A,12,2024,Feb,3,2,737175
+1113,Northern,Gulu,Gulu HC III,HC II,Malaria,B54,60+,Male,223,4,223,None,Borehole,No,N/A,22,2024,Jan,43,0,634254
+1114,Eastern,Jinja,Jinja District Hospital,HC II,Malnutrition,J18,0-5,Female,192,3,192,None,Tap,No,N/A,42,2024,Jan,14,10,769062
+1115,Eastern,Jinja,Jinja HC IV,HC IV,TB,J18,6-12,Female,19,0,19,None,Tap,No,N/A,31,2024,Jan,15,7,644036
+1116,Western,Fort Portal,Fort Portal HC IV,HC IV,Malaria,B54,20-35,Female,51,1,51,None,Tap,No,N/A,22,2024,Feb,26,8,392611
+1117,Western,Mbarara,Mbarara HC IV,HC IV,Malnutrition,J18,20-35,Female,213,4,213,Secondary,Tap,No,N/A,21,2024,Mar,2,1,39725
+1118,Eastern,Mbale,Mbale HC IV,HC III,Maternal Complications,J18,20-35,Female,200,4,200,None,Tap,No,N/A,23,2024,Feb,2,1,420440
+1119,Central,Wakiso,Wakiso HC IV,HC II,Diarrhea,J18,20-35,Female,46,0,46,None,Borehole,No,N/A,49,2024,Jan,22,10,5240
+1120,Eastern,Tororo,Tororo District Hospital,HC II,Malnutrition,J18,60+,Female,134,2,134,Secondary,Borehole,No,N/A,12,2024,Jan,6,14,382408
+1121,Eastern,Tororo,Tororo HC III,HC II,TB,J18,60+,Female,60,1,60,Primary,Tap,No,N/A,50,2024,Feb,1,14,342318
+1122,Western,Mbarara,Mbarara District Hospital,HC III,Maternal Complications,J18,60+,Male,57,1,57,Secondary,Tap,No,N/A,42,2024,Jan,33,10,543643
+1123,Western,Mbarara,Mbarara HC III,HC IV,Anemia,J18,0-5,Male,215,4,215,None,Borehole,No,N/A,43,2024,Feb,32,2,120396
+1124,Eastern,Tororo,Tororo HC IV,HC III,Anemia,J18,60+,Female,172,3,172,Secondary,Tap,No,N/A,24,2024,Jan,11,14,285840
+1125,Northern,Lira,Lira District Hospital,HC II,Diarrhea,J18,20-35,Female,105,2,105,Primary,Tap,No,N/A,2,2024,Jan,37,5,383862
+1126,Western,Mbarara,Mbarara HC III,HC III,Malnutrition,J18,6-12,Male,121,2,121,None,Borehole,No,N/A,45,2024,Mar,1,1,95558
+1127,Western,Kabale,Kabale HC IV,HC II,Hypertension,J18,20-35,Female,111,2,111,None,Borehole,No,N/A,46,2024,Feb,26,6,91137
+1128,Central,Wakiso,Wakiso District Hospital,HC III,Malnutrition,J18,60+,Female,227,4,227,Primary,Borehole,No,N/A,28,2024,Feb,28,9,582013
+1129,Central,Kampala,Kampala HC III,HC III,Diarrhea,J18,0-5,Female,206,4,206,None,Tap,No,N/A,44,2024,Mar,45,8,426522
+1130,Central,Mukono,Mukono District Hospital,HC IV,Pneumonia,J18,0-5,Female,126,2,126,Secondary,Borehole,No,N/A,3,2024,Feb,16,7,363607
+1131,Western,Fort Portal,Fort Portal District Hospital,HC IV,TB,J18,20-35,Male,76,1,76,None,Tap,No,N/A,30,2024,Feb,4,7,40364
+1132,Central,Wakiso,Wakiso District Hospital,HC III,Hypertension,J18,0-5,Female,152,3,152,Secondary,Tap,No,N/A,22,2024,Mar,29,3,794996
+1133,Central,Wakiso,Wakiso District Hospital,HC III,Malnutrition,J18,60+,Male,89,1,89,Secondary,Borehole,No,N/A,27,2024,Mar,21,3,334218
+1134,Central,Mukono,Mukono HC III,HC III,Anemia,J18,6-12,Female,93,1,93,None,Tap,No,N/A,45,2024,Feb,22,10,26431
+1135,Northern,Lira,Lira HC III,HC IV,Anemia,J18,20-35,Female,164,3,164,Secondary,Tap,No,N/A,6,2024,Feb,46,11,413714
+1136,Western,Mbarara,Mbarara HC IV,HC IV,Pneumonia,J18,60+,Male,158,3,158,None,Borehole,No,N/A,2,2024,Feb,14,11,693848
+1137,Northern,Lira,Lira District Hospital,HC III,HIV/AIDS,J18,20-35,Female,80,1,80,Primary,Borehole,No,N/A,4,2024,Feb,14,7,226945
+1138,Western,Kabale,Kabale District Hospital,HC III,Anemia,J18,6-12,Male,24,0,24,Secondary,Borehole,No,N/A,36,2024,Feb,47,9,610723
+1139,Northern,Arua,Arua District Hospital,HC II,Maternal Complications,J18,0-5,Male,168,3,168,Secondary,Tap,No,N/A,30,2024,Jan,17,4,35644
+1140,Central,Wakiso,Wakiso District Hospital,HC II,TB,J18,20-35,Male,79,1,79,None,Tap,No,N/A,12,2024,Jan,44,6,612829
+1141,Northern,Arua,Arua HC IV,HC II,Malaria,B54,20-35,Male,327,6,327,Primary,Borehole,No,N/A,22,2024,Jan,44,9,477188
+1142,Northern,Lira,Lira HC IV,HC II,Diarrhea,J18,0-5,Male,155,3,155,None,Tap,No,N/A,35,2024,Jan,6,13,218355
+1143,Western,Fort Portal,Fort Portal HC III,HC II,Malaria,B54,0-5,Female,113,2,113,Primary,Borehole,No,N/A,18,2024,Feb,28,8,38081
+1144,Western,Fort Portal,Fort Portal District Hospital,HC IV,Hypertension,J18,6-12,Female,12,0,12,Primary,Borehole,No,N/A,33,2024,Jan,43,8,745542
+1145,Central,Mukono,Mukono HC IV,HC II,Anemia,J18,0-5,Female,129,2,129,Primary,Borehole,No,N/A,49,2024,Jan,5,1,267361
+1146,Eastern,Mbale,Mbale HC IV,HC II,Hypertension,J18,20-35,Male,72,1,72,Primary,Tap,No,N/A,19,2024,Mar,36,11,496460
+1147,Central,Mukono,Mukono District Hospital,HC IV,Pneumonia,J18,60+,Female,228,4,228,Secondary,Tap,No,N/A,5,2024,Feb,30,14,657473
+1148,Eastern,Tororo,Tororo HC III,HC III,Hypertension,J18,0-5,Male,76,1,76,Secondary,Borehole,No,N/A,26,2024,Feb,42,9,180816
+1149,Western,Mbarara,Mbarara District Hospital,HC IV,HIV/AIDS,J18,6-12,Male,89,1,89,Secondary,Borehole,No,N/A,3,2024,Feb,6,11,622184
+1150,Northern,Arua,Arua HC III,HC II,Diarrhea,J18,20-35,Female,242,4,242,Secondary,Borehole,No,N/A,32,2024,Jan,29,13,41570
+1151,Western,Mbarara,Mbarara HC IV,HC III,Maternal Complications,J18,6-12,Female,95,1,95,None,Tap,No,N/A,3,2024,Jan,2,3,282999
+1152,Western,Mbarara,Mbarara HC IV,HC II,Hypertension,J18,6-12,Male,71,1,71,Primary,Borehole,No,N/A,24,2024,Feb,20,4,39380
+1153,Northern,Arua,Arua HC III,HC IV,Diabetes,J18,60+,Female,65,1,65,None,Tap,No,N/A,12,2024,Feb,39,14,764931
+1154,Eastern,Jinja,Jinja HC IV,HC II,Anemia,J18,0-5,Male,216,4,216,None,Tap,No,N/A,48,2024,Jan,30,1,89795
+1155,Eastern,Tororo,Tororo HC IV,HC II,TB,J18,6-12,Female,160,3,160,None,Tap,No,N/A,51,2024,Jan,24,7,353887
+1156,Eastern,Jinja,Jinja HC IV,HC IV,Hypertension,J18,20-35,Male,111,2,111,None,Tap,No,N/A,20,2024,Mar,5,2,622706
+1157,Eastern,Tororo,Tororo HC IV,HC IV,Malaria,B54,20-35,Male,176,3,176,None,Tap,No,N/A,40,2024,Jan,44,5,147263
+1158,Northern,Gulu,Gulu HC III,HC III,HIV/AIDS,J18,6-12,Female,44,0,44,Secondary,Tap,No,N/A,43,2024,Mar,36,0,798684
+1159,Western,Fort Portal,Fort Portal HC IV,HC IV,Maternal Complications,J18,6-12,Female,142,2,142,Primary,Tap,No,N/A,26,2024,Mar,48,2,249514
+1160,Northern,Gulu,Gulu HC IV,HC II,TB,J18,20-35,Male,154,3,154,Secondary,Tap,No,N/A,48,2024,Jan,20,6,243292
+1161,Northern,Lira,Lira HC IV,HC III,Diarrhea,J18,60+,Male,55,1,55,Primary,Tap,No,N/A,42,2024,Mar,33,0,142027
+1162,Eastern,Mbale,Mbale District Hospital,HC IV,HIV/AIDS,J18,6-12,Male,60,1,60,Primary,Borehole,No,N/A,40,2024,Jan,16,6,672956
+1163,Central,Kampala,Kampala HC III,HC II,Diabetes,J18,60+,Male,107,2,107,None,Tap,No,N/A,29,2024,Jan,44,10,476777
+1164,Eastern,Mbale,Mbale HC III,HC III,Pneumonia,J18,60+,Male,134,2,134,None,Borehole,No,N/A,52,2024,Feb,3,11,165159
+1165,Eastern,Mbale,Mbale HC III,HC III,Anemia,J18,6-12,Male,42,0,42,Primary,Tap,No,N/A,27,2024,Jan,16,11,329049
+1166,Eastern,Tororo,Tororo HC III,HC III,Diabetes,J18,60+,Male,164,3,164,Primary,Tap,No,N/A,50,2024,Jan,6,3,557695
+1167,Eastern,Tororo,Tororo HC IV,HC IV,Malaria,B54,6-12,Male,347,6,347,None,Tap,No,N/A,27,2024,Feb,9,5,259244
+1168,Western,Fort Portal,Fort Portal District Hospital,HC III,HIV/AIDS,J18,6-12,Male,20,0,20,None,Tap,No,N/A,5,2024,Mar,1,8,622343
+1169,Central,Kampala,Kampala HC IV,HC III,Malaria,B54,20-35,Male,81,1,81,Primary,Tap,No,N/A,17,2024,Mar,12,14,312981
+1170,Northern,Lira,Lira HC IV,HC IV,Anemia,J18,60+,Female,60,1,60,None,Tap,No,N/A,1,2024,Jan,16,5,748825
+1171,Northern,Lira,Lira District Hospital,HC IV,TB,J18,60+,Male,27,0,27,Secondary,Tap,No,N/A,48,2024,Feb,7,1,545851
+1172,Northern,Gulu,Gulu District Hospital,HC IV,HIV/AIDS,J18,6-12,Female,7,0,7,Secondary,Borehole,No,N/A,37,2024,Mar,23,10,729039
+1173,Central,Wakiso,Wakiso HC III,HC IV,Malaria,B54,6-12,Female,93,1,93,Primary,Tap,No,N/A,30,2024,Mar,4,12,371522
+1174,Northern,Lira,Lira HC IV,HC IV,Diabetes,J18,0-5,Female,97,1,97,None,Tap,No,N/A,15,2024,Feb,17,13,727627
+1175,Northern,Lira,Lira District Hospital,HC II,Diabetes,J18,60+,Male,6,0,6,Primary,Borehole,No,N/A,33,2024,Jan,6,5,765617
+1176,Eastern,Tororo,Tororo HC IV,HC II,Malnutrition,J18,20-35,Female,103,2,103,Secondary,Borehole,No,N/A,43,2024,Feb,11,6,269410
+1177,Western,Kabale,Kabale District Hospital,HC III,HIV/AIDS,J18,20-35,Male,226,4,226,None,Borehole,No,N/A,31,2024,Mar,14,11,723090
+1178,Western,Kabale,Kabale HC IV,HC IV,Hypertension,J18,0-5,Female,66,1,66,None,Borehole,No,N/A,52,2024,Jan,12,5,548194
+1179,Western,Kabale,Kabale HC III,HC II,Malaria,B54,0-5,Male,193,3,193,Primary,Borehole,No,N/A,22,2024,Mar,25,4,673828
+1180,Central,Wakiso,Wakiso HC III,HC III,Anemia,J18,60+,Male,205,4,205,Primary,Tap,No,N/A,46,2024,Mar,39,4,443926
+1181,Central,Mukono,Mukono HC IV,HC II,Diarrhea,J18,0-5,Female,161,3,161,Primary,Borehole,No,N/A,38,2024,Feb,42,3,335337
+1182,Eastern,Jinja,Jinja HC IV,HC IV,Anemia,J18,20-35,Male,123,2,123,Secondary,Borehole,No,N/A,42,2024,Feb,1,3,278352
+1183,Northern,Gulu,Gulu District Hospital,HC II,Pneumonia,J18,0-5,Male,95,1,95,Primary,Borehole,No,N/A,44,2024,Feb,26,11,222571
+1184,Eastern,Jinja,Jinja District Hospital,HC III,Pneumonia,J18,20-35,Male,17,0,17,Primary,Tap,No,N/A,15,2024,Feb,36,11,643749
+1185,Eastern,Jinja,Jinja HC III,HC IV,Anemia,J18,0-5,Male,8,0,8,None,Tap,No,N/A,21,2024,Mar,25,6,727512
+1186,Central,Wakiso,Wakiso HC III,HC III,Diarrhea,J18,20-35,Female,87,1,87,Secondary,Tap,No,N/A,47,2024,Mar,42,4,90445
+1187,Western,Mbarara,Mbarara HC IV,HC III,Maternal Complications,J18,60+,Female,12,0,12,None,Borehole,No,N/A,16,2024,Feb,26,9,680169
+1188,Central,Mukono,Mukono District Hospital,HC III,Malaria,B54,60+,Female,168,3,168,None,Borehole,No,N/A,26,2024,Jan,42,0,548522
+1189,Central,Wakiso,Wakiso District Hospital,HC IV,TB,J18,20-35,Female,139,2,139,Secondary,Tap,No,N/A,38,2024,Feb,1,10,750105
+1190,Northern,Arua,Arua HC III,HC II,Malnutrition,J18,6-12,Male,83,1,83,Secondary,Tap,No,N/A,52,2024,Jan,28,11,627775
+1191,Northern,Lira,Lira HC IV,HC IV,Diarrhea,J18,20-35,Male,64,1,64,None,Borehole,No,N/A,30,2024,Mar,14,3,43682
+1192,Eastern,Mbale,Mbale HC III,HC II,Malnutrition,J18,0-5,Male,176,3,176,Primary,Tap,No,N/A,42,2024,Mar,1,9,709838
+1193,Western,Mbarara,Mbarara HC III,HC II,Pneumonia,J18,6-12,Male,24,0,24,None,Borehole,No,N/A,7,2024,Feb,3,1,131166
+1194,Central,Mukono,Mukono HC IV,HC IV,Pneumonia,J18,20-35,Male,198,3,198,Primary,Tap,No,N/A,52,2024,Jan,29,10,66045
+1195,Northern,Arua,Arua HC IV,HC III,TB,J18,6-12,Male,77,1,77,None,Borehole,No,N/A,20,2024,Feb,16,5,429397
+1196,Northern,Lira,Lira District Hospital,HC IV,Hypertension,J18,60+,Female,27,0,27,Secondary,Borehole,No,N/A,51,2024,Jan,45,2,590265
+1197,Northern,Lira,Lira District Hospital,HC II,Pneumonia,J18,60+,Male,138,2,138,Primary,Borehole,No,N/A,7,2024,Mar,21,12,428860
+1198,Northern,Gulu,Gulu District Hospital,HC III,HIV/AIDS,J18,0-5,Male,46,0,46,Secondary,Borehole,No,N/A,44,2024,Jan,24,2,241504
+1199,Northern,Lira,Lira HC IV,HC IV,HIV/AIDS,J18,20-35,Female,85,1,85,Secondary,Tap,No,N/A,52,2024,Jan,34,7,573748
+1200,Central,Mukono,Mukono HC IV,HC III,Hypertension,J18,20-35,Female,211,4,211,Secondary,Borehole,No,N/A,44,2024,Feb,43,5,142874
+1201,Northern,Lira,Lira District Hospital,HC III,Diarrhea,J18,0-5,Male,27,0,27,Primary,Tap,No,N/A,36,2024,Jan,37,14,500141
+1202,Eastern,Mbale,Mbale HC IV,HC IV,Anemia,J18,6-12,Male,120,2,120,None,Tap,No,N/A,11,2024,Mar,6,5,409211
+1203,Central,Mukono,Mukono HC III,HC IV,Maternal Complications,J18,60+,Male,109,2,109,None,Borehole,No,N/A,16,2024,Feb,15,10,92383
+1204,Northern,Arua,Arua HC III,HC III,Malnutrition,J18,20-35,Female,87,1,87,Secondary,Tap,No,N/A,3,2024,Mar,36,10,678989
+1205,Northern,Gulu,Gulu District Hospital,HC IV,TB,J18,20-35,Female,39,0,39,Primary,Borehole,No,N/A,47,2024,Jan,30,6,458343
+1206,Northern,Lira,Lira HC IV,HC IV,Malnutrition,J18,0-5,Male,154,3,154,Primary,Borehole,No,N/A,28,2024,Feb,39,11,271051
+1207,Northern,Lira,Lira District Hospital,HC IV,Malaria,B54,60+,Male,358,7,358,Primary,Borehole,No,N/A,3,2024,Mar,18,0,110149
+1208,Northern,Gulu,Gulu HC III,HC III,Malnutrition,J18,60+,Male,16,0,16,Secondary,Borehole,No,N/A,32,2024,Feb,13,5,461021
+1209,Northern,Lira,Lira HC III,HC II,Maternal Complications,J18,0-5,Male,129,2,129,Primary,Tap,No,N/A,17,2024,Feb,14,9,35785
+1210,Western,Mbarara,Mbarara District Hospital,HC III,Anemia,J18,20-35,Male,151,3,151,Primary,Borehole,No,N/A,22,2024,Mar,44,4,651861
+1211,Central,Kampala,Kampala HC III,HC II,Pneumonia,J18,6-12,Male,121,2,121,Secondary,Tap,No,N/A,1,2024,Mar,37,9,307131
+1212,Northern,Gulu,Gulu HC IV,HC IV,Diabetes,J18,60+,Female,42,0,42,Primary,Tap,No,N/A,19,2024,Mar,48,0,174408
+1213,Eastern,Mbale,Mbale HC III,HC IV,HIV/AIDS,J18,20-35,Male,61,1,61,Secondary,Tap,No,N/A,8,2024,Feb,38,12,721929
+1214,Central,Wakiso,Wakiso HC III,HC III,TB,J18,20-35,Female,86,1,86,Secondary,Tap,No,N/A,42,2024,Mar,1,5,605303
+1215,Northern,Lira,Lira District Hospital,HC IV,Diarrhea,J18,60+,Male,96,1,96,Primary,Tap,No,N/A,5,2024,Feb,48,5,677470
+1216,Northern,Gulu,Gulu HC IV,HC IV,Diabetes,J18,20-35,Male,48,0,48,Primary,Borehole,No,N/A,20,2024,Mar,40,12,290863
+1217,Eastern,Tororo,Tororo HC III,HC II,Maternal Complications,J18,6-12,Female,28,0,28,None,Borehole,No,N/A,3,2024,Feb,8,4,643344
+1218,Eastern,Mbale,Mbale HC IV,HC IV,Pneumonia,J18,0-5,Female,104,2,104,Primary,Tap,No,N/A,39,2024,Feb,47,7,207028
+1219,Eastern,Jinja,Jinja HC IV,HC III,Malaria,B54,20-35,Female,37,0,37,Primary,Tap,No,N/A,3,2024,Jan,48,13,549607
+1220,Central,Wakiso,Wakiso District Hospital,HC II,HIV/AIDS,J18,0-5,Female,48,0,48,Primary,Borehole,No,N/A,52,2024,Feb,15,6,505782
+1221,Northern,Gulu,Gulu District Hospital,HC II,Maternal Complications,J18,20-35,Female,204,4,204,Secondary,Tap,No,N/A,41,2024,Jan,42,0,365845
+1222,Eastern,Mbale,Mbale District Hospital,HC III,Maternal Complications,J18,20-35,Male,106,2,106,None,Tap,No,N/A,18,2024,Jan,28,12,733896
+1223,Northern,Gulu,Gulu HC IV,HC IV,Hypertension,J18,0-5,Female,196,3,196,Secondary,Borehole,No,N/A,6,2024,Mar,19,9,489537
+1224,Eastern,Tororo,Tororo HC IV,HC III,Malnutrition,J18,6-12,Female,223,4,223,None,Tap,No,N/A,44,2024,Jan,31,14,349834
+1225,Western,Kabale,Kabale HC III,HC II,Pneumonia,J18,6-12,Male,87,1,87,None,Borehole,No,N/A,36,2024,Jan,20,8,394648
+1226,Northern,Arua,Arua District Hospital,HC II,Hypertension,J18,6-12,Female,192,3,192,None,Borehole,No,N/A,44,2024,Mar,42,1,104105
+1227,Northern,Gulu,Gulu District Hospital,HC II,Pneumonia,J18,60+,Female,160,3,160,Secondary,Tap,No,N/A,7,2024,Jan,10,7,275516
+1228,Northern,Lira,Lira HC III,HC IV,Hypertension,J18,0-5,Male,48,0,48,Primary,Borehole,No,N/A,10,2024,Jan,21,3,290650
+1229,Central,Kampala,Kampala HC IV,HC IV,HIV/AIDS,J18,20-35,Female,78,1,78,Secondary,Borehole,No,N/A,47,2024,Feb,5,11,573689
+1230,Northern,Arua,Arua HC III,HC II,HIV/AIDS,J18,0-5,Male,52,1,52,Secondary,Tap,No,N/A,40,2024,Feb,10,1,300032
+1231,Central,Wakiso,Wakiso HC III,HC IV,Malaria,B54,60+,Female,125,2,125,Primary,Tap,No,N/A,48,2024,Jan,29,4,636343
+1232,Northern,Lira,Lira HC III,HC II,Malnutrition,J18,60+,Female,185,3,185,Secondary,Borehole,No,N/A,20,2024,Feb,38,6,675385
+1233,Eastern,Jinja,Jinja HC IV,HC III,HIV/AIDS,J18,20-35,Female,97,1,97,None,Borehole,No,N/A,16,2024,Feb,5,8,426255
+1234,Northern,Gulu,Gulu HC III,HC II,TB,J18,60+,Male,232,4,232,None,Tap,No,N/A,3,2024,Mar,10,0,772301
+1235,Western,Mbarara,Mbarara District Hospital,HC II,TB,J18,0-5,Female,213,4,213,None,Tap,No,N/A,11,2024,Jan,8,10,647485
+1236,Western,Kabale,Kabale HC IV,HC II,Malaria,B54,6-12,Male,219,4,219,Primary,Tap,No,N/A,40,2024,Jan,41,14,268954
+1237,Central,Wakiso,Wakiso HC III,HC II,Hypertension,J18,0-5,Female,57,1,57,Secondary,Tap,No,N/A,41,2024,Mar,45,2,555849
+1238,Eastern,Tororo,Tororo District Hospital,HC III,Diabetes,J18,20-35,Female,140,2,140,Secondary,Borehole,No,N/A,46,2024,Mar,33,5,182201
+1239,Western,Fort Portal,Fort Portal HC III,HC III,HIV/AIDS,J18,0-5,Female,22,0,22,None,Tap,No,N/A,41,2024,Mar,9,12,138851
+1240,Northern,Arua,Arua District Hospital,HC III,Diabetes,J18,20-35,Male,126,2,126,None,Borehole,No,N/A,7,2024,Jan,34,0,436190
+1241,Central,Kampala,Kampala HC IV,HC II,Pneumonia,J18,0-5,Male,73,1,73,None,Tap,No,N/A,50,2024,Mar,48,11,361153
+1242,Western,Mbarara,Mbarara District Hospital,HC IV,Malaria,B54,0-5,Female,124,2,124,Secondary,Tap,No,N/A,16,2024,Jan,44,7,736617
+1243,Western,Fort Portal,Fort Portal HC III,HC III,Malnutrition,J18,0-5,Male,227,4,227,None,Tap,No,N/A,45,2024,Jan,27,4,153437
+1244,Western,Mbarara,Mbarara District Hospital,HC IV,Pneumonia,J18,6-12,Male,72,1,72,None,Tap,No,N/A,10,2024,Mar,36,1,620356
+1245,Northern,Lira,Lira HC III,HC II,Pneumonia,J18,60+,Female,24,0,24,Secondary,Borehole,No,N/A,4,2024,Jan,35,12,331703
+1246,Western,Fort Portal,Fort Portal District Hospital,HC III,Malaria,B54,0-5,Male,73,1,73,Secondary,Borehole,No,N/A,29,2024,Mar,22,10,178367
+1247,Northern,Arua,Arua HC III,HC IV,Malnutrition,J18,60+,Female,209,4,209,None,Tap,No,N/A,39,2024,Feb,43,0,561110
+1248,Northern,Gulu,Gulu HC III,HC IV,HIV/AIDS,J18,6-12,Female,247,4,247,Secondary,Tap,No,N/A,31,2024,Jan,32,12,558850
+1249,Eastern,Tororo,Tororo HC IV,HC III,Diabetes,J18,6-12,Male,96,1,96,None,Borehole,No,N/A,17,2024,Jan,34,9,758009
+1250,Northern,Gulu,Gulu District Hospital,HC III,Hypertension,J18,6-12,Female,194,3,194,None,Borehole,No,N/A,33,2024,Feb,31,3,253591
+1251,Central,Mukono,Mukono HC IV,HC III,Pneumonia,J18,0-5,Female,213,4,213,None,Borehole,No,N/A,13,2024,Jan,17,6,130882
+1252,Eastern,Jinja,Jinja HC III,HC IV,Malnutrition,J18,60+,Male,22,0,22,Secondary,Borehole,No,N/A,52,2024,Mar,14,11,219320
+1253,Eastern,Mbale,Mbale District Hospital,HC IV,Malnutrition,J18,0-5,Female,18,0,18,Primary,Borehole,No,N/A,27,2024,Mar,29,14,573737
+1254,Central,Kampala,Kampala HC IV,HC IV,Anemia,J18,60+,Male,98,1,98,Primary,Borehole,No,N/A,9,2024,Jan,17,5,782420
+1255,Western,Mbarara,Mbarara HC IV,HC III,Pneumonia,J18,0-5,Male,123,2,123,Secondary,Tap,No,N/A,15,2024,Mar,6,2,206465
+1256,Eastern,Jinja,Jinja HC IV,HC II,Pneumonia,J18,0-5,Male,128,2,128,Primary,Tap,No,N/A,48,2024,Mar,20,5,692788
+1257,Central,Wakiso,Wakiso HC IV,HC II,Diarrhea,J18,6-12,Female,29,0,29,Primary,Borehole,No,N/A,41,2024,Mar,23,13,670822
+1258,Western,Fort Portal,Fort Portal HC IV,HC IV,HIV/AIDS,J18,20-35,Female,134,2,134,Secondary,Borehole,No,N/A,19,2024,Jan,34,9,229927
+1259,Western,Mbarara,Mbarara District Hospital,HC II,TB,J18,6-12,Female,87,1,87,None,Tap,No,N/A,28,2024,Mar,49,11,620109
+1260,Northern,Gulu,Gulu District Hospital,HC II,Anemia,J18,0-5,Female,124,2,124,Primary,Borehole,No,N/A,34,2024,Jan,40,13,676659
+1261,Eastern,Mbale,Mbale District Hospital,HC IV,Malnutrition,J18,20-35,Female,39,0,39,None,Borehole,No,N/A,14,2024,Jan,39,9,143071
+1262,Northern,Arua,Arua HC III,HC III,Diabetes,J18,60+,Female,127,2,127,Primary,Borehole,No,N/A,7,2024,Feb,43,4,210285
+1263,Northern,Arua,Arua HC III,HC IV,Diarrhea,J18,0-5,Female,168,3,168,Primary,Tap,No,N/A,10,2024,Feb,3,12,624623
+1264,Eastern,Mbale,Mbale HC IV,HC III,Hypertension,J18,60+,Female,237,4,237,None,Tap,No,N/A,25,2024,Feb,49,4,479671
+1265,Eastern,Jinja,Jinja HC IV,HC II,Hypertension,J18,6-12,Female,31,0,31,Secondary,Tap,No,N/A,1,2024,Feb,49,2,482148
+1266,Central,Mukono,Mukono HC III,HC II,Pneumonia,J18,6-12,Male,33,0,33,None,Tap,No,N/A,48,2024,Mar,36,0,312122
+1267,Northern,Lira,Lira District Hospital,HC II,Hypertension,J18,0-5,Male,69,1,69,Primary,Tap,No,N/A,20,2024,Mar,40,11,538601
+1268,Eastern,Mbale,Mbale District Hospital,HC III,Hypertension,J18,20-35,Female,226,4,226,None,Borehole,No,N/A,52,2024,Feb,46,5,408610
+1269,Western,Fort Portal,Fort Portal District Hospital,HC II,Maternal Complications,J18,0-5,Male,25,0,25,None,Borehole,No,N/A,28,2024,Feb,19,2,2365
+1270,Northern,Gulu,Gulu District Hospital,HC II,Diabetes,J18,0-5,Female,91,1,91,Secondary,Tap,No,N/A,21,2024,Jan,5,7,377935
+1271,Eastern,Tororo,Tororo HC IV,HC II,Diarrhea,J18,0-5,Male,26,0,26,Primary,Tap,No,N/A,32,2024,Feb,21,0,132046
+1272,Central,Kampala,Kampala HC III,HC II,Anemia,J18,6-12,Female,175,3,175,None,Borehole,No,N/A,7,2024,Mar,49,11,564218
+1273,Eastern,Mbale,Mbale District Hospital,HC III,Diabetes,J18,0-5,Female,93,1,93,Primary,Borehole,No,N/A,42,2024,Mar,31,3,645353
+1274,Eastern,Mbale,Mbale District Hospital,HC III,Maternal Complications,J18,20-35,Female,231,4,231,Primary,Tap,No,N/A,15,2024,Feb,8,1,385060
+1275,Western,Fort Portal,Fort Portal HC III,HC II,Malnutrition,J18,0-5,Male,23,0,23,None,Borehole,No,N/A,15,2024,Jan,5,2,471791
+1276,Eastern,Tororo,Tororo HC IV,HC II,Diabetes,J18,60+,Male,123,2,123,Secondary,Tap,No,N/A,27,2024,Jan,10,8,577713
+1277,Central,Wakiso,Wakiso HC IV,HC IV,Maternal Complications,J18,60+,Male,103,2,103,Secondary,Tap,No,N/A,24,2024,Jan,19,3,728558
+1278,Western,Kabale,Kabale HC IV,HC II,Diabetes,J18,6-12,Male,80,1,80,Secondary,Borehole,No,N/A,32,2024,Jan,16,4,119433
+1279,Eastern,Mbale,Mbale HC III,HC II,Malaria,B54,60+,Female,442,8,442,Secondary,Tap,No,N/A,43,2024,Mar,9,1,331256
+1280,Western,Mbarara,Mbarara District Hospital,HC IV,Pneumonia,J18,0-5,Female,8,0,8,Secondary,Borehole,No,N/A,5,2024,Feb,1,3,183992
+1281,Eastern,Mbale,Mbale HC III,HC II,Hypertension,J18,6-12,Male,149,2,149,None,Borehole,No,N/A,46,2024,Mar,27,4,642993
+1282,Western,Kabale,Kabale HC III,HC IV,Maternal Complications,J18,20-35,Female,206,4,206,Secondary,Borehole,No,N/A,32,2024,Mar,48,10,376128
+1283,Western,Kabale,Kabale HC III,HC II,Maternal Complications,J18,0-5,Male,120,2,120,None,Borehole,No,N/A,24,2024,Jan,46,14,538115
+1284,Northern,Lira,Lira HC IV,HC III,Diabetes,J18,60+,Male,158,3,158,None,Borehole,No,N/A,2,2024,Mar,47,2,235898
+1285,Eastern,Mbale,Mbale HC III,HC III,Anemia,J18,20-35,Female,84,1,84,None,Borehole,No,N/A,47,2024,Feb,2,14,687451
+1286,Western,Mbarara,Mbarara HC III,HC II,Malaria,B54,60+,Male,58,1,58,None,Borehole,No,N/A,5,2024,Jan,41,2,134282
+1287,Northern,Arua,Arua HC III,HC III,Diarrhea,J18,0-5,Female,14,0,14,Primary,Borehole,No,N/A,12,2024,Feb,29,8,668542
+1288,Eastern,Jinja,Jinja HC IV,HC III,Malaria,B54,6-12,Male,120,2,120,Primary,Tap,No,N/A,22,2024,Mar,16,3,307840
+1289,Central,Wakiso,Wakiso HC III,HC II,Malnutrition,J18,60+,Male,226,4,226,Primary,Borehole,No,N/A,30,2024,Jan,26,12,673471
+1290,Western,Kabale,Kabale HC III,HC IV,Diarrhea,J18,0-5,Male,109,2,109,None,Tap,No,N/A,25,2024,Jan,28,10,2551
+1291,Eastern,Jinja,Jinja District Hospital,HC II,Malnutrition,J18,60+,Female,109,2,109,Primary,Borehole,No,N/A,6,2024,Jan,33,2,671341
+1292,Northern,Arua,Arua District Hospital,HC II,Hypertension,J18,0-5,Male,219,4,219,Primary,Tap,No,N/A,11,2024,Jan,5,12,609448
+1293,Central,Kampala,Kampala HC III,HC II,Maternal Complications,J18,0-5,Female,52,1,52,Primary,Borehole,No,N/A,5,2024,Mar,1,3,731010
+1294,Central,Kampala,Kampala HC III,HC IV,Diarrhea,J18,20-35,Male,179,3,179,None,Tap,No,N/A,46,2024,Feb,42,7,536591
+1295,Eastern,Tororo,Tororo District Hospital,HC II,Malnutrition,J18,0-5,Male,31,0,31,None,Borehole,No,N/A,8,2024,Mar,22,6,204168
+1296,Eastern,Mbale,Mbale HC III,HC IV,Maternal Complications,J18,60+,Male,119,2,119,None,Borehole,No,N/A,50,2024,Mar,11,12,587984
+1297,Northern,Lira,Lira HC IV,HC IV,Hypertension,J18,60+,Male,141,2,141,None,Tap,No,N/A,17,2024,Mar,35,11,480515
+1298,Central,Wakiso,Wakiso HC III,HC II,Malaria,B54,20-35,Male,108,2,108,None,Borehole,No,N/A,42,2024,Feb,11,14,699173
+1299,Eastern,Jinja,Jinja HC IV,HC III,Diarrhea,J18,6-12,Male,109,2,109,Primary,Tap,No,N/A,15,2024,Feb,3,4,3224
+1300,Northern,Gulu,Gulu HC III,HC IV,Diabetes,J18,6-12,Female,114,2,114,None,Borehole,No,N/A,1,2024,Feb,3,9,385988
+1301,Central,Wakiso,Wakiso HC III,HC II,Pneumonia,J18,60+,Female,40,0,40,Secondary,Tap,No,N/A,44,2024,Mar,29,11,468727
+1302,Western,Fort Portal,Fort Portal District Hospital,HC II,Pneumonia,J18,0-5,Male,220,4,220,None,Tap,No,N/A,11,2024,Mar,15,6,64436
+1303,Northern,Gulu,Gulu HC III,HC IV,Diarrhea,J18,0-5,Male,203,4,203,Secondary,Borehole,No,N/A,10,2024,Mar,10,5,24062
+1304,Central,Mukono,Mukono District Hospital,HC II,Diarrhea,J18,0-5,Male,214,4,214,None,Borehole,No,N/A,48,2024,Mar,7,13,437423
+1305,Eastern,Mbale,Mbale District Hospital,HC IV,Anemia,J18,20-35,Male,147,2,147,Secondary,Tap,No,N/A,45,2024,Jan,35,3,142008
+1306,Northern,Lira,Lira District Hospital,HC III,Hypertension,J18,60+,Female,210,4,210,None,Borehole,No,N/A,20,2024,Feb,7,4,642769
+1307,Eastern,Mbale,Mbale HC III,HC IV,Maternal Complications,J18,20-35,Female,215,4,215,None,Tap,No,N/A,38,2024,Feb,40,9,265480
+1308,Central,Wakiso,Wakiso HC IV,HC II,HIV/AIDS,J18,0-5,Male,115,2,115,Primary,Borehole,No,N/A,35,2024,Feb,42,2,706230
+1309,Eastern,Jinja,Jinja HC IV,HC III,HIV/AIDS,J18,6-12,Female,228,4,228,Secondary,Tap,No,N/A,1,2024,Mar,14,8,503723
+1310,Western,Mbarara,Mbarara HC III,HC III,Diarrhea,J18,20-35,Female,13,0,13,Secondary,Borehole,No,N/A,41,2024,Jan,25,14,325616
+1311,Western,Mbarara,Mbarara HC IV,HC III,Pneumonia,J18,20-35,Male,2,0,2,None,Borehole,No,N/A,45,2024,Feb,44,13,250140
+1312,Western,Fort Portal,Fort Portal HC III,HC IV,Pneumonia,J18,60+,Male,232,4,232,Secondary,Tap,No,N/A,50,2024,Feb,24,13,651005
+1313,Eastern,Tororo,Tororo HC IV,HC II,Diabetes,J18,0-5,Male,87,1,87,Primary,Tap,No,N/A,15,2024,Feb,19,8,89963
+1314,Central,Wakiso,Wakiso HC IV,HC II,Malnutrition,J18,0-5,Female,78,1,78,Primary,Tap,No,N/A,25,2024,Jan,47,14,37466
+1315,Northern,Arua,Arua HC IV,HC III,Diarrhea,J18,60+,Female,77,1,77,Secondary,Tap,No,N/A,41,2024,Jan,19,13,342957
+1316,Central,Wakiso,Wakiso HC IV,HC III,Pneumonia,J18,6-12,Male,173,3,173,Secondary,Tap,No,N/A,21,2024,Jan,33,3,420586
+1317,Eastern,Jinja,Jinja HC IV,HC IV,Diarrhea,J18,20-35,Female,237,4,237,Primary,Tap,No,N/A,18,2024,Jan,4,0,326347
+1318,Northern,Arua,Arua District Hospital,HC IV,Maternal Complications,J18,20-35,Male,108,2,108,Secondary,Tap,No,N/A,14,2024,Jan,43,9,157379
+1319,Western,Mbarara,Mbarara District Hospital,HC III,Anemia,J18,20-35,Female,150,3,150,None,Borehole,No,N/A,12,2024,Mar,40,5,383902
+1320,Western,Fort Portal,Fort Portal HC III,HC II,HIV/AIDS,J18,6-12,Male,102,2,102,Secondary,Borehole,No,N/A,36,2024,Mar,37,9,166664
+1321,Eastern,Jinja,Jinja HC IV,HC IV,Pneumonia,J18,6-12,Male,28,0,28,None,Borehole,No,N/A,3,2024,Mar,1,8,710131
+1322,Western,Mbarara,Mbarara HC III,HC IV,Maternal Complications,J18,0-5,Female,198,3,198,Primary,Borehole,No,N/A,10,2024,Jan,21,2,293575
+1323,Northern,Arua,Arua District Hospital,HC II,TB,J18,60+,Female,118,2,118,Secondary,Tap,No,N/A,17,2024,Feb,21,7,216168
+1324,Northern,Arua,Arua District Hospital,HC IV,Anemia,J18,6-12,Female,100,2,100,None,Tap,No,N/A,42,2024,Jan,28,8,330917
+1325,Eastern,Jinja,Jinja HC IV,HC IV,Diarrhea,J18,20-35,Female,7,0,7,None,Tap,No,N/A,19,2024,Jan,30,8,703909
+1326,Central,Kampala,Kampala HC IV,HC III,Maternal Complications,J18,60+,Female,22,0,22,Primary,Tap,No,N/A,32,2024,Feb,41,6,190831
+1327,Northern,Gulu,Gulu HC III,HC IV,Pneumonia,J18,20-35,Female,131,2,131,Secondary,Borehole,No,N/A,35,2024,Jan,3,4,130497
+1328,Eastern,Jinja,Jinja District Hospital,HC III,Malaria,B54,20-35,Male,169,3,169,Primary,Tap,No,N/A,19,2024,Jan,25,12,69718
+1329,Western,Kabale,Kabale HC IV,HC II,Malaria,B54,0-5,Female,176,3,176,Primary,Tap,No,N/A,9,2024,Mar,29,4,727671
+1330,Northern,Arua,Arua HC IV,HC IV,Diabetes,J18,0-5,Male,142,2,142,Primary,Tap,No,N/A,13,2024,Feb,6,5,777974
+1331,Central,Mukono,Mukono HC III,HC IV,Diarrhea,J18,6-12,Female,8,0,8,Primary,Borehole,No,N/A,41,2024,Mar,22,8,206503
+1332,Eastern,Tororo,Tororo HC III,HC IV,HIV/AIDS,J18,60+,Female,184,3,184,None,Tap,No,N/A,18,2024,Feb,1,9,735578
+1333,Central,Kampala,Kampala HC III,HC II,HIV/AIDS,J18,60+,Male,44,0,44,Secondary,Tap,No,N/A,32,2024,Jan,24,12,741884
+1334,Northern,Arua,Arua HC IV,HC IV,Diarrhea,J18,0-5,Male,57,1,57,None,Borehole,No,N/A,25,2024,Feb,6,8,285534
+1335,Central,Kampala,Kampala HC III,HC II,Pneumonia,J18,0-5,Female,69,1,69,Secondary,Tap,No,N/A,20,2024,Feb,2,4,606904
+1336,Western,Mbarara,Mbarara District Hospital,HC III,Pneumonia,J18,0-5,Female,22,0,22,Primary,Tap,No,N/A,30,2024,Jan,7,3,586366
+1337,Northern,Lira,Lira HC III,HC III,Diarrhea,J18,0-5,Male,53,1,53,Primary,Borehole,No,N/A,34,2024,Feb,2,4,238000
+1338,Eastern,Tororo,Tororo HC III,HC IV,Hypertension,J18,60+,Male,154,3,154,None,Tap,No,N/A,49,2024,Mar,21,10,349443
+1339,Northern,Lira,Lira HC IV,HC III,Diabetes,J18,20-35,Female,143,2,143,Primary,Borehole,No,N/A,10,2024,Feb,14,7,318680

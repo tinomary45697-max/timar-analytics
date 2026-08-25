@@ -1,0 +1,1001 @@
+ID,Item_Code,Region,District,Warehouse,Education,Category,Item_Name,Crop,Unit,Water_Source,Irrigation,Stock_On_Hand,Stock_Reserved,Stock_Available,Yield,Unit_Cost_UGX,Total_Value_UGX,Min_Stock_Level,Max_Stock_Level,Status,Last_Stock_In,Last_Stock_Out,Expiry_Date,Donor,Income_UGX
+340,FOO-1000,Western,Kampala,Food Warehouse,Primary,Food,Rice,Rice,Pcs,Borehole,No,2656,398,2257,99483,37456,99483136,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,99483136
+341,AGR-1001,Central,Gulu,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,74,11,62,1081,14610,1081140,200,3000,Low,2024-06-01,2024-08-15,N/A,UNICEF,1081140
+342,WAS-1002,Central,Yumbe,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,4447,667,3779,24880,5595,24880965,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,24880965
+343,NFI-1003,Northern,Yumbe,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,2778,416,2361,104375,37572,104375016,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,104375016
+344,SHE-1004,Northern,Kampala,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,4669,700,3968,114460,24515,114460535,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,114460535
+345,AGR-1005,Eastern,Mbarara,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,136,20,115,6367,46818,6367248,200,3000,Low,2024-06-01,2024-08-15,N/A,UNHCR,6367248
+346,SHE-1006,Western,Kampala,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Pcs,Borehole,No,1933,289,1643,87186,45104,87186032,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,87186032
+347,HEA-1007,Western,Yumbe,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,304,45,258,8693,28598,8693792,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,8693792
+348,FOO-1008,Eastern,Kampala,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Pcs,Borehole,No,700,105,595,22441,32059,22441300,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,22441300
+349,SHE-1009,Western,Mbarara,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kit,Borehole,No,396,59,336,15157,38277,15157692,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,15157692
+350,WAS-1010,Northern,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,4667,700,3966,164712,35293,164712431,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,164712431
+351,FOO-1011,Northern,Yumbe,Food Warehouse,Secondary,Food,Beans,Beans,Kit,Borehole,No,3037,455,2581,69012,22724,69012788,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,69012788
+352,WAS-1012,Eastern,Kampala,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,1967,295,1671,85686,43562,85686454,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,85686454
+353,AGR-1013,Western,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,4086,612,3473,144493,35363,144493218,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,144493218
+354,WAS-1014,Eastern,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,1483,222,1260,22645,15270,22645410,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,22645410
+355,SHE-1015,Western,Mbarara,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kit,Borehole,No,3032,454,2577,9820,3239,9820648,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,9820648
+356,FOO-1016,Western,Kampala,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Kg,Borehole,No,3379,506,2872,78463,23221,78463759,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,78463759
+357,SHE-1017,Northern,Yumbe,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kit,Borehole,No,4156,623,3532,178824,43028,178824368,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,178824368
+358,AGR-1018,Central,Gulu,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kit,Borehole,No,1239,185,1053,53408,43106,53408334,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,53408334
+359,SHE-1019,Northern,Mbarara,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kg,Borehole,No,1613,241,1371,5540,3435,5540655,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,5540655
+360,SHE-1020,Northern,Mbarara,Shelter Warehouse,Primary,Shelter,Cement,Cement,Pcs,Borehole,No,2457,368,2088,96007,39075,96007275,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,96007275
+361,HEA-1021,Central,Gulu,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,1851,277,1573,63887,34515,63887265,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,63887265
+362,HEA-1022,Western,Gulu,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,422,63,358,21049,49880,21049360,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,21049360
+363,AGR-1023,Eastern,Yumbe,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,2196,329,1866,35327,16087,35327052,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,35327052
+364,WAS-1024,Eastern,Yumbe,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,300,45,255,3469,11565,3469500,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,3469500
+365,HEA-1025,Eastern,Kampala,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,4577,686,3890,188938,41280,188938560,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,188938560
+366,AGR-1026,Eastern,Kampala,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,4647,697,3949,76726,16511,76726617,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,76726617
+367,NFI-1027,Eastern,Mbarara,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,1351,202,1148,36098,26720,36098720,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,36098720
+368,SHE-1028,Eastern,Gulu,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,1650,247,1402,14825,8985,14825250,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,14825250
+369,SHE-1029,Central,Yumbe,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,255,38,216,971,3811,971805,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,971805
+370,NFI-1030,Western,Kampala,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kit,Borehole,No,3113,466,2646,69746,22405,69746765,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,69746765
+371,HEA-1031,Eastern,Yumbe,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,1652,247,1404,75161,45497,75161044,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,75161044
+372,AGR-1032,Eastern,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,31,4,26,711,22944,711264,200,3000,Low,2024-06-01,2024-08-15,N/A,UNHCR,711264
+373,HEA-1033,Eastern,Mbarara,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,3929,589,3339,195597,49783,195597407,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,195597407
+374,NFI-1034,Western,Yumbe,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,1528,229,1298,54088,35398,54088144,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,54088144
+375,AGR-1035,Eastern,Mbarara,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,1975,296,1678,12969,6567,12969825,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,12969825
+376,FOO-1036,Central,Gulu,Food Warehouse,Primary,Food,Maize Flour,Maize Flour,Kg,Borehole,No,3098,464,2633,66867,21584,66867232,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,66867232
+377,AGR-1037,Western,Kampala,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,2457,368,2088,65565,26685,65565045,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,65565045
+378,SHE-1038,Northern,Yumbe,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kit,Borehole,No,1432,214,1217,13856,9676,13856032,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,13856032
+379,AGR-1039,Northern,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,4705,705,3999,159306,33859,159306595,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,159306595
+380,AGR-1040,Northern,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,2205,330,1874,105493,47843,105493815,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,105493815
+381,HEA-1041,Eastern,Mbarara,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,546,81,464,4377,8017,4377282,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,4377282
+382,WAS-1042,Northern,Gulu,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kit,Borehole,No,673,100,572,7768,11543,7768439,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,7768439
+383,SHE-1043,Northern,Gulu,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,3087,463,2623,10146,3287,10146969,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,10146969
+384,FOO-1044,Central,Gulu,Food Warehouse,Primary,Food,Beans,Beans,Kg,Borehole,No,2670,400,2269,33108,12400,33108000,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,33108000
+385,FOO-1045,Northern,Gulu,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,527,79,447,6536,12404,6536908,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,6536908
+386,SHE-1046,Northern,Yumbe,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,1868,280,1587,23110,12372,23110896,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,23110896
+387,AGR-1047,Central,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,4029,604,3424,118815,29490,118815210,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,118815210
+388,FOO-1048,Eastern,Kampala,Food Warehouse,Primary,Food,Maize Flour,Maize Flour,Pcs,Borehole,No,40,6,34,700,17503,700120,200,3000,Low,2024-06-01,2024-08-15,2026-02-01,UNHCR,700120
+389,FOO-1049,Central,Mbarara,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Pcs,Borehole,No,4895,734,4160,63762,13026,63762270,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,63762270
+390,HEA-1050,Northern,Mbarara,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,3803,570,3232,158079,41567,158079301,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,158079301
+391,NFI-1051,Northern,Gulu,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,381,57,323,15001,39375,15001875,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,15001875
+392,NFI-1052,Western,Kampala,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,1998,299,1698,25316,12671,25316658,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,25316658
+393,HEA-1053,Northern,Kampala,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,2179,326,1852,9445,4335,9445965,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,9445965
+394,AGR-1054,Western,Mbarara,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kg,Borehole,No,996,149,846,20046,20127,20046492,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,20046492
+395,AGR-1055,Northern,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,1634,245,1388,76664,46918,76664012,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,76664012
+396,WAS-1056,Central,Mbarara,WASH Warehouse,Primary,WASH,Soap,Soap,Kit,Borehole,No,1181,177,1003,16627,14079,16627299,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,16627299
+397,NFI-1057,Central,Yumbe,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kg,Borehole,No,4013,601,3411,118893,29627,118893151,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,118893151
+398,AGR-1058,Eastern,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,2064,309,1754,19787,9587,19787568,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,19787568
+399,AGR-1059,Central,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,4642,696,3945,44382,9561,44382162,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,44382162
+400,NFI-1060,Central,Mbarara,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Kit,Borehole,No,3679,551,3127,25120,6828,25120212,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,25120212
+401,NFI-1061,Eastern,Yumbe,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,244,36,207,7392,30297,7392468,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,7392468
+402,NFI-1062,Northern,Gulu,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kg,Borehole,No,2541,381,2159,58257,22927,58257507,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,58257507
+403,SHE-1063,Eastern,Gulu,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,3297,494,2802,34789,10552,34789944,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,34789944
+404,WAS-1064,Central,Yumbe,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kit,Borehole,No,76,11,64,155,2046,155496,200,3000,Low,2024-06-01,2024-08-15,N/A,WFP,155496
+405,SHE-1065,Central,Gulu,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,4634,695,3938,176555,38100,176555400,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,176555400
+406,AGR-1066,Northern,Yumbe,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,612,91,520,2668,4360,2668320,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,2668320
+407,NFI-1067,Central,Mbarara,NFI Warehouse,Primary,NFI,Blanket,Blanket,Pcs,Borehole,No,508,76,431,12777,25153,12777724,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,12777724
+408,FOO-1068,Western,Kampala,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Pcs,Borehole,No,3566,534,3031,129752,36386,129752476,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,129752476
+409,HEA-1069,Central,Mbarara,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,820,123,697,8870,10818,8870760,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,8870760
+410,WAS-1070,Eastern,Mbarara,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,4898,734,4163,243548,49724,243548152,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,243548152
+411,AGR-1071,Central,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,3933,589,3343,117042,29759,117042147,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,117042147
+412,AGR-1072,Eastern,Mbarara,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,613,91,521,4960,8092,4960396,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,4960396
+413,NFI-1073,Northern,Yumbe,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,3593,538,3054,110269,30690,110269170,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,110269170
+414,WAS-1074,Northern,Gulu,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,3389,508,2880,108803,32105,108803845,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,108803845
+415,AGR-1075,Eastern,Gulu,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,4521,678,3842,122632,27125,122632125,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,122632125
+416,SHE-1076,Central,Kampala,Shelter Warehouse,Primary,Shelter,Cement,Cement,Pcs,Borehole,No,2097,314,1782,102843,49043,102843171,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,102843171
+417,SHE-1077,Western,Yumbe,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,1310,196,1113,39755,30348,39755880,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,39755880
+418,HEA-1078,Northern,Yumbe,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,860,129,731,14239,16557,14239020,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,14239020
+419,HEA-1079,Central,Yumbe,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,3855,578,3276,126181,32732,126181860,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,126181860
+420,WAS-1080,Western,Kampala,WASH Warehouse,Primary,WASH,Soap,Soap,Kit,Borehole,No,4914,737,4176,186609,37975,186609150,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,186609150
+421,SHE-1081,Northern,Yumbe,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,1592,238,1353,55049,34579,55049768,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,55049768
+422,WAS-1082,Central,Yumbe,WASH Warehouse,Primary,WASH,Soap,Soap,Pcs,Borehole,No,2972,445,2526,95038,31978,95038616,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,95038616
+423,NFI-1083,Central,Mbarara,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,4991,748,4242,74800,14987,74800117,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,74800117
+424,SHE-1084,Eastern,Mbarara,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kit,Borehole,No,4085,612,3472,17745,4344,17745240,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,17745240
+425,HEA-1085,Northern,Kampala,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,4802,720,4081,136299,28384,136299968,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,136299968
+426,NFI-1086,Western,Mbarara,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kit,Borehole,No,761,114,646,8441,11092,8441012,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,8441012
+427,NFI-1087,Western,Kampala,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,1590,238,1351,21539,13547,21539730,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,21539730
+428,SHE-1088,Northern,Kampala,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,622,93,528,11119,17877,11119494,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,11119494
+429,AGR-1089,Northern,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,677,101,575,19457,28741,19457657,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,19457657
+430,FOO-1090,Central,Gulu,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,1489,223,1265,3344,2246,3344294,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,3344294
+431,SHE-1091,Central,Gulu,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kg,Borehole,No,2285,342,1942,94203,41227,94203695,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,94203695
+432,SHE-1092,Western,Gulu,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,2163,324,1838,103205,47714,103205382,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,103205382
+433,SHE-1093,Eastern,Mbarara,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kg,Borehole,No,3874,581,3292,141218,36453,141218922,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,141218922
+434,HEA-1094,Western,Kampala,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,1149,172,976,34012,29602,34012698,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,34012698
+435,NFI-1095,Northern,Yumbe,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,2797,419,2377,130468,46646,130468862,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,130468862
+436,NFI-1096,Central,Mbarara,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,4814,722,4091,42262,8779,42262106,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,42262106
+437,SHE-1097,Eastern,Mbarara,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,1806,270,1535,41438,22945,41438670,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,41438670
+438,HEA-1098,Eastern,Mbarara,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,3947,592,3354,170013,43074,170013078,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,170013078
+439,FOO-1099,Northern,Yumbe,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,2622,393,2228,83513,31851,83513322,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,83513322
+440,HEA-1100,Eastern,Kampala,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,3104,465,2638,61859,19929,61859616,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,61859616
+441,WAS-1101,Central,Mbarara,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,2018,302,1715,33642,16671,33642078,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,33642078
+442,FOO-1102,Western,Mbarara,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,1358,203,1154,57758,42532,57758456,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,57758456
+443,WAS-1103,Northern,Mbarara,WASH Warehouse,Primary,WASH,Soap,Soap,Kit,Borehole,No,39,5,33,554,14227,554853,200,3000,Low,2024-06-01,2024-08-15,N/A,WFP,554853
+444,WAS-1104,Central,Mbarara,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kg,Borehole,No,1547,232,1314,62342,40299,62342553,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,62342553
+445,FOO-1105,Central,Mbarara,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Pcs,Borehole,No,665,99,565,29606,44521,29606465,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,29606465
+446,SHE-1106,Western,Kampala,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,1739,260,1478,8230,4733,8230687,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,8230687
+447,HEA-1107,Eastern,Mbarara,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,4723,708,4014,234223,49592,234223016,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,234223016
+448,NFI-1108,Western,Mbarara,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,1723,258,1464,32259,18723,32259729,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,32259729
+449,AGR-1109,Central,Kampala,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,892,133,758,24070,26985,24070620,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,24070620
+450,SHE-1110,Eastern,Gulu,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,4472,670,3801,213658,47777,213658744,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,213658744
+451,WAS-1111,Northern,Yumbe,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kit,Borehole,No,4572,685,3886,54242,11864,54242208,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,54242208
+452,HEA-1112,Northern,Yumbe,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,933,139,793,43028,46118,43028094,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,43028094
+453,AGR-1113,Central,Kampala,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,309,46,262,864,2799,864891,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,864891
+454,NFI-1114,Northern,Yumbe,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,2528,379,2148,10541,4170,10541760,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,10541760
+455,SHE-1115,Central,Mbarara,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,1723,258,1464,61866,35906,61866038,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,61866038
+456,WAS-1116,Northern,Gulu,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,4126,618,3507,31287,7583,31287458,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,31287458
+457,HEA-1117,Northern,Kampala,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,375,56,318,3831,10216,3831000,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,3831000
+458,HEA-1118,Northern,Mbarara,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,2662,399,2262,76391,28697,76391414,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,76391414
+459,WAS-1119,Central,Kampala,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kit,Borehole,No,4201,630,3570,139695,33253,139695853,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,139695853
+460,HEA-1120,Eastern,Gulu,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,2885,432,2452,96736,33531,96736935,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,96736935
+461,NFI-1121,Central,Gulu,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Pcs,Borehole,No,83,12,70,4147,49965,4147095,200,3000,Low,2024-06-01,2024-08-15,N/A,UNICEF,4147095
+462,AGR-1122,Western,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,1820,273,1547,59748,32829,59748780,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,59748780
+463,WAS-1123,Central,Kampala,WASH Warehouse,Primary,WASH,Soap,Soap,Kg,Borehole,No,2771,415,2355,47544,17158,47544818,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,47544818
+464,FOO-1124,Western,Gulu,Food Warehouse,Secondary,Food,Rice,Rice,Pcs,Borehole,No,2644,396,2247,103248,39050,103248200,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,103248200
+465,AGR-1125,Northern,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,3731,559,3171,162186,43470,162186570,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,162186570
+466,NFI-1126,Central,Yumbe,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,2413,361,2051,12829,5317,12829921,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,12829921
+467,HEA-1127,Eastern,Mbarara,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,3470,520,2949,170727,49201,170727470,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,170727470
+468,SHE-1128,Northern,Kampala,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,1360,204,1156,63120,46412,63120320,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,63120320
+469,NFI-1129,Eastern,Mbarara,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Pcs,Borehole,No,3159,473,2685,115372,36522,115372998,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,115372998
+470,AGR-1130,Eastern,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,356,53,302,6873,19308,6873648,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,6873648
+471,FOO-1131,Eastern,Gulu,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kit,Borehole,No,3334,500,2833,93472,28036,93472024,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,93472024
+472,FOO-1132,Central,Mbarara,Food Warehouse,Secondary,Food,Beans,Beans,Kit,Borehole,No,1063,159,903,15315,14408,15315704,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,15315704
+473,FOO-1133,Eastern,Mbarara,Food Warehouse,Secondary,Food,Beans,Beans,Pcs,Borehole,No,2281,342,1938,14596,6399,14596119,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,14596119
+474,AGR-1134,Northern,Kampala,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,1153,172,980,50970,44207,50970671,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,50970671
+475,WAS-1135,Central,Gulu,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,1255,188,1066,50762,40448,50762240,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,50762240
+476,FOO-1136,Western,Gulu,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kit,Borehole,No,1368,205,1162,56911,41602,56911536,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,56911536
+477,WAS-1137,Western,Yumbe,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,2046,306,1739,18098,8846,18098916,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,18098916
+478,FOO-1138,Central,Gulu,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kit,Borehole,No,3203,480,2722,80568,25154,80568262,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,80568262
+479,WAS-1139,Central,Mbarara,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,37,5,31,1285,34737,1285269,200,3000,Low,2024-06-01,2024-08-15,N/A,WFP,1285269
+480,WAS-1140,Eastern,Gulu,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,2210,331,1878,10378,4696,10378160,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,10378160
+481,SHE-1141,Western,Yumbe,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,2413,361,2051,45349,18794,45349922,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,45349922
+482,FOO-1142,Northern,Gulu,Food Warehouse,Primary,Food,Rice,Rice,Kit,Borehole,No,3251,487,2763,33439,10286,33439786,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,33439786
+483,AGR-1143,Eastern,Mbarara,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,570,85,484,12048,21137,12048090,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,12048090
+484,AGR-1144,Central,Kampala,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,3228,484,2743,105142,32572,105142416,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,105142416
+485,AGR-1145,Western,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,3584,537,3046,105287,29377,105287168,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,105287168
+486,AGR-1146,Northern,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,2313,346,1966,37609,16260,37609380,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,37609380
+487,HEA-1147,Eastern,Gulu,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,1369,205,1163,24327,17770,24327130,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,24327130
+488,NFI-1148,Northern,Kampala,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kit,Borehole,No,4732,709,4022,140455,29682,140455224,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,140455224
+489,HEA-1149,Eastern,Kampala,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,1274,191,1082,61506,48278,61506172,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,61506172
+490,WAS-1150,Northern,Yumbe,WASH Warehouse,Primary,WASH,Soap,Soap,Kg,Borehole,No,1935,290,1644,68860,35587,68860845,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,68860845
+491,AGR-1151,Eastern,Kampala,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,4709,706,4002,214857,45627,214857543,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,214857543
+492,SHE-1152,Northern,Gulu,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Pcs,Borehole,No,135,20,114,1994,14776,1994760,200,3000,Low,2024-06-01,2024-08-15,N/A,UNHCR,1994760
+493,AGR-1153,Eastern,Gulu,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,4414,662,3751,23712,5372,23712008,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,23712008
+494,HEA-1154,Western,Gulu,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,70,10,59,494,7071,494970,200,3000,Low,2024-06-01,2024-08-15,2026-02-01,WFP,494970
+495,AGR-1155,Eastern,Yumbe,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kg,Borehole,No,61,9,51,912,14961,912621,200,3000,Low,2024-06-01,2024-08-15,N/A,UNICEF,912621
+496,NFI-1156,Northern,Kampala,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,3546,531,3014,99717,28121,99717066,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,99717066
+497,NFI-1157,Eastern,Kampala,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Pcs,Borehole,No,4994,749,4244,79484,15916,79484504,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,79484504
+498,NFI-1158,Central,Gulu,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kg,Borehole,No,1310,196,1113,58832,44910,58832100,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,58832100
+499,FOO-1159,Eastern,Mbarara,Food Warehouse,Primary,Food,Beans,Beans,Kit,Borehole,No,1970,295,1674,9024,4581,9024570,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,9024570
+500,HEA-1160,Northern,Yumbe,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,4733,709,4023,153226,32374,153226142,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,153226142
+501,HEA-1161,Northern,Mbarara,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,897,134,762,27506,30665,27506505,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,27506505
+502,SHE-1162,Central,Gulu,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Pcs,Borehole,No,12,1,10,61,5099,61188,200,3000,Low,2024-06-01,2024-08-15,N/A,UNHCR,61188
+503,AGR-1163,Western,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,2379,356,2022,51405,21608,51405432,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,51405432
+504,FOO-1164,Eastern,Kampala,Food Warehouse,Primary,Food,Rice,Rice,Kg,Borehole,No,4449,667,3781,76069,17098,76069002,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,76069002
+505,HEA-1165,Central,Mbarara,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,2764,414,2349,54453,19701,54453564,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,54453564
+506,FOO-1166,Western,Yumbe,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Kg,Borehole,No,4799,719,4079,209620,43680,209620320,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,209620320
+507,WAS-1167,Central,Mbarara,WASH Warehouse,Primary,WASH,Soap,Soap,Pcs,Borehole,No,3155,473,2681,53597,16988,53597140,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,53597140
+508,AGR-1168,Central,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,2796,419,2376,56512,20212,56512752,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,56512752
+509,FOO-1169,Northern,Gulu,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,940,141,799,21526,22901,21526940,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,21526940
+510,WAS-1170,Northern,Mbarara,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kit,Borehole,No,1080,162,918,48300,44723,48300840,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,48300840
+511,NFI-1171,Northern,Kampala,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,1845,276,1568,63429,34379,63429255,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,63429255
+512,AGR-1172,Central,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,4916,737,4178,85828,17459,85828444,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,85828444
+513,NFI-1173,Northern,Mbarara,NFI Warehouse,Primary,NFI,Blanket,Blanket,Pcs,Borehole,No,771,115,655,28008,36328,28008888,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,28008888
+514,WAS-1174,Central,Gulu,WASH Warehouse,Secondary,WASH,Soap,Soap,Pcs,Borehole,No,4325,648,3676,92645,21421,92645825,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,92645825
+515,NFI-1175,Eastern,Mbarara,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,935,140,794,13638,14587,13638845,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,13638845
+516,AGR-1176,Northern,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,4276,641,3634,159901,37395,159901020,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,159901020
+517,SHE-1177,Central,Yumbe,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,851,127,723,38409,45135,38409885,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,38409885
+518,HEA-1178,Western,Yumbe,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,3100,465,2635,132419,42716,132419600,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,132419600
+519,NFI-1179,Northern,Yumbe,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kit,Borehole,No,1760,264,1496,68029,38653,68029280,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,68029280
+520,HEA-1180,Western,Kampala,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,3422,513,2908,148507,43398,148507956,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,148507956
+521,AGR-1181,Central,Yumbe,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,977,146,830,48344,49483,48344891,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,48344891
+522,FOO-1182,Western,Kampala,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Kg,Borehole,No,2230,334,1895,89900,40314,89900220,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,89900220
+523,FOO-1183,Western,Kampala,Food Warehouse,Primary,Food,Rice,Rice,Pcs,Borehole,No,3302,495,2806,43622,13211,43622722,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,43622722
+524,AGR-1184,Northern,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,1292,193,1098,26244,20313,26244396,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,26244396
+525,WAS-1185,Eastern,Gulu,WASH Warehouse,Secondary,WASH,Soap,Soap,Pcs,Borehole,No,1298,194,1103,26559,20462,26559676,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,26559676
+526,FOO-1186,Western,Kampala,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,660,99,561,16164,24492,16164720,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,16164720
+527,AGR-1187,Eastern,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,1601,240,1360,27276,17037,27276237,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,27276237
+528,AGR-1188,Eastern,Kampala,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,3493,523,2969,7918,2267,7918631,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,7918631
+529,HEA-1189,Northern,Kampala,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,1345,201,1143,56247,41820,56247900,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,56247900
+530,AGR-1190,Eastern,Mbarara,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,3062,459,2602,27717,9052,27717224,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,27717224
+531,AGR-1191,Eastern,Gulu,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,4706,705,4000,128544,27315,128544390,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,128544390
+532,SHE-1192,Central,Mbarara,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,2974,446,2527,56125,18872,56125328,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,56125328
+533,FOO-1193,Eastern,Yumbe,Food Warehouse,Primary,Food,Rice,Rice,Pcs,Borehole,No,2960,444,2516,62219,21020,62219200,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,62219200
+534,FOO-1194,Northern,Mbarara,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,1951,292,1658,78397,40183,78397033,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,78397033
+535,AGR-1195,Central,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,3558,533,3024,156761,44059,156761922,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,156761922
+536,AGR-1196,Central,Yumbe,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,2291,343,1947,55160,24077,55160407,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,55160407
+537,AGR-1197,Eastern,Gulu,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,4747,712,4034,120678,25422,120678234,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,120678234
+538,NFI-1198,Eastern,Mbarara,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,4358,653,3704,28649,6574,28649492,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,28649492
+539,WAS-1199,Eastern,Kampala,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kg,Borehole,No,1010,151,858,31346,31036,31346360,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,31346360
+540,SHE-1200,Northern,Kampala,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kit,Borehole,No,2800,420,2380,36492,13033,36492400,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,36492400
+541,SHE-1201,Eastern,Kampala,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,1042,156,885,16210,15557,16210394,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,16210394
+542,WAS-1202,Eastern,Gulu,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kg,Borehole,No,1998,299,1698,82057,41070,82057860,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,82057860
+543,HEA-1203,Western,Yumbe,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,1771,265,1505,34245,19337,34245827,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,34245827
+544,AGR-1204,Western,Kampala,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,363,54,308,13921,38352,13921776,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,13921776
+545,HEA-1205,Central,Kampala,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,2771,415,2355,17789,6420,17789820,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,17789820
+546,WAS-1206,Northern,Kampala,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kg,Borehole,No,4609,691,3917,60626,13154,60626786,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,60626786
+547,SHE-1207,Western,Yumbe,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kg,Borehole,No,2178,326,1851,59091,27131,59091318,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,59091318
+548,HEA-1208,Central,Gulu,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,3865,579,3285,100617,26033,100617545,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,100617545
+549,SHE-1209,Northern,Gulu,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Pcs,Borehole,No,961,144,816,17489,18199,17489239,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,17489239
+550,AGR-1210,Western,Gulu,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,1292,193,1098,43878,33962,43878904,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,43878904
+551,AGR-1211,Eastern,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,2415,362,2052,107397,44471,107397465,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,107397465
+552,NFI-1212,Central,Yumbe,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,2864,429,2434,27494,9600,27494400,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,27494400
+553,HEA-1213,Eastern,Mbarara,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,3486,522,2963,169722,48687,169722882,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,169722882
+554,SHE-1214,Eastern,Gulu,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Pcs,Borehole,No,1606,240,1365,27403,17063,27403178,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,27403178
+555,HEA-1215,Northern,Kampala,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,1871,280,1590,77680,41518,77680178,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,77680178
+556,HEA-1216,Western,Mbarara,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,3201,480,2720,101622,31747,101622147,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,101622147
+557,WAS-1217,Western,Mbarara,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,4750,712,4037,233481,49154,233481500,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,233481500
+558,SHE-1218,Western,Yumbe,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,1260,189,1071,27980,22207,27980820,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,27980820
+559,FOO-1219,Northern,Yumbe,Food Warehouse,Secondary,Food,Beans,Beans,Kit,Borehole,No,4804,720,4083,191376,39837,191376948,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,191376948
+560,AGR-1220,Northern,Gulu,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,2923,438,2484,76550,26189,76550447,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,76550447
+561,SHE-1221,Northern,Kampala,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,4569,685,3883,100915,22087,100915503,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,100915503
+562,HEA-1222,Central,Gulu,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,2202,330,1871,64371,29233,64371066,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,64371066
+563,AGR-1223,Central,Yumbe,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kg,Borehole,No,99,14,84,2066,20876,2066724,200,3000,Low,2024-06-01,2024-08-15,N/A,WFP,2066724
+564,HEA-1224,Western,Yumbe,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,3960,594,3366,33984,8582,33984720,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,33984720
+565,SHE-1225,Northern,Kampala,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kg,Borehole,No,4034,605,3428,175531,43513,175531442,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,175531442
+566,HEA-1226,Western,Yumbe,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,2206,330,1875,63865,28951,63865906,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,63865906
+567,AGR-1227,Northern,Kampala,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,1051,157,893,36939,35147,36939497,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,36939497
+568,SHE-1228,Western,Yumbe,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Pcs,Borehole,No,4718,707,4010,104329,22113,104329134,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,104329134
+569,AGR-1229,Western,Kampala,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,4076,611,3464,51740,12694,51740744,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,51740744
+570,WAS-1230,Eastern,Yumbe,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,2237,335,1901,41366,18492,41366604,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,41366604
+571,NFI-1231,Central,Gulu,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kg,Borehole,No,4760,714,4046,123212,25885,123212600,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,123212600
+572,FOO-1232,Central,Gulu,Food Warehouse,Secondary,Food,Beans,Beans,Kg,Borehole,No,4477,671,3805,176478,39419,176478863,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,176478863
+573,AGR-1233,Western,Kampala,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,2579,386,2192,83992,32568,83992872,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,83992872
+574,NFI-1234,Northern,Kampala,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kit,Borehole,No,2479,371,2107,33915,13681,33915199,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,33915199
+575,AGR-1235,Eastern,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,2695,404,2290,67887,25190,67887050,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,67887050
+576,NFI-1236,Western,Yumbe,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,167,25,141,6805,40751,6805417,200,3000,Low,2024-06-01,2024-08-15,N/A,UNHCR,6805417
+577,SHE-1237,Northern,Mbarara,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kit,Borehole,No,864,129,734,9087,10518,9087552,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,9087552
+578,NFI-1238,Central,Mbarara,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,219,32,186,889,4062,889578,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,889578
+579,NFI-1239,Western,Gulu,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kg,Borehole,No,826,123,702,3370,4081,3370906,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,3370906
+580,SHE-1240,Western,Gulu,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Pcs,Borehole,No,19,2,16,222,11708,222452,200,3000,Low,2024-06-01,2024-08-15,N/A,UNHCR,222452
+581,NFI-1241,Northern,Gulu,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,1450,217,1232,7309,5041,7309450,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,7309450
+582,SHE-1242,Northern,Yumbe,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,4292,643,3648,95024,22140,95024880,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,95024880
+583,AGR-1243,Eastern,Mbarara,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,3958,593,3364,20510,5182,20510356,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,20510356
+584,SHE-1244,Western,Yumbe,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,4329,649,3679,113177,26144,113177376,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,113177376
+585,FOO-1245,Central,Kampala,Food Warehouse,Primary,Food,Beans,Beans,Kg,Borehole,No,4706,705,4000,122807,26096,122807776,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,122807776
+586,NFI-1246,Eastern,Yumbe,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kg,Borehole,No,3532,529,3002,121394,34370,121394840,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,121394840
+587,HEA-1247,Central,Kampala,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,3651,547,3103,72757,19928,72757128,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,72757128
+588,WAS-1248,Eastern,Kampala,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,3105,465,2639,31792,10239,31792095,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,31792095
+589,NFI-1249,Central,Kampala,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kit,Borehole,No,152,22,129,5783,38052,5783904,200,3000,Low,2024-06-01,2024-08-15,N/A,UNICEF,5783904
+590,HEA-1250,Northern,Yumbe,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,3467,520,2946,28328,8171,28328857,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,28328857
+591,FOO-1251,Northern,Kampala,Food Warehouse,Secondary,Food,Rice,Rice,Kg,Borehole,No,961,144,816,23339,24287,23339807,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,23339807
+592,NFI-1252,Western,Kampala,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kg,Borehole,No,2027,304,1722,74366,36688,74366576,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,74366576
+593,FOO-1253,Central,Gulu,Food Warehouse,Primary,Food,Rice,Rice,Pcs,Borehole,No,254,38,215,1402,5523,1402842,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,1402842
+594,FOO-1254,Northern,Kampala,Food Warehouse,Secondary,Food,Rice,Rice,Pcs,Borehole,No,3918,587,3330,20800,5309,20800662,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,20800662
+595,AGR-1255,Central,Gulu,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kit,Borehole,No,337,50,286,12311,36533,12311621,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,12311621
+596,FOO-1256,Central,Kampala,Food Warehouse,Secondary,Food,Beans,Beans,Kit,Borehole,No,3957,593,3363,135020,34122,135020754,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,135020754
+597,HEA-1257,Western,Mbarara,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,3884,582,3301,168002,43255,168002420,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,168002420
+598,WAS-1258,Northern,Gulu,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,2954,443,2510,143082,48437,143082898,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,143082898
+599,NFI-1259,Central,Mbarara,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,688,103,584,22118,32149,22118512,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,22118512
+600,AGR-1260,Central,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,2424,363,2060,27694,11425,27694200,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,27694200
+601,HEA-1261,Central,Gulu,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,945,141,803,33461,35409,33461505,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,33461505
+602,NFI-1262,Central,Gulu,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Pcs,Borehole,No,2214,332,1881,12400,5601,12400614,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,12400614
+603,AGR-1263,Central,Yumbe,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,4229,634,3594,102891,24330,102891570,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,102891570
+604,WAS-1264,Western,Gulu,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,4322,648,3673,126098,29176,126098672,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,126098672
+605,NFI-1265,Western,Yumbe,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,2770,415,2354,96346,34782,96346140,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,96346140
+606,FOO-1266,Western,Kampala,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Kg,Borehole,No,4085,612,3472,47292,11577,47292045,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,47292045
+607,NFI-1267,Western,Mbarara,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,1166,174,991,22478,19278,22478148,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,22478148
+608,NFI-1268,Western,Mbarara,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,1690,253,1436,54419,32201,54419690,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,54419690
+609,WAS-1269,Northern,Yumbe,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kg,Borehole,No,3547,532,3014,21079,5943,21079821,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,21079821
+610,NFI-1270,Western,Gulu,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,3719,557,3161,99260,26690,99260110,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,99260110
+611,NFI-1271,Northern,Mbarara,NFI Warehouse,Primary,NFI,Blanket,Blanket,Pcs,Borehole,No,258,38,219,12735,49361,12735138,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,12735138
+612,FOO-1272,Central,Kampala,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Kg,Borehole,No,3020,453,2567,8480,2808,8480160,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,8480160
+613,HEA-1273,Northern,Kampala,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,4070,610,3459,95653,23502,95653140,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,95653140
+614,FOO-1274,Northern,Yumbe,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,3694,554,3139,30239,8186,30239084,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,30239084
+615,WAS-1275,Central,Mbarara,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kg,Borehole,No,3458,518,2939,57485,16624,57485792,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,57485792
+616,HEA-1276,Central,Yumbe,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,1477,221,1255,28073,19007,28073339,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,28073339
+617,FOO-1277,Northern,Kampala,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Kg,Borehole,No,661,99,561,29464,44576,29464736,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,29464736
+618,SHE-1278,Eastern,Kampala,Shelter Warehouse,Primary,Shelter,Cement,Cement,Pcs,Borehole,No,4635,695,3939,54734,11809,54734715,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,54734715
+619,AGR-1279,Central,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,2781,417,2363,100980,36311,100980891,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,100980891
+620,HEA-1280,Western,Yumbe,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,34,5,28,949,27938,949892,200,3000,Low,2024-06-01,2024-08-15,2026-02-01,UNICEF,949892
+621,NFI-1281,Northern,Kampala,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,2041,306,1734,28443,13936,28443376,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,28443376
+622,NFI-1282,Northern,Kampala,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Kit,Borehole,No,3538,530,3007,7196,2034,7196292,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,7196292
+623,FOO-1283,Western,Kampala,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Kit,Borehole,No,2606,390,2215,79746,30601,79746206,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,79746206
+624,AGR-1284,Central,Gulu,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,4143,621,3521,41069,9913,41069559,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,41069559
+625,FOO-1285,Western,Mbarara,Food Warehouse,Primary,Food,Rice,Rice,Pcs,Borehole,No,1201,180,1020,50947,42421,50947621,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,50947621
+626,SHE-1286,Eastern,Gulu,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,1564,234,1329,12411,7936,12411904,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,12411904
+627,WAS-1287,Western,Mbarara,WASH Warehouse,Primary,WASH,Soap,Soap,Pcs,Borehole,No,2931,439,2491,6580,2245,6580095,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,6580095
+628,HEA-1288,Central,Kampala,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,2123,318,1804,45387,21379,45387617,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,45387617
+629,NFI-1289,Central,Gulu,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kit,Borehole,No,2745,411,2333,66445,24206,66445470,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,66445470
+630,SHE-1290,Western,Gulu,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kg,Borehole,No,4001,600,3400,34280,8568,34280568,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,34280568
+631,NFI-1291,Western,Yumbe,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,370,55,314,18438,49835,18438950,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,18438950
+632,NFI-1292,Central,Mbarara,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,2415,362,2052,52934,21919,52934385,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,52934385
+633,WAS-1293,Central,Mbarara,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,2387,358,2028,98950,41454,98950698,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,98950698
+634,FOO-1294,Western,Gulu,Food Warehouse,Primary,Food,Maize Flour,Maize Flour,Kit,Borehole,No,1873,280,1592,66598,35557,66598261,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,66598261
+635,HEA-1295,Eastern,Mbarara,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,1760,264,1496,13432,7632,13432320,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,13432320
+636,SHE-1296,Eastern,Kampala,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kg,Borehole,No,1620,243,1377,4087,2523,4087260,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,4087260
+637,AGR-1297,Eastern,Kampala,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,3628,544,3083,100883,27807,100883796,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,100883796
+638,FOO-1298,Western,Kampala,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,345,51,293,11866,34397,11866965,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,11866965
+639,AGR-1299,Western,Kampala,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,4771,715,4055,107533,22539,107533569,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,107533569
+640,HEA-1300,Northern,Kampala,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,1424,213,1210,5760,4045,5760080,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,5760080
+641,FOO-1301,Western,Mbarara,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Kg,Borehole,No,4573,685,3887,217661,47597,217661081,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,217661081
+642,AGR-1302,Eastern,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,3829,574,3254,172373,45018,172373922,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,172373922
+643,AGR-1303,Northern,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,661,99,561,21080,31892,21080612,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,21080612
+644,WAS-1304,Western,Gulu,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,88,13,74,4170,47394,4170672,200,3000,Low,2024-06-01,2024-08-15,N/A,WFP,4170672
+645,WAS-1305,Northern,Mbarara,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,4543,681,3861,71170,15666,71170638,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,71170638
+646,SHE-1306,Eastern,Gulu,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,1281,192,1088,49420,38580,49420980,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,49420980
+647,WAS-1307,Northern,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,4876,731,4144,153028,31384,153028384,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,153028384
+648,FOO-1308,Central,Yumbe,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,2157,323,1833,48280,22383,48280131,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,48280131
+649,HEA-1309,Western,Yumbe,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,66,9,56,1504,22796,1504536,200,3000,Low,2024-06-01,2024-08-15,2026-02-01,UNICEF,1504536
+650,HEA-1310,Central,Mbarara,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,553,82,470,2244,4058,2244074,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,2244074
+651,NFI-1311,Northern,Yumbe,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,1561,234,1326,24627,15777,24627897,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,24627897
+652,NFI-1312,Northern,Yumbe,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kg,Borehole,No,3599,539,3059,14737,4095,14737905,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,14737905
+653,WAS-1313,Eastern,Gulu,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,58,8,49,2434,41979,2434782,200,3000,Low,2024-06-01,2024-08-15,N/A,WFP,2434782
+654,NFI-1314,Western,Gulu,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kit,Borehole,No,3779,566,3212,187219,49542,187219218,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,187219218
+655,HEA-1315,Western,Gulu,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,420,63,357,18968,45162,18968040,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,18968040
+656,HEA-1316,Western,Gulu,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,4696,704,3991,41752,8891,41752136,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,41752136
+657,AGR-1317,Central,Yumbe,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,1553,232,1320,12071,7773,12071469,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,12071469
+658,AGR-1318,Eastern,Kampala,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,1018,152,865,24479,24047,24479846,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,24479846
+659,WAS-1319,Central,Gulu,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kg,Borehole,No,3519,527,2991,90188,25629,90188451,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,90188451
+660,NFI-1320,Western,Kampala,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,1548,232,1315,61509,39735,61509780,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,61509780
+661,WAS-1321,Central,Yumbe,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kit,Borehole,No,3322,498,2823,71250,21448,71250256,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,71250256
+662,AGR-1322,Western,Kampala,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,1926,288,1637,93576,48586,93576636,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,93576636
+663,FOO-1323,Western,Kampala,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Kg,Borehole,No,166,24,141,3607,21729,3607014,200,3000,Low,2024-06-01,2024-08-15,2026-02-01,UNHCR,3607014
+664,NFI-1324,Northern,Kampala,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,1044,156,887,33749,32327,33749388,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,33749388
+665,WAS-1325,Central,Kampala,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,4467,670,3796,201247,45052,201247284,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,201247284
+666,NFI-1326,Eastern,Yumbe,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,1446,216,1229,37849,26175,37849050,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,37849050
+667,WAS-1327,Western,Kampala,WASH Warehouse,Primary,WASH,Soap,Soap,Kit,Borehole,No,1614,242,1371,59471,36847,59471058,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,59471058
+668,FOO-1328,Central,Yumbe,Food Warehouse,Secondary,Food,Beans,Beans,Pcs,Borehole,No,412,61,350,5308,12884,5308208,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,5308208
+669,HEA-1329,Central,Mbarara,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,328,49,278,10885,33186,10885008,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,10885008
+670,HEA-1330,Northern,Kampala,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,4243,636,3606,105820,24940,105820420,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,105820420
+671,WAS-1331,Eastern,Gulu,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kit,Borehole,No,1239,185,1053,47964,38712,47964168,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,47964168
+672,HEA-1332,Central,Yumbe,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,1864,279,1584,10708,5745,10708680,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,10708680
+673,SHE-1333,Northern,Yumbe,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Pcs,Borehole,No,1132,169,962,54905,48503,54905396,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,54905396
+674,AGR-1334,Eastern,Yumbe,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,1466,219,1246,25351,17293,25351538,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,25351538
+675,AGR-1335,Western,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kit,Borehole,No,243,36,206,6615,27225,6615675,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,6615675
+676,HEA-1336,Northern,Mbarara,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,2474,371,2102,80857,32683,80857742,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,80857742
+677,NFI-1337,Northern,Kampala,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Pcs,Borehole,No,2826,423,2402,73846,26131,73846206,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,73846206
+678,AGR-1338,Central,Kampala,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,1702,255,1446,84037,49376,84037952,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,84037952
+679,WAS-1339,Eastern,Mbarara,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kg,Borehole,No,727,109,617,25173,34626,25173102,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,25173102
+680,WAS-1340,Central,Kampala,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kg,Borehole,No,430,64,365,10648,24764,10648520,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,10648520
+681,WAS-1341,Eastern,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,1977,296,1680,65098,32928,65098656,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,65098656
+682,NFI-1342,Northern,Mbarara,NFI Warehouse,Primary,NFI,Blanket,Blanket,Pcs,Borehole,No,4998,749,4248,38419,7687,38419626,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,38419626
+683,NFI-1343,Western,Mbarara,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,1626,243,1382,57370,35283,57370158,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,57370158
+684,NFI-1344,Central,Mbarara,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,3851,577,3273,138639,36001,138639851,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,138639851
+685,HEA-1345,Central,Mbarara,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,1596,239,1356,6487,4065,6487740,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,6487740
+686,WAS-1346,Central,Gulu,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,4759,713,4045,67063,14092,67063828,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,67063828
+687,WAS-1347,Western,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,1909,286,1622,23022,12060,23022540,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,23022540
+688,AGR-1348,Eastern,Kampala,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,3917,587,3329,192802,49222,192802574,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,192802574
+689,NFI-1349,Western,Mbarara,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Kit,Borehole,No,851,127,723,13729,16133,13729183,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,13729183
+690,FOO-1350,Central,Yumbe,Food Warehouse,Secondary,Food,Beans,Beans,Kg,Borehole,No,3169,475,2693,35261,11127,35261463,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,35261463
+691,HEA-1351,Northern,Yumbe,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,243,36,206,7616,31344,7616592,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,7616592
+692,SHE-1352,Central,Mbarara,Shelter Warehouse,Primary,Shelter,Cement,Cement,Pcs,Borehole,No,4941,741,4199,159203,32221,159203961,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,159203961
+693,AGR-1353,Northern,Yumbe,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,596,89,506,15904,26686,15904856,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,15904856
+694,FOO-1354,Central,Gulu,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,3566,534,3031,162966,45700,162966200,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,162966200
+695,SHE-1355,Northern,Mbarara,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Pcs,Borehole,No,1531,229,1301,68443,44705,68443355,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,68443355
+696,NFI-1356,Western,Yumbe,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,1419,212,1206,61015,42999,61015581,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,61015581
+697,NFI-1357,Northern,Gulu,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,403,60,342,15962,39609,15962427,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,15962427
+698,HEA-1358,Eastern,Mbarara,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,1540,231,1309,69395,45062,69395480,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,69395480
+699,HEA-1359,Western,Yumbe,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,3828,574,3253,90015,23515,90015420,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,90015420
+700,SHE-1360,Eastern,Yumbe,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,3145,471,2673,149645,47582,149645390,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,149645390
+701,FOO-1361,Western,Gulu,Food Warehouse,Primary,Food,Rice,Rice,Kit,Borehole,No,4702,705,3996,36746,7815,36746130,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,36746130
+702,HEA-1362,Northern,Yumbe,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,3445,516,2928,161801,46967,161801315,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,161801315
+703,HEA-1363,Eastern,Kampala,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,870,130,739,41238,47400,41238000,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,41238000
+704,HEA-1364,Central,Gulu,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,2980,447,2533,134269,45057,134269860,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,134269860
+705,AGR-1365,Western,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,1301,195,1105,64236,49375,64236875,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,64236875
+706,AGR-1366,Northern,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,1280,192,1088,29172,22791,29172480,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,29172480
+707,WAS-1367,Eastern,Gulu,WASH Warehouse,Primary,WASH,Soap,Soap,Kit,Borehole,No,3283,492,2790,39034,11890,39034870,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,39034870
+708,HEA-1368,Western,Kampala,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,36,5,30,663,18438,663768,200,3000,Low,2024-06-01,2024-08-15,2026-02-01,WFP,663768
+709,FOO-1369,Northern,Gulu,Food Warehouse,Primary,Food,Beans,Beans,Kit,Borehole,No,2382,357,2024,76443,32092,76443144,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,76443144
+710,WAS-1370,Central,Mbarara,WASH Warehouse,Primary,WASH,Soap,Soap,Pcs,Borehole,No,859,128,730,27464,31973,27464807,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,27464807
+711,AGR-1371,Eastern,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,3529,529,2999,158173,44821,158173309,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,158173309
+712,NFI-1372,Central,Gulu,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kg,Borehole,No,1459,218,1240,27489,18841,27489019,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,27489019
+713,SHE-1373,Central,Kampala,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,246,36,209,8685,35308,8685768,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,8685768
+714,HEA-1374,Eastern,Mbarara,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,2767,415,2351,10370,3748,10370716,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,10370716
+715,HEA-1375,Central,Yumbe,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,3405,510,2894,66812,19622,66812910,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,66812910
+716,NFI-1376,Western,Gulu,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,2464,369,2094,71120,28864,71120896,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,71120896
+717,WAS-1377,Northern,Kampala,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,2442,366,2075,10366,4245,10366290,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,10366290
+718,NFI-1378,Northern,Kampala,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,2444,366,2077,54542,22317,54542748,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,54542748
+719,AGR-1379,Western,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,611,91,519,6797,11126,6797986,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,6797986
+720,SHE-1380,Western,Gulu,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Pcs,Borehole,No,4278,641,3636,208719,48789,208719342,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,208719342
+721,SHE-1381,Northern,Mbarara,Shelter Warehouse,Primary,Shelter,Cement,Cement,Pcs,Borehole,No,3922,588,3333,190554,48586,190554292,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,190554292
+722,NFI-1382,Western,Kampala,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,1879,281,1597,73876,39317,73876643,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,73876643
+723,AGR-1383,Western,Yumbe,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kit,Borehole,No,4347,652,3694,23647,5440,23647680,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,23647680
+724,SHE-1384,Central,Yumbe,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,847,127,719,39482,46615,39482905,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,39482905
+725,NFI-1385,Northern,Yumbe,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kg,Borehole,No,3148,472,2675,84445,26825,84445100,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,84445100
+726,SHE-1386,Northern,Gulu,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,709,106,602,17583,24800,17583200,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,17583200
+727,FOO-1387,Northern,Kampala,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Kit,Borehole,No,2843,426,2416,98256,34561,98256923,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,98256923
+728,HEA-1388,Eastern,Gulu,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,819,122,696,12642,15437,12642903,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,12642903
+729,SHE-1389,Central,Gulu,Shelter Warehouse,Primary,Shelter,Cement,Cement,Pcs,Borehole,No,1704,255,1448,57007,33455,57007320,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,57007320
+730,HEA-1390,Eastern,Kampala,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,2915,437,2477,92399,31698,92399670,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,92399670
+731,WAS-1391,Central,Mbarara,WASH Warehouse,Primary,WASH,Soap,Soap,Kit,Borehole,No,3161,474,2686,88555,28015,88555415,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,88555415
+732,NFI-1392,Northern,Gulu,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,543,81,461,14046,25869,14046867,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,14046867
+733,FOO-1393,Eastern,Yumbe,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kit,Borehole,No,2692,403,2288,30896,11477,30896084,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,30896084
+734,HEA-1394,Eastern,Gulu,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,407,61,345,15463,37993,15463151,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,15463151
+735,HEA-1395,Eastern,Mbarara,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,2764,414,2349,135325,48960,135325440,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,135325440
+736,SHE-1396,Central,Mbarara,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kit,Borehole,No,902,135,766,17147,19010,17147020,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,17147020
+737,SHE-1397,Eastern,Yumbe,Shelter Warehouse,Primary,Shelter,Cement,Cement,Pcs,Borehole,No,1400,210,1190,34834,24882,34834800,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,34834800
+738,HEA-1398,Northern,Gulu,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,1520,228,1292,53426,35149,53426480,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,53426480
+739,WAS-1399,Northern,Yumbe,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,3135,470,2664,58749,18740,58749900,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,58749900
+740,SHE-1400,Central,Yumbe,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,4808,721,4086,163645,34036,163645088,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,163645088
+741,FOO-1401,Central,Kampala,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kit,Borehole,No,4693,703,3989,97192,20710,97192030,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,97192030
+742,FOO-1402,Northern,Yumbe,Food Warehouse,Primary,Food,Maize Flour,Maize Flour,Kit,Borehole,No,2563,384,2178,124953,48753,124953939,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,124953939
+743,FOO-1403,Eastern,Mbarara,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Pcs,Borehole,No,2288,343,1944,21363,9337,21363056,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,21363056
+744,HEA-1404,Central,Gulu,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,1869,280,1588,86415,46236,86415084,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,86415084
+745,AGR-1405,Central,Yumbe,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,4496,674,3821,33274,7401,33274896,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,33274896
+746,FOO-1406,Northern,Yumbe,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Kit,Borehole,No,4089,613,3475,38910,9516,38910924,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,38910924
+747,FOO-1407,Northern,Yumbe,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kg,Borehole,No,3586,537,3048,166462,46420,166462120,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,166462120
+748,AGR-1408,Northern,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,163,24,138,7161,43935,7161405,200,3000,Low,2024-06-01,2024-08-15,N/A,UNICEF,7161405
+749,HEA-1409,Northern,Kampala,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,1622,243,1378,16169,9969,16169718,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,16169718
+750,AGR-1410,Northern,Kampala,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,3450,517,2932,99484,28836,99484200,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,99484200
+751,NFI-1411,Western,Kampala,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Kit,Borehole,No,1465,219,1245,48689,33235,48689275,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,48689275
+752,SHE-1412,Eastern,Gulu,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,1939,290,1648,17485,9018,17485902,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,17485902
+753,FOO-1413,Northern,Mbarara,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Kit,Borehole,No,4190,628,3561,37563,8965,37563350,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,37563350
+754,AGR-1414,Central,Mbarara,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kg,Borehole,No,1984,297,1686,17488,8815,17488960,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,17488960
+755,WAS-1415,Central,Mbarara,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kg,Borehole,No,2697,404,2292,127535,47288,127535736,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,127535736
+756,AGR-1416,Eastern,Gulu,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kg,Borehole,No,2158,323,1834,106905,49539,106905162,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,106905162
+757,SHE-1417,Western,Kampala,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kg,Borehole,No,4104,615,3488,51882,12642,51882768,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,51882768
+758,HEA-1418,Western,Kampala,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,1957,293,1663,37208,19013,37208441,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,37208441
+759,FOO-1419,Northern,Mbarara,Food Warehouse,Primary,Food,Maize Flour,Maize Flour,Kit,Borehole,No,2291,343,1947,57627,25154,57627814,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,57627814
+760,NFI-1420,Central,Mbarara,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kit,Borehole,No,4203,630,3572,18896,4496,18896688,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,18896688
+761,WAS-1421,Western,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,1227,184,1042,54688,44571,54688617,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,54688617
+762,FOO-1422,Western,Yumbe,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,427,64,362,19562,45814,19562578,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,19562578
+763,AGR-1423,Western,Gulu,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kit,Borehole,No,668,100,567,22552,33761,22552348,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,22552348
+764,WAS-1424,Central,Gulu,WASH Warehouse,Primary,WASH,Soap,Soap,Pcs,Borehole,No,3911,586,3324,147589,37737,147589407,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,147589407
+765,HEA-1425,Central,Gulu,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,3777,566,3210,104993,27798,104993046,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,104993046
+766,NFI-1426,Northern,Yumbe,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Pcs,Borehole,No,3046,456,2589,49390,16215,49390890,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,49390890
+767,FOO-1427,Central,Kampala,Food Warehouse,Primary,Food,Rice,Rice,Pcs,Borehole,No,260,39,221,8696,33449,8696740,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,8696740
+768,FOO-1428,Western,Gulu,Food Warehouse,Primary,Food,Rice,Rice,Kg,Borehole,No,2887,433,2453,89473,30992,89473904,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,89473904
+769,FOO-1429,Eastern,Yumbe,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Pcs,Borehole,No,3139,470,2668,145552,46369,145552291,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,145552291
+770,HEA-1430,Northern,Yumbe,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,4339,650,3688,33271,7668,33271452,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,33271452
+771,HEA-1431,Western,Yumbe,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,4973,745,4227,237928,47844,237928212,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,237928212
+772,SHE-1432,Eastern,Kampala,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,2807,421,2385,25810,9195,25810365,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,25810365
+773,WAS-1433,Northern,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,3727,559,3167,99488,26694,99488538,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,99488538
+774,FOO-1434,Western,Kampala,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kg,Borehole,No,2611,391,2219,24115,9236,24115196,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,24115196
+775,SHE-1435,Eastern,Mbarara,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,1932,289,1642,8421,4359,8421588,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,8421588
+776,NFI-1436,Northern,Yumbe,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,596,89,506,19676,33015,19676940,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,19676940
+777,NFI-1437,Western,Mbarara,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,873,130,742,32639,37388,32639724,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,32639724
+778,HEA-1438,Northern,Mbarara,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,580,87,493,14525,25044,14525520,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,14525520
+779,SHE-1439,Eastern,Yumbe,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,4429,664,3764,174152,39321,174152709,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,174152709
+780,NFI-1440,Central,Gulu,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,1005,150,854,43992,43774,43992870,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,43992870
+781,FOO-1441,Eastern,Kampala,Food Warehouse,Secondary,Food,Beans,Beans,Kg,Borehole,No,4667,700,3966,47556,10190,47556730,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,47556730
+782,HEA-1442,Central,Gulu,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,3850,577,3272,131115,34056,131115600,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,131115600
+783,FOO-1443,Northern,Kampala,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Pcs,Borehole,No,81,12,68,2558,31581,2558061,200,3000,Low,2024-06-01,2024-08-15,2026-02-01,UNICEF,2558061
+784,FOO-1444,Western,Yumbe,Food Warehouse,Primary,Food,Beans,Beans,Pcs,Borehole,No,3207,481,2725,25585,7978,25585446,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,25585446
+785,HEA-1445,Northern,Gulu,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,4940,741,4199,109786,22224,109786560,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,109786560
+786,SHE-1446,Northern,Mbarara,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,3709,556,3152,82350,22203,82350927,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,82350927
+787,AGR-1447,Northern,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kit,Borehole,No,1285,192,1092,63832,49675,63832375,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,63832375
+788,SHE-1448,Eastern,Mbarara,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kit,Borehole,No,4818,722,4095,54510,11314,54510852,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,54510852
+789,HEA-1449,Northern,Gulu,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,3837,575,3261,49827,12986,49827282,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,49827282
+790,FOO-1450,Eastern,Yumbe,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Kit,Borehole,No,4182,627,3554,47954,11467,47954994,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,47954994
+791,AGR-1451,Central,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,1600,240,1360,4480,2800,4480000,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,4480000
+792,FOO-1452,Western,Mbarara,Food Warehouse,Secondary,Food,Beans,Beans,Kit,Borehole,No,3505,525,2979,116954,33368,116954840,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,116954840
+793,HEA-1453,Eastern,Mbarara,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,4199,629,3569,108934,25943,108934657,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,108934657
+794,HEA-1454,Eastern,Mbarara,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,4317,647,3669,186442,43188,186442596,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,186442596
+795,AGR-1455,Central,Kampala,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kit,Borehole,No,1009,151,857,4381,4342,4381078,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,4381078
+796,FOO-1456,Northern,Yumbe,Food Warehouse,Primary,Food,Rice,Rice,Kg,Borehole,No,1574,236,1337,77876,49477,77876798,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,77876798
+797,FOO-1457,Central,Mbarara,Food Warehouse,Primary,Food,Rice,Rice,Pcs,Borehole,No,239,35,203,4715,19730,4715470,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,4715470
+798,AGR-1458,Western,Kampala,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,2435,365,2069,105459,43310,105459850,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,105459850
+799,SHE-1459,Central,Kampala,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,4590,688,3901,49842,10859,49842810,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,49842810
+800,FOO-1460,Eastern,Yumbe,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Kg,Borehole,No,4771,715,4055,97781,20495,97781645,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,97781645
+801,NFI-1461,Eastern,Yumbe,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kit,Borehole,No,517,77,439,25535,49391,25535147,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,25535147
+802,AGR-1462,Central,Yumbe,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,3860,579,3281,78211,20262,78211320,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,78211320
+803,SHE-1463,Central,Yumbe,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kit,Borehole,No,2884,432,2451,102904,35681,102904004,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,102904004
+804,AGR-1464,Eastern,Yumbe,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,2023,303,1719,36695,18139,36695197,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,36695197
+805,FOO-1465,Northern,Kampala,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kg,Borehole,No,4636,695,3940,167994,36237,167994732,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,167994732
+806,HEA-1466,Western,Kampala,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,1115,167,947,24090,21606,24090690,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,24090690
+807,AGR-1467,Eastern,Gulu,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kit,Borehole,No,4772,715,4056,162219,33994,162219368,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,162219368
+808,WAS-1468,Eastern,Kampala,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kit,Borehole,No,405,60,344,11225,27717,11225385,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,11225385
+809,AGR-1469,Eastern,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kit,Borehole,No,3765,564,3200,122554,32551,122554515,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,122554515
+810,FOO-1470,Eastern,Mbarara,Food Warehouse,Primary,Food,Beans,Beans,Kit,Borehole,No,535,80,454,13875,25935,13875225,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,13875225
+811,HEA-1471,Western,Kampala,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,3794,569,3224,139581,36790,139581260,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,139581260
+812,SHE-1472,Eastern,Mbarara,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,23,3,19,833,36221,833083,200,3000,Low,2024-06-01,2024-08-15,N/A,UNHCR,833083
+813,SHE-1473,Central,Yumbe,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kit,Borehole,No,490,73,416,7313,14925,7313250,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,7313250
+814,HEA-1474,Western,Mbarara,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,2428,364,2063,15291,6298,15291544,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,15291544
+815,FOO-1475,Central,Gulu,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kit,Borehole,No,1835,275,1559,69172,37696,69172160,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,69172160
+816,WAS-1476,Eastern,Gulu,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kg,Borehole,No,4193,628,3564,33309,7944,33309192,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,33309192
+817,AGR-1477,Central,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,4721,708,4012,173284,36705,173284305,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,173284305
+818,WAS-1478,Eastern,Kampala,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,1786,267,1518,82566,46230,82566780,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,82566780
+819,FOO-1479,Central,Mbarara,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kg,Borehole,No,2471,370,2100,61505,24891,61505661,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,61505661
+820,WAS-1480,Northern,Yumbe,WASH Warehouse,Primary,WASH,Soap,Soap,Kit,Borehole,No,1975,296,1678,49455,25041,49455975,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,49455975
+821,SHE-1481,Central,Gulu,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kit,Borehole,No,2296,344,1951,97051,42270,97051920,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,97051920
+822,AGR-1482,Western,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,3422,513,2908,30661,8960,30661120,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,30661120
+823,WAS-1483,Western,Mbarara,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kg,Borehole,No,4268,640,3627,187727,43985,187727980,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,187727980
+824,NFI-1484,Western,Yumbe,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,98,14,83,652,6657,652386,200,3000,Low,2024-06-01,2024-08-15,N/A,UNHCR,652386
+825,AGR-1485,Eastern,Yumbe,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,4014,602,3411,114025,28407,114025698,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,114025698
+826,SHE-1486,Eastern,Mbarara,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kg,Borehole,No,4953,742,4210,45622,9211,45622083,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,45622083
+827,FOO-1487,Northern,Gulu,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kg,Borehole,No,2273,340,1932,35161,15469,35161037,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,35161037
+828,AGR-1488,Central,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,1552,232,1319,64800,41753,64800656,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,64800656
+829,FOO-1489,Northern,Kampala,Food Warehouse,Secondary,Food,Rice,Rice,Pcs,Borehole,No,1450,217,1232,30905,21314,30905300,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,30905300
+830,WAS-1490,Central,Yumbe,WASH Warehouse,Primary,WASH,Soap,Soap,Pcs,Borehole,No,2138,320,1817,41276,19306,41276228,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,41276228
+831,FOO-1491,Central,Yumbe,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,2025,303,1721,93107,45979,93107475,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,93107475
+832,NFI-1492,Western,Gulu,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,1795,269,1525,68498,38161,68498995,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,68498995
+833,WAS-1493,Eastern,Mbarara,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,3071,460,2610,13988,4555,13988405,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,13988405
+834,FOO-1494,Central,Yumbe,Food Warehouse,Secondary,Food,Beans,Beans,Kit,Borehole,No,815,122,692,3144,3858,3144270,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,3144270
+835,WAS-1495,Northern,Mbarara,WASH Warehouse,Primary,WASH,Soap,Soap,Kit,Borehole,No,1718,257,1460,37620,21898,37620764,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,37620764
+836,HEA-1496,Western,Gulu,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,790,118,671,7185,9095,7185050,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,7185050
+837,WAS-1497,Central,Yumbe,WASH Warehouse,Primary,WASH,Soap,Soap,Pcs,Borehole,No,4508,676,3831,110450,24501,110450508,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,110450508
+838,AGR-1498,Eastern,Kampala,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,1447,217,1229,29595,20453,29595491,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,29595491
+839,NFI-1499,Northern,Yumbe,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,245,36,208,3291,13436,3291820,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,3291820
+840,FOO-1500,Eastern,Yumbe,Food Warehouse,Primary,Food,Rice,Rice,Pcs,Borehole,No,4123,618,3504,18693,4534,18693682,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,18693682
+841,FOO-1501,Northern,Mbarara,Food Warehouse,Secondary,Food,Beans,Beans,Kit,Borehole,No,1943,291,1651,89292,45956,89292508,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,89292508
+842,AGR-1502,Eastern,Mbarara,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kg,Borehole,No,651,97,553,4329,6651,4329801,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,4329801
+843,HEA-1503,Western,Kampala,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,1533,229,1303,17586,11472,17586576,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,17586576
+844,NFI-1504,Northern,Mbarara,NFI Warehouse,Primary,NFI,Blanket,Blanket,Pcs,Borehole,No,213,31,181,2413,11330,2413290,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,2413290
+845,NFI-1505,Central,Kampala,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kg,Borehole,No,2747,412,2334,71606,26067,71606049,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,71606049
+846,WAS-1506,Eastern,Yumbe,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,215,32,182,6847,31849,6847535,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,6847535
+847,SHE-1507,Central,Mbarara,Shelter Warehouse,Primary,Shelter,Cement,Cement,Pcs,Borehole,No,1533,229,1303,40897,26678,40897374,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,40897374
+848,FOO-1508,Central,Gulu,Food Warehouse,Secondary,Food,Rice,Rice,Pcs,Borehole,No,789,118,670,8935,11325,8935425,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,8935425
+849,WAS-1509,Western,Gulu,WASH Warehouse,Primary,WASH,Soap,Soap,Pcs,Borehole,No,1480,222,1258,35543,24016,35543680,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,35543680
+850,HEA-1510,Northern,Mbarara,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,706,105,600,18137,25691,18137846,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,18137846
+851,AGR-1511,Central,Gulu,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,564,84,479,3534,6266,3534024,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,3534024
+852,WAS-1512,Central,Mbarara,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kg,Borehole,No,283,42,240,10356,36595,10356385,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,10356385
+853,FOO-1513,Northern,Kampala,Food Warehouse,Primary,Food,Beans,Beans,Pcs,Borehole,No,1253,187,1065,15944,12725,15944425,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,15944425
+854,AGR-1514,Central,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,1998,299,1698,13106,6560,13106880,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,13106880
+855,FOO-1515,Western,Gulu,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kit,Borehole,No,859,128,730,29468,34306,29468854,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,29468854
+856,WAS-1516,Central,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,1782,267,1514,39539,22188,39539016,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,39539016
+857,AGR-1517,Western,Kampala,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kit,Borehole,No,1479,221,1257,64360,43516,64360164,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,64360164
+858,AGR-1518,Western,Yumbe,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,1720,258,1462,6857,3987,6857640,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,6857640
+859,SHE-1519,Western,Mbarara,Shelter Warehouse,Primary,Shelter,Cement,Cement,Pcs,Borehole,No,2547,382,2164,70826,27808,70826976,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,70826976
+860,SHE-1520,Eastern,Gulu,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,1941,291,1649,40795,21018,40795938,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,40795938
+861,HEA-1521,Northern,Gulu,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,1441,216,1224,43446,30150,43446150,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,43446150
+862,AGR-1522,Eastern,Gulu,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,1756,263,1492,64374,36660,64374960,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,64374960
+863,NFI-1523,Northern,Kampala,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,770,115,654,26470,34377,26470290,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,26470290
+864,HEA-1524,Eastern,Gulu,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,1931,289,1641,19815,10262,19815922,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,19815922
+865,AGR-1525,Northern,Yumbe,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,2982,447,2534,66075,22158,66075156,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,66075156
+866,AGR-1526,Northern,Gulu,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,566,84,481,20545,36299,20545234,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,20545234
+867,AGR-1527,Central,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,850,127,722,25409,29894,25409900,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,25409900
+868,FOO-1528,Eastern,Mbarara,Food Warehouse,Secondary,Food,Beans,Beans,Kg,Borehole,No,4542,681,3860,47740,10511,47740962,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,47740962
+869,WAS-1529,Central,Yumbe,WASH Warehouse,Secondary,WASH,Soap,Soap,Pcs,Borehole,No,3663,549,3113,118798,32432,118798416,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,118798416
+870,FOO-1530,Central,Gulu,Food Warehouse,Secondary,Food,Rice,Rice,Kg,Borehole,No,3806,570,3235,115078,30236,115078216,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,115078216
+871,SHE-1531,Eastern,Gulu,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,2388,358,2029,43755,18323,43755324,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,43755324
+872,FOO-1532,Central,Gulu,Food Warehouse,Secondary,Food,Beans,Beans,Kg,Borehole,No,3206,480,2725,26673,8320,26673920,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,26673920
+873,NFI-1533,Western,Gulu,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,637,95,541,4229,6640,4229680,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,4229680
+874,NFI-1534,Central,Yumbe,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kg,Borehole,No,170,25,144,1036,6098,1036660,200,3000,Low,2024-06-01,2024-08-15,N/A,UNHCR,1036660
+875,FOO-1535,Eastern,Yumbe,Food Warehouse,Secondary,Food,Rice,Rice,Pcs,Borehole,No,354,53,300,3513,9926,3513804,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,3513804
+876,WAS-1536,Central,Gulu,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,1327,199,1127,15273,11510,15273770,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,15273770
+877,WAS-1537,Northern,Gulu,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,1477,221,1255,41663,28208,41663216,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,41663216
+878,SHE-1538,Western,Gulu,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,81,12,68,1597,19724,1597644,200,3000,Low,2024-06-01,2024-08-15,N/A,UNHCR,1597644
+879,AGR-1539,Western,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,508,76,431,17002,33470,17002760,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,17002760
+880,HEA-1540,Eastern,Mbarara,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,3784,567,3216,39690,10489,39690376,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,39690376
+881,FOO-1541,Western,Kampala,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Kg,Borehole,No,2443,366,2076,16473,6743,16473149,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,16473149
+882,SHE-1542,Eastern,Gulu,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kit,Borehole,No,4312,646,3665,77025,17863,77025256,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,77025256
+883,AGR-1543,Eastern,Kampala,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,3153,472,2680,46109,14624,46109472,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,46109472
+884,NFI-1544,Northern,Kampala,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,84,12,71,3140,37381,3140004,200,3000,Low,2024-06-01,2024-08-15,N/A,WFP,3140004
+885,FOO-1545,Central,Yumbe,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Kg,Borehole,No,1866,279,1586,78491,42064,78491424,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,78491424
+886,NFI-1546,Central,Mbarara,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kg,Borehole,No,2644,396,2247,22201,8397,22201668,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,22201668
+887,WAS-1547,Central,Gulu,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,3128,469,2658,83467,26684,83467552,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,83467552
+888,HEA-1548,Central,Mbarara,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,3601,540,3060,86348,23979,86348379,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,86348379
+889,FOO-1549,Western,Gulu,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Kg,Borehole,No,1047,157,889,11146,10646,11146362,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,11146362
+890,FOO-1550,Central,Yumbe,Food Warehouse,Primary,Food,Beans,Beans,Kit,Borehole,No,586,87,498,16273,27770,16273220,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,16273220
+891,AGR-1551,Central,Yumbe,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kit,Borehole,No,1886,282,1603,36695,19457,36695902,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,36695902
+892,AGR-1552,Western,Kampala,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kg,Borehole,No,3249,487,2761,32597,10033,32597217,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,32597217
+893,HEA-1553,Eastern,Mbarara,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,134,20,113,5875,43846,5875364,200,3000,Low,2024-06-01,2024-08-15,2026-02-01,UNHCR,5875364
+894,NFI-1554,Western,Yumbe,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Pcs,Borehole,No,2328,349,1978,81521,35018,81521904,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,81521904
+895,NFI-1555,Central,Mbarara,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Pcs,Borehole,No,1237,185,1051,8513,6882,8513034,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,8513034
+896,WAS-1556,Northern,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,2952,442,2509,128615,43569,128615688,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,128615688
+897,WAS-1557,Northern,Mbarara,WASH Warehouse,Primary,WASH,Soap,Soap,Kit,Borehole,No,2869,430,2438,139642,48673,139642837,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,139642837
+898,HEA-1558,Eastern,Mbarara,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,3746,561,3184,106761,28500,106761000,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,106761000
+899,WAS-1559,Western,Yumbe,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,31,4,26,420,13558,420298,200,3000,Low,2024-06-01,2024-08-15,N/A,UNICEF,420298
+900,AGR-1560,Central,Gulu,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,4057,608,3448,188861,46552,188861464,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,188861464
+901,SHE-1561,Western,Gulu,Shelter Warehouse,Primary,Shelter,Cement,Cement,Pcs,Borehole,No,4480,672,3808,211635,47240,211635200,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,211635200
+902,SHE-1562,Northern,Gulu,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kg,Borehole,No,3265,489,2775,58423,17894,58423910,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,58423910
+903,WAS-1563,Northern,Gulu,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,2016,302,1713,5358,2658,5358528,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,5358528
+904,NFI-1564,Western,Mbarara,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,2542,381,2160,91430,35968,91430656,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,91430656
+905,HEA-1565,Northern,Gulu,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,2584,387,2196,56770,21970,56770480,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,56770480
+906,NFI-1566,Northern,Gulu,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Kit,Borehole,No,4001,600,3400,148201,37041,148201041,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,148201041
+907,HEA-1567,Central,Mbarara,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,3123,468,2654,23285,7456,23285088,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,23285088
+908,FOO-1568,Eastern,Kampala,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kg,Borehole,No,3485,522,2962,31685,9092,31685620,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,31685620
+909,AGR-1569,Northern,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,3221,483,2737,44510,13819,44510999,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,44510999
+910,AGR-1570,Western,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,2125,318,1806,8372,3940,8372500,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,8372500
+911,SHE-1571,Northern,Gulu,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,3703,555,3147,136774,36936,136774008,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,136774008
+912,HEA-1572,Northern,Gulu,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,2704,405,2298,40916,15132,40916928,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,40916928
+913,SHE-1573,Central,Mbarara,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kit,Borehole,No,4105,615,3489,36201,8819,36201995,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,36201995
+914,SHE-1574,Eastern,Gulu,Shelter Warehouse,Primary,Shelter,Cement,Cement,Pcs,Borehole,No,2232,334,1897,80300,35977,80300664,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,80300664
+915,NFI-1575,Central,Gulu,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,1805,270,1534,78795,43654,78795470,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,78795470
+916,AGR-1576,Eastern,Mbarara,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kit,Borehole,No,1584,237,1346,12870,8125,12870000,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,12870000
+917,FOO-1577,Northern,Kampala,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,1994,299,1694,66150,33175,66150950,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,66150950
+918,SHE-1578,Northern,Kampala,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,2038,305,1732,42600,20903,42600314,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,42600314
+919,HEA-1579,Western,Kampala,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,2653,397,2255,102440,38613,102440289,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,102440289
+920,WAS-1580,Western,Kampala,WASH Warehouse,Primary,WASH,Soap,Soap,Pcs,Borehole,No,4345,651,3693,109411,25181,109411445,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,109411445
+921,SHE-1581,Central,Gulu,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kit,Borehole,No,290,43,246,4092,14113,4092770,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,4092770
+922,FOO-1582,Eastern,Mbarara,Food Warehouse,Secondary,Food,Rice,Rice,Pcs,Borehole,No,973,145,827,11531,11852,11531996,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,11531996
+923,WAS-1583,Western,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,1104,165,938,34135,30920,34135680,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,34135680
+924,NFI-1584,Western,Kampala,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kg,Borehole,No,325,48,276,13876,42698,13876850,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,13876850
+925,SHE-1585,Eastern,Gulu,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kit,Borehole,No,1207,181,1025,4012,3324,4012068,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,4012068
+926,AGR-1586,Eastern,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kit,Borehole,No,2949,442,2506,70991,24073,70991277,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,70991277
+927,NFI-1587,Northern,Mbarara,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kit,Borehole,No,1764,264,1499,30995,17571,30995244,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,30995244
+928,AGR-1588,Western,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,4818,722,4095,84411,17520,84411360,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,84411360
+929,NFI-1589,Western,Kampala,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Pcs,Borehole,No,1019,152,866,23816,23372,23816068,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,23816068
+930,SHE-1590,Central,Kampala,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,1059,158,900,16711,15780,16711020,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,16711020
+931,WAS-1591,Northern,Yumbe,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,4810,721,4088,42467,8829,42467490,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,42467490
+932,HEA-1592,Western,Gulu,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,1830,274,1555,83396,45572,83396760,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,83396760
+933,HEA-1593,Northern,Yumbe,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,689,103,585,23796,34538,23796682,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,23796682
+934,HEA-1594,Western,Gulu,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,2306,345,1960,93743,40652,93743512,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,93743512
+935,WAS-1595,Northern,Kampala,WASH Warehouse,Primary,WASH,Soap,Soap,Kit,Borehole,No,1710,256,1453,21294,12453,21294630,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,21294630
+936,WAS-1596,Central,Kampala,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,33,4,28,274,8333,274989,200,3000,Low,2024-06-01,2024-08-15,N/A,WFP,274989
+937,AGR-1597,Central,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,172,25,146,6509,37844,6509168,200,3000,Low,2024-06-01,2024-08-15,N/A,WFP,6509168
+938,SHE-1598,Central,Kampala,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,3186,477,2708,67304,21125,67304250,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,67304250
+939,NFI-1599,Western,Yumbe,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,271,40,230,4948,18261,4948731,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,4948731
+940,AGR-1600,Eastern,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,4201,630,3570,173320,41257,173320657,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,173320657
+941,NFI-1601,Central,Kampala,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,293,43,249,8883,30320,8883760,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,8883760
+942,NFI-1602,Central,Mbarara,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Pcs,Borehole,No,1529,229,1299,66225,43313,66225577,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,66225577
+943,SHE-1603,Northern,Kampala,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kit,Borehole,No,3604,540,3063,122741,34057,122741428,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,122741428
+944,HEA-1604,Central,Gulu,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,3872,580,3291,84711,21878,84711616,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,84711616
+945,NFI-1605,Eastern,Yumbe,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kit,Borehole,No,4591,688,3902,47507,10348,47507668,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,47507668
+946,AGR-1606,Northern,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kit,Borehole,No,469,70,398,15406,32849,15406181,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,15406181
+947,FOO-1607,Northern,Gulu,Food Warehouse,Primary,Food,Maize Flour,Maize Flour,Kit,Borehole,No,1105,165,939,43807,39645,43807725,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,43807725
+948,AGR-1608,Northern,Kampala,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kit,Borehole,No,4815,722,4092,48434,10059,48434085,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,48434085
+949,WAS-1609,Eastern,Gulu,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kit,Borehole,No,3271,490,2780,40033,12239,40033769,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,40033769
+950,FOO-1610,Northern,Yumbe,Food Warehouse,Primary,Food,Beans,Beans,Pcs,Borehole,No,4148,622,3525,54620,13168,54620864,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,54620864
+951,HEA-1611,Northern,Mbarara,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,1218,182,1035,57594,47286,57594348,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,57594348
+952,HEA-1612,Central,Mbarara,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,1529,229,1299,21164,13842,21164418,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,21164418
+953,AGR-1613,Northern,Kampala,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,3465,519,2945,165568,47783,165568095,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,165568095
+954,NFI-1614,Central,Kampala,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kg,Borehole,No,1514,227,1286,37641,24862,37641068,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,37641068
+955,SHE-1615,Eastern,Yumbe,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,876,131,744,3991,4557,3991932,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,3991932
+956,WAS-1616,Central,Kampala,WASH Warehouse,Secondary,WASH,Soap,Soap,Pcs,Borehole,No,827,124,702,15855,19172,15855244,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,15855244
+957,HEA-1617,Western,Yumbe,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,1592,238,1353,29302,18406,29302352,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,29302352
+958,WAS-1618,Northern,Mbarara,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,249,37,211,5588,22442,5588058,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,5588058
+959,AGR-1619,Northern,Gulu,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,2991,448,2542,104625,34980,104625180,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,104625180
+960,WAS-1620,Northern,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,2534,380,2153,49268,19443,49268562,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,49268562
+961,WAS-1621,Central,Yumbe,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,4408,661,3746,122758,27849,122758392,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,122758392
+962,NFI-1622,Eastern,Yumbe,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Pcs,Borehole,No,826,123,702,3683,4460,3683960,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,3683960
+963,FOO-1623,Central,Yumbe,Food Warehouse,Primary,Food,Maize Flour,Maize Flour,Kg,Borehole,No,1174,176,997,53178,45297,53178678,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,53178678
+964,AGR-1624,Northern,Gulu,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,3947,592,3354,159111,40312,159111464,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,159111464
+965,AGR-1625,Northern,Mbarara,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,4810,721,4088,115973,24111,115973910,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,115973910
+966,SHE-1626,Eastern,Kampala,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kit,Borehole,No,3503,525,2977,11682,3335,11682505,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,11682505
+967,AGR-1627,Western,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,1787,268,1518,4930,2759,4930333,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,4930333
+968,HEA-1628,Eastern,Mbarara,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,4095,614,3480,167718,40957,167718915,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,167718915
+969,WAS-1629,Northern,Kampala,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,3429,514,2914,132908,38760,132908040,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,132908040
+970,FOO-1630,Northern,Yumbe,Food Warehouse,Primary,Food,Rice,Rice,Kg,Borehole,No,364,54,309,14055,38613,14055132,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,14055132
+971,AGR-1631,Central,Mbarara,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kg,Borehole,No,3459,518,2940,69781,20174,69781866,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,69781866
+972,NFI-1632,Western,Gulu,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Kit,Borehole,No,2068,310,1757,50335,24340,50335120,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,50335120
+973,NFI-1633,Eastern,Gulu,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,1441,216,1224,24190,16787,24190067,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,24190067
+974,FOO-1634,Northern,Kampala,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,507,76,430,24389,48106,24389742,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,24389742
+975,NFI-1635,Central,Gulu,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Pcs,Borehole,No,2554,383,2170,84345,33025,84345850,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,84345850
+976,WAS-1636,Central,Mbarara,WASH Warehouse,Primary,WASH,Soap,Soap,Kg,Borehole,No,3740,561,3179,178016,47598,178016520,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,178016520
+977,FOO-1637,Western,Gulu,Food Warehouse,Primary,Food,Rice,Rice,Pcs,Borehole,No,3012,451,2560,134829,44764,134829168,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,134829168
+978,NFI-1638,Central,Gulu,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kg,Borehole,No,4380,657,3723,201602,46028,201602640,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,201602640
+979,AGR-1639,Northern,Gulu,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,2851,427,2423,126561,44392,126561592,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,126561592
+980,WAS-1640,Western,Yumbe,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kg,Borehole,No,1106,165,940,46088,41671,46088126,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,46088126
+981,SHE-1641,Northern,Gulu,Shelter Warehouse,Primary,Shelter,Cement,Cement,Pcs,Borehole,No,2490,373,2116,91773,36857,91773930,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,91773930
+982,NFI-1642,Eastern,Kampala,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,4486,672,3813,84525,18842,84525212,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,84525212
+983,HEA-1643,Western,Yumbe,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,1615,242,1372,64125,39706,64125190,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,64125190
+984,WAS-1644,Western,Mbarara,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,1011,151,859,26423,26136,26423496,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,26423496
+985,HEA-1645,Central,Mbarara,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,3985,597,3387,198026,49693,198026605,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,198026605
+986,WAS-1646,Northern,Yumbe,WASH Warehouse,Secondary,WASH,Soap,Soap,Pcs,Borehole,No,1546,231,1314,57825,37403,57825038,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,57825038
+987,NFI-1647,Northern,Yumbe,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Pcs,Borehole,No,2885,432,2452,119228,41327,119228395,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,119228395
+988,AGR-1648,Central,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,1398,209,1188,43335,30998,43335204,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,43335204
+989,AGR-1649,Central,Yumbe,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kg,Borehole,No,4688,703,3984,15976,3408,15976704,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,15976704
+990,SHE-1650,Western,Gulu,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kg,Borehole,No,4600,690,3910,186387,40519,186387400,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,186387400
+991,HEA-1651,Central,Yumbe,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,4323,648,3674,171493,39670,171493410,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,171493410
+992,NFI-1652,Western,Mbarara,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kg,Borehole,No,3726,558,3167,49417,13263,49417938,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,49417938
+993,WAS-1653,Western,Kampala,WASH Warehouse,Primary,WASH,Soap,Soap,Kit,Borehole,No,780,117,663,6250,8013,6250140,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,6250140
+994,HEA-1654,Western,Kampala,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,2114,317,1796,50387,23835,50387190,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,50387190
+995,HEA-1655,Central,Gulu,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,4184,627,3556,74215,17738,74215792,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,74215792
+996,WAS-1656,Northern,Gulu,WASH Warehouse,Primary,WASH,Soap,Soap,Kg,Borehole,No,456,68,387,22738,49865,22738440,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,22738440
+997,WAS-1657,Eastern,Mbarara,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kit,Borehole,No,1390,208,1181,4669,3359,4669010,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,4669010
+998,WAS-1658,Northern,Kampala,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,1885,282,1602,71056,37696,71056960,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,71056960
+999,AGR-1659,Northern,Gulu,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kit,Borehole,No,1276,191,1084,27481,21537,27481212,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,27481212
+1000,HEA-1660,Central,Yumbe,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,4154,623,3530,169238,40741,169238114,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,169238114
+1001,AGR-1661,Western,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,2503,375,2127,54222,21663,54222489,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,54222489
+1002,SHE-1662,Central,Kampala,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,4651,697,3953,210076,45168,210076368,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,210076368
+1003,FOO-1663,Eastern,Yumbe,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Kg,Borehole,No,1439,215,1223,58259,40486,58259354,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,58259354
+1004,WAS-1664,Northern,Mbarara,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,423,63,359,5663,13388,5663124,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,5663124
+1005,SHE-1665,Eastern,Mbarara,Shelter Warehouse,Primary,Shelter,Cement,Cement,Pcs,Borehole,No,4699,704,3994,167101,35561,167101139,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,167101139
+1006,NFI-1666,Eastern,Mbarara,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Pcs,Borehole,No,3690,553,3136,166924,45237,166924530,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,166924530
+1007,SHE-1667,Eastern,Mbarara,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,970,145,824,12491,12878,12491660,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,12491660
+1008,WAS-1668,Central,Gulu,WASH Warehouse,Primary,WASH,Soap,Soap,Pcs,Borehole,No,1638,245,1392,15464,9441,15464358,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,15464358
+1009,SHE-1669,Central,Yumbe,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,3917,587,3329,135406,34569,135406773,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,135406773
+1010,NFI-1670,Northern,Kampala,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,967,145,821,26310,27208,26310136,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,26310136
+1011,WAS-1671,Eastern,Kampala,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,4757,713,4043,207519,43624,207519368,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,207519368
+1012,AGR-1672,Central,Gulu,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kit,Borehole,No,1051,157,893,15198,14461,15198511,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,15198511
+1013,HEA-1673,Eastern,Mbarara,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,1154,173,980,33449,28986,33449844,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,33449844
+1014,HEA-1674,Northern,Kampala,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,4730,709,4020,176154,37242,176154660,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,176154660
+1015,SHE-1675,Central,Gulu,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kg,Borehole,No,2007,301,1705,22293,11108,22293756,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,22293756
+1016,FOO-1676,Northern,Gulu,Food Warehouse,Secondary,Food,Rice,Rice,Pcs,Borehole,No,4907,736,4170,21046,4289,21046123,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,21046123
+1017,AGR-1677,Northern,Kampala,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kit,Borehole,No,4987,748,4238,111968,22452,111968124,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,111968124
+1018,HEA-1678,Eastern,Yumbe,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,4158,623,3534,127829,30743,127829394,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,127829394
+1019,NFI-1679,Northern,Gulu,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,4059,608,3450,45241,11146,45241614,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,45241614
+1020,SHE-1680,Eastern,Yumbe,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,4332,649,3682,194749,44956,194749392,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,194749392
+1021,WAS-1681,Northern,Mbarara,WASH Warehouse,Primary,WASH,Soap,Soap,Kg,Borehole,No,1131,169,961,54819,48470,54819570,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,54819570
+1022,WAS-1682,Northern,Gulu,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,4857,728,4128,24076,4957,24076149,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,24076149
+1023,WAS-1683,Western,Kampala,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kit,Borehole,No,4516,677,3838,163366,36175,163366300,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,163366300
+1024,SHE-1684,Eastern,Kampala,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kit,Borehole,No,1202,180,1021,19300,16057,19300514,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,19300514
+1025,FOO-1685,Northern,Kampala,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Kit,Borehole,No,4816,722,4093,198390,41194,198390304,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,198390304
+1026,HEA-1686,Central,Gulu,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,1789,268,1520,30387,16986,30387954,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,30387954
+1027,FOO-1687,Eastern,Gulu,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,311,46,264,14323,46055,14323105,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,14323105
+1028,AGR-1688,Western,Gulu,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,1623,243,1379,70658,43536,70658928,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,70658928
+1029,AGR-1689,Central,Kampala,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,4601,690,3910,114748,24940,114748940,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,114748940
+1030,SHE-1690,Western,Mbarara,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,949,142,806,34283,36126,34283574,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,34283574
+1031,SHE-1691,Western,Mbarara,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,233,34,198,1147,4923,1147059,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,1147059
+1032,HEA-1692,Eastern,Mbarara,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,3654,548,3105,156022,42699,156022146,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,156022146
+1033,FOO-1693,Western,Gulu,Food Warehouse,Secondary,Food,Beans,Beans,Kit,Borehole,No,1171,175,995,11576,9886,11576506,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,11576506
+1034,AGR-1694,Eastern,Gulu,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,4386,657,3728,143216,32653,143216058,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,143216058
+1035,WAS-1695,Eastern,Yumbe,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kg,Borehole,No,4439,665,3773,176876,39846,176876394,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,176876394
+1036,AGR-1696,Central,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kit,Borehole,No,1875,281,1593,21916,11689,21916875,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,21916875
+1037,FOO-1697,Central,Yumbe,Food Warehouse,Secondary,Food,Rice,Rice,Kit,Borehole,No,629,94,534,4939,7853,4939537,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,4939537
+1038,SHE-1698,Central,Mbarara,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,217,32,184,907,4184,907928,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,907928
+1039,WAS-1699,Northern,Kampala,WASH Warehouse,Primary,WASH,Soap,Soap,Kg,Borehole,No,1481,222,1258,4671,3154,4671074,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,4671074
+1040,AGR-1700,Western,Mbarara,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,2054,308,1745,19067,9283,19067282,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,19067282
+1041,FOO-1701,Western,Gulu,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Pcs,Borehole,No,2274,341,1932,93898,41292,93898008,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,93898008
+1042,WAS-1702,Eastern,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,1269,190,1078,55858,44018,55858842,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,55858842
+1043,FOO-1703,Northern,Kampala,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kit,Borehole,No,4272,640,3631,120824,28283,120824976,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,120824976
+1044,AGR-1704,Eastern,Kampala,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,3304,495,2808,50970,15427,50970808,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,50970808
+1045,HEA-1705,Northern,Gulu,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,1373,205,1167,41556,30267,41556591,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,41556591
+1046,HEA-1706,Western,Kampala,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,4558,683,3874,226377,49666,226377628,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,226377628
+1047,NFI-1707,Western,Yumbe,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,1294,194,1099,17197,13290,17197260,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,17197260
+1048,NFI-1708,Northern,Gulu,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Pcs,Borehole,No,4764,714,4049,69921,14677,69921228,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,69921228
+1049,AGR-1709,Eastern,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,807,121,685,11205,13885,11205195,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,11205195
+1050,NFI-1710,Western,Gulu,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,740,111,629,28779,38891,28779340,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,28779340
+1051,NFI-1711,Eastern,Kampala,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kit,Borehole,No,1664,249,1414,23322,14016,23322624,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,23322624
+1052,SHE-1712,Western,Kampala,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,4279,641,3637,148087,34608,148087632,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,148087632
+1053,SHE-1713,Northern,Gulu,Shelter Warehouse,Primary,Shelter,Cement,Cement,Pcs,Borehole,No,3756,563,3192,29766,7925,29766300,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,29766300
+1054,NFI-1714,Northern,Yumbe,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kit,Borehole,No,324,48,275,6142,18958,6142392,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,6142392
+1055,NFI-1715,Central,Kampala,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,4256,638,3617,199363,46843,199363808,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,199363808
+1056,WAS-1716,Northern,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,1218,182,1035,24241,19903,24241854,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,24241854
+1057,SHE-1717,Western,Gulu,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,2292,343,1948,82197,35863,82197996,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,82197996
+1058,WAS-1718,Central,Gulu,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,3324,498,2825,134821,40560,134821440,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,134821440
+1059,FOO-1719,Central,Yumbe,Food Warehouse,Primary,Food,Rice,Rice,Pcs,Borehole,No,2904,435,2468,136284,46930,136284720,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,136284720
+1060,NFI-1720,Central,Kampala,NFI Warehouse,Primary,NFI,Blanket,Blanket,Pcs,Borehole,No,3720,558,3162,70378,18919,70378680,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,70378680
+1061,SHE-1721,Northern,Yumbe,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kg,Borehole,No,3508,526,2981,81824,23325,81824100,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,81824100
+1062,AGR-1722,Central,Yumbe,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kit,Borehole,No,757,113,643,4800,6341,4800137,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,4800137
+1063,NFI-1723,Eastern,Gulu,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,2608,391,2216,126623,48552,126623616,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,126623616
+1064,NFI-1724,Western,Kampala,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,569,85,483,19202,33748,19202612,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,19202612
+1065,AGR-1725,Northern,Yumbe,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,3103,465,2637,122990,39636,122990508,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,122990508
+1066,HEA-1726,Western,Gulu,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,2871,430,2440,118348,41222,118348362,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,118348362
+1067,NFI-1727,Western,Yumbe,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kg,Borehole,No,4846,726,4119,136390,28145,136390670,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,136390670
+1068,SHE-1728,Eastern,Yumbe,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,1691,253,1437,20650,12212,20650492,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,20650492
+1069,NFI-1729,Northern,Yumbe,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Kit,Borehole,No,3115,467,2647,151996,48795,151996425,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,151996425
+1070,HEA-1730,Eastern,Kampala,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,3872,580,3291,36950,9543,36950496,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,36950496
+1071,WAS-1731,Western,Gulu,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,1646,246,1399,79623,48374,79623604,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,79623604
+1072,WAS-1732,Central,Gulu,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,3089,463,2625,151027,48892,151027388,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,151027388
+1073,NFI-1733,Central,Gulu,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kit,Borehole,No,439,65,373,4605,10492,4605988,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,4605988
+1074,HEA-1734,Western,Gulu,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,3096,464,2631,40997,13242,40997232,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,40997232
+1075,SHE-1735,Western,Kampala,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,323,48,274,10736,33239,10736197,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,10736197
+1076,FOO-1736,Eastern,Mbarara,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kg,Borehole,No,1988,298,1689,65494,32945,65494660,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,65494660
+1077,SHE-1737,Central,Mbarara,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,2027,304,1722,43793,21605,43793335,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,43793335
+1078,SHE-1738,Central,Yumbe,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,2311,346,1964,36386,15745,36386695,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,36386695
+1079,SHE-1739,Eastern,Yumbe,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,782,117,664,20520,26241,20520462,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,20520462
+1080,SHE-1740,Eastern,Mbarara,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,4590,688,3901,102384,22306,102384540,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,102384540
+1081,FOO-1741,Eastern,Mbarara,Food Warehouse,Primary,Food,Rice,Rice,Kg,Borehole,No,4752,712,4039,52999,11153,52999056,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,52999056
+1082,AGR-1742,Eastern,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,4906,735,4170,174452,35559,174452454,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,174452454
+1083,SHE-1743,Northern,Mbarara,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,1606,240,1365,25031,15586,25031116,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,25031116
+1084,HEA-1744,Eastern,Yumbe,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,2359,353,2005,106791,45270,106791930,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,106791930
+1085,HEA-1745,Northern,Mbarara,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,3715,557,3157,15279,4113,15279795,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,15279795
+1086,WAS-1746,Western,Kampala,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,3157,473,2683,92579,29325,92579025,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,92579025
+1087,WAS-1747,Northern,Gulu,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,2412,361,2050,63283,26237,63283644,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,63283644
+1088,SHE-1748,Northern,Kampala,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,1304,195,1108,3450,2646,3450384,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,3450384
+1089,NFI-1749,Central,Yumbe,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kg,Borehole,No,4613,691,3921,48814,10582,48814766,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,48814766
+1090,AGR-1750,Central,Kampala,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,2556,383,2172,9940,3889,9940284,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,9940284
+1091,HEA-1751,Western,Yumbe,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,2007,301,1705,42817,21334,42817338,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,42817338
+1092,SHE-1752,Western,Gulu,Shelter Warehouse,Primary,Shelter,Cement,Cement,Pcs,Borehole,No,1638,245,1392,27197,16604,27197352,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,27197352
+1093,SHE-1753,Northern,Mbarara,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,1151,172,978,13403,11645,13403395,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,13403395
+1094,WAS-1754,Eastern,Kampala,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,4250,637,3612,170531,40125,170531250,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,170531250
+1095,WAS-1755,Eastern,Yumbe,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,2321,348,1972,74334,32027,74334667,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,74334667
+1096,SHE-1756,Eastern,Gulu,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,4497,674,3822,84957,18892,84957324,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,84957324
+1097,SHE-1757,Central,Kampala,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kit,Borehole,No,4958,743,4214,124192,25049,124192942,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,124192942
+1098,HEA-1758,Eastern,Mbarara,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,2752,412,2339,26278,9549,26278848,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,26278848
+1099,AGR-1759,Western,Gulu,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kit,Borehole,No,3455,518,2936,123571,35766,123571530,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,123571530
+1100,SHE-1760,Northern,Yumbe,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,2276,341,1934,63789,28027,63789452,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,63789452
+1101,AGR-1761,Central,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,2507,376,2130,81635,32563,81635441,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,81635441
+1102,HEA-1762,Northern,Yumbe,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,4124,618,3505,87206,21146,87206104,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,87206104
+1103,AGR-1763,Eastern,Kampala,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,2746,411,2334,76909,28008,76909968,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,76909968
+1104,NFI-1764,Northern,Gulu,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,251,37,213,11863,47263,11863013,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,11863013
+1105,NFI-1765,Central,Mbarara,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,2074,311,1762,92867,44777,92867498,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,92867498
+1106,FOO-1766,Central,Yumbe,Food Warehouse,Primary,Food,Maize Flour,Maize Flour,Kit,Borehole,No,3067,460,2606,22367,7293,22367631,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,22367631
+1107,NFI-1767,Central,Yumbe,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,4013,601,3411,97720,24351,97720563,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,97720563
+1108,NFI-1768,Western,Kampala,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,901,135,765,32040,35561,32040461,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,32040461
+1109,SHE-1769,Western,Kampala,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Pcs,Borehole,No,1452,217,1234,15820,10896,15820992,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,15820992
+1110,AGR-1770,Eastern,Kampala,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kit,Borehole,No,3545,531,3013,100022,28215,100022175,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,100022175
+1111,AGR-1771,Northern,Mbarara,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,4210,631,3578,185728,44116,185728360,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,185728360
+1112,AGR-1772,Central,Mbarara,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,4253,637,3615,133965,31499,133965247,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,133965247
+1113,AGR-1773,Northern,Gulu,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,2011,301,1709,19456,9675,19456425,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,19456425
+1114,AGR-1774,Western,Mbarara,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,505,75,429,5800,11487,5800935,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,5800935
+1115,NFI-1775,Eastern,Kampala,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Pcs,Borehole,No,4269,640,3628,40675,9528,40675032,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,40675032
+1116,WAS-1776,Central,Kampala,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,2056,308,1747,67212,32691,67212696,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,67212696
+1117,FOO-1777,Western,Yumbe,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kg,Borehole,No,3836,575,3260,191627,49955,191627380,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,191627380
+1118,AGR-1778,Western,Kampala,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kit,Borehole,No,994,149,844,4212,4238,4212572,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,4212572
+1119,FOO-1779,Western,Gulu,Food Warehouse,Secondary,Food,Rice,Rice,Kit,Borehole,No,11,1,9,327,29788,327668,200,3000,Low,2024-06-01,2024-08-15,2026-02-01,WFP,327668
+1120,AGR-1780,Eastern,Kampala,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,3273,490,2782,153673,46952,153673896,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,153673896
+1121,SHE-1781,Northern,Gulu,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,782,117,664,35744,45709,35744438,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,35744438
+1122,SHE-1782,Northern,Gulu,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,1389,208,1180,40211,28950,40211550,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,40211550
+1123,SHE-1783,Northern,Gulu,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,4817,722,4094,170078,35308,170078636,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,170078636
+1124,SHE-1784,Eastern,Yumbe,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,2852,427,2424,54170,18994,54170888,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,54170888
+1125,NFI-1785,Central,Kampala,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,670,100,569,21491,32077,21491590,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,21491590
+1126,NFI-1786,Northern,Yumbe,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Pcs,Borehole,No,3161,474,2686,141751,44844,141751884,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,141751884
+1127,FOO-1787,Northern,Mbarara,Food Warehouse,Secondary,Food,Beans,Beans,Pcs,Borehole,No,3396,509,2886,123627,36404,123627984,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,123627984
+1128,AGR-1788,Western,Mbarara,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,3136,470,2665,116841,37258,116841088,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,116841088
+1129,HEA-1789,Northern,Kampala,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,2887,433,2453,130460,45189,130460643,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,130460643
+1130,SHE-1790,Central,Kampala,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,310,46,263,6558,21155,6558050,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,6558050
+1131,NFI-1791,Eastern,Gulu,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,1251,187,1063,3064,2450,3064950,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,3064950
+1132,FOO-1792,Northern,Gulu,Food Warehouse,Secondary,Food,Rice,Rice,Pcs,Borehole,No,2900,435,2465,24000,8276,24000400,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,24000400
+1133,AGR-1793,Northern,Kampala,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,3784,567,3216,58595,15485,58595240,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,58595240
+1134,SHE-1794,Eastern,Kampala,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kit,Borehole,No,731,109,621,21479,29384,21479704,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,21479704
+1135,FOO-1795,Central,Kampala,Food Warehouse,Secondary,Food,Beans,Beans,Kg,Borehole,No,2947,442,2504,121994,41396,121994012,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,121994012
+1136,AGR-1796,Eastern,Kampala,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,4223,633,3589,113670,26917,113670491,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,113670491
+1137,WAS-1797,Central,Yumbe,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kg,Borehole,No,925,138,786,18482,19981,18482425,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,18482425
+1138,SHE-1798,Central,Gulu,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,4006,600,3405,143038,35706,143038236,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,143038236
+1139,SHE-1799,Northern,Kampala,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,1239,185,1053,26767,21604,26767356,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,26767356
+1140,SHE-1800,Northern,Kampala,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kit,Borehole,No,2338,350,1987,22998,9837,22998906,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,22998906
+1141,SHE-1801,Northern,Gulu,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,4255,638,3616,133381,31347,133381485,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,133381485
+1142,AGR-1802,Western,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,1843,276,1566,60273,32704,60273472,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,60273472
+1143,SHE-1803,Central,Gulu,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,1553,232,1320,38511,24798,38511294,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,38511294
+1144,NFI-1804,Northern,Yumbe,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kg,Borehole,No,3530,529,3000,131305,37197,131305410,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,131305410
+1145,AGR-1805,Central,Yumbe,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,2124,318,1805,58569,27575,58569300,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,58569300
+1146,SHE-1806,Eastern,Mbarara,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Pcs,Borehole,No,959,143,815,46104,48076,46104884,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,46104884
+1147,WAS-1807,Western,Gulu,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,3530,529,3000,157000,44476,157000280,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,157000280
+1148,SHE-1808,Western,Mbarara,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,3788,568,3219,158501,41843,158501284,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,158501284
+1149,WAS-1809,Northern,Kampala,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,1852,277,1574,7069,3817,7069084,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,7069084
+1150,FOO-1810,Western,Gulu,Food Warehouse,Secondary,Food,Rice,Rice,Kit,Borehole,No,2586,387,2198,73664,28486,73664796,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,73664796
+1151,AGR-1811,Eastern,Mbarara,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,3207,481,2725,83414,26010,83414070,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,83414070
+1152,HEA-1812,Central,Yumbe,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,4237,635,3601,165687,39105,165687885,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,165687885
+1153,SHE-1813,Northern,Kampala,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,1327,199,1127,53196,40088,53196776,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,53196776
+1154,FOO-1814,Northern,Kampala,Food Warehouse,Primary,Food,Maize Flour,Maize Flour,Pcs,Borehole,No,1641,246,1394,51958,31663,51958983,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,51958983
+1155,WAS-1815,Northern,Kampala,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kit,Borehole,No,3562,534,3027,60696,17040,60696480,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,60696480
+1156,NFI-1816,Central,Gulu,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Pcs,Borehole,No,1258,188,1069,58208,46271,58208918,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,58208918
+1157,WAS-1817,Central,Kampala,WASH Warehouse,Primary,WASH,Soap,Soap,Pcs,Borehole,No,1676,251,1424,34197,20404,34197104,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,34197104
+1158,WAS-1818,Northern,Gulu,WASH Warehouse,Primary,WASH,Soap,Soap,Pcs,Borehole,No,2185,327,1857,77615,35522,77615570,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,77615570
+1159,NFI-1819,Eastern,Kampala,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kg,Borehole,No,2341,351,1989,6135,2621,6135761,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,6135761
+1160,WAS-1820,Central,Kampala,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,646,96,549,10399,16098,10399308,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,10399308
+1161,NFI-1821,Central,Kampala,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,3228,484,2743,15433,4781,15433068,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,15433068
+1162,HEA-1822,Northern,Gulu,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,4783,717,4065,178692,37360,178692880,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,178692880
+1163,NFI-1823,Western,Kampala,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kg,Borehole,No,4457,668,3788,79053,17737,79053809,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,79053809
+1164,HEA-1824,Northern,Mbarara,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,1299,194,1104,30731,23658,30731742,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,30731742
+1165,HEA-1825,Eastern,Yumbe,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,3403,510,2892,123096,36173,123096719,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,123096719
+1166,FOO-1826,Central,Kampala,Food Warehouse,Primary,Food,Rice,Rice,Kit,Borehole,No,2589,388,2200,16629,6423,16629147,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,16629147
+1167,WAS-1827,Western,Mbarara,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kit,Borehole,No,139,20,118,5425,39032,5425448,200,3000,Low,2024-06-01,2024-08-15,N/A,WFP,5425448
+1168,WAS-1828,Western,Yumbe,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kg,Borehole,No,2753,412,2340,87091,31635,87091155,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,87091155
+1169,HEA-1829,Eastern,Mbarara,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,3610,541,3068,91921,25463,91921430,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,91921430
+1170,FOO-1830,Western,Gulu,Food Warehouse,Secondary,Food,Rice,Rice,Pcs,Borehole,No,2491,373,2117,95619,38386,95619526,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,95619526
+1171,FOO-1831,Central,Kampala,Food Warehouse,Primary,Food,Maize Flour,Maize Flour,Kg,Borehole,No,4049,607,3441,130037,32116,130037684,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,130037684
+1172,NFI-1832,Central,Gulu,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,3088,463,2624,108394,35102,108394976,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,108394976
+1173,FOO-1833,Central,Yumbe,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Kg,Borehole,No,383,57,325,12866,33593,12866119,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,12866119
+1174,AGR-1834,Western,Gulu,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,2580,387,2193,113370,43942,113370360,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,113370360
+1175,FOO-1835,Central,Yumbe,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Kg,Borehole,No,2414,362,2051,27674,11464,27674096,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,27674096
+1176,HEA-1836,Eastern,Mbarara,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,4827,724,4102,104779,21707,104779689,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,104779689
+1177,NFI-1837,Eastern,Kampala,NFI Warehouse,Primary,NFI,Blanket,Blanket,Pcs,Borehole,No,1603,240,1362,47004,29323,47004769,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,47004769
+1178,WAS-1838,Eastern,Gulu,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kg,Borehole,No,2117,317,1799,81011,38267,81011239,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,81011239
+1179,AGR-1839,Northern,Gulu,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,1952,292,1659,32524,16662,32524224,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,32524224
+1180,NFI-1840,Northern,Yumbe,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,1453,217,1235,65475,45062,65475086,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,65475086
+1181,HEA-1841,Central,Gulu,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,2446,366,2079,10547,4312,10547152,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,10547152
+1182,NFI-1842,Western,Mbarara,NFI Warehouse,Primary,NFI,Blanket,Blanket,Pcs,Borehole,No,1452,217,1234,53769,37031,53769012,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,53769012
+1183,WAS-1843,Eastern,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,509,76,432,23814,46787,23814583,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,23814583
+1184,SHE-1844,Western,Kampala,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kit,Borehole,No,4899,734,4164,61149,12482,61149318,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,61149318
+1185,NFI-1845,Western,Gulu,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,3281,492,2788,114198,34806,114198486,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,114198486
+1186,FOO-1846,Northern,Mbarara,Food Warehouse,Secondary,Food,Rice,Rice,Kg,Borehole,No,3916,587,3328,112964,28847,112964852,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,112964852
+1187,HEA-1847,Central,Kampala,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,193,28,164,4259,22068,4259124,200,3000,Low,2024-06-01,2024-08-15,2026-02-01,UNICEF,4259124
+1188,SHE-1848,Eastern,Kampala,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kit,Borehole,No,4618,692,3925,60920,13192,60920656,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,60920656
+1189,WAS-1849,Western,Gulu,WASH Warehouse,Primary,WASH,Soap,Soap,Pcs,Borehole,No,1871,280,1590,76106,40677,76106667,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,76106667
+1190,FOO-1850,Eastern,Gulu,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,2047,307,1739,70846,34610,70846670,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,70846670
+1191,HEA-1851,Northern,Gulu,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,926,138,787,24642,26612,24642712,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,24642712
+1192,NFI-1852,Eastern,Mbarara,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kit,Borehole,No,2520,378,2142,26825,10645,26825400,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,26825400
+1193,SHE-1853,Eastern,Yumbe,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kit,Borehole,No,4286,642,3643,102028,23805,102028230,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,102028230
+1194,AGR-1854,Western,Kampala,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,4897,734,4162,10783,2202,10783194,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,10783194
+1195,NFI-1855,Northern,Gulu,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,4648,697,3950,105035,22598,105035504,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,105035504
+1196,WAS-1856,Eastern,Kampala,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,1578,236,1341,36969,23428,36969384,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,36969384
+1197,FOO-1857,Northern,Yumbe,Food Warehouse,Primary,Food,Rice,Rice,Kit,Borehole,No,3824,573,3250,87531,22890,87531360,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,87531360
+1198,FOO-1858,Northern,Gulu,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Pcs,Borehole,No,3715,557,3157,165202,44469,165202335,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,165202335
+1199,SHE-1859,Northern,Yumbe,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,2168,325,1842,35934,16575,35934600,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,35934600
+1200,NFI-1860,Western,Gulu,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,3609,541,3067,27608,7650,27608850,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,27608850
+1201,NFI-1861,Eastern,Mbarara,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,752,112,639,9075,12068,9075136,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,9075136
+1202,SHE-1862,Northern,Gulu,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Kg,Borehole,No,2418,362,2055,75514,31230,75514140,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,75514140
+1203,SHE-1863,Eastern,Mbarara,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,1491,223,1267,11441,7674,11441934,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,11441934
+1204,AGR-1864,Eastern,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kg,Borehole,No,3588,538,3049,71828,20019,71828172,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,71828172
+1205,WAS-1865,Eastern,Yumbe,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,4857,728,4128,179820,37023,179820711,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,179820711
+1206,WAS-1866,Central,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,2831,424,2406,124824,44092,124824452,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,124824452
+1207,FOO-1867,Northern,Kampala,Food Warehouse,Primary,Food,Cooking Oil,Cooking Oil,Kit,Borehole,No,3579,536,3042,109742,30663,109742877,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,109742877
+1208,WAS-1868,Northern,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,427,64,362,7687,18003,7687281,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,7687281
+1209,HEA-1869,Western,Yumbe,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,4805,720,4084,206062,42885,206062425,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,206062425
+1210,NFI-1870,Eastern,Mbarara,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,1154,173,980,29586,25638,29586252,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,29586252
+1211,WAS-1871,Eastern,Kampala,WASH Warehouse,Secondary,WASH,Soap,Soap,Pcs,Borehole,No,1246,186,1059,43695,35069,43695974,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,43695974
+1212,WAS-1872,Western,Mbarara,WASH Warehouse,Primary,WASH,Soap,Soap,Kit,Borehole,No,1665,249,1415,12172,7311,12172815,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,12172815
+1213,HEA-1873,Northern,Yumbe,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,4484,672,3811,118449,26416,118449344,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,118449344
+1214,WAS-1874,Central,Kampala,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kg,Borehole,No,1219,182,1036,8700,7137,8700003,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,8700003
+1215,NFI-1875,Northern,Mbarara,NFI Warehouse,Primary,NFI,Blanket,Blanket,Pcs,Borehole,No,3127,469,2657,30047,9609,30047343,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,30047343
+1216,WAS-1876,Eastern,Kampala,WASH Warehouse,Primary,WASH,Soap,Soap,Kit,Borehole,No,2190,328,1861,10336,4720,10336800,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,10336800
+1217,AGR-1877,Eastern,Gulu,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,3392,508,2883,61252,18058,61252736,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,61252736
+1218,HEA-1878,Eastern,Yumbe,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,1442,216,1225,64409,44667,64409814,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,64409814
+1219,WAS-1879,Central,Kampala,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kg,Borehole,No,44,6,37,581,13211,581284,200,3000,Low,2024-06-01,2024-08-15,N/A,WFP,581284
+1220,FOO-1880,Northern,Gulu,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Pcs,Borehole,No,2719,407,2311,51636,18991,51636529,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,51636529
+1221,FOO-1881,Western,Gulu,Food Warehouse,Primary,Food,Maize Flour,Maize Flour,Pcs,Borehole,No,2858,428,2429,83742,29301,83742258,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,83742258
+1222,HEA-1882,Eastern,Yumbe,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,4984,747,4236,94686,18998,94686032,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,94686032
+1223,FOO-1883,Northern,Yumbe,Food Warehouse,Secondary,Food,Beans,Beans,Kit,Borehole,No,3441,516,2924,76572,22253,76572573,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,76572573
+1224,HEA-1884,Northern,Gulu,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,1360,204,1156,35361,26001,35361360,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,35361360
+1225,HEA-1885,Northern,Yumbe,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,4560,684,3876,150188,32936,150188160,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,150188160
+1226,AGR-1886,Northern,Gulu,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kg,Borehole,No,2971,445,2525,38257,12877,38257567,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,38257567
+1227,NFI-1887,Eastern,Kampala,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,4962,744,4217,34704,6994,34704228,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,34704228
+1228,AGR-1888,Northern,Kampala,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,2962,444,2517,131912,44535,131912670,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,131912670
+1229,NFI-1889,Western,Gulu,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kit,Borehole,No,4233,634,3598,169231,39979,169231107,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,169231107
+1230,FOO-1890,Eastern,Mbarara,Food Warehouse,Primary,Food,Beans,Beans,Kg,Borehole,No,2061,309,1751,27471,13329,27471069,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,27471069
+1231,AGR-1891,Central,Mbarara,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,1197,179,1017,46191,38589,46191033,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,46191033
+1232,WAS-1892,Central,Kampala,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,298,44,253,14315,48040,14315920,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,14315920
+1233,HEA-1893,Eastern,Gulu,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,1612,241,1370,16024,9941,16024892,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,16024892
+1234,NFI-1894,Northern,Kampala,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,823,123,699,26790,32552,26790296,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,26790296
+1235,HEA-1895,Western,Yumbe,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,3317,497,2819,8707,2625,8707125,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,8707125
+1236,AGR-1896,Northern,Gulu,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,49,7,41,1814,37039,1814911,200,3000,Low,2024-06-01,2024-08-15,N/A,UNHCR,1814911
+1237,AGR-1897,Northern,Yumbe,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,2255,338,1916,59301,26298,59301990,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,59301990
+1238,FOO-1898,Eastern,Yumbe,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Pcs,Borehole,No,1882,282,1599,29507,15679,29507878,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,29507878
+1239,WAS-1899,Western,Kampala,WASH Warehouse,Primary,WASH,Soap,Soap,Kg,Borehole,No,670,100,569,17809,26581,17809270,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,17809270
+1240,NFI-1900,Northern,Mbarara,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kg,Borehole,No,954,143,810,41828,43845,41828130,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,41828130
+1241,HEA-1901,Central,Kampala,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,3627,544,3082,99601,27461,99601047,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,99601047
+1242,AGR-1902,Central,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,1418,212,1205,48739,34372,48739496,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,48739496
+1243,FOO-1903,Western,Kampala,Food Warehouse,Secondary,Food,Cooking Oil,Cooking Oil,Kit,Borehole,No,1419,212,1206,67209,47364,67209516,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,67209516
+1244,HEA-1904,Western,Yumbe,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kg,Borehole,No,359,53,305,14174,39483,14174397,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,14174397
+1245,WAS-1905,Eastern,Gulu,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,3970,595,3374,127047,32002,127047940,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,127047940
+1246,AGR-1906,Central,Kampala,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,680,102,578,24560,36118,24560240,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,24560240
+1247,WAS-1907,Northern,Yumbe,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kg,Borehole,No,1902,285,1616,31626,16628,31626456,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,31626456
+1248,SHE-1908,Northern,Yumbe,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kit,Borehole,No,4094,614,3479,116163,28374,116163156,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,116163156
+1249,NFI-1909,Central,Gulu,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,3,0,2,106,35388,106164,200,3000,Low,2024-06-01,2024-08-15,N/A,UNHCR,106164
+1250,SHE-1910,Eastern,Gulu,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,3516,527,2988,131857,37502,131857032,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,131857032
+1251,FOO-1911,Northern,Gulu,Food Warehouse,Primary,Food,Beans,Beans,Kit,Borehole,No,3986,597,3388,32832,8237,32832682,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,32832682
+1252,FOO-1912,Northern,Yumbe,Food Warehouse,Primary,Food,Rice,Rice,Kit,Borehole,No,1660,249,1411,47492,28610,47492600,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,47492600
+1253,SHE-1913,Eastern,Gulu,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,4163,624,3538,142224,34164,142224732,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,142224732
+1254,AGR-1914,Western,Yumbe,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,4227,634,3592,152886,36169,152886363,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,152886363
+1255,AGR-1915,Central,Gulu,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,4329,649,3679,162502,37538,162502002,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,162502002
+1256,SHE-1916,Western,Yumbe,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,2436,365,2070,82502,33868,82502448,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,82502448
+1257,FOO-1917,Northern,Yumbe,Food Warehouse,Secondary,Food,Beans,Beans,Kit,Borehole,No,1978,296,1681,12926,6535,12926230,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,12926230
+1258,NFI-1918,Northern,Gulu,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,916,137,778,34808,38001,34808916,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,34808916
+1259,AGR-1919,Central,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,291,43,247,12808,44016,12808656,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,12808656
+1260,AGR-1920,Northern,Gulu,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,2448,367,2080,39828,16270,39828960,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,39828960
+1261,WAS-1921,Central,Mbarara,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kg,Borehole,No,1603,240,1362,23889,14903,23889509,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,23889509
+1262,NFI-1922,Eastern,Mbarara,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,2665,399,2265,128583,48249,128583585,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,128583585
+1263,SHE-1923,Western,Yumbe,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,3106,465,2640,154890,49868,154890008,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,154890008
+1264,HEA-1924,Western,Gulu,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,4950,742,4207,155434,31401,155434950,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,155434950
+1265,WAS-1925,Northern,Mbarara,WASH Warehouse,Primary,WASH,Soap,Soap,Kit,Borehole,No,3602,540,3061,20913,5806,20913212,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,20913212
+1266,SHE-1926,Western,Kampala,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Kg,Borehole,No,2324,348,1975,18073,7777,18073748,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,18073748
+1267,NFI-1927,Northern,Kampala,NFI Warehouse,Secondary,NFI,Blanket,Blanket,Kit,Borehole,No,2768,415,2352,136492,49311,136492848,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,136492848
+1268,NFI-1928,Western,Mbarara,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,1003,150,852,47237,47096,47237288,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,47237288
+1269,WAS-1929,Northern,Kampala,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kg,Borehole,No,3845,576,3268,169345,44043,169345335,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,169345335
+1270,WAS-1930,Eastern,Kampala,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,2693,403,2289,112976,41952,112976736,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,112976736
+1271,WAS-1931,Eastern,Kampala,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,430,64,365,6334,14731,6334330,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,6334330
+1272,AGR-1932,Central,Kampala,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kit,Borehole,No,2322,348,1973,77868,33535,77868270,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,77868270
+1273,FOO-1933,Western,Kampala,Food Warehouse,Primary,Food,Beans,Beans,Kg,Borehole,No,3902,585,3316,48345,12390,48345780,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,48345780
+1274,HEA-1934,Central,Kampala,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,3453,517,2935,158188,45812,158188836,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,158188836
+1275,SHE-1935,Central,Mbarara,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,4384,657,3726,174290,39756,174290304,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,174290304
+1276,NFI-1936,Western,Gulu,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,3274,491,2782,92853,28361,92853914,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,92853914
+1277,NFI-1937,Eastern,Gulu,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,848,127,720,19802,23352,19802496,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,19802496
+1278,NFI-1938,Western,Kampala,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,3610,541,3068,98971,27416,98971760,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,98971760
+1279,HEA-1939,Eastern,Gulu,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,3902,585,3316,63867,16368,63867936,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,63867936
+1280,AGR-1940,Eastern,Mbarara,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,4966,744,4221,144306,29059,144306994,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,144306994
+1281,WAS-1941,Northern,Mbarara,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kg,Borehole,No,3712,556,3155,11759,3168,11759616,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,11759616
+1282,SHE-1942,Western,Mbarara,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Pcs,Borehole,No,1825,273,1551,60986,33417,60986025,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,60986025
+1283,FOO-1943,Northern,Gulu,Food Warehouse,Primary,Food,Beans,Beans,Kit,Borehole,No,3591,538,3052,139205,38765,139205115,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,139205115
+1284,NFI-1944,Central,Kampala,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,3104,465,2638,106482,34305,106482720,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,106482720
+1285,NFI-1945,Northern,Yumbe,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,3700,555,3145,43493,11755,43493500,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,43493500
+1286,WAS-1946,Eastern,Gulu,WASH Warehouse,Primary,WASH,Soap,Soap,Kg,Borehole,No,4854,728,4125,104424,21513,104424102,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,104424102
+1287,WAS-1947,Central,Yumbe,WASH Warehouse,Secondary,WASH,Soap,Soap,Kit,Borehole,No,3385,507,2877,25248,7459,25248715,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,25248715
+1288,FOO-1948,Western,Kampala,Food Warehouse,Secondary,Food,Maize Flour,Maize Flour,Kit,Borehole,No,3203,480,2722,99196,30970,99196910,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,99196910
+1289,WAS-1949,Eastern,Gulu,WASH Warehouse,Secondary,WASH,Soap,Soap,Pcs,Borehole,No,4580,687,3893,170417,37209,170417220,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,170417220
+1290,WAS-1950,Eastern,Mbarara,WASH Warehouse,Primary,WASH,Soap,Soap,Kg,Borehole,No,375,56,318,12704,33878,12704250,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,12704250
+1291,AGR-1951,Eastern,Mbarara,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kg,Borehole,No,2363,354,2008,96240,40728,96240264,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,96240264
+1292,HEA-1952,Eastern,Yumbe,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,1942,291,1650,46563,23977,46563334,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,46563334
+1293,NFI-1953,Central,Yumbe,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,992,148,843,42065,42405,42065760,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,42065760
+1294,SHE-1954,Central,Gulu,Shelter Warehouse,Primary,Shelter,Iron Sheets,Iron Sheets,Pcs,Borehole,No,1874,281,1592,53751,28683,53751942,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,53751942
+1295,WAS-1955,Central,Gulu,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,962,144,817,36614,38061,36614682,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,36614682
+1296,HEA-1956,Western,Yumbe,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,1788,268,1519,31062,17373,31062924,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,31062924
+1297,AGR-1957,Western,Gulu,Agriculture Warehouse,Primary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,3653,547,3105,70828,19389,70828017,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,70828017
+1298,HEA-1958,Northern,Yumbe,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kg,Borehole,No,1096,164,931,3830,3495,3830520,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,3830520
+1299,HEA-1959,Northern,Kampala,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,4865,729,4135,192026,39471,192026415,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,192026415
+1300,FOO-1960,Eastern,Gulu,Food Warehouse,Secondary,Food,Beans,Beans,Pcs,Borehole,No,195,29,165,4726,24236,4726020,200,3000,Low,2024-06-01,2024-08-15,2026-02-01,UNICEF,4726020
+1301,AGR-1961,Western,Yumbe,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Pcs,Borehole,No,2068,310,1757,81348,39337,81348916,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,81348916
+1302,FOO-1962,Eastern,Gulu,Food Warehouse,Primary,Food,Maize Flour,Maize Flour,Pcs,Borehole,No,3243,486,2756,39512,12184,39512712,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,39512712
+1303,NFI-1963,Eastern,Yumbe,NFI Warehouse,Primary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,84,12,71,604,7196,604464,200,3000,Low,2024-06-01,2024-08-15,N/A,UNHCR,604464
+1304,WAS-1964,Central,Kampala,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,4753,712,4040,34834,7329,34834737,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,34834737
+1305,WAS-1965,Central,Yumbe,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,2959,443,2515,93110,31467,93110853,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,93110853
+1306,AGR-1966,Central,Gulu,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,1031,154,876,33506,32499,33506469,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,33506469
+1307,WAS-1967,Northern,Mbarara,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kg,Borehole,No,1595,239,1355,17519,10984,17519480,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,17519480
+1308,AGR-1968,Central,Gulu,Agriculture Warehouse,Secondary,Agriculture,Hoe,Hoe,Kit,Borehole,No,273,40,232,6855,25111,6855303,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,6855303
+1309,FOO-1969,Eastern,Gulu,Food Warehouse,Secondary,Food,Beans,Beans,Kit,Borehole,No,2699,404,2294,41235,15278,41235322,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNHCR,41235322
+1310,HEA-1970,Central,Mbarara,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,4927,739,4187,42524,8631,42524937,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,42524937
+1311,WAS-1971,Central,Mbarara,WASH Warehouse,Secondary,WASH,Water Tank,Water Tank,Kit,Borehole,No,2434,365,2068,36149,14852,36149768,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,36149768
+1312,WAS-1972,Central,Kampala,WASH Warehouse,Primary,WASH,Soap,Soap,Kg,Borehole,No,735,110,624,4590,6245,4590075,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,4590075
+1313,WAS-1973,Eastern,Gulu,WASH Warehouse,Secondary,WASH,Soap,Soap,Kg,Borehole,No,3253,487,2765,44676,13734,44676702,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,44676702
+1314,NFI-1974,Eastern,Yumbe,NFI Warehouse,Primary,NFI,Blanket,Blanket,Kit,Borehole,No,3517,527,2989,153833,43740,153833580,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,153833580
+1315,NFI-1975,Eastern,Mbarara,NFI Warehouse,Primary,NFI,Jerrycan,Jerrycan,Kg,Borehole,No,4727,709,4017,183989,38923,183989021,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,183989021
+1316,WAS-1976,Central,Mbarara,WASH Warehouse,Secondary,WASH,Soap,Soap,Pcs,Borehole,No,533,79,453,8833,16573,8833409,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,8833409
+1317,HEA-1977,Northern,Gulu,Health Warehouse,Primary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,63,9,53,2138,33944,2138472,200,3000,Low,2024-06-01,2024-08-15,2026-02-01,UNICEF,2138472
+1318,WAS-1978,Central,Gulu,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Kit,Borehole,No,4323,648,3674,168921,39075,168921225,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,168921225
+1319,HEA-1979,Central,Kampala,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Kit,Borehole,No,3688,553,3134,134582,36492,134582496,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,134582496
+1320,SHE-1980,Eastern,Mbarara,Shelter Warehouse,Primary,Shelter,Cement,Cement,Kg,Borehole,No,1372,205,1166,50706,36958,50706376,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,50706376
+1321,FOO-1981,Eastern,Gulu,Food Warehouse,Secondary,Food,Beans,Beans,Kit,Borehole,No,787,118,668,37625,47809,37625683,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,37625683
+1322,AGR-1982,Central,Gulu,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kit,Borehole,No,3537,530,3006,119663,33832,119663784,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,119663784
+1323,NFI-1983,Central,Yumbe,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Kit,Borehole,No,3387,508,2878,58483,17267,58483329,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,58483329
+1324,SHE-1984,Central,Yumbe,Shelter Warehouse,Secondary,Shelter,Cement,Cement,Pcs,Borehole,No,3563,534,3028,29480,8274,29480262,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,29480262
+1325,WAS-1985,Western,Mbarara,WASH Warehouse,Primary,WASH,Soap,Soap,Kit,Borehole,No,4995,749,4245,221323,44309,221323455,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,221323455
+1326,NFI-1986,Central,Yumbe,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kit,Borehole,No,1013,151,861,34839,34392,34839096,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,34839096
+1327,NFI-1987,Central,Mbarara,NFI Warehouse,Secondary,NFI,Jerrycan,Jerrycan,Pcs,Borehole,No,1762,264,1497,41213,23390,41213180,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,41213180
+1328,HEA-1988,Western,Gulu,Health Warehouse,Primary,Health,Malaria Kit,Malaria Kit,Kit,Borehole,No,1304,195,1108,36985,28363,36985352,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,36985352
+1329,AGR-1989,Northern,Kampala,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Pcs,Borehole,No,1608,241,1366,52711,32781,52711848,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,52711848
+1330,AGR-1990,Western,Yumbe,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kit,Borehole,No,2132,319,1812,14719,6904,14719328,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNICEF,14719328
+1331,HEA-1991,Northern,Gulu,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,3308,496,2811,41551,12561,41551788,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,41551788
+1332,AGR-1992,Eastern,Gulu,Agriculture Warehouse,Secondary,Agriculture,Maize Seeds,Maize Seeds,Kg,Borehole,No,2714,407,2306,58877,21694,58877516,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,58877516
+1333,NFI-1993,Western,Mbarara,NFI Warehouse,Secondary,NFI,Mosquito Net,Mosquito Net,Kg,Borehole,No,684,102,581,18356,26837,18356508,200,3000,Normal,2024-06-01,2024-08-15,N/A,UNHCR,18356508
+1334,HEA-1994,Central,Yumbe,Health Warehouse,Secondary,Health,Malaria Kit,Malaria Kit,Pcs,Borehole,No,3523,528,2994,50058,14209,50058307,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,UNICEF,50058307
+1335,HEA-1995,Central,Gulu,Health Warehouse,Secondary,Health,Mama Kit,Mama Kit,Pcs,Borehole,No,65,9,55,2595,39929,2595385,200,3000,Low,2024-06-01,2024-08-15,2026-02-01,UNICEF,2595385
+1336,AGR-1996,Central,Kampala,Agriculture Warehouse,Primary,Agriculture,Hoe,Hoe,Kg,Borehole,No,3626,543,3082,67519,18621,67519746,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,67519746
+1337,WAS-1997,Western,Yumbe,WASH Warehouse,Primary,WASH,Water Tank,Water Tank,Pcs,Borehole,No,3948,592,3355,172843,43780,172843440,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,172843440
+1338,FOO-1998,Northern,Yumbe,Food Warehouse,Primary,Food,Rice,Rice,Kg,Borehole,No,867,130,736,42791,49356,42791652,200,3000,Normal,2024-06-01,2024-08-15,2026-02-01,WFP,42791652
+1339,SHE-1999,Western,Gulu,Shelter Warehouse,Secondary,Shelter,Iron Sheets,Iron Sheets,Kit,Borehole,No,829,124,704,12935,15604,12935716,200,3000,Normal,2024-06-01,2024-08-15,N/A,WFP,12935716

@@ -1,0 +1,1001 @@
+ID,Case_ID,Region,District,Settlement,Education,Gender,Age,Age_Group,Marital_Status,GBV_Type,Perpetrator,Location_Incident,Yield,Water_Source,Irrigation,Crop,Reported,Reported_Within_72H,Service_Sought,Service_Provided,Referral_Made,Risk_Level,Repeat_Case,Month,Year,Income_UGX
+340,GBV-UG-10000,Eastern,Kampala,Bidi Bidi,Primary,Female,8,0-17,Married,Defilement,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Police,Medium,No,Jan,2024,578298
+341,GBV-UG-10001,Eastern,Mbarara,Bidi Bidi,Secondary,Female,46,18-35,Single,Early Marriage,Intimate Partner,Water Point,1,Borehole,No,N/A,No,Yes,Health,No,Health,High,No,Jan,2024,563284
+342,GBV-UG-10002,West Nile,Mbarara,Nakivale,Secondary,Male,13,0-17,Single,Defilement,Family Member,Water Point,1,Tap,No,N/A,No,No,Legal,Yes,Police,Low,Yes,Feb,2024,324971
+343,GBV-UG-10003,Eastern,Mbarara,Nakivale,None,Female,22,18-35,Single,Early Marriage,Stranger,Home,1,Borehole,No,N/A,No,No,Health,No,Police,High,Yes,Mar,2024,256372
+344,GBV-UG-10004,Western,Mbale,Host Community,None,Female,22,18-35,Single,Domestic Violence,Stranger,Home,1,Borehole,No,N/A,No,No,Health,No,Health,High,No,Jan,2024,614193
+345,GBV-UG-10005,Western,Mbale,Host Community,Primary,Female,10,0-17,Single,Defilement,Stranger,School,1,Tap,No,N/A,No,No,Legal,Yes,Police,Low,Yes,Feb,2024,577286
+346,GBV-UG-10006,Eastern,Mbarara,Nakivale,None,Female,45,18-35,Single,Early Marriage,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,Yes,Psychosocial,No,Police,High,Yes,Jan,2024,598500
+347,GBV-UG-10007,West Nile,Mbale,Bidi Bidi,Primary,Female,14,0-17,Single,Defilement,Family Member,Home,1,Borehole,No,N/A,No,No,Psychosocial,No,Police,High,No,Mar,2024,589967
+348,GBV-UG-10008,West Nile,Mbarara,Host Community,Secondary,Female,16,0-17,Married,Defilement,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,No,Health,Yes,Health,Medium,Yes,Jan,2024,100272
+349,GBV-UG-10009,South West,Kampala,Nakivale,None,Female,59,18-35,Married,Sexual Assault,Stranger,Field,1,Tap,No,N/A,No,No,Health,No,Health,High,No,Feb,2024,565581
+350,GBV-UG-10010,Western,Mbarara,Bidi Bidi,None,Female,60,18-35,Married,Physical Assault,Intimate Partner,Home,1,Tap,No,N/A,No,No,Psychosocial,No,Health,Low,No,Feb,2024,208515
+351,GBV-UG-10011,Northern,Mbarara,Nakivale,Primary,Female,60,18-35,Single,Early Marriage,Stranger,Field,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Police,Low,Yes,Mar,2024,574924
+352,GBV-UG-10012,South West,Kampala,Nakivale,Primary,Male,51,18-35,Single,Sexual Assault,Family Member,Field,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,Medium,Yes,Mar,2024,34372
+353,GBV-UG-10013,Western,Mbarara,Host Community,Primary,Female,26,18-35,Married,Sexual Assault,Family Member,School,1,Borehole,No,N/A,Yes,Yes,Psychosocial,Yes,Health,High,No,Mar,2024,273479
+354,GBV-UG-10014,Northern,Mbarara,Bidi Bidi,Primary,Male,28,18-35,Single,Early Marriage,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,No,Health,Yes,Health,Low,Yes,Jan,2024,577609
+355,GBV-UG-10015,Northern,Mbarara,Host Community,Primary,Male,22,18-35,Single,Early Marriage,Stranger,School,1,Borehole,No,N/A,No,No,Health,No,Health,High,No,Jan,2024,349105
+356,GBV-UG-10016,West Nile,Mbarara,Nakivale,Primary,Female,18,18-35,Single,Domestic Violence,Stranger,Field,1,Tap,No,N/A,No,No,Psychosocial,No,Health,Low,No,Jan,2024,441717
+357,GBV-UG-10017,Eastern,Mbarara,Host Community,Secondary,Female,45,18-35,Married,Sexual Assault,Family Member,School,1,Borehole,No,N/A,Yes,Yes,Health,No,Police,High,Yes,Feb,2024,473283
+358,GBV-UG-10018,Northern,Mbarara,Bidi Bidi,Primary,Female,53,18-35,Single,Sexual Assault,Family Member,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,No,Police,High,No,Feb,2024,162960
+359,GBV-UG-10019,Northern,Kampala,Host Community,Secondary,Female,15,0-17,Married,Defilement,Intimate Partner,Home,1,Tap,No,N/A,Yes,No,Legal,No,Health,Low,Yes,Mar,2024,335096
+360,GBV-UG-10020,South West,Kampala,Nakivale,Secondary,Female,22,18-35,Single,Sexual Assault,Family Member,Field,1,Borehole,No,N/A,Yes,Yes,Legal,No,Health,Low,Yes,Mar,2024,763139
+361,GBV-UG-10021,Western,Gulu,Nakivale,None,Female,32,18-35,Married,Domestic Violence,Family Member,School,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Police,Medium,No,Feb,2024,363945
+362,GBV-UG-10022,Western,Kampala,Nakivale,Secondary,Female,57,18-35,Married,Physical Assault,Intimate Partner,School,1,Tap,No,N/A,Yes,Yes,Legal,No,Police,Low,Yes,Mar,2024,120789
+363,GBV-UG-10023,South West,Kampala,Bidi Bidi,None,Female,33,18-35,Single,Domestic Violence,Intimate Partner,School,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Police,Low,No,Mar,2024,117491
+364,GBV-UG-10024,South West,Kampala,Host Community,Secondary,Female,60,18-35,Single,Early Marriage,Family Member,Field,1,Tap,No,N/A,Yes,Yes,Psychosocial,Yes,Police,High,No,Feb,2024,586363
+365,GBV-UG-10025,Northern,Mbale,Nakivale,None,Female,17,0-17,Single,Defilement,Stranger,Water Point,1,Tap,No,N/A,Yes,No,Psychosocial,No,Police,High,Yes,Feb,2024,661025
+366,GBV-UG-10026,Northern,Kampala,Bidi Bidi,Primary,Female,17,0-17,Married,Defilement,Stranger,Field,1,Tap,No,N/A,No,Yes,Health,No,Health,Medium,No,Feb,2024,651419
+367,GBV-UG-10027,Central,Mbarara,Nakivale,Primary,Female,44,18-35,Single,Sexual Assault,Intimate Partner,Field,1,Tap,No,N/A,No,No,Health,Yes,Health,Low,Yes,Jan,2024,279841
+368,GBV-UG-10028,Northern,Gulu,Bidi Bidi,None,Female,16,0-17,Married,Defilement,Intimate Partner,Home,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Police,Medium,No,Mar,2024,598330
+369,GBV-UG-10029,South West,Mbale,Bidi Bidi,Primary,Male,47,18-35,Married,Sexual Assault,Family Member,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,Medium,Yes,Feb,2024,473876
+370,GBV-UG-10030,Central,Kampala,Host Community,Primary,Female,43,18-35,Married,Sexual Assault,Stranger,Field,1,Tap,No,N/A,No,No,Health,No,Health,Medium,Yes,Mar,2024,723077
+371,GBV-UG-10031,West Nile,Kampala,Host Community,Primary,Female,35,18-35,Married,Sexual Assault,Family Member,School,1,Tap,No,N/A,Yes,No,Legal,No,Health,High,Yes,Jan,2024,589532
+372,GBV-UG-10032,South West,Mbale,Host Community,Primary,Female,35,18-35,Single,Early Marriage,Intimate Partner,Water Point,1,Borehole,No,N/A,Yes,No,Psychosocial,Yes,Police,Low,Yes,Feb,2024,254997
+373,GBV-UG-10033,Central,Mbarara,Bidi Bidi,Primary,Female,41,18-35,Married,Early Marriage,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,No,Legal,Yes,Health,Low,Yes,Feb,2024,286429
+374,GBV-UG-10034,Western,Kampala,Host Community,Secondary,Male,25,18-35,Married,Domestic Violence,Intimate Partner,School,1,Borehole,No,N/A,Yes,Yes,Legal,No,Health,Low,Yes,Feb,2024,564456
+375,GBV-UG-10035,Central,Mbarara,Nakivale,None,Female,28,18-35,Married,Domestic Violence,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,No,Psychosocial,No,Police,High,No,Jan,2024,348362
+376,GBV-UG-10036,Western,Mbale,Host Community,Primary,Female,23,18-35,Married,Sexual Assault,Family Member,Home,1,Tap,No,N/A,No,No,Psychosocial,No,Police,Low,No,Feb,2024,404234
+377,GBV-UG-10037,Northern,Mbarara,Bidi Bidi,Secondary,Female,20,18-35,Married,Domestic Violence,Intimate Partner,Field,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Health,Medium,No,Mar,2024,768763
+378,GBV-UG-10038,West Nile,Kampala,Bidi Bidi,None,Female,35,18-35,Single,Domestic Violence,Family Member,Field,1,Tap,No,N/A,No,Yes,Health,No,Health,High,Yes,Jan,2024,378519
+379,GBV-UG-10039,Western,Mbale,Host Community,Secondary,Female,52,18-35,Married,Domestic Violence,Family Member,School,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Health,High,Yes,Feb,2024,38827
+380,GBV-UG-10040,Northern,Kampala,Nakivale,None,Female,8,0-17,Married,Defilement,Stranger,Water Point,1,Tap,No,N/A,Yes,Yes,Health,Yes,Health,Low,Yes,Mar,2024,297771
+381,GBV-UG-10041,Eastern,Mbale,Bidi Bidi,Secondary,Female,18,18-35,Married,Early Marriage,Family Member,Home,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Health,Low,Yes,Feb,2024,744790
+382,GBV-UG-10042,Western,Gulu,Bidi Bidi,Secondary,Female,51,18-35,Married,Physical Assault,Stranger,Water Point,1,Borehole,No,N/A,Yes,No,Legal,No,Health,High,Yes,Feb,2024,799151
+383,GBV-UG-10043,Northern,Mbarara,Bidi Bidi,None,Female,34,18-35,Married,Sexual Assault,Stranger,Field,1,Tap,No,N/A,No,Yes,Psychosocial,No,Police,Medium,Yes,Jan,2024,530734
+384,GBV-UG-10044,Western,Mbale,Bidi Bidi,None,Female,27,18-35,Single,Early Marriage,Intimate Partner,School,1,Tap,No,N/A,Yes,Yes,Legal,No,Health,Low,No,Feb,2024,412954
+385,GBV-UG-10045,Northern,Mbarara,Nakivale,Secondary,Female,47,18-35,Married,Physical Assault,Family Member,Home,1,Tap,No,N/A,No,No,Psychosocial,No,Police,High,No,Jan,2024,731782
+386,GBV-UG-10046,South West,Mbarara,Nakivale,Secondary,Female,54,18-35,Single,Physical Assault,Intimate Partner,Home,1,Tap,No,N/A,No,No,Psychosocial,No,Police,Low,No,Feb,2024,566702
+387,GBV-UG-10047,South West,Mbarara,Nakivale,None,Female,42,18-35,Single,Physical Assault,Intimate Partner,Water Point,1,Tap,No,N/A,No,No,Health,Yes,Police,Medium,Yes,Jan,2024,512157
+388,GBV-UG-10048,Northern,Kampala,Nakivale,None,Female,55,18-35,Single,Sexual Assault,Family Member,Field,1,Tap,No,N/A,No,No,Health,No,Health,Medium,Yes,Mar,2024,354356
+389,GBV-UG-10049,Eastern,Kampala,Nakivale,Secondary,Female,18,18-35,Single,Sexual Assault,Intimate Partner,Home,1,Borehole,No,N/A,Yes,Yes,Legal,Yes,Health,Medium,No,Jan,2024,211982
+390,GBV-UG-10050,Central,Mbale,Nakivale,Secondary,Female,16,0-17,Single,Defilement,Intimate Partner,Field,1,Borehole,No,N/A,No,No,Legal,No,Health,Medium,Yes,Jan,2024,537648
+391,GBV-UG-10051,Central,Kampala,Nakivale,Secondary,Female,42,18-35,Married,Physical Assault,Family Member,Field,1,Tap,No,N/A,No,Yes,Health,No,Police,Low,No,Jan,2024,42831
+392,GBV-UG-10052,West Nile,Mbale,Nakivale,Secondary,Female,47,18-35,Married,Sexual Assault,Family Member,School,1,Borehole,No,N/A,No,No,Legal,No,Police,Medium,Yes,Mar,2024,495611
+393,GBV-UG-10053,Eastern,Gulu,Host Community,None,Female,60,18-35,Married,Physical Assault,Family Member,School,1,Tap,No,N/A,No,No,Legal,No,Health,High,Yes,Jan,2024,376915
+394,GBV-UG-10054,West Nile,Gulu,Nakivale,Primary,Female,53,18-35,Married,Domestic Violence,Family Member,School,1,Tap,No,N/A,No,No,Psychosocial,No,Police,Low,No,Mar,2024,505712
+395,GBV-UG-10055,Eastern,Mbale,Nakivale,Primary,Female,24,18-35,Single,Early Marriage,Stranger,Field,1,Tap,No,N/A,No,No,Health,Yes,Police,Medium,Yes,Mar,2024,336127
+396,GBV-UG-10056,Eastern,Mbale,Host Community,Secondary,Female,51,18-35,Single,Physical Assault,Family Member,Field,1,Borehole,No,N/A,No,Yes,Health,No,Police,Medium,Yes,Mar,2024,70205
+397,GBV-UG-10057,Western,Mbarara,Bidi Bidi,Primary,Female,24,18-35,Married,Domestic Violence,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Health,High,Yes,Jan,2024,305698
+398,GBV-UG-10058,South West,Gulu,Bidi Bidi,Primary,Female,9,0-17,Married,Defilement,Family Member,Field,1,Borehole,No,N/A,No,Yes,Legal,No,Health,Low,No,Jan,2024,382555
+399,GBV-UG-10059,South West,Gulu,Nakivale,Primary,Female,26,18-35,Married,Early Marriage,Stranger,School,1,Borehole,No,N/A,Yes,No,Legal,No,Health,High,Yes,Jan,2024,713122
+400,GBV-UG-10060,South West,Gulu,Host Community,Primary,Female,38,18-35,Single,Early Marriage,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,No,Psychosocial,No,Health,High,No,Feb,2024,28262
+401,GBV-UG-10061,West Nile,Kampala,Host Community,Primary,Female,16,0-17,Single,Defilement,Stranger,Water Point,1,Borehole,No,N/A,Yes,Yes,Health,Yes,Health,Medium,Yes,Jan,2024,514650
+402,GBV-UG-10062,West Nile,Kampala,Nakivale,Secondary,Female,8,0-17,Married,Defilement,Family Member,Water Point,1,Tap,No,N/A,No,Yes,Health,No,Police,Low,No,Mar,2024,67602
+403,GBV-UG-10063,South West,Gulu,Bidi Bidi,None,Male,11,0-17,Single,Defilement,Stranger,Field,1,Borehole,No,N/A,No,No,Legal,Yes,Police,High,Yes,Feb,2024,250195
+404,GBV-UG-10064,South West,Kampala,Nakivale,None,Female,23,18-35,Married,Sexual Assault,Family Member,Home,1,Tap,No,N/A,No,No,Health,Yes,Health,High,No,Jan,2024,471918
+405,GBV-UG-10065,West Nile,Gulu,Bidi Bidi,None,Female,19,18-35,Married,Domestic Violence,Family Member,Water Point,1,Tap,No,N/A,No,No,Legal,Yes,Police,Medium,Yes,Mar,2024,456462
+406,GBV-UG-10066,Northern,Kampala,Bidi Bidi,Primary,Male,12,0-17,Married,Defilement,Intimate Partner,Home,1,Borehole,No,N/A,Yes,Yes,Psychosocial,Yes,Health,Medium,No,Jan,2024,659068
+407,GBV-UG-10067,Northern,Kampala,Host Community,None,Female,20,18-35,Married,Sexual Assault,Stranger,School,1,Borehole,No,N/A,No,Yes,Legal,Yes,Police,High,Yes,Jan,2024,264473
+408,GBV-UG-10068,Central,Gulu,Host Community,Primary,Female,61,18-35,Single,Sexual Assault,Intimate Partner,Water Point,1,Borehole,No,N/A,Yes,Yes,Legal,Yes,Health,Low,Yes,Feb,2024,463243
+409,GBV-UG-10069,West Nile,Mbale,Bidi Bidi,Primary,Female,59,18-35,Married,Domestic Violence,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Legal,Yes,Police,High,Yes,Feb,2024,253682
+410,GBV-UG-10070,Central,Kampala,Host Community,Primary,Female,51,18-35,Married,Early Marriage,Intimate Partner,Field,1,Tap,No,N/A,No,Yes,Psychosocial,No,Health,Low,Yes,Jan,2024,538514
+411,GBV-UG-10071,South West,Mbarara,Host Community,Primary,Female,27,18-35,Single,Early Marriage,Stranger,School,1,Borehole,No,N/A,No,No,Health,No,Police,Low,No,Feb,2024,289127
+412,GBV-UG-10072,Northern,Gulu,Host Community,Secondary,Female,37,18-35,Single,Early Marriage,Intimate Partner,School,1,Borehole,No,N/A,Yes,Yes,Legal,No,Health,Medium,No,Mar,2024,336538
+413,GBV-UG-10073,Eastern,Gulu,Bidi Bidi,None,Female,29,18-35,Married,Sexual Assault,Intimate Partner,Home,1,Borehole,No,N/A,No,Yes,Legal,Yes,Health,Medium,No,Mar,2024,143459
+414,GBV-UG-10074,South West,Mbale,Nakivale,Primary,Female,19,18-35,Married,Domestic Violence,Stranger,School,1,Tap,No,N/A,No,No,Legal,Yes,Health,Medium,Yes,Mar,2024,136542
+415,GBV-UG-10075,Central,Kampala,Nakivale,Primary,Female,49,18-35,Married,Physical Assault,Intimate Partner,Field,1,Tap,No,N/A,No,Yes,Psychosocial,No,Police,Medium,Yes,Mar,2024,421397
+416,GBV-UG-10076,Western,Kampala,Host Community,Primary,Female,46,18-35,Married,Domestic Violence,Intimate Partner,Home,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Police,High,Yes,Jan,2024,718182
+417,GBV-UG-10077,West Nile,Mbale,Bidi Bidi,Secondary,Female,29,18-35,Single,Domestic Violence,Stranger,Water Point,1,Borehole,No,N/A,Yes,No,Legal,Yes,Health,Medium,No,Feb,2024,361657
+418,GBV-UG-10078,South West,Gulu,Nakivale,None,Female,38,18-35,Married,Domestic Violence,Intimate Partner,School,1,Tap,No,N/A,No,No,Psychosocial,No,Health,High,No,Mar,2024,206136
+419,GBV-UG-10079,Western,Mbale,Nakivale,Secondary,Female,58,18-35,Married,Sexual Assault,Family Member,Field,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Health,High,No,Feb,2024,4152
+420,GBV-UG-10080,Eastern,Kampala,Nakivale,Secondary,Female,29,18-35,Married,Early Marriage,Stranger,School,1,Tap,No,N/A,No,No,Psychosocial,No,Health,Low,No,Jan,2024,424225
+421,GBV-UG-10081,West Nile,Mbale,Nakivale,Secondary,Female,18,18-35,Single,Physical Assault,Stranger,Field,1,Borehole,No,N/A,No,No,Health,Yes,Health,High,Yes,Mar,2024,559761
+422,GBV-UG-10082,Northern,Mbarara,Nakivale,None,Male,10,0-17,Single,Defilement,Family Member,Field,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,Low,No,Jan,2024,346400
+423,GBV-UG-10083,West Nile,Gulu,Host Community,Secondary,Female,21,18-35,Single,Domestic Violence,Intimate Partner,School,1,Tap,No,N/A,No,No,Health,No,Health,High,Yes,Jan,2024,304679
+424,GBV-UG-10084,West Nile,Gulu,Nakivale,Secondary,Female,20,18-35,Single,Physical Assault,Stranger,Field,1,Borehole,No,N/A,No,No,Psychosocial,No,Police,Medium,No,Feb,2024,564
+425,GBV-UG-10085,Northern,Gulu,Bidi Bidi,Secondary,Female,24,18-35,Married,Sexual Assault,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,No,Police,Low,Yes,Jan,2024,504196
+426,GBV-UG-10086,Eastern,Gulu,Host Community,None,Female,45,18-35,Single,Early Marriage,Intimate Partner,School,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,Medium,Yes,Feb,2024,437800
+427,GBV-UG-10087,Eastern,Mbarara,Bidi Bidi,Primary,Female,40,18-35,Single,Domestic Violence,Family Member,Field,1,Tap,No,N/A,No,No,Health,Yes,Police,High,No,Jan,2024,512739
+428,GBV-UG-10088,Central,Kampala,Bidi Bidi,None,Male,42,18-35,Single,Sexual Assault,Family Member,Home,1,Borehole,No,N/A,No,No,Legal,No,Police,Medium,No,Jan,2024,100405
+429,GBV-UG-10089,Central,Mbarara,Nakivale,None,Female,53,18-35,Married,Domestic Violence,Stranger,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,No,Police,Medium,No,Mar,2024,174557
+430,GBV-UG-10090,West Nile,Mbarara,Nakivale,Secondary,Female,37,18-35,Single,Early Marriage,Stranger,Home,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Police,Low,No,Mar,2024,235059
+431,GBV-UG-10091,South West,Mbale,Nakivale,None,Male,59,18-35,Single,Sexual Assault,Stranger,Home,1,Tap,No,N/A,No,Yes,Legal,No,Health,Low,Yes,Jan,2024,245392
+432,GBV-UG-10092,Eastern,Mbale,Host Community,Secondary,Female,28,18-35,Married,Sexual Assault,Stranger,School,1,Tap,No,N/A,Yes,No,Psychosocial,No,Health,Medium,No,Feb,2024,256482
+433,GBV-UG-10093,Northern,Gulu,Host Community,None,Female,55,18-35,Married,Early Marriage,Family Member,Water Point,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Police,Medium,Yes,Mar,2024,4718
+434,GBV-UG-10094,Central,Mbarara,Host Community,None,Female,13,0-17,Married,Defilement,Stranger,School,1,Borehole,No,N/A,Yes,Yes,Health,Yes,Police,Medium,No,Mar,2024,636314
+435,GBV-UG-10095,West Nile,Mbarara,Host Community,Primary,Female,8,0-17,Single,Defilement,Family Member,School,1,Borehole,No,N/A,No,Yes,Legal,No,Health,Low,Yes,Feb,2024,414201
+436,GBV-UG-10096,Northern,Mbale,Bidi Bidi,None,Female,39,18-35,Single,Early Marriage,Stranger,Water Point,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,High,Yes,Mar,2024,424649
+437,GBV-UG-10097,South West,Mbale,Host Community,Secondary,Male,49,18-35,Married,Sexual Assault,Stranger,Home,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,Medium,No,Feb,2024,92083
+438,GBV-UG-10098,Eastern,Mbarara,Host Community,Primary,Female,18,18-35,Single,Domestic Violence,Family Member,Water Point,1,Tap,No,N/A,No,Yes,Health,No,Police,High,Yes,Mar,2024,143355
+439,GBV-UG-10099,Eastern,Mbale,Nakivale,None,Male,20,18-35,Married,Early Marriage,Intimate Partner,School,1,Borehole,No,N/A,Yes,Yes,Legal,No,Health,Low,No,Mar,2024,593900
+440,GBV-UG-10100,Central,Kampala,Host Community,Secondary,Female,44,18-35,Married,Domestic Violence,Stranger,School,1,Borehole,No,N/A,Yes,No,Legal,No,Police,High,Yes,Feb,2024,500246
+441,GBV-UG-10101,South West,Mbale,Bidi Bidi,Primary,Female,49,18-35,Single,Physical Assault,Stranger,Field,1,Tap,No,N/A,No,No,Psychosocial,No,Police,High,No,Mar,2024,224839
+442,GBV-UG-10102,Central,Mbale,Bidi Bidi,Primary,Female,28,18-35,Single,Early Marriage,Family Member,Water Point,1,Tap,No,N/A,Yes,Yes,Psychosocial,Yes,Health,Medium,No,Mar,2024,566274
+443,GBV-UG-10103,South West,Gulu,Nakivale,Secondary,Male,12,0-17,Married,Defilement,Family Member,Field,1,Tap,No,N/A,No,Yes,Legal,Yes,Police,Medium,Yes,Mar,2024,101810
+444,GBV-UG-10104,Western,Mbale,Bidi Bidi,None,Female,37,18-35,Married,Physical Assault,Family Member,Water Point,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Police,Low,No,Mar,2024,289066
+445,GBV-UG-10105,Eastern,Kampala,Host Community,Primary,Female,53,18-35,Married,Sexual Assault,Intimate Partner,Home,1,Borehole,No,N/A,Yes,Yes,Health,No,Police,Medium,Yes,Feb,2024,64603
+446,GBV-UG-10106,Eastern,Mbale,Host Community,None,Female,18,18-35,Single,Physical Assault,Stranger,Field,1,Borehole,No,N/A,No,No,Legal,Yes,Health,Low,Yes,Feb,2024,184397
+447,GBV-UG-10107,South West,Kampala,Bidi Bidi,Primary,Female,49,18-35,Married,Sexual Assault,Intimate Partner,School,1,Borehole,No,N/A,No,No,Legal,Yes,Police,High,Yes,Mar,2024,496509
+448,GBV-UG-10108,Eastern,Mbarara,Host Community,None,Female,12,0-17,Single,Defilement,Family Member,School,1,Borehole,No,N/A,Yes,No,Legal,Yes,Police,Low,Yes,Mar,2024,414579
+449,GBV-UG-10109,South West,Gulu,Host Community,Primary,Female,25,18-35,Married,Early Marriage,Family Member,Home,1,Tap,No,N/A,Yes,No,Health,Yes,Health,Medium,Yes,Feb,2024,532408
+450,GBV-UG-10110,South West,Mbarara,Host Community,Secondary,Female,37,18-35,Married,Sexual Assault,Stranger,Home,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Health,Medium,No,Feb,2024,437476
+451,GBV-UG-10111,Central,Gulu,Host Community,Secondary,Male,20,18-35,Married,Domestic Violence,Stranger,School,1,Borehole,No,N/A,Yes,Yes,Health,No,Police,Low,Yes,Mar,2024,82976
+452,GBV-UG-10112,West Nile,Kampala,Nakivale,None,Female,34,18-35,Single,Sexual Assault,Family Member,Water Point,1,Borehole,No,N/A,No,Yes,Legal,Yes,Police,High,Yes,Mar,2024,604511
+453,GBV-UG-10113,Central,Mbale,Host Community,None,Female,23,18-35,Married,Physical Assault,Stranger,Home,1,Borehole,No,N/A,No,No,Legal,No,Health,High,No,Mar,2024,200188
+454,GBV-UG-10114,Central,Kampala,Host Community,Primary,Female,20,18-35,Single,Domestic Violence,Intimate Partner,School,1,Borehole,No,N/A,No,No,Health,Yes,Police,Medium,No,Jan,2024,404952
+455,GBV-UG-10115,South West,Kampala,Bidi Bidi,Primary,Female,13,0-17,Married,Defilement,Family Member,Home,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,Low,Yes,Mar,2024,780812
+456,GBV-UG-10116,Western,Mbale,Nakivale,Secondary,Female,31,18-35,Single,Early Marriage,Stranger,Field,1,Borehole,No,N/A,Yes,No,Psychosocial,Yes,Police,Low,No,Feb,2024,56139
+457,GBV-UG-10117,Central,Mbale,Host Community,None,Female,30,18-35,Single,Physical Assault,Family Member,Field,1,Tap,No,N/A,Yes,No,Legal,No,Police,Low,No,Jan,2024,621399
+458,GBV-UG-10118,Northern,Kampala,Nakivale,None,Female,28,18-35,Single,Sexual Assault,Stranger,Field,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,High,No,Feb,2024,579361
+459,GBV-UG-10119,Western,Gulu,Bidi Bidi,Primary,Female,52,18-35,Married,Physical Assault,Stranger,Water Point,1,Borehole,No,N/A,No,No,Health,Yes,Health,Medium,No,Feb,2024,360254
+460,GBV-UG-10120,Western,Mbale,Host Community,Secondary,Female,24,18-35,Married,Sexual Assault,Intimate Partner,Home,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Health,Medium,Yes,Mar,2024,488338
+461,GBV-UG-10121,Western,Kampala,Host Community,Secondary,Female,59,18-35,Single,Sexual Assault,Stranger,School,1,Tap,No,N/A,Yes,No,Psychosocial,No,Police,Low,No,Feb,2024,339948
+462,GBV-UG-10122,Western,Gulu,Bidi Bidi,Primary,Female,21,18-35,Married,Sexual Assault,Stranger,Field,1,Borehole,No,N/A,No,Yes,Health,No,Police,High,Yes,Feb,2024,238154
+463,GBV-UG-10123,West Nile,Gulu,Host Community,Primary,Female,60,18-35,Single,Sexual Assault,Stranger,Field,1,Borehole,No,N/A,No,Yes,Legal,No,Health,Medium,Yes,Jan,2024,356345
+464,GBV-UG-10124,South West,Gulu,Nakivale,Secondary,Female,49,18-35,Single,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,No,No,Psychosocial,No,Police,Medium,Yes,Jan,2024,713970
+465,GBV-UG-10125,Western,Kampala,Nakivale,Secondary,Female,20,18-35,Single,Early Marriage,Family Member,Field,1,Tap,No,N/A,No,No,Legal,No,Health,High,No,Mar,2024,500469
+466,GBV-UG-10126,Western,Kampala,Host Community,None,Female,56,18-35,Single,Sexual Assault,Intimate Partner,Water Point,1,Borehole,No,N/A,No,Yes,Health,No,Health,High,Yes,Jan,2024,544422
+467,GBV-UG-10127,Eastern,Gulu,Bidi Bidi,Secondary,Female,51,18-35,Married,Sexual Assault,Intimate Partner,Field,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Police,Medium,No,Feb,2024,748648
+468,GBV-UG-10128,Eastern,Mbale,Bidi Bidi,Primary,Female,14,0-17,Single,Defilement,Stranger,Water Point,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,High,Yes,Feb,2024,240999
+469,GBV-UG-10129,South West,Mbarara,Nakivale,None,Female,56,18-35,Married,Physical Assault,Intimate Partner,Field,1,Borehole,No,N/A,Yes,Yes,Legal,Yes,Health,High,No,Jan,2024,781359
+470,GBV-UG-10130,Eastern,Gulu,Host Community,Primary,Male,37,18-35,Married,Sexual Assault,Intimate Partner,Water Point,1,Borehole,No,N/A,No,Yes,Health,No,Police,Low,Yes,Feb,2024,124221
+471,GBV-UG-10131,West Nile,Kampala,Nakivale,Primary,Female,35,18-35,Married,Physical Assault,Stranger,Home,1,Borehole,No,N/A,Yes,No,Health,No,Police,Low,Yes,Feb,2024,382193
+472,GBV-UG-10132,Western,Mbarara,Bidi Bidi,Primary,Female,42,18-35,Single,Early Marriage,Intimate Partner,Water Point,1,Tap,No,N/A,No,No,Health,No,Police,High,No,Feb,2024,480476
+473,GBV-UG-10133,Northern,Gulu,Bidi Bidi,Secondary,Female,35,18-35,Single,Early Marriage,Intimate Partner,School,1,Tap,No,N/A,Yes,No,Health,No,Police,High,No,Feb,2024,684808
+474,GBV-UG-10134,Northern,Gulu,Bidi Bidi,Secondary,Female,60,18-35,Single,Domestic Violence,Family Member,Home,1,Tap,No,N/A,No,Yes,Health,No,Police,High,No,Mar,2024,528327
+475,GBV-UG-10135,Western,Mbale,Bidi Bidi,Primary,Female,61,18-35,Single,Domestic Violence,Intimate Partner,Home,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Police,Low,Yes,Mar,2024,21941
+476,GBV-UG-10136,South West,Kampala,Bidi Bidi,Primary,Female,38,18-35,Married,Sexual Assault,Stranger,Home,1,Tap,No,N/A,No,No,Health,Yes,Police,Medium,No,Mar,2024,481684
+477,GBV-UG-10137,West Nile,Kampala,Host Community,Secondary,Female,29,18-35,Single,Sexual Assault,Stranger,Home,1,Tap,No,N/A,No,Yes,Psychosocial,No,Health,High,Yes,Mar,2024,9148
+478,GBV-UG-10138,Northern,Mbale,Host Community,None,Male,15,0-17,Single,Defilement,Family Member,Field,1,Borehole,No,N/A,No,No,Health,No,Police,Low,Yes,Jan,2024,352991
+479,GBV-UG-10139,Eastern,Gulu,Host Community,Secondary,Female,23,18-35,Single,Physical Assault,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,Yes,Health,No,Health,Medium,Yes,Mar,2024,585151
+480,GBV-UG-10140,Eastern,Mbale,Bidi Bidi,Secondary,Female,29,18-35,Married,Domestic Violence,Stranger,Home,1,Tap,No,N/A,Yes,Yes,Psychosocial,No,Police,Low,No,Jan,2024,754161
+481,GBV-UG-10141,Eastern,Mbale,Host Community,Primary,Female,27,18-35,Married,Early Marriage,Family Member,Water Point,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,Low,Yes,Mar,2024,68165
+482,GBV-UG-10142,Western,Mbarara,Bidi Bidi,Primary,Female,27,18-35,Single,Physical Assault,Intimate Partner,Field,1,Borehole,No,N/A,Yes,No,Health,Yes,Police,Medium,No,Mar,2024,645
+483,GBV-UG-10143,Northern,Gulu,Host Community,None,Female,26,18-35,Married,Physical Assault,Family Member,Home,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Police,Medium,Yes,Mar,2024,169491
+484,GBV-UG-10144,South West,Mbarara,Bidi Bidi,Secondary,Female,45,18-35,Married,Sexual Assault,Family Member,Field,1,Borehole,No,N/A,Yes,No,Legal,Yes,Health,Medium,No,Mar,2024,580196
+485,GBV-UG-10145,Western,Mbale,Bidi Bidi,None,Male,17,0-17,Married,Defilement,Stranger,Water Point,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Health,Medium,No,Feb,2024,517822
+486,GBV-UG-10146,South West,Mbarara,Host Community,None,Female,48,18-35,Married,Physical Assault,Family Member,Water Point,1,Tap,No,N/A,No,No,Legal,Yes,Health,High,No,Mar,2024,398198
+487,GBV-UG-10147,Northern,Kampala,Host Community,Primary,Female,39,18-35,Single,Sexual Assault,Family Member,Home,1,Tap,No,N/A,No,No,Health,Yes,Health,Medium,Yes,Feb,2024,559541
+488,GBV-UG-10148,Northern,Gulu,Host Community,None,Female,24,18-35,Single,Domestic Violence,Family Member,Water Point,1,Tap,No,N/A,No,No,Psychosocial,Yes,Police,Low,Yes,Feb,2024,71584
+489,GBV-UG-10149,Northern,Mbale,Host Community,Primary,Female,25,18-35,Married,Early Marriage,Intimate Partner,Home,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,Low,Yes,Jan,2024,191849
+490,GBV-UG-10150,Western,Gulu,Host Community,Secondary,Male,54,18-35,Married,Sexual Assault,Family Member,Water Point,1,Tap,No,N/A,No,No,Legal,Yes,Police,Low,Yes,Feb,2024,638520
+491,GBV-UG-10151,Northern,Kampala,Host Community,None,Female,47,18-35,Married,Physical Assault,Stranger,Home,1,Tap,No,N/A,No,No,Legal,Yes,Health,High,No,Feb,2024,177874
+492,GBV-UG-10152,Eastern,Mbale,Host Community,Secondary,Female,34,18-35,Married,Domestic Violence,Stranger,Water Point,1,Tap,No,N/A,No,No,Psychosocial,Yes,Health,Medium,No,Feb,2024,308908
+493,GBV-UG-10153,Central,Gulu,Bidi Bidi,None,Female,57,18-35,Single,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Police,High,No,Mar,2024,520100
+494,GBV-UG-10154,South West,Gulu,Bidi Bidi,Primary,Female,37,18-35,Married,Domestic Violence,Intimate Partner,Field,1,Borehole,No,N/A,Yes,Yes,Legal,Yes,Police,Medium,No,Mar,2024,231731
+495,GBV-UG-10155,South West,Mbarara,Nakivale,None,Female,33,18-35,Married,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Health,No,Health,High,No,Mar,2024,322995
+496,GBV-UG-10156,Western,Gulu,Host Community,Secondary,Female,9,0-17,Married,Defilement,Stranger,Home,1,Tap,No,N/A,Yes,Yes,Psychosocial,No,Police,High,No,Feb,2024,268625
+497,GBV-UG-10157,Northern,Mbale,Nakivale,Primary,Female,26,18-35,Married,Physical Assault,Family Member,School,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Police,High,Yes,Feb,2024,527920
+498,GBV-UG-10158,West Nile,Mbarara,Nakivale,Secondary,Female,41,18-35,Married,Early Marriage,Family Member,Water Point,1,Borehole,No,N/A,No,No,Health,No,Health,Low,Yes,Feb,2024,543271
+499,GBV-UG-10159,Western,Gulu,Nakivale,Primary,Female,27,18-35,Single,Early Marriage,Stranger,School,1,Tap,No,N/A,No,No,Psychosocial,Yes,Health,Medium,Yes,Feb,2024,526858
+500,GBV-UG-10160,Eastern,Mbale,Nakivale,None,Female,17,0-17,Single,Defilement,Family Member,Water Point,1,Tap,No,N/A,Yes,Yes,Psychosocial,No,Police,High,No,Feb,2024,174587
+501,GBV-UG-10161,Eastern,Kampala,Bidi Bidi,Primary,Female,19,18-35,Single,Physical Assault,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Police,Medium,Yes,Jan,2024,6158
+502,GBV-UG-10162,Northern,Kampala,Host Community,None,Female,9,0-17,Married,Defilement,Stranger,School,1,Borehole,No,N/A,No,Yes,Legal,Yes,Health,Medium,Yes,Jan,2024,707513
+503,GBV-UG-10163,West Nile,Kampala,Host Community,Primary,Female,23,18-35,Married,Sexual Assault,Intimate Partner,Home,1,Borehole,No,N/A,Yes,No,Psychosocial,Yes,Police,Medium,Yes,Feb,2024,722506
+504,GBV-UG-10164,Western,Gulu,Bidi Bidi,Primary,Female,40,18-35,Single,Domestic Violence,Family Member,School,1,Tap,No,N/A,No,Yes,Legal,No,Health,Low,Yes,Feb,2024,274231
+505,GBV-UG-10165,Western,Kampala,Nakivale,Primary,Female,56,18-35,Single,Sexual Assault,Stranger,Field,1,Tap,No,N/A,No,No,Legal,Yes,Health,Medium,Yes,Feb,2024,619044
+506,GBV-UG-10166,Eastern,Kampala,Host Community,Primary,Female,53,18-35,Married,Early Marriage,Stranger,Home,1,Tap,No,N/A,Yes,Yes,Health,No,Police,High,Yes,Feb,2024,673874
+507,GBV-UG-10167,Western,Kampala,Host Community,Primary,Female,59,18-35,Single,Domestic Violence,Intimate Partner,Field,1,Tap,No,N/A,No,No,Health,No,Police,High,No,Jan,2024,693290
+508,GBV-UG-10168,West Nile,Kampala,Host Community,Secondary,Female,31,18-35,Married,Early Marriage,Family Member,Water Point,1,Tap,No,N/A,Yes,Yes,Legal,No,Police,Low,Yes,Mar,2024,716851
+509,GBV-UG-10169,Eastern,Mbarara,Bidi Bidi,Secondary,Female,45,18-35,Married,Domestic Violence,Family Member,Home,1,Borehole,No,N/A,No,Yes,Legal,Yes,Police,Medium,Yes,Mar,2024,722509
+510,GBV-UG-10170,Western,Kampala,Nakivale,Secondary,Male,58,18-35,Single,Sexual Assault,Stranger,Home,1,Tap,No,N/A,Yes,No,Health,Yes,Health,High,No,Feb,2024,282822
+511,GBV-UG-10171,West Nile,Mbarara,Host Community,Primary,Female,17,0-17,Single,Defilement,Stranger,School,1,Tap,No,N/A,No,Yes,Health,No,Health,Medium,Yes,Jan,2024,176292
+512,GBV-UG-10172,Western,Mbarara,Bidi Bidi,Primary,Female,23,18-35,Single,Sexual Assault,Intimate Partner,Home,1,Borehole,No,N/A,No,Yes,Legal,Yes,Police,High,Yes,Feb,2024,148043
+513,GBV-UG-10173,Eastern,Gulu,Host Community,Primary,Female,17,0-17,Single,Defilement,Family Member,Home,1,Borehole,No,N/A,No,No,Legal,No,Health,Medium,No,Jan,2024,275357
+514,GBV-UG-10174,Western,Gulu,Nakivale,Secondary,Male,22,18-35,Married,Physical Assault,Stranger,Field,1,Tap,No,N/A,No,Yes,Legal,No,Health,Low,No,Mar,2024,338618
+515,GBV-UG-10175,South West,Mbale,Nakivale,Secondary,Female,48,18-35,Married,Sexual Assault,Stranger,School,1,Tap,No,N/A,No,No,Legal,No,Police,High,Yes,Jan,2024,766028
+516,GBV-UG-10176,Western,Gulu,Bidi Bidi,None,Female,21,18-35,Single,Sexual Assault,Family Member,Home,1,Borehole,No,N/A,Yes,No,Health,Yes,Health,Medium,Yes,Mar,2024,632770
+517,GBV-UG-10177,Western,Kampala,Nakivale,Primary,Female,40,18-35,Married,Domestic Violence,Intimate Partner,Water Point,1,Borehole,No,N/A,No,Yes,Legal,Yes,Police,Medium,Yes,Feb,2024,24136
+518,GBV-UG-10178,Northern,Mbale,Host Community,Primary,Female,25,18-35,Single,Sexual Assault,Intimate Partner,Field,1,Tap,No,N/A,No,Yes,Health,Yes,Police,High,Yes,Feb,2024,428103
+519,GBV-UG-10179,Western,Mbarara,Nakivale,Secondary,Female,56,18-35,Single,Domestic Violence,Intimate Partner,Home,1,Tap,No,N/A,No,No,Psychosocial,No,Health,High,No,Feb,2024,111356
+520,GBV-UG-10180,Western,Mbale,Host Community,Secondary,Female,45,18-35,Married,Sexual Assault,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,No,Police,High,Yes,Jan,2024,67783
+521,GBV-UG-10181,Eastern,Mbale,Bidi Bidi,Secondary,Female,49,18-35,Single,Physical Assault,Intimate Partner,School,1,Tap,No,N/A,No,No,Legal,Yes,Health,Medium,Yes,Jan,2024,132770
+522,GBV-UG-10182,West Nile,Gulu,Host Community,Primary,Female,22,18-35,Single,Domestic Violence,Intimate Partner,Home,1,Tap,No,N/A,No,No,Health,Yes,Police,Medium,Yes,Jan,2024,775715
+523,GBV-UG-10183,West Nile,Gulu,Host Community,None,Female,58,18-35,Married,Early Marriage,Stranger,School,1,Tap,No,N/A,No,No,Legal,Yes,Police,High,No,Mar,2024,92314
+524,GBV-UG-10184,South West,Kampala,Bidi Bidi,None,Female,21,18-35,Single,Sexual Assault,Family Member,Field,1,Borehole,No,N/A,Yes,Yes,Psychosocial,Yes,Health,High,Yes,Feb,2024,255581
+525,GBV-UG-10185,Northern,Mbarara,Nakivale,Primary,Female,53,18-35,Married,Early Marriage,Stranger,School,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,Medium,No,Jan,2024,788517
+526,GBV-UG-10186,South West,Kampala,Bidi Bidi,None,Female,10,0-17,Single,Defilement,Family Member,School,1,Borehole,No,N/A,No,Yes,Legal,No,Police,Low,Yes,Mar,2024,571433
+527,GBV-UG-10187,Northern,Gulu,Host Community,Secondary,Female,15,0-17,Single,Defilement,Stranger,School,1,Borehole,No,N/A,Yes,Yes,Health,No,Police,Medium,Yes,Feb,2024,616430
+528,GBV-UG-10188,South West,Mbale,Bidi Bidi,None,Female,32,18-35,Single,Physical Assault,Family Member,Water Point,1,Tap,No,N/A,No,No,Legal,Yes,Health,High,No,Feb,2024,197032
+529,GBV-UG-10189,Northern,Mbarara,Bidi Bidi,Secondary,Female,23,18-35,Married,Domestic Violence,Stranger,Field,1,Tap,No,N/A,No,No,Psychosocial,No,Health,Low,No,Jan,2024,228812
+530,GBV-UG-10190,Western,Mbale,Bidi Bidi,Primary,Female,37,18-35,Married,Early Marriage,Intimate Partner,Water Point,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Health,High,Yes,Jan,2024,235528
+531,GBV-UG-10191,West Nile,Mbale,Nakivale,Secondary,Female,52,18-35,Single,Early Marriage,Family Member,School,1,Borehole,No,N/A,No,No,Health,No,Police,Medium,Yes,Mar,2024,382560
+532,GBV-UG-10192,West Nile,Mbale,Nakivale,Secondary,Female,60,18-35,Married,Early Marriage,Stranger,Home,1,Tap,No,N/A,Yes,Yes,Psychosocial,Yes,Police,High,Yes,Mar,2024,51325
+533,GBV-UG-10193,West Nile,Kampala,Nakivale,Secondary,Female,53,18-35,Married,Early Marriage,Stranger,Field,1,Borehole,No,N/A,No,No,Psychosocial,No,Police,High,Yes,Jan,2024,531245
+534,GBV-UG-10194,Western,Mbarara,Host Community,Primary,Female,13,0-17,Married,Defilement,Intimate Partner,Home,1,Tap,No,N/A,No,Yes,Legal,Yes,Police,Medium,Yes,Feb,2024,352349
+535,GBV-UG-10195,Eastern,Mbarara,Nakivale,Secondary,Female,43,18-35,Single,Sexual Assault,Family Member,Field,1,Tap,No,N/A,Yes,No,Psychosocial,No,Health,Low,Yes,Mar,2024,735269
+536,GBV-UG-10196,Eastern,Mbarara,Bidi Bidi,Primary,Female,16,0-17,Single,Defilement,Intimate Partner,Water Point,1,Tap,No,N/A,No,No,Health,No,Police,High,No,Jan,2024,499012
+537,GBV-UG-10197,West Nile,Kampala,Nakivale,Primary,Female,29,18-35,Married,Sexual Assault,Family Member,School,1,Borehole,No,N/A,No,No,Psychosocial,No,Police,High,No,Mar,2024,548549
+538,GBV-UG-10198,Western,Mbale,Nakivale,None,Female,17,0-17,Single,Defilement,Stranger,Water Point,1,Tap,No,N/A,No,Yes,Health,No,Police,Low,No,Mar,2024,275487
+539,GBV-UG-10199,Central,Gulu,Nakivale,None,Female,58,18-35,Married,Physical Assault,Intimate Partner,Field,1,Tap,No,N/A,Yes,No,Health,No,Health,Low,No,Mar,2024,473710
+540,GBV-UG-10200,West Nile,Gulu,Bidi Bidi,None,Female,12,0-17,Single,Defilement,Family Member,Field,1,Borehole,No,N/A,Yes,Yes,Health,No,Police,Low,Yes,Mar,2024,280827
+541,GBV-UG-10201,South West,Mbale,Nakivale,Primary,Female,45,18-35,Married,Domestic Violence,Stranger,Home,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Health,Medium,No,Mar,2024,583018
+542,GBV-UG-10202,South West,Mbale,Nakivale,Secondary,Male,44,18-35,Single,Domestic Violence,Intimate Partner,Home,1,Borehole,No,N/A,No,Yes,Legal,Yes,Police,Medium,Yes,Jan,2024,389790
+543,GBV-UG-10203,Northern,Gulu,Host Community,Secondary,Female,42,18-35,Single,Sexual Assault,Family Member,School,1,Borehole,No,N/A,Yes,Yes,Legal,No,Health,Medium,No,Feb,2024,483401
+544,GBV-UG-10204,West Nile,Kampala,Nakivale,Primary,Male,46,18-35,Married,Sexual Assault,Stranger,School,1,Borehole,No,N/A,No,Yes,Legal,No,Health,Low,Yes,Feb,2024,758224
+545,GBV-UG-10205,Western,Gulu,Bidi Bidi,None,Female,51,18-35,Single,Domestic Violence,Stranger,Field,1,Borehole,No,N/A,Yes,No,Legal,No,Health,Low,No,Jan,2024,444073
+546,GBV-UG-10206,Eastern,Mbarara,Bidi Bidi,Primary,Female,59,18-35,Married,Physical Assault,Stranger,Field,1,Borehole,No,N/A,No,Yes,Legal,No,Police,High,Yes,Feb,2024,74256
+547,GBV-UG-10207,West Nile,Kampala,Host Community,None,Female,56,18-35,Married,Sexual Assault,Intimate Partner,Home,1,Tap,No,N/A,Yes,Yes,Health,No,Police,Low,Yes,Jan,2024,299282
+548,GBV-UG-10208,Central,Mbale,Host Community,Primary,Female,26,18-35,Married,Physical Assault,Stranger,School,1,Tap,No,N/A,Yes,No,Health,Yes,Health,High,Yes,Mar,2024,662539
+549,GBV-UG-10209,Central,Gulu,Nakivale,None,Female,12,0-17,Single,Defilement,Family Member,Water Point,1,Tap,No,N/A,No,Yes,Health,No,Police,High,Yes,Mar,2024,768744
+550,GBV-UG-10210,South West,Mbarara,Bidi Bidi,Secondary,Male,48,18-35,Married,Physical Assault,Stranger,Field,1,Borehole,No,N/A,Yes,No,Health,No,Police,Low,No,Feb,2024,486186
+551,GBV-UG-10211,Eastern,Mbale,Host Community,Primary,Male,46,18-35,Single,Domestic Violence,Intimate Partner,Water Point,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,Medium,No,Jan,2024,177782
+552,GBV-UG-10212,Northern,Gulu,Nakivale,Primary,Female,32,18-35,Married,Early Marriage,Family Member,Home,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,Medium,Yes,Mar,2024,331879
+553,GBV-UG-10213,Northern,Kampala,Nakivale,None,Female,30,18-35,Married,Sexual Assault,Stranger,School,1,Tap,No,N/A,No,No,Psychosocial,No,Police,Low,Yes,Feb,2024,386940
+554,GBV-UG-10214,South West,Kampala,Host Community,None,Female,26,18-35,Married,Physical Assault,Family Member,School,1,Borehole,No,N/A,Yes,No,Legal,Yes,Health,High,No,Mar,2024,206978
+555,GBV-UG-10215,South West,Gulu,Nakivale,None,Female,44,18-35,Married,Early Marriage,Family Member,Water Point,1,Tap,No,N/A,No,Yes,Health,No,Police,Low,No,Feb,2024,686180
+556,GBV-UG-10216,Eastern,Mbale,Nakivale,Secondary,Female,60,18-35,Single,Sexual Assault,Stranger,Water Point,1,Borehole,No,N/A,No,No,Legal,No,Police,High,No,Jan,2024,674818
+557,GBV-UG-10217,Eastern,Mbarara,Host Community,None,Female,9,0-17,Single,Defilement,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Health,Low,No,Jan,2024,713637
+558,GBV-UG-10218,Northern,Mbale,Host Community,Secondary,Female,34,18-35,Single,Sexual Assault,Family Member,Water Point,1,Borehole,No,N/A,No,No,Health,No,Police,Low,Yes,Jan,2024,325907
+559,GBV-UG-10219,Northern,Mbarara,Host Community,Secondary,Male,30,18-35,Married,Early Marriage,Stranger,Water Point,1,Borehole,No,N/A,Yes,No,Psychosocial,No,Police,Medium,Yes,Feb,2024,591639
+560,GBV-UG-10220,South West,Gulu,Bidi Bidi,None,Female,36,18-35,Married,Early Marriage,Stranger,School,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Health,Low,No,Jan,2024,94687
+561,GBV-UG-10221,South West,Mbarara,Host Community,Primary,Female,15,0-17,Single,Defilement,Intimate Partner,School,1,Tap,No,N/A,Yes,No,Psychosocial,No,Police,Low,Yes,Jan,2024,387978
+562,GBV-UG-10222,Western,Mbarara,Bidi Bidi,None,Female,61,18-35,Single,Early Marriage,Intimate Partner,Field,1,Tap,No,N/A,No,No,Legal,No,Health,High,No,Feb,2024,301287
+563,GBV-UG-10223,West Nile,Gulu,Bidi Bidi,None,Female,20,18-35,Married,Sexual Assault,Stranger,Field,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Police,Low,Yes,Feb,2024,720327
+564,GBV-UG-10224,Northern,Gulu,Nakivale,Secondary,Male,56,18-35,Married,Domestic Violence,Family Member,School,1,Tap,No,N/A,Yes,No,Psychosocial,No,Health,Medium,Yes,Mar,2024,396755
+565,GBV-UG-10225,Northern,Kampala,Host Community,Secondary,Female,60,18-35,Single,Sexual Assault,Family Member,Field,1,Borehole,No,N/A,No,No,Health,Yes,Health,High,Yes,Feb,2024,61402
+566,GBV-UG-10226,Northern,Kampala,Host Community,None,Female,16,0-17,Married,Defilement,Intimate Partner,School,1,Tap,No,N/A,No,No,Legal,No,Health,Low,No,Mar,2024,487630
+567,GBV-UG-10227,Northern,Mbale,Bidi Bidi,Primary,Female,60,18-35,Single,Domestic Violence,Intimate Partner,Field,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Police,Low,No,Jan,2024,135449
+568,GBV-UG-10228,Central,Gulu,Nakivale,None,Female,51,18-35,Married,Early Marriage,Family Member,Home,1,Tap,No,N/A,Yes,No,Psychosocial,No,Health,Low,No,Feb,2024,519062
+569,GBV-UG-10229,Central,Gulu,Nakivale,Secondary,Female,22,18-35,Married,Sexual Assault,Family Member,Field,1,Borehole,No,N/A,No,No,Legal,Yes,Health,High,Yes,Mar,2024,384981
+570,GBV-UG-10230,Eastern,Kampala,Nakivale,Secondary,Female,30,18-35,Married,Sexual Assault,Stranger,Water Point,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Health,Medium,No,Jan,2024,744861
+571,GBV-UG-10231,Central,Gulu,Nakivale,Secondary,Female,9,0-17,Single,Defilement,Family Member,School,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Police,High,No,Feb,2024,653580
+572,GBV-UG-10232,West Nile,Kampala,Nakivale,Secondary,Female,54,18-35,Married,Early Marriage,Family Member,Water Point,1,Tap,No,N/A,No,Yes,Health,Yes,Health,Low,No,Feb,2024,794871
+573,GBV-UG-10233,Eastern,Kampala,Host Community,Primary,Male,58,18-35,Single,Domestic Violence,Family Member,Home,1,Borehole,No,N/A,Yes,No,Health,No,Police,Medium,Yes,Mar,2024,363117
+574,GBV-UG-10234,Eastern,Gulu,Nakivale,None,Female,37,18-35,Single,Domestic Violence,Intimate Partner,Field,1,Tap,No,N/A,No,No,Health,No,Health,Low,Yes,Feb,2024,78896
+575,GBV-UG-10235,South West,Mbale,Bidi Bidi,Secondary,Female,46,18-35,Married,Early Marriage,Intimate Partner,Home,1,Tap,No,N/A,No,No,Health,Yes,Police,Medium,Yes,Jan,2024,66870
+576,GBV-UG-10236,Central,Kampala,Bidi Bidi,Secondary,Female,9,0-17,Single,Defilement,Intimate Partner,Home,1,Tap,No,N/A,Yes,Yes,Psychosocial,Yes,Health,Low,No,Mar,2024,511518
+577,GBV-UG-10237,Western,Gulu,Bidi Bidi,Secondary,Female,16,0-17,Married,Defilement,Intimate Partner,Home,1,Tap,No,N/A,No,No,Legal,Yes,Police,High,No,Mar,2024,404601
+578,GBV-UG-10238,Eastern,Mbale,Bidi Bidi,Primary,Female,50,18-35,Single,Sexual Assault,Family Member,Water Point,1,Tap,No,N/A,Yes,No,Psychosocial,No,Police,Low,Yes,Feb,2024,405667
+579,GBV-UG-10239,West Nile,Mbale,Nakivale,Primary,Female,20,18-35,Married,Physical Assault,Intimate Partner,Home,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Police,High,No,Feb,2024,35614
+580,GBV-UG-10240,Western,Mbale,Host Community,None,Female,54,18-35,Single,Early Marriage,Stranger,Water Point,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Health,Low,No,Mar,2024,678549
+581,GBV-UG-10241,Eastern,Gulu,Bidi Bidi,Primary,Female,12,0-17,Married,Defilement,Stranger,Water Point,1,Borehole,No,N/A,No,Yes,Health,No,Police,Low,Yes,Feb,2024,30546
+582,GBV-UG-10242,Northern,Mbale,Nakivale,Primary,Female,58,18-35,Married,Early Marriage,Intimate Partner,Field,1,Tap,No,N/A,No,No,Psychosocial,Yes,Health,Low,No,Feb,2024,541144
+583,GBV-UG-10243,Eastern,Gulu,Bidi Bidi,Primary,Male,45,18-35,Married,Domestic Violence,Intimate Partner,Home,1,Tap,No,N/A,No,No,Legal,No,Police,Medium,Yes,Jan,2024,153403
+584,GBV-UG-10244,Northern,Gulu,Host Community,Primary,Female,16,0-17,Married,Defilement,Family Member,Field,1,Borehole,No,N/A,Yes,No,Psychosocial,No,Police,Low,Yes,Feb,2024,530878
+585,GBV-UG-10245,Northern,Kampala,Nakivale,Primary,Male,33,18-35,Single,Physical Assault,Intimate Partner,Field,1,Borehole,No,N/A,Yes,Yes,Psychosocial,Yes,Health,High,No,Mar,2024,752711
+586,GBV-UG-10246,South West,Mbarara,Nakivale,Secondary,Female,54,18-35,Married,Sexual Assault,Intimate Partner,Field,1,Tap,No,N/A,No,No,Health,No,Police,High,No,Mar,2024,157971
+587,GBV-UG-10247,West Nile,Mbarara,Nakivale,None,Female,18,18-35,Married,Sexual Assault,Intimate Partner,Home,1,Tap,No,N/A,Yes,No,Psychosocial,No,Police,Medium,No,Jan,2024,216639
+588,GBV-UG-10248,Northern,Gulu,Bidi Bidi,Primary,Female,28,18-35,Single,Early Marriage,Family Member,Water Point,1,Tap,No,N/A,No,No,Psychosocial,Yes,Health,High,No,Jan,2024,778240
+589,GBV-UG-10249,Central,Mbarara,Nakivale,None,Male,19,18-35,Single,Sexual Assault,Intimate Partner,Home,1,Tap,No,N/A,Yes,No,Health,Yes,Police,Low,Yes,Feb,2024,249203
+590,GBV-UG-10250,Northern,Gulu,Bidi Bidi,Secondary,Female,45,18-35,Married,Physical Assault,Family Member,School,1,Tap,No,N/A,Yes,No,Psychosocial,No,Police,Low,Yes,Mar,2024,430492
+591,GBV-UG-10251,South West,Mbarara,Nakivale,None,Female,10,0-17,Single,Defilement,Stranger,Water Point,1,Borehole,No,N/A,No,No,Legal,No,Health,Low,No,Feb,2024,572208
+592,GBV-UG-10252,South West,Gulu,Bidi Bidi,Primary,Female,9,0-17,Single,Defilement,Family Member,Home,1,Borehole,No,N/A,No,No,Psychosocial,No,Health,High,Yes,Jan,2024,172653
+593,GBV-UG-10253,Western,Gulu,Nakivale,None,Female,30,18-35,Married,Early Marriage,Stranger,Home,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,Medium,No,Feb,2024,640978
+594,GBV-UG-10254,West Nile,Gulu,Bidi Bidi,Primary,Female,23,18-35,Married,Domestic Violence,Intimate Partner,Field,1,Tap,No,N/A,Yes,No,Legal,No,Police,Medium,Yes,Mar,2024,678081
+595,GBV-UG-10255,Central,Mbale,Host Community,Primary,Female,40,18-35,Married,Physical Assault,Stranger,Water Point,1,Tap,No,N/A,No,No,Health,No,Health,High,No,Mar,2024,365896
+596,GBV-UG-10256,South West,Kampala,Host Community,Primary,Female,16,0-17,Single,Defilement,Intimate Partner,Home,1,Tap,No,N/A,No,Yes,Psychosocial,No,Health,Low,Yes,Feb,2024,218246
+597,GBV-UG-10257,Northern,Gulu,Nakivale,Secondary,Male,34,18-35,Single,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,Yes,No,Legal,Yes,Police,High,Yes,Feb,2024,739053
+598,GBV-UG-10258,West Nile,Mbale,Host Community,None,Female,55,18-35,Single,Domestic Violence,Intimate Partner,School,1,Borehole,No,N/A,Yes,No,Psychosocial,Yes,Health,High,Yes,Jan,2024,266135
+599,GBV-UG-10259,Eastern,Kampala,Nakivale,Primary,Female,34,18-35,Single,Physical Assault,Stranger,Home,1,Borehole,No,N/A,No,No,Health,No,Police,Medium,No,Feb,2024,260604
+600,GBV-UG-10260,South West,Gulu,Nakivale,Secondary,Female,13,0-17,Married,Defilement,Stranger,Water Point,1,Tap,No,N/A,No,No,Health,Yes,Health,High,Yes,Feb,2024,719580
+601,GBV-UG-10261,South West,Mbarara,Host Community,Primary,Female,10,0-17,Married,Defilement,Family Member,School,1,Borehole,No,N/A,No,No,Health,Yes,Health,Medium,No,Feb,2024,204968
+602,GBV-UG-10262,Central,Mbale,Host Community,Primary,Female,61,18-35,Single,Domestic Violence,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,Low,No,Feb,2024,438565
+603,GBV-UG-10263,Northern,Kampala,Bidi Bidi,Primary,Male,54,18-35,Single,Physical Assault,Family Member,Water Point,1,Borehole,No,N/A,No,No,Legal,Yes,Health,Medium,No,Jan,2024,437572
+604,GBV-UG-10264,Western,Gulu,Host Community,None,Male,32,18-35,Married,Sexual Assault,Stranger,Field,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,Low,No,Mar,2024,513487
+605,GBV-UG-10265,Central,Mbarara,Host Community,None,Female,56,18-35,Single,Sexual Assault,Family Member,School,1,Borehole,No,N/A,Yes,Yes,Legal,No,Police,Low,No,Feb,2024,655448
+606,GBV-UG-10266,Northern,Mbarara,Host Community,None,Female,36,18-35,Single,Early Marriage,Family Member,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,High,Yes,Jan,2024,560491
+607,GBV-UG-10267,Western,Gulu,Host Community,Primary,Female,25,18-35,Single,Physical Assault,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,High,Yes,Jan,2024,354746
+608,GBV-UG-10268,Central,Mbarara,Bidi Bidi,Primary,Female,26,18-35,Single,Sexual Assault,Intimate Partner,Field,1,Borehole,No,N/A,Yes,No,Psychosocial,No,Police,Medium,Yes,Mar,2024,260038
+609,GBV-UG-10269,Western,Mbarara,Bidi Bidi,Primary,Female,52,18-35,Single,Domestic Violence,Family Member,Field,1,Borehole,No,N/A,No,Yes,Legal,No,Health,Low,Yes,Feb,2024,74289
+610,GBV-UG-10270,Western,Kampala,Bidi Bidi,Secondary,Female,27,18-35,Married,Sexual Assault,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Health,No,Police,Medium,No,Feb,2024,758161
+611,GBV-UG-10271,Western,Mbale,Nakivale,Primary,Female,9,0-17,Single,Defilement,Family Member,School,1,Tap,No,N/A,No,No,Legal,Yes,Health,High,Yes,Jan,2024,681139
+612,GBV-UG-10272,Eastern,Kampala,Host Community,Secondary,Female,39,18-35,Single,Physical Assault,Family Member,Water Point,1,Borehole,No,N/A,Yes,No,Legal,No,Police,Low,No,Jan,2024,584550
+613,GBV-UG-10273,Northern,Mbale,Nakivale,None,Female,31,18-35,Single,Domestic Violence,Intimate Partner,Home,1,Borehole,No,N/A,Yes,Yes,Legal,No,Police,Low,No,Feb,2024,276220
+614,GBV-UG-10274,West Nile,Mbale,Host Community,None,Male,33,18-35,Single,Sexual Assault,Stranger,Home,1,Borehole,No,N/A,Yes,No,Legal,No,Health,Low,No,Feb,2024,21099
+615,GBV-UG-10275,South West,Gulu,Bidi Bidi,Secondary,Female,8,0-17,Married,Defilement,Intimate Partner,Home,1,Borehole,No,N/A,No,No,Health,No,Health,High,No,Feb,2024,753310
+616,GBV-UG-10276,Central,Kampala,Bidi Bidi,Primary,Female,31,18-35,Single,Sexual Assault,Family Member,Home,1,Borehole,No,N/A,Yes,Yes,Health,Yes,Police,Low,Yes,Feb,2024,799708
+617,GBV-UG-10277,West Nile,Gulu,Host Community,Secondary,Female,34,18-35,Married,Early Marriage,Intimate Partner,School,1,Borehole,No,N/A,Yes,Yes,Legal,Yes,Police,Low,Yes,Jan,2024,458864
+618,GBV-UG-10278,Central,Mbarara,Nakivale,Primary,Female,32,18-35,Single,Domestic Violence,Stranger,Home,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Police,Low,No,Feb,2024,458942
+619,GBV-UG-10279,Central,Kampala,Bidi Bidi,Secondary,Female,37,18-35,Married,Domestic Violence,Family Member,School,1,Borehole,No,N/A,Yes,Yes,Legal,No,Police,High,No,Mar,2024,513227
+620,GBV-UG-10280,West Nile,Mbarara,Bidi Bidi,Primary,Female,38,18-35,Married,Physical Assault,Intimate Partner,School,1,Tap,No,N/A,No,No,Legal,Yes,Police,Medium,Yes,Feb,2024,195904
+621,GBV-UG-10281,Northern,Mbale,Bidi Bidi,Primary,Female,53,18-35,Married,Domestic Violence,Family Member,Field,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,High,Yes,Mar,2024,334753
+622,GBV-UG-10282,West Nile,Gulu,Bidi Bidi,Secondary,Female,26,18-35,Single,Early Marriage,Stranger,Water Point,1,Tap,No,N/A,No,No,Legal,Yes,Health,Low,Yes,Mar,2024,128152
+623,GBV-UG-10283,South West,Mbarara,Bidi Bidi,Primary,Female,34,18-35,Married,Physical Assault,Stranger,Water Point,1,Borehole,No,N/A,No,No,Health,No,Police,High,Yes,Mar,2024,512730
+624,GBV-UG-10284,Western,Mbale,Bidi Bidi,None,Female,25,18-35,Married,Domestic Violence,Family Member,Home,1,Tap,No,N/A,No,No,Health,Yes,Police,Medium,Yes,Feb,2024,576045
+625,GBV-UG-10285,Western,Mbarara,Bidi Bidi,Secondary,Female,39,18-35,Married,Physical Assault,Intimate Partner,School,1,Tap,No,N/A,No,No,Health,No,Health,High,Yes,Feb,2024,769198
+626,GBV-UG-10286,Western,Kampala,Host Community,Primary,Female,25,18-35,Single,Early Marriage,Intimate Partner,Home,1,Borehole,No,N/A,No,No,Legal,No,Health,Low,Yes,Feb,2024,598872
+627,GBV-UG-10287,Central,Mbarara,Host Community,Primary,Female,8,0-17,Single,Defilement,Stranger,Home,1,Tap,No,N/A,Yes,Yes,Psychosocial,No,Police,Medium,No,Mar,2024,282787
+628,GBV-UG-10288,Eastern,Mbale,Nakivale,Secondary,Female,26,18-35,Single,Early Marriage,Stranger,School,1,Tap,No,N/A,Yes,No,Health,No,Police,Low,No,Jan,2024,575339
+629,GBV-UG-10289,Western,Mbale,Host Community,Secondary,Female,44,18-35,Single,Sexual Assault,Family Member,Water Point,1,Tap,No,N/A,Yes,No,Legal,No,Police,Low,Yes,Mar,2024,198781
+630,GBV-UG-10290,Central,Gulu,Nakivale,None,Female,41,18-35,Single,Physical Assault,Family Member,Home,1,Tap,No,N/A,No,No,Psychosocial,Yes,Health,High,No,Mar,2024,476362
+631,GBV-UG-10291,Northern,Mbarara,Host Community,Primary,Male,29,18-35,Single,Physical Assault,Intimate Partner,Home,1,Borehole,No,N/A,Yes,Yes,Psychosocial,Yes,Police,High,No,Feb,2024,704923
+632,GBV-UG-10292,Northern,Gulu,Nakivale,Primary,Male,14,0-17,Single,Defilement,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,No,Legal,Yes,Police,High,No,Mar,2024,771228
+633,GBV-UG-10293,Eastern,Gulu,Host Community,Secondary,Female,20,18-35,Married,Physical Assault,Intimate Partner,Water Point,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Police,Medium,No,Mar,2024,388437
+634,GBV-UG-10294,Central,Gulu,Bidi Bidi,Primary,Female,16,0-17,Single,Defilement,Intimate Partner,Field,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Health,Medium,Yes,Jan,2024,310744
+635,GBV-UG-10295,Northern,Gulu,Host Community,Secondary,Female,8,0-17,Married,Defilement,Stranger,School,1,Tap,No,N/A,Yes,No,Legal,No,Health,Medium,No,Feb,2024,294951
+636,GBV-UG-10296,West Nile,Mbarara,Nakivale,None,Male,60,18-35,Married,Early Marriage,Stranger,Home,1,Tap,No,N/A,No,Yes,Legal,No,Health,Medium,No,Jan,2024,412776
+637,GBV-UG-10297,Northern,Kampala,Bidi Bidi,None,Female,38,18-35,Single,Physical Assault,Stranger,Home,1,Borehole,No,N/A,Yes,No,Legal,No,Health,Low,Yes,Feb,2024,604122
+638,GBV-UG-10298,Northern,Mbale,Bidi Bidi,Secondary,Male,44,18-35,Single,Domestic Violence,Intimate Partner,Home,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Police,High,No,Feb,2024,413533
+639,GBV-UG-10299,West Nile,Mbale,Nakivale,Primary,Female,49,18-35,Single,Physical Assault,Family Member,Water Point,1,Borehole,No,N/A,No,No,Legal,Yes,Health,Low,No,Feb,2024,645599
+640,GBV-UG-10300,Eastern,Kampala,Bidi Bidi,Primary,Female,25,18-35,Single,Physical Assault,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Health,Yes,Health,Low,Yes,Feb,2024,544615
+641,GBV-UG-10301,Central,Gulu,Host Community,Secondary,Female,26,18-35,Married,Early Marriage,Intimate Partner,School,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Health,Medium,No,Mar,2024,568279
+642,GBV-UG-10302,Northern,Mbarara,Nakivale,None,Female,45,18-35,Married,Domestic Violence,Stranger,Field,1,Tap,No,N/A,No,No,Legal,Yes,Police,Medium,No,Feb,2024,295259
+643,GBV-UG-10303,South West,Mbale,Bidi Bidi,Primary,Female,40,18-35,Married,Physical Assault,Family Member,Field,1,Borehole,No,N/A,Yes,Yes,Legal,No,Police,High,No,Feb,2024,297379
+644,GBV-UG-10304,South West,Mbarara,Host Community,Primary,Female,27,18-35,Married,Early Marriage,Intimate Partner,School,1,Borehole,No,N/A,Yes,Yes,Health,No,Health,Medium,No,Mar,2024,365854
+645,GBV-UG-10305,South West,Gulu,Bidi Bidi,Secondary,Female,58,18-35,Married,Domestic Violence,Intimate Partner,Home,1,Tap,No,N/A,No,Yes,Health,Yes,Health,High,Yes,Mar,2024,169131
+646,GBV-UG-10306,South West,Kampala,Nakivale,Primary,Female,35,18-35,Single,Early Marriage,Intimate Partner,Home,1,Borehole,No,N/A,Yes,No,Health,Yes,Health,Low,Yes,Jan,2024,162543
+647,GBV-UG-10307,West Nile,Mbarara,Bidi Bidi,Primary,Female,18,18-35,Single,Early Marriage,Intimate Partner,Field,1,Tap,No,N/A,No,No,Psychosocial,No,Police,Low,No,Feb,2024,523273
+648,GBV-UG-10308,Western,Gulu,Nakivale,Primary,Female,48,18-35,Single,Domestic Violence,Family Member,Home,1,Tap,No,N/A,No,Yes,Legal,No,Police,High,No,Mar,2024,300293
+649,GBV-UG-10309,Western,Kampala,Host Community,Secondary,Female,11,0-17,Married,Defilement,Intimate Partner,Home,1,Tap,No,N/A,No,No,Psychosocial,Yes,Health,Medium,No,Jan,2024,410810
+650,GBV-UG-10310,South West,Kampala,Host Community,None,Female,23,18-35,Married,Early Marriage,Stranger,Field,1,Borehole,No,N/A,No,No,Psychosocial,No,Health,Medium,No,Feb,2024,431304
+651,GBV-UG-10311,Northern,Mbarara,Nakivale,None,Female,27,18-35,Single,Physical Assault,Family Member,Field,1,Tap,No,N/A,No,Yes,Legal,Yes,Police,High,No,Jan,2024,88329
+652,GBV-UG-10312,Eastern,Kampala,Host Community,Secondary,Male,21,18-35,Married,Early Marriage,Family Member,Water Point,1,Borehole,No,N/A,No,No,Health,No,Police,High,No,Mar,2024,654002
+653,GBV-UG-10313,South West,Kampala,Nakivale,None,Female,37,18-35,Single,Physical Assault,Intimate Partner,Home,1,Tap,No,N/A,No,No,Health,Yes,Police,High,Yes,Jan,2024,268788
+654,GBV-UG-10314,Eastern,Mbarara,Host Community,Secondary,Female,17,0-17,Single,Defilement,Stranger,School,1,Tap,No,N/A,Yes,No,Psychosocial,No,Police,High,Yes,Jan,2024,423399
+655,GBV-UG-10315,West Nile,Mbarara,Bidi Bidi,Primary,Female,18,18-35,Single,Domestic Violence,Intimate Partner,Field,1,Tap,No,N/A,No,Yes,Psychosocial,No,Health,Low,Yes,Feb,2024,244533
+656,GBV-UG-10316,West Nile,Kampala,Bidi Bidi,Primary,Female,57,18-35,Married,Physical Assault,Family Member,Water Point,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Police,High,Yes,Feb,2024,618820
+657,GBV-UG-10317,Western,Mbarara,Bidi Bidi,None,Male,33,18-35,Married,Domestic Violence,Stranger,Home,1,Tap,No,N/A,No,No,Health,Yes,Health,High,No,Mar,2024,682633
+658,GBV-UG-10318,Central,Gulu,Host Community,Primary,Female,36,18-35,Single,Sexual Assault,Intimate Partner,Water Point,1,Borehole,No,N/A,Yes,Yes,Legal,No,Health,Low,Yes,Mar,2024,737441
+659,GBV-UG-10319,Northern,Kampala,Host Community,None,Female,45,18-35,Married,Physical Assault,Intimate Partner,Field,1,Tap,No,N/A,Yes,No,Legal,Yes,Health,High,Yes,Mar,2024,269952
+660,GBV-UG-10320,Central,Gulu,Bidi Bidi,None,Female,11,0-17,Single,Defilement,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Legal,No,Health,Medium,No,Jan,2024,225743
+661,GBV-UG-10321,Northern,Gulu,Nakivale,None,Female,11,0-17,Single,Defilement,Intimate Partner,Home,1,Tap,No,N/A,No,Yes,Health,No,Police,Low,Yes,Feb,2024,232591
+662,GBV-UG-10322,South West,Gulu,Bidi Bidi,Secondary,Male,14,0-17,Single,Defilement,Stranger,Water Point,1,Borehole,No,N/A,No,Yes,Health,No,Police,High,Yes,Jan,2024,22592
+663,GBV-UG-10323,Eastern,Gulu,Host Community,None,Female,10,0-17,Married,Defilement,Family Member,Field,1,Borehole,No,N/A,No,No,Legal,No,Police,Medium,No,Feb,2024,484252
+664,GBV-UG-10324,West Nile,Kampala,Nakivale,Primary,Female,43,18-35,Married,Domestic Violence,Intimate Partner,Water Point,1,Tap,No,N/A,No,No,Psychosocial,No,Health,High,No,Feb,2024,605217
+665,GBV-UG-10325,Northern,Mbarara,Nakivale,Primary,Female,56,18-35,Married,Early Marriage,Family Member,Home,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Health,Low,Yes,Feb,2024,244517
+666,GBV-UG-10326,Western,Mbale,Host Community,Primary,Female,42,18-35,Married,Sexual Assault,Stranger,Home,1,Borehole,No,N/A,No,No,Health,No,Health,Medium,Yes,Feb,2024,525012
+667,GBV-UG-10327,West Nile,Mbale,Host Community,Secondary,Female,8,0-17,Single,Defilement,Family Member,Water Point,1,Borehole,No,N/A,Yes,Yes,Health,No,Police,High,Yes,Jan,2024,50705
+668,GBV-UG-10328,West Nile,Gulu,Nakivale,Primary,Female,47,18-35,Single,Sexual Assault,Intimate Partner,Field,1,Borehole,No,N/A,No,No,Health,No,Health,Low,Yes,Feb,2024,716177
+669,GBV-UG-10329,Western,Kampala,Host Community,Secondary,Female,30,18-35,Married,Early Marriage,Intimate Partner,Home,1,Borehole,No,N/A,Yes,Yes,Legal,No,Police,High,Yes,Jan,2024,437794
+670,GBV-UG-10330,Central,Mbale,Host Community,Secondary,Female,24,18-35,Married,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Health,Medium,Yes,Feb,2024,301983
+671,GBV-UG-10331,Northern,Gulu,Host Community,Secondary,Female,25,18-35,Married,Physical Assault,Stranger,Water Point,1,Tap,No,N/A,Yes,No,Psychosocial,No,Police,High,Yes,Mar,2024,770947
+672,GBV-UG-10332,Northern,Gulu,Host Community,None,Female,48,18-35,Married,Physical Assault,Stranger,School,1,Tap,No,N/A,Yes,No,Psychosocial,No,Police,Medium,Yes,Feb,2024,619031
+673,GBV-UG-10333,Western,Gulu,Bidi Bidi,Primary,Female,48,18-35,Married,Domestic Violence,Family Member,School,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,Low,Yes,Mar,2024,312492
+674,GBV-UG-10334,Northern,Mbarara,Bidi Bidi,None,Female,24,18-35,Single,Domestic Violence,Family Member,Water Point,1,Borehole,No,N/A,No,Yes,Legal,No,Health,Low,Yes,Mar,2024,390714
+675,GBV-UG-10335,Western,Kampala,Nakivale,Primary,Female,21,18-35,Married,Domestic Violence,Family Member,Field,1,Tap,No,N/A,Yes,No,Health,No,Police,Low,No,Jan,2024,719246
+676,GBV-UG-10336,Northern,Kampala,Host Community,None,Female,37,18-35,Married,Sexual Assault,Family Member,School,1,Tap,No,N/A,Yes,Yes,Psychosocial,Yes,Health,Medium,No,Feb,2024,747873
+677,GBV-UG-10337,Western,Gulu,Bidi Bidi,Primary,Female,8,0-17,Married,Defilement,Family Member,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,Medium,No,Feb,2024,676558
+678,GBV-UG-10338,West Nile,Kampala,Host Community,Secondary,Female,12,0-17,Single,Defilement,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,No,Police,Low,No,Mar,2024,137409
+679,GBV-UG-10339,Eastern,Kampala,Host Community,Primary,Female,25,18-35,Single,Sexual Assault,Stranger,School,1,Borehole,No,N/A,Yes,Yes,Legal,No,Police,High,No,Feb,2024,104315
+680,GBV-UG-10340,South West,Mbarara,Host Community,Secondary,Female,59,18-35,Single,Sexual Assault,Intimate Partner,Home,1,Tap,No,N/A,No,No,Psychosocial,Yes,Health,Low,Yes,Feb,2024,477508
+681,GBV-UG-10341,Western,Kampala,Nakivale,Secondary,Female,17,0-17,Single,Defilement,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Health,Yes,Health,Low,Yes,Mar,2024,767057
+682,GBV-UG-10342,West Nile,Mbale,Bidi Bidi,None,Female,59,18-35,Married,Physical Assault,Family Member,Home,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Police,Low,No,Feb,2024,39655
+683,GBV-UG-10343,South West,Kampala,Host Community,Primary,Female,25,18-35,Single,Sexual Assault,Family Member,Home,1,Tap,No,N/A,No,Yes,Health,Yes,Health,High,Yes,Mar,2024,769904
+684,GBV-UG-10344,Western,Kampala,Nakivale,Secondary,Female,32,18-35,Married,Sexual Assault,Family Member,School,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Health,Low,Yes,Jan,2024,34613
+685,GBV-UG-10345,South West,Mbarara,Bidi Bidi,None,Male,26,18-35,Single,Domestic Violence,Family Member,Field,1,Borehole,No,N/A,Yes,No,Health,No,Health,High,Yes,Jan,2024,458805
+686,GBV-UG-10346,Central,Gulu,Nakivale,Primary,Female,32,18-35,Married,Domestic Violence,Family Member,School,1,Borehole,No,N/A,No,No,Health,Yes,Police,Low,Yes,Jan,2024,574864
+687,GBV-UG-10347,Central,Mbarara,Bidi Bidi,None,Female,46,18-35,Single,Domestic Violence,Stranger,Field,1,Tap,No,N/A,Yes,Yes,Legal,No,Police,Low,No,Mar,2024,434582
+688,GBV-UG-10348,South West,Gulu,Nakivale,None,Female,38,18-35,Married,Physical Assault,Intimate Partner,Field,1,Tap,No,N/A,No,No,Health,Yes,Health,Medium,Yes,Jan,2024,87672
+689,GBV-UG-10349,South West,Mbale,Nakivale,Secondary,Female,23,18-35,Single,Early Marriage,Stranger,Water Point,1,Borehole,No,N/A,Yes,No,Legal,No,Police,Medium,Yes,Mar,2024,554568
+690,GBV-UG-10350,West Nile,Kampala,Nakivale,Secondary,Female,41,18-35,Married,Early Marriage,Intimate Partner,Field,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,Medium,No,Feb,2024,576149
+691,GBV-UG-10351,Western,Mbarara,Host Community,Primary,Female,13,0-17,Single,Defilement,Family Member,School,1,Borehole,No,N/A,No,Yes,Legal,Yes,Health,Low,No,Mar,2024,308569
+692,GBV-UG-10352,West Nile,Kampala,Bidi Bidi,Secondary,Female,44,18-35,Married,Physical Assault,Family Member,School,1,Tap,No,N/A,No,Yes,Health,Yes,Health,Medium,Yes,Jan,2024,449588
+693,GBV-UG-10353,Central,Mbarara,Host Community,Secondary,Female,61,18-35,Married,Domestic Violence,Intimate Partner,School,1,Tap,No,N/A,No,Yes,Health,Yes,Health,Low,No,Jan,2024,98320
+694,GBV-UG-10354,West Nile,Gulu,Bidi Bidi,Primary,Male,56,18-35,Married,Domestic Violence,Family Member,Field,1,Borehole,No,N/A,No,No,Health,Yes,Police,Medium,No,Feb,2024,707457
+695,GBV-UG-10355,South West,Mbale,Nakivale,Primary,Female,46,18-35,Married,Early Marriage,Intimate Partner,Home,1,Tap,No,N/A,Yes,No,Legal,Yes,Police,Medium,No,Mar,2024,427208
+696,GBV-UG-10356,Central,Gulu,Host Community,Secondary,Male,19,18-35,Married,Sexual Assault,Family Member,Home,1,Tap,No,N/A,No,No,Health,Yes,Health,High,Yes,Jan,2024,140509
+697,GBV-UG-10357,Western,Mbale,Bidi Bidi,None,Female,51,18-35,Married,Sexual Assault,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Legal,No,Police,Medium,No,Jan,2024,50783
+698,GBV-UG-10358,Central,Gulu,Nakivale,None,Female,14,0-17,Single,Defilement,Stranger,Home,1,Tap,No,N/A,No,No,Health,No,Police,High,No,Mar,2024,421753
+699,GBV-UG-10359,Eastern,Gulu,Host Community,Primary,Female,56,18-35,Married,Physical Assault,Stranger,School,1,Borehole,No,N/A,Yes,Yes,Legal,Yes,Police,Medium,Yes,Feb,2024,437780
+700,GBV-UG-10360,South West,Mbale,Host Community,Secondary,Female,47,18-35,Married,Early Marriage,Stranger,School,1,Borehole,No,N/A,No,No,Legal,Yes,Police,Medium,No,Jan,2024,203970
+701,GBV-UG-10361,West Nile,Gulu,Bidi Bidi,Secondary,Male,47,18-35,Married,Domestic Violence,Family Member,Home,1,Tap,No,N/A,No,No,Legal,No,Health,High,No,Feb,2024,413321
+702,GBV-UG-10362,South West,Gulu,Nakivale,Primary,Male,22,18-35,Single,Domestic Violence,Intimate Partner,School,1,Tap,No,N/A,Yes,Yes,Health,Yes,Health,High,Yes,Mar,2024,545953
+703,GBV-UG-10363,West Nile,Kampala,Host Community,None,Male,38,18-35,Married,Early Marriage,Family Member,School,1,Borehole,No,N/A,No,Yes,Legal,Yes,Police,Medium,Yes,Jan,2024,262203
+704,GBV-UG-10364,Western,Mbarara,Host Community,Primary,Female,38,18-35,Single,Sexual Assault,Intimate Partner,School,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Health,Medium,Yes,Feb,2024,748487
+705,GBV-UG-10365,Eastern,Kampala,Bidi Bidi,None,Male,32,18-35,Married,Physical Assault,Family Member,Home,1,Tap,No,N/A,No,No,Legal,Yes,Health,Medium,No,Feb,2024,359189
+706,GBV-UG-10366,Western,Mbale,Bidi Bidi,None,Female,12,0-17,Married,Defilement,Intimate Partner,Field,1,Tap,No,N/A,No,No,Psychosocial,Yes,Police,High,No,Jan,2024,685961
+707,GBV-UG-10367,Eastern,Gulu,Nakivale,Secondary,Female,25,18-35,Single,Sexual Assault,Family Member,Water Point,1,Tap,No,N/A,No,Yes,Health,Yes,Health,High,Yes,Mar,2024,210354
+708,GBV-UG-10368,West Nile,Mbale,Bidi Bidi,None,Female,10,0-17,Single,Defilement,Family Member,School,1,Borehole,No,N/A,Yes,No,Psychosocial,No,Police,Low,Yes,Mar,2024,156008
+709,GBV-UG-10369,Western,Kampala,Host Community,Secondary,Female,33,18-35,Single,Sexual Assault,Intimate Partner,School,1,Tap,No,N/A,No,No,Psychosocial,Yes,Health,Low,Yes,Mar,2024,263774
+710,GBV-UG-10370,Western,Kampala,Host Community,None,Female,24,18-35,Married,Physical Assault,Intimate Partner,Field,1,Tap,No,N/A,No,Yes,Legal,No,Police,Medium,Yes,Jan,2024,179918
+711,GBV-UG-10371,Western,Mbarara,Host Community,None,Female,17,0-17,Married,Defilement,Stranger,School,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,Medium,No,Jan,2024,201225
+712,GBV-UG-10372,Central,Mbarara,Nakivale,None,Female,41,18-35,Single,Early Marriage,Family Member,School,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Police,Low,No,Mar,2024,487726
+713,GBV-UG-10373,Northern,Mbale,Bidi Bidi,Secondary,Female,54,18-35,Married,Domestic Violence,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Police,High,No,Mar,2024,170613
+714,GBV-UG-10374,South West,Kampala,Bidi Bidi,Primary,Female,36,18-35,Single,Physical Assault,Intimate Partner,Field,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Police,High,Yes,Mar,2024,2595
+715,GBV-UG-10375,South West,Mbarara,Nakivale,Primary,Female,47,18-35,Single,Domestic Violence,Intimate Partner,Home,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Health,Medium,No,Feb,2024,493264
+716,GBV-UG-10376,Eastern,Mbarara,Host Community,Primary,Female,14,0-17,Single,Defilement,Family Member,School,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Police,High,No,Feb,2024,493965
+717,GBV-UG-10377,Eastern,Mbale,Nakivale,Primary,Female,29,18-35,Married,Sexual Assault,Family Member,Water Point,1,Tap,No,N/A,No,No,Health,No,Health,High,Yes,Feb,2024,340209
+718,GBV-UG-10378,South West,Kampala,Nakivale,Primary,Female,9,0-17,Single,Defilement,Stranger,Home,1,Tap,No,N/A,Yes,Yes,Health,No,Health,Low,Yes,Mar,2024,396242
+719,GBV-UG-10379,Northern,Mbarara,Nakivale,Secondary,Female,51,18-35,Single,Early Marriage,Stranger,School,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Police,High,Yes,Jan,2024,513344
+720,GBV-UG-10380,West Nile,Gulu,Host Community,None,Female,57,18-35,Married,Physical Assault,Intimate Partner,Home,1,Borehole,No,N/A,No,No,Health,Yes,Health,Low,Yes,Mar,2024,316629
+721,GBV-UG-10381,West Nile,Gulu,Host Community,None,Female,14,0-17,Single,Defilement,Intimate Partner,Field,1,Tap,No,N/A,Yes,No,Legal,Yes,Police,Medium,No,Feb,2024,714888
+722,GBV-UG-10382,Western,Mbarara,Host Community,None,Female,38,18-35,Single,Sexual Assault,Stranger,Home,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Police,Low,Yes,Mar,2024,94469
+723,GBV-UG-10383,Central,Mbale,Bidi Bidi,Secondary,Female,57,18-35,Married,Early Marriage,Family Member,Field,1,Borehole,No,N/A,No,No,Legal,No,Police,Medium,Yes,Mar,2024,260181
+724,GBV-UG-10384,Western,Mbarara,Host Community,None,Female,35,18-35,Married,Sexual Assault,Intimate Partner,Home,1,Tap,No,N/A,No,No,Legal,No,Health,High,No,Feb,2024,199075
+725,GBV-UG-10385,South West,Gulu,Host Community,Secondary,Female,58,18-35,Married,Early Marriage,Intimate Partner,School,1,Borehole,No,N/A,No,No,Health,Yes,Police,High,Yes,Jan,2024,625147
+726,GBV-UG-10386,West Nile,Mbarara,Bidi Bidi,Secondary,Female,40,18-35,Single,Sexual Assault,Stranger,School,1,Borehole,No,N/A,No,No,Legal,Yes,Health,High,No,Feb,2024,87235
+727,GBV-UG-10387,Eastern,Gulu,Bidi Bidi,Secondary,Female,53,18-35,Single,Physical Assault,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,Yes,Health,No,Health,High,Yes,Feb,2024,10027
+728,GBV-UG-10388,West Nile,Kampala,Nakivale,None,Female,51,18-35,Single,Sexual Assault,Stranger,Home,1,Tap,No,N/A,No,No,Psychosocial,No,Police,High,Yes,Mar,2024,235662
+729,GBV-UG-10389,Central,Kampala,Nakivale,None,Female,42,18-35,Single,Early Marriage,Family Member,School,1,Borehole,No,N/A,Yes,No,Health,Yes,Police,High,Yes,Jan,2024,95855
+730,GBV-UG-10390,West Nile,Mbarara,Nakivale,Primary,Female,20,18-35,Married,Domestic Violence,Stranger,Field,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Health,Medium,Yes,Mar,2024,223943
+731,GBV-UG-10391,Western,Mbarara,Nakivale,Primary,Female,34,18-35,Single,Domestic Violence,Intimate Partner,Water Point,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Health,Medium,No,Feb,2024,415355
+732,GBV-UG-10392,Western,Gulu,Bidi Bidi,Secondary,Male,42,18-35,Married,Domestic Violence,Stranger,Water Point,1,Borehole,No,N/A,Yes,No,Legal,No,Police,High,No,Jan,2024,672484
+733,GBV-UG-10393,South West,Gulu,Bidi Bidi,Secondary,Female,41,18-35,Single,Physical Assault,Family Member,Field,1,Tap,No,N/A,No,No,Health,Yes,Police,Medium,No,Feb,2024,383078
+734,GBV-UG-10394,Central,Mbarara,Host Community,Primary,Female,38,18-35,Married,Early Marriage,Stranger,Water Point,1,Tap,No,N/A,No,No,Psychosocial,Yes,Police,Medium,Yes,Jan,2024,201921
+735,GBV-UG-10395,South West,Mbale,Bidi Bidi,None,Female,26,18-35,Single,Physical Assault,Stranger,Field,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Police,Medium,No,Feb,2024,510986
+736,GBV-UG-10396,Western,Mbale,Bidi Bidi,None,Female,33,18-35,Married,Sexual Assault,Family Member,Field,1,Tap,No,N/A,Yes,No,Psychosocial,No,Police,Low,No,Feb,2024,573529
+737,GBV-UG-10397,Central,Mbarara,Nakivale,Primary,Female,52,18-35,Single,Domestic Violence,Stranger,Field,1,Tap,No,N/A,Yes,Yes,Psychosocial,Yes,Health,Low,No,Feb,2024,237498
+738,GBV-UG-10398,South West,Gulu,Bidi Bidi,None,Female,9,0-17,Married,Defilement,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,No,Health,No,Health,Low,Yes,Feb,2024,165914
+739,GBV-UG-10399,Western,Mbarara,Host Community,Primary,Female,53,18-35,Single,Early Marriage,Intimate Partner,School,1,Tap,No,N/A,No,No,Health,Yes,Police,Medium,No,Feb,2024,259218
+740,GBV-UG-10400,South West,Gulu,Bidi Bidi,Primary,Female,51,18-35,Married,Physical Assault,Stranger,Home,1,Borehole,No,N/A,No,Yes,Legal,No,Police,High,No,Jan,2024,490764
+741,GBV-UG-10401,Central,Gulu,Bidi Bidi,Primary,Female,49,18-35,Married,Early Marriage,Stranger,Water Point,1,Tap,No,N/A,Yes,No,Legal,No,Health,Low,Yes,Mar,2024,57344
+742,GBV-UG-10402,Western,Mbarara,Host Community,Secondary,Male,20,18-35,Married,Domestic Violence,Stranger,School,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Police,Low,Yes,Jan,2024,508653
+743,GBV-UG-10403,West Nile,Gulu,Host Community,Secondary,Female,40,18-35,Single,Domestic Violence,Intimate Partner,Field,1,Borehole,No,N/A,No,No,Legal,No,Police,High,No,Mar,2024,104999
+744,GBV-UG-10404,Central,Kampala,Bidi Bidi,None,Female,58,18-35,Single,Early Marriage,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,No,Health,No,Police,High,Yes,Mar,2024,133047
+745,GBV-UG-10405,Western,Mbale,Bidi Bidi,None,Male,23,18-35,Married,Sexual Assault,Family Member,Home,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Health,Low,Yes,Mar,2024,195726
+746,GBV-UG-10406,Eastern,Mbarara,Host Community,None,Female,9,0-17,Married,Defilement,Intimate Partner,School,1,Tap,No,N/A,Yes,Yes,Health,Yes,Health,Low,Yes,Jan,2024,779678
+747,GBV-UG-10407,West Nile,Gulu,Nakivale,Primary,Female,31,18-35,Single,Sexual Assault,Stranger,Water Point,1,Tap,No,N/A,No,No,Psychosocial,Yes,Police,Medium,Yes,Feb,2024,197451
+748,GBV-UG-10408,Central,Mbale,Bidi Bidi,None,Female,28,18-35,Married,Domestic Violence,Intimate Partner,Field,1,Borehole,No,N/A,Yes,Yes,Legal,No,Health,Low,Yes,Mar,2024,216355
+749,GBV-UG-10409,West Nile,Gulu,Nakivale,Secondary,Female,41,18-35,Married,Physical Assault,Family Member,School,1,Tap,No,N/A,Yes,No,Psychosocial,No,Police,High,No,Mar,2024,752473
+750,GBV-UG-10410,West Nile,Mbarara,Bidi Bidi,Secondary,Male,49,18-35,Married,Domestic Violence,Intimate Partner,School,1,Borehole,No,N/A,No,No,Psychosocial,No,Police,Medium,Yes,Jan,2024,621449
+751,GBV-UG-10411,Central,Mbarara,Nakivale,Primary,Male,23,18-35,Married,Domestic Violence,Stranger,School,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Health,Medium,Yes,Mar,2024,129327
+752,GBV-UG-10412,Central,Kampala,Host Community,None,Female,47,18-35,Single,Early Marriage,Intimate Partner,Field,1,Tap,No,N/A,No,No,Psychosocial,No,Police,High,No,Mar,2024,588813
+753,GBV-UG-10413,West Nile,Mbale,Nakivale,Primary,Female,50,18-35,Single,Sexual Assault,Family Member,School,1,Borehole,No,N/A,No,No,Health,No,Police,High,No,Feb,2024,44990
+754,GBV-UG-10414,Northern,Mbarara,Bidi Bidi,Primary,Female,15,0-17,Married,Defilement,Intimate Partner,School,1,Borehole,No,N/A,Yes,No,Health,Yes,Police,High,No,Mar,2024,80170
+755,GBV-UG-10415,West Nile,Kampala,Bidi Bidi,Secondary,Female,29,18-35,Single,Sexual Assault,Stranger,School,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Police,High,No,Feb,2024,530492
+756,GBV-UG-10416,West Nile,Gulu,Nakivale,Secondary,Female,8,0-17,Married,Defilement,Stranger,School,1,Borehole,No,N/A,No,Yes,Legal,Yes,Health,Low,No,Feb,2024,606584
+757,GBV-UG-10417,West Nile,Mbarara,Bidi Bidi,None,Female,44,18-35,Single,Sexual Assault,Family Member,Field,1,Tap,No,N/A,Yes,No,Psychosocial,No,Police,Low,No,Mar,2024,662766
+758,GBV-UG-10418,Eastern,Gulu,Bidi Bidi,None,Female,17,0-17,Married,Defilement,Stranger,Water Point,1,Tap,No,N/A,Yes,Yes,Health,No,Health,Medium,No,Feb,2024,198202
+759,GBV-UG-10419,Central,Mbale,Host Community,None,Female,20,18-35,Single,Sexual Assault,Stranger,Home,1,Tap,No,N/A,No,Yes,Health,Yes,Health,Medium,Yes,Jan,2024,730691
+760,GBV-UG-10420,Central,Mbarara,Nakivale,Primary,Female,18,18-35,Married,Physical Assault,Family Member,Home,1,Borehole,No,N/A,Yes,No,Health,Yes,Police,High,Yes,Jan,2024,444721
+761,GBV-UG-10421,Eastern,Kampala,Nakivale,Secondary,Female,57,18-35,Single,Domestic Violence,Family Member,Home,1,Tap,No,N/A,Yes,No,Legal,No,Health,High,No,Mar,2024,589622
+762,GBV-UG-10422,South West,Kampala,Nakivale,Secondary,Female,24,18-35,Married,Early Marriage,Intimate Partner,Home,1,Borehole,No,N/A,No,No,Health,No,Health,Medium,No,Mar,2024,726036
+763,GBV-UG-10423,South West,Mbarara,Nakivale,Secondary,Female,38,18-35,Married,Domestic Violence,Intimate Partner,School,1,Tap,No,N/A,No,No,Health,No,Health,Medium,Yes,Jan,2024,354349
+764,GBV-UG-10424,Eastern,Mbale,Nakivale,None,Male,22,18-35,Married,Domestic Violence,Family Member,Field,1,Borehole,No,N/A,No,No,Legal,No,Health,Low,Yes,Mar,2024,67338
+765,GBV-UG-10425,Eastern,Mbale,Nakivale,None,Female,54,18-35,Married,Early Marriage,Intimate Partner,School,1,Borehole,No,N/A,Yes,Yes,Psychosocial,Yes,Police,High,Yes,Jan,2024,318000
+766,GBV-UG-10426,Central,Kampala,Host Community,Primary,Female,48,18-35,Married,Early Marriage,Stranger,School,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Police,Medium,Yes,Mar,2024,70810
+767,GBV-UG-10427,Western,Gulu,Bidi Bidi,None,Female,60,18-35,Single,Domestic Violence,Stranger,Water Point,1,Borehole,No,N/A,No,No,Legal,No,Police,Low,Yes,Jan,2024,671560
+768,GBV-UG-10428,Central,Mbale,Bidi Bidi,Secondary,Male,43,18-35,Married,Early Marriage,Family Member,Home,1,Borehole,No,N/A,Yes,No,Health,No,Police,High,Yes,Jan,2024,689165
+769,GBV-UG-10429,Western,Mbarara,Host Community,Primary,Female,51,18-35,Single,Domestic Violence,Family Member,Home,1,Tap,No,N/A,No,No,Legal,No,Health,Medium,No,Feb,2024,627998
+770,GBV-UG-10430,South West,Kampala,Host Community,None,Female,14,0-17,Married,Defilement,Intimate Partner,Field,1,Tap,No,N/A,No,No,Psychosocial,Yes,Health,Medium,No,Mar,2024,621371
+771,GBV-UG-10431,Central,Kampala,Nakivale,Secondary,Female,48,18-35,Married,Domestic Violence,Stranger,Home,1,Tap,No,N/A,No,No,Health,Yes,Police,Low,Yes,Jan,2024,164563
+772,GBV-UG-10432,Central,Mbarara,Host Community,Secondary,Female,29,18-35,Single,Domestic Violence,Intimate Partner,School,1,Borehole,No,N/A,No,No,Psychosocial,No,Health,Low,No,Mar,2024,440600
+773,GBV-UG-10433,South West,Kampala,Nakivale,Primary,Male,27,18-35,Married,Physical Assault,Intimate Partner,Water Point,1,Borehole,No,N/A,No,Yes,Health,No,Health,Medium,Yes,Mar,2024,579380
+774,GBV-UG-10434,Central,Gulu,Nakivale,Primary,Male,60,18-35,Single,Sexual Assault,Stranger,School,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Police,High,Yes,Feb,2024,312591
+775,GBV-UG-10435,Northern,Kampala,Nakivale,Primary,Female,29,18-35,Single,Early Marriage,Family Member,Field,1,Tap,No,N/A,No,No,Psychosocial,No,Health,Medium,No,Jan,2024,203648
+776,GBV-UG-10436,South West,Mbale,Host Community,Secondary,Female,27,18-35,Married,Physical Assault,Stranger,Field,1,Borehole,No,N/A,No,Yes,Health,No,Police,Medium,Yes,Feb,2024,357419
+777,GBV-UG-10437,West Nile,Mbale,Bidi Bidi,Secondary,Female,50,18-35,Single,Domestic Violence,Intimate Partner,School,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,Medium,Yes,Feb,2024,749406
+778,GBV-UG-10438,West Nile,Kampala,Nakivale,None,Female,16,0-17,Married,Defilement,Family Member,School,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Health,Low,No,Mar,2024,130245
+779,GBV-UG-10439,Western,Mbale,Host Community,Secondary,Female,49,18-35,Single,Domestic Violence,Intimate Partner,Home,1,Tap,No,N/A,No,No,Psychosocial,No,Police,Medium,No,Feb,2024,661772
+780,GBV-UG-10440,Eastern,Gulu,Bidi Bidi,Secondary,Female,28,18-35,Married,Early Marriage,Intimate Partner,Home,1,Tap,No,N/A,No,No,Psychosocial,Yes,Police,Medium,No,Mar,2024,267650
+781,GBV-UG-10441,Western,Mbale,Host Community,None,Female,13,0-17,Single,Defilement,Intimate Partner,School,1,Tap,No,N/A,Yes,Yes,Health,Yes,Police,High,No,Mar,2024,572394
+782,GBV-UG-10442,Eastern,Gulu,Bidi Bidi,Secondary,Female,57,18-35,Single,Sexual Assault,Intimate Partner,School,1,Tap,No,N/A,Yes,No,Psychosocial,No,Health,Low,Yes,Jan,2024,232524
+783,GBV-UG-10443,West Nile,Mbarara,Bidi Bidi,Secondary,Female,17,0-17,Married,Defilement,Stranger,Water Point,1,Borehole,No,N/A,No,No,Legal,No,Health,High,No,Feb,2024,709166
+784,GBV-UG-10444,West Nile,Kampala,Host Community,Secondary,Female,13,0-17,Single,Defilement,Family Member,School,1,Borehole,No,N/A,Yes,Yes,Psychosocial,Yes,Health,Medium,Yes,Mar,2024,299338
+785,GBV-UG-10445,Western,Gulu,Nakivale,Primary,Female,46,18-35,Single,Sexual Assault,Family Member,Water Point,1,Tap,No,N/A,No,No,Legal,Yes,Health,Low,Yes,Jan,2024,260401
+786,GBV-UG-10446,Western,Kampala,Host Community,None,Female,42,18-35,Married,Sexual Assault,Intimate Partner,Home,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,High,Yes,Jan,2024,240635
+787,GBV-UG-10447,South West,Mbale,Nakivale,Secondary,Female,30,18-35,Married,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Health,High,No,Jan,2024,428946
+788,GBV-UG-10448,Central,Gulu,Nakivale,Secondary,Female,23,18-35,Single,Physical Assault,Stranger,Field,1,Tap,No,N/A,No,No,Legal,Yes,Health,Medium,No,Jan,2024,141983
+789,GBV-UG-10449,Western,Mbarara,Bidi Bidi,Primary,Female,58,18-35,Single,Early Marriage,Family Member,School,1,Tap,No,N/A,No,No,Psychosocial,Yes,Health,Low,No,Jan,2024,158789
+790,GBV-UG-10450,Central,Mbarara,Bidi Bidi,Primary,Female,18,18-35,Single,Physical Assault,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Health,Medium,Yes,Mar,2024,213593
+791,GBV-UG-10451,Central,Gulu,Host Community,None,Female,31,18-35,Married,Domestic Violence,Family Member,Field,1,Borehole,No,N/A,Yes,No,Legal,Yes,Health,Low,No,Jan,2024,585688
+792,GBV-UG-10452,South West,Mbarara,Host Community,None,Female,20,18-35,Single,Sexual Assault,Stranger,Water Point,1,Borehole,No,N/A,Yes,No,Legal,No,Police,Medium,Yes,Jan,2024,75534
+793,GBV-UG-10453,Western,Mbale,Host Community,Secondary,Female,17,0-17,Married,Defilement,Intimate Partner,Water Point,1,Borehole,No,N/A,No,Yes,Legal,No,Health,High,No,Jan,2024,574170
+794,GBV-UG-10454,Central,Mbarara,Bidi Bidi,Primary,Female,42,18-35,Single,Physical Assault,Stranger,School,1,Borehole,No,N/A,Yes,Yes,Legal,Yes,Health,Low,Yes,Jan,2024,468860
+795,GBV-UG-10455,Central,Mbarara,Host Community,Secondary,Female,38,18-35,Single,Early Marriage,Stranger,Home,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Health,High,Yes,Feb,2024,678149
+796,GBV-UG-10456,Eastern,Kampala,Host Community,Secondary,Female,55,18-35,Married,Sexual Assault,Intimate Partner,Home,1,Borehole,No,N/A,Yes,No,Health,Yes,Health,Medium,No,Mar,2024,346463
+797,GBV-UG-10457,Central,Mbarara,Host Community,None,Female,41,18-35,Single,Physical Assault,Family Member,School,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Health,High,Yes,Mar,2024,505532
+798,GBV-UG-10458,South West,Kampala,Host Community,Secondary,Female,9,0-17,Married,Defilement,Intimate Partner,School,1,Borehole,No,N/A,No,No,Legal,No,Police,Low,No,Jan,2024,693011
+799,GBV-UG-10459,Northern,Kampala,Host Community,Primary,Female,30,18-35,Married,Domestic Violence,Family Member,Home,1,Borehole,No,N/A,No,Yes,Health,Yes,Police,Low,Yes,Mar,2024,753389
+800,GBV-UG-10460,Central,Kampala,Host Community,Primary,Female,20,18-35,Single,Early Marriage,Family Member,Field,1,Borehole,No,N/A,No,Yes,Legal,Yes,Health,Medium,No,Feb,2024,356622
+801,GBV-UG-10461,Central,Mbale,Nakivale,Primary,Female,17,0-17,Married,Defilement,Stranger,Field,1,Tap,No,N/A,Yes,Yes,Legal,No,Health,High,Yes,Mar,2024,435811
+802,GBV-UG-10462,Eastern,Mbarara,Host Community,None,Female,57,18-35,Single,Physical Assault,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,No,Legal,Yes,Health,High,Yes,Mar,2024,369689
+803,GBV-UG-10463,South West,Mbale,Nakivale,Primary,Female,55,18-35,Single,Physical Assault,Stranger,School,1,Tap,No,N/A,No,Yes,Psychosocial,No,Health,Medium,No,Mar,2024,644419
+804,GBV-UG-10464,Central,Mbarara,Host Community,Primary,Female,19,18-35,Married,Domestic Violence,Intimate Partner,School,1,Tap,No,N/A,No,Yes,Health,Yes,Police,Medium,No,Mar,2024,474217
+805,GBV-UG-10465,Western,Mbale,Bidi Bidi,Secondary,Male,39,18-35,Single,Domestic Violence,Family Member,Home,1,Tap,No,N/A,No,Yes,Health,No,Health,High,No,Mar,2024,282862
+806,GBV-UG-10466,Northern,Kampala,Host Community,None,Female,25,18-35,Married,Domestic Violence,Intimate Partner,Field,1,Tap,No,N/A,No,Yes,Health,Yes,Health,Low,Yes,Jan,2024,690207
+807,GBV-UG-10467,Central,Mbarara,Nakivale,Primary,Female,54,18-35,Married,Physical Assault,Stranger,Field,1,Tap,No,N/A,Yes,No,Legal,No,Health,Medium,No,Mar,2024,228084
+808,GBV-UG-10468,South West,Kampala,Nakivale,Secondary,Female,31,18-35,Married,Sexual Assault,Family Member,School,1,Borehole,No,N/A,No,No,Health,Yes,Health,Low,No,Jan,2024,791828
+809,GBV-UG-10469,Central,Mbale,Nakivale,Primary,Female,53,18-35,Married,Physical Assault,Stranger,Home,1,Borehole,No,N/A,Yes,Yes,Health,Yes,Police,High,Yes,Mar,2024,208370
+810,GBV-UG-10470,South West,Mbarara,Nakivale,None,Male,13,0-17,Married,Defilement,Family Member,Field,1,Borehole,No,N/A,Yes,No,Health,Yes,Police,Low,No,Jan,2024,749048
+811,GBV-UG-10471,Central,Gulu,Nakivale,Secondary,Female,60,18-35,Married,Early Marriage,Family Member,School,1,Borehole,No,N/A,No,No,Health,No,Health,Medium,No,Jan,2024,607871
+812,GBV-UG-10472,Eastern,Gulu,Host Community,Secondary,Female,51,18-35,Married,Domestic Violence,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,No,Police,High,Yes,Mar,2024,26438
+813,GBV-UG-10473,Eastern,Mbarara,Host Community,None,Female,40,18-35,Married,Domestic Violence,Stranger,Field,1,Tap,No,N/A,Yes,No,Psychosocial,No,Health,Medium,Yes,Mar,2024,580387
+814,GBV-UG-10474,South West,Mbarara,Bidi Bidi,None,Female,35,18-35,Single,Early Marriage,Stranger,Home,1,Tap,No,N/A,No,No,Psychosocial,Yes,Police,High,Yes,Feb,2024,349348
+815,GBV-UG-10475,Northern,Gulu,Bidi Bidi,None,Female,15,0-17,Married,Defilement,Intimate Partner,Home,1,Tap,No,N/A,No,Yes,Health,Yes,Health,Low,No,Feb,2024,471253
+816,GBV-UG-10476,South West,Kampala,Bidi Bidi,Primary,Female,24,18-35,Single,Early Marriage,Stranger,School,1,Borehole,No,N/A,No,No,Legal,No,Health,Low,Yes,Jan,2024,776487
+817,GBV-UG-10477,Northern,Kampala,Nakivale,None,Male,34,18-35,Married,Sexual Assault,Family Member,Water Point,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Health,High,Yes,Feb,2024,192584
+818,GBV-UG-10478,Eastern,Mbarara,Host Community,Primary,Female,40,18-35,Single,Domestic Violence,Family Member,Home,1,Tap,No,N/A,Yes,No,Legal,No,Police,High,No,Mar,2024,164519
+819,GBV-UG-10479,Western,Mbarara,Host Community,Primary,Female,54,18-35,Single,Physical Assault,Stranger,Water Point,1,Tap,No,N/A,Yes,No,Psychosocial,No,Police,Medium,Yes,Feb,2024,383800
+820,GBV-UG-10480,Central,Kampala,Nakivale,Primary,Female,43,18-35,Single,Physical Assault,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Health,Yes,Police,Low,Yes,Mar,2024,69982
+821,GBV-UG-10481,West Nile,Kampala,Nakivale,Primary,Female,47,18-35,Single,Sexual Assault,Stranger,Water Point,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,Medium,No,Mar,2024,109748
+822,GBV-UG-10482,Central,Gulu,Nakivale,Primary,Female,50,18-35,Married,Early Marriage,Intimate Partner,Field,1,Tap,No,N/A,Yes,No,Legal,Yes,Health,Medium,No,Mar,2024,18548
+823,GBV-UG-10483,West Nile,Mbale,Bidi Bidi,None,Female,28,18-35,Married,Physical Assault,Family Member,Home,1,Borehole,No,N/A,No,Yes,Health,Yes,Police,High,Yes,Mar,2024,748041
+824,GBV-UG-10484,Western,Kampala,Nakivale,Primary,Female,29,18-35,Single,Physical Assault,Family Member,Water Point,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Police,High,No,Mar,2024,575169
+825,GBV-UG-10485,Central,Gulu,Nakivale,Secondary,Female,47,18-35,Single,Early Marriage,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Health,Low,Yes,Jan,2024,623452
+826,GBV-UG-10486,Eastern,Mbale,Bidi Bidi,Primary,Female,28,18-35,Married,Domestic Violence,Family Member,Water Point,1,Tap,No,N/A,No,No,Health,No,Health,Low,No,Jan,2024,737070
+827,GBV-UG-10487,South West,Kampala,Host Community,Primary,Female,31,18-35,Single,Physical Assault,Stranger,Field,1,Tap,No,N/A,Yes,Yes,Health,Yes,Police,High,No,Feb,2024,696198
+828,GBV-UG-10488,South West,Mbale,Nakivale,Secondary,Female,11,0-17,Married,Defilement,Intimate Partner,Home,1,Borehole,No,N/A,No,No,Legal,Yes,Police,Low,Yes,Mar,2024,795887
+829,GBV-UG-10489,Central,Mbale,Bidi Bidi,None,Female,40,18-35,Married,Early Marriage,Stranger,Field,1,Tap,No,N/A,No,No,Psychosocial,Yes,Police,High,No,Feb,2024,357928
+830,GBV-UG-10490,Eastern,Kampala,Bidi Bidi,Secondary,Female,18,18-35,Single,Sexual Assault,Intimate Partner,Field,1,Borehole,No,N/A,No,No,Legal,No,Police,Low,No,Feb,2024,495938
+831,GBV-UG-10491,West Nile,Kampala,Host Community,Secondary,Female,49,18-35,Single,Physical Assault,Family Member,Home,1,Tap,No,N/A,No,Yes,Health,Yes,Police,Medium,Yes,Jan,2024,199190
+832,GBV-UG-10492,Northern,Kampala,Nakivale,None,Female,9,0-17,Single,Defilement,Family Member,Water Point,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Health,Medium,Yes,Jan,2024,615812
+833,GBV-UG-10493,South West,Mbale,Bidi Bidi,None,Female,40,18-35,Single,Domestic Violence,Family Member,Water Point,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Health,High,Yes,Jan,2024,681805
+834,GBV-UG-10494,South West,Kampala,Nakivale,None,Female,33,18-35,Married,Sexual Assault,Stranger,Water Point,1,Tap,No,N/A,Yes,Yes,Health,No,Health,Medium,No,Jan,2024,403375
+835,GBV-UG-10495,Eastern,Mbale,Nakivale,None,Female,47,18-35,Married,Domestic Violence,Stranger,Home,1,Borehole,No,N/A,No,No,Legal,No,Police,Low,Yes,Mar,2024,665852
+836,GBV-UG-10496,Eastern,Kampala,Nakivale,None,Female,25,18-35,Single,Sexual Assault,Intimate Partner,School,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Police,Medium,Yes,Jan,2024,274611
+837,GBV-UG-10497,Northern,Mbarara,Nakivale,Secondary,Female,41,18-35,Married,Early Marriage,Intimate Partner,Home,1,Borehole,No,N/A,Yes,No,Health,No,Health,High,Yes,Jan,2024,115875
+838,GBV-UG-10498,Central,Mbarara,Bidi Bidi,Secondary,Female,31,18-35,Single,Early Marriage,Family Member,Field,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,Medium,No,Mar,2024,617012
+839,GBV-UG-10499,Western,Mbale,Nakivale,Primary,Female,21,18-35,Single,Physical Assault,Intimate Partner,Home,1,Tap,No,N/A,No,Yes,Legal,No,Police,Low,Yes,Feb,2024,335684
+840,GBV-UG-10500,Central,Kampala,Bidi Bidi,Primary,Female,23,18-35,Single,Physical Assault,Stranger,School,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Health,High,Yes,Jan,2024,503434
+841,GBV-UG-10501,Eastern,Mbarara,Host Community,Secondary,Female,25,18-35,Married,Domestic Violence,Stranger,School,1,Tap,No,N/A,Yes,No,Health,No,Health,High,Yes,Mar,2024,300928
+842,GBV-UG-10502,Central,Mbarara,Host Community,Secondary,Female,21,18-35,Single,Physical Assault,Stranger,School,1,Tap,No,N/A,No,No,Legal,Yes,Health,Medium,Yes,Jan,2024,176171
+843,GBV-UG-10503,Western,Gulu,Host Community,Secondary,Female,23,18-35,Married,Physical Assault,Family Member,Water Point,1,Borehole,No,N/A,No,No,Health,No,Health,High,No,Mar,2024,296852
+844,GBV-UG-10504,Central,Gulu,Host Community,Primary,Male,47,18-35,Single,Sexual Assault,Family Member,Home,1,Borehole,No,N/A,No,No,Legal,Yes,Police,Low,No,Feb,2024,759658
+845,GBV-UG-10505,Central,Mbarara,Nakivale,Primary,Male,9,0-17,Married,Defilement,Stranger,Home,1,Borehole,No,N/A,Yes,Yes,Health,Yes,Health,High,Yes,Mar,2024,304326
+846,GBV-UG-10506,Northern,Mbale,Nakivale,Primary,Male,31,18-35,Single,Sexual Assault,Intimate Partner,School,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Health,Medium,No,Feb,2024,16204
+847,GBV-UG-10507,Central,Gulu,Nakivale,Primary,Female,37,18-35,Married,Physical Assault,Stranger,School,1,Borehole,No,N/A,No,No,Legal,Yes,Health,High,Yes,Jan,2024,226384
+848,GBV-UG-10508,Northern,Mbarara,Host Community,Secondary,Female,61,18-35,Single,Domestic Violence,Intimate Partner,School,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Health,High,Yes,Jan,2024,545881
+849,GBV-UG-10509,Western,Mbarara,Host Community,Secondary,Female,42,18-35,Single,Sexual Assault,Stranger,Home,1,Borehole,No,N/A,No,No,Health,Yes,Police,High,No,Jan,2024,701925
+850,GBV-UG-10510,Western,Mbale,Bidi Bidi,Primary,Female,21,18-35,Married,Sexual Assault,Family Member,School,1,Borehole,No,N/A,No,No,Legal,No,Health,High,No,Jan,2024,647203
+851,GBV-UG-10511,Western,Mbarara,Bidi Bidi,Primary,Female,57,18-35,Single,Domestic Violence,Intimate Partner,Water Point,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,High,No,Feb,2024,597983
+852,GBV-UG-10512,Eastern,Mbale,Nakivale,None,Female,13,0-17,Single,Defilement,Family Member,Home,1,Tap,No,N/A,No,No,Psychosocial,Yes,Health,High,Yes,Feb,2024,441312
+853,GBV-UG-10513,Northern,Gulu,Host Community,Secondary,Female,55,18-35,Married,Early Marriage,Family Member,Field,1,Tap,No,N/A,Yes,Yes,Health,Yes,Police,Medium,Yes,Jan,2024,67489
+854,GBV-UG-10514,Northern,Gulu,Host Community,None,Female,46,18-35,Married,Physical Assault,Stranger,Water Point,1,Borehole,No,N/A,No,Yes,Health,No,Police,High,Yes,Feb,2024,119018
+855,GBV-UG-10515,South West,Gulu,Nakivale,Primary,Female,16,0-17,Married,Defilement,Intimate Partner,School,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Health,Low,Yes,Mar,2024,393017
+856,GBV-UG-10516,West Nile,Gulu,Host Community,Primary,Female,10,0-17,Single,Defilement,Family Member,Water Point,1,Borehole,No,N/A,No,No,Psychosocial,No,Police,Low,No,Feb,2024,301132
+857,GBV-UG-10517,Northern,Gulu,Bidi Bidi,Primary,Female,12,0-17,Married,Defilement,Family Member,Home,1,Tap,No,N/A,Yes,Yes,Health,No,Health,Low,Yes,Mar,2024,241090
+858,GBV-UG-10518,South West,Mbarara,Bidi Bidi,Primary,Female,18,18-35,Single,Sexual Assault,Family Member,School,1,Tap,No,N/A,No,No,Health,No,Police,Medium,Yes,Feb,2024,497138
+859,GBV-UG-10519,Western,Mbarara,Bidi Bidi,Secondary,Female,23,18-35,Married,Domestic Violence,Stranger,Water Point,1,Tap,No,N/A,No,No,Psychosocial,No,Health,High,No,Feb,2024,516581
+860,GBV-UG-10520,Eastern,Gulu,Host Community,None,Female,41,18-35,Single,Physical Assault,Family Member,Home,1,Tap,No,N/A,No,No,Psychosocial,Yes,Police,Medium,No,Jan,2024,153268
+861,GBV-UG-10521,Northern,Kampala,Host Community,None,Female,18,18-35,Single,Early Marriage,Stranger,Home,1,Borehole,No,N/A,No,Yes,Health,Yes,Police,Low,No,Mar,2024,180901
+862,GBV-UG-10522,West Nile,Gulu,Bidi Bidi,Secondary,Male,9,0-17,Single,Defilement,Stranger,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,No,Health,Medium,No,Feb,2024,643158
+863,GBV-UG-10523,Central,Mbarara,Nakivale,None,Female,29,18-35,Single,Sexual Assault,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Legal,No,Health,Medium,No,Feb,2024,283046
+864,GBV-UG-10524,Central,Kampala,Host Community,None,Female,39,18-35,Single,Early Marriage,Family Member,Field,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,Low,No,Feb,2024,552961
+865,GBV-UG-10525,Central,Mbarara,Bidi Bidi,None,Female,46,18-35,Single,Early Marriage,Stranger,Field,1,Tap,No,N/A,No,No,Legal,No,Health,High,No,Feb,2024,373197
+866,GBV-UG-10526,West Nile,Kampala,Nakivale,None,Female,19,18-35,Married,Domestic Violence,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,No,Psychosocial,No,Police,Low,Yes,Jan,2024,740962
+867,GBV-UG-10527,South West,Kampala,Nakivale,Secondary,Female,59,18-35,Married,Domestic Violence,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,No,Health,No,Police,Medium,No,Feb,2024,767654
+868,GBV-UG-10528,South West,Gulu,Host Community,None,Female,41,18-35,Single,Domestic Violence,Family Member,Water Point,1,Tap,No,N/A,Yes,Yes,Health,Yes,Health,Low,Yes,Feb,2024,209791
+869,GBV-UG-10529,Eastern,Mbale,Host Community,Secondary,Female,18,18-35,Married,Physical Assault,Stranger,School,1,Borehole,No,N/A,Yes,No,Legal,No,Police,Low,Yes,Mar,2024,595953
+870,GBV-UG-10530,Eastern,Kampala,Host Community,Secondary,Female,39,18-35,Single,Physical Assault,Stranger,Field,1,Borehole,No,N/A,No,No,Psychosocial,No,Health,High,No,Mar,2024,332130
+871,GBV-UG-10531,South West,Kampala,Host Community,Secondary,Female,37,18-35,Single,Physical Assault,Family Member,Water Point,1,Tap,No,N/A,Yes,Yes,Psychosocial,No,Police,High,No,Jan,2024,300722
+872,GBV-UG-10532,Eastern,Kampala,Nakivale,Secondary,Female,17,0-17,Single,Defilement,Stranger,Home,1,Tap,No,N/A,No,No,Health,Yes,Police,High,No,Mar,2024,286821
+873,GBV-UG-10533,Northern,Kampala,Nakivale,Secondary,Female,33,18-35,Married,Domestic Violence,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,High,No,Feb,2024,148316
+874,GBV-UG-10534,Eastern,Gulu,Host Community,None,Female,15,0-17,Single,Defilement,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,Medium,Yes,Mar,2024,555731
+875,GBV-UG-10535,West Nile,Mbarara,Bidi Bidi,None,Female,40,18-35,Single,Physical Assault,Stranger,School,1,Tap,No,N/A,No,Yes,Health,No,Police,High,No,Jan,2024,306794
+876,GBV-UG-10536,West Nile,Mbarara,Bidi Bidi,None,Female,20,18-35,Single,Domestic Violence,Stranger,Field,1,Borehole,No,N/A,No,No,Health,No,Health,Low,Yes,Mar,2024,636151
+877,GBV-UG-10537,West Nile,Kampala,Bidi Bidi,Primary,Female,22,18-35,Married,Physical Assault,Intimate Partner,School,1,Tap,No,N/A,No,No,Legal,Yes,Health,Medium,Yes,Feb,2024,536991
+878,GBV-UG-10538,Western,Mbarara,Host Community,Secondary,Female,31,18-35,Married,Domestic Violence,Intimate Partner,Water Point,1,Tap,No,N/A,No,No,Psychosocial,No,Police,Low,Yes,Jan,2024,165729
+879,GBV-UG-10539,Western,Kampala,Nakivale,Primary,Female,47,18-35,Single,Domestic Violence,Stranger,School,1,Borehole,No,N/A,Yes,No,Psychosocial,No,Health,Medium,Yes,Mar,2024,123926
+880,GBV-UG-10540,Central,Mbale,Bidi Bidi,Secondary,Male,10,0-17,Single,Defilement,Stranger,School,1,Tap,No,N/A,No,No,Psychosocial,No,Police,High,Yes,Mar,2024,738501
+881,GBV-UG-10541,South West,Mbarara,Bidi Bidi,None,Female,11,0-17,Single,Defilement,Intimate Partner,School,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Health,Medium,No,Jan,2024,740423
+882,GBV-UG-10542,Central,Mbarara,Bidi Bidi,Secondary,Female,30,18-35,Married,Domestic Violence,Intimate Partner,Home,1,Borehole,No,N/A,Yes,No,Legal,Yes,Health,High,No,Feb,2024,764639
+883,GBV-UG-10543,Western,Kampala,Bidi Bidi,Secondary,Female,17,0-17,Single,Defilement,Intimate Partner,Home,1,Tap,No,N/A,No,Yes,Legal,Yes,Police,High,No,Jan,2024,214151
+884,GBV-UG-10544,West Nile,Mbarara,Bidi Bidi,None,Female,49,18-35,Married,Sexual Assault,Family Member,Water Point,1,Borehole,No,N/A,Yes,Yes,Legal,No,Police,Low,Yes,Feb,2024,652394
+885,GBV-UG-10545,Northern,Mbarara,Host Community,None,Male,60,18-35,Married,Physical Assault,Family Member,Field,1,Borehole,No,N/A,No,Yes,Legal,Yes,Health,High,No,Mar,2024,525906
+886,GBV-UG-10546,Western,Gulu,Bidi Bidi,Secondary,Female,44,18-35,Married,Early Marriage,Stranger,Water Point,1,Borehole,No,N/A,No,Yes,Legal,No,Health,Medium,Yes,Jan,2024,767837
+887,GBV-UG-10547,Eastern,Gulu,Bidi Bidi,None,Male,59,18-35,Married,Sexual Assault,Intimate Partner,Home,1,Tap,No,N/A,No,No,Psychosocial,No,Health,High,No,Feb,2024,471527
+888,GBV-UG-10548,South West,Mbale,Nakivale,None,Male,8,0-17,Single,Defilement,Intimate Partner,Home,1,Tap,No,N/A,Yes,No,Legal,No,Health,High,Yes,Mar,2024,566701
+889,GBV-UG-10549,Eastern,Mbale,Nakivale,None,Female,24,18-35,Single,Domestic Violence,Stranger,Water Point,1,Borehole,No,N/A,No,Yes,Health,No,Health,High,No,Feb,2024,209315
+890,GBV-UG-10550,Western,Mbale,Host Community,Secondary,Female,19,18-35,Single,Early Marriage,Stranger,Field,1,Borehole,No,N/A,Yes,Yes,Legal,No,Health,High,Yes,Feb,2024,692314
+891,GBV-UG-10551,Western,Gulu,Host Community,Secondary,Female,59,18-35,Married,Physical Assault,Family Member,Home,1,Tap,No,N/A,Yes,Yes,Psychosocial,Yes,Health,Low,Yes,Mar,2024,579239
+892,GBV-UG-10552,Eastern,Kampala,Host Community,Secondary,Female,41,18-35,Married,Sexual Assault,Stranger,Water Point,1,Borehole,No,N/A,No,No,Psychosocial,No,Health,Low,No,Feb,2024,238270
+893,GBV-UG-10553,Western,Mbarara,Bidi Bidi,Secondary,Female,40,18-35,Married,Sexual Assault,Stranger,School,1,Tap,No,N/A,No,No,Health,Yes,Police,High,Yes,Mar,2024,100058
+894,GBV-UG-10554,West Nile,Mbarara,Host Community,Secondary,Female,57,18-35,Married,Sexual Assault,Intimate Partner,Field,1,Tap,No,N/A,Yes,Yes,Health,Yes,Police,Medium,Yes,Feb,2024,222615
+895,GBV-UG-10555,Central,Mbarara,Bidi Bidi,Secondary,Female,54,18-35,Single,Physical Assault,Intimate Partner,Home,1,Borehole,No,N/A,Yes,Yes,Legal,Yes,Health,High,Yes,Feb,2024,433381
+896,GBV-UG-10556,Central,Mbarara,Bidi Bidi,Primary,Female,33,18-35,Married,Physical Assault,Intimate Partner,Home,1,Borehole,No,N/A,No,Yes,Health,No,Health,Low,Yes,Feb,2024,711396
+897,GBV-UG-10557,Western,Gulu,Bidi Bidi,None,Female,32,18-35,Married,Sexual Assault,Family Member,School,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Health,Medium,No,Feb,2024,12177
+898,GBV-UG-10558,Northern,Mbale,Nakivale,Secondary,Female,12,0-17,Married,Defilement,Intimate Partner,Field,1,Tap,No,N/A,No,Yes,Health,Yes,Police,High,No,Mar,2024,486524
+899,GBV-UG-10559,West Nile,Mbale,Nakivale,Secondary,Female,41,18-35,Married,Sexual Assault,Family Member,Home,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Health,Medium,Yes,Feb,2024,177668
+900,GBV-UG-10560,West Nile,Mbale,Bidi Bidi,Secondary,Female,12,0-17,Single,Defilement,Stranger,Home,1,Tap,No,N/A,Yes,Yes,Legal,No,Health,Low,No,Mar,2024,172181
+901,GBV-UG-10561,Western,Gulu,Bidi Bidi,Primary,Female,58,18-35,Married,Early Marriage,Family Member,School,1,Tap,No,N/A,No,Yes,Legal,No,Police,High,No,Feb,2024,29311
+902,GBV-UG-10562,Northern,Mbale,Host Community,Primary,Female,50,18-35,Married,Early Marriage,Family Member,School,1,Tap,No,N/A,Yes,No,Legal,Yes,Health,Medium,Yes,Feb,2024,197916
+903,GBV-UG-10563,Eastern,Kampala,Bidi Bidi,None,Female,38,18-35,Single,Early Marriage,Family Member,Water Point,1,Borehole,No,N/A,No,No,Health,Yes,Health,High,No,Jan,2024,168712
+904,GBV-UG-10564,Central,Mbale,Nakivale,Secondary,Male,10,0-17,Married,Defilement,Family Member,Field,1,Borehole,No,N/A,Yes,No,Psychosocial,No,Police,Low,No,Feb,2024,227233
+905,GBV-UG-10565,South West,Gulu,Host Community,None,Female,24,18-35,Single,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,Yes,No,Legal,No,Police,High,Yes,Jan,2024,775480
+906,GBV-UG-10566,South West,Mbarara,Host Community,None,Female,57,18-35,Married,Sexual Assault,Family Member,School,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Police,Medium,Yes,Mar,2024,61951
+907,GBV-UG-10567,Western,Mbarara,Host Community,None,Female,48,18-35,Single,Sexual Assault,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Legal,No,Police,Medium,Yes,Jan,2024,104983
+908,GBV-UG-10568,Northern,Mbale,Nakivale,Secondary,Female,27,18-35,Married,Domestic Violence,Family Member,Field,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Police,Low,Yes,Jan,2024,557978
+909,GBV-UG-10569,Western,Mbale,Host Community,Secondary,Female,46,18-35,Married,Physical Assault,Family Member,School,1,Borehole,No,N/A,No,Yes,Legal,No,Health,Low,Yes,Feb,2024,765074
+910,GBV-UG-10570,Western,Kampala,Nakivale,Primary,Female,57,18-35,Married,Early Marriage,Stranger,School,1,Tap,No,N/A,Yes,No,Legal,Yes,Health,Medium,Yes,Mar,2024,736132
+911,GBV-UG-10571,Central,Mbale,Host Community,Primary,Female,48,18-35,Married,Sexual Assault,Intimate Partner,Water Point,1,Tap,No,N/A,No,No,Health,Yes,Health,Low,No,Jan,2024,12397
+912,GBV-UG-10572,Eastern,Mbale,Host Community,Secondary,Female,40,18-35,Married,Sexual Assault,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Health,Yes,Police,Medium,Yes,Feb,2024,467263
+913,GBV-UG-10573,Eastern,Kampala,Bidi Bidi,Primary,Female,16,0-17,Married,Defilement,Stranger,Field,1,Tap,No,N/A,Yes,Yes,Psychosocial,No,Police,Medium,Yes,Feb,2024,17720
+914,GBV-UG-10574,Eastern,Kampala,Nakivale,Secondary,Female,48,18-35,Married,Domestic Violence,Stranger,Home,1,Tap,No,N/A,No,No,Legal,No,Police,Low,Yes,Jan,2024,792258
+915,GBV-UG-10575,Eastern,Kampala,Host Community,Primary,Female,56,18-35,Married,Domestic Violence,Stranger,Field,1,Tap,No,N/A,No,Yes,Legal,Yes,Police,Low,No,Mar,2024,762555
+916,GBV-UG-10576,West Nile,Kampala,Nakivale,Primary,Female,41,18-35,Single,Physical Assault,Intimate Partner,School,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Police,Low,No,Feb,2024,371992
+917,GBV-UG-10577,Western,Gulu,Nakivale,Secondary,Female,11,0-17,Single,Defilement,Intimate Partner,Water Point,1,Borehole,No,N/A,Yes,No,Legal,Yes,Police,High,No,Feb,2024,378863
+918,GBV-UG-10578,Central,Mbarara,Host Community,None,Female,43,18-35,Single,Early Marriage,Stranger,Field,1,Tap,No,N/A,No,No,Legal,No,Police,Medium,No,Mar,2024,674563
+919,GBV-UG-10579,Western,Mbale,Nakivale,None,Female,32,18-35,Single,Domestic Violence,Family Member,School,1,Tap,No,N/A,No,No,Legal,Yes,Police,Medium,No,Feb,2024,204338
+920,GBV-UG-10580,Northern,Mbale,Nakivale,Primary,Female,12,0-17,Married,Defilement,Family Member,Water Point,1,Tap,No,N/A,No,Yes,Health,No,Police,High,No,Feb,2024,700621
+921,GBV-UG-10581,South West,Gulu,Bidi Bidi,Primary,Female,47,18-35,Single,Domestic Violence,Stranger,Field,1,Borehole,No,N/A,Yes,Yes,Psychosocial,Yes,Police,Medium,No,Feb,2024,53861
+922,GBV-UG-10582,Eastern,Kampala,Nakivale,Primary,Female,53,18-35,Married,Sexual Assault,Family Member,Water Point,1,Tap,No,N/A,No,No,Health,Yes,Health,Low,Yes,Jan,2024,64152
+923,GBV-UG-10583,West Nile,Mbarara,Bidi Bidi,None,Female,12,0-17,Single,Defilement,Stranger,Home,1,Borehole,No,N/A,Yes,Yes,Health,No,Police,Medium,Yes,Feb,2024,291754
+924,GBV-UG-10584,South West,Kampala,Nakivale,Secondary,Female,33,18-35,Single,Early Marriage,Stranger,Field,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,Low,No,Jan,2024,282820
+925,GBV-UG-10585,Eastern,Mbarara,Nakivale,None,Female,49,18-35,Single,Sexual Assault,Intimate Partner,Field,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Health,Low,Yes,Jan,2024,74866
+926,GBV-UG-10586,West Nile,Mbale,Host Community,Primary,Male,46,18-35,Single,Sexual Assault,Intimate Partner,Water Point,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Health,Low,No,Jan,2024,177208
+927,GBV-UG-10587,Western,Mbarara,Nakivale,Secondary,Female,10,0-17,Married,Defilement,Stranger,School,1,Borehole,No,N/A,No,No,Psychosocial,No,Health,Medium,No,Mar,2024,151350
+928,GBV-UG-10588,Eastern,Mbale,Nakivale,Primary,Female,16,0-17,Married,Defilement,Intimate Partner,Water Point,1,Tap,No,N/A,No,No,Psychosocial,No,Police,High,Yes,Mar,2024,601177
+929,GBV-UG-10589,Eastern,Mbarara,Host Community,Primary,Female,54,18-35,Single,Physical Assault,Family Member,Water Point,1,Borehole,No,N/A,No,Yes,Legal,Yes,Health,High,No,Jan,2024,355237
+930,GBV-UG-10590,Northern,Kampala,Nakivale,None,Female,36,18-35,Single,Sexual Assault,Stranger,School,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Health,Medium,Yes,Mar,2024,593450
+931,GBV-UG-10591,South West,Mbarara,Host Community,None,Female,53,18-35,Married,Sexual Assault,Family Member,Water Point,1,Borehole,No,N/A,No,Yes,Health,Yes,Police,Medium,No,Jan,2024,430196
+932,GBV-UG-10592,Central,Kampala,Nakivale,None,Male,37,18-35,Single,Physical Assault,Intimate Partner,Home,1,Tap,No,N/A,No,No,Health,No,Police,Medium,No,Feb,2024,32204
+933,GBV-UG-10593,Eastern,Mbarara,Bidi Bidi,Primary,Female,20,18-35,Married,Early Marriage,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Health,Yes,Police,Medium,Yes,Feb,2024,34379
+934,GBV-UG-10594,Central,Mbale,Nakivale,Secondary,Female,25,18-35,Married,Sexual Assault,Intimate Partner,Home,1,Tap,No,N/A,No,No,Psychosocial,No,Police,Medium,No,Feb,2024,320730
+935,GBV-UG-10595,Central,Kampala,Nakivale,Primary,Female,43,18-35,Married,Early Marriage,Stranger,School,1,Tap,No,N/A,No,Yes,Health,No,Police,Medium,No,Jan,2024,125037
+936,GBV-UG-10596,Central,Gulu,Bidi Bidi,Primary,Female,46,18-35,Married,Domestic Violence,Stranger,Water Point,1,Tap,No,N/A,Yes,No,Legal,Yes,Police,Medium,Yes,Jan,2024,176010
+937,GBV-UG-10597,Eastern,Gulu,Nakivale,Secondary,Female,24,18-35,Married,Domestic Violence,Stranger,School,1,Tap,No,N/A,Yes,Yes,Psychosocial,No,Health,High,No,Feb,2024,783642
+938,GBV-UG-10598,Central,Kampala,Bidi Bidi,None,Female,49,18-35,Married,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,Yes,No,Psychosocial,Yes,Health,Medium,Yes,Feb,2024,219182
+939,GBV-UG-10599,Northern,Gulu,Bidi Bidi,None,Female,44,18-35,Single,Sexual Assault,Intimate Partner,Water Point,1,Borehole,No,N/A,Yes,Yes,Legal,Yes,Health,High,Yes,Feb,2024,798136
+940,GBV-UG-10600,West Nile,Mbale,Nakivale,None,Female,49,18-35,Married,Early Marriage,Stranger,Water Point,1,Tap,No,N/A,No,Yes,Legal,No,Police,Low,No,Feb,2024,184468
+941,GBV-UG-10601,Central,Kampala,Nakivale,None,Female,14,0-17,Married,Defilement,Stranger,Field,1,Tap,No,N/A,Yes,No,Legal,Yes,Police,High,No,Feb,2024,765063
+942,GBV-UG-10602,Western,Mbale,Host Community,None,Female,15,0-17,Married,Defilement,Intimate Partner,Field,1,Borehole,No,N/A,No,No,Health,No,Health,Medium,No,Jan,2024,474983
+943,GBV-UG-10603,Northern,Mbarara,Nakivale,Primary,Female,16,0-17,Married,Defilement,Stranger,Home,1,Borehole,No,N/A,No,Yes,Health,No,Police,Low,No,Mar,2024,343367
+944,GBV-UG-10604,Western,Mbale,Bidi Bidi,Primary,Male,13,0-17,Married,Defilement,Stranger,School,1,Tap,No,N/A,Yes,No,Legal,Yes,Police,High,No,Jan,2024,659708
+945,GBV-UG-10605,Central,Kampala,Host Community,Primary,Female,56,18-35,Single,Physical Assault,Stranger,Water Point,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Health,High,Yes,Mar,2024,692214
+946,GBV-UG-10606,South West,Gulu,Nakivale,Primary,Female,26,18-35,Single,Domestic Violence,Intimate Partner,School,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,Medium,No,Feb,2024,413778
+947,GBV-UG-10607,Eastern,Gulu,Host Community,Primary,Female,12,0-17,Single,Defilement,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,Yes,Health,No,Health,Medium,Yes,Jan,2024,190807
+948,GBV-UG-10608,Western,Mbale,Host Community,Secondary,Male,23,18-35,Single,Domestic Violence,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,No,Psychosocial,No,Health,High,No,Jan,2024,351366
+949,GBV-UG-10609,South West,Mbale,Nakivale,Secondary,Female,40,18-35,Single,Early Marriage,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,High,No,Mar,2024,204368
+950,GBV-UG-10610,Eastern,Mbale,Nakivale,Secondary,Female,26,18-35,Single,Sexual Assault,Intimate Partner,Home,1,Tap,No,N/A,No,Yes,Health,No,Health,High,Yes,Jan,2024,251568
+951,GBV-UG-10611,West Nile,Mbale,Nakivale,Secondary,Female,61,18-35,Single,Early Marriage,Intimate Partner,School,1,Borehole,No,N/A,Yes,Yes,Legal,No,Health,High,No,Jan,2024,587827
+952,GBV-UG-10612,Northern,Mbarara,Bidi Bidi,Secondary,Female,52,18-35,Single,Sexual Assault,Stranger,Home,1,Borehole,No,N/A,Yes,No,Health,Yes,Health,High,Yes,Jan,2024,32648
+953,GBV-UG-10613,Western,Gulu,Bidi Bidi,None,Male,46,18-35,Married,Sexual Assault,Family Member,Home,1,Tap,No,N/A,Yes,No,Legal,No,Health,Medium,No,Jan,2024,603425
+954,GBV-UG-10614,South West,Gulu,Nakivale,Secondary,Female,19,18-35,Single,Sexual Assault,Intimate Partner,School,1,Tap,No,N/A,Yes,No,Legal,Yes,Health,Medium,No,Mar,2024,371685
+955,GBV-UG-10615,South West,Mbale,Host Community,Secondary,Female,32,18-35,Single,Domestic Violence,Family Member,School,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Police,Medium,Yes,Feb,2024,652723
+956,GBV-UG-10616,Eastern,Mbale,Host Community,None,Female,13,0-17,Married,Defilement,Family Member,Water Point,1,Borehole,No,N/A,Yes,No,Psychosocial,Yes,Police,Medium,No,Jan,2024,631066
+957,GBV-UG-10617,Northern,Kampala,Nakivale,Primary,Male,52,18-35,Single,Domestic Violence,Stranger,Home,1,Tap,No,N/A,Yes,No,Health,No,Health,Medium,No,Feb,2024,706083
+958,GBV-UG-10618,South West,Gulu,Nakivale,Secondary,Female,61,18-35,Married,Early Marriage,Intimate Partner,Water Point,1,Borehole,No,N/A,No,No,Health,No,Health,High,Yes,Feb,2024,748814
+959,GBV-UG-10619,Northern,Kampala,Host Community,Secondary,Female,39,18-35,Single,Domestic Violence,Stranger,Field,1,Borehole,No,N/A,Yes,Yes,Health,No,Police,Medium,Yes,Jan,2024,768304
+960,GBV-UG-10620,Central,Mbarara,Bidi Bidi,Primary,Male,51,18-35,Married,Sexual Assault,Stranger,School,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Health,Low,Yes,Jan,2024,759622
+961,GBV-UG-10621,West Nile,Mbale,Host Community,None,Female,34,18-35,Single,Physical Assault,Intimate Partner,Water Point,1,Tap,No,N/A,No,No,Legal,Yes,Police,Low,Yes,Mar,2024,171380
+962,GBV-UG-10622,Western,Kampala,Host Community,Secondary,Female,25,18-35,Single,Domestic Violence,Intimate Partner,Field,1,Borehole,No,N/A,Yes,No,Psychosocial,Yes,Police,Low,No,Mar,2024,671673
+963,GBV-UG-10623,Eastern,Mbarara,Host Community,Secondary,Female,40,18-35,Single,Sexual Assault,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Health,No,Health,Medium,Yes,Feb,2024,375314
+964,GBV-UG-10624,Eastern,Gulu,Bidi Bidi,Secondary,Female,16,0-17,Single,Defilement,Family Member,Field,1,Tap,No,N/A,No,Yes,Health,No,Police,High,No,Feb,2024,362456
+965,GBV-UG-10625,Eastern,Gulu,Bidi Bidi,None,Female,23,18-35,Married,Domestic Violence,Stranger,Home,1,Borehole,No,N/A,No,Yes,Legal,Yes,Police,Medium,Yes,Mar,2024,599206
+966,GBV-UG-10626,Central,Kampala,Nakivale,Primary,Female,15,0-17,Single,Defilement,Intimate Partner,Field,1,Tap,No,N/A,No,No,Legal,Yes,Health,High,No,Jan,2024,403282
+967,GBV-UG-10627,Western,Kampala,Nakivale,None,Female,14,0-17,Single,Defilement,Family Member,Field,1,Borehole,No,N/A,No,Yes,Legal,Yes,Health,Medium,Yes,Jan,2024,624435
+968,GBV-UG-10628,Eastern,Kampala,Host Community,Primary,Female,58,18-35,Single,Physical Assault,Intimate Partner,Water Point,1,Borehole,No,N/A,No,Yes,Legal,No,Police,Medium,Yes,Jan,2024,50135
+969,GBV-UG-10629,West Nile,Mbale,Bidi Bidi,Secondary,Female,56,18-35,Single,Physical Assault,Intimate Partner,Home,1,Borehole,No,N/A,No,Yes,Health,Yes,Police,Medium,No,Feb,2024,74106
+970,GBV-UG-10630,West Nile,Gulu,Host Community,None,Male,44,18-35,Married,Domestic Violence,Family Member,Water Point,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Police,High,No,Feb,2024,196959
+971,GBV-UG-10631,Western,Kampala,Bidi Bidi,Primary,Female,59,18-35,Single,Domestic Violence,Intimate Partner,Field,1,Borehole,No,N/A,Yes,No,Legal,No,Police,Low,No,Mar,2024,194976
+972,GBV-UG-10632,West Nile,Kampala,Host Community,None,Female,39,18-35,Married,Domestic Violence,Intimate Partner,Home,1,Tap,No,N/A,No,No,Health,Yes,Health,Medium,No,Mar,2024,373283
+973,GBV-UG-10633,South West,Kampala,Nakivale,Secondary,Female,31,18-35,Single,Sexual Assault,Family Member,Water Point,1,Tap,No,N/A,Yes,No,Legal,No,Police,Medium,Yes,Mar,2024,488851
+974,GBV-UG-10634,South West,Gulu,Host Community,None,Female,47,18-35,Single,Sexual Assault,Intimate Partner,Field,1,Tap,No,N/A,No,No,Legal,No,Police,Low,No,Mar,2024,582190
+975,GBV-UG-10635,Central,Kampala,Host Community,Primary,Male,18,18-35,Married,Physical Assault,Stranger,Water Point,1,Borehole,No,N/A,No,No,Health,No,Police,Low,Yes,Mar,2024,179744
+976,GBV-UG-10636,Northern,Mbarara,Nakivale,Primary,Female,58,18-35,Single,Sexual Assault,Family Member,Field,1,Borehole,No,N/A,No,No,Health,No,Health,High,No,Jan,2024,529686
+977,GBV-UG-10637,Eastern,Gulu,Host Community,Primary,Female,42,18-35,Married,Sexual Assault,Family Member,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,No,Police,Medium,Yes,Feb,2024,86382
+978,GBV-UG-10638,Northern,Kampala,Host Community,Secondary,Female,25,18-35,Married,Physical Assault,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,Yes,Legal,No,Police,Medium,No,Mar,2024,210758
+979,GBV-UG-10639,West Nile,Kampala,Host Community,Secondary,Female,23,18-35,Married,Early Marriage,Stranger,Water Point,1,Borehole,No,N/A,Yes,No,Health,Yes,Police,Medium,No,Mar,2024,669719
+980,GBV-UG-10640,South West,Mbale,Bidi Bidi,Secondary,Female,41,18-35,Married,Domestic Violence,Intimate Partner,Home,1,Borehole,No,N/A,Yes,No,Health,No,Health,Low,Yes,Jan,2024,552152
+981,GBV-UG-10641,Northern,Gulu,Nakivale,Secondary,Female,45,18-35,Single,Sexual Assault,Intimate Partner,Water Point,1,Borehole,No,N/A,No,Yes,Legal,Yes,Police,Medium,Yes,Mar,2024,776761
+982,GBV-UG-10642,West Nile,Gulu,Host Community,None,Male,17,0-17,Single,Defilement,Intimate Partner,Field,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Health,Low,No,Jan,2024,39346
+983,GBV-UG-10643,Northern,Kampala,Nakivale,None,Male,15,0-17,Married,Defilement,Family Member,Home,1,Tap,No,N/A,No,Yes,Psychosocial,No,Police,Low,No,Jan,2024,754256
+984,GBV-UG-10644,Northern,Kampala,Nakivale,Secondary,Female,12,0-17,Single,Defilement,Intimate Partner,Field,1,Borehole,No,N/A,Yes,No,Psychosocial,No,Police,Low,No,Feb,2024,420597
+985,GBV-UG-10645,Western,Mbale,Nakivale,Secondary,Female,12,0-17,Married,Defilement,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Police,Low,Yes,Jan,2024,384229
+986,GBV-UG-10646,West Nile,Gulu,Bidi Bidi,Secondary,Female,37,18-35,Married,Physical Assault,Intimate Partner,Home,1,Tap,No,N/A,No,No,Legal,No,Police,High,Yes,Feb,2024,718711
+987,GBV-UG-10647,West Nile,Mbale,Bidi Bidi,Secondary,Female,44,18-35,Married,Early Marriage,Stranger,Field,1,Tap,No,N/A,Yes,Yes,Legal,No,Health,Low,No,Feb,2024,571085
+988,GBV-UG-10648,South West,Gulu,Nakivale,Primary,Male,23,18-35,Married,Domestic Violence,Intimate Partner,Field,1,Borehole,No,N/A,No,No,Health,No,Police,Low,Yes,Feb,2024,416458
+989,GBV-UG-10649,Northern,Mbale,Host Community,Secondary,Female,29,18-35,Married,Early Marriage,Stranger,Water Point,1,Borehole,No,N/A,Yes,No,Health,Yes,Health,Low,Yes,Feb,2024,573810
+990,GBV-UG-10650,Northern,Mbale,Host Community,None,Female,10,0-17,Married,Defilement,Intimate Partner,Home,1,Borehole,No,N/A,Yes,Yes,Legal,Yes,Police,High,Yes,Feb,2024,739376
+991,GBV-UG-10651,Central,Mbale,Host Community,Primary,Male,9,0-17,Single,Defilement,Intimate Partner,Home,1,Borehole,No,N/A,Yes,No,Legal,Yes,Police,Medium,No,Feb,2024,730804
+992,GBV-UG-10652,Eastern,Mbarara,Host Community,Secondary,Male,40,18-35,Single,Sexual Assault,Intimate Partner,School,1,Borehole,No,N/A,No,No,Legal,No,Police,Low,Yes,Mar,2024,708261
+993,GBV-UG-10653,Central,Mbale,Host Community,None,Female,48,18-35,Married,Early Marriage,Stranger,Field,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Police,High,No,Feb,2024,307392
+994,GBV-UG-10654,Western,Mbale,Host Community,Primary,Female,58,18-35,Single,Sexual Assault,Family Member,Water Point,1,Tap,No,N/A,Yes,Yes,Psychosocial,No,Police,High,Yes,Mar,2024,87023
+995,GBV-UG-10655,West Nile,Gulu,Host Community,Secondary,Female,40,18-35,Married,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,Yes,No,Health,Yes,Police,High,Yes,Mar,2024,261299
+996,GBV-UG-10656,Eastern,Gulu,Host Community,Primary,Female,57,18-35,Married,Domestic Violence,Family Member,Water Point,1,Borehole,No,N/A,Yes,Yes,Psychosocial,Yes,Health,Medium,Yes,Jan,2024,56069
+997,GBV-UG-10657,Western,Mbarara,Host Community,Primary,Female,14,0-17,Married,Defilement,Family Member,School,1,Borehole,No,N/A,Yes,No,Psychosocial,No,Health,Medium,No,Feb,2024,721501
+998,GBV-UG-10658,Central,Mbale,Nakivale,Primary,Female,44,18-35,Married,Early Marriage,Intimate Partner,Water Point,1,Borehole,No,N/A,Yes,No,Health,No,Police,High,No,Jan,2024,764324
+999,GBV-UG-10659,South West,Mbarara,Nakivale,Primary,Female,27,18-35,Single,Early Marriage,Family Member,Field,1,Tap,No,N/A,No,Yes,Legal,No,Police,Low,No,Jan,2024,134917
+1000,GBV-UG-10660,South West,Mbarara,Nakivale,Primary,Female,47,18-35,Single,Sexual Assault,Family Member,Water Point,1,Borehole,No,N/A,Yes,No,Health,No,Health,Medium,Yes,Feb,2024,388075
+1001,GBV-UG-10661,West Nile,Kampala,Bidi Bidi,Primary,Female,18,18-35,Single,Early Marriage,Intimate Partner,Water Point,1,Borehole,No,N/A,No,No,Legal,Yes,Police,Medium,Yes,Mar,2024,781926
+1002,GBV-UG-10662,Northern,Mbale,Nakivale,Primary,Male,16,0-17,Married,Defilement,Intimate Partner,Field,1,Borehole,No,N/A,No,No,Psychosocial,No,Police,Low,Yes,Feb,2024,98356
+1003,GBV-UG-10663,Central,Mbale,Bidi Bidi,Primary,Female,39,18-35,Married,Physical Assault,Family Member,Field,1,Tap,No,N/A,No,No,Health,No,Health,Low,Yes,Jan,2024,688136
+1004,GBV-UG-10664,Western,Gulu,Host Community,None,Female,36,18-35,Married,Physical Assault,Stranger,Water Point,1,Borehole,No,N/A,Yes,Yes,Legal,Yes,Health,High,No,Jan,2024,223943
+1005,GBV-UG-10665,Western,Gulu,Bidi Bidi,Primary,Female,60,18-35,Single,Domestic Violence,Intimate Partner,Home,1,Borehole,No,N/A,No,No,Legal,No,Health,Low,No,Jan,2024,579848
+1006,GBV-UG-10666,Eastern,Kampala,Host Community,Secondary,Female,13,0-17,Single,Defilement,Intimate Partner,Home,1,Tap,No,N/A,No,No,Health,Yes,Police,Medium,No,Jan,2024,280314
+1007,GBV-UG-10667,Northern,Kampala,Bidi Bidi,Primary,Female,11,0-17,Married,Defilement,Intimate Partner,Water Point,1,Borehole,No,N/A,No,No,Psychosocial,No,Police,Medium,Yes,Jan,2024,532405
+1008,GBV-UG-10668,West Nile,Gulu,Host Community,None,Female,59,18-35,Married,Early Marriage,Stranger,Home,1,Tap,No,N/A,No,Yes,Psychosocial,No,Health,Low,No,Feb,2024,761385
+1009,GBV-UG-10669,Central,Gulu,Nakivale,Secondary,Female,40,18-35,Married,Domestic Violence,Intimate Partner,Home,1,Borehole,No,N/A,Yes,Yes,Legal,No,Police,Low,No,Jan,2024,462291
+1010,GBV-UG-10670,South West,Mbale,Nakivale,Secondary,Female,43,18-35,Single,Physical Assault,Stranger,Home,1,Tap,No,N/A,No,Yes,Legal,Yes,Police,Low,Yes,Jan,2024,669275
+1011,GBV-UG-10671,Central,Mbale,Bidi Bidi,Secondary,Female,40,18-35,Married,Domestic Violence,Intimate Partner,School,1,Borehole,No,N/A,Yes,Yes,Health,No,Health,High,Yes,Mar,2024,543738
+1012,GBV-UG-10672,Western,Mbale,Nakivale,Secondary,Male,48,18-35,Married,Sexual Assault,Family Member,Field,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Health,Medium,Yes,Feb,2024,296581
+1013,GBV-UG-10673,West Nile,Kampala,Bidi Bidi,Primary,Female,12,0-17,Married,Defilement,Family Member,Home,1,Tap,No,N/A,Yes,No,Legal,Yes,Police,Low,No,Feb,2024,717791
+1014,GBV-UG-10674,Northern,Mbarara,Bidi Bidi,Primary,Female,23,18-35,Married,Domestic Violence,Family Member,Water Point,1,Borehole,No,N/A,Yes,No,Legal,No,Health,Low,No,Mar,2024,254121
+1015,GBV-UG-10675,Eastern,Kampala,Host Community,Primary,Female,35,18-35,Single,Sexual Assault,Intimate Partner,Field,1,Tap,No,N/A,No,Yes,Legal,Yes,Police,High,No,Jan,2024,292848
+1016,GBV-UG-10676,Western,Kampala,Bidi Bidi,None,Female,21,18-35,Single,Early Marriage,Stranger,Field,1,Tap,No,N/A,No,Yes,Legal,Yes,Police,Low,Yes,Feb,2024,212220
+1017,GBV-UG-10677,Eastern,Mbarara,Bidi Bidi,Secondary,Female,45,18-35,Married,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,Yes,Yes,Legal,No,Police,Low,Yes,Mar,2024,604282
+1018,GBV-UG-10678,Eastern,Kampala,Nakivale,Primary,Female,19,18-35,Married,Sexual Assault,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Health,No,Police,Low,Yes,Feb,2024,31989
+1019,GBV-UG-10679,Western,Kampala,Host Community,Secondary,Female,43,18-35,Single,Physical Assault,Stranger,School,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,Medium,No,Feb,2024,76710
+1020,GBV-UG-10680,Northern,Mbarara,Nakivale,Secondary,Female,54,18-35,Single,Early Marriage,Stranger,Home,1,Borehole,No,N/A,No,Yes,Health,No,Police,Low,No,Mar,2024,132987
+1021,GBV-UG-10681,Eastern,Gulu,Nakivale,None,Female,47,18-35,Married,Physical Assault,Stranger,Water Point,1,Tap,No,N/A,No,No,Psychosocial,No,Police,High,No,Feb,2024,381190
+1022,GBV-UG-10682,Central,Mbale,Bidi Bidi,Secondary,Female,57,18-35,Single,Sexual Assault,Stranger,Home,1,Borehole,No,N/A,No,No,Legal,Yes,Health,High,Yes,Jan,2024,124205
+1023,GBV-UG-10683,Central,Mbarara,Bidi Bidi,None,Female,12,0-17,Single,Defilement,Family Member,School,1,Borehole,No,N/A,No,Yes,Legal,No,Police,High,Yes,Feb,2024,338790
+1024,GBV-UG-10684,Central,Mbale,Bidi Bidi,None,Female,36,18-35,Single,Physical Assault,Family Member,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,No,Police,Medium,Yes,Feb,2024,792984
+1025,GBV-UG-10685,South West,Gulu,Nakivale,Primary,Female,21,18-35,Single,Early Marriage,Intimate Partner,Field,1,Tap,No,N/A,No,No,Legal,Yes,Health,Medium,No,Feb,2024,789403
+1026,GBV-UG-10686,Western,Kampala,Bidi Bidi,None,Female,36,18-35,Married,Sexual Assault,Family Member,Water Point,1,Borehole,No,N/A,Yes,No,Psychosocial,No,Health,Medium,No,Mar,2024,375446
+1027,GBV-UG-10687,Eastern,Mbale,Bidi Bidi,Secondary,Female,22,18-35,Married,Sexual Assault,Stranger,Home,1,Borehole,No,N/A,No,No,Health,Yes,Health,High,Yes,Feb,2024,777805
+1028,GBV-UG-10688,Northern,Mbale,Nakivale,Secondary,Male,53,18-35,Single,Early Marriage,Family Member,Water Point,1,Borehole,No,N/A,Yes,No,Legal,No,Health,Medium,Yes,Mar,2024,77726
+1029,GBV-UG-10689,West Nile,Mbarara,Host Community,Primary,Female,40,18-35,Single,Sexual Assault,Family Member,Field,1,Tap,No,N/A,No,Yes,Legal,Yes,Police,Medium,Yes,Jan,2024,457423
+1030,GBV-UG-10690,South West,Mbarara,Host Community,None,Male,44,18-35,Single,Domestic Violence,Intimate Partner,School,1,Borehole,No,N/A,Yes,Yes,Health,Yes,Police,Medium,Yes,Feb,2024,330846
+1031,GBV-UG-10691,South West,Mbarara,Bidi Bidi,None,Male,12,0-17,Single,Defilement,Family Member,School,1,Borehole,No,N/A,Yes,No,Legal,No,Health,Medium,No,Mar,2024,678666
+1032,GBV-UG-10692,Eastern,Kampala,Nakivale,Primary,Female,34,18-35,Married,Early Marriage,Intimate Partner,Field,1,Tap,No,N/A,No,No,Psychosocial,Yes,Police,High,No,Mar,2024,714152
+1033,GBV-UG-10693,Northern,Mbale,Bidi Bidi,Primary,Female,12,0-17,Single,Defilement,Stranger,Water Point,1,Tap,No,N/A,Yes,Yes,Health,No,Police,High,No,Jan,2024,92906
+1034,GBV-UG-10694,Eastern,Mbarara,Host Community,None,Female,45,18-35,Single,Physical Assault,Family Member,School,1,Borehole,No,N/A,No,No,Psychosocial,No,Police,Low,No,Jan,2024,447706
+1035,GBV-UG-10695,South West,Mbale,Bidi Bidi,Secondary,Female,8,0-17,Single,Defilement,Family Member,Home,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Police,Low,No,Feb,2024,615713
+1036,GBV-UG-10696,Western,Mbarara,Nakivale,None,Female,20,18-35,Single,Domestic Violence,Intimate Partner,School,1,Tap,No,N/A,No,Yes,Health,Yes,Health,Medium,No,Jan,2024,246631
+1037,GBV-UG-10697,South West,Kampala,Nakivale,None,Male,45,18-35,Married,Sexual Assault,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,Low,No,Jan,2024,795689
+1038,GBV-UG-10698,Western,Mbarara,Host Community,Secondary,Female,20,18-35,Single,Sexual Assault,Family Member,School,1,Borehole,No,N/A,Yes,No,Psychosocial,No,Police,Low,Yes,Mar,2024,742561
+1039,GBV-UG-10699,Western,Mbale,Nakivale,None,Female,49,18-35,Married,Physical Assault,Family Member,Field,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Health,Medium,Yes,Jan,2024,545196
+1040,GBV-UG-10700,Eastern,Mbarara,Bidi Bidi,Secondary,Female,24,18-35,Married,Sexual Assault,Stranger,School,1,Tap,No,N/A,No,No,Legal,Yes,Health,Low,No,Feb,2024,760059
+1041,GBV-UG-10701,West Nile,Gulu,Bidi Bidi,Primary,Female,18,18-35,Married,Physical Assault,Stranger,Field,1,Tap,No,N/A,No,Yes,Health,No,Health,Medium,No,Feb,2024,410084
+1042,GBV-UG-10702,Northern,Mbale,Bidi Bidi,Primary,Female,36,18-35,Single,Early Marriage,Stranger,Field,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Health,Low,No,Feb,2024,377753
+1043,GBV-UG-10703,Northern,Mbale,Host Community,Primary,Female,54,18-35,Single,Domestic Violence,Stranger,Field,1,Borehole,No,N/A,No,No,Health,Yes,Health,Medium,No,Jan,2024,755357
+1044,GBV-UG-10704,Western,Gulu,Nakivale,Secondary,Female,25,18-35,Single,Physical Assault,Stranger,Home,1,Tap,No,N/A,No,Yes,Psychosocial,No,Health,High,Yes,Jan,2024,289772
+1045,GBV-UG-10705,Northern,Mbale,Bidi Bidi,Secondary,Female,45,18-35,Married,Early Marriage,Family Member,Field,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,Low,Yes,Mar,2024,198475
+1046,GBV-UG-10706,Central,Kampala,Nakivale,Primary,Female,24,18-35,Single,Domestic Violence,Stranger,School,1,Tap,No,N/A,No,Yes,Legal,Yes,Police,High,Yes,Feb,2024,1534
+1047,GBV-UG-10707,Western,Kampala,Nakivale,Secondary,Female,28,18-35,Single,Sexual Assault,Family Member,Field,1,Borehole,No,N/A,Yes,Yes,Legal,Yes,Health,High,No,Mar,2024,607835
+1048,GBV-UG-10708,South West,Gulu,Host Community,Secondary,Female,17,0-17,Married,Defilement,Stranger,Field,1,Borehole,No,N/A,No,No,Health,Yes,Health,High,No,Mar,2024,382482
+1049,GBV-UG-10709,Central,Gulu,Nakivale,None,Male,20,18-35,Married,Early Marriage,Intimate Partner,Home,1,Tap,No,N/A,Yes,No,Legal,Yes,Health,Medium,No,Jan,2024,763506
+1050,GBV-UG-10710,Western,Mbale,Host Community,None,Female,35,18-35,Married,Physical Assault,Family Member,School,1,Borehole,No,N/A,No,No,Legal,No,Police,Low,No,Feb,2024,376627
+1051,GBV-UG-10711,Northern,Mbarara,Host Community,Secondary,Female,11,0-17,Single,Defilement,Intimate Partner,School,1,Borehole,No,N/A,Yes,No,Psychosocial,No,Health,Low,No,Jan,2024,286226
+1052,GBV-UG-10712,Central,Kampala,Bidi Bidi,Primary,Female,44,18-35,Married,Physical Assault,Intimate Partner,Home,1,Tap,No,N/A,Yes,Yes,Psychosocial,Yes,Health,Low,No,Mar,2024,687502
+1053,GBV-UG-10713,Northern,Mbale,Nakivale,None,Male,11,0-17,Single,Defilement,Family Member,Field,1,Tap,No,N/A,Yes,Yes,Health,No,Health,Medium,No,Jan,2024,44927
+1054,GBV-UG-10714,Eastern,Gulu,Host Community,None,Male,36,18-35,Married,Sexual Assault,Stranger,Water Point,1,Borehole,No,N/A,No,Yes,Legal,Yes,Police,Medium,Yes,Mar,2024,272794
+1055,GBV-UG-10715,Northern,Gulu,Nakivale,None,Female,46,18-35,Single,Sexual Assault,Intimate Partner,Home,1,Tap,No,N/A,No,No,Health,Yes,Police,Medium,No,Feb,2024,575844
+1056,GBV-UG-10716,Eastern,Mbale,Host Community,None,Female,25,18-35,Married,Early Marriage,Intimate Partner,School,1,Tap,No,N/A,Yes,Yes,Health,Yes,Health,Medium,No,Jan,2024,658999
+1057,GBV-UG-10717,Northern,Mbale,Nakivale,None,Female,28,18-35,Married,Sexual Assault,Stranger,Field,1,Borehole,No,N/A,Yes,No,Psychosocial,No,Health,High,Yes,Feb,2024,719212
+1058,GBV-UG-10718,Western,Mbale,Host Community,Primary,Female,27,18-35,Single,Domestic Violence,Intimate Partner,School,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,Low,No,Jan,2024,233382
+1059,GBV-UG-10719,Eastern,Mbarara,Nakivale,Secondary,Male,31,18-35,Married,Domestic Violence,Stranger,School,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Police,Medium,Yes,Feb,2024,449604
+1060,GBV-UG-10720,Northern,Gulu,Host Community,None,Female,51,18-35,Single,Physical Assault,Stranger,Home,1,Borehole,No,N/A,Yes,Yes,Psychosocial,Yes,Health,High,No,Jan,2024,575498
+1061,GBV-UG-10721,Northern,Kampala,Host Community,Secondary,Female,12,0-17,Married,Defilement,Stranger,School,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Health,Low,No,Feb,2024,249544
+1062,GBV-UG-10722,South West,Mbale,Host Community,Primary,Female,30,18-35,Single,Physical Assault,Intimate Partner,School,1,Tap,No,N/A,Yes,Yes,Health,No,Police,Low,No,Jan,2024,613142
+1063,GBV-UG-10723,Western,Gulu,Host Community,Primary,Female,12,0-17,Single,Defilement,Family Member,Home,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,Low,No,Jan,2024,723313
+1064,GBV-UG-10724,South West,Gulu,Host Community,None,Male,52,18-35,Single,Domestic Violence,Intimate Partner,School,1,Tap,No,N/A,No,No,Legal,Yes,Health,High,Yes,Mar,2024,576991
+1065,GBV-UG-10725,Central,Mbarara,Host Community,Primary,Male,47,18-35,Single,Sexual Assault,Family Member,School,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Health,High,Yes,Jan,2024,394466
+1066,GBV-UG-10726,Eastern,Mbale,Bidi Bidi,None,Female,45,18-35,Married,Early Marriage,Intimate Partner,Water Point,1,Tap,No,N/A,No,No,Legal,Yes,Police,Low,Yes,Mar,2024,393751
+1067,GBV-UG-10727,Eastern,Gulu,Bidi Bidi,None,Female,26,18-35,Married,Sexual Assault,Family Member,Water Point,1,Tap,No,N/A,Yes,Yes,Legal,No,Health,Medium,No,Jan,2024,643361
+1068,GBV-UG-10728,South West,Mbale,Host Community,None,Female,18,18-35,Married,Physical Assault,Intimate Partner,Field,1,Borehole,No,N/A,No,No,Legal,Yes,Police,Medium,No,Mar,2024,415946
+1069,GBV-UG-10729,Central,Gulu,Nakivale,Primary,Female,46,18-35,Single,Sexual Assault,Intimate Partner,Home,1,Borehole,No,N/A,Yes,Yes,Legal,No,Health,High,Yes,Feb,2024,637940
+1070,GBV-UG-10730,Eastern,Mbale,Nakivale,Secondary,Male,32,18-35,Married,Early Marriage,Stranger,Home,1,Tap,No,N/A,No,Yes,Health,Yes,Police,Low,No,Feb,2024,410077
+1071,GBV-UG-10731,Eastern,Mbale,Host Community,None,Female,10,0-17,Single,Defilement,Family Member,School,1,Tap,No,N/A,No,No,Psychosocial,Yes,Health,High,No,Feb,2024,475659
+1072,GBV-UG-10732,South West,Mbarara,Bidi Bidi,None,Female,26,18-35,Married,Early Marriage,Family Member,Home,1,Tap,No,N/A,Yes,Yes,Health,Yes,Police,Medium,Yes,Feb,2024,362047
+1073,GBV-UG-10733,West Nile,Mbarara,Bidi Bidi,None,Female,43,18-35,Single,Domestic Violence,Intimate Partner,School,1,Tap,No,N/A,No,No,Health,No,Health,Medium,Yes,Jan,2024,583077
+1074,GBV-UG-10734,Western,Mbale,Host Community,Primary,Female,56,18-35,Single,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,High,Yes,Mar,2024,69586
+1075,GBV-UG-10735,Northern,Mbarara,Host Community,Secondary,Female,55,18-35,Married,Sexual Assault,Family Member,School,1,Tap,No,N/A,No,Yes,Health,Yes,Health,Low,Yes,Mar,2024,107628
+1076,GBV-UG-10736,Western,Kampala,Nakivale,Primary,Female,44,18-35,Married,Physical Assault,Family Member,School,1,Tap,No,N/A,No,No,Legal,Yes,Police,High,No,Feb,2024,128396
+1077,GBV-UG-10737,Western,Kampala,Host Community,Secondary,Female,24,18-35,Single,Domestic Violence,Stranger,Water Point,1,Tap,No,N/A,No,No,Legal,No,Health,Medium,Yes,Jan,2024,578809
+1078,GBV-UG-10738,Eastern,Gulu,Bidi Bidi,Primary,Female,60,18-35,Married,Early Marriage,Family Member,Water Point,1,Tap,No,N/A,No,No,Psychosocial,No,Police,Low,Yes,Feb,2024,141421
+1079,GBV-UG-10739,South West,Kampala,Bidi Bidi,Secondary,Female,44,18-35,Single,Sexual Assault,Intimate Partner,Home,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Police,Medium,Yes,Mar,2024,240307
+1080,GBV-UG-10740,Western,Gulu,Nakivale,Secondary,Female,20,18-35,Single,Domestic Violence,Intimate Partner,School,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,Low,Yes,Feb,2024,661253
+1081,GBV-UG-10741,Northern,Mbarara,Bidi Bidi,Secondary,Female,31,18-35,Married,Physical Assault,Family Member,Field,1,Borehole,No,N/A,Yes,No,Legal,No,Health,Low,No,Mar,2024,218678
+1082,GBV-UG-10742,South West,Kampala,Nakivale,Primary,Female,21,18-35,Married,Physical Assault,Intimate Partner,Home,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Health,High,Yes,Feb,2024,225340
+1083,GBV-UG-10743,West Nile,Mbarara,Nakivale,None,Female,22,18-35,Single,Physical Assault,Family Member,Field,1,Tap,No,N/A,Yes,No,Legal,Yes,Police,Medium,No,Mar,2024,791495
+1084,GBV-UG-10744,Eastern,Kampala,Bidi Bidi,None,Female,21,18-35,Married,Early Marriage,Family Member,Home,1,Tap,No,N/A,No,Yes,Health,No,Health,Medium,No,Feb,2024,52985
+1085,GBV-UG-10745,Eastern,Mbale,Host Community,Primary,Female,29,18-35,Married,Early Marriage,Family Member,School,1,Tap,No,N/A,Yes,No,Health,No,Health,Low,No,Mar,2024,130697
+1086,GBV-UG-10746,Northern,Mbale,Host Community,None,Female,48,18-35,Single,Physical Assault,Stranger,Field,1,Tap,No,N/A,No,No,Legal,No,Police,High,No,Feb,2024,96131
+1087,GBV-UG-10747,Northern,Mbarara,Host Community,None,Female,45,18-35,Married,Physical Assault,Stranger,School,1,Tap,No,N/A,Yes,Yes,Legal,No,Police,High,No,Mar,2024,493273
+1088,GBV-UG-10748,Central,Gulu,Host Community,Secondary,Female,52,18-35,Single,Domestic Violence,Intimate Partner,Home,1,Borehole,No,N/A,Yes,Yes,Legal,Yes,Police,High,No,Feb,2024,608985
+1089,GBV-UG-10749,Western,Mbale,Host Community,Primary,Female,26,18-35,Single,Early Marriage,Family Member,Water Point,1,Borehole,No,N/A,No,No,Health,No,Health,High,Yes,Feb,2024,508936
+1090,GBV-UG-10750,Eastern,Mbale,Bidi Bidi,None,Female,17,0-17,Married,Defilement,Stranger,Water Point,1,Borehole,No,N/A,No,Yes,Legal,Yes,Health,Medium,Yes,Mar,2024,488463
+1091,GBV-UG-10751,West Nile,Mbarara,Host Community,Primary,Female,22,18-35,Single,Early Marriage,Stranger,Water Point,1,Tap,No,N/A,No,Yes,Health,Yes,Police,Low,Yes,Feb,2024,250000
+1092,GBV-UG-10752,Central,Mbale,Host Community,Primary,Female,27,18-35,Married,Domestic Violence,Family Member,Water Point,1,Borehole,No,N/A,No,No,Health,Yes,Health,Low,Yes,Jan,2024,158874
+1093,GBV-UG-10753,Western,Mbale,Bidi Bidi,None,Female,54,18-35,Married,Physical Assault,Intimate Partner,Field,1,Tap,No,N/A,No,No,Health,Yes,Health,Low,No,Mar,2024,16812
+1094,GBV-UG-10754,West Nile,Mbarara,Host Community,Secondary,Female,18,18-35,Married,Physical Assault,Intimate Partner,School,1,Borehole,No,N/A,Yes,Yes,Psychosocial,Yes,Health,Medium,No,Jan,2024,516980
+1095,GBV-UG-10755,Central,Mbale,Host Community,Primary,Male,16,0-17,Married,Defilement,Stranger,Home,1,Tap,No,N/A,Yes,No,Health,Yes,Health,High,No,Jan,2024,156737
+1096,GBV-UG-10756,South West,Kampala,Bidi Bidi,Primary,Female,8,0-17,Single,Defilement,Stranger,Home,1,Tap,No,N/A,No,Yes,Health,No,Police,Low,Yes,Mar,2024,598902
+1097,GBV-UG-10757,Western,Gulu,Nakivale,None,Female,43,18-35,Married,Physical Assault,Intimate Partner,Home,1,Tap,No,N/A,No,No,Health,No,Police,High,No,Feb,2024,317074
+1098,GBV-UG-10758,Northern,Mbale,Nakivale,Secondary,Male,20,18-35,Single,Physical Assault,Family Member,Home,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Health,High,No,Jan,2024,293878
+1099,GBV-UG-10759,Central,Gulu,Host Community,Secondary,Female,46,18-35,Single,Early Marriage,Family Member,Field,1,Borehole,No,N/A,Yes,Yes,Health,No,Health,Low,No,Feb,2024,401333
+1100,GBV-UG-10760,Eastern,Mbale,Nakivale,Primary,Female,55,18-35,Single,Early Marriage,Intimate Partner,School,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Health,High,No,Jan,2024,424493
+1101,GBV-UG-10761,Northern,Mbarara,Bidi Bidi,Primary,Female,32,18-35,Single,Physical Assault,Intimate Partner,Field,1,Tap,No,N/A,No,Yes,Legal,No,Health,High,Yes,Jan,2024,672158
+1102,GBV-UG-10762,Central,Kampala,Bidi Bidi,Primary,Female,13,0-17,Married,Defilement,Stranger,Home,1,Borehole,No,N/A,Yes,No,Health,Yes,Health,High,Yes,Jan,2024,763088
+1103,GBV-UG-10763,South West,Mbale,Host Community,Secondary,Female,27,18-35,Married,Sexual Assault,Intimate Partner,Field,1,Tap,No,N/A,Yes,Yes,Psychosocial,No,Health,High,Yes,Feb,2024,571561
+1104,GBV-UG-10764,Northern,Gulu,Host Community,None,Female,34,18-35,Single,Sexual Assault,Family Member,Field,1,Borehole,No,N/A,Yes,No,Legal,Yes,Police,Medium,No,Mar,2024,84215
+1105,GBV-UG-10765,Western,Gulu,Bidi Bidi,None,Male,56,18-35,Married,Physical Assault,Stranger,Home,1,Borehole,No,N/A,No,Yes,Health,No,Police,Medium,No,Feb,2024,79379
+1106,GBV-UG-10766,Western,Mbale,Nakivale,Primary,Female,23,18-35,Single,Physical Assault,Intimate Partner,Home,1,Borehole,No,N/A,No,Yes,Health,Yes,Police,Medium,Yes,Mar,2024,743548
+1107,GBV-UG-10767,Central,Mbale,Host Community,None,Female,40,18-35,Married,Physical Assault,Intimate Partner,School,1,Borehole,No,N/A,No,No,Health,Yes,Police,Medium,No,Feb,2024,279450
+1108,GBV-UG-10768,Northern,Mbale,Nakivale,Primary,Female,39,18-35,Married,Sexual Assault,Stranger,Home,1,Tap,No,N/A,No,No,Legal,Yes,Health,High,Yes,Feb,2024,488275
+1109,GBV-UG-10769,West Nile,Gulu,Nakivale,None,Female,55,18-35,Single,Physical Assault,Stranger,Water Point,1,Tap,No,N/A,Yes,No,Health,Yes,Health,High,No,Jan,2024,31180
+1110,GBV-UG-10770,Eastern,Gulu,Bidi Bidi,None,Female,55,18-35,Single,Physical Assault,Intimate Partner,School,1,Tap,No,N/A,No,No,Legal,No,Police,Medium,No,Feb,2024,294049
+1111,GBV-UG-10771,Eastern,Mbale,Nakivale,None,Female,20,18-35,Single,Early Marriage,Stranger,Water Point,1,Tap,No,N/A,No,No,Psychosocial,Yes,Police,Medium,Yes,Feb,2024,153637
+1112,GBV-UG-10772,Eastern,Mbale,Host Community,Secondary,Female,27,18-35,Married,Early Marriage,Intimate Partner,School,1,Borehole,No,N/A,Yes,No,Legal,No,Health,Low,No,Jan,2024,157374
+1113,GBV-UG-10773,South West,Mbarara,Bidi Bidi,None,Female,11,0-17,Single,Defilement,Stranger,Home,1,Tap,No,N/A,No,No,Psychosocial,Yes,Police,High,No,Jan,2024,163970
+1114,GBV-UG-10774,Northern,Gulu,Nakivale,Primary,Female,47,18-35,Married,Early Marriage,Family Member,Home,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Police,High,Yes,Feb,2024,558973
+1115,GBV-UG-10775,West Nile,Mbale,Host Community,Secondary,Female,18,18-35,Single,Early Marriage,Family Member,Field,1,Borehole,No,N/A,No,No,Health,Yes,Police,High,Yes,Feb,2024,330703
+1116,GBV-UG-10776,Eastern,Kampala,Bidi Bidi,None,Female,52,18-35,Single,Physical Assault,Family Member,Water Point,1,Tap,No,N/A,Yes,No,Legal,Yes,Health,High,No,Feb,2024,647610
+1117,GBV-UG-10777,Northern,Mbarara,Nakivale,None,Female,28,18-35,Married,Physical Assault,Family Member,Field,1,Borehole,No,N/A,No,No,Psychosocial,No,Police,Low,No,Feb,2024,575161
+1118,GBV-UG-10778,Eastern,Mbale,Bidi Bidi,Primary,Male,32,18-35,Single,Physical Assault,Family Member,Field,1,Tap,No,N/A,No,No,Health,Yes,Police,Low,Yes,Mar,2024,81561
+1119,GBV-UG-10779,West Nile,Kampala,Host Community,None,Female,19,18-35,Married,Physical Assault,Intimate Partner,Water Point,1,Borehole,No,N/A,Yes,Yes,Psychosocial,Yes,Health,High,No,Jan,2024,512976
+1120,GBV-UG-10780,Western,Gulu,Host Community,Secondary,Female,12,0-17,Married,Defilement,Intimate Partner,Home,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Health,High,No,Feb,2024,545204
+1121,GBV-UG-10781,West Nile,Kampala,Bidi Bidi,Secondary,Female,43,18-35,Single,Early Marriage,Stranger,Water Point,1,Borehole,No,N/A,Yes,No,Legal,Yes,Health,Medium,Yes,Feb,2024,285439
+1122,GBV-UG-10782,Eastern,Mbarara,Bidi Bidi,None,Female,24,18-35,Single,Domestic Violence,Family Member,Water Point,1,Borehole,No,N/A,No,Yes,Health,No,Health,Medium,Yes,Mar,2024,794348
+1123,GBV-UG-10783,Northern,Mbale,Host Community,Primary,Male,52,18-35,Single,Domestic Violence,Intimate Partner,Home,1,Borehole,No,N/A,No,No,Health,Yes,Police,High,No,Mar,2024,760937
+1124,GBV-UG-10784,Eastern,Kampala,Host Community,Primary,Female,49,18-35,Married,Early Marriage,Family Member,Home,1,Borehole,No,N/A,Yes,No,Legal,No,Health,High,Yes,Mar,2024,494664
+1125,GBV-UG-10785,Western,Kampala,Nakivale,None,Female,28,18-35,Single,Physical Assault,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Health,Medium,Yes,Jan,2024,43961
+1126,GBV-UG-10786,Central,Kampala,Host Community,Primary,Female,13,0-17,Single,Defilement,Family Member,School,1,Tap,No,N/A,No,No,Health,Yes,Police,Medium,No,Jan,2024,333736
+1127,GBV-UG-10787,Central,Kampala,Host Community,Primary,Female,50,18-35,Married,Sexual Assault,Stranger,Field,1,Tap,No,N/A,No,Yes,Health,No,Police,Medium,No,Mar,2024,93062
+1128,GBV-UG-10788,Western,Mbarara,Nakivale,Secondary,Female,46,18-35,Married,Sexual Assault,Stranger,Field,1,Tap,No,N/A,No,No,Health,Yes,Police,Low,No,Mar,2024,163799
+1129,GBV-UG-10789,Northern,Mbale,Host Community,Secondary,Female,36,18-35,Married,Sexual Assault,Intimate Partner,Home,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Police,High,No,Jan,2024,252280
+1130,GBV-UG-10790,West Nile,Mbarara,Nakivale,None,Female,40,18-35,Married,Early Marriage,Family Member,Home,1,Tap,No,N/A,No,No,Health,Yes,Police,Low,Yes,Feb,2024,581242
+1131,GBV-UG-10791,South West,Kampala,Nakivale,Secondary,Male,17,0-17,Married,Defilement,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Legal,Yes,Police,Medium,Yes,Jan,2024,193767
+1132,GBV-UG-10792,South West,Mbale,Host Community,Primary,Female,46,18-35,Married,Domestic Violence,Stranger,School,1,Tap,No,N/A,Yes,No,Legal,No,Health,High,No,Mar,2024,450271
+1133,GBV-UG-10793,West Nile,Kampala,Host Community,Primary,Female,46,18-35,Married,Domestic Violence,Stranger,Water Point,1,Tap,No,N/A,No,Yes,Health,No,Health,High,Yes,Jan,2024,600631
+1134,GBV-UG-10794,Northern,Gulu,Host Community,Secondary,Female,24,18-35,Single,Sexual Assault,Stranger,School,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,Low,No,Mar,2024,492674
+1135,GBV-UG-10795,Central,Mbarara,Host Community,Primary,Female,18,18-35,Single,Sexual Assault,Intimate Partner,School,1,Borehole,No,N/A,No,No,Health,No,Police,Low,Yes,Jan,2024,43786
+1136,GBV-UG-10796,Eastern,Kampala,Nakivale,Primary,Female,26,18-35,Married,Domestic Violence,Stranger,School,1,Tap,No,N/A,No,Yes,Psychosocial,No,Health,Low,No,Mar,2024,62666
+1137,GBV-UG-10797,Central,Mbale,Host Community,Primary,Female,15,0-17,Married,Defilement,Intimate Partner,Home,1,Tap,No,N/A,Yes,Yes,Health,Yes,Health,Medium,Yes,Mar,2024,94693
+1138,GBV-UG-10798,South West,Kampala,Host Community,None,Female,45,18-35,Married,Domestic Violence,Stranger,Water Point,1,Borehole,No,N/A,No,No,Psychosocial,No,Health,High,Yes,Mar,2024,599351
+1139,GBV-UG-10799,Central,Mbale,Bidi Bidi,Primary,Female,15,0-17,Single,Defilement,Stranger,Field,1,Tap,No,N/A,Yes,Yes,Psychosocial,Yes,Police,Low,Yes,Jan,2024,337011
+1140,GBV-UG-10800,Northern,Gulu,Bidi Bidi,None,Female,14,0-17,Single,Defilement,Family Member,School,1,Tap,No,N/A,No,Yes,Legal,No,Health,Medium,Yes,Jan,2024,588799
+1141,GBV-UG-10801,Western,Mbarara,Nakivale,None,Female,13,0-17,Married,Defilement,Stranger,School,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Police,High,No,Jan,2024,795778
+1142,GBV-UG-10802,South West,Mbarara,Nakivale,Primary,Female,35,18-35,Single,Physical Assault,Intimate Partner,Field,1,Tap,No,N/A,No,No,Health,Yes,Police,High,No,Jan,2024,8334
+1143,GBV-UG-10803,Eastern,Kampala,Nakivale,Primary,Female,12,0-17,Single,Defilement,Stranger,Water Point,1,Tap,No,N/A,No,Yes,Health,No,Police,Medium,No,Mar,2024,795031
+1144,GBV-UG-10804,Northern,Mbarara,Host Community,None,Male,19,18-35,Married,Sexual Assault,Stranger,Water Point,1,Borehole,No,N/A,No,No,Health,Yes,Police,High,Yes,Mar,2024,565457
+1145,GBV-UG-10805,Western,Mbale,Host Community,Secondary,Female,26,18-35,Married,Early Marriage,Intimate Partner,Field,1,Tap,No,N/A,Yes,Yes,Health,No,Police,Medium,No,Jan,2024,34155
+1146,GBV-UG-10806,South West,Gulu,Bidi Bidi,Secondary,Female,9,0-17,Single,Defilement,Stranger,Water Point,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Health,High,Yes,Feb,2024,700565
+1147,GBV-UG-10807,Western,Gulu,Host Community,Secondary,Female,34,18-35,Single,Physical Assault,Stranger,Home,1,Tap,No,N/A,No,No,Legal,No,Police,Low,Yes,Jan,2024,796738
+1148,GBV-UG-10808,Central,Mbarara,Bidi Bidi,Primary,Female,16,0-17,Married,Defilement,Family Member,Water Point,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Police,Low,No,Mar,2024,505721
+1149,GBV-UG-10809,South West,Mbale,Bidi Bidi,None,Female,41,18-35,Single,Early Marriage,Intimate Partner,School,1,Borehole,No,N/A,Yes,Yes,Psychosocial,Yes,Police,Low,Yes,Feb,2024,727569
+1150,GBV-UG-10810,Eastern,Mbale,Bidi Bidi,Primary,Female,36,18-35,Single,Domestic Violence,Family Member,Home,1,Tap,No,N/A,No,Yes,Legal,No,Police,Medium,No,Mar,2024,163453
+1151,GBV-UG-10811,Central,Mbarara,Host Community,Primary,Male,39,18-35,Married,Early Marriage,Stranger,School,1,Borehole,No,N/A,No,Yes,Health,Yes,Police,High,No,Mar,2024,125075
+1152,GBV-UG-10812,South West,Kampala,Nakivale,Secondary,Female,55,18-35,Married,Sexual Assault,Stranger,School,1,Borehole,No,N/A,No,No,Health,Yes,Health,Low,No,Jan,2024,464695
+1153,GBV-UG-10813,South West,Gulu,Nakivale,None,Female,57,18-35,Married,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,No,No,Legal,Yes,Health,Low,Yes,Mar,2024,702635
+1154,GBV-UG-10814,South West,Gulu,Host Community,Primary,Female,22,18-35,Married,Domestic Violence,Family Member,Field,1,Borehole,No,N/A,No,No,Health,Yes,Health,High,Yes,Mar,2024,699363
+1155,GBV-UG-10815,Eastern,Mbarara,Nakivale,None,Female,31,18-35,Married,Physical Assault,Intimate Partner,Water Point,1,Tap,No,N/A,No,No,Psychosocial,No,Police,Medium,Yes,Jan,2024,316727
+1156,GBV-UG-10816,Eastern,Gulu,Nakivale,Secondary,Female,11,0-17,Married,Defilement,Intimate Partner,School,1,Borehole,No,N/A,No,Yes,Health,Yes,Police,High,Yes,Mar,2024,769913
+1157,GBV-UG-10817,South West,Mbarara,Bidi Bidi,Secondary,Male,61,18-35,Married,Domestic Violence,Stranger,Field,1,Borehole,No,N/A,Yes,No,Psychosocial,No,Health,Low,Yes,Mar,2024,310299
+1158,GBV-UG-10818,Eastern,Kampala,Bidi Bidi,Secondary,Female,39,18-35,Single,Early Marriage,Family Member,Water Point,1,Borehole,No,N/A,No,Yes,Legal,Yes,Health,Low,Yes,Mar,2024,198118
+1159,GBV-UG-10819,Central,Gulu,Host Community,Primary,Female,35,18-35,Married,Sexual Assault,Intimate Partner,Home,1,Borehole,No,N/A,Yes,No,Legal,Yes,Health,Medium,Yes,Jan,2024,641189
+1160,GBV-UG-10820,Eastern,Mbarara,Nakivale,None,Male,30,18-35,Single,Domestic Violence,Stranger,Field,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Police,Low,Yes,Jan,2024,230166
+1161,GBV-UG-10821,Northern,Kampala,Host Community,Primary,Male,55,18-35,Single,Domestic Violence,Intimate Partner,School,1,Tap,No,N/A,No,No,Psychosocial,Yes,Police,Medium,Yes,Mar,2024,380125
+1162,GBV-UG-10822,South West,Gulu,Bidi Bidi,Secondary,Female,17,0-17,Single,Defilement,Intimate Partner,Home,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Health,High,No,Jan,2024,612982
+1163,GBV-UG-10823,Eastern,Mbale,Nakivale,Secondary,Female,28,18-35,Single,Physical Assault,Stranger,Field,1,Tap,No,N/A,No,Yes,Health,Yes,Health,Medium,No,Jan,2024,790018
+1164,GBV-UG-10824,West Nile,Mbarara,Bidi Bidi,Secondary,Female,61,18-35,Married,Sexual Assault,Family Member,School,1,Tap,No,N/A,No,Yes,Health,No,Police,High,No,Feb,2024,549529
+1165,GBV-UG-10825,South West,Mbarara,Bidi Bidi,Secondary,Female,31,18-35,Single,Domestic Violence,Intimate Partner,Water Point,1,Borehole,No,N/A,No,No,Health,Yes,Police,High,No,Jan,2024,396850
+1166,GBV-UG-10826,Central,Gulu,Nakivale,Secondary,Female,20,18-35,Married,Domestic Violence,Intimate Partner,Water Point,1,Borehole,No,N/A,No,Yes,Legal,No,Health,High,No,Mar,2024,285972
+1167,GBV-UG-10827,Central,Kampala,Nakivale,None,Male,36,18-35,Single,Physical Assault,Stranger,Field,1,Tap,No,N/A,No,Yes,Health,No,Health,Medium,No,Jan,2024,511935
+1168,GBV-UG-10828,South West,Kampala,Host Community,None,Female,36,18-35,Single,Sexual Assault,Stranger,School,1,Tap,No,N/A,Yes,No,Legal,No,Police,High,Yes,Jan,2024,637002
+1169,GBV-UG-10829,South West,Mbale,Bidi Bidi,Secondary,Female,29,18-35,Single,Domestic Violence,Family Member,Field,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Health,Medium,No,Feb,2024,31274
+1170,GBV-UG-10830,Northern,Mbarara,Nakivale,Secondary,Female,61,18-35,Married,Physical Assault,Family Member,Field,1,Borehole,No,N/A,No,No,Health,Yes,Police,Low,Yes,Jan,2024,106076
+1171,GBV-UG-10831,West Nile,Mbale,Host Community,None,Female,24,18-35,Married,Early Marriage,Family Member,School,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Police,High,No,Feb,2024,571208
+1172,GBV-UG-10832,Eastern,Mbarara,Nakivale,Primary,Female,26,18-35,Single,Sexual Assault,Stranger,Home,1,Borehole,No,N/A,No,Yes,Legal,Yes,Police,High,No,Mar,2024,431732
+1173,GBV-UG-10833,Eastern,Mbale,Host Community,None,Female,43,18-35,Married,Physical Assault,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,Yes,Psychosocial,Yes,Health,Medium,Yes,Jan,2024,775096
+1174,GBV-UG-10834,Western,Mbale,Host Community,Secondary,Female,50,18-35,Single,Domestic Violence,Intimate Partner,School,1,Borehole,No,N/A,Yes,No,Health,Yes,Police,High,No,Mar,2024,474277
+1175,GBV-UG-10835,Central,Mbale,Host Community,Secondary,Female,25,18-35,Married,Physical Assault,Intimate Partner,Water Point,1,Borehole,No,N/A,No,Yes,Legal,No,Police,Low,Yes,Feb,2024,665379
+1176,GBV-UG-10836,Northern,Kampala,Nakivale,Secondary,Female,25,18-35,Single,Sexual Assault,Family Member,School,1,Tap,No,N/A,No,No,Legal,No,Health,High,Yes,Feb,2024,32808
+1177,GBV-UG-10837,Central,Mbarara,Host Community,Secondary,Female,40,18-35,Married,Early Marriage,Family Member,Water Point,1,Borehole,No,N/A,Yes,No,Psychosocial,Yes,Health,High,No,Jan,2024,273114
+1178,GBV-UG-10838,Central,Mbale,Bidi Bidi,Secondary,Female,59,18-35,Single,Early Marriage,Stranger,Water Point,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Health,Low,No,Feb,2024,204682
+1179,GBV-UG-10839,Eastern,Mbarara,Host Community,None,Female,61,18-35,Married,Sexual Assault,Stranger,Field,1,Tap,No,N/A,No,No,Psychosocial,No,Police,High,Yes,Jan,2024,65837
+1180,GBV-UG-10840,Western,Gulu,Bidi Bidi,Primary,Female,56,18-35,Married,Sexual Assault,Intimate Partner,School,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Police,High,No,Mar,2024,372181
+1181,GBV-UG-10841,Eastern,Mbale,Nakivale,None,Female,52,18-35,Single,Early Marriage,Family Member,Water Point,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,High,No,Feb,2024,101331
+1182,GBV-UG-10842,Northern,Mbale,Host Community,Primary,Male,27,18-35,Married,Sexual Assault,Family Member,Field,1,Tap,No,N/A,No,No,Legal,Yes,Police,Low,Yes,Jan,2024,548183
+1183,GBV-UG-10843,Western,Gulu,Nakivale,Secondary,Male,50,18-35,Single,Domestic Violence,Stranger,Home,1,Tap,No,N/A,No,Yes,Health,No,Health,Medium,Yes,Feb,2024,582498
+1184,GBV-UG-10844,Western,Mbale,Bidi Bidi,None,Female,39,18-35,Single,Physical Assault,Family Member,Home,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Police,Medium,No,Feb,2024,203091
+1185,GBV-UG-10845,Eastern,Mbale,Bidi Bidi,Primary,Female,48,18-35,Single,Domestic Violence,Stranger,Water Point,1,Tap,No,N/A,No,Yes,Legal,No,Police,High,Yes,Mar,2024,411641
+1186,GBV-UG-10846,Eastern,Kampala,Nakivale,Secondary,Male,53,18-35,Married,Sexual Assault,Family Member,School,1,Borehole,No,N/A,Yes,Yes,Legal,Yes,Police,Low,No,Feb,2024,485959
+1187,GBV-UG-10847,Western,Mbale,Nakivale,Secondary,Female,29,18-35,Married,Early Marriage,Intimate Partner,Home,1,Tap,No,N/A,Yes,Yes,Health,No,Police,Low,No,Feb,2024,467852
+1188,GBV-UG-10848,Central,Kampala,Host Community,Secondary,Female,28,18-35,Single,Early Marriage,Intimate Partner,Field,1,Tap,No,N/A,Yes,No,Psychosocial,No,Health,Medium,Yes,Mar,2024,564964
+1189,GBV-UG-10849,South West,Mbale,Host Community,Primary,Male,54,18-35,Single,Domestic Violence,Stranger,School,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Police,Medium,No,Mar,2024,347840
+1190,GBV-UG-10850,West Nile,Mbarara,Bidi Bidi,None,Male,16,0-17,Married,Defilement,Family Member,School,1,Tap,No,N/A,No,No,Legal,No,Health,Medium,Yes,Jan,2024,432074
+1191,GBV-UG-10851,Northern,Mbarara,Bidi Bidi,Secondary,Male,44,18-35,Married,Early Marriage,Stranger,Water Point,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,High,Yes,Feb,2024,580733
+1192,GBV-UG-10852,South West,Gulu,Nakivale,Primary,Female,61,18-35,Married,Physical Assault,Stranger,Water Point,1,Tap,No,N/A,No,No,Health,No,Police,Medium,Yes,Jan,2024,614228
+1193,GBV-UG-10853,Central,Gulu,Bidi Bidi,Primary,Female,15,0-17,Single,Defilement,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Health,No,Health,Low,No,Feb,2024,76533
+1194,GBV-UG-10854,Central,Gulu,Bidi Bidi,Secondary,Female,14,0-17,Married,Defilement,Stranger,Field,1,Tap,No,N/A,Yes,Yes,Health,Yes,Police,Medium,Yes,Feb,2024,138850
+1195,GBV-UG-10855,Central,Mbarara,Host Community,Primary,Female,10,0-17,Single,Defilement,Stranger,Home,1,Borehole,No,N/A,Yes,No,Legal,Yes,Police,Low,Yes,Feb,2024,376344
+1196,GBV-UG-10856,Central,Gulu,Bidi Bidi,Secondary,Female,44,18-35,Single,Early Marriage,Family Member,Water Point,1,Borehole,No,N/A,Yes,Yes,Health,No,Police,Low,No,Jan,2024,661987
+1197,GBV-UG-10857,Western,Mbale,Bidi Bidi,Secondary,Female,19,18-35,Single,Domestic Violence,Stranger,School,1,Tap,No,N/A,Yes,Yes,Health,Yes,Police,Low,Yes,Jan,2024,649339
+1198,GBV-UG-10858,West Nile,Gulu,Bidi Bidi,Secondary,Female,8,0-17,Married,Defilement,Stranger,Home,1,Tap,No,N/A,No,No,Psychosocial,No,Police,Medium,No,Mar,2024,205571
+1199,GBV-UG-10859,South West,Mbale,Host Community,None,Female,41,18-35,Single,Physical Assault,Intimate Partner,School,1,Borehole,No,N/A,Yes,No,Legal,No,Health,Medium,Yes,Mar,2024,304446
+1200,GBV-UG-10860,Central,Gulu,Bidi Bidi,None,Female,54,18-35,Single,Domestic Violence,Family Member,Field,1,Tap,No,N/A,Yes,Yes,Psychosocial,Yes,Police,Medium,Yes,Feb,2024,663369
+1201,GBV-UG-10861,West Nile,Kampala,Bidi Bidi,Primary,Female,25,18-35,Married,Domestic Violence,Stranger,Home,1,Tap,No,N/A,Yes,No,Health,Yes,Police,Low,Yes,Jan,2024,362274
+1202,GBV-UG-10862,Western,Gulu,Host Community,None,Female,10,0-17,Married,Defilement,Stranger,School,1,Tap,No,N/A,Yes,No,Health,No,Health,High,No,Mar,2024,415356
+1203,GBV-UG-10863,Central,Mbale,Host Community,Secondary,Male,32,18-35,Single,Early Marriage,Intimate Partner,Water Point,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Police,Low,Yes,Jan,2024,753400
+1204,GBV-UG-10864,Eastern,Mbarara,Bidi Bidi,Primary,Female,53,18-35,Single,Physical Assault,Family Member,Water Point,1,Borehole,No,N/A,No,No,Legal,Yes,Police,Medium,No,Mar,2024,78608
+1205,GBV-UG-10865,Northern,Mbarara,Nakivale,Secondary,Female,29,18-35,Single,Physical Assault,Stranger,Field,1,Borehole,No,N/A,Yes,No,Legal,No,Police,Low,No,Feb,2024,736335
+1206,GBV-UG-10866,Eastern,Kampala,Bidi Bidi,Primary,Female,38,18-35,Single,Domestic Violence,Stranger,School,1,Borehole,No,N/A,Yes,Yes,Health,Yes,Police,Medium,No,Jan,2024,36550
+1207,GBV-UG-10867,Central,Mbarara,Bidi Bidi,Secondary,Female,61,18-35,Married,Physical Assault,Stranger,Water Point,1,Borehole,No,N/A,Yes,Yes,Psychosocial,Yes,Police,Medium,Yes,Mar,2024,477306
+1208,GBV-UG-10868,West Nile,Kampala,Nakivale,Primary,Female,9,0-17,Single,Defilement,Intimate Partner,Field,1,Borehole,No,N/A,Yes,Yes,Health,No,Health,High,Yes,Jan,2024,758680
+1209,GBV-UG-10869,Western,Kampala,Host Community,None,Female,20,18-35,Married,Early Marriage,Family Member,School,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Health,High,No,Mar,2024,791468
+1210,GBV-UG-10870,Eastern,Mbarara,Nakivale,None,Female,49,18-35,Married,Sexual Assault,Intimate Partner,Home,1,Tap,No,N/A,No,No,Psychosocial,No,Police,High,Yes,Feb,2024,19973
+1211,GBV-UG-10871,Central,Mbale,Nakivale,Secondary,Female,41,18-35,Married,Early Marriage,Family Member,Water Point,1,Tap,No,N/A,Yes,No,Health,Yes,Health,High,No,Feb,2024,463240
+1212,GBV-UG-10872,South West,Gulu,Nakivale,None,Female,23,18-35,Single,Sexual Assault,Family Member,Home,1,Borehole,No,N/A,No,No,Health,Yes,Police,Medium,No,Feb,2024,371901
+1213,GBV-UG-10873,West Nile,Mbale,Host Community,None,Female,14,0-17,Married,Defilement,Stranger,Home,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Health,High,Yes,Feb,2024,350732
+1214,GBV-UG-10874,Central,Mbarara,Host Community,Primary,Female,13,0-17,Married,Defilement,Family Member,Field,1,Borehole,No,N/A,No,No,Health,No,Police,Low,Yes,Jan,2024,68250
+1215,GBV-UG-10875,Western,Kampala,Bidi Bidi,Primary,Female,45,18-35,Single,Physical Assault,Intimate Partner,Field,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,Low,Yes,Mar,2024,737330
+1216,GBV-UG-10876,Central,Mbarara,Nakivale,Primary,Female,45,18-35,Single,Sexual Assault,Family Member,School,1,Tap,No,N/A,No,No,Psychosocial,Yes,Police,High,No,Feb,2024,575745
+1217,GBV-UG-10877,Eastern,Kampala,Bidi Bidi,Secondary,Female,17,0-17,Married,Defilement,Stranger,Water Point,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Health,High,Yes,Mar,2024,287706
+1218,GBV-UG-10878,Eastern,Gulu,Host Community,None,Female,38,18-35,Married,Sexual Assault,Stranger,Water Point,1,Borehole,No,N/A,No,Yes,Legal,No,Police,High,Yes,Jan,2024,602971
+1219,GBV-UG-10879,Eastern,Mbarara,Host Community,None,Male,56,18-35,Married,Early Marriage,Family Member,Water Point,1,Borehole,No,N/A,Yes,No,Legal,Yes,Health,Low,Yes,Feb,2024,280448
+1220,GBV-UG-10880,South West,Gulu,Bidi Bidi,None,Male,48,18-35,Married,Early Marriage,Family Member,Home,1,Borehole,No,N/A,No,No,Health,Yes,Health,High,No,Jan,2024,185109
+1221,GBV-UG-10881,South West,Mbale,Nakivale,None,Female,55,18-35,Married,Physical Assault,Stranger,Water Point,1,Tap,No,N/A,No,No,Health,Yes,Police,High,No,Mar,2024,412149
+1222,GBV-UG-10882,Northern,Mbale,Bidi Bidi,Secondary,Female,12,0-17,Married,Defilement,Family Member,Water Point,1,Borehole,No,N/A,No,Yes,Legal,Yes,Police,High,No,Jan,2024,605015
+1223,GBV-UG-10883,South West,Mbarara,Bidi Bidi,Primary,Male,42,18-35,Single,Physical Assault,Family Member,Field,1,Borehole,No,N/A,Yes,No,Legal,No,Health,Low,Yes,Feb,2024,565975
+1224,GBV-UG-10884,Eastern,Kampala,Bidi Bidi,Secondary,Male,37,18-35,Single,Physical Assault,Family Member,Home,1,Tap,No,N/A,No,Yes,Health,Yes,Police,Low,Yes,Mar,2024,372116
+1225,GBV-UG-10885,Western,Kampala,Nakivale,Primary,Female,19,18-35,Married,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,Yes,Yes,Legal,Yes,Police,Medium,No,Feb,2024,312227
+1226,GBV-UG-10886,Western,Mbarara,Host Community,Secondary,Female,15,0-17,Single,Defilement,Intimate Partner,Field,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,High,No,Mar,2024,585701
+1227,GBV-UG-10887,South West,Mbarara,Bidi Bidi,Secondary,Male,32,18-35,Married,Early Marriage,Stranger,Field,1,Tap,No,N/A,No,No,Legal,Yes,Health,High,Yes,Mar,2024,207635
+1228,GBV-UG-10888,Eastern,Kampala,Bidi Bidi,Primary,Female,11,0-17,Single,Defilement,Intimate Partner,School,1,Tap,No,N/A,No,No,Psychosocial,No,Police,Low,Yes,Feb,2024,38567
+1229,GBV-UG-10889,Eastern,Kampala,Bidi Bidi,Secondary,Female,15,0-17,Single,Defilement,Stranger,School,1,Borehole,No,N/A,Yes,Yes,Health,No,Health,High,No,Mar,2024,758293
+1230,GBV-UG-10890,Northern,Mbarara,Nakivale,None,Female,32,18-35,Married,Sexual Assault,Stranger,School,1,Tap,No,N/A,No,Yes,Health,No,Health,High,Yes,Jan,2024,280245
+1231,GBV-UG-10891,Eastern,Gulu,Nakivale,None,Male,59,18-35,Married,Domestic Violence,Stranger,Water Point,1,Tap,No,N/A,No,Yes,Legal,No,Health,Medium,Yes,Mar,2024,353185
+1232,GBV-UG-10892,Western,Gulu,Host Community,Primary,Female,38,18-35,Single,Domestic Violence,Stranger,Water Point,1,Borehole,No,N/A,No,No,Health,Yes,Health,Low,Yes,Feb,2024,167177
+1233,GBV-UG-10893,South West,Mbarara,Host Community,None,Female,30,18-35,Single,Early Marriage,Family Member,Home,1,Borehole,No,N/A,No,No,Health,Yes,Health,Medium,Yes,Feb,2024,338748
+1234,GBV-UG-10894,Eastern,Mbarara,Host Community,Primary,Male,42,18-35,Married,Early Marriage,Intimate Partner,Field,1,Tap,No,N/A,No,No,Health,Yes,Police,High,Yes,Mar,2024,611697
+1235,GBV-UG-10895,South West,Mbarara,Host Community,None,Female,45,18-35,Married,Physical Assault,Intimate Partner,School,1,Tap,No,N/A,No,Yes,Psychosocial,No,Police,Low,Yes,Mar,2024,617156
+1236,GBV-UG-10896,West Nile,Gulu,Nakivale,Secondary,Female,52,18-35,Married,Early Marriage,Family Member,Field,1,Borehole,No,N/A,No,Yes,Legal,No,Police,Low,Yes,Feb,2024,786858
+1237,GBV-UG-10897,Eastern,Kampala,Bidi Bidi,None,Female,50,18-35,Married,Early Marriage,Stranger,Home,1,Borehole,No,N/A,Yes,No,Psychosocial,No,Health,High,No,Jan,2024,251594
+1238,GBV-UG-10898,Central,Gulu,Host Community,Primary,Male,46,18-35,Single,Sexual Assault,Stranger,Home,1,Tap,No,N/A,No,Yes,Health,Yes,Health,Medium,Yes,Feb,2024,508257
+1239,GBV-UG-10899,Western,Mbarara,Nakivale,Secondary,Female,29,18-35,Married,Sexual Assault,Stranger,Water Point,1,Borehole,No,N/A,No,Yes,Health,No,Health,Low,Yes,Mar,2024,795637
+1240,GBV-UG-10900,Eastern,Mbale,Host Community,None,Female,54,18-35,Single,Early Marriage,Intimate Partner,School,1,Tap,No,N/A,Yes,No,Legal,No,Health,High,Yes,Mar,2024,139109
+1241,GBV-UG-10901,Central,Kampala,Bidi Bidi,None,Female,36,18-35,Single,Sexual Assault,Intimate Partner,School,1,Tap,No,N/A,No,No,Legal,No,Health,Low,Yes,Jan,2024,729219
+1242,GBV-UG-10902,Western,Gulu,Nakivale,None,Female,8,0-17,Single,Defilement,Family Member,Water Point,1,Borehole,No,N/A,No,No,Legal,No,Health,High,Yes,Mar,2024,144587
+1243,GBV-UG-10903,Northern,Mbarara,Nakivale,Primary,Female,50,18-35,Single,Physical Assault,Family Member,Home,1,Tap,No,N/A,No,Yes,Health,Yes,Health,Medium,No,Feb,2024,84516
+1244,GBV-UG-10904,West Nile,Gulu,Bidi Bidi,Primary,Female,19,18-35,Single,Early Marriage,Family Member,School,1,Borehole,No,N/A,No,No,Legal,Yes,Police,Low,No,Mar,2024,25627
+1245,GBV-UG-10905,South West,Mbale,Host Community,None,Female,38,18-35,Single,Sexual Assault,Family Member,School,1,Tap,No,N/A,No,Yes,Psychosocial,No,Police,Medium,Yes,Feb,2024,272659
+1246,GBV-UG-10906,Western,Mbarara,Host Community,None,Female,58,18-35,Single,Physical Assault,Stranger,School,1,Borehole,No,N/A,Yes,Yes,Psychosocial,Yes,Police,Medium,No,Feb,2024,194438
+1247,GBV-UG-10907,Northern,Mbarara,Bidi Bidi,Primary,Female,33,18-35,Married,Early Marriage,Intimate Partner,School,1,Tap,No,N/A,Yes,No,Psychosocial,No,Health,High,No,Mar,2024,556193
+1248,GBV-UG-10908,Central,Kampala,Nakivale,None,Female,42,18-35,Single,Physical Assault,Stranger,School,1,Borehole,No,N/A,Yes,No,Psychosocial,No,Health,Low,Yes,Feb,2024,81163
+1249,GBV-UG-10909,Eastern,Gulu,Bidi Bidi,Secondary,Female,56,18-35,Single,Physical Assault,Stranger,Home,1,Borehole,No,N/A,Yes,No,Health,Yes,Police,Low,No,Mar,2024,742842
+1250,GBV-UG-10910,Western,Kampala,Host Community,None,Female,27,18-35,Single,Early Marriage,Stranger,Water Point,1,Tap,No,N/A,Yes,No,Legal,Yes,Police,Low,Yes,Jan,2024,779624
+1251,GBV-UG-10911,Western,Kampala,Host Community,Secondary,Female,57,18-35,Single,Early Marriage,Stranger,Field,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,High,Yes,Jan,2024,480574
+1252,GBV-UG-10912,Central,Mbale,Host Community,None,Female,28,18-35,Single,Domestic Violence,Family Member,Home,1,Tap,No,N/A,No,Yes,Health,No,Health,High,Yes,Mar,2024,730404
+1253,GBV-UG-10913,Eastern,Mbale,Host Community,None,Female,20,18-35,Single,Physical Assault,Stranger,Home,1,Borehole,No,N/A,Yes,No,Health,Yes,Health,High,No,Jan,2024,171638
+1254,GBV-UG-10914,Central,Mbarara,Host Community,Secondary,Male,41,18-35,Single,Domestic Violence,Stranger,Home,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Police,Low,Yes,Feb,2024,759800
+1255,GBV-UG-10915,South West,Kampala,Nakivale,Primary,Female,9,0-17,Single,Defilement,Stranger,Field,1,Tap,No,N/A,No,Yes,Legal,Yes,Police,Low,Yes,Jan,2024,460871
+1256,GBV-UG-10916,Western,Gulu,Nakivale,None,Male,48,18-35,Married,Domestic Violence,Stranger,Water Point,1,Tap,No,N/A,Yes,No,Legal,Yes,Police,Low,Yes,Mar,2024,544502
+1257,GBV-UG-10917,West Nile,Mbarara,Host Community,Primary,Male,61,18-35,Married,Sexual Assault,Intimate Partner,Water Point,1,Borehole,No,N/A,No,No,Legal,No,Police,Low,Yes,Jan,2024,616391
+1258,GBV-UG-10918,Central,Mbale,Host Community,Secondary,Female,24,18-35,Single,Physical Assault,Stranger,Home,1,Tap,No,N/A,Yes,Yes,Legal,No,Police,Low,No,Mar,2024,335275
+1259,GBV-UG-10919,Northern,Mbarara,Host Community,None,Female,41,18-35,Single,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Health,No,Police,Medium,No,Feb,2024,751600
+1260,GBV-UG-10920,Eastern,Mbarara,Nakivale,Primary,Female,36,18-35,Married,Physical Assault,Family Member,School,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Police,High,No,Jan,2024,140734
+1261,GBV-UG-10921,South West,Gulu,Nakivale,None,Female,44,18-35,Single,Domestic Violence,Family Member,Home,1,Borehole,No,N/A,No,Yes,Health,Yes,Police,Medium,No,Jan,2024,235430
+1262,GBV-UG-10922,Eastern,Kampala,Nakivale,Secondary,Female,12,0-17,Single,Defilement,Stranger,Water Point,1,Borehole,No,N/A,Yes,No,Health,No,Health,High,Yes,Mar,2024,776443
+1263,GBV-UG-10923,Western,Mbarara,Nakivale,Secondary,Female,35,18-35,Single,Domestic Violence,Intimate Partner,Home,1,Tap,No,N/A,No,No,Psychosocial,Yes,Police,High,Yes,Jan,2024,651332
+1264,GBV-UG-10924,Central,Gulu,Nakivale,None,Female,26,18-35,Single,Early Marriage,Family Member,Water Point,1,Borehole,No,N/A,Yes,No,Health,No,Police,High,No,Jan,2024,316552
+1265,GBV-UG-10925,Central,Mbale,Host Community,None,Female,24,18-35,Single,Domestic Violence,Stranger,Home,1,Tap,No,N/A,No,No,Health,No,Police,Medium,No,Jan,2024,166038
+1266,GBV-UG-10926,South West,Mbarara,Host Community,Secondary,Female,58,18-35,Single,Physical Assault,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Health,Yes,Police,Low,No,Feb,2024,765247
+1267,GBV-UG-10927,Western,Mbale,Bidi Bidi,Secondary,Female,26,18-35,Single,Early Marriage,Intimate Partner,Water Point,1,Tap,No,N/A,No,No,Health,Yes,Police,High,No,Feb,2024,114256
+1268,GBV-UG-10928,Central,Gulu,Bidi Bidi,Secondary,Female,47,18-35,Married,Sexual Assault,Intimate Partner,School,1,Tap,No,N/A,No,Yes,Psychosocial,No,Health,Low,Yes,Mar,2024,569445
+1269,GBV-UG-10929,Northern,Mbale,Host Community,Primary,Female,50,18-35,Single,Sexual Assault,Stranger,Field,1,Tap,No,N/A,Yes,No,Legal,No,Health,Low,Yes,Feb,2024,67544
+1270,GBV-UG-10930,Western,Mbale,Bidi Bidi,Primary,Female,34,18-35,Single,Domestic Violence,Intimate Partner,Home,1,Tap,No,N/A,Yes,No,Legal,Yes,Police,High,Yes,Feb,2024,479826
+1271,GBV-UG-10931,Northern,Mbale,Host Community,Secondary,Male,20,18-35,Married,Physical Assault,Family Member,Field,1,Borehole,No,N/A,No,No,Psychosocial,No,Health,High,No,Jan,2024,163594
+1272,GBV-UG-10932,Eastern,Mbarara,Bidi Bidi,Primary,Female,34,18-35,Married,Early Marriage,Family Member,Field,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Health,Medium,Yes,Feb,2024,283108
+1273,GBV-UG-10933,Central,Mbarara,Bidi Bidi,None,Female,22,18-35,Married,Early Marriage,Family Member,School,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Police,Low,No,Mar,2024,769193
+1274,GBV-UG-10934,Northern,Mbarara,Bidi Bidi,Secondary,Female,33,18-35,Married,Early Marriage,Stranger,School,1,Borehole,No,N/A,No,No,Legal,No,Health,High,No,Feb,2024,525233
+1275,GBV-UG-10935,West Nile,Kampala,Nakivale,None,Female,33,18-35,Single,Early Marriage,Intimate Partner,School,1,Tap,No,N/A,No,Yes,Legal,Yes,Health,Medium,No,Feb,2024,411573
+1276,GBV-UG-10936,Eastern,Kampala,Host Community,Secondary,Female,13,0-17,Single,Defilement,Family Member,Water Point,1,Tap,No,N/A,No,No,Psychosocial,Yes,Health,Low,No,Mar,2024,472211
+1277,GBV-UG-10937,South West,Kampala,Nakivale,None,Female,29,18-35,Married,Domestic Violence,Family Member,Home,1,Tap,No,N/A,Yes,No,Health,Yes,Health,High,Yes,Feb,2024,314243
+1278,GBV-UG-10938,West Nile,Mbale,Nakivale,Primary,Female,54,18-35,Married,Domestic Violence,Stranger,Field,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Health,Low,No,Mar,2024,775737
+1279,GBV-UG-10939,Eastern,Mbale,Host Community,Secondary,Female,11,0-17,Single,Defilement,Intimate Partner,School,1,Tap,No,N/A,Yes,No,Health,No,Police,Medium,No,Jan,2024,331156
+1280,GBV-UG-10940,Eastern,Mbarara,Bidi Bidi,Primary,Female,11,0-17,Single,Defilement,Intimate Partner,Field,1,Tap,No,N/A,No,No,Health,Yes,Police,Medium,No,Mar,2024,444072
+1281,GBV-UG-10941,West Nile,Kampala,Bidi Bidi,Primary,Female,23,18-35,Married,Physical Assault,Stranger,Water Point,1,Borehole,No,N/A,Yes,Yes,Legal,No,Police,Medium,No,Jan,2024,315635
+1282,GBV-UG-10942,Central,Gulu,Bidi Bidi,Primary,Female,8,0-17,Single,Defilement,Intimate Partner,Water Point,1,Borehole,No,N/A,No,Yes,Health,No,Police,Medium,No,Feb,2024,129795
+1283,GBV-UG-10943,Eastern,Kampala,Nakivale,Primary,Male,12,0-17,Single,Defilement,Stranger,School,1,Tap,No,N/A,Yes,Yes,Psychosocial,No,Health,Medium,Yes,Jan,2024,370879
+1284,GBV-UG-10944,Western,Mbarara,Nakivale,Primary,Female,59,18-35,Married,Sexual Assault,Intimate Partner,Field,1,Tap,No,N/A,No,No,Psychosocial,No,Health,Low,No,Jan,2024,407230
+1285,GBV-UG-10945,Central,Mbarara,Bidi Bidi,Primary,Female,55,18-35,Single,Sexual Assault,Family Member,Water Point,1,Borehole,No,N/A,No,No,Health,Yes,Police,High,Yes,Feb,2024,562825
+1286,GBV-UG-10946,Central,Kampala,Host Community,None,Female,11,0-17,Married,Defilement,Family Member,Home,1,Borehole,No,N/A,No,No,Health,No,Police,Medium,Yes,Feb,2024,69587
+1287,GBV-UG-10947,West Nile,Kampala,Host Community,Secondary,Female,49,18-35,Single,Physical Assault,Family Member,School,1,Borehole,No,N/A,No,No,Legal,Yes,Police,Medium,Yes,Mar,2024,250650
+1288,GBV-UG-10948,South West,Gulu,Host Community,None,Female,48,18-35,Single,Domestic Violence,Stranger,Home,1,Tap,No,N/A,No,Yes,Health,Yes,Health,Low,Yes,Mar,2024,611747
+1289,GBV-UG-10949,West Nile,Gulu,Nakivale,Primary,Female,19,18-35,Married,Domestic Violence,Stranger,Home,1,Borehole,No,N/A,No,No,Health,No,Police,Low,No,Feb,2024,614380
+1290,GBV-UG-10950,West Nile,Kampala,Host Community,None,Female,39,18-35,Single,Physical Assault,Intimate Partner,School,1,Tap,No,N/A,Yes,No,Legal,Yes,Police,Medium,Yes,Feb,2024,507449
+1291,GBV-UG-10951,Northern,Kampala,Nakivale,None,Female,10,0-17,Married,Defilement,Stranger,Home,1,Borehole,No,N/A,No,Yes,Health,Yes,Health,High,No,Mar,2024,109376
+1292,GBV-UG-10952,Western,Mbale,Nakivale,Secondary,Female,52,18-35,Married,Physical Assault,Family Member,School,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Health,Low,No,Mar,2024,662098
+1293,GBV-UG-10953,Central,Mbarara,Nakivale,Primary,Female,29,18-35,Single,Sexual Assault,Stranger,Home,1,Borehole,No,N/A,No,Yes,Psychosocial,No,Police,Low,Yes,Mar,2024,146406
+1294,GBV-UG-10954,Western,Mbarara,Bidi Bidi,Secondary,Male,28,18-35,Married,Sexual Assault,Intimate Partner,Field,1,Tap,No,N/A,Yes,No,Psychosocial,Yes,Health,Medium,Yes,Feb,2024,518861
+1295,GBV-UG-10955,Eastern,Mbarara,Bidi Bidi,Primary,Male,57,18-35,Single,Sexual Assault,Stranger,Field,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,Medium,Yes,Jan,2024,490554
+1296,GBV-UG-10956,Eastern,Gulu,Nakivale,Primary,Female,15,0-17,Married,Defilement,Stranger,School,1,Tap,No,N/A,Yes,Yes,Health,Yes,Health,High,Yes,Mar,2024,149391
+1297,GBV-UG-10957,South West,Gulu,Bidi Bidi,Secondary,Male,61,18-35,Married,Domestic Violence,Family Member,Water Point,1,Borehole,No,N/A,Yes,No,Health,Yes,Police,Low,No,Jan,2024,779360
+1298,GBV-UG-10958,South West,Mbale,Host Community,Primary,Female,29,18-35,Married,Domestic Violence,Family Member,Home,1,Tap,No,N/A,No,Yes,Health,Yes,Health,High,Yes,Jan,2024,622374
+1299,GBV-UG-10959,Western,Mbale,Nakivale,Primary,Female,8,0-17,Married,Defilement,Family Member,Home,1,Tap,No,N/A,No,Yes,Psychosocial,No,Health,Low,No,Mar,2024,12806
+1300,GBV-UG-10960,South West,Mbarara,Bidi Bidi,None,Male,46,18-35,Married,Domestic Violence,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Legal,No,Police,Low,No,Mar,2024,265115
+1301,GBV-UG-10961,Western,Gulu,Bidi Bidi,Secondary,Female,11,0-17,Single,Defilement,Stranger,Water Point,1,Borehole,No,N/A,No,No,Psychosocial,No,Police,Low,Yes,Feb,2024,221168
+1302,GBV-UG-10962,South West,Gulu,Nakivale,Primary,Female,43,18-35,Single,Physical Assault,Family Member,Home,1,Borehole,No,N/A,No,No,Health,Yes,Health,High,Yes,Feb,2024,317077
+1303,GBV-UG-10963,Northern,Kampala,Bidi Bidi,Primary,Female,19,18-35,Married,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,No,No,Legal,Yes,Health,Medium,No,Feb,2024,60231
+1304,GBV-UG-10964,Eastern,Kampala,Bidi Bidi,None,Female,8,0-17,Single,Defilement,Stranger,Home,1,Tap,No,N/A,Yes,No,Health,Yes,Health,Low,Yes,Feb,2024,772818
+1305,GBV-UG-10965,Northern,Kampala,Bidi Bidi,Primary,Female,27,18-35,Married,Physical Assault,Family Member,Field,1,Borehole,No,N/A,Yes,No,Legal,No,Police,High,Yes,Mar,2024,736752
+1306,GBV-UG-10966,West Nile,Mbarara,Host Community,Primary,Female,56,18-35,Married,Early Marriage,Stranger,Home,1,Borehole,No,N/A,No,No,Psychosocial,Yes,Police,High,No,Feb,2024,630210
+1307,GBV-UG-10967,Northern,Mbale,Bidi Bidi,Secondary,Female,39,18-35,Married,Sexual Assault,Family Member,School,1,Borehole,No,N/A,No,Yes,Psychosocial,Yes,Health,Medium,Yes,Jan,2024,198418
+1308,GBV-UG-10968,Eastern,Mbarara,Nakivale,Secondary,Female,59,18-35,Single,Physical Assault,Stranger,Field,1,Tap,No,N/A,Yes,Yes,Health,Yes,Police,High,No,Feb,2024,196388
+1309,GBV-UG-10969,Northern,Mbarara,Host Community,None,Female,59,18-35,Single,Early Marriage,Intimate Partner,Water Point,1,Tap,No,N/A,No,Yes,Legal,No,Health,Medium,No,Mar,2024,659565
+1310,GBV-UG-10970,Eastern,Mbarara,Nakivale,None,Female,56,18-35,Single,Physical Assault,Stranger,Water Point,1,Tap,No,N/A,No,No,Psychosocial,Yes,Police,Low,No,Mar,2024,545413
+1311,GBV-UG-10971,Northern,Kampala,Host Community,Primary,Female,40,18-35,Single,Domestic Violence,Intimate Partner,Water Point,1,Borehole,No,N/A,No,No,Psychosocial,No,Police,High,Yes,Feb,2024,634391
+1312,GBV-UG-10972,Central,Mbarara,Nakivale,Primary,Male,32,18-35,Married,Domestic Violence,Stranger,Water Point,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Police,Medium,Yes,Mar,2024,107180
+1313,GBV-UG-10973,West Nile,Kampala,Nakivale,None,Female,24,18-35,Single,Early Marriage,Family Member,School,1,Tap,No,N/A,Yes,No,Legal,No,Police,High,Yes,Mar,2024,635862
+1314,GBV-UG-10974,Northern,Mbarara,Nakivale,None,Female,54,18-35,Single,Early Marriage,Intimate Partner,Water Point,1,Tap,No,N/A,No,No,Legal,Yes,Health,Low,Yes,Mar,2024,788332
+1315,GBV-UG-10975,Eastern,Gulu,Bidi Bidi,Primary,Female,37,18-35,Married,Domestic Violence,Intimate Partner,Field,1,Tap,No,N/A,No,No,Legal,Yes,Police,Low,Yes,Mar,2024,780179
+1316,GBV-UG-10976,Eastern,Kampala,Host Community,Secondary,Female,39,18-35,Married,Domestic Violence,Stranger,Home,1,Tap,No,N/A,No,No,Psychosocial,Yes,Health,Low,Yes,Mar,2024,493846
+1317,GBV-UG-10977,Eastern,Kampala,Bidi Bidi,Primary,Female,29,18-35,Single,Sexual Assault,Intimate Partner,Home,1,Borehole,No,N/A,No,No,Psychosocial,No,Police,Low,Yes,Jan,2024,34599
+1318,GBV-UG-10978,South West,Kampala,Nakivale,Primary,Female,25,18-35,Single,Domestic Violence,Stranger,Field,1,Borehole,No,N/A,No,Yes,Legal,No,Police,Low,No,Mar,2024,383589
+1319,GBV-UG-10979,Western,Mbarara,Host Community,Secondary,Female,46,18-35,Single,Early Marriage,Stranger,School,1,Tap,No,N/A,No,No,Legal,No,Police,Medium,No,Feb,2024,652976
+1320,GBV-UG-10980,South West,Mbarara,Bidi Bidi,None,Female,46,18-35,Married,Physical Assault,Intimate Partner,Field,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Police,High,No,Feb,2024,128292
+1321,GBV-UG-10981,Northern,Mbarara,Bidi Bidi,Secondary,Female,45,18-35,Single,Early Marriage,Stranger,Field,1,Borehole,No,N/A,Yes,Yes,Health,No,Police,Medium,Yes,Feb,2024,116153
+1322,GBV-UG-10982,West Nile,Mbale,Nakivale,Secondary,Female,38,18-35,Married,Early Marriage,Intimate Partner,Field,1,Borehole,No,N/A,No,No,Health,Yes,Police,Low,No,Mar,2024,122040
+1323,GBV-UG-10983,Western,Kampala,Bidi Bidi,None,Male,50,18-35,Married,Early Marriage,Intimate Partner,School,1,Borehole,No,N/A,No,Yes,Legal,No,Health,Medium,No,Mar,2024,571310
+1324,GBV-UG-10984,South West,Gulu,Host Community,Primary,Female,30,18-35,Married,Early Marriage,Stranger,Home,1,Tap,No,N/A,No,No,Psychosocial,Yes,Health,Medium,No,Mar,2024,396052
+1325,GBV-UG-10985,West Nile,Gulu,Host Community,None,Female,22,18-35,Single,Physical Assault,Intimate Partner,School,1,Tap,No,N/A,No,Yes,Psychosocial,Yes,Health,High,Yes,Mar,2024,724600
+1326,GBV-UG-10986,Eastern,Mbale,Host Community,None,Female,16,0-17,Single,Defilement,Family Member,Water Point,1,Tap,No,N/A,No,No,Psychosocial,No,Health,Low,No,Feb,2024,448193
+1327,GBV-UG-10987,Western,Mbale,Nakivale,Primary,Female,32,18-35,Single,Physical Assault,Family Member,Water Point,1,Tap,No,N/A,No,Yes,Health,No,Police,Low,Yes,Feb,2024,279187
+1328,GBV-UG-10988,West Nile,Mbale,Bidi Bidi,Primary,Female,53,18-35,Single,Physical Assault,Family Member,School,1,Tap,No,N/A,No,No,Legal,No,Police,Low,Yes,Feb,2024,114733
+1329,GBV-UG-10989,West Nile,Gulu,Bidi Bidi,Secondary,Female,52,18-35,Single,Sexual Assault,Stranger,School,1,Borehole,No,N/A,No,No,Psychosocial,No,Health,Medium,Yes,Jan,2024,109578
+1330,GBV-UG-10990,West Nile,Gulu,Nakivale,None,Female,26,18-35,Married,Sexual Assault,Family Member,Field,1,Tap,No,N/A,Yes,Yes,Health,No,Police,Low,Yes,Feb,2024,722169
+1331,GBV-UG-10991,Western,Mbale,Host Community,Primary,Female,28,18-35,Single,Sexual Assault,Intimate Partner,Field,1,Borehole,No,N/A,Yes,No,Legal,Yes,Health,High,Yes,Mar,2024,241153
+1332,GBV-UG-10992,South West,Gulu,Host Community,Secondary,Female,23,18-35,Married,Domestic Violence,Family Member,Water Point,1,Tap,No,N/A,Yes,No,Health,No,Police,Medium,No,Feb,2024,735865
+1333,GBV-UG-10993,South West,Gulu,Host Community,Primary,Male,17,0-17,Married,Defilement,Family Member,Water Point,1,Tap,No,N/A,Yes,Yes,Psychosocial,Yes,Police,Medium,Yes,Mar,2024,234280
+1334,GBV-UG-10994,South West,Kampala,Bidi Bidi,Secondary,Female,9,0-17,Married,Defilement,Stranger,School,1,Tap,No,N/A,Yes,Yes,Psychosocial,Yes,Police,High,No,Feb,2024,354601
+1335,GBV-UG-10995,Eastern,Gulu,Nakivale,Primary,Female,21,18-35,Married,Early Marriage,Stranger,School,1,Borehole,No,N/A,Yes,Yes,Psychosocial,No,Health,Low,Yes,Mar,2024,207599
+1336,GBV-UG-10996,Central,Mbarara,Nakivale,Primary,Female,20,18-35,Single,Domestic Violence,Intimate Partner,Field,1,Borehole,No,N/A,No,Yes,Health,Yes,Police,Medium,No,Mar,2024,519921
+1337,GBV-UG-10997,Eastern,Gulu,Nakivale,Primary,Female,10,0-17,Married,Defilement,Family Member,Water Point,1,Borehole,No,N/A,No,No,Legal,No,Health,Low,No,Jan,2024,469481
+1338,GBV-UG-10998,Eastern,Mbarara,Host Community,Secondary,Female,11,0-17,Single,Defilement,Intimate Partner,School,1,Tap,No,N/A,Yes,Yes,Legal,Yes,Police,Medium,No,Feb,2024,710266
+1339,GBV-UG-10999,Western,Kampala,Bidi Bidi,Primary,Female,29,18-35,Married,Domestic Violence,Stranger,School,1,Borehole,No,N/A,No,No,Health,No,Health,Medium,No,Jan,2024,80496

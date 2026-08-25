@@ -1,0 +1,1001 @@
+ID,Case_ID,Region,Settlement,District,Country_Origin,Arrival_Year,Years_In_Uganda,Gender_HH_Head,Age_HH_Head,Education,Household_Size,Children_U18,Vulnerability,Water_Source,Irrigation,Crop,Yield,Assistance_Type,Protection_Concern,Income_UGX_Month
+340,UNHCR-UG-10000,Mid West,Kiryandongo,Arua,Eritrea,2018,8,Female,35,University,10,1,Woman at Risk,Tap,No,Beans,1.46,Food,Food Insecurity,232857
+341,UNHCR-UG-10001,Central,Kampala Urban,Arua,Ethiopia,2020,10,Female,22,Primary,8,3,Elderly,Borehole,Yes,Cassava,1.91,Food,GBV Risk,285872
+342,UNHCR-UG-10002,Central,Kampala Urban,Arua,DRC,2019,6,Female,51,Primary,7,3,Elderly,Tap,No,Maize,2.7,Cash,None,119627
+343,UNHCR-UG-10003,Mid West,Kiryandongo,Arua,Somalia,2022,8,Female,33,University,5,3,Elderly,Borehole,No,None,2.42,NFI,Food Insecurity,181377
+344,UNHCR-UG-10004,Central,Kampala Urban,Arua,Somalia,2021,3,Male,68,None,9,1,Single Parent,River,Yes,Beans,1.06,Cash,GBV Risk,488752
+345,UNHCR-UG-10005,West Nile,Lobule,Arua,DRC,2022,7,Male,29,Primary,10,1,Elderly,Borehole,No,Beans,0.38,NFI,Food Insecurity,60281
+346,UNHCR-UG-10006,Mid West,Kiryandongo,Arua,Rwanda,2022,4,Male,64,Secondary,4,4,Disability,Tap,Yes,Maize,1.15,Cash,Child Protection,135214
+347,UNHCR-UG-10007,Central,Kampala Urban,Arua,Burundi,2024,1,Male,67,None,4,1,Disability,Borehole,No,None,1.44,NFI,None,205123
+348,UNHCR-UG-10008,West Nile,Lobule,Arua,Sudan,2022,2,Female,31,None,5,4,Woman at Risk,Borehole,Yes,Maize,2.69,NFI,Food Insecurity,383034
+349,UNHCR-UG-10009,South West,Nakivale,Arua,Ethiopia,2022,9,Female,24,None,8,2,Single Parent,Borehole,Yes,Cassava,2.88,WASH,GBV Risk,296364
+350,UNHCR-UG-10010,Central,Kampala Urban,Arua,DRC,2023,1,Female,74,University,2,3,Unaccompanied Child,Borehole,No,Beans,0.11,NFI,Child Protection,292654
+351,UNHCR-UG-10011,South West,Kyaka II,Arua,Burundi,2018,4,Male,27,Primary,4,3,Elderly,Borehole,No,Vegetables,1.44,Cash,Child Protection,250298
+352,UNHCR-UG-10012,Central,Kampala Urban,Arua,Sudan,2025,1,Female,77,University,4,3,Woman at Risk,Borehole,Yes,None,0.19,Food,None,27196
+353,UNHCR-UG-10013,South West,Kyangwali,Arua,Eritrea,2017,5,Female,27,University,3,2,Single Parent,Borehole,Yes,Vegetables,1.07,Cash,GBV Risk,430935
+354,UNHCR-UG-10014,South West,Kyaka II,Arua,DRC,2018,2,Male,50,Primary,4,3,Disability,Tap,Yes,Vegetables,3.1,NFI,None,186790
+355,UNHCR-UG-10015,South West,Kyaka II,Arua,South Sudan,2025,6,Female,41,None,6,1,Elderly,Borehole,No,None,2.89,Cash,Food Insecurity,391551
+356,UNHCR-UG-10016,West Nile,Bidi Bidi,Yumbe,Eritrea,2023,3,Female,32,University,6,0,Woman at Risk,River,No,Beans,2.85,NFI,Child Protection,339540
+357,UNHCR-UG-10017,Central,Kampala Urban,Arua,Sudan,2021,6,Male,50,University,2,2,Elderly,River,Yes,Cassava,2.11,NFI,Child Protection,326401
+358,UNHCR-UG-10018,West Nile,Palorinya,Arua,DRC,2022,5,Male,28,University,1,3,Unaccompanied Child,River,Yes,Vegetables,2.48,Cash,Food Insecurity,106789
+359,UNHCR-UG-10019,South West,Kyaka II,Arua,DRC,2019,1,Male,71,Primary,7,2,None,Tap,Yes,Maize,2.33,Food,Child Protection,445452
+360,UNHCR-UG-10020,Mid West,Kiryandongo,Arua,Burundi,2016,4,Female,25,Secondary,6,1,Woman at Risk,Borehole,No,None,0.42,Cash,Child Protection,222611
+361,UNHCR-UG-10021,Mid West,Kiryandongo,Arua,Ethiopia,2020,3,Male,67,Secondary,7,0,Disability,Tap,Yes,Maize,0.5,NFI,GBV Risk,68190
+362,UNHCR-UG-10022,South West,Kyaka II,Arua,Rwanda,2019,8,Female,63,None,3,3,Elderly,River,No,Maize,0.94,Cash,None,257438
+363,UNHCR-UG-10023,Central,Kampala Urban,Arua,Sudan,2025,3,Male,66,Secondary,6,3,Single Parent,River,No,Maize,1.37,WASH,GBV Risk,426000
+364,UNHCR-UG-10024,Mid West,Kiryandongo,Arua,DRC,2023,5,Male,66,University,5,0,Single Parent,Tap,No,Vegetables,0.67,NFI,None,482560
+365,UNHCR-UG-10025,South West,Oruchinga,Arua,DRC,2021,2,Female,38,Secondary,9,3,Unaccompanied Child,Tap,No,Cassava,3.06,Food,GBV Risk,58601
+366,UNHCR-UG-10026,West Nile,Rhino Camp,Arua,Eritrea,2019,5,Male,23,Secondary,3,2,Disability,Tap,Yes,Beans,0.6,NFI,Child Protection,409331
+367,UNHCR-UG-10027,South West,Kyaka II,Arua,Eritrea,2024,10,Female,53,University,10,3,Elderly,River,Yes,Beans,2.53,Cash,Child Protection,447124
+368,UNHCR-UG-10028,South West,Oruchinga,Arua,Somalia,2023,6,Male,57,Secondary,9,2,Woman at Risk,River,Yes,None,1.8,WASH,Food Insecurity,232256
+369,UNHCR-UG-10029,South West,Nakivale,Arua,Ethiopia,2024,10,Female,71,University,3,4,Disability,Tap,Yes,Beans,2.07,Cash,Child Protection,233236
+370,UNHCR-UG-10030,Central,Kampala Urban,Arua,Somalia,2020,2,Male,70,Primary,7,2,Single Parent,Tap,No,Maize,1.52,WASH,Child Protection,290731
+371,UNHCR-UG-10031,Central,Kampala Urban,Arua,Eritrea,2022,7,Female,67,Primary,8,2,Single Parent,River,No,Maize,2.07,Cash,Food Insecurity,492778
+372,UNHCR-UG-10032,West Nile,Palorinya,Arua,Rwanda,2023,3,Male,77,Primary,5,1,None,Tap,No,Beans,2.46,Cash,None,106262
+373,UNHCR-UG-10033,West Nile,Imvepi,Arua,Rwanda,2022,6,Female,55,University,5,3,Disability,River,Yes,Cassava,2.73,Food,Food Insecurity,345666
+374,UNHCR-UG-10034,Mid West,Kiryandongo,Arua,Rwanda,2024,10,Male,65,Secondary,9,2,Woman at Risk,Tap,No,Maize,1.36,Food,GBV Risk,329760
+375,UNHCR-UG-10035,Central,Kampala Urban,Arua,South Sudan,2016,5,Male,24,University,7,0,Woman at Risk,Borehole,No,Maize,1.74,Food,Food Insecurity,357038
+376,UNHCR-UG-10036,South West,Oruchinga,Arua,Eritrea,2023,8,Male,48,Primary,6,4,Elderly,Tap,No,Beans,2.18,Cash,GBV Risk,117572
+377,UNHCR-UG-10037,Mid West,Kiryandongo,Arua,Rwanda,2025,4,Male,25,University,10,2,Unaccompanied Child,Tap,Yes,Maize,3.05,WASH,None,168855
+378,UNHCR-UG-10038,Mid West,Kiryandongo,Arua,Ethiopia,2021,3,Male,51,Secondary,7,4,Unaccompanied Child,River,No,Cassava,0.16,NFI,None,466053
+379,UNHCR-UG-10039,Central,Kampala Urban,Arua,Eritrea,2019,2,Male,65,None,2,2,Disability,Tap,Yes,Maize,2.67,WASH,Child Protection,161736
+380,UNHCR-UG-10040,Mid West,Kiryandongo,Arua,Ethiopia,2025,3,Male,25,None,6,1,Woman at Risk,River,No,None,2.33,Cash,GBV Risk,113597
+381,UNHCR-UG-10041,Mid West,Kiryandongo,Arua,Somalia,2022,5,Female,28,Secondary,1,3,Disability,River,Yes,Cassava,2.73,NFI,Food Insecurity,140133
+382,UNHCR-UG-10042,South West,Nakivale,Arua,Eritrea,2016,1,Male,64,University,8,1,None,River,No,Maize,1.37,NFI,GBV Risk,449038
+383,UNHCR-UG-10043,South West,Nakivale,Arua,DRC,2016,3,Male,33,Primary,9,1,None,River,Yes,Maize,2.86,Cash,None,154862
+384,UNHCR-UG-10044,West Nile,Rhino Camp,Arua,DRC,2016,1,Male,49,Primary,2,3,Disability,Tap,No,Beans,0.82,WASH,Food Insecurity,462221
+385,UNHCR-UG-10045,Central,Kampala Urban,Arua,Ethiopia,2017,1,Male,41,Secondary,4,0,Elderly,River,No,Vegetables,1.13,Food,Child Protection,306939
+386,UNHCR-UG-10046,Central,Kampala Urban,Arua,Ethiopia,2019,3,Male,65,None,5,3,Elderly,Tap,No,Beans,2.9,NFI,Food Insecurity,22764
+387,UNHCR-UG-10047,West Nile,Imvepi,Arua,Rwanda,2023,9,Female,51,Primary,3,3,Disability,Borehole,No,Vegetables,2.35,NFI,Food Insecurity,228391
+388,UNHCR-UG-10048,South West,Kyaka II,Arua,South Sudan,2021,10,Male,23,Secondary,6,1,Disability,Borehole,No,Maize,2.81,WASH,None,6570
+389,UNHCR-UG-10049,South West,Kyangwali,Arua,Eritrea,2017,8,Male,18,Secondary,8,3,Unaccompanied Child,Tap,No,Maize,1.92,Cash,None,380599
+390,UNHCR-UG-10050,Mid West,Kiryandongo,Arua,Ethiopia,2016,10,Male,52,None,10,2,Disability,Tap,Yes,Vegetables,2.76,Food,GBV Risk,318518
+391,UNHCR-UG-10051,West Nile,Rhino Camp,Arua,Eritrea,2020,2,Female,35,University,3,0,Elderly,Borehole,Yes,Vegetables,2.24,WASH,Child Protection,137142
+392,UNHCR-UG-10052,Central,Kampala Urban,Arua,DRC,2025,6,Male,25,None,1,3,Disability,Borehole,Yes,Beans,2.36,WASH,Child Protection,191200
+393,UNHCR-UG-10053,West Nile,Lobule,Arua,Rwanda,2020,3,Female,31,University,4,1,Single Parent,Borehole,Yes,Beans,3.36,Food,Child Protection,180794
+394,UNHCR-UG-10054,West Nile,Imvepi,Arua,Somalia,2019,1,Male,61,None,7,0,Single Parent,River,No,Beans,0.66,Food,Food Insecurity,46787
+395,UNHCR-UG-10055,South West,Rwamwanja,Arua,Somalia,2025,4,Male,77,None,10,4,Single Parent,Tap,Yes,Maize,1.98,NFI,Child Protection,90989
+396,UNHCR-UG-10056,Mid West,Kiryandongo,Arua,South Sudan,2023,9,Male,18,Secondary,3,2,None,Tap,Yes,Vegetables,1.3,WASH,None,226031
+397,UNHCR-UG-10057,West Nile,Imvepi,Arua,Ethiopia,2022,6,Female,42,None,7,2,Single Parent,Tap,No,None,1.64,Food,None,236581
+398,UNHCR-UG-10058,Central,Kampala Urban,Arua,South Sudan,2016,2,Male,24,University,5,2,Single Parent,River,Yes,None,2.29,WASH,None,230820
+399,UNHCR-UG-10059,South West,Kyaka II,Arua,South Sudan,2018,3,Female,66,University,7,4,Unaccompanied Child,Tap,Yes,Maize,0.46,Food,None,413546
+400,UNHCR-UG-10060,South West,Rwamwanja,Arua,Somalia,2020,10,Female,74,University,3,3,Elderly,River,Yes,Maize,1.54,Food,None,280752
+401,UNHCR-UG-10061,Mid West,Kiryandongo,Arua,Sudan,2016,7,Male,74,University,6,4,Disability,Tap,No,None,2.63,Food,Child Protection,459457
+402,UNHCR-UG-10062,West Nile,Rhino Camp,Arua,South Sudan,2017,9,Male,52,University,9,1,Woman at Risk,Tap,Yes,Cassava,0.32,WASH,Food Insecurity,444755
+403,UNHCR-UG-10063,Central,Kampala Urban,Arua,Ethiopia,2017,4,Female,25,None,8,0,Elderly,Tap,No,None,2.21,Food,Food Insecurity,348320
+404,UNHCR-UG-10064,Central,Kampala Urban,Arua,Ethiopia,2024,3,Female,32,None,3,3,Single Parent,Borehole,Yes,Maize,1.24,Food,Child Protection,460196
+405,UNHCR-UG-10065,West Nile,Bidi Bidi,Yumbe,South Sudan,2021,1,Female,27,None,7,2,None,Tap,Yes,Vegetables,0.68,NFI,Food Insecurity,122225
+406,UNHCR-UG-10066,West Nile,Lobule,Arua,Burundi,2023,2,Female,71,University,10,1,Single Parent,Tap,Yes,Vegetables,2.94,Food,None,125982
+407,UNHCR-UG-10067,West Nile,Bidi Bidi,Yumbe,Somalia,2022,2,Female,76,None,1,1,None,Borehole,Yes,Cassava,2.22,Food,None,366482
+408,UNHCR-UG-10068,Central,Kampala Urban,Arua,Burundi,2020,3,Female,71,None,2,3,Disability,Borehole,No,Vegetables,3.28,Cash,GBV Risk,401410
+409,UNHCR-UG-10069,West Nile,Imvepi,Arua,South Sudan,2025,5,Male,62,Primary,2,2,Disability,Tap,No,Vegetables,3.23,Cash,Child Protection,426946
+410,UNHCR-UG-10070,Mid West,Kiryandongo,Arua,Rwanda,2023,1,Male,39,Secondary,2,3,Disability,Tap,Yes,Maize,1.62,Cash,GBV Risk,419141
+411,UNHCR-UG-10071,Mid West,Kiryandongo,Arua,Rwanda,2025,7,Female,28,University,5,1,None,River,Yes,Beans,1.97,WASH,Food Insecurity,19853
+412,UNHCR-UG-10072,West Nile,Rhino Camp,Arua,Burundi,2024,9,Female,76,None,3,4,None,Borehole,No,Vegetables,2.05,Food,Food Insecurity,439363
+413,UNHCR-UG-10073,Central,Kampala Urban,Arua,Ethiopia,2018,5,Female,34,Secondary,3,2,Woman at Risk,Tap,No,Cassava,0.38,Cash,Food Insecurity,235256
+414,UNHCR-UG-10074,West Nile,Rhino Camp,Arua,Eritrea,2025,6,Male,22,Primary,4,3,Woman at Risk,Borehole,No,Maize,2.02,NFI,Child Protection,255154
+415,UNHCR-UG-10075,South West,Nakivale,Arua,South Sudan,2021,10,Male,67,Secondary,2,4,Woman at Risk,Borehole,No,Vegetables,1.44,Food,None,147274
+416,UNHCR-UG-10076,Mid West,Kiryandongo,Arua,Eritrea,2024,1,Female,38,Secondary,4,3,Unaccompanied Child,River,Yes,Maize,2.83,NFI,Food Insecurity,57083
+417,UNHCR-UG-10077,Central,Kampala Urban,Arua,Somalia,2018,8,Female,65,University,8,4,None,Borehole,No,None,3.13,Food,None,13933
+418,UNHCR-UG-10078,Central,Kampala Urban,Arua,Eritrea,2017,8,Male,53,Primary,3,4,Elderly,Borehole,No,Vegetables,2.54,WASH,GBV Risk,226265
+419,UNHCR-UG-10079,South West,Kyaka II,Arua,Rwanda,2019,1,Female,42,Secondary,8,3,Woman at Risk,Tap,No,None,0.76,Cash,Child Protection,173183
+420,UNHCR-UG-10080,West Nile,Rhino Camp,Arua,Sudan,2021,7,Male,39,Primary,5,3,Elderly,River,No,Vegetables,1.41,NFI,Food Insecurity,453274
+421,UNHCR-UG-10081,West Nile,Lobule,Arua,Ethiopia,2021,4,Female,32,Primary,6,3,Single Parent,River,No,Vegetables,2.66,Cash,Child Protection,133092
+422,UNHCR-UG-10082,Central,Kampala Urban,Arua,DRC,2017,3,Female,42,Primary,1,1,None,River,Yes,Maize,3.45,Cash,GBV Risk,125049
+423,UNHCR-UG-10083,Mid West,Kiryandongo,Arua,Ethiopia,2021,2,Male,42,None,5,0,Elderly,Tap,No,None,3.18,Food,Child Protection,343347
+424,UNHCR-UG-10084,Central,Kampala Urban,Arua,Sudan,2019,6,Female,77,Secondary,9,1,Single Parent,Tap,No,None,2.08,WASH,Child Protection,216748
+425,UNHCR-UG-10085,West Nile,Palorinya,Arua,Ethiopia,2016,10,Male,50,None,2,4,Woman at Risk,Tap,No,Cassava,0.14,WASH,None,140811
+426,UNHCR-UG-10086,Mid West,Kiryandongo,Arua,South Sudan,2019,6,Female,22,University,6,2,Single Parent,River,Yes,None,0.92,NFI,None,74879
+427,UNHCR-UG-10087,Central,Kampala Urban,Arua,Rwanda,2019,4,Male,62,University,8,1,Elderly,River,No,Beans,1.57,Food,None,377488
+428,UNHCR-UG-10088,Central,Kampala Urban,Arua,DRC,2019,7,Male,56,None,9,0,Woman at Risk,Tap,No,Vegetables,2.9,Cash,Food Insecurity,187244
+429,UNHCR-UG-10089,Central,Kampala Urban,Arua,Sudan,2017,1,Male,56,None,4,3,Unaccompanied Child,Tap,Yes,Maize,0.22,Food,Food Insecurity,195489
+430,UNHCR-UG-10090,West Nile,Lobule,Arua,Ethiopia,2017,1,Male,76,None,7,1,Elderly,Tap,No,Cassava,1.04,Food,Food Insecurity,151515
+431,UNHCR-UG-10091,Mid West,Kiryandongo,Arua,Somalia,2017,6,Female,31,None,2,3,Single Parent,Tap,Yes,Vegetables,2.81,Food,Food Insecurity,431244
+432,UNHCR-UG-10092,South West,Kyaka II,Arua,Sudan,2025,9,Female,22,University,10,3,Unaccompanied Child,River,Yes,Cassava,1.04,WASH,Food Insecurity,126321
+433,UNHCR-UG-10093,South West,Rwamwanja,Arua,Eritrea,2016,4,Female,53,Primary,8,3,Woman at Risk,River,Yes,Beans,0.96,NFI,None,445308
+434,UNHCR-UG-10094,Central,Kampala Urban,Arua,Burundi,2024,6,Female,75,Primary,3,3,Disability,Tap,No,Vegetables,1.08,Food,None,407553
+435,UNHCR-UG-10095,West Nile,Palorinya,Arua,Somalia,2020,6,Male,67,Primary,5,2,Unaccompanied Child,River,No,Beans,2.06,NFI,None,407753
+436,UNHCR-UG-10096,Mid West,Kiryandongo,Arua,Ethiopia,2025,2,Female,33,University,4,4,Woman at Risk,River,Yes,Beans,3.32,Cash,Child Protection,449149
+437,UNHCR-UG-10097,Mid West,Kiryandongo,Arua,Somalia,2016,1,Female,31,Secondary,4,1,Unaccompanied Child,River,No,Maize,0.29,Cash,Food Insecurity,151523
+438,UNHCR-UG-10098,South West,Oruchinga,Arua,Eritrea,2017,2,Male,62,University,7,2,Single Parent,River,No,Beans,2.67,Food,Food Insecurity,348457
+439,UNHCR-UG-10099,South West,Oruchinga,Arua,Somalia,2016,10,Male,21,Secondary,5,1,Single Parent,Tap,No,Cassava,0.71,NFI,Child Protection,468838
+440,UNHCR-UG-10100,South West,Oruchinga,Arua,DRC,2020,4,Male,48,University,1,2,Elderly,River,No,Beans,0.14,Cash,Child Protection,262446
+441,UNHCR-UG-10101,South West,Nakivale,Arua,Rwanda,2025,10,Female,35,University,6,4,Single Parent,River,Yes,None,0.17,Food,Food Insecurity,140050
+442,UNHCR-UG-10102,West Nile,Imvepi,Arua,Rwanda,2016,4,Female,48,None,9,0,Unaccompanied Child,Tap,Yes,Cassava,1.15,Food,Child Protection,255419
+443,UNHCR-UG-10103,South West,Kyaka II,Arua,Ethiopia,2019,4,Female,57,Secondary,7,0,Single Parent,River,Yes,None,0.81,Food,None,485674
+444,UNHCR-UG-10104,Central,Kampala Urban,Arua,Ethiopia,2024,4,Male,41,None,5,3,Disability,Tap,Yes,None,0.44,Cash,None,169715
+445,UNHCR-UG-10105,Mid West,Kiryandongo,Arua,Somalia,2018,6,Female,57,University,6,4,Woman at Risk,Borehole,No,Vegetables,3.46,Food,GBV Risk,365925
+446,UNHCR-UG-10106,Central,Kampala Urban,Arua,Eritrea,2021,7,Male,38,Secondary,10,2,None,Tap,Yes,Cassava,0.95,Food,GBV Risk,162739
+447,UNHCR-UG-10107,West Nile,Palorinya,Arua,Eritrea,2020,2,Male,68,None,3,1,Elderly,River,Yes,Maize,3.35,WASH,Child Protection,147888
+448,UNHCR-UG-10108,West Nile,Lobule,Arua,Somalia,2022,2,Female,73,Primary,7,2,Unaccompanied Child,River,Yes,Maize,1.77,NFI,GBV Risk,104822
+449,UNHCR-UG-10109,South West,Kyangwali,Arua,Somalia,2021,4,Female,54,Secondary,2,3,Disability,Borehole,Yes,Cassava,2.4,Cash,Food Insecurity,20500
+450,UNHCR-UG-10110,South West,Kyangwali,Arua,DRC,2016,3,Female,72,Secondary,4,1,Elderly,Tap,Yes,Beans,0.74,NFI,Child Protection,239518
+451,UNHCR-UG-10111,Mid West,Kiryandongo,Arua,Burundi,2025,2,Female,40,Primary,2,0,None,Borehole,No,Cassava,0.69,NFI,Child Protection,301367
+452,UNHCR-UG-10112,Mid West,Kiryandongo,Arua,Burundi,2021,5,Female,47,Secondary,3,0,Disability,Borehole,Yes,Cassava,0.18,NFI,Child Protection,242864
+453,UNHCR-UG-10113,Mid West,Kiryandongo,Arua,Somalia,2016,6,Female,41,Secondary,8,0,Disability,River,No,None,1.08,Food,None,435855
+454,UNHCR-UG-10114,Mid West,Kiryandongo,Arua,Ethiopia,2021,4,Female,71,Primary,9,2,None,River,No,Cassava,3.28,Food,GBV Risk,452415
+455,UNHCR-UG-10115,South West,Kyangwali,Arua,Eritrea,2018,6,Female,60,University,7,2,Disability,Borehole,Yes,Maize,0.85,WASH,Food Insecurity,463976
+456,UNHCR-UG-10116,Central,Kampala Urban,Arua,South Sudan,2019,1,Female,44,University,3,0,Single Parent,Borehole,Yes,None,1.29,WASH,GBV Risk,30346
+457,UNHCR-UG-10117,South West,Rwamwanja,Arua,Sudan,2018,2,Female,26,Secondary,2,0,Woman at Risk,Borehole,No,Vegetables,0.48,NFI,Food Insecurity,56664
+458,UNHCR-UG-10118,Central,Kampala Urban,Arua,South Sudan,2018,4,Male,53,None,1,0,Woman at Risk,River,No,Cassava,2.6,Food,GBV Risk,280857
+459,UNHCR-UG-10119,South West,Kyaka II,Arua,Somalia,2019,9,Male,37,University,4,1,None,Borehole,Yes,Beans,2.92,Food,GBV Risk,418862
+460,UNHCR-UG-10120,Central,Kampala Urban,Arua,Burundi,2021,5,Male,28,None,5,4,Disability,Tap,Yes,Vegetables,0.89,NFI,Food Insecurity,190206
+461,UNHCR-UG-10121,South West,Rwamwanja,Arua,Ethiopia,2020,8,Male,30,University,2,1,Single Parent,Tap,No,Maize,1.22,Food,Food Insecurity,450373
+462,UNHCR-UG-10122,West Nile,Palorinya,Arua,DRC,2025,3,Female,54,Primary,9,1,Elderly,Tap,No,Beans,3.4,Cash,Child Protection,299378
+463,UNHCR-UG-10123,Central,Kampala Urban,Arua,DRC,2021,5,Female,47,University,6,0,Disability,River,Yes,Maize,0.37,Food,GBV Risk,312998
+464,UNHCR-UG-10124,South West,Rwamwanja,Arua,Burundi,2023,7,Female,39,Secondary,9,0,Disability,River,Yes,None,1.65,Cash,Child Protection,395482
+465,UNHCR-UG-10125,Mid West,Kiryandongo,Arua,Burundi,2019,3,Male,74,Primary,2,0,Disability,Borehole,No,Vegetables,2.3,Food,GBV Risk,401942
+466,UNHCR-UG-10126,Mid West,Kiryandongo,Arua,South Sudan,2024,1,Female,47,University,6,1,None,Borehole,No,Beans,2.84,WASH,None,216729
+467,UNHCR-UG-10127,Central,Kampala Urban,Arua,Somalia,2019,8,Male,62,University,3,2,Unaccompanied Child,River,Yes,Maize,2.73,Food,GBV Risk,185283
+468,UNHCR-UG-10128,Mid West,Kiryandongo,Arua,DRC,2018,5,Male,62,Secondary,5,0,Single Parent,Tap,Yes,Beans,0.89,Food,None,101580
+469,UNHCR-UG-10129,Central,Kampala Urban,Arua,Ethiopia,2017,4,Female,25,Secondary,5,3,Disability,Tap,No,Maize,0.21,WASH,Child Protection,88241
+470,UNHCR-UG-10130,Mid West,Kiryandongo,Arua,Eritrea,2016,4,Male,74,Secondary,9,3,Woman at Risk,Tap,Yes,Beans,0.37,Food,Child Protection,386888
+471,UNHCR-UG-10131,West Nile,Lobule,Arua,DRC,2025,3,Female,40,Primary,9,2,Unaccompanied Child,Borehole,No,Cassava,1.05,Food,GBV Risk,26563
+472,UNHCR-UG-10132,West Nile,Palorinya,Arua,Burundi,2022,3,Male,22,None,1,0,None,Borehole,No,Beans,0.6,WASH,Child Protection,477583
+473,UNHCR-UG-10133,Mid West,Kiryandongo,Arua,Eritrea,2022,9,Female,51,Secondary,9,3,Single Parent,River,Yes,Beans,2.46,WASH,Child Protection,313033
+474,UNHCR-UG-10134,West Nile,Bidi Bidi,Yumbe,Eritrea,2019,4,Male,18,Secondary,4,3,Elderly,Borehole,No,Maize,3.03,NFI,Food Insecurity,253882
+475,UNHCR-UG-10135,Central,Kampala Urban,Arua,South Sudan,2025,1,Male,57,Secondary,9,4,Single Parent,Tap,No,Beans,0.22,Food,None,216969
+476,UNHCR-UG-10136,West Nile,Bidi Bidi,Yumbe,Eritrea,2016,6,Male,61,Secondary,9,0,Unaccompanied Child,Tap,Yes,Beans,3.09,WASH,Child Protection,443713
+477,UNHCR-UG-10137,West Nile,Bidi Bidi,Yumbe,Sudan,2018,10,Female,76,Primary,3,0,Woman at Risk,Tap,Yes,Vegetables,2.1,NFI,GBV Risk,249803
+478,UNHCR-UG-10138,South West,Nakivale,Arua,Somalia,2025,4,Male,41,Secondary,7,2,Unaccompanied Child,Borehole,Yes,Beans,3.07,NFI,Child Protection,226520
+479,UNHCR-UG-10139,South West,Oruchinga,Arua,Somalia,2022,2,Female,23,Secondary,5,4,Elderly,River,No,Vegetables,1.36,NFI,None,15044
+480,UNHCR-UG-10140,South West,Kyaka II,Arua,Somalia,2019,4,Male,66,Primary,5,3,Disability,Tap,No,Maize,2.6,Cash,None,25672
+481,UNHCR-UG-10141,Central,Kampala Urban,Arua,Ethiopia,2022,9,Male,26,Secondary,10,3,Unaccompanied Child,River,No,Cassava,1.89,Cash,Child Protection,294310
+482,UNHCR-UG-10142,South West,Rwamwanja,Arua,Rwanda,2021,6,Female,58,None,5,2,Single Parent,Tap,No,Beans,3.29,Food,GBV Risk,392876
+483,UNHCR-UG-10143,Central,Kampala Urban,Arua,DRC,2020,5,Male,64,Secondary,6,3,Unaccompanied Child,Borehole,Yes,Maize,2.7,NFI,Child Protection,459847
+484,UNHCR-UG-10144,West Nile,Rhino Camp,Arua,Burundi,2019,9,Female,61,University,2,4,Woman at Risk,Borehole,No,Maize,2.4,Food,Food Insecurity,127481
+485,UNHCR-UG-10145,South West,Nakivale,Arua,Burundi,2019,9,Female,33,Primary,1,3,Disability,Tap,No,Beans,0.91,Food,Child Protection,316357
+486,UNHCR-UG-10146,South West,Kyaka II,Arua,South Sudan,2017,2,Female,49,None,10,3,Elderly,Borehole,No,Cassava,1.99,NFI,Child Protection,109293
+487,UNHCR-UG-10147,South West,Nakivale,Arua,Ethiopia,2025,5,Female,41,Primary,7,2,Disability,River,Yes,Cassava,3.1,Cash,Child Protection,51630
+488,UNHCR-UG-10148,South West,Kyangwali,Arua,Eritrea,2021,9,Female,20,Secondary,5,1,Woman at Risk,River,Yes,Cassava,2.4,NFI,None,47124
+489,UNHCR-UG-10149,South West,Kyangwali,Arua,Sudan,2023,1,Male,25,None,9,4,Elderly,River,No,Maize,1.94,WASH,None,419097
+490,UNHCR-UG-10150,Central,Kampala Urban,Arua,Rwanda,2020,1,Male,18,University,2,2,Woman at Risk,Borehole,No,Cassava,3.29,Food,Food Insecurity,476825
+491,UNHCR-UG-10151,Central,Kampala Urban,Arua,Sudan,2019,2,Male,66,None,1,3,Disability,River,No,Maize,2.32,Food,GBV Risk,466940
+492,UNHCR-UG-10152,Mid West,Kiryandongo,Arua,DRC,2018,9,Female,45,None,5,3,Elderly,Tap,No,Vegetables,3.06,WASH,GBV Risk,72738
+493,UNHCR-UG-10153,Central,Kampala Urban,Arua,Eritrea,2020,2,Male,49,Primary,3,2,Disability,River,No,Cassava,2.87,WASH,Food Insecurity,189051
+494,UNHCR-UG-10154,South West,Rwamwanja,Arua,Ethiopia,2018,6,Male,64,University,4,3,Elderly,River,No,None,2.28,NFI,GBV Risk,136625
+495,UNHCR-UG-10155,Central,Kampala Urban,Arua,DRC,2025,4,Female,77,None,9,0,Unaccompanied Child,Borehole,No,Cassava,1.17,Cash,GBV Risk,73338
+496,UNHCR-UG-10156,West Nile,Bidi Bidi,Yumbe,Sudan,2019,2,Female,67,Secondary,3,3,Woman at Risk,Tap,No,Cassava,3.2,WASH,Child Protection,310293
+497,UNHCR-UG-10157,South West,Oruchinga,Arua,Sudan,2024,8,Female,48,University,5,2,Disability,Borehole,No,None,3.2,WASH,Child Protection,101749
+498,UNHCR-UG-10158,South West,Nakivale,Arua,Burundi,2018,7,Female,65,None,1,1,Disability,Borehole,No,Vegetables,0.98,Cash,Food Insecurity,103986
+499,UNHCR-UG-10159,South West,Kyangwali,Arua,Rwanda,2024,4,Female,42,University,9,2,Disability,Borehole,Yes,Maize,1.25,WASH,Child Protection,250258
+500,UNHCR-UG-10160,South West,Kyaka II,Arua,Somalia,2017,5,Male,76,Primary,9,3,Single Parent,Tap,No,Vegetables,0.55,Cash,Child Protection,307841
+501,UNHCR-UG-10161,West Nile,Lobule,Arua,Eritrea,2021,2,Male,44,Secondary,9,2,Elderly,Borehole,No,Beans,0.66,WASH,Child Protection,56174
+502,UNHCR-UG-10162,West Nile,Rhino Camp,Arua,Ethiopia,2020,5,Female,72,Primary,6,2,Elderly,Borehole,Yes,Vegetables,0.97,NFI,None,264696
+503,UNHCR-UG-10163,West Nile,Imvepi,Arua,Ethiopia,2025,7,Female,52,Secondary,10,2,Single Parent,Borehole,Yes,Beans,2.58,Cash,None,333379
+504,UNHCR-UG-10164,Central,Kampala Urban,Arua,Ethiopia,2022,9,Male,29,None,9,2,None,Tap,Yes,None,3.43,Cash,None,490610
+505,UNHCR-UG-10165,Mid West,Kiryandongo,Arua,Eritrea,2017,8,Female,43,University,5,0,Woman at Risk,Borehole,No,Beans,2.86,Food,Child Protection,240237
+506,UNHCR-UG-10166,South West,Kyangwali,Arua,Ethiopia,2019,2,Male,18,Primary,9,1,None,River,No,Beans,0.32,Food,None,426093
+507,UNHCR-UG-10167,West Nile,Palorinya,Arua,Eritrea,2018,2,Female,21,University,3,4,Disability,Tap,Yes,None,2.19,WASH,GBV Risk,356204
+508,UNHCR-UG-10168,South West,Rwamwanja,Arua,Ethiopia,2017,3,Female,64,University,4,4,None,Borehole,No,Vegetables,3.28,Food,None,120313
+509,UNHCR-UG-10169,Central,Kampala Urban,Arua,Ethiopia,2024,10,Male,75,None,1,2,Single Parent,Tap,No,Vegetables,0.73,NFI,Child Protection,276811
+510,UNHCR-UG-10170,Mid West,Kiryandongo,Arua,Sudan,2023,2,Male,41,Secondary,1,2,Single Parent,Tap,No,Vegetables,3.44,WASH,Food Insecurity,461763
+511,UNHCR-UG-10171,South West,Rwamwanja,Arua,Eritrea,2021,6,Female,47,Primary,4,1,Elderly,Tap,Yes,None,2.47,WASH,GBV Risk,76827
+512,UNHCR-UG-10172,Mid West,Kiryandongo,Arua,Rwanda,2024,9,Male,52,None,2,4,Unaccompanied Child,Tap,Yes,Vegetables,2.36,NFI,Food Insecurity,342646
+513,UNHCR-UG-10173,Mid West,Kiryandongo,Arua,South Sudan,2025,9,Female,52,None,8,0,Single Parent,Borehole,Yes,Vegetables,1.52,Food,Child Protection,326743
+514,UNHCR-UG-10174,West Nile,Bidi Bidi,Yumbe,Sudan,2019,2,Male,29,Primary,6,1,Elderly,Borehole,No,Beans,2.45,Cash,None,21409
+515,UNHCR-UG-10175,Mid West,Kiryandongo,Arua,Ethiopia,2016,10,Male,64,None,10,3,Single Parent,Borehole,No,Vegetables,2.44,Cash,GBV Risk,23670
+516,UNHCR-UG-10176,West Nile,Bidi Bidi,Yumbe,Burundi,2025,7,Male,75,University,7,3,Single Parent,River,Yes,Maize,2.79,Food,Food Insecurity,46161
+517,UNHCR-UG-10177,Central,Kampala Urban,Arua,Rwanda,2021,3,Male,57,University,1,1,None,Tap,No,Beans,2.86,NFI,Food Insecurity,387176
+518,UNHCR-UG-10178,Central,Kampala Urban,Arua,Ethiopia,2022,3,Male,40,Secondary,10,2,None,Tap,Yes,Cassava,2.53,Food,GBV Risk,241900
+519,UNHCR-UG-10179,Mid West,Kiryandongo,Arua,DRC,2016,9,Male,20,University,1,2,Woman at Risk,Borehole,No,Maize,1.94,NFI,Child Protection,415963
+520,UNHCR-UG-10180,West Nile,Lobule,Arua,DRC,2024,2,Female,47,Primary,1,1,Unaccompanied Child,River,No,Maize,2.46,NFI,Food Insecurity,301856
+521,UNHCR-UG-10181,West Nile,Imvepi,Arua,Ethiopia,2016,8,Male,38,Primary,1,0,Woman at Risk,Borehole,No,Beans,0.55,WASH,Child Protection,347957
+522,UNHCR-UG-10182,South West,Oruchinga,Arua,Ethiopia,2024,9,Male,48,University,10,4,Single Parent,River,No,Cassava,3.06,Food,GBV Risk,186696
+523,UNHCR-UG-10183,South West,Oruchinga,Arua,Eritrea,2019,8,Female,52,University,8,4,Woman at Risk,Borehole,No,Cassava,3.25,NFI,Food Insecurity,410681
+524,UNHCR-UG-10184,Mid West,Kiryandongo,Arua,Ethiopia,2019,5,Male,58,Secondary,10,1,Unaccompanied Child,Borehole,No,Beans,0.39,NFI,GBV Risk,228046
+525,UNHCR-UG-10185,Mid West,Kiryandongo,Arua,South Sudan,2019,7,Male,47,Secondary,5,3,None,Borehole,Yes,Cassava,2.68,Cash,Food Insecurity,235078
+526,UNHCR-UG-10186,Mid West,Kiryandongo,Arua,Somalia,2017,3,Female,36,University,5,0,Elderly,River,No,Vegetables,2.9,WASH,None,414386
+527,UNHCR-UG-10187,Central,Kampala Urban,Arua,Burundi,2025,2,Female,65,Primary,8,4,Elderly,River,Yes,None,1.52,WASH,GBV Risk,155408
+528,UNHCR-UG-10188,South West,Kyangwali,Arua,South Sudan,2016,5,Male,43,Primary,4,0,Disability,Tap,Yes,Cassava,1.03,NFI,None,295742
+529,UNHCR-UG-10189,Mid West,Kiryandongo,Arua,South Sudan,2023,2,Male,66,None,8,2,None,River,No,Vegetables,0.65,Cash,Child Protection,392388
+530,UNHCR-UG-10190,South West,Rwamwanja,Arua,Burundi,2017,7,Female,62,Secondary,9,4,Unaccompanied Child,Borehole,Yes,Maize,1.34,Food,Food Insecurity,140856
+531,UNHCR-UG-10191,West Nile,Rhino Camp,Arua,Sudan,2019,3,Female,45,Primary,6,0,Disability,Borehole,Yes,Beans,1.64,NFI,None,62450
+532,UNHCR-UG-10192,Mid West,Kiryandongo,Arua,Ethiopia,2020,10,Male,22,University,4,1,Woman at Risk,River,Yes,Cassava,1.13,WASH,Food Insecurity,311468
+533,UNHCR-UG-10193,South West,Kyaka II,Arua,Ethiopia,2019,7,Female,18,None,8,3,Disability,Borehole,Yes,Vegetables,0.96,WASH,Child Protection,27393
+534,UNHCR-UG-10194,South West,Kyaka II,Arua,Burundi,2022,9,Male,34,None,9,4,None,Tap,No,Cassava,0.83,WASH,Food Insecurity,236062
+535,UNHCR-UG-10195,West Nile,Rhino Camp,Arua,Sudan,2017,1,Female,46,University,8,1,Single Parent,River,Yes,Cassava,2.33,NFI,Child Protection,142437
+536,UNHCR-UG-10196,West Nile,Bidi Bidi,Yumbe,South Sudan,2018,4,Male,34,Secondary,10,3,Elderly,Borehole,Yes,Cassava,2.46,WASH,Food Insecurity,148566
+537,UNHCR-UG-10197,Central,Kampala Urban,Arua,South Sudan,2024,2,Male,55,None,10,4,Woman at Risk,River,Yes,Beans,0.34,WASH,Food Insecurity,233391
+538,UNHCR-UG-10198,South West,Kyaka II,Arua,Ethiopia,2025,6,Male,77,None,2,3,Single Parent,River,Yes,None,0.75,Cash,Food Insecurity,61541
+539,UNHCR-UG-10199,West Nile,Palorinya,Arua,Somalia,2019,5,Male,26,Primary,4,4,Single Parent,Tap,No,None,1.57,Food,Food Insecurity,441459
+540,UNHCR-UG-10200,Central,Kampala Urban,Arua,Sudan,2023,8,Male,76,Primary,5,3,None,River,Yes,Vegetables,1.2,Cash,GBV Risk,324249
+541,UNHCR-UG-10201,South West,Oruchinga,Arua,DRC,2017,2,Male,66,University,6,0,Elderly,River,Yes,Maize,2.66,Cash,Child Protection,333489
+542,UNHCR-UG-10202,Mid West,Kiryandongo,Arua,Burundi,2018,5,Male,60,Secondary,5,1,Unaccompanied Child,Borehole,Yes,Cassava,2.34,Food,Child Protection,414863
+543,UNHCR-UG-10203,Central,Kampala Urban,Arua,Ethiopia,2022,10,Male,60,Primary,8,2,Disability,River,Yes,Vegetables,0.42,Food,Child Protection,344419
+544,UNHCR-UG-10204,South West,Kyangwali,Arua,Rwanda,2018,6,Male,48,University,10,2,Single Parent,Borehole,No,Cassava,0.33,Food,None,479047
+545,UNHCR-UG-10205,South West,Oruchinga,Arua,Ethiopia,2024,10,Male,23,Primary,7,1,Unaccompanied Child,Borehole,Yes,Beans,0.93,Food,Food Insecurity,150311
+546,UNHCR-UG-10206,South West,Rwamwanja,Arua,Eritrea,2016,4,Male,20,None,2,4,Woman at Risk,River,Yes,Beans,2.51,Cash,Food Insecurity,17298
+547,UNHCR-UG-10207,Mid West,Kiryandongo,Arua,Burundi,2016,8,Female,58,None,8,2,Elderly,Borehole,No,Maize,3.03,NFI,GBV Risk,294697
+548,UNHCR-UG-10208,South West,Rwamwanja,Arua,Ethiopia,2019,7,Female,70,University,3,3,Elderly,Borehole,No,None,3.0,Cash,GBV Risk,355535
+549,UNHCR-UG-10209,Central,Kampala Urban,Arua,Ethiopia,2025,8,Male,32,University,4,4,Single Parent,Borehole,Yes,Maize,1.81,Cash,None,354909
+550,UNHCR-UG-10210,South West,Oruchinga,Arua,South Sudan,2021,10,Female,26,Secondary,5,2,Single Parent,River,Yes,Cassava,2.54,Food,None,329790
+551,UNHCR-UG-10211,Central,Kampala Urban,Arua,Somalia,2021,9,Female,76,Secondary,10,1,Woman at Risk,River,Yes,Vegetables,3.13,NFI,None,184954
+552,UNHCR-UG-10212,Mid West,Kiryandongo,Arua,Eritrea,2017,6,Female,65,Secondary,7,2,Woman at Risk,Tap,No,None,1.82,Cash,None,301744
+553,UNHCR-UG-10213,Central,Kampala Urban,Arua,Ethiopia,2022,9,Male,42,None,4,2,Elderly,Borehole,No,Vegetables,3.35,Cash,Child Protection,172544
+554,UNHCR-UG-10214,West Nile,Imvepi,Arua,Ethiopia,2019,9,Male,25,None,5,1,Unaccompanied Child,Borehole,No,Beans,3.47,Cash,None,193915
+555,UNHCR-UG-10215,Mid West,Kiryandongo,Arua,Rwanda,2016,2,Male,68,Secondary,9,0,Elderly,Borehole,Yes,Vegetables,0.29,Food,Child Protection,190014
+556,UNHCR-UG-10216,West Nile,Palorinya,Arua,DRC,2018,8,Female,38,None,7,2,Disability,River,Yes,Vegetables,3.31,NFI,GBV Risk,462248
+557,UNHCR-UG-10217,West Nile,Lobule,Arua,Sudan,2017,6,Female,68,Primary,7,3,None,River,No,Vegetables,0.13,WASH,Child Protection,404260
+558,UNHCR-UG-10218,South West,Oruchinga,Arua,Sudan,2019,2,Female,74,Primary,1,4,None,Tap,No,Cassava,1.28,Food,None,40307
+559,UNHCR-UG-10219,West Nile,Rhino Camp,Arua,Burundi,2022,9,Female,24,None,9,3,None,Tap,Yes,Maize,1.28,Food,None,166560
+560,UNHCR-UG-10220,West Nile,Bidi Bidi,Yumbe,Burundi,2017,5,Female,56,University,6,0,Woman at Risk,River,Yes,Vegetables,2.16,WASH,GBV Risk,278603
+561,UNHCR-UG-10221,South West,Rwamwanja,Arua,Somalia,2021,9,Female,45,Secondary,3,2,None,River,No,Cassava,0.12,Food,Food Insecurity,381437
+562,UNHCR-UG-10222,Central,Kampala Urban,Arua,Rwanda,2018,3,Female,34,Secondary,3,3,Woman at Risk,Tap,Yes,Cassava,2.76,Cash,Child Protection,158801
+563,UNHCR-UG-10223,Mid West,Kiryandongo,Arua,Sudan,2018,5,Female,73,Secondary,5,3,Disability,Borehole,Yes,None,2.41,NFI,GBV Risk,250422
+564,UNHCR-UG-10224,Central,Kampala Urban,Arua,Somalia,2025,7,Male,25,University,1,0,Unaccompanied Child,Tap,No,Maize,2.23,NFI,GBV Risk,269024
+565,UNHCR-UG-10225,South West,Rwamwanja,Arua,Somalia,2017,5,Female,30,Secondary,8,0,Woman at Risk,Borehole,No,Maize,1.09,WASH,None,158027
+566,UNHCR-UG-10226,South West,Nakivale,Arua,DRC,2019,1,Male,25,Primary,6,2,Disability,Tap,No,None,0.79,Cash,Child Protection,193083
+567,UNHCR-UG-10227,West Nile,Imvepi,Arua,DRC,2017,3,Male,45,University,1,2,None,River,Yes,None,2.49,Food,GBV Risk,115504
+568,UNHCR-UG-10228,Mid West,Kiryandongo,Arua,Sudan,2022,3,Male,61,Primary,6,4,Unaccompanied Child,Tap,No,Vegetables,1.63,WASH,None,479307
+569,UNHCR-UG-10229,Mid West,Kiryandongo,Arua,Burundi,2024,5,Female,73,University,3,2,Woman at Risk,Tap,No,Vegetables,2.1,Food,Food Insecurity,5970
+570,UNHCR-UG-10230,West Nile,Imvepi,Arua,DRC,2019,4,Female,31,University,2,3,None,Borehole,No,Beans,2.44,NFI,Child Protection,399389
+571,UNHCR-UG-10231,South West,Kyaka II,Arua,South Sudan,2021,6,Female,69,University,2,2,Unaccompanied Child,River,No,Vegetables,1.5,WASH,Child Protection,265169
+572,UNHCR-UG-10232,West Nile,Imvepi,Arua,South Sudan,2024,6,Male,57,None,9,1,Single Parent,River,No,None,1.31,NFI,Child Protection,478793
+573,UNHCR-UG-10233,South West,Oruchinga,Arua,Sudan,2022,4,Male,67,Primary,2,1,Unaccompanied Child,River,No,Cassava,2.57,Cash,GBV Risk,292448
+574,UNHCR-UG-10234,Central,Kampala Urban,Arua,DRC,2016,1,Male,31,University,8,3,Woman at Risk,River,Yes,Maize,1.36,NFI,None,112470
+575,UNHCR-UG-10235,Mid West,Kiryandongo,Arua,Burundi,2020,2,Female,43,None,3,4,None,Borehole,No,Maize,1.98,WASH,GBV Risk,66683
+576,UNHCR-UG-10236,Mid West,Kiryandongo,Arua,Somalia,2016,6,Male,70,Secondary,7,1,None,River,No,Beans,2.51,Cash,Food Insecurity,245007
+577,UNHCR-UG-10237,Central,Kampala Urban,Arua,Burundi,2021,1,Male,39,University,6,4,Single Parent,River,No,Vegetables,2.61,NFI,Child Protection,58180
+578,UNHCR-UG-10238,Mid West,Kiryandongo,Arua,Burundi,2023,3,Male,74,University,10,3,None,River,No,Cassava,0.67,Cash,Food Insecurity,117650
+579,UNHCR-UG-10239,Mid West,Kiryandongo,Arua,Eritrea,2022,3,Female,32,Primary,1,1,Elderly,Tap,Yes,Maize,1.9,Food,None,351140
+580,UNHCR-UG-10240,Mid West,Kiryandongo,Arua,Ethiopia,2022,2,Male,29,Primary,1,4,Unaccompanied Child,River,Yes,Maize,0.85,Food,GBV Risk,445210
+581,UNHCR-UG-10241,Mid West,Kiryandongo,Arua,Somalia,2019,3,Female,43,Secondary,10,4,Disability,River,Yes,Maize,1.22,NFI,GBV Risk,57879
+582,UNHCR-UG-10242,South West,Nakivale,Arua,South Sudan,2019,8,Female,42,Primary,8,1,Unaccompanied Child,River,Yes,Cassava,2.64,NFI,Food Insecurity,391771
+583,UNHCR-UG-10243,Mid West,Kiryandongo,Arua,Somalia,2018,8,Female,18,University,7,0,Unaccompanied Child,Tap,No,Cassava,1.96,WASH,Child Protection,17348
+584,UNHCR-UG-10244,South West,Kyaka II,Arua,Ethiopia,2022,4,Male,50,University,7,3,Unaccompanied Child,Borehole,Yes,Maize,0.23,NFI,Child Protection,449272
+585,UNHCR-UG-10245,Mid West,Kiryandongo,Arua,South Sudan,2020,7,Female,71,None,7,2,Unaccompanied Child,River,Yes,Cassava,2.71,NFI,Food Insecurity,296884
+586,UNHCR-UG-10246,Mid West,Kiryandongo,Arua,DRC,2016,3,Female,21,University,6,0,Woman at Risk,River,No,None,3.41,Food,None,276475
+587,UNHCR-UG-10247,Mid West,Kiryandongo,Arua,Eritrea,2024,10,Male,30,Secondary,8,2,Elderly,River,No,Beans,0.54,WASH,Food Insecurity,248988
+588,UNHCR-UG-10248,West Nile,Palorinya,Arua,Ethiopia,2017,10,Male,27,None,3,4,Disability,Tap,Yes,Vegetables,2.43,NFI,Food Insecurity,28849
+589,UNHCR-UG-10249,Mid West,Kiryandongo,Arua,Somalia,2024,10,Female,57,University,4,3,Woman at Risk,Tap,No,None,1.6,WASH,Child Protection,428277
+590,UNHCR-UG-10250,West Nile,Rhino Camp,Arua,Rwanda,2016,10,Male,58,University,3,1,Woman at Risk,River,Yes,None,3.03,Cash,GBV Risk,19343
+591,UNHCR-UG-10251,Mid West,Kiryandongo,Arua,Sudan,2024,1,Female,36,Secondary,6,4,Single Parent,Tap,Yes,Maize,1.06,Food,GBV Risk,171946
+592,UNHCR-UG-10252,Mid West,Kiryandongo,Arua,South Sudan,2016,2,Male,67,University,3,4,Single Parent,River,Yes,Maize,0.72,NFI,Food Insecurity,224330
+593,UNHCR-UG-10253,South West,Kyaka II,Arua,Rwanda,2020,2,Female,29,University,4,0,Single Parent,Borehole,No,None,0.33,Cash,None,212842
+594,UNHCR-UG-10254,Mid West,Kiryandongo,Arua,Rwanda,2019,1,Male,20,None,1,2,Disability,Borehole,Yes,Vegetables,0.72,Cash,GBV Risk,65090
+595,UNHCR-UG-10255,West Nile,Bidi Bidi,Yumbe,Rwanda,2025,2,Male,65,Primary,10,1,Disability,Tap,Yes,Beans,1.18,Food,None,120451
+596,UNHCR-UG-10256,Mid West,Kiryandongo,Arua,Sudan,2020,2,Male,20,Primary,2,3,None,Tap,Yes,Maize,2.34,NFI,None,478955
+597,UNHCR-UG-10257,South West,Kyaka II,Arua,Rwanda,2016,3,Male,43,Primary,5,2,Disability,River,Yes,Beans,0.25,Cash,None,194109
+598,UNHCR-UG-10258,Central,Kampala Urban,Arua,Burundi,2025,5,Female,57,University,1,0,None,Borehole,No,Cassava,1.4,NFI,None,400535
+599,UNHCR-UG-10259,Mid West,Kiryandongo,Arua,South Sudan,2016,10,Male,64,Secondary,3,0,Single Parent,Tap,No,Vegetables,1.07,WASH,Food Insecurity,8992
+600,UNHCR-UG-10260,West Nile,Palorinya,Arua,Eritrea,2022,8,Male,77,Primary,8,2,Disability,Tap,No,Beans,0.59,NFI,None,394968
+601,UNHCR-UG-10261,West Nile,Lobule,Arua,Ethiopia,2017,3,Male,42,None,9,2,None,Borehole,Yes,Beans,2.67,Food,Child Protection,56065
+602,UNHCR-UG-10262,West Nile,Palorinya,Arua,Ethiopia,2022,4,Female,59,University,6,2,Disability,Tap,Yes,Beans,0.95,NFI,Child Protection,67042
+603,UNHCR-UG-10263,Central,Kampala Urban,Arua,Sudan,2021,7,Female,28,Secondary,7,0,Elderly,Tap,No,Vegetables,1.72,Food,Child Protection,368124
+604,UNHCR-UG-10264,South West,Oruchinga,Arua,DRC,2017,2,Male,71,Secondary,5,2,Unaccompanied Child,River,No,Vegetables,3.23,WASH,None,374788
+605,UNHCR-UG-10265,Mid West,Kiryandongo,Arua,Somalia,2017,5,Male,72,University,8,3,Disability,River,No,Vegetables,0.74,Cash,GBV Risk,82900
+606,UNHCR-UG-10266,West Nile,Bidi Bidi,Yumbe,DRC,2020,2,Male,59,University,1,1,Unaccompanied Child,Borehole,Yes,None,3.1,WASH,Child Protection,236203
+607,UNHCR-UG-10267,Mid West,Kiryandongo,Arua,South Sudan,2025,6,Female,57,None,10,4,Disability,Borehole,No,Cassava,2.59,WASH,Food Insecurity,101608
+608,UNHCR-UG-10268,South West,Oruchinga,Arua,Eritrea,2023,8,Male,64,University,10,2,Woman at Risk,Tap,No,Cassava,1.39,Food,None,309060
+609,UNHCR-UG-10269,South West,Rwamwanja,Arua,Ethiopia,2022,8,Female,76,Secondary,1,4,Disability,Borehole,No,Cassava,0.99,Cash,Food Insecurity,16115
+610,UNHCR-UG-10270,West Nile,Palorinya,Arua,South Sudan,2025,6,Male,26,University,6,0,Elderly,Borehole,Yes,None,0.88,WASH,Food Insecurity,51829
+611,UNHCR-UG-10271,South West,Rwamwanja,Arua,Eritrea,2023,8,Female,60,University,5,2,Woman at Risk,Borehole,No,None,2.37,WASH,Food Insecurity,355536
+612,UNHCR-UG-10272,South West,Kyangwali,Arua,Eritrea,2021,1,Female,39,None,5,4,Unaccompanied Child,Borehole,Yes,Beans,0.43,NFI,Food Insecurity,251399
+613,UNHCR-UG-10273,Mid West,Kiryandongo,Arua,Somalia,2017,5,Male,35,Secondary,2,3,Woman at Risk,River,No,Maize,1.81,NFI,Food Insecurity,327289
+614,UNHCR-UG-10274,South West,Rwamwanja,Arua,Eritrea,2019,7,Male,36,University,9,3,Unaccompanied Child,River,Yes,None,2.32,NFI,GBV Risk,368344
+615,UNHCR-UG-10275,Central,Kampala Urban,Arua,Ethiopia,2022,2,Female,42,University,3,4,Single Parent,Borehole,No,None,1.26,Food,GBV Risk,212904
+616,UNHCR-UG-10276,Mid West,Kiryandongo,Arua,DRC,2020,4,Female,57,University,3,4,Single Parent,Tap,No,Vegetables,3.02,NFI,Child Protection,428933
+617,UNHCR-UG-10277,West Nile,Rhino Camp,Arua,DRC,2022,4,Female,54,None,10,3,Woman at Risk,River,No,Cassava,0.19,NFI,GBV Risk,415189
+618,UNHCR-UG-10278,Mid West,Kiryandongo,Arua,Eritrea,2022,5,Female,75,Primary,9,2,Disability,River,No,Maize,1.59,Food,GBV Risk,123459
+619,UNHCR-UG-10279,Mid West,Kiryandongo,Arua,Rwanda,2025,10,Male,21,Primary,9,2,None,Borehole,No,Cassava,0.85,NFI,None,460663
+620,UNHCR-UG-10280,Central,Kampala Urban,Arua,Somalia,2020,7,Male,57,Secondary,4,2,None,Borehole,Yes,Vegetables,0.62,Food,Child Protection,303125
+621,UNHCR-UG-10281,West Nile,Lobule,Arua,Sudan,2022,5,Female,70,None,4,0,Unaccompanied Child,Tap,Yes,None,1.59,Food,Child Protection,405313
+622,UNHCR-UG-10282,West Nile,Palorinya,Arua,Rwanda,2019,6,Female,74,University,2,1,Single Parent,Tap,Yes,Cassava,1.22,NFI,GBV Risk,107377
+623,UNHCR-UG-10283,Mid West,Kiryandongo,Arua,Ethiopia,2018,10,Female,57,University,3,4,Unaccompanied Child,Tap,Yes,Vegetables,3.0,Food,Child Protection,383997
+624,UNHCR-UG-10284,Central,Kampala Urban,Arua,Ethiopia,2025,10,Female,71,Primary,8,2,Elderly,River,Yes,None,1.09,WASH,None,497292
+625,UNHCR-UG-10285,South West,Kyaka II,Arua,Somalia,2018,5,Female,45,University,9,1,None,Tap,Yes,Beans,2.6,Food,Food Insecurity,260956
+626,UNHCR-UG-10286,West Nile,Rhino Camp,Arua,Somalia,2017,7,Female,61,Secondary,8,2,Elderly,River,Yes,None,2.37,NFI,Food Insecurity,74040
+627,UNHCR-UG-10287,South West,Oruchinga,Arua,Sudan,2018,8,Female,25,None,4,4,Single Parent,Borehole,Yes,Vegetables,1.78,Food,Child Protection,242304
+628,UNHCR-UG-10288,West Nile,Lobule,Arua,Somalia,2016,6,Female,19,University,2,2,Woman at Risk,Tap,Yes,Vegetables,1.23,NFI,Food Insecurity,129912
+629,UNHCR-UG-10289,South West,Kyangwali,Arua,Sudan,2022,8,Male,67,University,2,1,Single Parent,Borehole,Yes,None,3.1,Cash,None,470909
+630,UNHCR-UG-10290,South West,Oruchinga,Arua,DRC,2016,4,Male,51,None,10,1,Woman at Risk,River,Yes,Cassava,0.31,Food,GBV Risk,92696
+631,UNHCR-UG-10291,South West,Oruchinga,Arua,Burundi,2025,10,Female,48,University,1,2,Unaccompanied Child,Tap,Yes,Vegetables,0.13,Food,Child Protection,362304
+632,UNHCR-UG-10292,West Nile,Imvepi,Arua,DRC,2022,3,Male,29,None,5,0,Single Parent,Tap,Yes,Vegetables,1.83,Cash,None,494066
+633,UNHCR-UG-10293,West Nile,Rhino Camp,Arua,Rwanda,2019,3,Male,24,Primary,6,3,Elderly,Borehole,Yes,Vegetables,3.34,Cash,Food Insecurity,267185
+634,UNHCR-UG-10294,Central,Kampala Urban,Arua,DRC,2018,1,Male,61,None,2,3,None,Tap,Yes,Vegetables,1.79,Food,GBV Risk,325220
+635,UNHCR-UG-10295,West Nile,Lobule,Arua,South Sudan,2022,1,Female,48,None,10,3,Woman at Risk,Borehole,No,Vegetables,0.31,WASH,Food Insecurity,125931
+636,UNHCR-UG-10296,West Nile,Palorinya,Arua,Rwanda,2017,10,Male,41,University,4,4,Woman at Risk,Borehole,No,Cassava,1.0,WASH,Food Insecurity,100955
+637,UNHCR-UG-10297,Central,Kampala Urban,Arua,South Sudan,2019,6,Female,56,University,9,0,Elderly,Tap,No,Maize,0.81,NFI,GBV Risk,298243
+638,UNHCR-UG-10298,Central,Kampala Urban,Arua,Somalia,2025,5,Male,55,Primary,4,4,None,Borehole,Yes,Maize,2.96,NFI,GBV Risk,466389
+639,UNHCR-UG-10299,South West,Rwamwanja,Arua,DRC,2018,10,Male,63,University,10,2,Single Parent,Tap,No,None,2.27,Food,None,357146
+640,UNHCR-UG-10300,South West,Nakivale,Arua,DRC,2016,9,Female,62,None,7,0,Woman at Risk,River,No,None,0.75,Cash,Child Protection,217923
+641,UNHCR-UG-10301,West Nile,Bidi Bidi,Yumbe,DRC,2023,10,Male,28,None,6,2,Disability,Tap,Yes,Beans,1.85,Food,GBV Risk,26043
+642,UNHCR-UG-10302,South West,Oruchinga,Arua,Burundi,2016,10,Male,56,Primary,7,2,Unaccompanied Child,River,No,None,0.11,NFI,Child Protection,338752
+643,UNHCR-UG-10303,South West,Nakivale,Arua,Ethiopia,2018,7,Female,63,Secondary,8,4,Single Parent,Tap,Yes,Maize,1.86,NFI,GBV Risk,426259
+644,UNHCR-UG-10304,South West,Rwamwanja,Arua,Ethiopia,2023,7,Female,48,Secondary,10,0,None,Tap,No,Maize,1.56,WASH,GBV Risk,494699
+645,UNHCR-UG-10305,South West,Kyangwali,Arua,Rwanda,2023,4,Male,23,Secondary,8,2,Single Parent,Borehole,Yes,Vegetables,1.06,WASH,None,190277
+646,UNHCR-UG-10306,South West,Rwamwanja,Arua,Rwanda,2023,10,Male,29,Primary,3,1,Unaccompanied Child,River,Yes,Vegetables,0.78,NFI,None,394679
+647,UNHCR-UG-10307,West Nile,Lobule,Arua,Ethiopia,2023,1,Male,56,None,7,0,Disability,Tap,No,Vegetables,0.94,NFI,GBV Risk,207554
+648,UNHCR-UG-10308,Mid West,Kiryandongo,Arua,Ethiopia,2018,8,Male,35,None,3,4,Disability,River,Yes,Maize,0.3,NFI,None,68607
+649,UNHCR-UG-10309,Mid West,Kiryandongo,Arua,South Sudan,2024,1,Female,36,None,8,2,Unaccompanied Child,River,No,Cassava,2.62,WASH,Child Protection,302675
+650,UNHCR-UG-10310,South West,Kyangwali,Arua,Eritrea,2017,3,Male,37,Primary,5,4,Elderly,Borehole,No,Vegetables,2.76,Cash,Child Protection,354721
+651,UNHCR-UG-10311,Central,Kampala Urban,Arua,Eritrea,2024,8,Female,74,None,2,4,Elderly,Borehole,No,Vegetables,1.45,WASH,GBV Risk,315759
+652,UNHCR-UG-10312,West Nile,Imvepi,Arua,DRC,2019,1,Male,26,None,7,4,Unaccompanied Child,Borehole,Yes,Vegetables,1.12,WASH,Food Insecurity,130889
+653,UNHCR-UG-10313,South West,Nakivale,Arua,Ethiopia,2023,6,Male,28,University,5,3,None,Borehole,No,None,2.92,Food,GBV Risk,235973
+654,UNHCR-UG-10314,West Nile,Imvepi,Arua,South Sudan,2019,10,Female,37,Secondary,10,4,None,River,No,Maize,2.62,Cash,Child Protection,8066
+655,UNHCR-UG-10315,Mid West,Kiryandongo,Arua,Rwanda,2024,1,Male,59,Primary,1,1,Elderly,River,No,Maize,1.56,NFI,None,207251
+656,UNHCR-UG-10316,West Nile,Palorinya,Arua,Burundi,2020,7,Female,26,Secondary,5,3,Single Parent,Borehole,No,Beans,1.7,Food,None,488983
+657,UNHCR-UG-10317,West Nile,Imvepi,Arua,DRC,2016,5,Female,41,Secondary,8,1,Single Parent,River,No,Beans,0.21,Cash,Food Insecurity,485320
+658,UNHCR-UG-10318,South West,Oruchinga,Arua,Burundi,2025,10,Female,24,University,5,0,Unaccompanied Child,River,Yes,None,0.96,NFI,Food Insecurity,47653
+659,UNHCR-UG-10319,West Nile,Palorinya,Arua,Burundi,2020,5,Female,60,Primary,3,3,Woman at Risk,River,No,Maize,2.06,Cash,GBV Risk,327556
+660,UNHCR-UG-10320,South West,Rwamwanja,Arua,Sudan,2023,5,Female,33,Primary,2,2,Unaccompanied Child,River,No,Beans,2.62,NFI,Child Protection,419366
+661,UNHCR-UG-10321,Central,Kampala Urban,Arua,Somalia,2021,3,Female,28,University,9,3,Single Parent,Tap,Yes,Beans,2.99,Food,Food Insecurity,172082
+662,UNHCR-UG-10322,Central,Kampala Urban,Arua,Sudan,2023,6,Male,74,Primary,3,0,Unaccompanied Child,Tap,No,Beans,2.64,WASH,Child Protection,429608
+663,UNHCR-UG-10323,South West,Rwamwanja,Arua,DRC,2024,8,Female,48,Primary,2,4,Disability,River,No,Vegetables,1.97,NFI,Food Insecurity,238795
+664,UNHCR-UG-10324,South West,Kyaka II,Arua,Somalia,2020,10,Male,49,Primary,3,0,Single Parent,Borehole,Yes,Cassava,1.98,Food,GBV Risk,50580
+665,UNHCR-UG-10325,South West,Nakivale,Arua,Burundi,2020,1,Male,62,Primary,8,4,Elderly,River,No,Beans,1.41,Food,GBV Risk,205469
+666,UNHCR-UG-10326,West Nile,Rhino Camp,Arua,Eritrea,2020,4,Male,66,Secondary,2,1,Elderly,Borehole,Yes,None,2.11,Food,Food Insecurity,69998
+667,UNHCR-UG-10327,Mid West,Kiryandongo,Arua,Somalia,2016,8,Male,61,University,6,3,Elderly,River,Yes,Cassava,1.15,NFI,None,228958
+668,UNHCR-UG-10328,Central,Kampala Urban,Arua,Burundi,2021,7,Female,64,None,6,4,Woman at Risk,Tap,Yes,Cassava,1.58,WASH,Child Protection,217624
+669,UNHCR-UG-10329,Mid West,Kiryandongo,Arua,Eritrea,2023,10,Male,31,None,7,3,Woman at Risk,River,Yes,Maize,3.41,WASH,GBV Risk,44723
+670,UNHCR-UG-10330,West Nile,Imvepi,Arua,DRC,2018,4,Female,23,None,7,4,Unaccompanied Child,Tap,Yes,Vegetables,0.58,Cash,GBV Risk,26232
+671,UNHCR-UG-10331,Mid West,Kiryandongo,Arua,Somalia,2018,6,Female,61,None,5,4,Single Parent,Tap,No,Maize,2.72,WASH,Food Insecurity,101663
+672,UNHCR-UG-10332,Central,Kampala Urban,Arua,Somalia,2024,3,Female,29,University,4,0,None,Borehole,Yes,Maize,2.44,NFI,None,156313
+673,UNHCR-UG-10333,Central,Kampala Urban,Arua,Somalia,2024,10,Female,50,Secondary,2,4,Unaccompanied Child,River,Yes,Vegetables,2.45,NFI,None,121111
+674,UNHCR-UG-10334,Mid West,Kiryandongo,Arua,South Sudan,2017,3,Female,35,Secondary,1,2,Unaccompanied Child,Borehole,Yes,None,0.99,WASH,Child Protection,283390
+675,UNHCR-UG-10335,Central,Kampala Urban,Arua,Eritrea,2017,1,Male,18,Secondary,6,4,Elderly,Tap,No,Vegetables,0.7,Cash,Child Protection,110072
+676,UNHCR-UG-10336,Central,Kampala Urban,Arua,Eritrea,2017,10,Male,50,Primary,4,1,None,River,No,Vegetables,1.65,Food,None,143263
+677,UNHCR-UG-10337,West Nile,Bidi Bidi,Yumbe,DRC,2022,1,Female,52,None,2,1,Unaccompanied Child,Tap,Yes,Maize,0.76,Cash,Food Insecurity,287336
+678,UNHCR-UG-10338,West Nile,Imvepi,Arua,Ethiopia,2021,5,Male,75,None,9,2,Elderly,Tap,Yes,None,1.06,NFI,GBV Risk,83951
+679,UNHCR-UG-10339,Mid West,Kiryandongo,Arua,South Sudan,2020,5,Female,43,Primary,9,0,Disability,Tap,No,Maize,2.58,NFI,GBV Risk,241189
+680,UNHCR-UG-10340,South West,Nakivale,Arua,South Sudan,2017,3,Female,72,Primary,10,1,Elderly,Tap,Yes,Vegetables,2.39,NFI,GBV Risk,298000
+681,UNHCR-UG-10341,Central,Kampala Urban,Arua,South Sudan,2019,8,Male,28,None,3,2,Woman at Risk,River,No,Vegetables,3.15,Food,None,391680
+682,UNHCR-UG-10342,West Nile,Imvepi,Arua,Sudan,2024,7,Female,46,University,6,2,Woman at Risk,Borehole,Yes,Beans,2.84,Food,Food Insecurity,144862
+683,UNHCR-UG-10343,Central,Kampala Urban,Arua,Sudan,2018,7,Male,19,Primary,4,1,Elderly,River,No,Vegetables,2.89,Food,Child Protection,324092
+684,UNHCR-UG-10344,South West,Oruchinga,Arua,Ethiopia,2025,9,Male,33,University,6,0,Single Parent,River,No,Cassava,2.99,Cash,None,331522
+685,UNHCR-UG-10345,Central,Kampala Urban,Arua,DRC,2025,9,Male,45,None,10,4,None,Tap,No,None,2.44,Cash,Food Insecurity,151741
+686,UNHCR-UG-10346,Mid West,Kiryandongo,Arua,Sudan,2025,10,Male,29,Secondary,10,0,Disability,Borehole,Yes,None,0.35,NFI,Food Insecurity,77288
+687,UNHCR-UG-10347,West Nile,Palorinya,Arua,Ethiopia,2025,5,Male,46,Primary,6,3,Disability,Tap,No,Maize,1.92,Cash,None,499063
+688,UNHCR-UG-10348,South West,Rwamwanja,Arua,Somalia,2021,10,Female,52,Secondary,3,1,Elderly,Borehole,Yes,Cassava,2.44,Cash,None,88136
+689,UNHCR-UG-10349,South West,Nakivale,Arua,Burundi,2025,9,Male,39,Primary,4,0,None,Borehole,Yes,None,2.94,NFI,GBV Risk,374995
+690,UNHCR-UG-10350,Mid West,Kiryandongo,Arua,Somalia,2020,2,Male,40,University,1,4,None,Borehole,No,Vegetables,1.68,WASH,Child Protection,430375
+691,UNHCR-UG-10351,South West,Rwamwanja,Arua,Somalia,2017,10,Female,66,Primary,4,0,Elderly,River,No,Cassava,2.68,NFI,Child Protection,459402
+692,UNHCR-UG-10352,Mid West,Kiryandongo,Arua,Sudan,2017,10,Male,50,None,6,1,Disability,Borehole,No,None,0.23,NFI,Food Insecurity,261050
+693,UNHCR-UG-10353,West Nile,Rhino Camp,Arua,Burundi,2016,1,Female,18,Secondary,2,2,Unaccompanied Child,River,No,Maize,3.08,WASH,None,237614
+694,UNHCR-UG-10354,Mid West,Kiryandongo,Arua,Burundi,2022,8,Female,63,Secondary,1,2,Disability,Tap,No,Cassava,1.73,Cash,Food Insecurity,348351
+695,UNHCR-UG-10355,South West,Rwamwanja,Arua,Rwanda,2017,5,Female,33,None,5,1,None,Tap,Yes,Maize,0.66,Food,Child Protection,227580
+696,UNHCR-UG-10356,South West,Rwamwanja,Arua,Ethiopia,2018,6,Male,26,Secondary,5,3,Unaccompanied Child,Tap,Yes,None,0.52,NFI,GBV Risk,71526
+697,UNHCR-UG-10357,Central,Kampala Urban,Arua,Somalia,2018,10,Female,48,None,7,0,None,Tap,Yes,Vegetables,1.7,NFI,Child Protection,172766
+698,UNHCR-UG-10358,Mid West,Kiryandongo,Arua,Somalia,2024,10,Female,33,Primary,9,4,None,Tap,No,None,1.67,Food,None,113483
+699,UNHCR-UG-10359,Mid West,Kiryandongo,Arua,South Sudan,2025,3,Female,25,Secondary,7,0,Single Parent,Tap,Yes,Maize,3.38,Cash,Food Insecurity,267562
+700,UNHCR-UG-10360,Mid West,Kiryandongo,Arua,Sudan,2025,5,Male,24,Secondary,5,1,Disability,Borehole,Yes,Maize,0.67,Food,None,108237
+701,UNHCR-UG-10361,West Nile,Palorinya,Arua,DRC,2023,9,Female,65,None,10,4,Single Parent,Borehole,No,Cassava,1.74,NFI,Child Protection,443714
+702,UNHCR-UG-10362,Mid West,Kiryandongo,Arua,Somalia,2025,8,Male,18,Secondary,10,4,Elderly,Borehole,No,Maize,0.47,Food,Child Protection,127746
+703,UNHCR-UG-10363,Central,Kampala Urban,Arua,Sudan,2019,3,Female,48,None,7,1,Elderly,Borehole,No,Cassava,2.87,WASH,Food Insecurity,410426
+704,UNHCR-UG-10364,South West,Kyaka II,Arua,Somalia,2016,1,Male,27,Secondary,4,1,Single Parent,Tap,Yes,Cassava,1.64,Cash,Child Protection,143844
+705,UNHCR-UG-10365,Mid West,Kiryandongo,Arua,Ethiopia,2017,2,Female,41,Secondary,5,2,Woman at Risk,Borehole,No,Cassava,3.24,NFI,GBV Risk,355827
+706,UNHCR-UG-10366,West Nile,Imvepi,Arua,Somalia,2017,6,Male,52,None,8,4,Disability,River,No,Beans,1.82,NFI,Child Protection,79706
+707,UNHCR-UG-10367,Mid West,Kiryandongo,Arua,Eritrea,2017,2,Female,21,Secondary,9,0,None,Tap,Yes,Cassava,3.25,NFI,Child Protection,475258
+708,UNHCR-UG-10368,Mid West,Kiryandongo,Arua,Eritrea,2017,3,Male,67,Secondary,4,2,Single Parent,River,No,Beans,0.47,Food,Child Protection,456549
+709,UNHCR-UG-10369,West Nile,Bidi Bidi,Yumbe,Ethiopia,2023,1,Male,41,University,6,0,Single Parent,River,Yes,Beans,3.29,WASH,Child Protection,318059
+710,UNHCR-UG-10370,West Nile,Bidi Bidi,Yumbe,Sudan,2016,9,Female,43,Primary,10,3,Unaccompanied Child,River,No,Beans,0.32,NFI,None,106689
+711,UNHCR-UG-10371,South West,Kyaka II,Arua,South Sudan,2017,6,Male,26,University,10,4,Woman at Risk,Tap,No,Vegetables,1.56,Food,None,91656
+712,UNHCR-UG-10372,West Nile,Lobule,Arua,South Sudan,2017,1,Male,66,University,2,0,Disability,Borehole,No,Vegetables,0.99,WASH,GBV Risk,329528
+713,UNHCR-UG-10373,Mid West,Kiryandongo,Arua,Ethiopia,2016,5,Female,29,Secondary,8,1,None,Borehole,No,None,1.74,NFI,GBV Risk,475973
+714,UNHCR-UG-10374,West Nile,Bidi Bidi,Yumbe,Sudan,2016,5,Female,63,Primary,8,2,Single Parent,River,Yes,Cassava,2.05,Food,Food Insecurity,341023
+715,UNHCR-UG-10375,Central,Kampala Urban,Arua,Eritrea,2024,5,Male,76,University,6,2,Single Parent,Borehole,No,Maize,2.96,NFI,GBV Risk,316950
+716,UNHCR-UG-10376,South West,Rwamwanja,Arua,Somalia,2021,5,Male,27,None,7,1,Single Parent,Borehole,Yes,Maize,2.14,Food,None,125444
+717,UNHCR-UG-10377,West Nile,Lobule,Arua,South Sudan,2017,5,Male,60,University,6,0,Woman at Risk,Borehole,No,Beans,2.94,NFI,Child Protection,468738
+718,UNHCR-UG-10378,Central,Kampala Urban,Arua,Eritrea,2024,10,Female,51,Secondary,7,4,Disability,Borehole,Yes,Vegetables,2.73,NFI,Child Protection,8535
+719,UNHCR-UG-10379,South West,Nakivale,Arua,Burundi,2020,10,Male,27,Secondary,1,2,Woman at Risk,River,No,Maize,2.38,Food,GBV Risk,7696
+720,UNHCR-UG-10380,Mid West,Kiryandongo,Arua,Burundi,2025,5,Male,37,Primary,6,1,Single Parent,Borehole,Yes,Vegetables,2.98,Food,Child Protection,395533
+721,UNHCR-UG-10381,West Nile,Imvepi,Arua,Ethiopia,2024,5,Male,25,Primary,8,4,Unaccompanied Child,Borehole,No,Cassava,2.78,WASH,Food Insecurity,28313
+722,UNHCR-UG-10382,West Nile,Bidi Bidi,Yumbe,Rwanda,2024,10,Male,39,University,5,4,Single Parent,River,No,Beans,2.08,Food,None,353513
+723,UNHCR-UG-10383,South West,Rwamwanja,Arua,Eritrea,2016,8,Male,50,Secondary,6,1,Single Parent,River,Yes,Cassava,2.85,WASH,Food Insecurity,309592
+724,UNHCR-UG-10384,Mid West,Kiryandongo,Arua,Sudan,2025,8,Male,65,Primary,5,1,Woman at Risk,Tap,Yes,None,3.17,NFI,None,216817
+725,UNHCR-UG-10385,South West,Rwamwanja,Arua,Ethiopia,2019,9,Male,51,University,6,0,None,Borehole,Yes,Cassava,0.49,Cash,GBV Risk,42415
+726,UNHCR-UG-10386,Central,Kampala Urban,Arua,Sudan,2024,1,Male,66,University,5,2,Disability,Borehole,Yes,Cassava,2.97,WASH,GBV Risk,48331
+727,UNHCR-UG-10387,South West,Oruchinga,Arua,Somalia,2021,8,Male,62,Primary,8,0,Disability,Tap,Yes,Maize,0.13,Food,None,306440
+728,UNHCR-UG-10388,Mid West,Kiryandongo,Arua,Somalia,2025,1,Male,27,University,6,0,Woman at Risk,River,No,Cassava,3.35,WASH,Food Insecurity,28389
+729,UNHCR-UG-10389,Central,Kampala Urban,Arua,Somalia,2018,6,Female,76,Primary,2,4,Single Parent,Tap,Yes,Beans,2.23,Cash,GBV Risk,276862
+730,UNHCR-UG-10390,South West,Oruchinga,Arua,South Sudan,2022,6,Male,76,None,4,0,Unaccompanied Child,Borehole,Yes,Maize,0.7,Cash,None,249102
+731,UNHCR-UG-10391,Mid West,Kiryandongo,Arua,DRC,2021,1,Male,24,University,7,1,Elderly,River,No,Vegetables,2.77,Food,None,61811
+732,UNHCR-UG-10392,South West,Nakivale,Arua,South Sudan,2025,5,Male,72,University,6,3,None,Tap,Yes,Maize,1.8,WASH,Food Insecurity,319436
+733,UNHCR-UG-10393,Mid West,Kiryandongo,Arua,Rwanda,2019,1,Female,55,None,1,3,Elderly,Tap,Yes,Vegetables,1.19,Food,Child Protection,163797
+734,UNHCR-UG-10394,South West,Kyaka II,Arua,Burundi,2022,2,Male,72,Primary,5,4,Disability,Tap,No,Beans,1.67,Food,Food Insecurity,292103
+735,UNHCR-UG-10395,South West,Rwamwanja,Arua,Somalia,2021,3,Female,51,Primary,6,2,Elderly,Tap,Yes,Vegetables,0.85,WASH,Food Insecurity,52702
+736,UNHCR-UG-10396,Central,Kampala Urban,Arua,Somalia,2021,9,Female,37,Primary,2,2,Elderly,Tap,Yes,Cassava,2.61,Food,Food Insecurity,173406
+737,UNHCR-UG-10397,Mid West,Kiryandongo,Arua,Rwanda,2018,4,Female,27,None,1,2,Unaccompanied Child,River,No,Vegetables,0.23,WASH,Child Protection,256116
+738,UNHCR-UG-10398,West Nile,Bidi Bidi,Yumbe,Somalia,2017,9,Female,46,None,2,0,Disability,River,Yes,Beans,2.48,Cash,GBV Risk,386821
+739,UNHCR-UG-10399,South West,Kyaka II,Arua,Eritrea,2024,4,Female,38,Primary,7,1,Single Parent,Tap,Yes,None,3.46,Cash,None,489420
+740,UNHCR-UG-10400,Mid West,Kiryandongo,Arua,Rwanda,2024,5,Female,54,Secondary,5,4,Woman at Risk,Borehole,Yes,Vegetables,1.36,Cash,GBV Risk,166351
+741,UNHCR-UG-10401,West Nile,Bidi Bidi,Yumbe,Rwanda,2016,2,Male,19,None,7,0,None,Borehole,Yes,None,1.5,Food,None,499306
+742,UNHCR-UG-10402,West Nile,Rhino Camp,Arua,DRC,2018,3,Female,24,None,7,4,Single Parent,Tap,No,Vegetables,0.17,Cash,Food Insecurity,438404
+743,UNHCR-UG-10403,South West,Nakivale,Arua,Rwanda,2024,10,Male,43,Primary,4,4,Disability,River,No,Beans,3.32,Cash,Food Insecurity,277747
+744,UNHCR-UG-10404,West Nile,Rhino Camp,Arua,Burundi,2016,7,Female,26,University,2,3,None,River,Yes,Maize,2.0,NFI,Food Insecurity,400135
+745,UNHCR-UG-10405,Mid West,Kiryandongo,Arua,Rwanda,2021,7,Female,66,Secondary,4,3,Elderly,Borehole,No,Beans,2.05,Cash,None,169862
+746,UNHCR-UG-10406,Mid West,Kiryandongo,Arua,Burundi,2025,2,Female,34,Secondary,2,1,Unaccompanied Child,Borehole,No,Maize,2.04,Food,Food Insecurity,13681
+747,UNHCR-UG-10407,Mid West,Kiryandongo,Arua,Rwanda,2019,7,Male,61,Secondary,10,3,None,River,No,Vegetables,1.49,NFI,GBV Risk,315056
+748,UNHCR-UG-10408,Mid West,Kiryandongo,Arua,Rwanda,2019,3,Female,38,Secondary,7,3,Elderly,River,Yes,Maize,1.38,NFI,Child Protection,309178
+749,UNHCR-UG-10409,South West,Rwamwanja,Arua,Sudan,2019,8,Male,62,University,4,1,None,River,No,Cassava,1.84,Food,GBV Risk,296070
+750,UNHCR-UG-10410,South West,Rwamwanja,Arua,Somalia,2024,8,Male,33,None,10,1,Single Parent,Borehole,No,Vegetables,1.31,Food,Child Protection,125634
+751,UNHCR-UG-10411,Central,Kampala Urban,Arua,South Sudan,2023,8,Female,42,Primary,1,4,Single Parent,Borehole,Yes,Maize,2.12,NFI,Food Insecurity,257646
+752,UNHCR-UG-10412,West Nile,Lobule,Arua,Ethiopia,2017,4,Male,61,University,8,3,Unaccompanied Child,River,No,Maize,0.46,WASH,Child Protection,376603
+753,UNHCR-UG-10413,Central,Kampala Urban,Arua,Burundi,2023,5,Male,68,None,8,1,Elderly,Tap,No,Cassava,2.39,Food,None,165709
+754,UNHCR-UG-10414,South West,Rwamwanja,Arua,Eritrea,2017,10,Female,53,Secondary,3,4,Woman at Risk,Borehole,No,None,0.29,Food,Food Insecurity,437546
+755,UNHCR-UG-10415,West Nile,Imvepi,Arua,Eritrea,2018,7,Female,63,Secondary,7,1,None,Borehole,Yes,None,2.54,WASH,Child Protection,408886
+756,UNHCR-UG-10416,Central,Kampala Urban,Arua,DRC,2024,2,Female,70,None,3,4,Disability,Tap,No,None,0.95,NFI,None,141026
+757,UNHCR-UG-10417,Central,Kampala Urban,Arua,Sudan,2020,2,Male,45,Secondary,2,3,Single Parent,Borehole,Yes,Maize,2.67,NFI,None,17612
+758,UNHCR-UG-10418,Central,Kampala Urban,Arua,Rwanda,2024,5,Female,21,None,9,1,Disability,Tap,Yes,None,1.9,Food,Child Protection,102975
+759,UNHCR-UG-10419,Central,Kampala Urban,Arua,Somalia,2020,5,Male,56,Primary,1,4,Unaccompanied Child,Borehole,No,Vegetables,1.73,WASH,Food Insecurity,122518
+760,UNHCR-UG-10420,West Nile,Palorinya,Arua,South Sudan,2021,5,Female,39,University,4,0,None,Borehole,No,Beans,2.39,NFI,Child Protection,344132
+761,UNHCR-UG-10421,Mid West,Kiryandongo,Arua,Rwanda,2016,7,Female,77,University,7,1,Single Parent,Borehole,Yes,Cassava,0.54,WASH,Food Insecurity,405944
+762,UNHCR-UG-10422,South West,Nakivale,Arua,Rwanda,2020,1,Male,73,University,8,4,None,Borehole,No,None,3.24,WASH,None,252326
+763,UNHCR-UG-10423,Mid West,Kiryandongo,Arua,Rwanda,2022,7,Male,36,University,4,2,None,Borehole,Yes,Cassava,0.78,NFI,None,218194
+764,UNHCR-UG-10424,Mid West,Kiryandongo,Arua,Ethiopia,2017,3,Female,46,Secondary,8,4,None,Borehole,No,None,2.72,WASH,Food Insecurity,454065
+765,UNHCR-UG-10425,Mid West,Kiryandongo,Arua,South Sudan,2019,6,Male,40,Primary,3,1,None,River,No,None,2.9,Cash,None,164777
+766,UNHCR-UG-10426,South West,Oruchinga,Arua,Ethiopia,2022,9,Male,64,Primary,4,0,Disability,Borehole,No,Vegetables,0.44,Food,Food Insecurity,115890
+767,UNHCR-UG-10427,Central,Kampala Urban,Arua,Ethiopia,2025,7,Male,33,University,9,1,None,Borehole,No,Maize,2.88,NFI,Child Protection,129088
+768,UNHCR-UG-10428,West Nile,Rhino Camp,Arua,Sudan,2020,9,Female,22,Secondary,4,3,Single Parent,River,No,Maize,1.6,Cash,Child Protection,9603
+769,UNHCR-UG-10429,South West,Oruchinga,Arua,Ethiopia,2020,3,Male,31,Secondary,5,3,Elderly,Tap,No,Vegetables,3.36,Food,GBV Risk,78898
+770,UNHCR-UG-10430,Mid West,Kiryandongo,Arua,Eritrea,2019,4,Female,33,Secondary,6,3,Disability,Tap,No,Vegetables,0.8,WASH,Child Protection,486439
+771,UNHCR-UG-10431,Mid West,Kiryandongo,Arua,South Sudan,2019,1,Male,50,Primary,10,4,Elderly,River,No,None,2.64,Food,None,448399
+772,UNHCR-UG-10432,South West,Oruchinga,Arua,Burundi,2024,9,Female,77,None,9,0,Unaccompanied Child,Borehole,Yes,Vegetables,2.37,WASH,GBV Risk,116277
+773,UNHCR-UG-10433,South West,Oruchinga,Arua,Burundi,2021,8,Male,47,Primary,2,1,Disability,Tap,No,Beans,1.07,Cash,Child Protection,135762
+774,UNHCR-UG-10434,South West,Nakivale,Arua,Rwanda,2022,4,Male,29,Primary,7,4,Unaccompanied Child,River,No,None,0.97,NFI,Child Protection,140035
+775,UNHCR-UG-10435,West Nile,Palorinya,Arua,Burundi,2018,6,Female,56,Primary,1,4,None,Borehole,Yes,None,0.16,Food,Child Protection,490481
+776,UNHCR-UG-10436,Mid West,Kiryandongo,Arua,Sudan,2020,1,Male,46,Primary,2,3,Unaccompanied Child,River,No,Vegetables,0.91,WASH,None,341969
+777,UNHCR-UG-10437,Central,Kampala Urban,Arua,Eritrea,2020,8,Female,56,Secondary,1,0,Elderly,River,Yes,None,2.01,Food,None,34952
+778,UNHCR-UG-10438,Mid West,Kiryandongo,Arua,Ethiopia,2022,4,Male,35,Secondary,3,3,Single Parent,Tap,Yes,Beans,2.43,Food,GBV Risk,72174
+779,UNHCR-UG-10439,South West,Nakivale,Arua,Rwanda,2025,7,Male,58,University,1,4,None,Tap,No,Cassava,2.22,Food,None,451992
+780,UNHCR-UG-10440,South West,Kyangwali,Arua,South Sudan,2023,3,Female,55,University,4,4,Disability,Borehole,No,Beans,2.88,WASH,GBV Risk,136679
+781,UNHCR-UG-10441,West Nile,Rhino Camp,Arua,Burundi,2017,5,Female,23,None,4,4,Woman at Risk,Borehole,Yes,Beans,0.31,NFI,None,491758
+782,UNHCR-UG-10442,Central,Kampala Urban,Arua,South Sudan,2020,7,Female,69,Secondary,3,0,Single Parent,Tap,Yes,Cassava,3.01,Food,Child Protection,43537
+783,UNHCR-UG-10443,South West,Oruchinga,Arua,Somalia,2024,3,Female,35,Primary,7,1,Woman at Risk,Borehole,Yes,Vegetables,2.78,Food,GBV Risk,237102
+784,UNHCR-UG-10444,South West,Oruchinga,Arua,DRC,2025,4,Male,28,None,1,3,Elderly,River,No,None,1.38,NFI,None,338985
+785,UNHCR-UG-10445,Central,Kampala Urban,Arua,Sudan,2021,8,Female,57,Primary,8,1,Unaccompanied Child,Borehole,Yes,Beans,2.36,WASH,None,441581
+786,UNHCR-UG-10446,Mid West,Kiryandongo,Arua,Burundi,2021,2,Male,71,University,7,1,None,Tap,No,Cassava,1.59,NFI,GBV Risk,162360
+787,UNHCR-UG-10447,South West,Rwamwanja,Arua,Ethiopia,2017,9,Female,22,None,6,1,Unaccompanied Child,River,Yes,Beans,3.08,Food,GBV Risk,336457
+788,UNHCR-UG-10448,South West,Kyangwali,Arua,Eritrea,2016,1,Female,29,University,4,0,Elderly,Borehole,Yes,Vegetables,1.43,WASH,Child Protection,410006
+789,UNHCR-UG-10449,West Nile,Imvepi,Arua,Burundi,2021,3,Female,56,Primary,1,3,Unaccompanied Child,Tap,No,None,0.17,Food,Food Insecurity,358099
+790,UNHCR-UG-10450,South West,Kyangwali,Arua,Burundi,2016,3,Female,21,University,4,2,Disability,Tap,No,Beans,3.0,WASH,GBV Risk,214717
+791,UNHCR-UG-10451,South West,Rwamwanja,Arua,Sudan,2021,7,Male,72,University,6,1,Woman at Risk,Tap,No,None,2.37,Food,Food Insecurity,143588
+792,UNHCR-UG-10452,Central,Kampala Urban,Arua,Rwanda,2016,9,Female,21,University,1,0,Unaccompanied Child,River,No,Vegetables,1.18,Food,Food Insecurity,238730
+793,UNHCR-UG-10453,West Nile,Bidi Bidi,Yumbe,Burundi,2022,10,Female,73,Primary,8,2,None,Tap,Yes,None,0.63,NFI,GBV Risk,142029
+794,UNHCR-UG-10454,Central,Kampala Urban,Arua,Eritrea,2019,7,Female,26,None,3,2,Single Parent,Borehole,No,Beans,1.59,Cash,GBV Risk,220754
+795,UNHCR-UG-10455,Mid West,Kiryandongo,Arua,DRC,2022,1,Female,59,Secondary,5,0,Disability,Tap,Yes,None,1.54,Food,None,26008
+796,UNHCR-UG-10456,West Nile,Bidi Bidi,Yumbe,DRC,2018,8,Female,43,University,4,3,Woman at Risk,Borehole,Yes,Maize,2.76,WASH,Child Protection,163925
+797,UNHCR-UG-10457,Mid West,Kiryandongo,Arua,Sudan,2025,9,Female,27,University,8,4,Elderly,River,No,Maize,2.23,NFI,Child Protection,168540
+798,UNHCR-UG-10458,Central,Kampala Urban,Arua,DRC,2025,8,Female,34,Primary,10,2,Disability,River,No,Vegetables,1.88,NFI,None,328027
+799,UNHCR-UG-10459,Mid West,Kiryandongo,Arua,South Sudan,2025,8,Female,59,None,2,2,Elderly,Borehole,Yes,Vegetables,2.87,Cash,Child Protection,227976
+800,UNHCR-UG-10460,Mid West,Kiryandongo,Arua,Burundi,2016,8,Male,30,University,5,1,Disability,Tap,Yes,Maize,2.9,NFI,GBV Risk,403004
+801,UNHCR-UG-10461,Mid West,Kiryandongo,Arua,Ethiopia,2022,8,Female,22,None,1,0,None,Borehole,Yes,Beans,0.23,WASH,None,26097
+802,UNHCR-UG-10462,West Nile,Bidi Bidi,Yumbe,South Sudan,2025,5,Female,52,Secondary,1,0,Unaccompanied Child,Borehole,Yes,None,1.51,NFI,GBV Risk,162263
+803,UNHCR-UG-10463,Central,Kampala Urban,Arua,Eritrea,2022,7,Male,39,University,1,0,Single Parent,Tap,Yes,Beans,0.98,NFI,None,395618
+804,UNHCR-UG-10464,Mid West,Kiryandongo,Arua,South Sudan,2020,7,Male,72,University,3,3,Woman at Risk,Tap,Yes,None,3.32,Cash,GBV Risk,181084
+805,UNHCR-UG-10465,South West,Kyangwali,Arua,Sudan,2018,2,Female,35,Primary,1,3,Unaccompanied Child,River,No,Cassava,1.28,Cash,Food Insecurity,296661
+806,UNHCR-UG-10466,South West,Kyaka II,Arua,DRC,2020,8,Male,54,Primary,5,4,Woman at Risk,Tap,No,Cassava,2.92,NFI,Child Protection,190635
+807,UNHCR-UG-10467,West Nile,Lobule,Arua,Somalia,2022,9,Female,57,Secondary,9,2,Single Parent,Borehole,No,Maize,3.27,WASH,Child Protection,313808
+808,UNHCR-UG-10468,Central,Kampala Urban,Arua,South Sudan,2020,7,Male,43,Secondary,4,3,Disability,Borehole,Yes,None,1.19,WASH,Child Protection,143723
+809,UNHCR-UG-10469,Mid West,Kiryandongo,Arua,DRC,2017,5,Male,66,None,7,2,None,Tap,No,Maize,2.27,NFI,Food Insecurity,149314
+810,UNHCR-UG-10470,West Nile,Rhino Camp,Arua,DRC,2024,7,Male,36,None,1,4,Disability,Tap,Yes,Maize,2.52,Food,Child Protection,387215
+811,UNHCR-UG-10471,West Nile,Rhino Camp,Arua,DRC,2023,1,Female,62,None,3,1,None,Borehole,No,Maize,3.32,Cash,Child Protection,343070
+812,UNHCR-UG-10472,South West,Nakivale,Arua,South Sudan,2019,2,Female,58,None,1,0,Single Parent,River,Yes,Cassava,2.68,WASH,Child Protection,150466
+813,UNHCR-UG-10473,Mid West,Kiryandongo,Arua,Rwanda,2016,10,Male,58,Primary,9,0,None,Tap,Yes,Maize,2.32,Cash,None,416751
+814,UNHCR-UG-10474,South West,Oruchinga,Arua,Eritrea,2021,10,Female,56,Primary,7,2,Disability,River,No,Cassava,3.17,WASH,Food Insecurity,495490
+815,UNHCR-UG-10475,West Nile,Imvepi,Arua,Eritrea,2021,3,Male,21,University,8,0,Disability,Tap,Yes,Cassava,2.11,Food,GBV Risk,122889
+816,UNHCR-UG-10476,Mid West,Kiryandongo,Arua,Somalia,2018,8,Female,48,Primary,5,1,Disability,River,No,Vegetables,0.2,Cash,Child Protection,448768
+817,UNHCR-UG-10477,West Nile,Palorinya,Arua,Somalia,2018,10,Female,48,Secondary,1,4,Disability,Borehole,Yes,Beans,2.4,NFI,GBV Risk,330888
+818,UNHCR-UG-10478,Central,Kampala Urban,Arua,Burundi,2023,7,Male,55,Primary,6,2,Woman at Risk,River,Yes,None,2.07,NFI,None,83684
+819,UNHCR-UG-10479,Mid West,Kiryandongo,Arua,DRC,2023,8,Female,66,Secondary,10,0,Single Parent,River,No,None,1.04,Food,GBV Risk,283249
+820,UNHCR-UG-10480,Mid West,Kiryandongo,Arua,Ethiopia,2020,1,Female,74,University,10,4,None,Borehole,No,Maize,1.91,Cash,None,153957
+821,UNHCR-UG-10481,Mid West,Kiryandongo,Arua,South Sudan,2023,8,Male,62,University,4,1,Single Parent,Tap,No,Beans,2.82,WASH,None,363408
+822,UNHCR-UG-10482,Mid West,Kiryandongo,Arua,Sudan,2022,10,Male,64,Secondary,4,1,Woman at Risk,Borehole,No,Vegetables,3.47,NFI,None,422299
+823,UNHCR-UG-10483,South West,Nakivale,Arua,DRC,2019,7,Male,36,None,1,1,Elderly,Borehole,Yes,Cassava,0.64,Cash,GBV Risk,64231
+824,UNHCR-UG-10484,South West,Kyaka II,Arua,DRC,2019,6,Male,75,Secondary,10,1,None,Borehole,Yes,None,2.1,WASH,GBV Risk,206435
+825,UNHCR-UG-10485,Central,Kampala Urban,Arua,Somalia,2017,2,Male,38,Primary,4,2,Single Parent,River,Yes,Beans,2.83,NFI,Child Protection,327490
+826,UNHCR-UG-10486,Central,Kampala Urban,Arua,Somalia,2024,5,Female,46,None,9,1,Single Parent,Tap,Yes,Beans,0.11,Cash,Child Protection,25029
+827,UNHCR-UG-10487,Mid West,Kiryandongo,Arua,Sudan,2018,7,Female,42,Primary,2,1,Woman at Risk,River,No,Beans,0.58,Food,GBV Risk,494927
+828,UNHCR-UG-10488,Central,Kampala Urban,Arua,South Sudan,2024,8,Female,22,None,1,2,Single Parent,Borehole,Yes,Beans,2.14,Food,None,428887
+829,UNHCR-UG-10489,Mid West,Kiryandongo,Arua,Ethiopia,2020,2,Male,32,None,3,1,Single Parent,Tap,No,Cassava,1.55,NFI,GBV Risk,251469
+830,UNHCR-UG-10490,South West,Oruchinga,Arua,Rwanda,2017,8,Female,39,University,4,1,Unaccompanied Child,River,No,Beans,2.78,Cash,None,398387
+831,UNHCR-UG-10491,Mid West,Kiryandongo,Arua,DRC,2021,5,Female,50,University,1,3,Single Parent,Tap,No,None,2.65,WASH,GBV Risk,361416
+832,UNHCR-UG-10492,Mid West,Kiryandongo,Arua,Sudan,2023,7,Female,66,None,7,0,Single Parent,Borehole,No,Beans,3.28,NFI,GBV Risk,441139
+833,UNHCR-UG-10493,West Nile,Palorinya,Arua,Rwanda,2019,9,Female,39,University,3,4,Disability,Tap,Yes,Beans,1.38,WASH,Food Insecurity,100866
+834,UNHCR-UG-10494,Mid West,Kiryandongo,Arua,DRC,2023,10,Male,51,University,9,4,Single Parent,Borehole,No,Cassava,3.05,NFI,Child Protection,103100
+835,UNHCR-UG-10495,Central,Kampala Urban,Arua,Eritrea,2019,9,Female,34,University,7,1,Woman at Risk,Borehole,No,Cassava,1.81,Cash,None,411571
+836,UNHCR-UG-10496,Mid West,Kiryandongo,Arua,Somalia,2019,2,Male,58,Secondary,5,4,Disability,Borehole,Yes,Beans,1.04,NFI,Child Protection,155659
+837,UNHCR-UG-10497,South West,Rwamwanja,Arua,South Sudan,2025,8,Female,29,Secondary,5,3,Woman at Risk,Borehole,No,Maize,2.24,Food,GBV Risk,58079
+838,UNHCR-UG-10498,Central,Kampala Urban,Arua,Rwanda,2016,7,Male,39,University,8,1,Elderly,Tap,Yes,Cassava,2.89,NFI,GBV Risk,39698
+839,UNHCR-UG-10499,Central,Kampala Urban,Arua,Somalia,2023,5,Female,50,Primary,10,3,Elderly,River,Yes,Cassava,3.02,WASH,None,67159
+840,UNHCR-UG-10500,South West,Rwamwanja,Arua,Somalia,2024,6,Male,69,University,8,2,Unaccompanied Child,Tap,Yes,Cassava,1.46,Cash,None,344228
+841,UNHCR-UG-10501,Central,Kampala Urban,Arua,Burundi,2018,9,Female,20,Secondary,7,2,Elderly,River,No,Vegetables,1.95,WASH,Child Protection,102272
+842,UNHCR-UG-10502,Mid West,Kiryandongo,Arua,Rwanda,2019,8,Male,41,University,4,0,Disability,Tap,Yes,None,1.81,Cash,Child Protection,349967
+843,UNHCR-UG-10503,West Nile,Lobule,Arua,Ethiopia,2024,9,Female,56,None,2,4,None,River,No,Beans,2.88,NFI,Child Protection,76685
+844,UNHCR-UG-10504,West Nile,Lobule,Arua,Burundi,2021,6,Male,21,Secondary,7,1,None,Borehole,Yes,None,1.18,Cash,Child Protection,461501
+845,UNHCR-UG-10505,West Nile,Bidi Bidi,Yumbe,Burundi,2022,9,Male,70,Primary,10,3,Unaccompanied Child,Tap,Yes,Vegetables,0.97,NFI,GBV Risk,253602
+846,UNHCR-UG-10506,West Nile,Palorinya,Arua,Sudan,2020,3,Male,65,Primary,5,0,Single Parent,Tap,Yes,Beans,1.43,WASH,Food Insecurity,333852
+847,UNHCR-UG-10507,South West,Kyangwali,Arua,Somalia,2025,8,Female,62,Primary,3,1,None,Tap,Yes,Vegetables,2.75,Cash,Food Insecurity,350540
+848,UNHCR-UG-10508,Mid West,Kiryandongo,Arua,Rwanda,2022,8,Male,77,Primary,8,2,Woman at Risk,Borehole,No,Cassava,2.27,NFI,GBV Risk,333965
+849,UNHCR-UG-10509,Central,Kampala Urban,Arua,Eritrea,2016,9,Female,23,Primary,5,3,Unaccompanied Child,Tap,Yes,Beans,3.41,Cash,Child Protection,129552
+850,UNHCR-UG-10510,Mid West,Kiryandongo,Arua,Rwanda,2022,2,Male,61,Primary,3,0,Unaccompanied Child,River,No,Vegetables,1.05,Food,Food Insecurity,134637
+851,UNHCR-UG-10511,Mid West,Kiryandongo,Arua,Rwanda,2017,4,Male,47,None,8,0,None,Tap,No,Beans,1.49,WASH,Child Protection,298907
+852,UNHCR-UG-10512,Central,Kampala Urban,Arua,Sudan,2017,1,Female,63,Primary,2,1,Woman at Risk,Tap,Yes,None,2.63,WASH,GBV Risk,482288
+853,UNHCR-UG-10513,West Nile,Bidi Bidi,Yumbe,Ethiopia,2020,7,Female,75,University,9,3,Elderly,Borehole,No,Maize,2.08,Food,None,430044
+854,UNHCR-UG-10514,Central,Kampala Urban,Arua,Ethiopia,2017,8,Female,60,Secondary,5,2,None,River,No,Beans,2.01,NFI,None,422893
+855,UNHCR-UG-10515,Mid West,Kiryandongo,Arua,South Sudan,2018,4,Female,23,Secondary,4,2,Elderly,Borehole,No,Cassava,0.35,Cash,Food Insecurity,363833
+856,UNHCR-UG-10516,South West,Rwamwanja,Arua,South Sudan,2024,6,Female,34,Secondary,9,4,Disability,Borehole,No,None,1.56,WASH,Child Protection,238961
+857,UNHCR-UG-10517,West Nile,Imvepi,Arua,Burundi,2025,10,Male,68,Primary,3,1,Woman at Risk,River,Yes,Maize,2.71,WASH,None,371347
+858,UNHCR-UG-10518,Central,Kampala Urban,Arua,Burundi,2016,5,Female,54,None,7,3,Single Parent,Borehole,Yes,Maize,0.76,WASH,Food Insecurity,326210
+859,UNHCR-UG-10519,South West,Kyangwali,Arua,DRC,2020,1,Male,48,Secondary,10,2,Disability,Borehole,Yes,Vegetables,1.64,Cash,None,273333
+860,UNHCR-UG-10520,Central,Kampala Urban,Arua,Eritrea,2019,4,Female,49,None,4,0,Woman at Risk,Borehole,No,Cassava,1.72,WASH,None,211302
+861,UNHCR-UG-10521,South West,Kyaka II,Arua,Burundi,2019,1,Female,18,Primary,5,2,Elderly,River,Yes,Beans,0.9,Food,None,61129
+862,UNHCR-UG-10522,West Nile,Imvepi,Arua,Eritrea,2020,5,Male,51,Secondary,6,0,Woman at Risk,Borehole,Yes,None,0.16,Food,Child Protection,131447
+863,UNHCR-UG-10523,West Nile,Palorinya,Arua,Burundi,2025,3,Female,62,Secondary,3,3,Elderly,River,No,Cassava,0.51,NFI,Food Insecurity,457233
+864,UNHCR-UG-10524,South West,Oruchinga,Arua,Sudan,2023,3,Male,56,None,6,4,Unaccompanied Child,Borehole,No,Beans,2.21,Cash,GBV Risk,257702
+865,UNHCR-UG-10525,West Nile,Palorinya,Arua,Burundi,2021,6,Male,19,Secondary,7,4,None,Tap,Yes,Vegetables,1.63,Food,Food Insecurity,180700
+866,UNHCR-UG-10526,Mid West,Kiryandongo,Arua,Somalia,2016,6,Female,62,University,9,3,Woman at Risk,Borehole,Yes,Beans,0.48,WASH,Food Insecurity,362906
+867,UNHCR-UG-10527,Central,Kampala Urban,Arua,DRC,2022,9,Female,65,None,3,4,Disability,River,No,Beans,1.03,WASH,GBV Risk,122161
+868,UNHCR-UG-10528,Central,Kampala Urban,Arua,Burundi,2021,10,Female,43,Primary,2,2,Unaccompanied Child,Tap,Yes,Beans,3.05,WASH,None,429117
+869,UNHCR-UG-10529,West Nile,Lobule,Arua,South Sudan,2023,6,Female,38,None,4,0,Single Parent,River,No,Vegetables,3.19,NFI,GBV Risk,40977
+870,UNHCR-UG-10530,West Nile,Lobule,Arua,Eritrea,2017,3,Male,40,None,10,2,None,Borehole,No,Beans,0.41,Food,Child Protection,27428
+871,UNHCR-UG-10531,South West,Kyangwali,Arua,Sudan,2025,4,Male,57,Primary,10,3,Unaccompanied Child,Borehole,Yes,Maize,3.21,NFI,Child Protection,52313
+872,UNHCR-UG-10532,South West,Nakivale,Arua,South Sudan,2025,4,Male,76,Secondary,9,0,Unaccompanied Child,Tap,No,Maize,0.85,WASH,Child Protection,355080
+873,UNHCR-UG-10533,West Nile,Lobule,Arua,Eritrea,2016,3,Male,38,Primary,10,0,Elderly,Borehole,Yes,None,2.79,WASH,GBV Risk,453227
+874,UNHCR-UG-10534,West Nile,Rhino Camp,Arua,South Sudan,2017,2,Female,39,None,9,4,Disability,River,No,None,2.74,NFI,Food Insecurity,290508
+875,UNHCR-UG-10535,West Nile,Imvepi,Arua,DRC,2022,9,Male,70,University,10,2,None,River,Yes,None,2.37,Food,None,43359
+876,UNHCR-UG-10536,South West,Oruchinga,Arua,Somalia,2021,1,Male,35,None,1,2,Single Parent,Tap,Yes,Maize,2.71,Cash,GBV Risk,194238
+877,UNHCR-UG-10537,South West,Rwamwanja,Arua,Burundi,2023,6,Female,19,University,2,1,None,Borehole,No,Maize,1.22,WASH,Food Insecurity,31668
+878,UNHCR-UG-10538,West Nile,Rhino Camp,Arua,Somalia,2016,7,Male,40,Secondary,1,2,Elderly,River,No,Beans,3.16,Cash,GBV Risk,267937
+879,UNHCR-UG-10539,South West,Kyangwali,Arua,Ethiopia,2016,10,Female,51,University,2,3,Disability,River,Yes,Maize,1.34,NFI,Child Protection,53240
+880,UNHCR-UG-10540,West Nile,Bidi Bidi,Yumbe,DRC,2022,8,Male,65,Secondary,6,1,Woman at Risk,Tap,No,Cassava,3.25,Cash,Child Protection,276095
+881,UNHCR-UG-10541,Central,Kampala Urban,Arua,Somalia,2018,1,Male,40,Secondary,5,3,Elderly,River,No,Beans,1.32,Food,Food Insecurity,442188
+882,UNHCR-UG-10542,Central,Kampala Urban,Arua,Eritrea,2021,6,Male,52,University,9,0,Unaccompanied Child,Borehole,No,Maize,2.34,Food,None,225446
+883,UNHCR-UG-10543,South West,Kyangwali,Arua,Burundi,2018,2,Male,28,None,2,4,Single Parent,Borehole,No,Beans,2.93,Food,Food Insecurity,385168
+884,UNHCR-UG-10544,West Nile,Imvepi,Arua,Burundi,2024,7,Female,23,None,1,0,Unaccompanied Child,Tap,Yes,None,2.42,WASH,Food Insecurity,109003
+885,UNHCR-UG-10545,South West,Nakivale,Arua,Somalia,2020,3,Male,65,Primary,2,0,Unaccompanied Child,Borehole,Yes,Vegetables,1.96,Food,None,392423
+886,UNHCR-UG-10546,South West,Rwamwanja,Arua,South Sudan,2018,7,Male,64,Primary,8,0,Single Parent,Borehole,Yes,Cassava,1.73,Food,Child Protection,485743
+887,UNHCR-UG-10547,Mid West,Kiryandongo,Arua,South Sudan,2020,2,Female,65,Primary,9,2,Elderly,Tap,Yes,Maize,2.44,Food,None,377365
+888,UNHCR-UG-10548,South West,Kyangwali,Arua,Eritrea,2020,9,Male,34,None,4,1,Unaccompanied Child,River,No,Maize,1.57,Cash,Child Protection,100145
+889,UNHCR-UG-10549,Central,Kampala Urban,Arua,Eritrea,2025,8,Female,29,Primary,1,0,None,Borehole,Yes,Beans,3.4,NFI,Food Insecurity,56372
+890,UNHCR-UG-10550,West Nile,Palorinya,Arua,Somalia,2017,3,Male,28,None,10,3,Disability,Tap,Yes,Vegetables,1.93,Food,GBV Risk,316303
+891,UNHCR-UG-10551,West Nile,Imvepi,Arua,Rwanda,2023,2,Male,43,Primary,9,2,Elderly,Tap,Yes,Beans,3.08,WASH,Food Insecurity,104418
+892,UNHCR-UG-10552,Central,Kampala Urban,Arua,Ethiopia,2025,10,Female,74,None,9,3,Disability,River,No,Vegetables,0.85,WASH,Food Insecurity,147839
+893,UNHCR-UG-10553,South West,Rwamwanja,Arua,Somalia,2019,8,Male,21,University,1,2,Unaccompanied Child,Borehole,No,None,0.91,WASH,Child Protection,309985
+894,UNHCR-UG-10554,West Nile,Bidi Bidi,Yumbe,Rwanda,2023,5,Female,55,Secondary,5,2,None,Borehole,Yes,Maize,0.63,WASH,Food Insecurity,248829
+895,UNHCR-UG-10555,South West,Nakivale,Arua,Somalia,2025,2,Male,72,Primary,1,4,None,Borehole,Yes,Beans,1.93,WASH,Food Insecurity,469933
+896,UNHCR-UG-10556,West Nile,Rhino Camp,Arua,Rwanda,2018,6,Male,30,None,3,1,Disability,Tap,Yes,Cassava,3.44,WASH,GBV Risk,351692
+897,UNHCR-UG-10557,Mid West,Kiryandongo,Arua,Rwanda,2023,1,Female,66,Primary,6,4,Woman at Risk,River,Yes,Maize,0.52,NFI,Food Insecurity,382776
+898,UNHCR-UG-10558,South West,Rwamwanja,Arua,South Sudan,2021,8,Female,55,None,8,3,Single Parent,Tap,No,Beans,2.71,Food,Food Insecurity,260413
+899,UNHCR-UG-10559,Mid West,Kiryandongo,Arua,DRC,2025,1,Female,41,University,1,3,Single Parent,River,No,Cassava,3.45,Cash,Food Insecurity,347007
+900,UNHCR-UG-10560,West Nile,Palorinya,Arua,Somalia,2016,4,Male,61,Secondary,5,0,None,Tap,Yes,Cassava,2.17,NFI,None,173328
+901,UNHCR-UG-10561,West Nile,Lobule,Arua,Ethiopia,2024,1,Female,71,Primary,2,4,Unaccompanied Child,River,Yes,Vegetables,2.64,NFI,None,192777
+902,UNHCR-UG-10562,Central,Kampala Urban,Arua,Somalia,2019,6,Female,45,University,4,4,Disability,River,Yes,None,1.48,Cash,Food Insecurity,30858
+903,UNHCR-UG-10563,Mid West,Kiryandongo,Arua,DRC,2024,10,Female,24,Primary,4,4,Elderly,Borehole,No,Vegetables,2.05,WASH,None,388347
+904,UNHCR-UG-10564,South West,Kyangwali,Arua,Burundi,2020,6,Male,19,Secondary,3,3,None,River,No,Cassava,1.99,WASH,None,267712
+905,UNHCR-UG-10565,Mid West,Kiryandongo,Arua,Eritrea,2018,3,Male,60,University,4,1,Unaccompanied Child,Tap,No,None,2.93,NFI,None,32429
+906,UNHCR-UG-10566,Central,Kampala Urban,Arua,Rwanda,2019,4,Female,25,None,5,0,Woman at Risk,Tap,Yes,Maize,3.44,WASH,Child Protection,143194
+907,UNHCR-UG-10567,West Nile,Lobule,Arua,Sudan,2017,8,Female,61,None,8,2,Unaccompanied Child,Tap,No,None,0.32,Food,Food Insecurity,33836
+908,UNHCR-UG-10568,West Nile,Lobule,Arua,DRC,2017,2,Male,41,University,6,3,Elderly,River,Yes,Cassava,0.32,NFI,Food Insecurity,437364
+909,UNHCR-UG-10569,Central,Kampala Urban,Arua,Somalia,2025,7,Female,53,None,9,0,Single Parent,Borehole,Yes,None,2.31,Food,GBV Risk,256243
+910,UNHCR-UG-10570,Mid West,Kiryandongo,Arua,South Sudan,2017,1,Male,55,University,1,4,None,River,No,Maize,0.28,NFI,GBV Risk,353327
+911,UNHCR-UG-10571,South West,Nakivale,Arua,Burundi,2016,4,Male,31,Primary,2,4,None,River,Yes,Cassava,0.36,WASH,Food Insecurity,283493
+912,UNHCR-UG-10572,South West,Kyaka II,Arua,Somalia,2023,3,Male,56,Secondary,4,4,Elderly,Tap,No,None,3.48,WASH,None,35562
+913,UNHCR-UG-10573,West Nile,Bidi Bidi,Yumbe,Ethiopia,2022,5,Male,67,Primary,3,0,Single Parent,Tap,No,None,1.53,WASH,Food Insecurity,362475
+914,UNHCR-UG-10574,Mid West,Kiryandongo,Arua,Sudan,2016,2,Male,71,Secondary,2,4,Woman at Risk,Tap,Yes,Beans,1.35,Food,Food Insecurity,50787
+915,UNHCR-UG-10575,West Nile,Imvepi,Arua,DRC,2019,10,Male,22,Secondary,8,3,Disability,Borehole,No,Maize,3.05,Cash,None,34692
+916,UNHCR-UG-10576,South West,Oruchinga,Arua,Ethiopia,2025,7,Male,29,None,3,0,Disability,Borehole,Yes,Beans,1.94,NFI,None,35864
+917,UNHCR-UG-10577,South West,Kyaka II,Arua,Ethiopia,2019,6,Female,53,Secondary,1,4,Single Parent,Borehole,Yes,None,3.01,NFI,GBV Risk,269435
+918,UNHCR-UG-10578,West Nile,Rhino Camp,Arua,Somalia,2025,2,Female,63,Primary,10,2,Unaccompanied Child,River,Yes,Cassava,0.71,Food,GBV Risk,217639
+919,UNHCR-UG-10579,Central,Kampala Urban,Arua,Burundi,2017,2,Female,25,None,7,2,None,River,No,Beans,3.24,Cash,Child Protection,242745
+920,UNHCR-UG-10580,Mid West,Kiryandongo,Arua,Ethiopia,2023,8,Male,73,None,10,2,Disability,Borehole,No,Vegetables,1.87,NFI,GBV Risk,394173
+921,UNHCR-UG-10581,West Nile,Imvepi,Arua,Eritrea,2023,8,Female,64,Secondary,3,1,Unaccompanied Child,River,Yes,Beans,1.55,Food,Food Insecurity,432217
+922,UNHCR-UG-10582,South West,Oruchinga,Arua,Sudan,2024,5,Female,44,University,3,3,Elderly,River,Yes,Maize,2.9,Cash,GBV Risk,150206
+923,UNHCR-UG-10583,West Nile,Imvepi,Arua,Sudan,2023,2,Female,34,Primary,3,4,Woman at Risk,Tap,No,None,3.23,Cash,Food Insecurity,101419
+924,UNHCR-UG-10584,Central,Kampala Urban,Arua,Burundi,2021,8,Female,30,Primary,10,0,Disability,River,No,None,2.68,Cash,Food Insecurity,51516
+925,UNHCR-UG-10585,Mid West,Kiryandongo,Arua,South Sudan,2022,4,Female,29,Primary,4,2,Unaccompanied Child,Tap,Yes,Beans,0.86,Food,Food Insecurity,36121
+926,UNHCR-UG-10586,Mid West,Kiryandongo,Arua,DRC,2025,1,Male,26,Secondary,9,3,Woman at Risk,Borehole,Yes,Maize,0.4,WASH,Food Insecurity,179048
+927,UNHCR-UG-10587,West Nile,Palorinya,Arua,Ethiopia,2025,6,Female,52,None,9,2,None,Borehole,Yes,Vegetables,3.07,WASH,Food Insecurity,382633
+928,UNHCR-UG-10588,Mid West,Kiryandongo,Arua,South Sudan,2021,5,Male,35,Secondary,2,0,None,Tap,No,Maize,1.33,Cash,None,359896
+929,UNHCR-UG-10589,West Nile,Palorinya,Arua,Ethiopia,2018,8,Female,73,Primary,7,4,Unaccompanied Child,River,No,Cassava,3.14,Cash,GBV Risk,198569
+930,UNHCR-UG-10590,Central,Kampala Urban,Arua,Sudan,2022,7,Female,60,Secondary,4,0,Elderly,Tap,No,Cassava,0.49,WASH,None,442397
+931,UNHCR-UG-10591,West Nile,Bidi Bidi,Yumbe,Rwanda,2017,5,Female,66,Primary,6,3,Woman at Risk,Borehole,Yes,Vegetables,1.92,NFI,Food Insecurity,211385
+932,UNHCR-UG-10592,South West,Nakivale,Arua,Ethiopia,2021,5,Male,56,None,3,2,Single Parent,Borehole,Yes,Maize,2.2,NFI,Child Protection,193098
+933,UNHCR-UG-10593,West Nile,Rhino Camp,Arua,Ethiopia,2018,6,Female,45,University,4,4,Single Parent,Borehole,No,Beans,1.92,Cash,Child Protection,67965
+934,UNHCR-UG-10594,Mid West,Kiryandongo,Arua,Eritrea,2022,6,Male,28,University,10,0,Woman at Risk,Borehole,Yes,Vegetables,3.09,NFI,GBV Risk,335
+935,UNHCR-UG-10595,Central,Kampala Urban,Arua,Sudan,2019,3,Male,29,University,2,0,Single Parent,Tap,No,None,0.11,Cash,Child Protection,260183
+936,UNHCR-UG-10596,Mid West,Kiryandongo,Arua,Somalia,2019,5,Female,62,None,8,2,Single Parent,Tap,Yes,Maize,0.74,WASH,Food Insecurity,407213
+937,UNHCR-UG-10597,Mid West,Kiryandongo,Arua,Somalia,2025,10,Female,58,Primary,5,1,None,Borehole,No,Maize,1.84,WASH,Food Insecurity,22063
+938,UNHCR-UG-10598,West Nile,Rhino Camp,Arua,Ethiopia,2024,5,Female,69,None,5,0,Single Parent,Borehole,Yes,Vegetables,0.65,Food,Food Insecurity,176203
+939,UNHCR-UG-10599,Mid West,Kiryandongo,Arua,Somalia,2018,5,Female,58,Primary,6,1,Woman at Risk,Tap,Yes,Maize,0.71,Food,GBV Risk,491475
+940,UNHCR-UG-10600,West Nile,Palorinya,Arua,Eritrea,2018,9,Male,69,None,8,1,Disability,River,No,Cassava,1.16,WASH,Child Protection,426077
+941,UNHCR-UG-10601,West Nile,Bidi Bidi,Yumbe,Rwanda,2024,9,Male,64,Secondary,7,3,Disability,Borehole,No,Beans,2.96,WASH,GBV Risk,353741
+942,UNHCR-UG-10602,South West,Kyaka II,Arua,Burundi,2019,10,Male,62,University,7,0,Disability,Borehole,Yes,Vegetables,0.28,NFI,GBV Risk,364048
+943,UNHCR-UG-10603,Mid West,Kiryandongo,Arua,Burundi,2019,6,Female,50,University,1,4,Unaccompanied Child,Borehole,No,Beans,1.26,WASH,Child Protection,78060
+944,UNHCR-UG-10604,South West,Kyangwali,Arua,Rwanda,2018,8,Male,69,None,9,4,None,River,Yes,None,1.78,Food,GBV Risk,99723
+945,UNHCR-UG-10605,Mid West,Kiryandongo,Arua,Sudan,2021,2,Female,33,Primary,7,0,Single Parent,River,No,Beans,2.1,Cash,None,256502
+946,UNHCR-UG-10606,Central,Kampala Urban,Arua,Ethiopia,2016,4,Female,71,None,4,1,None,Borehole,Yes,Beans,3.29,Food,Child Protection,191950
+947,UNHCR-UG-10607,Mid West,Kiryandongo,Arua,Eritrea,2018,6,Female,75,University,5,0,Elderly,River,Yes,Vegetables,2.14,NFI,GBV Risk,395986
+948,UNHCR-UG-10608,Mid West,Kiryandongo,Arua,DRC,2024,7,Male,30,University,1,1,Single Parent,River,No,Vegetables,0.95,NFI,Food Insecurity,262325
+949,UNHCR-UG-10609,Central,Kampala Urban,Arua,Sudan,2020,6,Male,54,None,3,0,Single Parent,River,Yes,Beans,0.93,WASH,None,267074
+950,UNHCR-UG-10610,Central,Kampala Urban,Arua,Burundi,2020,5,Female,44,Primary,6,0,Unaccompanied Child,Tap,No,Cassava,1.75,Food,Child Protection,243230
+951,UNHCR-UG-10611,Central,Kampala Urban,Arua,Eritrea,2021,1,Female,28,Secondary,8,0,Disability,Tap,Yes,Vegetables,1.22,NFI,GBV Risk,347173
+952,UNHCR-UG-10612,West Nile,Rhino Camp,Arua,South Sudan,2021,9,Female,24,Primary,3,2,Single Parent,Tap,No,Beans,3.0,NFI,None,490823
+953,UNHCR-UG-10613,Central,Kampala Urban,Arua,Burundi,2018,8,Female,58,University,7,4,Single Parent,Tap,No,None,2.1,Cash,None,438006
+954,UNHCR-UG-10614,South West,Kyangwali,Arua,Rwanda,2021,6,Male,38,University,6,2,None,River,No,Vegetables,3.42,Cash,None,166388
+955,UNHCR-UG-10615,Mid West,Kiryandongo,Arua,Ethiopia,2016,2,Female,61,Primary,9,2,Disability,River,No,None,0.83,Food,GBV Risk,99426
+956,UNHCR-UG-10616,West Nile,Imvepi,Arua,South Sudan,2023,9,Male,51,University,8,2,None,Borehole,Yes,None,3.5,Cash,GBV Risk,272455
+957,UNHCR-UG-10617,West Nile,Bidi Bidi,Yumbe,Sudan,2019,2,Male,25,None,4,3,Unaccompanied Child,River,No,Vegetables,1.78,Food,None,356456
+958,UNHCR-UG-10618,South West,Oruchinga,Arua,Ethiopia,2023,1,Male,31,University,9,2,Elderly,River,No,Cassava,3.43,WASH,None,55794
+959,UNHCR-UG-10619,Central,Kampala Urban,Arua,Somalia,2016,7,Female,71,Secondary,8,4,Disability,Tap,No,Cassava,1.64,WASH,Child Protection,450021
+960,UNHCR-UG-10620,West Nile,Imvepi,Arua,DRC,2022,5,Female,38,Secondary,3,3,Unaccompanied Child,Borehole,No,Maize,2.33,NFI,None,266013
+961,UNHCR-UG-10621,Central,Kampala Urban,Arua,Rwanda,2024,8,Male,34,None,2,1,Elderly,Borehole,No,Maize,2.63,Cash,None,219746
+962,UNHCR-UG-10622,Mid West,Kiryandongo,Arua,Somalia,2021,6,Male,69,Primary,5,0,Woman at Risk,River,Yes,Beans,2.91,Cash,None,8618
+963,UNHCR-UG-10623,West Nile,Lobule,Arua,Eritrea,2017,1,Male,25,Primary,2,3,Elderly,Tap,Yes,None,2.23,WASH,Food Insecurity,242954
+964,UNHCR-UG-10624,Central,Kampala Urban,Arua,Somalia,2025,8,Female,73,None,8,3,None,Borehole,Yes,Maize,2.4,NFI,GBV Risk,414427
+965,UNHCR-UG-10625,Central,Kampala Urban,Arua,South Sudan,2016,10,Male,33,University,8,2,Single Parent,Borehole,Yes,Beans,2.42,Food,GBV Risk,365897
+966,UNHCR-UG-10626,Central,Kampala Urban,Arua,Burundi,2020,7,Female,65,Primary,4,3,Elderly,River,No,Beans,0.88,WASH,Child Protection,311975
+967,UNHCR-UG-10627,Mid West,Kiryandongo,Arua,DRC,2020,8,Male,57,Primary,2,3,None,Borehole,Yes,Cassava,1.83,Food,GBV Risk,203897
+968,UNHCR-UG-10628,West Nile,Lobule,Arua,Burundi,2025,1,Female,19,Primary,5,3,Elderly,River,No,Cassava,2.51,WASH,GBV Risk,229136
+969,UNHCR-UG-10629,Mid West,Kiryandongo,Arua,South Sudan,2018,7,Female,26,University,8,2,Single Parent,Borehole,Yes,Beans,0.68,NFI,Food Insecurity,266639
+970,UNHCR-UG-10630,South West,Kyangwali,Arua,Ethiopia,2016,7,Male,77,University,9,3,Single Parent,Borehole,No,Cassava,1.62,Cash,GBV Risk,31947
+971,UNHCR-UG-10631,Central,Kampala Urban,Arua,Ethiopia,2024,7,Male,58,None,1,1,Woman at Risk,River,No,Vegetables,2.15,WASH,None,215962
+972,UNHCR-UG-10632,Mid West,Kiryandongo,Arua,Somalia,2021,6,Male,51,Primary,6,2,Disability,Tap,No,Cassava,2.58,NFI,GBV Risk,430583
+973,UNHCR-UG-10633,Central,Kampala Urban,Arua,Burundi,2016,2,Female,71,University,7,4,Elderly,Borehole,No,None,3.48,Cash,GBV Risk,105162
+974,UNHCR-UG-10634,Central,Kampala Urban,Arua,Rwanda,2017,1,Male,54,Secondary,3,1,Single Parent,Borehole,Yes,Maize,0.81,WASH,Food Insecurity,397768
+975,UNHCR-UG-10635,Central,Kampala Urban,Arua,DRC,2018,8,Male,44,Secondary,5,1,Single Parent,Borehole,Yes,None,3.02,Food,Food Insecurity,360430
+976,UNHCR-UG-10636,Central,Kampala Urban,Arua,Burundi,2018,3,Female,43,Primary,9,3,None,Borehole,Yes,Vegetables,1.0,NFI,Child Protection,333794
+977,UNHCR-UG-10637,Mid West,Kiryandongo,Arua,Rwanda,2025,2,Male,21,Primary,4,2,Unaccompanied Child,River,Yes,Beans,2.74,WASH,None,145086
+978,UNHCR-UG-10638,Central,Kampala Urban,Arua,South Sudan,2024,3,Female,72,Secondary,2,4,None,Borehole,No,Maize,0.67,NFI,Child Protection,254398
+979,UNHCR-UG-10639,Mid West,Kiryandongo,Arua,Eritrea,2025,5,Male,59,None,4,0,None,Borehole,No,Cassava,2.23,Cash,Child Protection,354477
+980,UNHCR-UG-10640,Central,Kampala Urban,Arua,South Sudan,2017,4,Male,35,University,7,2,Elderly,Borehole,No,Beans,2.46,NFI,None,483116
+981,UNHCR-UG-10641,Mid West,Kiryandongo,Arua,Eritrea,2016,10,Male,64,University,8,0,None,Borehole,No,None,2.16,WASH,None,404547
+982,UNHCR-UG-10642,West Nile,Palorinya,Arua,Sudan,2024,2,Male,71,None,7,0,Unaccompanied Child,River,No,None,2.65,Cash,None,230201
+983,UNHCR-UG-10643,Central,Kampala Urban,Arua,Somalia,2019,10,Female,54,Secondary,4,2,None,Tap,No,Beans,3.01,WASH,None,293276
+984,UNHCR-UG-10644,West Nile,Rhino Camp,Arua,Eritrea,2020,2,Male,72,University,7,0,Woman at Risk,Borehole,No,Vegetables,2.78,Cash,Child Protection,130314
+985,UNHCR-UG-10645,South West,Kyangwali,Arua,Burundi,2020,8,Female,50,Secondary,2,2,Elderly,Tap,Yes,None,0.86,WASH,Food Insecurity,233366
+986,UNHCR-UG-10646,Central,Kampala Urban,Arua,Ethiopia,2020,5,Female,22,University,1,1,Unaccompanied Child,Tap,Yes,Vegetables,1.63,Cash,GBV Risk,226069
+987,UNHCR-UG-10647,Mid West,Kiryandongo,Arua,Sudan,2024,6,Male,49,University,4,2,Elderly,River,Yes,Maize,1.39,WASH,None,368031
+988,UNHCR-UG-10648,Central,Kampala Urban,Arua,South Sudan,2022,9,Female,44,University,9,4,Disability,Borehole,Yes,None,3.07,WASH,Food Insecurity,414684
+989,UNHCR-UG-10649,Central,Kampala Urban,Arua,South Sudan,2025,1,Female,73,Secondary,4,0,Woman at Risk,Tap,Yes,Cassava,1.2,Cash,GBV Risk,14491
+990,UNHCR-UG-10650,South West,Kyangwali,Arua,Ethiopia,2025,2,Female,77,None,10,0,Single Parent,Borehole,Yes,Beans,2.46,NFI,None,412754
+991,UNHCR-UG-10651,Mid West,Kiryandongo,Arua,Somalia,2018,6,Male,42,Secondary,7,1,Woman at Risk,River,No,Vegetables,0.99,Food,None,59998
+992,UNHCR-UG-10652,South West,Rwamwanja,Arua,South Sudan,2025,2,Female,23,Primary,10,4,Elderly,Tap,No,Maize,3.48,Cash,GBV Risk,205159
+993,UNHCR-UG-10653,Mid West,Kiryandongo,Arua,DRC,2024,3,Male,25,Secondary,10,3,None,Borehole,No,Cassava,2.92,Cash,GBV Risk,780
+994,UNHCR-UG-10654,Central,Kampala Urban,Arua,Sudan,2020,10,Female,55,Primary,2,2,None,River,No,Maize,2.53,WASH,None,493733
+995,UNHCR-UG-10655,South West,Nakivale,Arua,Rwanda,2019,2,Female,50,None,9,4,Woman at Risk,Tap,No,Maize,0.94,NFI,Food Insecurity,462932
+996,UNHCR-UG-10656,Mid West,Kiryandongo,Arua,Burundi,2023,9,Female,56,Primary,1,0,Unaccompanied Child,River,No,None,2.92,NFI,Child Protection,212677
+997,UNHCR-UG-10657,West Nile,Imvepi,Arua,DRC,2019,4,Female,49,University,1,0,Woman at Risk,Borehole,Yes,None,2.92,WASH,Child Protection,387851
+998,UNHCR-UG-10658,South West,Nakivale,Arua,Somalia,2021,9,Female,61,Primary,6,2,Disability,Tap,Yes,None,0.39,Food,GBV Risk,372444
+999,UNHCR-UG-10659,West Nile,Imvepi,Arua,Somalia,2017,2,Female,50,Secondary,7,1,Disability,River,No,Maize,2.17,NFI,Child Protection,170641
+1000,UNHCR-UG-10660,Mid West,Kiryandongo,Arua,DRC,2020,10,Male,67,None,6,0,None,Borehole,Yes,None,0.39,Food,GBV Risk,489808
+1001,UNHCR-UG-10661,Central,Kampala Urban,Arua,Rwanda,2016,4,Male,33,None,2,3,None,Tap,No,Cassava,1.04,NFI,None,158054
+1002,UNHCR-UG-10662,Central,Kampala Urban,Arua,Ethiopia,2025,2,Female,28,University,5,4,Disability,Tap,Yes,Vegetables,1.47,WASH,Child Protection,272042
+1003,UNHCR-UG-10663,West Nile,Lobule,Arua,DRC,2023,7,Female,73,Primary,4,2,None,Borehole,Yes,Maize,0.2,Cash,None,393222
+1004,UNHCR-UG-10664,Mid West,Kiryandongo,Arua,Ethiopia,2021,5,Female,40,None,2,3,Elderly,River,No,Beans,3.44,WASH,GBV Risk,27398
+1005,UNHCR-UG-10665,West Nile,Imvepi,Arua,Somalia,2018,2,Male,68,University,1,0,Disability,River,No,None,1.7,Cash,Food Insecurity,414078
+1006,UNHCR-UG-10666,Mid West,Kiryandongo,Arua,South Sudan,2019,5,Female,61,Primary,9,4,Single Parent,River,Yes,Beans,2.59,Food,Food Insecurity,168002
+1007,UNHCR-UG-10667,South West,Oruchinga,Arua,DRC,2019,4,Male,66,University,1,3,Unaccompanied Child,Borehole,No,Cassava,3.45,NFI,Child Protection,448039
+1008,UNHCR-UG-10668,Mid West,Kiryandongo,Arua,Somalia,2016,9,Female,41,University,8,2,Elderly,Borehole,No,Cassava,1.23,Cash,None,23024
+1009,UNHCR-UG-10669,Central,Kampala Urban,Arua,Ethiopia,2023,10,Male,64,Primary,4,0,Woman at Risk,Tap,Yes,Cassava,1.93,WASH,None,420077
+1010,UNHCR-UG-10670,Mid West,Kiryandongo,Arua,South Sudan,2023,7,Female,61,None,7,0,Elderly,Borehole,Yes,Cassava,1.15,WASH,GBV Risk,338187
+1011,UNHCR-UG-10671,South West,Kyaka II,Arua,Somalia,2022,6,Male,40,University,4,3,Unaccompanied Child,Borehole,No,Maize,3.29,NFI,Food Insecurity,287194
+1012,UNHCR-UG-10672,West Nile,Rhino Camp,Arua,Rwanda,2021,8,Female,50,Secondary,3,4,Elderly,Tap,Yes,Vegetables,2.98,WASH,Child Protection,303753
+1013,UNHCR-UG-10673,Mid West,Kiryandongo,Arua,Ethiopia,2022,8,Female,75,Secondary,10,1,Single Parent,Borehole,Yes,None,0.21,Food,Child Protection,236151
+1014,UNHCR-UG-10674,South West,Nakivale,Arua,Burundi,2018,2,Male,46,Primary,3,3,Woman at Risk,River,Yes,Vegetables,2.42,NFI,Food Insecurity,493887
+1015,UNHCR-UG-10675,South West,Kyaka II,Arua,DRC,2025,6,Female,59,Primary,4,2,Single Parent,Tap,Yes,Cassava,3.43,Food,Food Insecurity,73525
+1016,UNHCR-UG-10676,West Nile,Lobule,Arua,DRC,2025,8,Male,57,Secondary,1,2,Elderly,River,No,None,0.75,Food,None,81870
+1017,UNHCR-UG-10677,Central,Kampala Urban,Arua,Ethiopia,2018,3,Male,38,None,7,3,Disability,River,No,Vegetables,1.96,NFI,Child Protection,353881
+1018,UNHCR-UG-10678,Central,Kampala Urban,Arua,Sudan,2023,8,Female,48,Primary,7,3,Disability,Tap,No,Cassava,1.38,NFI,None,62912
+1019,UNHCR-UG-10679,Central,Kampala Urban,Arua,Somalia,2019,9,Male,32,University,3,0,Elderly,Tap,Yes,Maize,3.43,NFI,Child Protection,345489
+1020,UNHCR-UG-10680,Central,Kampala Urban,Arua,South Sudan,2025,4,Male,57,University,10,0,Disability,Tap,Yes,None,2.87,WASH,None,475763
+1021,UNHCR-UG-10681,West Nile,Palorinya,Arua,Somalia,2016,8,Male,46,None,5,3,Disability,Borehole,No,Vegetables,2.86,NFI,Child Protection,478695
+1022,UNHCR-UG-10682,Mid West,Kiryandongo,Arua,Eritrea,2025,6,Male,31,None,5,3,Disability,Tap,No,Vegetables,1.1,WASH,Food Insecurity,161445
+1023,UNHCR-UG-10683,West Nile,Imvepi,Arua,Somalia,2018,4,Male,56,Primary,9,0,Single Parent,Tap,Yes,Maize,2.23,Food,Child Protection,24889
+1024,UNHCR-UG-10684,Central,Kampala Urban,Arua,Eritrea,2023,8,Male,61,University,3,4,Unaccompanied Child,River,No,Beans,1.96,NFI,None,115848
+1025,UNHCR-UG-10685,Central,Kampala Urban,Arua,Sudan,2019,3,Male,31,None,7,4,Single Parent,Tap,No,Cassava,0.94,Cash,None,14649
+1026,UNHCR-UG-10686,Central,Kampala Urban,Arua,South Sudan,2024,9,Female,54,Primary,10,3,Elderly,Borehole,No,Maize,1.52,Cash,Food Insecurity,8045
+1027,UNHCR-UG-10687,Mid West,Kiryandongo,Arua,Burundi,2020,4,Male,49,University,5,1,Elderly,Borehole,No,Maize,0.74,Food,GBV Risk,377609
+1028,UNHCR-UG-10688,West Nile,Bidi Bidi,Yumbe,South Sudan,2018,4,Male,35,Secondary,3,3,None,River,No,Cassava,0.26,Cash,None,380649
+1029,UNHCR-UG-10689,South West,Nakivale,Arua,DRC,2017,1,Male,44,None,1,0,Single Parent,River,No,Maize,3.31,WASH,GBV Risk,178474
+1030,UNHCR-UG-10690,Central,Kampala Urban,Arua,Ethiopia,2022,5,Female,32,University,5,3,Unaccompanied Child,Borehole,Yes,Maize,1.28,WASH,Food Insecurity,294017
+1031,UNHCR-UG-10691,West Nile,Lobule,Arua,Somalia,2023,1,Male,52,Primary,5,4,Single Parent,River,No,Beans,2.09,Food,Food Insecurity,186064
+1032,UNHCR-UG-10692,Mid West,Kiryandongo,Arua,Ethiopia,2019,3,Male,63,None,1,0,Unaccompanied Child,Borehole,No,None,2.98,NFI,Child Protection,96551
+1033,UNHCR-UG-10693,Mid West,Kiryandongo,Arua,Burundi,2016,8,Female,77,Secondary,10,4,None,Borehole,Yes,Cassava,0.45,Food,None,56499
+1034,UNHCR-UG-10694,Mid West,Kiryandongo,Arua,Eritrea,2017,10,Male,24,Secondary,5,4,None,Tap,Yes,Vegetables,0.32,NFI,Food Insecurity,462189
+1035,UNHCR-UG-10695,Mid West,Kiryandongo,Arua,South Sudan,2021,8,Male,68,University,7,1,Elderly,Tap,No,Beans,0.21,Cash,None,479430
+1036,UNHCR-UG-10696,Mid West,Kiryandongo,Arua,Sudan,2017,2,Female,58,Primary,5,2,Unaccompanied Child,Borehole,Yes,Maize,0.94,Food,None,374373
+1037,UNHCR-UG-10697,Central,Kampala Urban,Arua,Somalia,2023,1,Male,37,Primary,5,4,Elderly,Borehole,Yes,Cassava,2.58,WASH,None,489591
+1038,UNHCR-UG-10698,West Nile,Rhino Camp,Arua,Sudan,2020,2,Male,28,Primary,5,3,None,Tap,Yes,Maize,2.36,WASH,GBV Risk,370141
+1039,UNHCR-UG-10699,West Nile,Rhino Camp,Arua,Rwanda,2023,2,Female,68,University,7,0,Single Parent,Tap,No,Vegetables,2.44,Food,Food Insecurity,296552
+1040,UNHCR-UG-10700,Central,Kampala Urban,Arua,Rwanda,2019,1,Female,36,Primary,6,3,None,River,Yes,Beans,1.48,Food,GBV Risk,467591
+1041,UNHCR-UG-10701,Mid West,Kiryandongo,Arua,South Sudan,2021,10,Male,60,University,8,2,Disability,River,No,Beans,1.08,Cash,GBV Risk,304425
+1042,UNHCR-UG-10702,Central,Kampala Urban,Arua,Rwanda,2025,7,Male,50,Secondary,10,1,Woman at Risk,Tap,Yes,Maize,3.25,Food,GBV Risk,395307
+1043,UNHCR-UG-10703,Central,Kampala Urban,Arua,Rwanda,2018,3,Male,77,None,1,0,Unaccompanied Child,Tap,No,Maize,2.95,WASH,Food Insecurity,137897
+1044,UNHCR-UG-10704,South West,Oruchinga,Arua,DRC,2017,2,Female,41,Primary,4,4,Single Parent,Borehole,Yes,None,0.72,Food,None,217544
+1045,UNHCR-UG-10705,West Nile,Lobule,Arua,DRC,2021,9,Female,45,Secondary,10,0,Woman at Risk,Tap,Yes,Beans,2.65,WASH,Child Protection,42070
+1046,UNHCR-UG-10706,South West,Oruchinga,Arua,Rwanda,2016,4,Female,71,Secondary,9,0,Elderly,Tap,Yes,Maize,3.15,Cash,Child Protection,353640
+1047,UNHCR-UG-10707,Mid West,Kiryandongo,Arua,Burundi,2018,5,Male,54,Primary,1,0,Disability,Tap,No,Beans,0.3,WASH,Food Insecurity,250444
+1048,UNHCR-UG-10708,Mid West,Kiryandongo,Arua,Rwanda,2021,10,Male,62,Secondary,7,0,Disability,Tap,No,Maize,2.19,Food,GBV Risk,306727
+1049,UNHCR-UG-10709,West Nile,Imvepi,Arua,Ethiopia,2021,6,Female,41,None,8,4,Elderly,Borehole,Yes,None,1.66,Food,Child Protection,387860
+1050,UNHCR-UG-10710,West Nile,Palorinya,Arua,DRC,2020,3,Male,72,University,10,3,Woman at Risk,Tap,No,Cassava,2.95,Food,None,392161
+1051,UNHCR-UG-10711,Central,Kampala Urban,Arua,Sudan,2020,6,Female,73,None,1,0,Disability,River,No,None,1.24,Cash,Food Insecurity,94539
+1052,UNHCR-UG-10712,South West,Kyaka II,Arua,Ethiopia,2021,8,Male,59,University,6,3,Disability,Tap,Yes,Beans,1.3,Food,Child Protection,338648
+1053,UNHCR-UG-10713,West Nile,Rhino Camp,Arua,Sudan,2017,2,Female,37,University,3,3,Single Parent,Tap,Yes,None,0.96,NFI,Child Protection,226578
+1054,UNHCR-UG-10714,West Nile,Lobule,Arua,Ethiopia,2016,7,Male,56,University,7,1,Disability,Tap,Yes,None,2.73,Food,Food Insecurity,105850
+1055,UNHCR-UG-10715,Central,Kampala Urban,Arua,Burundi,2018,10,Female,67,None,8,0,Disability,Borehole,Yes,None,2.48,WASH,Food Insecurity,47493
+1056,UNHCR-UG-10716,West Nile,Lobule,Arua,Rwanda,2018,7,Male,40,Primary,1,0,Unaccompanied Child,River,No,Maize,0.14,Cash,Food Insecurity,21752
+1057,UNHCR-UG-10717,Central,Kampala Urban,Arua,DRC,2024,6,Female,19,Primary,6,0,Elderly,Borehole,No,None,1.93,WASH,Food Insecurity,114822
+1058,UNHCR-UG-10718,Mid West,Kiryandongo,Arua,DRC,2018,1,Male,64,University,1,1,Single Parent,Borehole,Yes,Maize,2.45,WASH,Food Insecurity,60594
+1059,UNHCR-UG-10719,Mid West,Kiryandongo,Arua,DRC,2021,4,Female,33,None,7,3,None,River,No,Vegetables,0.73,NFI,GBV Risk,329421
+1060,UNHCR-UG-10720,South West,Rwamwanja,Arua,South Sudan,2017,10,Female,32,Secondary,2,0,Woman at Risk,River,No,Cassava,2.19,NFI,GBV Risk,239378
+1061,UNHCR-UG-10721,Mid West,Kiryandongo,Arua,Eritrea,2019,2,Female,64,University,10,2,Elderly,Borehole,Yes,None,1.39,Cash,GBV Risk,48935
+1062,UNHCR-UG-10722,South West,Nakivale,Arua,Rwanda,2017,3,Female,27,University,4,1,Elderly,Borehole,Yes,Beans,3.41,NFI,Food Insecurity,45461
+1063,UNHCR-UG-10723,Mid West,Kiryandongo,Arua,Somalia,2025,1,Male,29,None,7,3,None,River,Yes,Cassava,2.41,NFI,Child Protection,302606
+1064,UNHCR-UG-10724,Central,Kampala Urban,Arua,South Sudan,2018,6,Female,75,None,8,0,Unaccompanied Child,Borehole,Yes,Beans,2.5,Cash,GBV Risk,408309
+1065,UNHCR-UG-10725,Mid West,Kiryandongo,Arua,Sudan,2017,10,Female,69,None,7,1,Disability,Tap,Yes,Cassava,1.61,NFI,GBV Risk,378135
+1066,UNHCR-UG-10726,Mid West,Kiryandongo,Arua,Eritrea,2019,3,Female,37,University,6,1,Elderly,River,No,Cassava,0.97,NFI,Food Insecurity,28224
+1067,UNHCR-UG-10727,West Nile,Bidi Bidi,Yumbe,DRC,2025,6,Female,18,University,8,3,Woman at Risk,Borehole,Yes,Maize,3.42,NFI,GBV Risk,286137
+1068,UNHCR-UG-10728,Mid West,Kiryandongo,Arua,Somalia,2024,4,Male,54,Primary,3,2,Elderly,Borehole,Yes,Vegetables,1.97,WASH,Food Insecurity,55255
+1069,UNHCR-UG-10729,Mid West,Kiryandongo,Arua,Sudan,2020,8,Female,37,Primary,1,3,Woman at Risk,Tap,No,None,0.56,NFI,GBV Risk,491555
+1070,UNHCR-UG-10730,West Nile,Bidi Bidi,Yumbe,Ethiopia,2022,6,Male,77,Secondary,5,4,Woman at Risk,Tap,No,None,0.25,NFI,Child Protection,40466
+1071,UNHCR-UG-10731,Mid West,Kiryandongo,Arua,South Sudan,2021,4,Male,68,Secondary,8,3,None,Borehole,No,Cassava,0.2,Food,Child Protection,218068
+1072,UNHCR-UG-10732,Mid West,Kiryandongo,Arua,Ethiopia,2020,3,Female,47,University,1,1,Single Parent,Borehole,Yes,Vegetables,2.03,Food,GBV Risk,405540
+1073,UNHCR-UG-10733,Central,Kampala Urban,Arua,Burundi,2016,9,Male,73,None,3,1,Woman at Risk,River,No,Vegetables,2.83,Food,None,361204
+1074,UNHCR-UG-10734,South West,Oruchinga,Arua,Sudan,2016,2,Female,62,Secondary,5,1,None,River,No,None,0.62,NFI,None,308642
+1075,UNHCR-UG-10735,Mid West,Kiryandongo,Arua,Burundi,2023,5,Female,18,Secondary,7,4,Single Parent,Tap,No,Vegetables,0.41,NFI,GBV Risk,358283
+1076,UNHCR-UG-10736,Central,Kampala Urban,Arua,DRC,2020,1,Male,35,Secondary,1,3,Woman at Risk,River,Yes,Maize,0.42,Food,Child Protection,45234
+1077,UNHCR-UG-10737,South West,Kyaka II,Arua,Ethiopia,2017,7,Female,25,None,1,0,Unaccompanied Child,Tap,No,Maize,1.11,NFI,Child Protection,17933
+1078,UNHCR-UG-10738,West Nile,Lobule,Arua,South Sudan,2024,4,Male,59,University,4,4,Disability,Tap,No,Cassava,3.19,WASH,Food Insecurity,379089
+1079,UNHCR-UG-10739,South West,Kyangwali,Arua,Somalia,2017,4,Female,56,University,2,3,Single Parent,River,Yes,Cassava,0.89,WASH,Food Insecurity,224726
+1080,UNHCR-UG-10740,Central,Kampala Urban,Arua,Somalia,2024,10,Female,77,Secondary,10,3,Disability,Borehole,No,None,1.62,NFI,Child Protection,128014
+1081,UNHCR-UG-10741,Central,Kampala Urban,Arua,Sudan,2025,2,Female,55,None,3,2,Woman at Risk,Borehole,Yes,Beans,0.79,Cash,Child Protection,239350
+1082,UNHCR-UG-10742,South West,Kyaka II,Arua,Somalia,2017,10,Female,77,None,9,4,Disability,Tap,Yes,Maize,0.91,NFI,Child Protection,304416
+1083,UNHCR-UG-10743,Central,Kampala Urban,Arua,Eritrea,2023,1,Male,68,Secondary,2,3,Elderly,River,Yes,Beans,1.7,Food,Food Insecurity,63720
+1084,UNHCR-UG-10744,Mid West,Kiryandongo,Arua,Sudan,2021,4,Male,55,Primary,3,3,Single Parent,Tap,Yes,Vegetables,0.72,NFI,GBV Risk,320748
+1085,UNHCR-UG-10745,Central,Kampala Urban,Arua,Somalia,2017,10,Male,64,University,2,1,None,Borehole,No,None,2.39,WASH,Food Insecurity,78075
+1086,UNHCR-UG-10746,Central,Kampala Urban,Arua,Ethiopia,2018,10,Male,24,Primary,2,3,Disability,River,Yes,Cassava,2.24,Food,GBV Risk,455535
+1087,UNHCR-UG-10747,South West,Kyangwali,Arua,Burundi,2023,1,Male,67,None,5,3,Woman at Risk,River,Yes,None,1.59,WASH,None,202684
+1088,UNHCR-UG-10748,Central,Kampala Urban,Arua,South Sudan,2017,5,Male,45,University,4,3,Unaccompanied Child,Borehole,No,Cassava,1.68,NFI,GBV Risk,355651
+1089,UNHCR-UG-10749,West Nile,Lobule,Arua,Somalia,2018,10,Female,73,Secondary,6,1,Disability,River,No,Maize,2.95,Cash,Child Protection,47077
+1090,UNHCR-UG-10750,West Nile,Rhino Camp,Arua,Burundi,2020,10,Male,58,None,2,0,Disability,Borehole,No,Vegetables,0.55,Cash,None,400888
+1091,UNHCR-UG-10751,West Nile,Rhino Camp,Arua,Rwanda,2019,8,Male,52,University,2,3,Disability,Borehole,Yes,Cassava,2.5,WASH,Food Insecurity,285474
+1092,UNHCR-UG-10752,Central,Kampala Urban,Arua,Eritrea,2025,10,Female,73,None,7,2,Unaccompanied Child,Borehole,Yes,Cassava,1.68,WASH,None,52458
+1093,UNHCR-UG-10753,South West,Oruchinga,Arua,Burundi,2020,2,Female,63,University,6,1,Woman at Risk,Borehole,No,Maize,3.42,WASH,GBV Risk,67702
+1094,UNHCR-UG-10754,South West,Oruchinga,Arua,South Sudan,2018,8,Female,25,Secondary,7,4,Disability,Tap,No,Cassava,3.22,Cash,GBV Risk,347134
+1095,UNHCR-UG-10755,West Nile,Palorinya,Arua,Sudan,2018,6,Male,74,Secondary,8,0,None,River,No,None,0.52,Cash,GBV Risk,460614
+1096,UNHCR-UG-10756,West Nile,Imvepi,Arua,DRC,2019,5,Female,68,University,5,1,Disability,Borehole,No,None,0.53,Food,Child Protection,227391
+1097,UNHCR-UG-10757,South West,Kyaka II,Arua,South Sudan,2020,8,Male,55,None,5,4,Elderly,Tap,Yes,None,1.08,Cash,Food Insecurity,35019
+1098,UNHCR-UG-10758,West Nile,Bidi Bidi,Yumbe,Eritrea,2020,6,Male,37,Primary,9,0,None,River,No,Beans,2.9,WASH,Child Protection,251369
+1099,UNHCR-UG-10759,Mid West,Kiryandongo,Arua,DRC,2025,5,Female,69,None,2,4,Woman at Risk,River,Yes,Maize,1.22,NFI,None,211267
+1100,UNHCR-UG-10760,South West,Kyangwali,Arua,Eritrea,2025,4,Male,50,Secondary,3,3,Unaccompanied Child,Borehole,Yes,Cassava,0.17,Food,Child Protection,284936
+1101,UNHCR-UG-10761,Central,Kampala Urban,Arua,Eritrea,2024,8,Male,20,University,6,2,Woman at Risk,Borehole,No,Maize,0.81,Cash,Child Protection,285452
+1102,UNHCR-UG-10762,South West,Kyangwali,Arua,Ethiopia,2025,5,Male,70,None,1,4,Elderly,Borehole,No,Beans,0.24,Cash,Child Protection,93608
+1103,UNHCR-UG-10763,Central,Kampala Urban,Arua,Burundi,2021,1,Female,21,None,8,2,None,Borehole,No,Maize,1.0,NFI,Food Insecurity,312178
+1104,UNHCR-UG-10764,South West,Nakivale,Arua,Somalia,2017,1,Female,71,None,4,4,Disability,River,Yes,Maize,0.77,Cash,Food Insecurity,333232
+1105,UNHCR-UG-10765,South West,Kyangwali,Arua,Ethiopia,2016,9,Male,29,University,5,0,Disability,Borehole,No,Beans,2.72,Cash,None,98572
+1106,UNHCR-UG-10766,South West,Oruchinga,Arua,DRC,2024,2,Male,25,Primary,1,0,Woman at Risk,Tap,Yes,Beans,2.33,NFI,None,306114
+1107,UNHCR-UG-10767,South West,Nakivale,Arua,South Sudan,2023,8,Male,73,Secondary,3,4,Disability,Borehole,Yes,None,2.33,WASH,Food Insecurity,478114
+1108,UNHCR-UG-10768,Central,Kampala Urban,Arua,Burundi,2017,7,Male,37,None,3,1,Elderly,River,No,Cassava,3.19,WASH,Food Insecurity,90336
+1109,UNHCR-UG-10769,Central,Kampala Urban,Arua,Sudan,2024,8,Female,19,Secondary,2,4,Single Parent,River,Yes,Maize,0.86,NFI,GBV Risk,70878
+1110,UNHCR-UG-10770,Central,Kampala Urban,Arua,DRC,2022,6,Female,49,Secondary,9,4,Single Parent,River,No,Cassava,2.62,WASH,Food Insecurity,259333
+1111,UNHCR-UG-10771,Mid West,Kiryandongo,Arua,Burundi,2022,1,Female,20,None,6,0,Disability,River,No,Cassava,0.38,Cash,None,43075
+1112,UNHCR-UG-10772,South West,Rwamwanja,Arua,Burundi,2018,7,Male,41,Secondary,3,1,Disability,Tap,No,Vegetables,2.52,NFI,Food Insecurity,155586
+1113,UNHCR-UG-10773,Mid West,Kiryandongo,Arua,Burundi,2017,3,Female,56,University,8,0,Disability,River,Yes,Cassava,2.71,NFI,GBV Risk,217121
+1114,UNHCR-UG-10774,West Nile,Bidi Bidi,Yumbe,Sudan,2025,5,Male,23,University,2,2,Elderly,Borehole,Yes,Beans,0.3,Food,Food Insecurity,123168
+1115,UNHCR-UG-10775,West Nile,Lobule,Arua,Sudan,2018,8,Female,42,Primary,7,3,Single Parent,River,Yes,Vegetables,3.29,WASH,Food Insecurity,2866
+1116,UNHCR-UG-10776,West Nile,Rhino Camp,Arua,Ethiopia,2025,10,Female,75,Secondary,2,2,Single Parent,Tap,Yes,Maize,3.43,Cash,Food Insecurity,93497
+1117,UNHCR-UG-10777,Mid West,Kiryandongo,Arua,Rwanda,2023,5,Female,21,None,5,0,None,Tap,No,Cassava,1.61,Cash,Child Protection,146993
+1118,UNHCR-UG-10778,West Nile,Bidi Bidi,Yumbe,Burundi,2020,9,Male,77,University,9,0,None,Borehole,No,Maize,1.22,NFI,Child Protection,489090
+1119,UNHCR-UG-10779,Central,Kampala Urban,Arua,DRC,2022,5,Female,71,University,4,4,Disability,Tap,No,Beans,0.58,NFI,GBV Risk,90571
+1120,UNHCR-UG-10780,Mid West,Kiryandongo,Arua,Burundi,2025,2,Female,53,Primary,9,1,Single Parent,River,No,Beans,3.27,Food,GBV Risk,199332
+1121,UNHCR-UG-10781,West Nile,Bidi Bidi,Yumbe,Rwanda,2022,5,Female,30,Secondary,1,0,None,Borehole,No,Cassava,1.81,Cash,Food Insecurity,138879
+1122,UNHCR-UG-10782,West Nile,Palorinya,Arua,Somalia,2020,10,Female,18,Secondary,7,3,Single Parent,Borehole,Yes,None,0.96,Cash,Food Insecurity,72490
+1123,UNHCR-UG-10783,Mid West,Kiryandongo,Arua,Burundi,2019,1,Male,49,University,9,2,Disability,Tap,Yes,Beans,0.16,Cash,GBV Risk,106239
+1124,UNHCR-UG-10784,Central,Kampala Urban,Arua,Rwanda,2016,5,Female,18,Primary,4,0,Unaccompanied Child,Tap,Yes,Cassava,1.53,Food,Food Insecurity,268841
+1125,UNHCR-UG-10785,South West,Nakivale,Arua,Somalia,2021,7,Male,41,Primary,5,3,Disability,River,Yes,Beans,0.49,NFI,Food Insecurity,230147
+1126,UNHCR-UG-10786,Mid West,Kiryandongo,Arua,Eritrea,2023,3,Male,70,Secondary,9,0,Woman at Risk,Borehole,No,Cassava,3.36,NFI,None,286425
+1127,UNHCR-UG-10787,Central,Kampala Urban,Arua,Burundi,2021,3,Female,70,Primary,9,0,Single Parent,Tap,No,None,1.74,WASH,Child Protection,418286
+1128,UNHCR-UG-10788,South West,Nakivale,Arua,DRC,2016,7,Male,49,None,3,4,Woman at Risk,River,Yes,Maize,3.41,NFI,Food Insecurity,206730
+1129,UNHCR-UG-10789,South West,Nakivale,Arua,South Sudan,2018,2,Male,68,None,1,4,Elderly,Tap,Yes,Beans,2.99,WASH,Child Protection,5900
+1130,UNHCR-UG-10790,West Nile,Imvepi,Arua,Sudan,2024,1,Male,27,Secondary,7,1,None,Tap,Yes,Maize,3.03,Food,None,150946
+1131,UNHCR-UG-10791,Mid West,Kiryandongo,Arua,Burundi,2021,10,Male,75,None,7,0,None,Borehole,Yes,Beans,2.21,Food,GBV Risk,338887
+1132,UNHCR-UG-10792,Mid West,Kiryandongo,Arua,Ethiopia,2020,5,Male,65,Secondary,10,2,Disability,Tap,Yes,Beans,2.08,NFI,None,154869
+1133,UNHCR-UG-10793,Central,Kampala Urban,Arua,Rwanda,2025,9,Male,38,Primary,6,4,Elderly,Tap,No,Vegetables,2.68,Food,GBV Risk,403464
+1134,UNHCR-UG-10794,South West,Rwamwanja,Arua,Ethiopia,2023,6,Female,43,None,10,4,Elderly,Tap,No,Beans,3.33,Cash,Child Protection,486129
+1135,UNHCR-UG-10795,South West,Kyaka II,Arua,Sudan,2020,7,Female,49,None,4,0,Elderly,Tap,No,Maize,0.64,WASH,Food Insecurity,93318
+1136,UNHCR-UG-10796,Central,Kampala Urban,Arua,South Sudan,2021,9,Male,38,University,2,2,Woman at Risk,Tap,Yes,Vegetables,1.75,Cash,GBV Risk,176098
+1137,UNHCR-UG-10797,Mid West,Kiryandongo,Arua,DRC,2017,8,Male,77,University,4,4,Woman at Risk,Borehole,No,Beans,3.17,WASH,GBV Risk,482557
+1138,UNHCR-UG-10798,Central,Kampala Urban,Arua,Ethiopia,2022,6,Female,46,None,6,4,Woman at Risk,River,No,Maize,1.12,WASH,None,289760
+1139,UNHCR-UG-10799,Central,Kampala Urban,Arua,South Sudan,2018,1,Male,49,University,10,0,None,Tap,No,Vegetables,3.38,Food,Child Protection,435267
+1140,UNHCR-UG-10800,Mid West,Kiryandongo,Arua,DRC,2018,5,Male,65,None,1,4,Elderly,Tap,Yes,Maize,1.34,NFI,Food Insecurity,115922
+1141,UNHCR-UG-10801,Mid West,Kiryandongo,Arua,Sudan,2017,8,Female,54,None,8,0,Single Parent,Borehole,No,Vegetables,2.61,Food,None,263490
+1142,UNHCR-UG-10802,Mid West,Kiryandongo,Arua,Sudan,2019,4,Female,61,Secondary,4,0,Elderly,Borehole,No,Vegetables,2.32,NFI,Child Protection,211712
+1143,UNHCR-UG-10803,West Nile,Palorinya,Arua,DRC,2024,3,Female,29,None,4,0,Disability,Tap,No,None,2.52,Food,Child Protection,42164
+1144,UNHCR-UG-10804,Central,Kampala Urban,Arua,Ethiopia,2023,10,Male,23,Primary,5,4,Woman at Risk,Tap,Yes,None,1.4,Food,None,212972
+1145,UNHCR-UG-10805,Central,Kampala Urban,Arua,Sudan,2019,9,Male,67,Secondary,9,4,Elderly,River,No,Maize,1.98,NFI,GBV Risk,252905
+1146,UNHCR-UG-10806,Mid West,Kiryandongo,Arua,Rwanda,2020,4,Male,64,Secondary,10,0,Woman at Risk,River,No,Cassava,2.3,Food,Child Protection,269780
+1147,UNHCR-UG-10807,South West,Oruchinga,Arua,South Sudan,2018,4,Female,30,Primary,2,3,Woman at Risk,Tap,Yes,None,0.61,NFI,None,46520
+1148,UNHCR-UG-10808,Central,Kampala Urban,Arua,Ethiopia,2016,4,Male,22,University,2,0,Disability,Borehole,No,Beans,2.84,Cash,Child Protection,253905
+1149,UNHCR-UG-10809,West Nile,Lobule,Arua,Rwanda,2023,2,Male,50,Primary,3,0,None,Borehole,Yes,Vegetables,3.14,NFI,Food Insecurity,408010
+1150,UNHCR-UG-10810,Central,Kampala Urban,Arua,Sudan,2023,8,Female,30,None,7,2,Unaccompanied Child,Tap,No,Cassava,1.19,Cash,Child Protection,479349
+1151,UNHCR-UG-10811,Central,Kampala Urban,Arua,Rwanda,2023,8,Female,61,None,3,1,Unaccompanied Child,Tap,No,Beans,0.88,NFI,GBV Risk,38242
+1152,UNHCR-UG-10812,Mid West,Kiryandongo,Arua,Somalia,2019,7,Female,72,None,7,3,None,River,No,Vegetables,0.67,WASH,None,377373
+1153,UNHCR-UG-10813,West Nile,Lobule,Arua,Sudan,2021,3,Female,65,University,1,1,Elderly,River,Yes,None,0.9,NFI,Child Protection,95513
+1154,UNHCR-UG-10814,West Nile,Imvepi,Arua,South Sudan,2020,5,Female,28,Secondary,3,3,None,Borehole,No,Cassava,1.3,WASH,None,340485
+1155,UNHCR-UG-10815,South West,Oruchinga,Arua,Sudan,2020,8,Female,22,University,5,2,None,Tap,No,Maize,2.8,Food,Child Protection,367374
+1156,UNHCR-UG-10816,Central,Kampala Urban,Arua,Somalia,2023,2,Female,55,Primary,10,4,Unaccompanied Child,Tap,No,None,2.75,NFI,Child Protection,373377
+1157,UNHCR-UG-10817,West Nile,Rhino Camp,Arua,Somalia,2017,1,Female,57,Primary,6,3,Elderly,River,No,Beans,2.42,WASH,Food Insecurity,45452
+1158,UNHCR-UG-10818,West Nile,Palorinya,Arua,Eritrea,2020,2,Male,54,Primary,8,3,Elderly,Borehole,Yes,Vegetables,1.4,Food,Child Protection,425911
+1159,UNHCR-UG-10819,West Nile,Imvepi,Arua,Eritrea,2022,10,Female,46,Secondary,3,2,Single Parent,Tap,No,Vegetables,2.22,WASH,GBV Risk,427745
+1160,UNHCR-UG-10820,Central,Kampala Urban,Arua,DRC,2024,1,Male,58,Secondary,6,3,None,Borehole,No,Maize,0.75,NFI,None,82608
+1161,UNHCR-UG-10821,Central,Kampala Urban,Arua,DRC,2025,5,Male,61,None,7,2,Disability,Borehole,Yes,Beans,2.71,Cash,Child Protection,2291
+1162,UNHCR-UG-10822,Mid West,Kiryandongo,Arua,Eritrea,2017,3,Male,63,None,1,4,Disability,Tap,No,Maize,1.54,NFI,None,230385
+1163,UNHCR-UG-10823,West Nile,Imvepi,Arua,DRC,2023,6,Male,47,None,6,3,None,Tap,Yes,None,1.05,WASH,None,464707
+1164,UNHCR-UG-10824,West Nile,Bidi Bidi,Yumbe,Eritrea,2018,10,Female,38,None,4,0,Elderly,Tap,Yes,Beans,2.12,WASH,GBV Risk,118894
+1165,UNHCR-UG-10825,Central,Kampala Urban,Arua,Ethiopia,2021,5,Female,42,Primary,1,0,Disability,Tap,Yes,Cassava,2.99,WASH,GBV Risk,479098
+1166,UNHCR-UG-10826,Mid West,Kiryandongo,Arua,Burundi,2024,5,Male,30,Secondary,3,1,Elderly,Tap,No,None,3.35,NFI,Food Insecurity,345824
+1167,UNHCR-UG-10827,West Nile,Lobule,Arua,Rwanda,2023,7,Female,59,University,6,1,None,River,No,None,3.33,Cash,Child Protection,421092
+1168,UNHCR-UG-10828,South West,Oruchinga,Arua,Eritrea,2023,5,Female,58,Primary,6,2,Elderly,River,No,Cassava,1.12,WASH,Food Insecurity,250181
+1169,UNHCR-UG-10829,Mid West,Kiryandongo,Arua,Somalia,2024,8,Male,33,University,10,2,Woman at Risk,River,Yes,Cassava,1.46,NFI,Child Protection,192172
+1170,UNHCR-UG-10830,Central,Kampala Urban,Arua,DRC,2020,1,Male,38,Secondary,6,3,Disability,River,Yes,Maize,3.46,WASH,Child Protection,438681
+1171,UNHCR-UG-10831,South West,Rwamwanja,Arua,Eritrea,2023,10,Male,34,None,5,0,Woman at Risk,Tap,No,None,1.94,Food,Child Protection,254545
+1172,UNHCR-UG-10832,Mid West,Kiryandongo,Arua,Burundi,2021,9,Female,21,Primary,7,4,Disability,River,No,Vegetables,2.68,Food,GBV Risk,455705
+1173,UNHCR-UG-10833,Central,Kampala Urban,Arua,Somalia,2016,3,Male,27,Secondary,7,0,Disability,River,Yes,Beans,2.14,Food,None,355706
+1174,UNHCR-UG-10834,Mid West,Kiryandongo,Arua,Eritrea,2017,8,Female,64,Primary,5,2,Elderly,Tap,Yes,Vegetables,2.73,NFI,Food Insecurity,259297
+1175,UNHCR-UG-10835,Mid West,Kiryandongo,Arua,Burundi,2024,4,Male,44,Secondary,3,2,Single Parent,River,No,None,1.46,WASH,Child Protection,331200
+1176,UNHCR-UG-10836,Central,Kampala Urban,Arua,Sudan,2020,1,Male,47,Secondary,10,4,Elderly,Tap,Yes,Maize,2.16,Food,Food Insecurity,255053
+1177,UNHCR-UG-10837,South West,Kyaka II,Arua,South Sudan,2018,5,Female,44,University,7,4,Single Parent,River,Yes,Vegetables,0.46,Cash,None,133655
+1178,UNHCR-UG-10838,West Nile,Lobule,Arua,Rwanda,2024,4,Male,28,University,1,1,Woman at Risk,Tap,Yes,Maize,3.38,Food,None,417518
+1179,UNHCR-UG-10839,Central,Kampala Urban,Arua,Burundi,2024,2,Male,20,University,2,3,Unaccompanied Child,Borehole,Yes,Maize,2.84,NFI,Food Insecurity,362456
+1180,UNHCR-UG-10840,West Nile,Rhino Camp,Arua,Somalia,2021,5,Male,23,Secondary,1,3,Unaccompanied Child,River,Yes,Maize,3.15,Cash,Child Protection,426028
+1181,UNHCR-UG-10841,Mid West,Kiryandongo,Arua,Ethiopia,2020,7,Female,26,Secondary,2,1,Elderly,Tap,No,Beans,1.55,Cash,Child Protection,109492
+1182,UNHCR-UG-10842,Central,Kampala Urban,Arua,South Sudan,2019,3,Female,36,Secondary,1,4,Disability,Borehole,No,Maize,0.35,Cash,Food Insecurity,252843
+1183,UNHCR-UG-10843,Mid West,Kiryandongo,Arua,Somalia,2020,3,Male,30,Secondary,1,3,Single Parent,Tap,Yes,None,3.39,Food,GBV Risk,20097
+1184,UNHCR-UG-10844,Mid West,Kiryandongo,Arua,Rwanda,2021,8,Male,54,None,4,4,Disability,Borehole,No,None,2.64,NFI,Food Insecurity,427219
+1185,UNHCR-UG-10845,West Nile,Imvepi,Arua,Rwanda,2020,2,Male,32,Secondary,5,0,Disability,River,No,Maize,2.09,NFI,None,57623
+1186,UNHCR-UG-10846,Mid West,Kiryandongo,Arua,Somalia,2020,1,Male,53,None,9,1,Elderly,River,Yes,Cassava,2.46,NFI,None,307236
+1187,UNHCR-UG-10847,Mid West,Kiryandongo,Arua,Rwanda,2022,8,Male,46,University,6,3,Woman at Risk,Borehole,Yes,None,0.55,WASH,None,449036
+1188,UNHCR-UG-10848,West Nile,Palorinya,Arua,Eritrea,2020,4,Male,61,None,2,2,Elderly,Borehole,No,Beans,1.06,Food,Child Protection,484624
+1189,UNHCR-UG-10849,South West,Rwamwanja,Arua,DRC,2024,7,Male,47,Primary,5,1,None,Tap,Yes,Maize,2.95,NFI,None,266815
+1190,UNHCR-UG-10850,South West,Kyaka II,Arua,Burundi,2019,9,Female,56,Secondary,10,4,Woman at Risk,River,No,Maize,0.24,Cash,Food Insecurity,130689
+1191,UNHCR-UG-10851,Central,Kampala Urban,Arua,Rwanda,2016,2,Female,55,Primary,3,3,Single Parent,Tap,No,Beans,0.54,NFI,Child Protection,240781
+1192,UNHCR-UG-10852,South West,Oruchinga,Arua,Sudan,2019,3,Female,74,None,6,4,Disability,Tap,Yes,Maize,2.05,Cash,Child Protection,197843
+1193,UNHCR-UG-10853,West Nile,Rhino Camp,Arua,DRC,2017,6,Female,77,Primary,5,3,Single Parent,River,No,Beans,1.52,Food,GBV Risk,308418
+1194,UNHCR-UG-10854,Mid West,Kiryandongo,Arua,Burundi,2023,1,Male,51,Secondary,8,0,Disability,River,No,Beans,3.13,WASH,Food Insecurity,378003
+1195,UNHCR-UG-10855,South West,Kyaka II,Arua,Sudan,2025,3,Female,76,None,6,4,None,Tap,No,None,3.07,Cash,Food Insecurity,251380
+1196,UNHCR-UG-10856,West Nile,Palorinya,Arua,DRC,2016,4,Female,40,Secondary,1,1,Disability,Borehole,Yes,None,2.06,WASH,GBV Risk,252086
+1197,UNHCR-UG-10857,Central,Kampala Urban,Arua,Burundi,2023,5,Female,54,None,5,2,None,River,Yes,None,2.02,Cash,Food Insecurity,252185
+1198,UNHCR-UG-10858,West Nile,Imvepi,Arua,Somalia,2016,9,Male,46,None,3,4,Elderly,River,Yes,Cassava,0.86,Cash,Food Insecurity,260541
+1199,UNHCR-UG-10859,Central,Kampala Urban,Arua,Eritrea,2019,2,Male,71,Secondary,10,4,Disability,Tap,No,Maize,1.37,Food,GBV Risk,107044
+1200,UNHCR-UG-10860,South West,Kyangwali,Arua,Somalia,2025,1,Male,57,Primary,10,1,Disability,Borehole,No,Beans,1.3,NFI,None,440999
+1201,UNHCR-UG-10861,South West,Kyaka II,Arua,Sudan,2024,4,Female,46,Primary,9,2,Unaccompanied Child,Borehole,Yes,None,1.97,Cash,Food Insecurity,19808
+1202,UNHCR-UG-10862,West Nile,Rhino Camp,Arua,Rwanda,2024,5,Male,70,University,6,0,Woman at Risk,Borehole,Yes,Maize,1.36,NFI,None,62218
+1203,UNHCR-UG-10863,South West,Nakivale,Arua,South Sudan,2022,4,Female,64,Primary,10,1,Woman at Risk,River,Yes,Vegetables,2.39,Cash,Child Protection,192332
+1204,UNHCR-UG-10864,Central,Kampala Urban,Arua,Sudan,2017,8,Male,53,Secondary,1,0,Unaccompanied Child,Tap,Yes,Cassava,1.72,NFI,Food Insecurity,127492
+1205,UNHCR-UG-10865,South West,Kyaka II,Arua,Rwanda,2024,1,Male,73,University,6,4,Woman at Risk,River,No,Vegetables,2.68,Food,GBV Risk,452408
+1206,UNHCR-UG-10866,Mid West,Kiryandongo,Arua,DRC,2017,7,Female,46,None,3,2,Woman at Risk,Borehole,No,Maize,3.37,Food,None,225029
+1207,UNHCR-UG-10867,Mid West,Kiryandongo,Arua,South Sudan,2019,5,Female,56,None,9,2,Disability,Tap,Yes,Beans,2.33,WASH,None,51214
+1208,UNHCR-UG-10868,West Nile,Imvepi,Arua,Eritrea,2019,3,Male,20,None,5,2,Elderly,Tap,No,Maize,0.22,Cash,None,85186
+1209,UNHCR-UG-10869,Central,Kampala Urban,Arua,Burundi,2025,2,Female,69,Primary,1,0,Single Parent,Borehole,Yes,Cassava,0.3,Cash,None,305918
+1210,UNHCR-UG-10870,Central,Kampala Urban,Arua,Burundi,2019,9,Female,31,University,1,2,None,Borehole,Yes,Maize,1.69,NFI,Food Insecurity,428119
+1211,UNHCR-UG-10871,South West,Nakivale,Arua,Eritrea,2017,8,Male,64,None,9,1,Disability,River,Yes,Vegetables,1.81,NFI,GBV Risk,208719
+1212,UNHCR-UG-10872,West Nile,Lobule,Arua,Sudan,2021,10,Male,60,None,3,0,Single Parent,River,Yes,Vegetables,0.82,NFI,None,259757
+1213,UNHCR-UG-10873,Central,Kampala Urban,Arua,Eritrea,2018,7,Male,65,Secondary,9,2,Disability,Borehole,No,Beans,1.6,NFI,GBV Risk,256227
+1214,UNHCR-UG-10874,West Nile,Bidi Bidi,Yumbe,Sudan,2024,8,Male,62,Secondary,9,2,Disability,River,Yes,Cassava,1.79,Food,Child Protection,162068
+1215,UNHCR-UG-10875,West Nile,Lobule,Arua,Burundi,2019,6,Male,38,Secondary,7,4,Disability,River,No,Maize,1.73,WASH,None,419184
+1216,UNHCR-UG-10876,West Nile,Bidi Bidi,Yumbe,Eritrea,2023,8,Female,27,Secondary,8,0,Elderly,Tap,No,Cassava,2.92,WASH,None,213884
+1217,UNHCR-UG-10877,Central,Kampala Urban,Arua,South Sudan,2022,3,Male,21,None,9,0,Disability,River,No,Cassava,0.83,NFI,Child Protection,301205
+1218,UNHCR-UG-10878,South West,Nakivale,Arua,Burundi,2018,1,Female,71,Secondary,2,0,None,Tap,No,Beans,2.19,Cash,GBV Risk,177509
+1219,UNHCR-UG-10879,Mid West,Kiryandongo,Arua,Rwanda,2016,6,Female,23,Primary,1,0,Unaccompanied Child,River,Yes,Vegetables,0.49,WASH,Child Protection,408587
+1220,UNHCR-UG-10880,South West,Nakivale,Arua,Ethiopia,2019,10,Male,31,Primary,7,1,Unaccompanied Child,River,Yes,Vegetables,1.97,WASH,Child Protection,183348
+1221,UNHCR-UG-10881,Central,Kampala Urban,Arua,DRC,2018,2,Male,77,None,4,0,Unaccompanied Child,Tap,Yes,Maize,2.28,WASH,GBV Risk,453587
+1222,UNHCR-UG-10882,Mid West,Kiryandongo,Arua,DRC,2025,4,Male,26,University,9,3,Single Parent,Tap,Yes,Cassava,2.24,Cash,GBV Risk,51778
+1223,UNHCR-UG-10883,Central,Kampala Urban,Arua,DRC,2017,2,Male,19,Primary,6,0,Unaccompanied Child,Borehole,Yes,Beans,2.12,Cash,GBV Risk,173554
+1224,UNHCR-UG-10884,South West,Rwamwanja,Arua,Eritrea,2019,2,Male,52,University,10,3,Woman at Risk,Borehole,Yes,Vegetables,0.75,NFI,GBV Risk,437108
+1225,UNHCR-UG-10885,Central,Kampala Urban,Arua,Burundi,2025,10,Female,73,Primary,7,4,Woman at Risk,Tap,No,Cassava,2.87,Cash,Child Protection,422869
+1226,UNHCR-UG-10886,South West,Rwamwanja,Arua,Ethiopia,2019,5,Female,45,University,5,1,Elderly,Borehole,Yes,Maize,0.5,WASH,Food Insecurity,478904
+1227,UNHCR-UG-10887,South West,Kyangwali,Arua,Ethiopia,2016,1,Female,50,Secondary,8,0,Single Parent,River,Yes,Vegetables,2.85,Food,Child Protection,66067
+1228,UNHCR-UG-10888,South West,Kyangwali,Arua,Burundi,2019,6,Female,26,Secondary,4,3,Disability,Borehole,Yes,Vegetables,0.48,WASH,Child Protection,94412
+1229,UNHCR-UG-10889,Mid West,Kiryandongo,Arua,DRC,2024,1,Female,60,Secondary,8,4,None,Tap,Yes,Beans,0.26,WASH,None,438682
+1230,UNHCR-UG-10890,Central,Kampala Urban,Arua,Sudan,2020,6,Female,63,None,1,1,Disability,Borehole,No,Maize,2.74,NFI,Food Insecurity,47189
+1231,UNHCR-UG-10891,West Nile,Lobule,Arua,DRC,2016,5,Female,72,None,8,4,Unaccompanied Child,Tap,No,Beans,0.53,NFI,GBV Risk,314579
+1232,UNHCR-UG-10892,Mid West,Kiryandongo,Arua,Burundi,2025,9,Female,35,Primary,6,2,Disability,Tap,Yes,Maize,0.52,Cash,Food Insecurity,233209
+1233,UNHCR-UG-10893,West Nile,Imvepi,Arua,Burundi,2016,7,Male,26,Secondary,5,1,None,River,No,Beans,2.79,NFI,None,149117
+1234,UNHCR-UG-10894,Mid West,Kiryandongo,Arua,South Sudan,2018,1,Male,74,University,4,1,Disability,River,Yes,None,0.58,NFI,Food Insecurity,119665
+1235,UNHCR-UG-10895,Mid West,Kiryandongo,Arua,Ethiopia,2024,10,Female,44,University,9,3,Unaccompanied Child,River,Yes,None,1.58,Cash,None,81692
+1236,UNHCR-UG-10896,Mid West,Kiryandongo,Arua,Burundi,2020,4,Male,54,Primary,3,0,Elderly,Borehole,Yes,Maize,1.92,Cash,GBV Risk,183770
+1237,UNHCR-UG-10897,Central,Kampala Urban,Arua,DRC,2018,8,Male,64,University,5,4,Single Parent,Borehole,No,None,3.3,Food,Food Insecurity,148731
+1238,UNHCR-UG-10898,Mid West,Kiryandongo,Arua,Somalia,2020,9,Female,34,Primary,4,3,None,Borehole,No,Vegetables,1.83,NFI,GBV Risk,336291
+1239,UNHCR-UG-10899,South West,Oruchinga,Arua,Burundi,2018,2,Male,62,Secondary,6,0,Elderly,Borehole,Yes,Maize,3.06,Cash,Food Insecurity,43272
+1240,UNHCR-UG-10900,West Nile,Rhino Camp,Arua,Somalia,2022,2,Male,26,Secondary,2,3,Woman at Risk,Borehole,No,Vegetables,0.25,NFI,None,143839
+1241,UNHCR-UG-10901,South West,Kyangwali,Arua,South Sudan,2025,7,Male,47,Primary,1,2,Unaccompanied Child,River,Yes,Maize,0.68,Food,GBV Risk,307584
+1242,UNHCR-UG-10902,Central,Kampala Urban,Arua,Rwanda,2020,9,Female,25,University,4,2,Disability,River,No,Vegetables,0.35,NFI,GBV Risk,186300
+1243,UNHCR-UG-10903,Central,Kampala Urban,Arua,DRC,2024,6,Female,28,None,4,1,None,Borehole,Yes,Cassava,2.92,Cash,Child Protection,198582
+1244,UNHCR-UG-10904,West Nile,Lobule,Arua,Sudan,2022,2,Male,20,University,6,1,Unaccompanied Child,Borehole,No,Maize,1.66,NFI,Child Protection,14320
+1245,UNHCR-UG-10905,South West,Kyangwali,Arua,Rwanda,2023,2,Female,49,None,5,4,None,River,Yes,None,2.27,WASH,Child Protection,385143
+1246,UNHCR-UG-10906,Central,Kampala Urban,Arua,Sudan,2018,3,Male,61,None,10,3,Single Parent,Borehole,No,None,0.92,NFI,Child Protection,414415
+1247,UNHCR-UG-10907,West Nile,Lobule,Arua,South Sudan,2025,10,Female,75,Primary,4,2,Elderly,Tap,Yes,Cassava,1.07,Cash,GBV Risk,406580
+1248,UNHCR-UG-10908,West Nile,Palorinya,Arua,Burundi,2022,1,Male,39,None,10,4,Unaccompanied Child,River,No,Cassava,0.31,NFI,Food Insecurity,232188
+1249,UNHCR-UG-10909,West Nile,Lobule,Arua,Sudan,2019,7,Male,67,Secondary,9,3,Unaccompanied Child,Tap,No,Cassava,3.17,Cash,Child Protection,235859
+1250,UNHCR-UG-10910,West Nile,Imvepi,Arua,Eritrea,2025,4,Male,64,University,3,2,Single Parent,River,Yes,Cassava,1.03,Cash,Food Insecurity,2205
+1251,UNHCR-UG-10911,South West,Oruchinga,Arua,Rwanda,2022,7,Male,49,Primary,2,2,None,River,No,Beans,1.06,Cash,Child Protection,445004
+1252,UNHCR-UG-10912,Mid West,Kiryandongo,Arua,Eritrea,2019,6,Male,31,University,1,0,Single Parent,Tap,No,Beans,0.94,Food,GBV Risk,136271
+1253,UNHCR-UG-10913,Central,Kampala Urban,Arua,Ethiopia,2019,4,Female,25,University,2,4,Disability,Tap,No,Maize,0.53,NFI,Child Protection,16910
+1254,UNHCR-UG-10914,West Nile,Bidi Bidi,Yumbe,Eritrea,2025,4,Female,66,Primary,2,1,Single Parent,Borehole,No,None,2.0,Food,Food Insecurity,145066
+1255,UNHCR-UG-10915,Central,Kampala Urban,Arua,Burundi,2025,8,Male,36,University,1,3,Disability,Tap,No,Maize,2.76,WASH,Food Insecurity,35400
+1256,UNHCR-UG-10916,Mid West,Kiryandongo,Arua,Somalia,2021,7,Female,18,Primary,3,3,Disability,Tap,No,Cassava,0.38,Food,Child Protection,77190
+1257,UNHCR-UG-10917,South West,Oruchinga,Arua,Ethiopia,2017,2,Female,44,University,7,1,Elderly,Tap,No,Cassava,0.85,Food,GBV Risk,136056
+1258,UNHCR-UG-10918,South West,Kyaka II,Arua,Sudan,2025,9,Female,71,Primary,8,3,Woman at Risk,River,No,Beans,2.72,Food,Child Protection,120890
+1259,UNHCR-UG-10919,Mid West,Kiryandongo,Arua,Sudan,2017,7,Male,21,University,3,4,Unaccompanied Child,Tap,Yes,Beans,2.43,WASH,None,300600
+1260,UNHCR-UG-10920,Mid West,Kiryandongo,Arua,Sudan,2016,1,Female,56,University,9,2,Disability,Tap,No,None,2.84,Cash,Food Insecurity,333232
+1261,UNHCR-UG-10921,Central,Kampala Urban,Arua,South Sudan,2016,4,Male,65,None,4,0,Elderly,River,Yes,Cassava,1.06,WASH,Food Insecurity,473618
+1262,UNHCR-UG-10922,Central,Kampala Urban,Arua,South Sudan,2017,5,Male,70,None,1,3,None,River,Yes,Maize,1.76,Cash,Food Insecurity,295364
+1263,UNHCR-UG-10923,West Nile,Palorinya,Arua,Ethiopia,2016,3,Female,70,Secondary,4,0,Disability,Tap,Yes,Beans,3.37,Food,None,414513
+1264,UNHCR-UG-10924,South West,Oruchinga,Arua,Ethiopia,2016,9,Male,22,Secondary,8,1,None,River,No,Vegetables,1.08,WASH,GBV Risk,3605
+1265,UNHCR-UG-10925,West Nile,Imvepi,Arua,Burundi,2021,9,Male,52,Secondary,1,4,None,Tap,Yes,None,1.93,Cash,None,397531
+1266,UNHCR-UG-10926,Central,Kampala Urban,Arua,Somalia,2021,7,Male,56,Secondary,7,4,Woman at Risk,Borehole,Yes,Maize,3.45,Cash,GBV Risk,177605
+1267,UNHCR-UG-10927,Central,Kampala Urban,Arua,Ethiopia,2023,1,Female,37,None,2,1,None,River,No,Maize,1.1,NFI,Child Protection,167910
+1268,UNHCR-UG-10928,Central,Kampala Urban,Arua,Rwanda,2024,3,Male,44,Primary,10,4,Single Parent,River,No,Cassava,1.92,WASH,Child Protection,284009
+1269,UNHCR-UG-10929,South West,Kyangwali,Arua,Rwanda,2025,6,Female,69,None,8,1,None,River,No,Beans,3.48,NFI,Child Protection,401830
+1270,UNHCR-UG-10930,Central,Kampala Urban,Arua,DRC,2023,7,Male,25,Secondary,9,1,Unaccompanied Child,Tap,No,Maize,0.11,NFI,GBV Risk,305151
+1271,UNHCR-UG-10931,South West,Rwamwanja,Arua,South Sudan,2021,1,Male,75,None,4,1,Single Parent,Borehole,Yes,Vegetables,0.99,Cash,None,354154
+1272,UNHCR-UG-10932,South West,Oruchinga,Arua,Burundi,2022,3,Male,42,Secondary,3,4,Unaccompanied Child,River,Yes,Beans,1.88,Cash,None,343264
+1273,UNHCR-UG-10933,South West,Kyaka II,Arua,Ethiopia,2021,2,Male,34,Secondary,4,1,Unaccompanied Child,Tap,Yes,None,2.09,Cash,Child Protection,404831
+1274,UNHCR-UG-10934,West Nile,Palorinya,Arua,South Sudan,2022,5,Female,51,None,1,4,None,Borehole,Yes,Vegetables,2.08,Food,Food Insecurity,180707
+1275,UNHCR-UG-10935,Central,Kampala Urban,Arua,South Sudan,2021,9,Male,19,Primary,8,3,Single Parent,Borehole,No,None,1.38,WASH,None,67617
+1276,UNHCR-UG-10936,Central,Kampala Urban,Arua,DRC,2016,6,Male,34,None,8,0,Single Parent,Tap,No,Cassava,0.82,Cash,Food Insecurity,348299
+1277,UNHCR-UG-10937,West Nile,Imvepi,Arua,South Sudan,2022,2,Male,26,None,9,4,Disability,River,No,Cassava,2.04,Food,None,224840
+1278,UNHCR-UG-10938,Mid West,Kiryandongo,Arua,Ethiopia,2016,10,Male,18,None,7,1,Unaccompanied Child,Tap,No,Vegetables,0.73,NFI,None,15226
+1279,UNHCR-UG-10939,Central,Kampala Urban,Arua,South Sudan,2020,6,Female,22,Secondary,9,1,Single Parent,River,Yes,Beans,1.29,WASH,Food Insecurity,222742
+1280,UNHCR-UG-10940,South West,Kyaka II,Arua,Burundi,2023,3,Female,19,University,10,4,Unaccompanied Child,Borehole,Yes,Beans,2.1,Cash,Food Insecurity,173569
+1281,UNHCR-UG-10941,Central,Kampala Urban,Arua,Somalia,2025,8,Male,55,Primary,5,1,Elderly,Borehole,No,Beans,0.26,Food,Child Protection,37237
+1282,UNHCR-UG-10942,Central,Kampala Urban,Arua,Somalia,2024,3,Male,55,None,1,1,Single Parent,Tap,No,Beans,2.82,WASH,Child Protection,135847
+1283,UNHCR-UG-10943,Central,Kampala Urban,Arua,DRC,2021,7,Male,73,Primary,6,4,Disability,River,No,Maize,3.41,WASH,None,463556
+1284,UNHCR-UG-10944,West Nile,Bidi Bidi,Yumbe,Rwanda,2016,5,Male,24,None,4,1,Woman at Risk,Tap,Yes,None,1.5,Cash,Child Protection,483537
+1285,UNHCR-UG-10945,Central,Kampala Urban,Arua,Somalia,2016,1,Female,55,None,8,4,Disability,Tap,Yes,None,0.1,WASH,Child Protection,364960
+1286,UNHCR-UG-10946,Mid West,Kiryandongo,Arua,DRC,2023,3,Female,63,Secondary,3,3,Single Parent,Tap,Yes,Beans,1.91,Food,Food Insecurity,190859
+1287,UNHCR-UG-10947,Mid West,Kiryandongo,Arua,Rwanda,2017,6,Female,50,University,1,2,Unaccompanied Child,River,Yes,None,0.97,Cash,Food Insecurity,5385
+1288,UNHCR-UG-10948,Central,Kampala Urban,Arua,Ethiopia,2019,2,Male,24,Secondary,10,1,Woman at Risk,River,No,Beans,2.27,WASH,Food Insecurity,216642
+1289,UNHCR-UG-10949,Central,Kampala Urban,Arua,Ethiopia,2024,1,Female,74,University,5,0,Elderly,River,Yes,Vegetables,1.13,WASH,Child Protection,208523
+1290,UNHCR-UG-10950,South West,Kyaka II,Arua,South Sudan,2020,8,Male,51,None,4,4,Disability,River,No,None,1.63,NFI,Food Insecurity,170194
+1291,UNHCR-UG-10951,West Nile,Lobule,Arua,DRC,2020,3,Male,50,Primary,8,3,Elderly,Tap,Yes,Beans,3.22,Food,Child Protection,170401
+1292,UNHCR-UG-10952,Mid West,Kiryandongo,Arua,Burundi,2024,8,Male,59,Secondary,7,4,Unaccompanied Child,Borehole,Yes,Vegetables,0.19,NFI,GBV Risk,451377
+1293,UNHCR-UG-10953,Central,Kampala Urban,Arua,Somalia,2016,5,Male,37,University,4,2,None,Tap,Yes,Vegetables,1.17,WASH,None,136650
+1294,UNHCR-UG-10954,Mid West,Kiryandongo,Arua,Rwanda,2022,4,Male,25,None,8,3,Woman at Risk,Tap,Yes,Vegetables,1.29,WASH,GBV Risk,406816
+1295,UNHCR-UG-10955,Mid West,Kiryandongo,Arua,Eritrea,2022,10,Male,59,University,10,3,Single Parent,Borehole,Yes,Maize,0.18,WASH,Child Protection,100491
+1296,UNHCR-UG-10956,Mid West,Kiryandongo,Arua,Ethiopia,2022,7,Female,63,Primary,9,1,None,River,Yes,None,3.21,Cash,Food Insecurity,349067
+1297,UNHCR-UG-10957,Mid West,Kiryandongo,Arua,Somalia,2016,8,Female,45,None,3,1,Single Parent,Tap,No,Vegetables,2.23,Cash,None,447526
+1298,UNHCR-UG-10958,Mid West,Kiryandongo,Arua,Burundi,2022,4,Female,44,Secondary,6,0,Elderly,Tap,Yes,Beans,1.88,WASH,None,60892
+1299,UNHCR-UG-10959,West Nile,Rhino Camp,Arua,DRC,2019,7,Female,45,Secondary,1,4,Single Parent,Borehole,No,None,3.19,WASH,Child Protection,174358
+1300,UNHCR-UG-10960,West Nile,Lobule,Arua,Eritrea,2022,7,Male,23,University,9,3,Unaccompanied Child,Borehole,Yes,Beans,1.51,Cash,GBV Risk,363893
+1301,UNHCR-UG-10961,Central,Kampala Urban,Arua,Rwanda,2019,9,Male,75,University,3,1,Disability,Borehole,Yes,Cassava,2.91,NFI,Child Protection,254321
+1302,UNHCR-UG-10962,South West,Oruchinga,Arua,Eritrea,2016,10,Male,77,None,6,1,Unaccompanied Child,River,Yes,Beans,2.66,Cash,GBV Risk,23125
+1303,UNHCR-UG-10963,West Nile,Palorinya,Arua,Somalia,2023,10,Female,71,Secondary,7,2,Elderly,Tap,No,None,2.19,Cash,Child Protection,266951
+1304,UNHCR-UG-10964,Central,Kampala Urban,Arua,Burundi,2019,7,Male,72,None,10,0,Elderly,River,No,Beans,2.82,Food,GBV Risk,265896
+1305,UNHCR-UG-10965,Central,Kampala Urban,Arua,Somalia,2017,9,Female,59,Primary,1,1,Single Parent,Tap,Yes,Vegetables,1.01,WASH,Child Protection,284441
+1306,UNHCR-UG-10966,Central,Kampala Urban,Arua,DRC,2018,8,Male,54,University,8,2,Unaccompanied Child,Tap,No,Cassava,1.28,WASH,GBV Risk,104096
+1307,UNHCR-UG-10967,South West,Kyangwali,Arua,DRC,2018,8,Female,35,Secondary,10,0,Woman at Risk,Borehole,No,Beans,3.13,Cash,GBV Risk,207945
+1308,UNHCR-UG-10968,West Nile,Palorinya,Arua,South Sudan,2024,8,Female,72,None,2,2,None,River,No,Cassava,1.83,Cash,None,90559
+1309,UNHCR-UG-10969,West Nile,Imvepi,Arua,Rwanda,2025,8,Male,56,Secondary,5,3,Single Parent,Tap,Yes,Maize,0.29,WASH,GBV Risk,19768
+1310,UNHCR-UG-10970,South West,Nakivale,Arua,Burundi,2022,5,Female,22,University,3,4,Single Parent,Tap,No,None,0.47,Food,Child Protection,126234
+1311,UNHCR-UG-10971,West Nile,Imvepi,Arua,DRC,2022,10,Female,66,University,6,1,Woman at Risk,Tap,No,Cassava,0.43,Cash,Food Insecurity,254080
+1312,UNHCR-UG-10972,Mid West,Kiryandongo,Arua,Ethiopia,2017,8,Female,46,Primary,3,2,Elderly,River,Yes,Maize,1.96,Food,None,269519
+1313,UNHCR-UG-10973,Mid West,Kiryandongo,Arua,Ethiopia,2021,3,Female,18,Secondary,7,0,Disability,Tap,No,Cassava,2.9,WASH,Child Protection,71677
+1314,UNHCR-UG-10974,Central,Kampala Urban,Arua,South Sudan,2017,8,Male,56,None,8,1,Elderly,Tap,Yes,None,1.79,Food,Child Protection,74503
+1315,UNHCR-UG-10975,Mid West,Kiryandongo,Arua,Burundi,2018,10,Male,27,None,7,4,Elderly,River,Yes,Maize,0.33,WASH,GBV Risk,244997
+1316,UNHCR-UG-10976,South West,Oruchinga,Arua,Sudan,2020,4,Male,76,University,1,2,None,Borehole,Yes,Maize,2.11,Cash,Child Protection,242464
+1317,UNHCR-UG-10977,West Nile,Rhino Camp,Arua,Burundi,2023,3,Male,37,Secondary,10,3,Woman at Risk,River,Yes,None,1.69,WASH,Child Protection,491777
+1318,UNHCR-UG-10978,South West,Rwamwanja,Arua,Somalia,2020,3,Male,63,Primary,8,0,None,River,No,Beans,2.86,WASH,GBV Risk,441537
+1319,UNHCR-UG-10979,South West,Nakivale,Arua,Eritrea,2020,4,Male,73,University,9,2,Single Parent,Tap,No,None,2.54,WASH,Food Insecurity,106522
+1320,UNHCR-UG-10980,West Nile,Palorinya,Arua,Rwanda,2025,5,Female,58,University,1,2,Unaccompanied Child,River,Yes,Maize,0.41,WASH,Food Insecurity,128330
+1321,UNHCR-UG-10981,South West,Rwamwanja,Arua,Ethiopia,2025,8,Female,52,Secondary,10,1,Unaccompanied Child,River,No,Cassava,1.46,WASH,None,243463
+1322,UNHCR-UG-10982,Central,Kampala Urban,Arua,Somalia,2023,5,Female,37,Primary,1,1,Woman at Risk,River,No,Vegetables,0.26,NFI,GBV Risk,486745
+1323,UNHCR-UG-10983,West Nile,Palorinya,Arua,Sudan,2017,9,Female,19,None,7,2,Elderly,Borehole,Yes,Cassava,1.49,Cash,GBV Risk,76018
+1324,UNHCR-UG-10984,West Nile,Palorinya,Arua,Rwanda,2017,1,Male,72,Primary,3,3,Single Parent,Borehole,Yes,None,1.3,NFI,Child Protection,134061
+1325,UNHCR-UG-10985,West Nile,Lobule,Arua,South Sudan,2016,4,Female,64,Primary,8,3,Disability,Borehole,No,Maize,3.16,Food,None,479666
+1326,UNHCR-UG-10986,Mid West,Kiryandongo,Arua,Eritrea,2017,7,Female,50,University,7,3,Disability,Tap,No,None,0.48,Food,Child Protection,397007
+1327,UNHCR-UG-10987,Central,Kampala Urban,Arua,Ethiopia,2021,8,Male,25,Secondary,6,2,None,Tap,No,Maize,0.74,Cash,GBV Risk,166919
+1328,UNHCR-UG-10988,Central,Kampala Urban,Arua,DRC,2022,9,Female,21,Secondary,5,4,Woman at Risk,Borehole,No,Beans,2.28,WASH,Child Protection,133062
+1329,UNHCR-UG-10989,West Nile,Bidi Bidi,Yumbe,DRC,2019,9,Female,41,None,8,3,Unaccompanied Child,Tap,No,Cassava,1.32,WASH,None,263176
+1330,UNHCR-UG-10990,West Nile,Palorinya,Arua,Ethiopia,2024,8,Female,76,Secondary,1,2,Unaccompanied Child,River,Yes,None,1.5,WASH,None,52012
+1331,UNHCR-UG-10991,Central,Kampala Urban,Arua,Sudan,2025,7,Female,43,None,6,2,Unaccompanied Child,Tap,No,Maize,0.25,Cash,GBV Risk,326267
+1332,UNHCR-UG-10992,South West,Kyangwali,Arua,Somalia,2022,9,Female,63,University,5,1,Woman at Risk,Tap,Yes,Cassava,2.97,NFI,Food Insecurity,207227
+1333,UNHCR-UG-10993,West Nile,Rhino Camp,Arua,Eritrea,2020,3,Male,41,Secondary,6,1,Single Parent,Tap,Yes,Maize,3.44,Food,Food Insecurity,243158
+1334,UNHCR-UG-10994,Mid West,Kiryandongo,Arua,DRC,2024,3,Female,32,Secondary,2,2,Elderly,Tap,No,Vegetables,0.33,Cash,Child Protection,371484
+1335,UNHCR-UG-10995,Mid West,Kiryandongo,Arua,Burundi,2018,10,Female,46,Secondary,8,0,Elderly,Borehole,Yes,Maize,3.28,Food,None,313332
+1336,UNHCR-UG-10996,Central,Kampala Urban,Arua,Sudan,2020,2,Female,75,University,6,3,Single Parent,Borehole,No,Beans,0.61,Food,Food Insecurity,365127
+1337,UNHCR-UG-10997,Mid West,Kiryandongo,Arua,South Sudan,2020,2,Male,22,Primary,9,4,Unaccompanied Child,Tap,No,Cassava,3.05,NFI,None,151204
+1338,UNHCR-UG-10998,Central,Kampala Urban,Arua,Ethiopia,2023,9,Female,47,Secondary,4,2,Elderly,River,No,Beans,1.43,Food,Child Protection,87025
+1339,UNHCR-UG-10999,Mid West,Kiryandongo,Arua,South Sudan,2018,8,Male,37,None,3,0,Unaccompanied Child,Tap,No,Beans,1.7,Cash,Child Protection,212057
