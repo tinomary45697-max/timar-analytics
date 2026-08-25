@@ -560,4 +560,4 @@ elif st.session_state.page in ["Dashboard","Analytics","Data Upload","Data Colle
     best_col = get_best_chart_column(df, df.columns[0], st.session_state.chart)
     render_chart(df, st.session_state.chart, best_col, st.session_state.page)
 
-st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026 | ✅ ADMIN UNLIMITED ACCESS | glob.glob {len(glob.glob('*.csv'))} CSVs | Charts Ignore Irrelevant</div>""", unsafe_allow_html=True)
+st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026 | glob.glob {len(glob.glob('*.csv'))} CSVs | Charts Ignore Irrelevant</div>""", unsafe_allow_html=True)
