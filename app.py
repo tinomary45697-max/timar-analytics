@@ -447,7 +447,6 @@ elif st.session_state.page == "Admin - Monitoring Panel":
         st.error("⛔ Access Denied - Admin Only"); st.stop()
     st.header("🛡️ Admin - Monitoring Panel")
     tab1, tab2, tab3, tab4 = st.tabs(["👥 Users","⏰ Trials","💳 Payments","📝 Logs"])
-
     with tab1:
         try:
             users = load_users()
@@ -455,7 +454,6 @@ elif st.session_state.page == "Admin - Monitoring Panel":
             st.dataframe(pd.DataFrame([{"Username":k} for k in users.keys()]), use_container_width=True)
         except Exception as e:
             st.error(f"Users error: {e}")
-
     with tab2:
         try:
             trials = load_json("trials.json", {})
@@ -474,9 +472,7 @@ elif st.session_state.page == "Admin - Monitoring Panel":
                 st.dataframe(pd.DataFrame(rows), use_container_width=True)
         except Exception as e:
             st.error(f"Trials error: {e}")
-            st.write("Clearing broken trials.json...")
             save_json("trials.json", {})
-
     with tab3:
         try:
             subs = load_json("subscriptions.json", {})
@@ -492,7 +488,6 @@ elif st.session_state.page == "Admin - Monitoring Panel":
                 st.dataframe(pd.DataFrame(rows), use_container_width=True)
         except Exception as e:
             st.error(f"Payments error: {e}")
-
     with tab4:
         try:
             logs = load_json("timar_activity_log.json", [])
@@ -633,28 +628,58 @@ elif st.session_state.page == "Research Module":
             st.error(f"Stats error: {e}")
 
     with t3:
-        st.subheader("Correlation & Regression Analysis")
-        numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+        st.subheader("Correlation & Regression - FIXED (No statsmodels)")
+        # Filter out ID columns - FIX for your screenshot
+        all_numeric = df.select_dtypes(include=[np.number]).columns.tolist()
+        numeric_cols = [c for c in all_numeric if not is_irrelevant_column(df, c)]
+        if not numeric_cols:
+            numeric_cols = all_numeric[:5]
+
         if len(numeric_cols) >= 2:
-            x_col = st.selectbox("X - Independent", numeric_cols, key="res_x")
-            y_col = st.selectbox("Y - Dependent", numeric_cols, index=1 if len(numeric_cols)>1 else 0, key="res_y")
+            c1, c2 = st.columns(2)
+            with c1:
+                x_col = st.selectbox("X - Independent", numeric_cols, key="res_x")
+            with c2:
+                y_opts = [c for c in numeric_cols if c!= x_col]
+                y_col = st.selectbox("Y - Dependent", y_opts if y_opts else numeric_cols, key="res_y")
             try:
-                fig = px.scatter(df, x=x_col, y=y_col, trendline="ols", title=f"{y_col} vs {x_col} (with Regression Line)")
-                st.plotly_chart(fig, use_container_width=True)
-                corr = df[x_col].corr(df[y_col])
-                st.success(f"**Correlation (r) between {x_col} and {y_col}: {corr:.3f}**")
-                if abs(corr) > 0.7:
-                    st.info("**Interpretation:** Strong relationship - good for thesis.")
-                elif abs(corr) > 0.4:
-                    st.info("**Interpretation:** Moderate relationship.")
+                temp = df[[x_col, y_col]].dropna()
+                x = temp[x_col]
+                y = temp[y_col]
+                if len(x) < 2:
+                    st.warning("Not enough data")
                 else:
-                    st.info("**Interpretation:** Weak relationship.")
-                st.markdown("### Correlation Matrix")
-                st.dataframe(df[numeric_cols].corr(), use_container_width=True)
+                    corr = x.corr(y)
+                    slope, intercept = np.polyfit(x, y, 1)
+                    y_pred = slope * x + intercept
+                    ss_res = ((y - y_pred) ** 2).sum()
+                    ss_tot = ((y - y.mean()) ** 2).sum()
+                    r2 = 1 - (ss_res / ss_tot) if ss_tot!= 0 else 0
+
+                    fig = px.scatter(temp, x=x_col, y=y_col, title=f"{y_col} vs {x_col}", opacity=0.6)
+                    fig.add_scatter(x=x, y=y_pred, mode='lines', name=f'Regression: y={slope:.2f}x+{intercept:.2f}', line=dict(color='red', width=3))
+                    st.plotly_chart(fig, use_container_width=True)
+
+                    m1, m2, m3 = st.columns(3)
+                    m1.metric("Correlation (r)", f"{corr:.3f}")
+                    m2.metric("R²", f"{r2:.3f}")
+                    m3.metric("Equation", f"y={slope:.2f}x+{intercept:.2f}")
+
+                    if abs(corr) > 0.7:
+                        st.success(f"**Strong relationship** ({corr:.2f}) - Excellent for thesis!")
+                    elif abs(corr) > 0.4:
+                        st.info(f"**Moderate relationship** ({corr:.2f}) - Good for thesis.")
+                    else:
+                        st.warning(f"**Weak relationship** ({corr:.2f}) - Try other variables.")
+
+                    st.markdown("### Correlation Matrix")
+                    st.dataframe(df[numeric_cols].corr(), use_container_width=True)
             except Exception as e:
                 st.error(f"Regression error: {e}")
+                fig = px.scatter(df, x=x_col, y=y_col, title=f"{y_col} vs {x_col}")
+                st.plotly_chart(fig, use_container_width=True)
         else:
-            st.warning("Need at least 2 numeric columns. Converting categorical to numeric for demo.")
+            st.warning("Need at least 2 numeric columns (excluding ID)")
             st.dataframe(df.corr(numeric_only=True), use_container_width=True)
 
     with t4:
