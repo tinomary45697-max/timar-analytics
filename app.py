@@ -55,52 +55,37 @@ except:
 def load_any_file(uploaded_file):
     name = uploaded_file.name.lower()
     try:
-        if name.endswith('.csv'): return pd.read_csv(uploaded_file)
-        elif name.endswith(('.xlsx','.xls')): return pd.read_excel(uploaded_file)
-        elif name.endswith('.json'): return pd.read_json(uploaded_file)
+        if name.endswith('.csv'): 
+            return pd.read_csv(uploaded_file)
+        elif name.endswith('.xlsx'): 
+            return pd.read_excel(uploaded_file, engine='openpyxl')
+        elif name.endswith('.xls'): 
+            return pd.read_excel(uploaded_file, engine='xlrd')
+        elif name.endswith('.json'): 
+            return pd.read_json(uploaded_file)
         elif name.endswith('.txt'):
-            try: return pd.read_csv(uploaded_file, sep='\t')
-            except: return pd.read_csv(uploaded_file)
-        elif name.endswith('.tsv'): return pd.read_csv(uploaded_file, sep='\t')
-        elif name.endswith('.parquet'): return pd.read_parquet(uploaded_file)
-        elif name.endswith('.dta'): return pd.read_stata(uploaded_file)
-        elif name.endswith('.ods'): return pd.read_excel(uploaded_file, engine='odf')
+            try: 
+                return pd.read_csv(uploaded_file, sep='\t')
+            except: 
+                return pd.read_csv(uploaded_file)
+        elif name.endswith('.tsv'): 
+            return pd.read_csv(uploaded_file, sep='\t')
+        elif name.endswith('.parquet'): 
+            return pd.read_parquet(uploaded_file)
+        elif name.endswith('.dta'): 
+            return pd.read_stata(uploaded_file)
+        elif name.endswith('.ods'): 
+            return pd.read_excel(uploaded_file, engine='odf')
         elif name.endswith('.sav'):
             import pyreadstat
-            df,_ = pyreadstat.read_sav(uploaded_file); return df
-        else: return pd.read_csv(uploaded_file)
+            df,_ = pyreadstat.read_sav(uploaded_file)
+            return df
+        else: 
+            return pd.read_csv(uploaded_file)
     except Exception as e:
-        st.error(f"Failed {uploaded_file.name}: {e}"); return None
-
-@st.cache_data
-def load_sample_data(choice):
-    np.random.seed(42)
-    if "UBOS Poverty" in choice:
-        df = pd.DataFrame({"Region": ["Central","Eastern","Northern","Western"]*3, "Year": [2020]*4+[2022]*4+[2024]*4, "Poverty_Rate_%": [22.5,33.5,42.8,28.5,21.2,31.2,40.5,26.8,19.5,29.8,35.2,24.5], "District": ["Kampala","Mbale","Gulu","Mbarara"]*3})
-        return df, "UBOS Poverty"
-    elif "BoU Inflation" in choice:
-        dates = pd.date_range('2023-01-01','2025-06-01', freq='MS')
-        inflation = np.round(5.0 + np.cumsum(np.random.randn(len(dates)) * 0.2), 1)
-        usd = np.round(3700 + np.arange(len(dates)) * 15 + np.random.randn(len(dates)) * 30).astype(int)
-        df = pd.DataFrame({"Date": dates.strftime('%Y-%m-%d'), "Inflation_Rate_%": inflation, "USD_UGX": usd, "Year": dates.year})
-        return df, "BoU Inflation"
-    elif "MOH" in choice:
-        districts = ["Kampala","Wakiso","Gulu","Lira","Arua","Mbarara","Kabale","Mbale","Soroti","Jinja"]
-        df = pd.DataFrame({"District": districts, "Region": np.random.choice(["Central","Eastern","Northern","Western"], len(districts)), "Malaria_Cases_per_1000": np.random.randint(45, 320, len(districts)), "Immunization_Coverage_%": np.random.randint(62, 96, len(districts)), "Year": 2024})
-        return df, "MOH Health"
-    return pd.DataFrame({"Region":["Central","Eastern"],"Poverty_Rate_%":[20,30]}), choice
-
-def is_irrelevant_column(df, col):
-    col_lower = str(col).lower().strip()
-    if col_lower in ['id','_id','uid','uuid','guid','index','row_id','serial','sno','pk','key']: return True
-    if 'id' == col_lower[-2:] and len(col_lower) <=4: return True
-    if df[col].isnull().all(): return True
-    try:
-        nunique = df[col].nunique(); total = len(df)
-        if total > 5 and nunique == total: return True
-        if total > 10 and nunique / total > 0.9 and df[col].dtype == 'object': return True
-    except: pass
-    return False
+        st.error(f"Failed {uploaded_file.name}: {e}")
+        st.info("Tip: If Excel fails, save as CSV and upload CSV - always works")
+        return None
 
 def get_chartable_columns(df, chart_type="Bar Chart"):
     if df.empty: return []
