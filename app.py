@@ -436,6 +436,108 @@ elif st.session_state.page == "Payment & Plans":
                 expires_date = (datetime.now()+timedelta(days=30)).isoformat()
                 subs[st.session_state.user]={"plan":plan,"amount":prices[plan],"txn":txn,"expires":expires_date,"status":"ACTIVE"}; save_json("subscriptions.json", subs); st.success(f"✅ ACTIVATED! {plan}"); st.balloons(); st.rerun()
 
+elif st.session_state.page == "Reviews & Comments":
+    st.header("⭐ Reviews & Comments - TIMAR ANALYTICS")
+    st.markdown("**Leave your feedback - Help us improve for NGOs in Uganda**")
+
+    # Load reviews
+    reviews = load_json("reviews.json", [])
+
+    # Stats
+    if reviews:
+        avg_rating = sum([r.get("rating",5) for r in reviews]) / len(reviews)
+        col1, col2, col3 = st.columns(3)
+        col1.metric("Total Reviews", len(reviews))
+        col2.metric("Avg Rating", f"{avg_rating:.1f} ⭐")
+        col3.metric("Satisfied", f"{len([r for r in reviews if r.get('rating',0) >=4])} users")
+    else:
+        st.info("🌟 Be the first to review TIMAR ANALYTICS!")
+
+    st.divider()
+
+    # LEFT: Leave review form - NO DATA DISPLAY
+    col_form, col_list = st.columns([1, 1.2])
+
+    with col_form:
+        st.subheader("✍️ Leave a Review")
+        with st.container(border=True):
+            user_name = st.text_input("Your Name", value=st.session_state.username, disabled=True)
+            rating = st.slider("Rating", 1, 5, 5, help="1=Poor, 5=Excellent")
+            stars = "⭐" * rating
+            st.markdown(f"**{stars} ({rating}/5)**")
+
+            organization = st.text_input("Organization / NGO (Optional)", placeholder="e.g., World Vision Uganda")
+            review_text = st.text_area("Your Review / Comment *", placeholder="TIMAR ANALYTICS helped us...", height=120)
+
+            would_recommend = st.checkbox("I would recommend TIMAR to other NGOs")
+
+            if st.button("📤 Submit Review", type="primary", use_container_width=True):
+                if not review_text.strip():
+                    st.error("Please write your review")
+                else:
+                    new_review = {
+                        "user": st.session_state.username,
+                        "name": st.session_state.username,
+                        "organization": organization,
+                        "rating": rating,
+                        "review": review_text,
+                        "recommend": would_recommend,
+                        "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                        "likes": 0
+                    }
+                    reviews.append(new_review)
+                    save_json("reviews.json", reviews)
+                    log_activity(st.session_state.username, "REVIEW_SUBMITTED", f"Rating {rating}")
+                    st.success("✅ Thank you! Your review has been posted!")
+                    st.balloons()
+                    time.sleep(1)
+                    st.rerun()
+
+    with col_list:
+        st.subheader(f"💬 All Reviews ({len(reviews)})")
+
+        if not reviews:
+            st.markdown("""
+            <div style="background:#EFF6FF; padding:30px; border-radius:15px; text-align:center; border:2px dashed #1E3A8A;">
+                <h3 style="color:#1E3A8A;">No reviews yet</h3>
+                <p>Your feedback will appear here</p>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+            """, unsafe_allow_html=True)
+        else:
+            # Show newest first
+            for idx, rev in enumerate(reversed(reviews[-20:])):
+                stars_display = "⭐" * rev.get("rating",5)
+                with st.container(border=True):
+                    c1, c2 = st.columns([3,1])
+                    with c1:
+                        st.markdown(f"**👤 {rev.get('name','Anonymous')}** {stars_display}")
+                        if rev.get("organization"):
+                            st.caption(f"🏢 {rev.get('organization')}")
+                    with c2:
+                        st.caption(f"📅 {rev.get('date','')}")
+
+                    st.write(f"_{rev.get('review','')}_")
+
+                    if rev.get("recommend"):
+                        st.markdown("✅ **Recommends TIMAR**")
+
+                    # Like button (optional)
+                    if st.button(f"👍 Helpful ({rev.get('likes',0)})", key=f"like_{idx}"):
+                        # Increment likes
+                        rev["likes"] = rev.get("likes",0) + 1
+                        save_json("reviews.json", reviews)
+                        st.rerun()
+
+    # ADMIN: Delete reviews option
+    if is_admin() and reviews:
+        st.divider()
+        st.subheader("🛡️ Admin - Manage Reviews")
+        if st.button("🗑️ Clear All Reviews (Admin Only)"):
+            save_json("reviews.json", [])
+            st.success("Cleared!")
+            st.rerun()
+
 else:
     st.header(f"{st.session_state.page}")
     rel_cols = get_chartable_columns(df)
@@ -447,4 +549,5 @@ else:
         csv = df.to_csv(index=False).encode('utf-8')
         st.download_button("📥 Download Data", csv, "timar_data.csv", "text/csv")
 
-st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026 | MTN MoMo 0789876277</div>""", unsafe_allow_html=True)
+st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026 </div>""", unsafe_allow_html=True)
+
