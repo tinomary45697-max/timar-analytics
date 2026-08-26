@@ -463,7 +463,6 @@ elif st.session_state.page == "Admin - Monitoring Panel":
             if not trials:
                 st.write("No trials yet")
             else:
-                # FIX: Handle both old and new format safely
                 rows = []
                 for k,v in trials.items():
                     if isinstance(v, dict):
@@ -624,6 +623,75 @@ elif st.session_state.page == "Reviews & Comments":
             save_json("reviews.json", [])
             st.success("Cleared!")
             st.rerun()
+
+elif st.session_state.page == "Research Module":
+    st.header("🔬 Research Module - PhD Ready")
+    st.info(f"**Active Dataset:** {len(df)} rows | {len(df.columns)} columns | Ready for Thesis")
+
+    t1, t2, t3, t4, t5 = st.tabs(["📄 Data View", "📊 Summary Stats", "🔗 Correlation & Regression", "🧪 Hypothesis Testing", "📥 Thesis Export"])
+
+    with t1:
+        rel_cols = get_chartable_columns(df)
+        st.dataframe(df[rel_cols].head(100) if rel_cols else df.head(100), use_container_width=True)
+        render_chart(df, st.session_state.chart, get_best_chart_column(df, df.columns[0], st.session_state.chart), "Research")
+
+    with t2:
+        st.subheader("Descriptive Statistics")
+        try:
+            numeric_df = df.select_dtypes(include=[np.number])
+            if not numeric_df.empty:
+                st.dataframe(numeric_df.describe().T, use_container_width=True)
+            else:
+                st.dataframe(df.describe(include='all').T, use_container_width=True)
+        except Exception as e:
+            st.error(f"Stats error: {e}")
+
+    with t3:
+        st.subheader("Correlation & Regression")
+        numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+        if len(numeric_cols) >= 2:
+            c1,c2 = st.columns(2)
+            with c1: x_col = st.selectbox("X - Independent", numeric_cols, key="res_x")
+            with c2: y_col = st.selectbox("Y - Dependent", numeric_cols, index=1 if len(numeric_cols)>1 else 0, key="res_y")
+            try:
+                fig = px.scatter(df, x=x_col, y=y_col, trendline="ols", title=f"{y_col} vs {x_col}")
+                st.plotly_chart(fig, use_container_width=True)
+                corr = df[x_col].corr(df[y_col])
+                st.metric("Correlation (r)", f"{corr:.3f}")
+                st.success(f"Interpretation: {'Strong' if abs(corr)>0.7 else 'Moderate' if abs(corr)>0.4 else 'Weak'} relationship")
+                st.dataframe(df[numeric_cols].corr(), use_container_width=True)
+            except Exception as e:
+                st.error(f"Regression error: {e}")
+        else:
+            st.warning("Need 2+ numeric columns. Showing available correlations:")
+            st.dataframe(df.corr(numeric_only=True), use_container_width=True)
+
+    with t4:
+        st.subheader("Hypothesis Testing")
+        cat_cols = df.select_dtypes(include=['object']).columns.tolist()
+        num_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+        if cat_cols and num_cols:
+            group_col = st.selectbox("Group by", cat_cols, key="hyp_group")
+            value_col = st.selectbox("Value", num_cols, key="hyp_val")
+            try:
+                fig = px.box(df, x=group_col, y=value_col, title=f"{value_col} by {group_col}")
+                st.plotly_chart(fig, use_container_width=True)
+                st.info(f"Use T-Test/ANOVA to test if {value_col} differs significantly across {group_col} (p<0.05)")
+            except Exception as e:
+                st.error(f"Error: {e}")
+        else:
+            st.info("Need numeric + categorical columns for hypothesis testing.")
+
+    with t5:
+        st.subheader("Thesis Export - PhD Ready")
+        if not can_full_access():
+            st.error("🔒 Export blocked - Trial expired. Pay to unlock.")
+        else:
+            csv = df.to_csv(index=False).encode('utf-8')
+            st.download_button("📥 Download Full Dataset (CSV)", csv, "TIMAR_Research_Dataset.csv", "text/csv", use_container_width=True)
+            report = f"TIMAR ANALYTICS RESEARCH REPORT\nDate: {now_str}\nRows: {len(df)}\nColumns: {list(df.columns)}\n\n{df.describe().to_string()}"
+            st.download_button("📄 Download Summary Report (TXT)", report, "TIMAR_Research_Summary.txt", "text/plain", use_container_width=True)
+            st.success("✅ Ready for SPSS, Stata, R, Python")
 
 else:
     st.header(f"{st.session_state.page}")
