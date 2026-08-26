@@ -1,5 +1,9 @@
 streamlit
 pandas
 plotly
-openpyxl
 numpy
+openpyxl
+xlrd>=2.0.1
+odfpy
+pyreadstat
+pyarrow
