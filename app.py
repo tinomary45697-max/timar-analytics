@@ -275,8 +275,8 @@ if not st.session_state.logged_in:
     <style>
     [data-testid="stSidebar"]{display:none;}
     header{visibility:hidden;}
-  .stApp{background:linear-gradient(135deg,#0F2C5C 0%,#1E3A8A 50%,#1E40AF 100%)!important;}
-  .login-card{
+ .stApp{background:linear-gradient(135deg,#0F2C5C 0%,#1E3A8A 50%,#1E40AF 100%)!important;}
+ .login-card{
         background:white;
         padding:40px 35px;
         border-radius:20px;
@@ -285,12 +285,12 @@ if not st.session_state.logged_in:
         margin-top:20px;
         border:3px solid #D4AF37;
     }
-  .login-card h1{color:#1E3A8A!important;font-size:32px;font-weight:900;margin-bottom:5px;}
-  .login-card p{color:#475569!important;font-size:14px;font-weight:600;}
-  .icon-label{font-size:18px!important;font-weight:800!important;color:#1E3A8A!important;margin-bottom:5px;}
+ .login-card h1{color:#1E3A8A!important;font-size:32px;font-weight:900;margin-bottom:5px;}
+ .login-card p{color:#475569!important;font-size:14px;font-weight:600;}
+ .icon-label{font-size:18px!important;font-weight:800!important;color:#1E3A8A!important;margin-bottom:5px;}
     div[data-testid="stTextInput"] label{font-size:16px!important;font-weight:800!important;color:#1E3A8A!important;}
     div[data-testid="stTextInput"] input{font-size:16px!important;padding:12px!important;border:2px solid #1E3A8A!important;border-radius:10px!important;}
-  .stButton button{font-size:16px!important;font-weight:800!important;border-radius:12px!important;padding:12px!important;}
+ .stButton button{font-size:16px!important;font-weight:800!important;border-radius:12px!important;padding:12px!important;}
     </style>
     """, unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1,2,1])
@@ -360,7 +360,18 @@ ok,msg=check_trial(st.session_state.username)
 
 with st.sidebar:
     st.title("🌾 TIMAR ANALYTICS")
-    st.markdown(f"""<div style="background:white;padding:10px;border-radius:10px;text-align:center;"><p>👤 {st.session_state.username}</p><p>⏰ {now_str}</p><p>Rows: {len(df)}</p></div>""", unsafe_allow_html=True)
+    # === UPDATED: ADMIN UNLIMITED + CLOCK ONLY IN SIDEBAR WHEN ADMIN ===
+    if is_admin():
+        st.markdown(f"""
+        <div style="background:linear-gradient(90deg,#1E3A8A,#D4AF37);padding:12px;border-radius:12px;text-align:center;border:2px solid white;">
+        <p style="color:white;font-weight:900;margin:0;font-size:16px;">👑 ADMIN UNLIMITED ACCESS</p>
+        <p style="color:#FEF3C7;font-weight:700;margin:5px 0 0 0;">👤 {st.session_state.username}</p>
+        <p style="color:white;font-weight:600;margin:0;">⏰ {now_str}</p>
+        <p style="color:white;font-size:12px;margin:5px 0 0 0;">Rows: {len(df)} | CSVs: {len(glob.glob('*.csv'))}</p>
+        </div>
+        """, unsafe_allow_html=True)
+    else:
+        st.markdown(f"""<div style="background:white;padding:10px;border-radius:10px;text-align:center;"><p>👤 {st.session_state.username}</p><p>Rows: {len(df)}</p></div>""", unsafe_allow_html=True)
     st.divider()
     st.markdown("### 🧬 Generated Datasets (Sidebar Only)")
     gen_choices = ["UBOS Poverty by Region (NGO Demo)","BoU Inflation & USD/UGX (Business Demo)","MOH Health - Malaria & ANC (Health NGO Demo)","UBOS Population Census 2024 (Research Demo)","World Bank Uganda GDP & Education"]
@@ -396,10 +407,10 @@ with st.sidebar:
     if st.button("🚪 Logout", width='stretch', key="logout_btn"):
         log_activity(st.session_state.username,"LOGOUT"); st.session_state.logged_in=False; st.session_state.username=""; st.session_state.user=""; st.rerun()
 
+# === UPDATED: MAIN HEADER ONLY TIMAR ANALYTICS - NO ADMIN BADGE, NO CLOCK ===
 st.markdown(f"""
 <div style="background:linear-gradient(90deg,#1E3A8A 0%,#1E40AF 50%,#D4AF37 100%);padding:20px;border-radius:15px;margin-bottom:15px;text-align:center;">
 <h1 style="color:white!important;margin:0;font-size:32px;font-weight:900;">🌾 TIMAR ANALYTICS</h1>
-<p style="color:#FEF3C7;margin:5px 0 0 0;font-size:18px;font-weight:bold;">✅ ADMIN UNLIMITED ACCESS</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -440,12 +451,12 @@ def render_chart(data, chart_type, col_name, title_suffix=""):
             relevant_cols = list(dict.fromkeys(relevant_cols))[:10]
             st.caption(f"Showing relevant columns only: {relevant_cols} (ignored {len(data.columns)-len(relevant_cols)} irrelevant)")
             st.dataframe(data[relevant_cols].head(100) if relevant_cols else data.head(100), width='stretch')
-        st.info(f"**Interpretation ({chart_type}):** {col_name} dominant {counts.iloc[0][col_name]} with {counts.iloc[0]['Count']} records. User {st.session_state.username} at {now_str}.")
+        st.info(f"**Interpretation ({chart_type}):** {col_name} dominant {counts.iloc[0][col_name]} with {counts.iloc[0]['Count']} records.")
     except Exception as e:
         st.error(f"Chart error: {e}")
 
 if st.session_state.page == "9 Master Datasets - TIMAR REAL":
-    st.header(f"📦 9 Master Datasets - TIMAR REAL | 👤 {st.session_state.username} | ⏰ {now_str}")
+    st.header(f"📦 9 Master Datasets - TIMAR REAL")
     st.write(f"**All CSVs found via glob.glob('*.csv'):** {glob.glob('*.csv')}")
     if not NINE_DATASETS:
         st.error("❌ No 9 master CSVs found via glob. Put 00_ to 09_ files in folder.")
@@ -474,10 +485,55 @@ if st.session_state.page == "9 Master Datasets - TIMAR REAL":
             with st.container(border=True):
                 st.write(f"**{label}** - `{f}` - {len(d)} rows")
 
-# ===== NEW M&E TOOLS SUITE - ADDED WITHOUT ALTERING OTHER CODE =====
-elif st.session_state.page == "M&E Module":
-    st.header(f"📈 M&E TOOLS SUITE - TIMAR | 👤 {st.session_state.username} | ⏰ {now_str}")
+# ===== UPDATED DATA UPLOAD - WITH NEW BUTTON =====
+elif st.session_state.page == "Data Upload":
+    st.header("📤 Data Upload - TIMAR ANALYTICS")
+    st.caption(f"Active Master: {st.session_state.active_master} | Generated: {st.session_state.generated_dataset}")
+    st.divider()
+    c1,c2 = st.columns([2,1])
+    with c1:
+        st.markdown("### 📂 Upload Your CSV File")
+        uploaded_file = st.file_uploader("📁 Drag & drop or Browse CSV", type=["csv"], help="Upload CSV file - will auto-detect via glob.glob", key="main_uploader")
+        if uploaded_file is not None:
+            try:
+                temp_df = pd.read_csv(uploaded_file)
+                st.success(f"✅ File Loaded: **{uploaded_file.name}** | {len(temp_df)} rows x {len(temp_df.columns)} cols | Relevant: {get_chartable_columns(temp_df, st.session_state.chart)[:4]}")
+                rel_cols = get_chartable_columns(temp_df, st.session_state.chart) + [c for c in temp_df.columns if pd.api.types.is_numeric_dtype(temp_df[c]) and not is_irrelevant_column(temp_df,c)]
+                rel_cols = list(dict.fromkeys(rel_cols))
+                st.dataframe(temp_df[rel_cols].head(50) if rel_cols else temp_df.head(50), use_container_width=True)
+                col_a,col_b = st.columns(2)
+                with col_a:
+                    if st.button("🔵 Set as Active Dataset", type="primary", use_container_width=True, key="set_active_upload"):
+                        st.session_state.current_df = temp_df
+                        st.session_state.active_master = f"Uploaded: {uploaded_file.name}"
+                        log_activity(st.session_state.username,"UPLOAD_SET_ACTIVE",uploaded_file.name)
+                        st.success(f"✅ Active dataset updated to {uploaded_file.name}"); st.rerun()
+                with col_b:
+                    if st.button("💾 Save to Folder (glob.glob will detect)", use_container_width=True, key="save_upload"):
+                        save_path = f"uploaded_{uploaded_file.name}"
+                        temp_df.to_csv(save_path, index=False)
+                        st.success(f"✅ Saved as {save_path} - will be auto-detected by glob.glob"); st.balloons()
+            except Exception as e:
+                st.error(f"❌ Error loading CSV: {e}")
+    with c2:
+        st.markdown("### 📊 Current Active Dataset")
+        st.metric("Rows", len(df))
+        st.metric("Columns", len(df.columns))
+        st.metric("CSV Files Found", len(glob.glob("*.csv")))
+        st.write("**CSV Files via glob.glob:**")
+        st.json(glob.glob("*.csv")[:10])
+        if st.button("🔄 Reload Master Files", use_container_width=True, key="reload_masters"):
+            st.cache_data.clear(); st.rerun()
+    st.divider()
+    st.subheader("📄 Current Active Data - Relevant Only")
+    rel_cols = get_chartable_columns(df, st.session_state.chart) + [c for c in df.columns if pd.api.types.is_numeric_dtype(df[c]) and not is_irrelevant_column(df,c)]
+    rel_cols = list(dict.fromkeys(rel_cols))
+    st.dataframe(df[rel_cols].head(50) if rel_cols else df.head(50), use_container_width=True)
+    best_col = get_best_chart_column(df, df.columns[0], st.session_state.chart)
+    render_chart(df, st.session_state.chart, best_col, "Data Upload")
 
+elif st.session_state.page == "M&E Module":
+    st.header(f"📈 M&E TOOLS SUITE - TIMAR")
     me_tool = st.selectbox("Select M&E Tool", [
         "🔗 Results Chain",
         "🌳 Theory of Change",
@@ -488,26 +544,19 @@ elif st.session_state.page == "M&E Module":
         "👥 Stakeholder Analysis",
         "🗓️ Workplan / Gantt"
     ])
-
     if "Results Chain" in me_tool:
         st.markdown("### 🔗 Results Chain")
         st.info("Inputs → Activities → Outputs → Outcomes → Impact")
         c1,c2,c3,c4,c5 = st.columns(5)
-        with c1:
-            inputs = st.text_area("Inputs / Resources", "Staff, Funds, Equipment, UBOS Data", key="rc_in")
-        with c2:
-            activities = st.text_area("Activities", "Training, Data collection, Distribution", key="rc_ac")
-        with c3:
-            outputs = st.text_area("Outputs", "# farmers trained, # reports", key="rc_out")
-        with c4:
-            outcomes = st.text_area("Outcomes", "Increased yield, Improved livelihood", key="rc_oc")
-        with c5:
-            impact = st.text_area("Impact", "Food security, Poverty reduced", key="rc_im")
+        with c1: inputs = st.text_area("Inputs / Resources", "Staff, Funds, Equipment, UBOS Data", key="rc_in")
+        with c2: activities = st.text_area("Activities", "Training, Data collection, Distribution", key="rc_ac")
+        with c3: outputs = st.text_area("Outputs", "# farmers trained, # reports", key="rc_out")
+        with c4: outcomes = st.text_area("Outcomes", "Increased yield, Improved livelihood", key="rc_oc")
+        with c5: impact = st.text_area("Impact", "Food security, Poverty reduced", key="rc_im")
         st.graphviz_chart(f'''digraph {{rankdir=LR; node [shape=box style=filled fillcolor="#DBEAFE"] "{inputs[:20]}" -> "{activities[:20]}" -> "{outputs[:20]}" -> "{outcomes[:20]}" -> "{impact[:20]}" }}''')
         if st.button("💾 Save Results Chain"):
             save_json("me_results_chain.json", {"inputs":inputs,"activities":activities,"outputs":outputs,"outcomes":outcomes,"impact":impact})
             st.success("Results Chain saved!"); st.balloons()
-
     elif "Theory of Change" in me_tool:
         st.markdown("### 🌳 Theory of Change")
         col1,col2 = st.columns(2)
@@ -519,7 +568,6 @@ elif st.session_state.page == "M&E Module":
             interventions = st.text_area("Interventions", "1. Provide improved seeds\n2. Training on agronomy\n3. Link to UNHCR/WFP markets", key="toc_int")
             preconditions = st.text_area("Preconditions", "Access to land, Willingness to learn", key="toc_pre")
         st.markdown(f"""<div style="background:white;padding:20px;border-radius:10px;border-left:5px solid #1E3A8A"><b>IF</b> {interventions[:100]}... <br><b>THEN</b> {preconditions[:100]}... <br><b>BECAUSE</b> {assumptions[:100]}... <br><b>LEADING TO</b> {long_term}</div>""", unsafe_allow_html=True)
-
     elif "LogFrame" in me_tool:
         st.markdown("### 📋 LogFrame - Logical Framework Matrix")
         log_data = st.data_editor(pd.DataFrame([
@@ -531,11 +579,9 @@ elif st.session_state.page == "M&E Module":
             ]), num_rows="dynamic", use_container_width=True, key="logframe_edit")
         if st.button("📥 Export LogFrame to Excel"):
             log_data.to_excel("TIMAR_LogFrame.xlsx", index=False); st.success("Exported! TIMAR_LogFrame.xlsx"); st.balloons()
-
     elif "Results Framework" in me_tool:
         st.markdown("### 🎯 Results Framework")
         rf = st.data_editor(pd.DataFrame([{"Objective":"Improve livelihoods","Outcome":"Increased income","Indicator":"Avg income","Baseline":"$100","Target":"$300","Source":"Survey","Frequency":"Quarterly"}]), num_rows="dynamic", use_container_width=True, key="rf_edit")
-
     elif "IPTT" in me_tool:
         st.markdown("### 📊 Indicator Performance Tracking Table (IPTT)")
         iptt = st.data_editor(pd.DataFrame([
@@ -545,14 +591,12 @@ elif st.session_state.page == "M&E Module":
             ]), num_rows="dynamic", use_container_width=True, key="iptt_edit")
         try: st.bar_chart(iptt.set_index("Indicator")[["Baseline","Target","Achieved Q2"]])
         except: pass
-
     elif "Risk Matrix" in me_tool:
         st.markdown("### ⚠️ Risk Matrix")
         st.data_editor(pd.DataFrame([
                 {"Risk":"Drought","Likelihood":"High","Impact":"High","Score":"High","Mitigation":"Promote drought resistant seeds","Owner":"M&E Officer"},
                 {"Risk":"Market price fall","Likelihood":"Medium","Impact":"High","Score":"Medium","Mitigation":"Contract farming","Owner":"Livelihood Lead"},
             ]), num_rows="dynamic", use_container_width=True, key="risk_edit")
-
     elif "Stakeholder" in me_tool:
         st.markdown("### 👥 Stakeholder Analysis")
         st.data_editor(pd.DataFrame([
@@ -560,7 +604,6 @@ elif st.session_state.page == "M&E Module":
                 {"Stakeholder":"UBOS","Interest":"Medium","Influence":"High","Attitude":"Neutral","Strategy":"Keep satisfied"},
                 {"Stakeholder":"Donor (WFP/UNHCR)","Interest":"High","Influence":"High","Attitude":"Positive","Strategy":"Manage closely"},
             ]), num_rows="dynamic", use_container_width=True, key="stake_edit")
-
     elif "Gantt" in me_tool or "Workplan" in me_tool:
         st.markdown("### 🗓️ Workplan / Gantt")
         wp = st.data_editor(pd.DataFrame([
@@ -574,7 +617,7 @@ elif st.session_state.page == "M&E Module":
         except: st.info("Enter valid dates to see Gantt chart")
 
 elif st.session_state.page == "Admin - Monitoring Panel":
-    st.header(f"🛡️ Admin - Monitoring Panel | 👤 {st.session_state.username} | ⏰ {now_str}")
+    st.header(f"🛡️ Admin - Monitoring Panel")
     if not is_admin():
         st.error("⛔ Access Denied - Admin Only"); st.stop()
     if HAS_EXTERNAL_ADMIN:
@@ -600,7 +643,7 @@ elif st.session_state.page == "Admin - Monitoring Panel":
         st.dataframe(df.head(10), use_container_width=True)
 
 elif st.session_state.page == "Payment & Plans":
-    st.title("💳 Payment & Plans | "+ now_str)
+    st.title("💳 Payment & Plans")
     MTN_NUMS = "0789876277 / 0755453313"
     MTN_NAME_PRIVATE = "Tino Mary"
     subs = load_json("subscriptions.json", {})
@@ -649,8 +692,8 @@ elif st.session_state.page == "Payment & Plans":
                 st.session_state.plan = plan
                 st.success(f"✅ ACTIVATED! {plan} until {expires_date}"); st.balloons(); st.rerun()
 
-elif st.session_state.page in ["Dashboard","Analytics","Data Upload","Data Collection Tools - All 10","WASH Module","Livelihood Module","Health Module","Education Module","Agriculture Module","Research Module","KPI Matrix","Statistical Tools","Inventory & Stock Movement","Reviews & Comments","Help & Manual for Timar Analytics"]:
-    st.header(f"{st.session_state.page} | 👤 {st.session_state.username} | ⏰ {now_str}")
+elif st.session_state.page in ["Dashboard","Analytics","Data Collection Tools - All 10","WASH Module","Livelihood Module","Health Module","Education Module","Agriculture Module","Research Module","KPI Matrix","Statistical Tools","Inventory & Stock Movement","Reviews & Comments","Help & Manual for Timar Analytics"]:
+    st.header(f"{st.session_state.page}")
     rel_cols = get_chartable_columns(df, st.session_state.chart) + [c for c in df.columns if pd.api.types.is_numeric_dtype(df[c]) and not is_irrelevant_column(df,c)]
     rel_cols = list(dict.fromkeys(rel_cols))
     if rel_cols:
