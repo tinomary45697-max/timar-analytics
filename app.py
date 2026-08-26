@@ -152,7 +152,7 @@ def log_activity(user, action, details=""):
     logs=load_json("timar_activity_log.json",[]); logs.append({"Time":datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"User":user,"Action":action,"Details":details}); save_json("timar_activity_log.json",logs[-500:])
 def is_admin(): return str(st.session_state.get("username","")).lower()=="admin"
 
-# ===== 24H TRIAL + PAYMENT CHECK - FIXED VERSION =====
+# ===== 24H TRIAL + PAYMENT CHECK =====
 def has_active_subscription():
     if is_admin(): return True
     subs = load_json("subscriptions.json", {})
@@ -448,10 +448,62 @@ elif st.session_state.page == "Admin - Monitoring Panel":
         st.error("⛔ Access Denied - Admin Only"); st.stop()
     st.header("🛡️ Admin - Monitoring Panel")
     tab1, tab2, tab3, tab4 = st.tabs(["👥 Users","⏰ Trials","💳 Payments","📝 Logs"])
-    with tab1: users = load_users(); st.dataframe(pd.DataFrame([{"Username":k} for k in users.keys()]), use_container_width=True)
-    with tab2: trials = load_json("trials.json", {}); st.dataframe(pd.DataFrame([{"User":k, "Start":v.get("start","")} for k,v in trials.items()]), use_container_width=True) if trials else st.write("No trials")
-    with tab3: subs = load_json("subscriptions.json", {}); st.dataframe(pd.DataFrame([{"User":k, "Plan":v.get("plan"), "Txn":v.get("txn")} for k,v in subs.items()]), use_container_width=True) if subs else st.write("No subs")
-    with tab4: logs = load_json("timar_activity_log.json", []); st.dataframe(pd.DataFrame(logs[-100:][::-1]), use_container_width=True) if logs else st.write("No logs")
+
+    with tab1:
+        try:
+            users = load_users()
+            st.metric("Total Users", len(users))
+            st.dataframe(pd.DataFrame([{"Username":k} for k in users.keys()]), use_container_width=True)
+        except Exception as e:
+            st.error(f"Users error: {e}")
+
+    with tab2:
+        try:
+            trials = load_json("trials.json", {})
+            if not trials:
+                st.write("No trials yet")
+            else:
+                # FIX: Handle both old and new format safely
+                rows = []
+                for k,v in trials.items():
+                    if isinstance(v, dict):
+                        start = v.get("start","")
+                        phone = v.get("phone","")
+                    else:
+                        start = str(v)
+                        phone = ""
+                    rows.append({"User":k, "Start":start, "Phone":phone})
+                st.dataframe(pd.DataFrame(rows), use_container_width=True)
+        except Exception as e:
+            st.error(f"Trials error: {e}")
+            st.write("Clearing broken trials.json...")
+            save_json("trials.json", {})
+
+    with tab3:
+        try:
+            subs = load_json("subscriptions.json", {})
+            if not subs:
+                st.write("No subscriptions yet")
+            else:
+                rows = []
+                for k,v in subs.items():
+                    if isinstance(v, dict):
+                        rows.append({"User":k, "Plan":v.get("plan",""), "Txn":v.get("txn",""), "Expires":v.get("expires","")[:10]})
+                    else:
+                        rows.append({"User":k, "Plan":str(v)})
+                st.dataframe(pd.DataFrame(rows), use_container_width=True)
+        except Exception as e:
+            st.error(f"Payments error: {e}")
+
+    with tab4:
+        try:
+            logs = load_json("timar_activity_log.json", [])
+            if not logs:
+                st.write("No logs")
+            else:
+                st.dataframe(pd.DataFrame(logs[-100:][::-1]), use_container_width=True)
+        except Exception as e:
+            st.error(f"Logs error: {e}")
 
 elif st.session_state.page == "Payment & Plans":
     st.title("💳 Payment & Plans")
