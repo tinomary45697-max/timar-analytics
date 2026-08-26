@@ -6,6 +6,7 @@ import plotly.express as px
 import os, json, glob
 import numpy as np
 import time
+import io
 
 st.set_page_config(page_title="TIMAR ANALYTICS", layout="wide", initial_sidebar_state="expanded")
 
@@ -52,25 +53,89 @@ try:
 except:
     HAS_EXTERNAL_ADMIN = False
 
+# --- FIXED ONLY THIS FUNCTION - OLE2 ERROR CLEARED ---
 def load_any_file(uploaded_file):
     name = uploaded_file.name.lower()
+    file_bytes = uploaded_file.getvalue()
+
+    # Helper to try reading excel with multiple engines
+    def try_excel(buffer):
+        # Try 1: openpyxl (for xlsx)
+        try:
+            buffer.seek(0)
+            return pd.read_excel(buffer, engine='openpyxl')
+        except Exception:
+            pass
+        # Try 2: xlrd (for old xls)
+        try:
+            buffer.seek(0)
+            return pd.read_excel(buffer, engine='xlrd')
+        except Exception:
+            pass
+        # Try 3: calamine / default
+        try:
+            buffer.seek(0)
+            return pd.read_excel(buffer)
+        except Exception:
+            pass
+        # Try 4: file is actually CSV with xls/xlsx extension
+        try:
+            buffer.seek(0)
+            return pd.read_csv(buffer)
+        except Exception:
+            pass
+        # Try 5: file is HTML table saved as xls
+        try:
+            buffer.seek(0)
+            tables = pd.read_html(buffer)
+            if tables:
+                return tables[0]
+        except Exception:
+            pass
+        return None
+
     try:
-        if name.endswith('.csv'): return pd.read_csv(uploaded_file)
-        elif name.endswith(('.xlsx','.xls')): return pd.read_excel(uploaded_file)
-        elif name.endswith('.json'): return pd.read_json(uploaded_file)
+        if name.endswith('.csv'):
+            return pd.read_csv(io.BytesIO(file_bytes))
+        elif name.endswith('.xlsx') or name.endswith('.xls'):
+            df = try_excel(io.BytesIO(file_bytes))
+            if df is not None:
+                return df
+            # Last fallback - explicit error message
+            raise ValueError(f"Could not read Excel file {uploaded_file.name}. Try saving as CSV and upload again.")
+        elif name.endswith('.json'):
+            return pd.read_json(io.BytesIO(file_bytes))
         elif name.endswith('.txt'):
-            try: return pd.read_csv(uploaded_file, sep='\t')
-            except: return pd.read_csv(uploaded_file)
-        elif name.endswith('.tsv'): return pd.read_csv(uploaded_file, sep='\t')
-        elif name.endswith('.parquet'): return pd.read_parquet(uploaded_file)
-        elif name.endswith('.dta'): return pd.read_stata(uploaded_file)
-        elif name.endswith('.ods'): return pd.read_excel(uploaded_file, engine='odf')
+            try:
+                return pd.read_csv(io.BytesIO(file_bytes), sep='\t')
+            except:
+                return pd.read_csv(io.BytesIO(file_bytes))
+        elif name.endswith('.tsv'):
+            return pd.read_csv(io.BytesIO(file_bytes), sep='\t')
+        elif name.endswith('.parquet'):
+            return pd.read_parquet(io.BytesIO(file_bytes))
+        elif name.endswith('.dta'):
+            return pd.read_stata(io.BytesIO(file_bytes))
+        elif name.endswith('.ods'):
+            return pd.read_excel(io.BytesIO(file_bytes), engine='odf')
         elif name.endswith('.sav'):
             import pyreadstat
-            df,_ = pyreadstat.read_sav(uploaded_file); return df
-        else: return pd.read_csv(uploaded_file)
+            df,_ = pyreadstat.read_sav(io.BytesIO(file_bytes))
+            return df
+        else:
+            # Unknown extension - try everything
+            df = try_excel(io.BytesIO(file_bytes))
+            if df is not None:
+                return df
+            return pd.read_csv(io.BytesIO(file_bytes))
     except Exception as e:
-        st.error(f"Failed {uploaded_file.name}: {e}"); return None
+        err_msg = str(e)
+        if "OLE2" in err_msg or "compound" in err_msg or "workbook" in err_msg.lower():
+            st.error(f"❌ Excel format error in {uploaded_file.name}: The file extension (.xls/.xlsx) does not match its real format.")
+            st.info("✅ FIX: Open the file in Excel -> Save As -> Choose 'Excel Workbook (*.xlsx)' OR 'CSV UTF-8' -> Upload again. This will work 100%.")
+        else:
+            st.error(f"Failed {uploaded_file.name}: {e}")
+        return None
 
 @st.cache_data
 def load_sample_data(choice):
@@ -629,7 +694,6 @@ elif st.session_state.page == "Research Module":
 
     with t3:
         st.subheader("Correlation & Regression - FIXED (No statsmodels)")
-        # Filter out ID columns - FIX for your screenshot
         all_numeric = df.select_dtypes(include=[np.number]).columns.tolist()
         numeric_cols = [c for c in all_numeric if not is_irrelevant_column(df, c)]
         if not numeric_cols:
