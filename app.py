@@ -10,7 +10,6 @@ st.set_page_config(page_title="TIMAR ANALYTICS", layout="wide", initial_sidebar_
 
 @st.cache_data
 def load_9_master_files():
-    all_csvs = glob.glob("*.csv")
     master_files = {
         "00_MASTER_ALL_9_AUTO (Recommended)": "00_TIMAR_MASTER_AUTO_ALL_9.csv",
         "01_UBOS Agriculture": "01_UBOS_AAS_2018_TIMAR_REAL.csv",
@@ -31,14 +30,10 @@ def load_9_master_files():
                 df = pd.read_csv(matches[0])
                 available[label] = (matches[0], df)
             except: pass
-        elif os.path.exists(fname):
-            try:
-                df = pd.read_csv(fname)
-                available[label] = (fname, df)
-            except: pass
+    # Also auto-find any TIMAR csv
     for csv_file in glob.glob("*.csv"):
         if csv_file not in [v[0] for v in available.values()]:
-            if "TIMAR" in csv_file.upper() or "MASTER" in csv_file.upper() or "UBOS" in csv_file.upper() or "MOH" in csv_file.upper():
+            if "TIMAR" in csv_file.upper() or "MASTER" in csv_file.upper():
                 try:
                     df = pd.read_csv(csv_file)
                     if len(df) > 5: available[csv_file] = (csv_file, df)
@@ -57,7 +52,7 @@ try:
 except:
     HAS_EXTERNAL_ADMIN = False
 
-# UNIVERSAL LOADER - ANY TYPE
+# UNIVERSAL LOADER - 10 TYPES
 def load_any_file(uploaded_file):
     name = uploaded_file.name.lower()
     try:
@@ -70,6 +65,7 @@ def load_any_file(uploaded_file):
         elif name.endswith('.tsv'): return pd.read_csv(uploaded_file, sep='\t')
         elif name.endswith('.parquet'): return pd.read_parquet(uploaded_file)
         elif name.endswith('.dta'): return pd.read_stata(uploaded_file)
+        elif name.endswith('.ods'): return pd.read_excel(uploaded_file, engine='odf')
         elif name.endswith('.sav'):
             import pyreadstat
             df,_ = pyreadstat.read_sav(uploaded_file); return df
@@ -79,11 +75,6 @@ def load_any_file(uploaded_file):
 
 @st.cache_data
 def load_sample_data(choice):
-    for f in glob.glob("*.csv"):
-        if choice.split()[0].lower() in f.lower():
-            try:
-                if os.path.getsize(f) > 100: return pd.read_csv(f), f"Real: {f}"
-            except: pass
     np.random.seed(42)
     if "UBOS Poverty" in choice:
         df = pd.DataFrame({"Region": ["Central","Eastern","Northern","Western"]*3, "Year": [2020]*4+[2022]*4+[2024]*4, "Poverty_Rate_%": [22.5,33.5,42.8,28.5,21.2,31.2,40.5,26.8,19.5,29.8,35.2,24.5], "District": ["Kampala","Mbale","Gulu","Mbarara"]*3})
@@ -98,8 +89,7 @@ def load_sample_data(choice):
         districts = ["Kampala","Wakiso","Gulu","Lira","Arua","Mbarara","Kabale","Mbale","Soroti","Jinja"]
         df = pd.DataFrame({"District": districts, "Region": np.random.choice(["Central","Eastern","Northern","Western"], len(districts)), "Malaria_Cases_per_1000": np.random.randint(45, 320, len(districts)), "Immunization_Coverage_%": np.random.randint(62, 96, len(districts)), "Year": 2024})
         return df, "MOH Health"
-    dummy = pd.DataFrame({"Region":["Central","Eastern"],"Poverty_Rate_%":[20,30]})
-    return dummy, choice
+    return pd.DataFrame({"Region":["Central","Eastern"],"Poverty_Rate_%":[20,30]}), choice
 
 def is_irrelevant_column(df, col):
     col_lower = str(col).lower().strip()
@@ -118,12 +108,7 @@ def get_chartable_columns(df, chart_type="Bar Chart"):
     relevant = []
     for col in df.columns:
         if is_irrelevant_column(df, col): continue
-        if chart_type in ["Bar Chart","Pie Chart","Line Chart","Area Chart","Matrix View"]:
-            try:
-                if df[col].dtype == 'object' or df[col].nunique() < 30: relevant.append(col)
-            except: relevant.append(col)
-        else:
-            if not is_irrelevant_column(df,col): relevant.append(col)
+        if df[col].dtype == 'object' or df[col].nunique() < 30: relevant.append(col)
     if not relevant: relevant = [c for c in df.columns if not is_irrelevant_column(df,c)][:5]
     return relevant
 
@@ -134,9 +119,21 @@ def get_best_chart_column(df, requested_col, chart_type):
     return chartable[0]
 
 STANDARD_TOOLS = ["Overview - All Data","Questionnaire - Structured Questions","Interview - Key Informant Interview","Focus Group Discussion (FGD)","Observation Checklist","Survey Form - Household Survey","Case Study Tool","Document Review / Secondary Data","Mobile Data Collection (Kobo/ODK)","Experimental Data Collection"]
+DATA_COLLECTION_SAMPLES = {
+    "Overview - All Data": ["Q1: Total records?","Q2: Data quality?","Q3: Missing values?"],
+    "Questionnaire - Structured Questions": ["1. Age?","2. Gender?","3. Education?","4. Income UGX?","5. Farm size?","6. Yield?","7. Water source?","8. Region?","9. District?","10. Extension?"],
+    "Interview - Key Informant Interview": ["1. Challenges?","2. Interventions?","3. Climate change?","4. Support?","5. Policies?"],
+    "Focus Group Discussion (FGD)": ["1. Farming practices?","2. Info sharing?","3. Women challenges?","4. Crop decision?","5. Yield?"],
+    "Observation Checklist": ["1. Farm maintained?","2. Crops observed","3. Irrigation?","4. Storage?","5. Seeds?"],
+    "Survey Form - Household Survey": ["1. Household size?","2. Head gender?","3. Income source?","4. Food security?","5. Assets?"],
+    "Case Study Tool": ["1. Title?","2. Background?","3. Challenge?","4. Intervention?","5. Results?"],
+    "Document Review / Secondary Data": ["1. Title?","2. Source?","3. Year?","4. Findings?","5. Quality?"],
+    "Mobile Data Collection (Kobo/ODK)": ["1. Form ID?","2. Enumerator?","3. GPS?","4. Photo?","5. Submission?"],
+    "Experimental Data Collection": ["1. Plot size?","2. Treatment?","3. Control?","4. Yield?","5. Germination?","6. pH?","7. Health?","8. Pest?","9. p-value?","10. Researcher?"]
+}
 ADMIN_PASSWORD = "admin@45697"
 ALL_CHARTS = ["Bar Chart","Pie Chart","Line Chart","Scatter Plot","Histogram","Area Chart","Table View","Summary Statistics","Matrix View"]
-MODULES = ["Dashboard","Analytics","9 Master Datasets - TIMAR REAL","Data Upload","Data Collection Tools - All 10","M&E Module","WASH Module","Livelihood Module","Health Module","Education Module","Agriculture Module","Research Module","KPI Matrix","Statistical Tools","Inventory & Stock Movement","Payment & Plans","Reviews & Comments","Help & Manual for Timar Analytics","Admin - Monitoring Panel"]
+MODULES_ALL = ["Dashboard","Analytics","9 Master Datasets - TIMAR REAL","Data Upload","Data Collection Tools - All 10","M&E Module","WASH Module","Livelihood Module","Health Module","Education Module","Agriculture Module","Research Module","KPI Matrix","Statistical Tools","Inventory & Stock Movement","Payment & Plans","Reviews & Comments","Help & Manual for Timar Analytics","Admin - Monitoring Panel"]
 
 def load_users():
     if os.path.exists("users.json"):
@@ -154,16 +151,9 @@ def save_json(file, data):
     with open(file,"w") as f: json.dump(data,f,indent=2)
 def log_activity(user, action, details=""):
     logs=load_json("timar_activity_log.json",[]); logs.append({"Time":datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"User":user,"Action":action,"Details":details}); save_json("timar_activity_log.json",logs[-500:])
-def check_trial(user):
-    if not user: return True,"No User"
-    if user.lower()=="admin": return True,"Admin Unlimited"
-    trials=load_json("trials.json",{})
-    if user not in trials: return True,"24.0h left"
-    start=datetime.fromisoformat(trials[user]["start"]); left=24-(datetime.now()-start).total_seconds()/3600
-    return (False,"Expired") if left<=0 else (True,f"{left:.1f}h left")
 def is_admin(): return str(st.session_state.get("username","")).lower()=="admin"
 
-for k,v in [("logged_in",False),("username",""),("user",""),("page","Dashboard"),("chart","Bar Chart"),("plan","ADMIN_UNLIMITED"),("show_signup",False),("selected_plan",None),("active_master","00_MASTER_ALL_9_AUTO (Recommended)"),("generated_dataset","UBOS Poverty by Region (NGO Demo)")]:
+for k,v in [("logged_in",False),("username",""),("user",""),("page","Dashboard"),("chart","Bar Chart"),("selected_plan",None),("active_master","00_MASTER_ALL_9_AUTO (Recommended)"),("generated_dataset","UBOS Poverty by Region (NGO Demo)"),("standard_tool","Questionnaire - Structured Questions")]:
     if k not in st.session_state: st.session_state[k]=v
 if 'current_df' not in st.session_state:
     if NINE_DATASETS:
@@ -174,36 +164,30 @@ if 'current_df' not in st.session_state:
         st.session_state.current_df = pd.DataFrame({"Region":["Central","Eastern"],"Poverty_Rate_%":[20,30]})
 
 if not st.session_state.logged_in:
-    st.markdown("""<style>[data-testid="stSidebar"]{display:none;}header{visibility:hidden;}.stApp{background:linear-gradient(135deg,#0F2C5C 0%,#1E3A8A 50%,#1E40AF 100%)!important;}.login-card{background:white;padding:40px 35px;border-radius:20px;box-shadow:0 25px 70px rgba(0,0,0,0.4);text-align:center;margin-top:20px;border:3px solid #D4AF37;}.login-card h1{color:#1E3A8A!important;font-size:32px;font-weight:900;}.icon-label{font-size:18px!important;font-weight:800!important;color:#1E3A8A!important;}</style>""", unsafe_allow_html=True)
+    st.markdown("""<style>[data-testid="stSidebar"]{display:none;}header{visibility:hidden;}.stApp{background:linear-gradient(135deg,#0F2C5C 0%,#1E3A8A 50%,#1E40AF 100%)!important;}.login-card{background:white;padding:40px 35px;border-radius:20px;box-shadow:0 25px 70px rgba(0,0,0,0.4);text-align:center;margin-top:20px;border:3px solid #D4AF37;}.login-card h1{color:#1E3A8A!important;font-size:32px;font-weight:900;}</style>""", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1,2,1])
     with col2:
         st.markdown(f"""<div class="login-card"><div style="font-size:70px;">🌾</div><h1>🌾 TIMAR ANALYTICS</h1><p style="font-size:18px!important;color:#1E3A8A!important;font-weight:900;">📊 Uganda's Smart Data Platform</p><p style="background:#FEF3C7;padding:10px;border-radius:10px;color:#1E3A8A!important;font-weight:900;border:2px solid #D4AF37;">🔐 Secure Login | ⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p></div>""", unsafe_allow_html=True)
         users = load_users()
         with st.form("login_form", clear_on_submit=False):
-            st.markdown('<p class="icon-label">👤 Username</p>', unsafe_allow_html=True)
-            username = st.text_input("Username", placeholder="👤 Enter your username", key="login_user", label_visibility="collapsed")
-            st.markdown('<p class="icon-label">🔒 Password</p>', unsafe_allow_html=True)
-            password = st.text_input("Password", type="password", placeholder="🔒 Enter your password", key="login_pass", label_visibility="collapsed")
+            username = st.text_input("👤 Username", placeholder="👤 Enter your username")
+            password = st.text_input("🔒 Password", type="password", placeholder="🔒 Enter your password")
             c1,c2 = st.columns(2)
             with c1: submit_login = st.form_submit_button("🔓 Log In", use_container_width=True, type="primary")
-            with c2: submit_signup_toggle = st.form_submit_button("📝 Create Account 24hr Trial", use_container_width=True)
+            with c2: submit_signup_toggle = st.form_submit_button("📝 Create Account", use_container_width=True)
             if submit_login:
                 if username.lower()=="admin" and password==ADMIN_PASSWORD:
                     st.session_state.logged_in=True; st.session_state.username="Admin"; st.session_state.user="Admin"; log_activity("Admin","LOGIN"); st.rerun()
                 elif username in users and users[username]==password:
-                    st.session_state.logged_in=True; st.session_state.username=username; st.session_state.user=username
-                    trials=load_json("trials.json",{})
-                    if username not in trials: trials[username]={"start":datetime.now().isoformat()}; save_json("trials.json",trials)
-                    log_activity(username,"LOGIN"); st.rerun()
+                    st.session_state.logged_in=True; st.session_state.username=username; st.session_state.user=username; log_activity(username,"LOGIN"); st.rerun()
                 else: st.error("❌ Invalid")
             if submit_signup_toggle: st.session_state.show_signup = True
         if st.session_state.get("show_signup", False):
             with st.container(border=True):
                 nu=st.text_input("Choose Username", key="s_u"); npw=st.text_input("Choose Password",type="password",key="s_p"); cpw=st.text_input("Confirm Password",type="password",key="s_c"); phone=st.text_input("Phone", placeholder="07XXXXXXXX"); agree=st.checkbox("I agree to trial")
-                if st.button("🚀 Create & Start Trial",type="primary",use_container_width=True, key="btn_create"):
+                if st.button("🚀 Create & Start Trial",type="primary",use_container_width=True):
                     users=load_users()
-                    if not nu or not npw: st.error("Required")
-                    elif npw!=cpw: st.error("Mismatch")
+                    if npw!=cpw: st.error("Mismatch")
                     elif nu in users: st.error("Exists")
                     elif not agree: st.error("Agree")
                     else:
@@ -213,28 +197,34 @@ if not st.session_state.logged_in:
 df = st.session_state.current_df
 now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
+# MODULES FILTER - ADMIN ONLY FOR ADMIN PANEL
+if is_admin():
+    MODULES = MODULES_ALL
+else:
+    MODULES = [m for m in MODULES_ALL if m!= "Admin - Monitoring Panel"]
+
 with st.sidebar:
     st.title("🌾 TIMAR ANALYTICS")
     if is_admin():
-        st.markdown(f"""<div style="background:linear-gradient(90deg,#1E3A8A,#D4AF37);padding:12px;border-radius:12px;text-align:center;border:2px solid white;"><p style="color:white;font-weight:900;margin:0;font-size:16px;">👑 ADMIN UNLIMITED ACCESS</p><p style="color:#FEF3C7;font-weight:700;margin:5px 0 0 0;">👤 {st.session_state.username}</p><p style="color:white;font-weight:600;margin:0;">⏰ {now_str}</p><p style="color:white;font-size:12px;margin:5px 0 0 0;">Rows: {len(df)} | CSVs: {len(glob.glob('*.csv'))}</p></div>""", unsafe_allow_html=True)
+        st.markdown(f"""<div style="background:linear-gradient(90deg,#1E3A8A,#D4AF37);padding:12px;border-radius:12px;text-align:center;border:2px solid white;"><p style="color:white;font-weight:900;margin:0;font-size:16px;">👑 ADMIN UNLIMITED ACCESS</p><p style="color:#FEF3C7;font-weight:700;margin:5px 0 0 0;">👤 {st.session_state.username}</p><p style="color:white;font-weight:600;margin:0;">⏰ {now_str}</p><p style="color:white;font-size:12px;margin:5px 0 0 0;">Rows: {len(df)} | Files: {len(glob.glob('*.csv'))}</p></div>""", unsafe_allow_html=True)
     else:
         st.markdown(f"""<div style="background:white;padding:10px;border-radius:10px;text-align:center;"><p>👤 {st.session_state.username}</p><p>Rows: {len(df)}</p></div>""", unsafe_allow_html=True)
     st.divider()
     sel_gen = st.selectbox("Generated Datasets:", ["UBOS Poverty by Region (NGO Demo)","BoU Inflation & USD/UGX (Business Demo)","MOH Health - Malaria & ANC (Health NGO Demo)","UBOS Population Census 2024 (Research Demo)","World Bank Uganda GDP & Education"], key="generated_sidebar_select")
-    if st.button("🔵 Load Generated Dataset", key="load_gen_sidebar", use_container_width=True):
+    if st.button("🔵 Load Generated", key="load_gen_sidebar", use_container_width=True):
         gdf, gname = load_sample_data(sel_gen); st.session_state.current_df = gdf; st.rerun()
     st.divider()
-    st.caption(f"Found {len(glob.glob('*.csv'))} CSVs")
     if NINE_DATASETS:
+        st.success(f"✅ {len(NINE_DATASETS)} Masters Found")
         master_choice = st.selectbox("Master Dataset:", list(NINE_DATASETS.keys()), key="master_select_sidebar")
-        if st.button("🔵 Load Master Dataset", key="load_master_btn_sidebar", use_container_width=True):
+        if st.button("🔵 Load Master", key="load_master_btn_sidebar", use_container_width=True):
             fname, fdf = NINE_DATASETS[master_choice]; st.session_state.current_df = fdf; st.session_state.active_master = master_choice; st.rerun()
     st.divider()
-    sel_mod = st.selectbox("📦 Modules - 19 Total", MODULES, index=MODULES.index(st.session_state.page) if st.session_state.page in MODULES else 0, key="mod_select")
+    sel_mod = st.selectbox("📦 Modules", MODULES, index=MODULES.index(st.session_state.page) if st.session_state.page in MODULES else 0, key="mod_select")
     st.session_state.page = sel_mod
     sel_chart = st.selectbox("📈 Chart Type", ALL_CHARTS, key="chart_select")
     st.session_state.chart = sel_chart
-    if st.button("🚪 Logout", width='stretch', key="logout_btn"):
+    if st.button("🚪 Logout", width='stretch'):
         st.session_state.logged_in=False; st.session_state.username=""; st.session_state.user=""; st.rerun()
 
 st.markdown(f"""<div style="background:linear-gradient(90deg,#1E3A8A 0%,#1E40AF 50%,#D4AF37 100%);padding:20px;border-radius:15px;margin-bottom:15px;text-align:center;"><h1 style="color:white!important;margin:0;font-size:32px;font-weight:900;">🌾 TIMAR ANALYTICS</h1></div>""", unsafe_allow_html=True)
@@ -244,7 +234,7 @@ def render_chart(data, chart_type, col_name, title_suffix=""):
     best_col = get_best_chart_column(data, col_name, chart_type)
     counts = data[best_col].value_counts().reset_index(); counts.columns = [best_col, "Count"]
     try:
-        if chart_type=="Bar Chart": fig = px.bar(counts, x=best_col, y="Count", color=best_col, title=f"{best_col} - {title_suffix}"); st.plotly_chart(fig, use_container_width=True)
+        if chart_type=="Bar Chart": fig = px.bar(counts, x=best_col, y="Count", color=best_col, title=f"{best_col}"); st.plotly_chart(fig, use_container_width=True)
         elif chart_type=="Pie Chart": fig = px.pie(counts, names=best_col, values="Count", hole=0.3); st.plotly_chart(fig, use_container_width=True)
         elif chart_type=="Line Chart": fig = px.line(counts, x=best_col, y="Count", markers=True); st.plotly_chart(fig, use_container_width=True)
         else: st.dataframe(data.head(100), width='stretch')
@@ -252,20 +242,37 @@ def render_chart(data, chart_type, col_name, title_suffix=""):
     except Exception as e: st.error(f"Chart error: {e}")
 
 def auto_interpret_me(tool_name, df_active=None):
-    base = f"Active data: {len(df_active) if df_active is not None else 0} rows"
-    if "Results Chain" in tool_name: return f"**📖 Interpretation ({base}):** Inputs→Activities→Outputs→Outcomes→Impact shows causality. If funds delayed, whole chain breaks. Recommendation: Monitor bottleneck at Activity level (training completion)."
-    if "Theory of Change" in tool_name: return f"**📖 Interpretation:** ToC IF interventions THEN preconditions BECAUSE assumptions LEADING TO impact. Validate assumptions with FGD. {base} - test willingness to learn."
-    if "LogFrame" in tool_name: return f"**📖 Interpretation:** LogFrame hierarchy Goal→Outcome→Outputs→Activities. Indicators must be SMART. Means of Verification (UBOS, attendance) validate. Assumptions = risks. Recommendation: Track monthly."
-    if "Results Framework" in tool_name: return f"**📖 Interpretation:** RF links Objective→Indicator→Baseline→Target. Target 200% growth needs baseline from {base}. Frequency quarterly allows adaptive management."
-    if "IPTT" in tool_name: return f"**📖 Interpretation:** On Track >80%, At Risk 50-79%. Female 96% = Good. Yield 75% needs support. Investigate Q1 vs Q2 gap using {base}."
-    if "Risk" in tool_name: return f"**📖 Interpretation:** High-High = Critical Red (Drought). Prioritize mitigation: drought-resistant seeds, contract farming. {base} shows climate risk."
-    if "Stakeholder" in tool_name: return f"**📖 Interpretation:** High Power High Interest = Manage Closely (Donors). Farmers High Interest Medium Influence = need empowerment via groups. {base}."
-    if "Workplan" in tool_name: return f"**📖 Interpretation:** Gantt shows timeline & responsible. Overlap = resource conflict. Add buffer, track progress % daily. {base}."
+    base = f"{len(df_active) if df_active is not None else 0} rows active"
+    if "Results Chain" in tool_name: return f"**📖 Interpretation ({base}):** Inputs→Activities→Outputs→Outcomes→Impact causality. Break at Activity = whole chain fails. Monitor training completion."
+    if "Theory of Change" in tool_name: return f"**📖 Interpretation:** IF interventions THEN preconditions BECAUSE assumptions → Impact. Validate with FGD. {base}."
+    if "LogFrame" in tool_name: return f"**📖 Interpretation:** Goal→Outcome→Outputs→Activities. SMART indicators. MOV validates. Assumptions = risks. Track monthly. {base}."
+    if "IPTT" in tool_name: return f"**📖 Interpretation:** >80% On Track, 50-79% At Risk. Female 96% Good. {base}."
+    if "Risk" in tool_name: return f"**📖 Interpretation:** High-High = Critical Red. Mitigate drought seeds, contract farming. {base}."
+    if "Stakeholder" in tool_name: return f"**📖 Interpretation:** High Power High Interest = Manage Closely. Farmers need empowerment. {base}."
+    if "Workplan" in tool_name: return f"**📖 Interpretation:** Gantt shows timeline, overlap = conflict. Add buffer. {base}."
     return "**Auto interpretation**"
 
-if st.session_state.page == "Data Upload":
-    st.header("📤 Data Upload - ANY TYPE")
-    st.caption("Supports: CSV, Excel (xlsx/xls), JSON, TXT, TSV, Parquet, SPSS (.sav), Stata (.dta), ODS")
+# 9 MASTER DATASETS - NO UGLY LIST
+if st.session_state.page == "9 Master Datasets - TIMAR REAL":
+    st.header("📦 9 Master Datasets - TIMAR REAL")
+    st.success(f"✅ {len(NINE_DATASETS)} REAL datasets ready - auto-detected via glob")
+    col1, col2 = st.columns([3,1])
+    with col1:
+        selected_label = st.selectbox("📂 Select Master Dataset:", list(NINE_DATASETS.keys()), index=list(NINE_DATASETS.keys()).index(st.session_state.active_master) if st.session_state.active_master in NINE_DATASETS else 0, key="nine_dropdown_main")
+    with col2:
+        if st.button("🔵 LOAD NOW", type="primary", use_container_width=True, key="load_nine_main"):
+            fname, fdf = NINE_DATASETS[selected_label]; st.session_state.current_df = fdf; st.session_state.active_master = selected_label; st.rerun()
+    fname, fdf = NINE_DATASETS[selected_label]
+    st.info(f"Previewing: **{selected_label}** → `{fname}` | **{len(fdf)} rows x {len(fdf.columns)} cols**")
+    t1,t2 = st.tabs(["📄 Data","📊 Chart"])
+    with t1:
+        rel_cols = get_chartable_columns(fdf); st.dataframe(fdf[rel_cols].head(100) if rel_cols else fdf.head(100), use_container_width=True)
+    with t2: render_chart(fdf, st.session_state.chart, get_best_chart_column(fdf, fdf.columns[0], st.session_state.chart), selected_label)
+
+# DATA UPLOAD - 10 TYPES
+elif st.session_state.page == "Data Upload":
+    st.header("📤 Data Upload - ANY TYPE (10 Types)")
+    st.caption("Supports: CSV, XLSX, XLS, JSON, TXT, TSV, PARQUET, SAV (SPSS), DTA (Stata), ODS")
     c1,c2 = st.columns([2,1])
     with c1:
         uploaded_file = st.file_uploader("📁 Drag & drop ANY file", type=["csv","xlsx","xls","json","txt","tsv","parquet","sav","dta","ods"], key="main_uploader_any")
@@ -283,9 +290,29 @@ if st.session_state.page == "Data Upload":
                         save_path = f"uploaded_{os.path.splitext(uploaded_file.name)[0]}.csv"
                         temp_df.to_csv(save_path, index=False); st.success(f"Saved {save_path}"); st.balloons()
     with c2:
-        st.metric("Rows", len(df)); st.metric("CSVs", len(glob.glob("*.csv"))); st.json(glob.glob("*.csv")[:10])
+        st.metric("Rows", len(df)); st.metric("Master Files", len(NINE_DATASETS))
         if st.button("🔄 Reload"): st.cache_data.clear(); st.rerun()
     render_chart(df, st.session_state.chart, df.columns[0], "Data Upload")
+
+# RESTORED DATA COLLECTION TOOLS - ALL 10
+elif st.session_state.page == "Data Collection Tools - All 10":
+    st.header("📋 Data Collection Tools - All 10 Tools")
+    tool_choice = st.selectbox("📋 Select STANDARD_TOOLS:", STANDARD_TOOLS, index=STANDARD_TOOLS.index(st.session_state.standard_tool) if st.session_state.standard_tool in STANDARD_TOOLS else 0, key="standard_tool_page")
+    st.session_state.standard_tool = tool_choice
+    st.info(f"**Tool:** {tool_choice} | **Sample Questions:** {DATA_COLLECTION_SAMPLES.get(tool_choice, [])[:3]}")
+    col1, col2 = st.columns([1,2])
+    with col1:
+        st.markdown("### 📝 Tool Questions")
+        for q in DATA_COLLECTION_SAMPLES.get(tool_choice, []):
+            st.write(f"- {q}")
+        st.divider()
+        st.markdown(f"**Auto Interpretation:** {tool_choice} is best for { 'quantitative structured data' if 'Questionnaire' in tool_choice or 'Survey' in tool_choice else 'qualitative in-depth insights' if 'Interview' in tool_choice or 'FGD' in tool_choice else 'field verification' if 'Observation' in tool_choice else 'mixed methods' }. Use with active dataset {len(df)} rows for triangulation.")
+    with col2:
+        st.markdown(f"### 📊 Data Linked to {tool_choice}")
+        rel_cols = get_chartable_columns(df)
+        st.dataframe(df[rel_cols].head(50) if rel_cols else df.head(50), use_container_width=True)
+        render_chart(df, st.session_state.chart, get_best_chart_column(df, df.columns[0], st.session_state.chart), tool_choice)
+        st.success(f"**Interpretation for {tool_choice}:** Tool collects {len(DATA_COLLECTION_SAMPLES.get(tool_choice, []))} key data points. Dominant region {df['Region'].mode().iloc[0] if 'Region' in df.columns else 'Central'} shows focus. Use {tool_choice} to validate {get_best_chart_column(df, df.columns[0], st.session_state.chart)} trends.")
 
 elif st.session_state.page == "M&E Module":
     st.header("📈 M&E TOOLS SUITE - TIMAR")
@@ -328,32 +355,45 @@ elif st.session_state.page == "M&E Module":
             wp["Start"]=pd.to_datetime(wp["Start"]); wp["End"]=pd.to_datetime(wp["End"]); fig=px.timeline(wp, x_start="Start", x_end="End", y="Activity", color="Responsible"); st.plotly_chart(fig, use_container_width=True)
         except: pass
 
+elif st.session_state.page == "Admin - Monitoring Panel":
+    if not is_admin():
+        st.error("⛔ Access Denied - Admin Only"); st.stop()
+    st.header("🛡️ Admin - Monitoring Panel")
+    if HAS_EXTERNAL_ADMIN:
+        try: render_admin_panel(); st.divider()
+        except: pass
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["👥 Users & Logins","⏰ Trials 24h","💳 Payments","📝 Activity Logs","⚙️ System Health"])
+    with tab1: users = load_users(); st.metric("Total Users", len(users)); st.dataframe(pd.DataFrame([{"Username":k} for k in users.keys()]), use_container_width=True)
+    with tab2: trials = load_json("trials.json", {}); st.metric("Trials", len(trials)); st.dataframe(pd.DataFrame([{"User":k, "Start":v.get("start","")} for k,v in trials.items()]), use_container_width=True) if trials else st.write("No trials")
+    with tab3: subs = load_json("subscriptions.json", {}); st.metric("Subscriptions", len(subs)); st.dataframe(pd.DataFrame([{"User":k, "Plan":v.get("plan"), "Txn":v.get("txn")} for k,v in subs.items()]), use_container_width=True) if subs else st.write("No subs")
+    with tab4: logs = load_json("timar_activity_log.json", []); st.metric("Logs", len(logs)); st.dataframe(pd.DataFrame(logs[-100:][::-1]), use_container_width=True) if logs else st.write("No logs")
+    with tab5: st.metric("Master Files", len(NINE_DATASETS)); st.dataframe(df.head(10), use_container_width=True)
+
 elif st.session_state.page == "Payment & Plans":
     st.title("💳 Payment & Plans")
     subs = load_json("subscriptions.json", {})
     if "selected_plan" not in st.session_state: st.session_state.selected_plan=None
     os.makedirs("payment_proofs", exist_ok=True)
-    # REMOVED ADMIN BANNER FROM MAIN PAGE - ONLY SIDEBAR
     if st.session_state.user in subs and subs[st.session_state.user].get("status")=="ACTIVE":
         st.success(f"✅ ACTIVE: {subs[st.session_state.user].get('plan')}"); st.stop()
     c1,c2,c3,c4 = st.columns(4)
     with c1:
-        with st.container(border=True): st.markdown("### 🎓 STUDENT\n## UGX 10,000");
+        with st.container(border=True): st.markdown("### 🎓 STUDENT\n## UGX 10,000")
         if st.button("Select STUDENT", key="s1", use_container_width=True): st.session_state.selected_plan="STUDENT"; st.rerun()
     with c2:
-        with st.container(border=True): st.markdown("### 🔬 RESEARCHER\n## UGX 30,000");
+        with st.container(border=True): st.markdown("### 🔬 RESEARCHER\n## UGX 30,000")
         if st.button("Select RESEARCHER", type="primary", key="s2", use_container_width=True): st.session_state.selected_plan="RESEARCHER"; st.rerun()
     with c3:
-        with st.container(border=True): st.markdown("### 🏢 NGO\n## UGX 300,000");
+        with st.container(border=True): st.markdown("### 🏢 NGO\n## UGX 300,000")
         if st.button("Select NGO", key="s3", use_container_width=True): st.session_state.selected_plan="NGO"; st.rerun()
     with c4:
-        with st.container(border=True): st.markdown("### 🏛️ GOVERNMENT\n## UGX 500,000");
+        with st.container(border=True): st.markdown("### 🏛️ GOVERNMENT\n## UGX 500,000")
         if st.button("Select GOVERNMENT", key="s4", use_container_width=True): st.session_state.selected_plan="GOVERNMENT"; st.rerun()
     if st.session_state.selected_plan:
         plan=st.session_state.selected_plan; prices={"STUDENT":10000,"RESEARCHER":30000,"NGO":300000,"GOVERNMENT":500000}
         st.warning(f"### 📱 Pay To MTN MoMo: 0789876277 / 0755453313 Name: Tino Mary - UGX {prices[plan]:,}")
         txn=st.text_input("MoMo Transaction ID *", key="txn_input"); proof_file = st.file_uploader("📤 Upload Proof *", type=["png","jpg","jpeg","pdf"], key="proof_upload")
-        if st.button("🚀 Upload & Activate", type="primary", use_container_width=True, key="confirm_pay_auto"):
+        if st.button("🚀 Upload & Activate", type="primary", use_container_width=True):
             if not txn.strip(): st.error("Enter Txn")
             elif proof_file is None: st.error("Upload proof")
             else:
@@ -364,7 +404,8 @@ elif st.session_state.page == "Payment & Plans":
 
 else:
     st.header(f"{st.session_state.page}")
-    st.dataframe(df.head(50), use_container_width=True)
-    render_chart(df, st.session_state.chart, df.columns[0], st.session_state.page)
+    rel_cols = get_chartable_columns(df)
+    st.dataframe(df[rel_cols].head(50) if rel_cols else df.head(50), use_container_width=True)
+    render_chart(df, st.session_state.chart, get_best_chart_column(df, df.columns[0], st.session_state.chart), st.session_state.page)
 
-st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026 | {len(glob.glob('*.csv'))} CSVs | Any Type Supported</div>""", unsafe_allow_html=True)
+st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026 | </div>""", unsafe_allow_html=True)
