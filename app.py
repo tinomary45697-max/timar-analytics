@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 import plotly.express as px
 import os, json, glob
 import numpy as np
+import time
 
 st.set_page_config(page_title="TIMAR ANALYTICS", layout="wide", initial_sidebar_state="expanded")
 
@@ -151,7 +152,7 @@ def log_activity(user, action, details=""):
     logs=load_json("timar_activity_log.json",[]); logs.append({"Time":datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"User":user,"Action":action,"Details":details}); save_json("timar_activity_log.json",logs[-500:])
 def is_admin(): return str(st.session_state.get("username","")).lower()=="admin"
 
-# ===== PAYMENT CHECK - ORIGINAL PLANS KEPT =====
+# ===== 24H TRIAL + PAYMENT CHECK - FIXED VERSION =====
 def has_active_subscription():
     if is_admin(): return True
     subs = load_json("subscriptions.json", {})
@@ -165,19 +166,63 @@ def has_active_subscription():
             return True
     return False
 
+def is_trial_active():
+    if is_admin(): return False
+    if has_active_subscription(): return False
+    trials = load_json("trials.json", {})
+    user = st.session_state.get("user","")
+    if user in trials:
+        try:
+            start = datetime.fromisoformat(trials[user]["start"])
+            elapsed = datetime.now() - start
+            if elapsed < timedelta(hours=24):
+                return True
+        except:
+            pass
+    return False
+
+def get_trial_time_left():
+    trials = load_json("trials.json", {})
+    user = st.session_state.get("user","")
+    if user in trials:
+        try:
+            start = datetime.fromisoformat(trials[user]["start"])
+            elapsed = datetime.now() - start
+            remaining = timedelta(hours=24) - elapsed
+            if remaining.total_seconds() > 0:
+                hours = int(remaining.total_seconds() // 3600)
+                mins = int((remaining.total_seconds() % 3600) // 60)
+                return f"{hours}h {mins}m", remaining
+        except:
+            pass
+    return "0h 0m", timedelta(0)
+
+def can_full_access():
+    if is_admin(): return True
+    if has_active_subscription(): return True
+    if is_trial_active(): return True
+    return False
+
 def show_paywall_popup():
-    if has_active_subscription():
+    if can_full_access():
+        if is_trial_active():
+            time_left, _ = get_trial_time_left()
+            st.markdown(f"""
+            <div style="background: linear-gradient(90deg, #10B981 0%, #059669 100%); padding:12px; border-radius:10px; margin-bottom:10px; border:2px solid #F59E0B;">
+                <p style="color:white; text-align:center; margin:0; font-weight:bold;">⏰ TRIAL ACTIVE - FULL ACCESS: {time_left} left | Enjoy all features!</p>
+            </div>
+            """, unsafe_allow_html=True)
         return False
     st.markdown("""
     <div style="background: linear-gradient(90deg, #DC2626 0%, #EA580C 100%); padding:15px; border-radius:12px; margin-bottom:15px; border:3px solid #F59E0B;">
-        <h3 style="color:white!important; margin:0; text-align:center;">🔒 ACCESS RESTRICTED - PAY TO UNLOCK</h3>
-        <p style="color:white; text-align:center; margin:5px 0;">FREE VIEW MODE - VIEW only, CANNOT Upload/Analyze/Download until you pay.</p>
+        <h3 style="color:white!important; margin:0; text-align:center;">🔒 TRIAL EXPIRED - PAY TO UNLOCK</h3>
+        <p style="color:white; text-align:center; margin:5px 0;">Your 24H FREE trial ended. You can VIEW only. Pay to unlock Upload/Analyze/Download.</p>
         <p style="color:#FEF3C7; text-align:center; font-weight:bold; margin:0;">💳 MTN MoMo: 0789876277 / 0755453313 - Tino Mary</p>
     </div>
     """, unsafe_allow_html=True)
     col1, col2 = st.columns([2,1])
     with col1:
-        st.error("🚫 **Upload, Analyze, Download DISABLED** - Pay to unlock")
+        st.error("🚫 **Upload, Analyze, Download DISABLED** - Trial expired. Pay to unlock")
     with col2:
         if st.button("💳 PAY NOW - UNLOCK", type="primary", use_container_width=True, key="paywall_btn_top"):
             st.session_state.page = "Payment & Plans"
@@ -198,7 +243,7 @@ if not st.session_state.logged_in:
     st.markdown("""<style>[data-testid="stSidebar"]{display:none;}header{visibility:hidden;}.stApp{background:radial-gradient(ellipse at top, #1E3A8A 0%, #0F172A 50%, #1E1B4B 100%)!important;}.login-card{background:white;padding:40px 35px;border-radius:20px;box-shadow:0 25px 70px rgba(0,0,0,0.4);text-align:center;margin-top:20px;border-top:8px solid #F59E0B;}.login-card h1{color:#1E3A8A!important;font-size:32px;font-weight:900;}</style>""", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1,2,1])
     with col2:
-        st.markdown(f"""<div class="login-card"><div style="font-size:70px;">📊</div><h1>TIMAR ANALYTICS</h1><p style="font-size:18px!important;color:#1E3A8A!important;font-weight:900;">📊 Uganda's Smart Data Platform</p><p style="background:#FEF3C7;padding:10px;border-radius:10px;color:#1E3A8A!important;font-weight:900;border:2px solid #D4AF37;">🔐 Secure Login | ⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p><p style="color:#64748B; font-size:12px;">520 Sample Data • 15 Modules • 24H FREE Trial (View Only)</p></div>""", unsafe_allow_html=True)
+        st.markdown(f"""<div class="login-card"><div style="font-size:70px;">📊</div><h1>TIMAR ANALYTICS</h1><p style="font-size:18px!important;color:#1E3A8A!important;font-weight:900;">📊 Uganda's Smart Data Platform</p><p style="background:#FEF3C7;padding:10px;border-radius:10px;color:#1E3A8A!important;font-weight:900;border:2px solid #D4AF37;">🔐 Secure Login | ⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p><p style="color:#64748B; font-size:12px;">520 Sample Data • 15 Modules • 24H FREE Full Access Trial</p></div>""", unsafe_allow_html=True)
         users = load_users()
         with st.form("login_form", clear_on_submit=False):
             username = st.text_input("👤 Username", placeholder="Enter your username")
@@ -215,14 +260,14 @@ if not st.session_state.logged_in:
             if submit_signup_toggle: st.session_state.show_signup = True
         if st.session_state.get("show_signup", False):
             with st.container(border=True):
-                nu=st.text_input("Choose Username", key="s_u"); npw=st.text_input("Choose Password",type="password",key="s_p"); cpw=st.text_input("Confirm Password",type="password",key="s_c"); phone=st.text_input("Phone", placeholder="07XXXXXXXX"); agree=st.checkbox("I agree to trial - VIEW ONLY until payment")
-                if st.button("🚀 Create & Start Trial",type="primary",use_container_width=True):
+                nu=st.text_input("Choose Username", key="s_u"); npw=st.text_input("Choose Password",type="password",key="s_p"); cpw=st.text_input("Confirm Password",type="password",key="s_c"); phone=st.text_input("Phone", placeholder="07XXXXXXXX"); agree=st.checkbox("I agree to 24H FULL ACCESS trial")
+                if st.button("🚀 Create & Start 24H Trial",type="primary",use_container_width=True):
                     users=load_users()
                     if npw!=cpw: st.error("Mismatch")
                     elif nu in users: st.error("Exists")
                     elif not agree: st.error("Agree")
                     else:
-                        users[nu]=npw; save_json("users.json",{k:v for k,v in users.items() if k!="Admin"}); trials=load_json("trials.json",{}); trials[nu]={"start":datetime.now().isoformat(),"phone":phone}; save_json("trials.json",trials); st.success(f"✅ Account {nu} created! VIEW MODE - Pay to unlock"); st.balloons()
+                        users[nu]=npw; save_json("users.json",{k:v for k,v in users.items() if k!="Admin"}); trials=load_json("trials.json",{}); trials[nu]={"start":datetime.now().isoformat(),"phone":phone}; save_json("trials.json",trials); st.success(f"✅ Account {nu} created! 24H FULL ACCESS!"); st.balloons()
     st.stop()
 
 df = st.session_state.current_df
@@ -237,8 +282,12 @@ with st.sidebar:
     st.title("🌾 TIMAR ANALYTICS")
     if has_active_subscription():
         st.success("✅ PAID - FULL ACCESS")
+    elif is_trial_active():
+        time_left, _ = get_trial_time_left()
+        st.warning(f"⏰ TRIAL: {time_left} left - FULL ACCESS")
+        st.success("✅ FULL ACCESS - Trial Active")
     else:
-        st.error("🔒 FREE VIEW ONLY - PAY TO UNLOCK")
+        st.error("🔒 TRIAL EXPIRED - VIEW ONLY")
         if st.button("💳 Pay Now", type="primary", use_container_width=True):
             st.session_state.page = "Payment & Plans"
             st.rerun()
@@ -272,9 +321,12 @@ with st.sidebar:
     if st.button("🚪 Logout", width='stretch'):
         st.session_state.logged_in=False; st.session_state.username=""; st.session_state.user=""; st.rerun()
 
-if not has_active_subscription() and st.session_state.page not in ["Payment & Plans", "Admin - Monitoring Panel"]:
+if not can_full_access() and st.session_state.page not in ["Payment & Plans", "Admin - Monitoring Panel"]:
     show_paywall_popup()
-    st.toast("🔒 VIEW ONLY - Pay to unlock Upload/Download!", icon="💳")
+    st.toast("🔒 Trial expired - VIEW ONLY. Pay to unlock!", icon="💳")
+elif is_trial_active():
+    time_left, _ = get_trial_time_left()
+    st.toast(f"⏰ Trial: {time_left} left - Full access!", icon="✅")
 
 st.markdown(f"""<div style="background:linear-gradient(90deg,#1E3A8A 0%,#1E40AF 50%,#D4AF37 100%);padding:20px;border-radius:15px;margin-bottom:15px;text-align:center;"><h1 style="color:white!important;margin:0;font-size:32px;font-weight:900;">🌾 TIMAR ANALYTICS</h1></div>""", unsafe_allow_html=True)
 
@@ -314,8 +366,8 @@ if st.session_state.page == "9 Master Datasets - TIMAR REAL":
     t1,t2 = st.tabs(["📄 Data","📊 Chart"])
     with t1:
         rel_cols = get_chartable_columns(fdf); st.dataframe(fdf[rel_cols].head(100) if rel_cols else fdf.head(100), use_container_width=True)
-        if not has_active_subscription():
-            st.error("🔒 Download blocked - Pay to unlock")
+        if not can_full_access():
+            st.error("🔒 Download blocked - Trial expired, pay to unlock")
         else:
             csv = fdf.to_csv(index=False).encode('utf-8')
             st.download_button("📥 Download Full Data", csv, f"{selected_label}.csv", "text/csv")
@@ -323,9 +375,9 @@ if st.session_state.page == "9 Master Datasets - TIMAR REAL":
 
 elif st.session_state.page == "Data Upload":
     st.header("📤 Data Upload - ANY TYPE (10 Types)")
-    if not has_active_subscription():
-        st.error("🚫 **UPLOAD DISABLED - FREE VIEW ONLY**")
-        st.warning("You can VIEW dashboards. CANNOT upload until you pay.\n\n💳 **MTN MoMo: 0789876277 / 0755453313 - Tino Mary**")
+    if not can_full_access():
+        st.error("🚫 **UPLOAD DISABLED - TRIAL EXPIRED**")
+        st.warning("Your 24H trial ended. You can VIEW only. Pay to unlock upload.\n\n💳 **MTN MoMo: 0789876277 / 0755453313 - Tino Mary**")
         if st.button("💳 Go to Payment Page", type="primary", use_container_width=True):
             st.session_state.page = "Payment & Plans"; st.rerun()
         st.stop()
@@ -354,8 +406,8 @@ elif st.session_state.page == "Data Collection Tools - All 10":
         for q in DATA_COLLECTION_SAMPLES.get(tool_choice, []):
             st.write(f"- {q}")
         st.divider()
-        if not has_active_subscription():
-            st.error("🔒 **Data Entry Blocked - VIEW ONLY**")
+        if not can_full_access():
+            st.error("🔒 **Data Entry Blocked - Trial Expired**")
         else:
             st.success("✅ Full access")
             if st.button("📝 Create Data with this Tool"):
@@ -364,8 +416,8 @@ elif st.session_state.page == "Data Collection Tools - All 10":
     with col2:
         rel_cols = get_chartable_columns(df)
         st.dataframe(df[rel_cols].head(50) if rel_cols else df.head(50), use_container_width=True)
-        if not has_active_subscription():
-            st.error("🔒 Analyze & Download blocked. Pay to unlock")
+        if not can_full_access():
+            st.error("🔒 Analyze & Download blocked. Trial expired - Pay to unlock")
         else:
             render_chart(df, st.session_state.chart, get_best_chart_column(df, df.columns[0], st.session_state.chart), tool_choice)
             csv = df.to_csv(index=False).encode('utf-8')
@@ -386,10 +438,10 @@ elif st.session_state.page == "M&E Module":
     elif "LogFrame" in me_tool:
         log_data = st.data_editor(pd.DataFrame([{"Level":"Goal","Narrative":"Poverty reduction","Indicators":"% below poverty","MOV":"UBOS","Assumptions":"Policy stable"},{"Level":"Outcome","Narrative":"Increased income","Indicators":"+30% income","MOV":"Survey","Assumptions":"Markets accessible"}]), num_rows="dynamic", use_container_width=True, key="logframe_edit")
         st.success(auto_interpret_me(me_tool, df))
-        if has_active_subscription():
+        if can_full_access():
             if st.button("📥 Export Excel"): log_data.to_excel("TIMAR_LogFrame.xlsx", index=False); st.success("Exported!")
         else:
-            st.error("🔒 Export blocked - Pay to unlock")
+            st.error("🔒 Export blocked - Trial expired, pay to unlock")
 
 elif st.session_state.page == "Admin - Monitoring Panel":
     if not is_admin():
@@ -409,7 +461,11 @@ elif st.session_state.page == "Payment & Plans":
     if st.session_state.user in subs and subs[st.session_state.user].get("status")=="ACTIVE":
         st.success(f"✅ ACTIVE: {subs[st.session_state.user].get('plan')}"); st.balloons()
     else:
-        st.warning("🔒 FREE VIEW ONLY - Pay to unlock Upload/Analyze/Download")
+        if is_trial_active():
+            time_left, _ = get_trial_time_left()
+            st.success(f"⏰ Trial active: {time_left} left - You still have FULL ACCESS")
+        else:
+            st.warning("🔒 Trial expired - FREE VIEW ONLY - Pay to unlock Upload/Analyze/Download")
     c1,c2,c3,c4 = st.columns(4)
     with c1:
         with st.container(border=True): st.markdown("### 🎓 STUDENT\n## UGX 10,000")
@@ -439,11 +495,7 @@ elif st.session_state.page == "Payment & Plans":
 elif st.session_state.page == "Reviews & Comments":
     st.header("⭐ Reviews & Comments - TIMAR ANALYTICS")
     st.markdown("**Leave your feedback - Help us improve for NGOs in Uganda**")
-
-    # Load reviews
     reviews = load_json("reviews.json", [])
-
-    # Stats
     if reviews:
         avg_rating = sum([r.get("rating",5) for r in reviews]) / len(reviews)
         col1, col2, col3 = st.columns(3)
@@ -452,12 +504,8 @@ elif st.session_state.page == "Reviews & Comments":
         col3.metric("Satisfied", f"{len([r for r in reviews if r.get('rating',0) >=4])} users")
     else:
         st.info("🌟 Be the first to review TIMAR ANALYTICS!")
-
     st.divider()
-
-    # LEFT: Leave review form - NO DATA DISPLAY
     col_form, col_list = st.columns([1, 1.2])
-
     with col_form:
         st.subheader("✍️ Leave a Review")
         with st.container(border=True):
@@ -465,12 +513,9 @@ elif st.session_state.page == "Reviews & Comments":
             rating = st.slider("Rating", 1, 5, 5, help="1=Poor, 5=Excellent")
             stars = "⭐" * rating
             st.markdown(f"**{stars} ({rating}/5)**")
-
             organization = st.text_input("Organization / NGO (Optional)", placeholder="e.g., World Vision Uganda")
             review_text = st.text_area("Your Review / Comment *", placeholder="TIMAR ANALYTICS helped us...", height=120)
-
             would_recommend = st.checkbox("I would recommend TIMAR to other NGOs")
-
             if st.button("📤 Submit Review", type="primary", use_container_width=True):
                 if not review_text.strip():
                     st.error("Please write your review")
@@ -492,10 +537,8 @@ elif st.session_state.page == "Reviews & Comments":
                     st.balloons()
                     time.sleep(1)
                     st.rerun()
-
     with col_list:
         st.subheader(f"💬 All Reviews ({len(reviews)})")
-
         if not reviews:
             st.markdown("""
             <div style="background:#EFF6FF; padding:30px; border-radius:15px; text-align:center; border:2px dashed #1E3A8A;">
@@ -505,7 +548,6 @@ elif st.session_state.page == "Reviews & Comments":
             </div>
             """, unsafe_allow_html=True)
         else:
-            # Show newest first
             for idx, rev in enumerate(reversed(reviews[-20:])):
                 stars_display = "⭐" * rev.get("rating",5)
                 with st.container(border=True):
@@ -516,20 +558,13 @@ elif st.session_state.page == "Reviews & Comments":
                             st.caption(f"🏢 {rev.get('organization')}")
                     with c2:
                         st.caption(f"📅 {rev.get('date','')}")
-
                     st.write(f"_{rev.get('review','')}_")
-
                     if rev.get("recommend"):
                         st.markdown("✅ **Recommends TIMAR**")
-
-                    # Like button (optional)
                     if st.button(f"👍 Helpful ({rev.get('likes',0)})", key=f"like_{idx}"):
-                        # Increment likes
                         rev["likes"] = rev.get("likes",0) + 1
                         save_json("reviews.json", reviews)
                         st.rerun()
-
-    # ADMIN: Delete reviews option
     if is_admin() and reviews:
         st.divider()
         st.subheader("🛡️ Admin - Manage Reviews")
@@ -542,12 +577,11 @@ else:
     st.header(f"{st.session_state.page}")
     rel_cols = get_chartable_columns(df)
     st.dataframe(df[rel_cols].head(50) if rel_cols else df.head(50), use_container_width=True)
-    if not has_active_subscription():
-        st.error("🔒 Analysis & Download blocked - VIEW ONLY. Pay to unlock.")
+    if not can_full_access():
+        st.error("🔒 Analysis & Download blocked - Trial expired, pay to unlock.")
     else:
         render_chart(df, st.session_state.chart, get_best_chart_column(df, df.columns[0], st.session_state.chart), st.session_state.page)
         csv = df.to_csv(index=False).encode('utf-8')
         st.download_button("📥 Download Data", csv, "timar_data.csv", "text/csv")
 
-st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026 </div>""", unsafe_allow_html=True)
-
+st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026</div>""", unsafe_allow_html=True)
