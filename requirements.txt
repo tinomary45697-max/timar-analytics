@@ -4,6 +4,8 @@ plotly
 numpy
 openpyxl
 xlrd>=2.0.1
-odfpy
+lxml
+html5lib
 pyreadstat
-pyarrow
+pyxlsb
+olefile
