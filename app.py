@@ -646,26 +646,76 @@ elif st.session_state.page == "Research Module":
         except Exception as e:
             st.error(f"Stats error: {e}")
 
-    with t3:
+        with t3:
         st.subheader("Correlation & Regression")
-        numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+        # Filter out ID columns
+        all_numeric = df.select_dtypes(include=[np.number]).columns.tolist()
+        numeric_cols = [c for c in all_numeric if not is_irrelevant_column(df, c)]
+        if not numeric_cols:
+            numeric_cols = all_numeric[:5] # fallback
+        
         if len(numeric_cols) >= 2:
             c1,c2 = st.columns(2)
-            with c1: x_col = st.selectbox("X - Independent", numeric_cols, key="res_x")
-            with c2: y_col = st.selectbox("Y - Dependent", numeric_cols, index=1 if len(numeric_cols)>1 else 0, key="res_y")
+            with c1: 
+                x_col = st.selectbox("X - Independent", numeric_cols, key="res_x")
+            with c2: 
+                y_col = st.selectbox("Y - Dependent", [c for c in numeric_cols if c != x_col], key="res_y")
+            
             try:
-                fig = px.scatter(df, x=x_col, y=y_col, trendline="ols", title=f"{y_col} vs {x_col}")
+                # Clean data
+                temp = df[[x_col, y_col]].dropna()
+                x = temp[x_col]
+                y = temp[y_col]
+                
+                # Calculate correlation
+                corr = x.corr(y)
+                
+                # Calculate regression manually (NO statsmodels)
+                if len(x) > 1:
+                    slope, intercept = np.polyfit(x, y, 1)
+                    y_pred = slope * x + intercept
+                    # R-squared
+                    ss_res = ((y - y_pred) ** 2).sum()
+                    ss_tot = ((y - y.mean()) ** 2).sum()
+                    r2 = 1 - (ss_res / ss_tot) if ss_tot != 0 else 0
+
+                # Scatter plot WITHOUT ols trendline
+                fig = px.scatter(temp, x=x_col, y=y_col, title=f"{y_col} vs {x_col}", opacity=0.6)
+                # Add regression line manually
+                fig.add_scatter(x=x, y=y_pred, mode='lines', name=f'Regression: y={slope:.2f}x+{intercept:.2f}', line=dict(color='red', width=3))
                 st.plotly_chart(fig, use_container_width=True)
-                corr = df[x_col].corr(df[y_col])
-                st.metric("Correlation (r)", f"{corr:.3f}")
-                st.success(f"Interpretation: {'Strong' if abs(corr)>0.7 else 'Moderate' if abs(corr)>0.4 else 'Weak'} relationship")
+                
+                col1, col2, col3 = st.columns(3)
+                col1.metric("Correlation (r)", f"{corr:.3f}")
+                col2.metric("R-Squared", f"{r2:.3f}")
+                col3.metric("Slope", f"{slope:.3f}")
+
+                if abs(corr) > 0.7:
+                    st.success(f"**Strong relationship** ({corr:.2f}) - Excellent for thesis! As {x_col} increases, {y_col} strongly {'increases' if corr>0 else 'decreases'}.")
+                elif abs(corr) > 0.4:
+                    st.info(f"**Moderate relationship** ({corr:.2f}) - Good for thesis.")
+                else:
+                    st.warning(f"**Weak relationship** ({corr:.2f}) - Consider other variables.")
+
+                st.markdown("### Correlation Matrix (All Numeric)")
                 st.dataframe(df[numeric_cols].corr(), use_container_width=True)
+                
+                # Thesis-ready interpretation
+                st.markdown(f"""
+                **📖 Thesis Interpretation:**
+                > The Pearson correlation between {x_col} and {y_col} is r = {corr:.3f} (R² = {r2:.3f}). 
+                > This indicates a {'strong' if abs(corr)>0.7 else 'moderate' if abs(corr)>0.4 else 'weak'} {'positive' if corr>0 else 'negative'} relationship.
+                > Regression equation: {y_col} = {slope:.3f}*{x_col} + {intercept:.3f}
+                """)
+
             except Exception as e:
                 st.error(f"Regression error: {e}")
+                # Fallback simple scatter
+                fig = px.scatter(df, x=x_col, y=y_col, title=f"{y_col} vs {x_col}")
+                st.plotly_chart(fig, use_container_width=True)
         else:
-            st.warning("Need 2+ numeric columns. Showing available correlations:")
+            st.warning("Need at least 2 numeric columns (excluding ID).")
             st.dataframe(df.corr(numeric_only=True), use_container_width=True)
-
     with t4:
         st.subheader("Hypothesis Testing")
         cat_cols = df.select_dtypes(include=['object']).columns.tolist()
