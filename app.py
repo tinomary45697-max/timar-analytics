@@ -151,7 +151,7 @@ def log_activity(user, action, details=""):
     logs=load_json("timar_activity_log.json",[]); logs.append({"Time":datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"User":user,"Action":action,"Details":details}); save_json("timar_activity_log.json",logs[-500:])
 def is_admin(): return str(st.session_state.get("username","")).lower()=="admin"
 
-# ===== NEW: PAYMENT CHECK LOGIC =====
+# ===== PAYMENT CHECK - ORIGINAL PLANS KEPT =====
 def has_active_subscription():
     if is_admin(): return True
     subs = load_json("subscriptions.json", {})
@@ -165,31 +165,19 @@ def has_active_subscription():
             return True
     return False
 
-def is_trial_valid():
-    trials = load_json("trials.json", {})
-    user = st.session_state.get("user","")
-    if user in trials:
-        try:
-            start = datetime.fromisoformat(trials[user]["start"])
-            if datetime.now() - start < timedelta(hours=24):
-                return True
-        except: pass
-    return False
-
 def show_paywall_popup():
     if has_active_subscription():
         return False
-    # POPUP REMINDER - ALWAYS SHOW FOR UNPAID
     st.markdown("""
-    <div style="background: linear-gradient(90deg, #DC2626 0%, #EA580C 100%); padding:15px; border-radius:12px; margin-bottom:15px; border:3px solid #F59E0B; animation: pulse 2s infinite;">
+    <div style="background: linear-gradient(90deg, #DC2626 0%, #EA580C 100%); padding:15px; border-radius:12px; margin-bottom:15px; border:3px solid #F59E0B;">
         <h3 style="color:white!important; margin:0; text-align:center;">🔒 ACCESS RESTRICTED - PAY TO UNLOCK</h3>
-        <p style="color:white; text-align:center; margin:5px 0;">You are on FREE VIEW MODE. You can VIEW data but CANNOT Upload, Analyze or Download until you pay.</p>
-        <p style="color:#FEF3C7; text-align:center; font-weight:bold; margin:0;">💳 NGO 500k/60 Days | Monthly Plan 300k/month | MTN 0789876277 - Tino Mary</p>
+        <p style="color:white; text-align:center; margin:5px 0;">FREE VIEW MODE - VIEW only, CANNOT Upload/Analyze/Download until you pay.</p>
+        <p style="color:#FEF3C7; text-align:center; font-weight:bold; margin:0;">💳 MTN MoMo: 0789876277 / 0755453313 - Tino Mary</p>
     </div>
     """, unsafe_allow_html=True)
     col1, col2 = st.columns([2,1])
     with col1:
-        st.error("🚫 **Upload, Analyze, Download DISABLED** - Pay to unlock all features. You can only view dashboards.")
+        st.error("🚫 **Upload, Analyze, Download DISABLED** - Pay to unlock")
     with col2:
         if st.button("💳 PAY NOW - UNLOCK", type="primary", use_container_width=True, key="paywall_btn_top"):
             st.session_state.page = "Payment & Plans"
@@ -247,36 +235,26 @@ else:
 
 with st.sidebar:
     st.title("🌾 TIMAR ANALYTICS")
-    # PAYMENT STATUS BADGE
     if has_active_subscription():
         st.success("✅ PAID - FULL ACCESS")
     else:
         st.error("🔒 FREE VIEW ONLY - PAY TO UNLOCK")
-        if st.button("💳 Pay Now 500k/60 Days", type="primary", use_container_width=True):
+        if st.button("💳 Pay Now", type="primary", use_container_width=True):
             st.session_state.page = "Payment & Plans"
             st.rerun()
-
     if is_admin():
-        st.markdown(f"""<div style="background:linear-gradient(90deg,#1E3A8A,#D4AF37);padding:12px;border-radius:12px;text-align:center;border:2px solid white;"><p style="color:white;font-weight:900;margin:0;font-size:16px;">👑 ADMIN UNLIMITED</p><p style="color:#FEF3C7;font-weight:700;margin:5px 0 0 0;">👤 {st.session_state.username}</p><p style="color:white;font-weight:600;margin:0;">⏰ {now_str}</p></div>""", unsafe_allow_html=True)
+        st.markdown(f"""<div style="background:linear-gradient(90deg,#1E3A8A,#D4AF37);padding:12px;border-radius:12px;text-align:center;border:2px solid white;"><p style="color:white;font-weight:900;margin:0;">👑 ADMIN UNLIMITED</p><p style="color:#FEF3C7;font-weight:700;margin:5px 0 0 0;">👤 {st.session_state.username}</p></div>""", unsafe_allow_html=True)
     else:
-        st.markdown(f"""<div style="background:white;padding:10px;border-radius:10px;text-align:center;"><p>👤 {st.session_state.username}</p><p>Rows: {len(df)} | Trial: 24H</p></div>""", unsafe_allow_html=True)
+        st.markdown(f"""<div style="background:white;padding:10px;border-radius:10px;text-align:center;"><p>👤 {st.session_state.username}</p><p>Rows: {len(df)}</p></div>""", unsafe_allow_html=True)
     st.divider()
-
-    # ===== NEW: DATA COLLECTION DROPDOWN AT SIDEBAR =====
     st.markdown("### 📋 DATA COLLECTION TOOLS")
-    sidebar_tool = st.selectbox(
-        "Select Collection Tool:",
-        STANDARD_TOOLS,
-        index=STANDARD_TOOLS.index(st.session_state.standard_tool) if st.session_state.standard_tool in STANDARD_TOOLS else 0,
-        key="sidebar_data_tool_dropdown"
-    )
+    sidebar_tool = st.selectbox("Select Collection Tool:", STANDARD_TOOLS, index=STANDARD_TOOLS.index(st.session_state.standard_tool) if st.session_state.standard_tool in STANDARD_TOOLS else 0, key="sidebar_data_tool_dropdown")
     st.session_state.standard_tool = sidebar_tool
     if st.button(f"📂 Open: {sidebar_tool[:20]}...", use_container_width=True):
         st.session_state.page = "Data Collection Tools - All 10"
         st.rerun()
     st.caption(f"Q: {', '.join(DATA_COLLECTION_SAMPLES.get(sidebar_tool, [])[:2])}")
     st.divider()
-
     sel_gen = st.selectbox("Generated Datasets:", ["UBOS Poverty by Region (NGO Demo)","BoU Inflation & USD/UGX (Business Demo)","MOH Health - Malaria & ANC (Health NGO Demo)","UBOS Population Census 2024 (Research Demo)","World Bank Uganda GDP & Education"], key="generated_sidebar_select")
     if st.button("🔵 Load Generated", key="load_gen_sidebar", use_container_width=True):
         gdf, gname = load_sample_data(sel_gen); st.session_state.current_df = gdf; st.rerun()
@@ -294,11 +272,9 @@ with st.sidebar:
     if st.button("🚪 Logout", width='stretch'):
         st.session_state.logged_in=False; st.session_state.username=""; st.session_state.user=""; st.rerun()
 
-# GLOBAL PAYMENT REMINDER POPUP FOR ALL PAGES (except Payment page and Admin)
 if not has_active_subscription() and st.session_state.page not in ["Payment & Plans", "Admin - Monitoring Panel"]:
     show_paywall_popup()
-    # Extra toast
-    st.toast("🔒 VIEW ONLY MODE - Pay 500k to unlock Upload/Download!", icon="💳")
+    st.toast("🔒 VIEW ONLY - Pay to unlock Upload/Download!", icon="💳")
 
 st.markdown(f"""<div style="background:linear-gradient(90deg,#1E3A8A 0%,#1E40AF 50%,#D4AF37 100%);padding:20px;border-radius:15px;margin-bottom:15px;text-align:center;"><h1 style="color:white!important;margin:0;font-size:32px;font-weight:900;">🌾 TIMAR ANALYTICS</h1></div>""", unsafe_allow_html=True)
 
@@ -316,16 +292,15 @@ def render_chart(data, chart_type, col_name, title_suffix=""):
 
 def auto_interpret_me(tool_name, df_active=None):
     base = f"{len(df_active) if df_active is not None else 0} rows active"
-    if "Results Chain" in tool_name: return f"**📖 Interpretation ({base}):** Inputs→Activities→Outputs→Outcomes→Impact causality. Break at Activity = whole chain fails."
-    if "Theory of Change" in tool_name: return f"**📖 Interpretation:** IF interventions THEN preconditions BECAUSE assumptions → Impact. {base}."
-    if "LogFrame" in tool_name: return f"**📖 Interpretation:** Goal→Outcome→Outputs→Activities. SMART indicators. {base}."
-    if "IPTT" in tool_name: return f"**📖 Interpretation:** >80% On Track, 50-79% At Risk. {base}."
-    if "Risk" in tool_name: return f"**📖 Interpretation:** High-High = Critical Red. {base}."
-    if "Stakeholder" in tool_name: return f"**📖 Interpretation:** High Power High Interest = Manage Closely. {base}."
+    if "Results Chain" in tool_name: return f"**📖 Interpretation ({base}):** Inputs→Activities→Outputs→Outcomes→Impact"
+    if "Theory of Change" in tool_name: return f"**📖 Interpretation:** IF THEN BECAUSE → Impact. {base}."
+    if "LogFrame" in tool_name: return f"**📖 Interpretation:** Goal→Outcome→Outputs→Activities. {base}."
+    if "IPTT" in tool_name: return f"**📖 Interpretation:** >80% On Track. {base}."
+    if "Risk" in tool_name: return f"**📖 Interpretation:** High-High = Critical. {base}."
+    if "Stakeholder" in tool_name: return f"**📖 Interpretation:** Manage Closely. {base}."
     if "Workplan" in tool_name: return f"**📖 Interpretation:** Gantt shows timeline. {base}."
     return "**Auto interpretation**"
 
-# PAGES
 if st.session_state.page == "9 Master Datasets - TIMAR REAL":
     st.header("📦 9 Master Datasets - TIMAR REAL")
     col1, col2 = st.columns([3,1])
@@ -339,10 +314,8 @@ if st.session_state.page == "9 Master Datasets - TIMAR REAL":
     t1,t2 = st.tabs(["📄 Data","📊 Chart"])
     with t1:
         rel_cols = get_chartable_columns(fdf); st.dataframe(fdf[rel_cols].head(100) if rel_cols else fdf.head(100), use_container_width=True)
-        # BLOCK DOWNLOAD IF NOT PAID
         if not has_active_subscription():
-            st.error("🔒 Download blocked - Pay to unlock. VIEW ONLY mode.")
-            st.button("💳 Pay 500k to Download", disabled=True)
+            st.error("🔒 Download blocked - Pay to unlock")
         else:
             csv = fdf.to_csv(index=False).encode('utf-8')
             st.download_button("📥 Download Full Data", csv, f"{selected_label}.csv", "text/csv")
@@ -352,38 +325,29 @@ elif st.session_state.page == "Data Upload":
     st.header("📤 Data Upload - ANY TYPE (10 Types)")
     if not has_active_subscription():
         st.error("🚫 **UPLOAD DISABLED - FREE VIEW ONLY**")
-        st.warning("You can VIEW dashboards and sample data. But you CANNOT upload your own data until you pay.\n\n💳 **Pay MTN MoMo: 0789876277 / 0755453313 - Name: Tino Mary**\n\n**Plans: NGO 500k/60 Days or 300k/month**")
-        if st.button("💳 Go to Payment Page to Unlock Upload", type="primary", use_container_width=True):
+        st.warning("You can VIEW dashboards. CANNOT upload until you pay.\n\n💳 **MTN MoMo: 0789876277 / 0755453313 - Tino Mary**")
+        if st.button("💳 Go to Payment Page", type="primary", use_container_width=True):
             st.session_state.page = "Payment & Plans"; st.rerun()
-        st.info("**What you CAN do in FREE VIEW:** View Dashboard, View 9 Master Datasets, View Data Collection Tools, View M&E Tools")
         st.stop()
-    # IF PAID - ALLOW UPLOAD
-    st.caption("Supports: CSV, XLSX, XLS, JSON, TXT, TSV, PARQUET, SAV (SPSS), DTA (Stata), ODS")
+    st.caption("Supports: CSV, XLSX, XLS, JSON, TXT, TSV, PARQUET, SAV, DTA, ODS")
     c1,c2 = st.columns([2,1])
     with c1:
         uploaded_file = st.file_uploader("📁 Drag & drop ANY file", type=["csv","xlsx","xls","json","txt","tsv","parquet","sav","dta","ods"], key="main_uploader_any")
         if uploaded_file:
             temp_df = load_any_file(uploaded_file)
             if temp_df is not None:
-                st.success(f"✅ {uploaded_file.name} | {len(temp_df)} rows x {len(temp_df.columns)} cols")
+                st.success(f"✅ {uploaded_file.name} | {len(temp_df)} rows")
                 st.dataframe(temp_df.head(50), use_container_width=True)
-                ca,cb = st.columns(2)
-                with ca:
-                    if st.button("🔵 Set as Active", type="primary", use_container_width=True, key="set_active_any"):
-                        st.session_state.current_df = temp_df; st.session_state.active_master = f"Uploaded: {uploaded_file.name}"; st.rerun()
-                with cb:
-                    if st.button("💾 Save as CSV", use_container_width=True, key="save_any"):
-                        save_path = f"uploaded_{os.path.splitext(uploaded_file.name)[0]}.csv"
-                        temp_df.to_csv(save_path, index=False); st.success(f"Saved {save_path}"); st.balloons()
+                if st.button("🔵 Set as Active", type="primary", use_container_width=True):
+                    st.session_state.current_df = temp_df; st.rerun()
     with c2:
         st.metric("Rows", len(df)); st.metric("Master Files", len(NINE_DATASETS))
 
 elif st.session_state.page == "Data Collection Tools - All 10":
     st.header(f"📋 Data Collection Tools - {st.session_state.standard_tool}")
-    # SHOW DROPDOWN AGAIN INSIDE PAGE TOO
     tool_choice = st.selectbox("📋 Select Tool (Dropdown):", STANDARD_TOOLS, index=STANDARD_TOOLS.index(st.session_state.standard_tool) if st.session_state.standard_tool in STANDARD_TOOLS else 0, key="standard_tool_page_main")
     st.session_state.standard_tool = tool_choice
-    st.info(f"**Tool:** {tool_choice} | **Questions:** {DATA_COLLECTION_SAMPLES.get(tool_choice, [])[:3]}")
+    st.info(f"**Tool:** {tool_choice} | Questions: {DATA_COLLECTION_SAMPLES.get(tool_choice, [])[:3]}")
     col1, col2 = st.columns([1,2])
     with col1:
         st.markdown("### 📝 Tool Questions")
@@ -392,142 +356,76 @@ elif st.session_state.page == "Data Collection Tools - All 10":
         st.divider()
         if not has_active_subscription():
             st.error("🔒 **Data Entry Blocked - VIEW ONLY**")
-            st.warning("Pay to collect & save data with this tool")
         else:
-            st.success("✅ Full access - You can collect data")
+            st.success("✅ Full access")
             if st.button("📝 Create Data with this Tool"):
                 st.balloons()
-                st.success(f"Data collection started with {tool_choice}")
+                st.success(f"Started {tool_choice}")
     with col2:
-        st.markdown(f"### 📊 Data Linked to {tool_choice}")
         rel_cols = get_chartable_columns(df)
         st.dataframe(df[rel_cols].head(50) if rel_cols else df.head(50), use_container_width=True)
-        render_chart(df, st.session_state.chart, get_best_chart_column(df, df.columns[0], st.session_state.chart), tool_choice)
-        # BLOCK ANALYZE/DOWNLOAD IF NOT PAID
         if not has_active_subscription():
-            st.error("🔒 Analyze & Download blocked. Pay 500k/60Days or 300k/month to unlock")
+            st.error("🔒 Analyze & Download blocked. Pay to unlock")
         else:
+            render_chart(df, st.session_state.chart, get_best_chart_column(df, df.columns[0], st.session_state.chart), tool_choice)
             csv = df.to_csv(index=False).encode('utf-8')
             st.download_button(f"📥 Download {tool_choice} Data", csv, f"{tool_choice}_data.csv", "text/csv")
 
 elif st.session_state.page == "M&E Module":
-    st.header("📈 M&E TOOLS SUITE - TIMAR")
+    st.header("📈 M&E TOOLS SUITE")
     me_tool = st.selectbox("Select M&E Tool", ["🔗 Results Chain","🌳 Theory of Change","📋 LogFrame (Logical Framework)","🎯 Results Framework","📊 Indicator Performance Tracking Table (IPTT)","⚠️ Risk Matrix","👥 Stakeholder Analysis","🗓️ Workplan / Gantt"])
     if "Results Chain" in me_tool:
         c1,c2,c3,c4,c5 = st.columns(5)
-        with c1: inputs = st.text_area("Inputs", "Staff, Funds, Equipment", key="rc_in")
-        with c2: activities = st.text_area("Activities", "Training, Data collection", key="rc_ac")
+        with c1: inputs = st.text_area("Inputs", "Staff, Funds", key="rc_in")
+        with c2: activities = st.text_area("Activities", "Training", key="rc_ac")
         with c3: outputs = st.text_area("Outputs", "# trained", key="rc_out")
         with c4: outcomes = st.text_area("Outcomes", "Increased yield", key="rc_oc")
         with c5: impact = st.text_area("Impact", "Food security", key="rc_im")
         st.graphviz_chart(f'''digraph {{rankdir=LR; node [shape=box style=filled fillcolor="#DBEAFE"] "{inputs[:15]}" -> "{activities[:15]}" -> "{outputs[:15]}" -> "{outcomes[:15]}" -> "{impact[:15]}" }}''')
         st.success(auto_interpret_me(me_tool, df))
-    elif "Theory of Change" in me_tool:
-        col1,col2 = st.columns(2)
-        with col1: problem = st.text_area("Problem", "Low productivity...", key="toc_prob"); long_term = st.text_input("Goal", "Improved food security", key="toc_lt"); assumptions = st.text_area("Assumptions", "Farmers adopt...", key="toc_ass")
-        with col2: interventions = st.text_area("Interventions", "Seeds, Training", key="toc_int"); preconditions = st.text_area("Preconditions", "Access to land", key="toc_pre")
-        st.markdown(f"""<div style="background:white;padding:20px;border-radius:10px;border-left:5px solid #1E3A8A"><b>IF</b> {interventions[:100]} <br><b>THEN</b> {preconditions[:100]} <br><b>BECAUSE</b> {assumptions[:100]} <br><b>→</b> {long_term}</div>""", unsafe_allow_html=True)
-        st.success(auto_interpret_me(me_tool, df))
     elif "LogFrame" in me_tool:
-        log_data = st.data_editor(pd.DataFrame([{"Level":"Goal","Narrative":"Poverty reduction","Indicators":"% below poverty","MOV":"UBOS","Assumptions":"Policy stable"},{"Level":"Outcome","Narrative":"Increased income","Indicators":"+30% income","MOV":"Survey","Assumptions":"Markets accessible"},{"Level":"Output 1","Narrative":"500 trained","Indicators":"# trained","MOV":"Attendance","Assumptions":"Available"}]), num_rows="dynamic", use_container_width=True, key="logframe_edit")
+        log_data = st.data_editor(pd.DataFrame([{"Level":"Goal","Narrative":"Poverty reduction","Indicators":"% below poverty","MOV":"UBOS","Assumptions":"Policy stable"},{"Level":"Outcome","Narrative":"Increased income","Indicators":"+30% income","MOV":"Survey","Assumptions":"Markets accessible"}]), num_rows="dynamic", use_container_width=True, key="logframe_edit")
         st.success(auto_interpret_me(me_tool, df))
         if has_active_subscription():
             if st.button("📥 Export Excel"): log_data.to_excel("TIMAR_LogFrame.xlsx", index=False); st.success("Exported!")
         else:
             st.error("🔒 Export blocked - Pay to unlock")
-    elif "Results Framework" in me_tool:
-        rf = st.data_editor(pd.DataFrame([{"Objective":"Improve livelihoods","Indicator":"Avg income","Baseline":"$100","Target":"$300","Source":"Survey"}]), num_rows="dynamic", use_container_width=True, key="rf_edit")
-        st.success(auto_interpret_me(me_tool, df))
-    elif "IPTT" in me_tool:
-        iptt = st.data_editor(pd.DataFrame([{"Indicator":"# trained","Baseline":0,"Target":500,"Achieved Q2":250,"% Achieved":"50%","Status":"On Track"},{"Indicator":"Yield","Baseline":0.8,"Target":2.0,"Achieved Q2":1.5,"% Achieved":"75%","Status":"On Track"}]), num_rows="dynamic", use_container_width=True, key="iptt_edit")
-        st.success(auto_interpret_me(me_tool, df)); st.bar_chart(iptt.set_index("Indicator")[["Baseline","Target","Achieved Q2"]])
-    elif "Risk Matrix" in me_tool:
-        risk_df = st.data_editor(pd.DataFrame([{"Risk":"Drought","Likelihood":"High","Impact":"High","Score":"High","Mitigation":"Drought seeds","Owner":"M&E"},{"Risk":"Market fall","Likelihood":"Medium","Impact":"High","Score":"Medium","Mitigation":"Contract farming","Owner":"Lead"}]), num_rows="dynamic", use_container_width=True, key="risk_edit")
-        st.error(auto_interpret_me(me_tool, df))
-    elif "Stakeholder" in me_tool:
-        stake_df = st.data_editor(pd.DataFrame([{"Stakeholder":"Farmers","Interest":"High","Influence":"Medium","Strategy":"Engage closely"},{"Stakeholder":"Donor","Interest":"High","Influence":"High","Strategy":"Manage closely"}]), num_rows="dynamic", use_container_width=True, key="stake_edit")
-        st.info(auto_interpret_me(me_tool, df))
-    elif "Gantt" in me_tool:
-        wp = st.data_editor(pd.DataFrame([{"Activity":"Data collection","Start":"2026-09-01","End":"2026-09-15","Responsible":"M&E","Progress %":0},{"Activity":"Training","Start":"2026-09-16","End":"2026-09-30","Responsible":"Field","Progress %":0}]), num_rows="dynamic", use_container_width=True, key="gantt_edit")
-        st.success(auto_interpret_me(me_tool, df))
-        try:
-            wp["Start"]=pd.to_datetime(wp["Start"]); wp["End"]=pd.to_datetime(wp["End"]); fig=px.timeline(wp, x_start="Start", x_end="End", y="Activity", color="Responsible"); st.plotly_chart(fig, use_container_width=True)
-        except: pass
-    if not has_active_subscription():
-        st.divider()
-        st.error("🔒 M&E Export & Save blocked - Upgrade to unlock")
 
 elif st.session_state.page == "Admin - Monitoring Panel":
     if not is_admin():
         st.error("⛔ Access Denied - Admin Only"); st.stop()
     st.header("🛡️ Admin - Monitoring Panel")
-    if HAS_EXTERNAL_ADMIN:
-        try: render_admin_panel(); st.divider()
-        except: pass
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["👥 Users & Logins","⏰ Trials 24h","💳 Payments","📝 Activity Logs","⚙️ System Health"])
-    with tab1: users = load_users(); st.metric("Total Users", len(users)); st.dataframe(pd.DataFrame([{"Username":k} for k in users.keys()]), use_container_width=True)
-    with tab2: trials = load_json("trials.json", {}); st.metric("Trials", len(trials)); st.dataframe(pd.DataFrame([{"User":k, "Start":v.get("start","")} for k,v in trials.items()]), use_container_width=True) if trials else st.write("No trials")
-    with tab3: subs = load_json("subscriptions.json", {}); st.metric("Subscriptions", len(subs)); st.dataframe(pd.DataFrame([{"User":k, "Plan":v.get("plan"), "Txn":v.get("txn")} for k,v in subs.items()]), use_container_width=True) if subs else st.write("No subs")
-    with tab4: logs = load_json("timar_activity_log.json", []); st.metric("Logs", len(logs)); st.dataframe(pd.DataFrame(logs[-100:][::-1]), use_container_width=True) if logs else st.write("No logs")
-    with tab5: st.metric("Master Files", len(NINE_DATASETS)); st.dataframe(df.head(10), use_container_width=True)
+    tab1, tab2, tab3, tab4 = st.tabs(["👥 Users","⏰ Trials","💳 Payments","📝 Logs"])
+    with tab1: users = load_users(); st.dataframe(pd.DataFrame([{"Username":k} for k in users.keys()]), use_container_width=True)
+    with tab2: trials = load_json("trials.json", {}); st.dataframe(pd.DataFrame([{"User":k, "Start":v.get("start","")} for k,v in trials.items()]), use_container_width=True) if trials else st.write("No trials")
+    with tab3: subs = load_json("subscriptions.json", {}); st.dataframe(pd.DataFrame([{"User":k, "Plan":v.get("plan"), "Txn":v.get("txn")} for k,v in subs.items()]), use_container_width=True) if subs else st.write("No subs")
+    with tab4: logs = load_json("timar_activity_log.json", []); st.dataframe(pd.DataFrame(logs[-100:][::-1]), use_container_width=True) if logs else st.write("No logs")
 
 elif st.session_state.page == "Payment & Plans":
-    # ===== PAYMENT GATE - KEEP ORIGINAL PLANS =====
-def has_active_subscription():
-    if is_admin(): return True
-    subs = load_json("subscriptions.json", {})
-    user = st.session_state.get("user","")
-    if user in subs and subs[user].get("status")=="ACTIVE":
-        try:
-            exp = datetime.fromisoformat(subs[user]["expires"])
-            if exp > datetime.now():
-                return True
-        except:
-            return True
-    return False
-
-def show_paywall_popup():
-    if has_active_subscription():
-        return False
-    st.markdown("""
-    <div style="background: linear-gradient(90deg, #DC2626 0%, #EA580C 100%); padding:15px; border-radius:12px; margin-bottom:15px; border:3px solid #F59E0B;">
-        <h3 style="color:white!important; margin:0; text-align:center;">🔒 ACCESS RESTRICTED - PAY TO UNLOCK</h3>
-        <p style="color:white; text-align:center; margin:5px 0;">FREE VIEW MODE - You can VIEW but CANNOT Upload, Analyze or Download until you pay.</p>
-        <p style="color:#FEF3C7; text-align:center; font-weight:bold; margin:0;">💳 Pay To MTN MoMo: 0789876277 / 0755453313 - Name: Tino Mary</p>
-    </div>
-    """, unsafe_allow_html=True)
-    col1, col2 = st.columns([2,1])
-    with col1:
-        st.error("🚫 **Upload, Analyze, Download DISABLED** - Pay to unlock")
-    with col2:
-        if st.button("💳 PAY NOW - UNLOCK", type="primary", use_container_width=True, key="paywall_btn_top"):
-            st.session_state.page = "Payment & Plans"
-            st.rerun()
-    return Truest.title("💳 Payment & Plans - Unlock TIMAR")
+    st.title("💳 Payment & Plans")
     subs = load_json("subscriptions.json", {})
     if "selected_plan" not in st.session_state: st.session_state.selected_plan=None
     os.makedirs("payment_proofs", exist_ok=True)
     if st.session_state.user in subs and subs[st.session_state.user].get("status")=="ACTIVE":
-        st.success(f"✅ ACTIVE: {subs[st.session_state.user].get('plan')} - Full access unlocked!"); st.balloons()
+        st.success(f"✅ ACTIVE: {subs[st.session_state.user].get('plan')}"); st.balloons()
     else:
-        st.warning("🔒 You are in FREE VIEW ONLY mode. Pay below to unlock Upload, Analyze, Download")
+        st.warning("🔒 FREE VIEW ONLY - Pay to unlock Upload/Analyze/Download")
     c1,c2,c3,c4 = st.columns(4)
     with c1:
-        with st.container(border=True): st.markdown("### 🎓 STUDENT\n## UGX 10,000\nVIEW ONLY: No Upload")
+        with st.container(border=True): st.markdown("### 🎓 STUDENT\n## UGX 10,000")
         if st.button("Select STUDENT", key="s1", use_container_width=True): st.session_state.selected_plan="STUDENT"; st.rerun()
     with c2:
-        with st.container(border=True): st.markdown("### 🔬 RESEARCHER\n## UGX 30,000\nUNLOCKS: Upload+Download")
+        with st.container(border=True): st.markdown("### 🔬 RESEARCHER\n## UGX 30,000")
         if st.button("Select RESEARCHER", type="primary", key="s2", use_container_width=True): st.session_state.selected_plan="RESEARCHER"; st.rerun()
     with c3:
-        with st.container(border=True): st.markdown("### 🏢 NGO\n## UGX 500k\n60 Days Full Access\nOR 300k/month plan")
-        if st.button("Select NGO - BEST", key="s3", use_container_width=True): st.session_state.selected_plan="NGO"; st.rerun()
+        with st.container(border=True): st.markdown("### 🏢 NGO\n## UGX 300,000")
+        if st.button("Select NGO", key="s3", use_container_width=True): st.session_state.selected_plan="NGO"; st.rerun()
     with c4:
-        with st.container(border=True): st.markdown("### 🏛️ GOVERNMENT\n## UGX 500,000\nUnlimited + Training")
+        with st.container(border=True): st.markdown("### 🏛️ GOVERNMENT\n## UGX 500,000")
         if st.button("Select GOVERNMENT", key="s4", use_container_width=True): st.session_state.selected_plan="GOVERNMENT"; st.rerun()
     if st.session_state.selected_plan:
-        plan=st.session_state.selected_plan; prices={"STUDENT":10000,"RESEARCHER":30000,"NGO":500000,"GOVERNMENT":500000}
+        plan=st.session_state.selected_plan; prices={"STUDENT":10000,"RESEARCHER":30000,"NGO":300000,"GOVERNMENT":500000}
         st.warning(f"### 📱 Pay To MTN MoMo: 0789876277 / 0755453313 Name: Tino Mary - UGX {prices[plan]:,}")
-        st.info("NGO Monthly Plan: 300k/month available - Pay 300k now and 300k next month - Contact 0789876277")
         txn=st.text_input("MoMo Transaction ID *", key="txn_input"); proof_file = st.file_uploader("📤 Upload Proof *", type=["png","jpg","jpeg","pdf"], key="proof_upload")
         if st.button("🚀 Upload & Activate", type="primary", use_container_width=True):
             if not txn.strip(): st.error("Enter Txn")
@@ -535,19 +433,18 @@ def show_paywall_popup():
             else:
                 proof_path = f"payment_proofs/{st.session_state.user}_{plan}_{txn}_{proof_file.name}"
                 with open(proof_path, "wb") as f: f.write(proof_file.getbuffer())
-                expires_date = (datetime.now()+timedelta(days=60 if plan in ["NGO","GOVERNMENT"] else 30)).isoformat()
-                subs[st.session_state.user]={"plan":plan,"amount":prices[plan],"txn":txn,"expires":expires_date,"status":"ACTIVE"}; save_json("subscriptions.json", subs); st.success(f"✅ ACTIVATED! {plan} - Full access unlocked!"); st.balloons(); st.rerun()
+                expires_date = (datetime.now()+timedelta(days=30)).isoformat()
+                subs[st.session_state.user]={"plan":plan,"amount":prices[plan],"txn":txn,"expires":expires_date,"status":"ACTIVE"}; save_json("subscriptions.json", subs); st.success(f"✅ ACTIVATED! {plan}"); st.balloons(); st.rerun()
 
 else:
     st.header(f"{st.session_state.page}")
     rel_cols = get_chartable_columns(df)
     st.dataframe(df[rel_cols].head(50) if rel_cols else df.head(50), use_container_width=True)
     if not has_active_subscription():
-        st.error("🔒 Analysis & Download blocked - VIEW ONLY. Pay 500k/60 Days or 300k/month to unlock.")
-        st.button("📥 Download (Blocked - Pay to Unlock)", disabled=True)
+        st.error("🔒 Analysis & Download blocked - VIEW ONLY. Pay to unlock.")
     else:
         render_chart(df, st.session_state.chart, get_best_chart_column(df, df.columns[0], st.session_state.chart), st.session_state.page)
         csv = df.to_csv(index=False).encode('utf-8')
         st.download_button("📥 Download Data", csv, "timar_data.csv", "text/csv")
 
-st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026 | </div>""", unsafe_allow_html=True)
+st.markdown(f"""<div style="text-align:center;color:#1E3A8A;font-weight:bold;margin-top:30px;"><hr>🌾 TIMAR ANALYTICS © 2026 | MTN MoMo 0789876277</div>""", unsafe_allow_html=True)
