@@ -154,7 +154,6 @@ DATA_COLLECTION_SAMPLES = {
 }
 ADMIN_PASSWORD = "admin@45697"
 ALL_CHARTS = ["Bar Chart","Pie Chart","Line Chart","Scatter Plot","Histogram","Area Chart","Table View","Summary Statistics","Matrix View"]
-# --- NEW: Added Pivot Table to your original MODULES_ALL - NO OTHER CHANGE ---
 MODULES_ALL = ["Dashboard","Pivot Table - Both Options (NEW)","Analytics","9 Master Datasets - TIMAR REAL","Data Upload","Data Collection Tools - All 10","M&E Module","WASH Module","Livelihood Module","Health Module","Education Module","Agriculture Module","Research Module","KPI Matrix","Statistical Tools","Inventory & Stock Movement","Payment & Plans","Reviews & Comments","Help & Manual for Timar Analytics","Admin - Monitoring Panel"]
 
 def load_users():
@@ -230,7 +229,32 @@ def show_paywall_popup():
             st.rerun()
     return True
 
-# --- NEW: Added pivot state - NO OTHER CHANGE ---
+# --- CLEANED: Added safe pivot helper - NO DELETION ---
+def clean_pivot_for_display(pivot_df):
+    """Fix pyarrow.lib.ArrowInvalid error - makes pivot safe for st.dataframe"""
+    if pivot_df is None:
+        return None
+    try:
+        df_disp = pivot_df.copy()
+        # Flatten MultiIndex columns
+        if isinstance(df_disp.columns, pd.MultiIndex):
+            df_disp.columns = ['_'.join([str(x) for x in col if str(x)!='']).strip('_') for col in df_disp.columns.values]
+        # Reset index to avoid index issues
+        df_disp = df_disp.reset_index()
+        # All column names to string
+        df_disp.columns = [str(c) for c in df_disp.columns]
+        # Convert object columns to string for pyarrow
+        for col in df_disp.columns:
+            if df_disp[col].dtype == 'object':
+                df_disp[col] = df_disp[col].astype(str)
+        return df_disp
+    except Exception as e:
+        # Ultimate fallback
+        try:
+            return pivot_df.astype(str).reset_index()
+        except:
+            return pivot_df
+
 for k,v in [("logged_in",False),("username",""),("user",""),("page","Dashboard"),("chart","Bar Chart"),("selected_plan",None),("active_master","00_MASTER_ALL_9_AUTO (Recommended)"),("generated_dataset","UBOS Poverty by Region (NGO Demo)"),("standard_tool","Questionnaire - Structured Questions"),("pivot_df",None),("pivot_config",None)]:
     if k not in st.session_state: st.session_state[k]=v
 if 'current_df' not in st.session_state:
@@ -352,37 +376,46 @@ def auto_interpret_me(tool_name, df_active=None):
     if "Workplan" in tool_name: return f"**📖 Interpretation:** Gantt shows timeline. {base}."
     return "**Auto interpretation**"
 
-# --- NEW: BOTH OPTIONS INTERPRETATION HELPERS - ONLY ADDITION ---
-def auto_interpret_raw(df, col, chart_type):
+def auto_interpret_raw(df_raw, col, chart_type):
     try:
-        counts = df[col].value_counts()
-        total = len(df)
+        counts = df_raw[col].value_counts()
+        total = len(df_raw)
         top = counts.index[0]
         top_count = counts.iloc[0]
         top_pct = top_count/total*100
-        unique = df[col].nunique()
+        unique = df_raw[col].nunique()
         return f"""**📊 RAW DATA INTERPRETATION - {col}:**\n- Total records: **{total}**\n- Unique: **{unique}**\n- Dominant: **{top}** ({top_count} = {top_pct:.1f}%)\n- **Insight:** {'High concentration in '+str(top) if top_pct>50 else 'Moderate spread'}\n- **Chart:** {chart_type} shows frequency distribution"""
     except:
-        return f"Raw data has {len(df)} rows"
+        return f"Raw data has {len(df_raw)} rows"
+
 def auto_interpret_pivot(pivot_df, rows, values, agg):
     try:
-        if isinstance(pivot_df.columns, pd.MultiIndex):
-            pivot_df.columns = ['_'.join(map(str, c)).strip() for c in pivot_df.columns.values]
-        plot_df = pivot_df.reset_index()
-        if "Total" in plot_df.iloc[:,0].astype(str).values:
-            plot_df_no_total = plot_df[plot_df.iloc[:,0]!="Total"]
-            grand_total = plot_df[plot_df.iloc[:,0]=="Total"].iloc[0,1] if not plot_df[plot_df.iloc[:,0]=="Total"].empty else plot_df_no_total.iloc[:,1].sum()
+        # Use cleaned version for interpretation
+        temp_df = clean_pivot_for_display(pivot_df)
+        if temp_df is None:
+            return "No pivot"
+        # Find numeric column
+        numeric_cols = [c for c in temp_df.columns if temp_df[c].dtype in ['int64','float64'] or 'float' in str(temp_df[c].dtype).lower()]
+        if not numeric_cols:
+            # Try second column
+            numeric_cols = temp_df.columns[1:2].tolist()
+        x_col = temp_df.columns[0]
+        y_col = numeric_cols[0] if numeric_cols else temp_df.columns[1]
+        # Exclude Total row
+        plot_no_total = temp_df[temp_df[x_col].astype(str)!= "Total"] if "Total" in temp_df[x_col].astype(str).values else temp_df
+        grand_total = plot_no_total[y_col].sum() if len(plot_no_total)>0 else 0
+        if len(plot_no_total)>0:
+            max_idx = plot_no_total[y_col].astype(float).idxmax()
+            max_row = plot_no_total.loc[max_idx]
+            min_idx = plot_no_total[y_col].astype(float).idxmin()
+            min_row = plot_no_total.loc[min_idx]
+            max_val = float(max_row[y_col])
+            max_pct = max_val/grand_total*100 if grand_total!=0 else 0
+            return f"""**🔄 PIVOTED DATA INTERPRETATION - {agg.upper()} of {values} by {', '.join(rows)}:**\n- Aggregated {len(df)} raw rows → **{len(plot_no_total)} groups**\n- Grand Total: **{grand_total:,.2f}**\n- Highest: **{max_row[x_col]} = {max_val:,.2f} ({max_pct:.1f}%)**\n- Lowest: **{min_row[x_col]} = {float(min_row[y_col]):,.2f}**\n- **Business Insight:** {'Overstock risk in '+str(max_row[x_col]) if max_pct>40 else 'Balanced'}\n- **Why Pivot Matters:** Raw = individual transactions, Pivoted = aggregated performance"""
         else:
-            plot_df_no_total = plot_df
-            grand_total = plot_df_no_total.iloc[:,1].sum()
-        x_col = plot_df_no_total.columns[0]
-        y_col = plot_df_no_total.select_dtypes(include=[np.number]).columns.tolist()[0]
-        max_row = plot_df_no_total.loc[plot_df_no_total[y_col].idxmax()]
-        min_row = plot_df_no_total.loc[plot_df_no_total[y_col].idxmin()]
-        max_pct = max_row[y_col]/grand_total*100 if grand_total!=0 else 0
-        return f"""**🔄 PIVOTED DATA INTERPRETATION - {agg.upper()} of {values} by {', '.join(rows)}:**\n- Aggregated {len(df)} raw rows → **{len(plot_df_no_total)} groups**\n- Grand Total: **{grand_total:,.2f}**\n- Highest: **{max_row[x_col]} = {max_row[y_col]:,.2f} ({max_pct:.1f}%)**\n- Lowest: **{min_row[x_col]} = {min_row[y_col]:,.2f}**\n- **Business Insight:** {'Overstock risk in '+str(max_row[x_col]) if max_pct>40 else 'Balanced'}\n- **Why Pivot Matters:** Raw = individual transactions, Pivoted = aggregated performance for management"""
+            return f"Pivoted {len(temp_df)} groups"
     except Exception as e:
-        return f"Pivot interpretation error: {e}"
+        return f"Pivot interpretation: {e}"
 
 def render_chart_both_options(raw_df, pivot_df, chart_type, raw_col, pivot_config=None):
     tab_raw, tab_pivot = st.tabs(["📄 RAW DATA CHART", "🔄 PIVOTED DATA CHART"])
@@ -407,23 +440,47 @@ def render_chart_both_options(raw_df, pivot_df, chart_type, raw_col, pivot_confi
         rows, values, agg = pivot_config
         st.caption(f"Source: {pivot_df.shape[0]-1} groups | {agg} of {values} by {', '.join(rows)}")
         try:
-            if isinstance(pivot_df.columns, pd.MultiIndex):
-                pivot_df.columns = ['_'.join(map(str, col)).strip() for col in pivot_df.columns.values]
-            plot_df = pivot_df.reset_index()
-            if "Total" in plot_df.iloc[:,0].astype(str).values:
-                plot_df_chart = plot_df[plot_df.iloc[:,0]!="Total"]
+            # CLEANED: Use safe display for chart data
+            safe_pivot = clean_pivot_for_display(pivot_df)
+            if safe_pivot is None:
+                st.warning("Pivot empty")
+                return
+            # Remove Total for chart
+            x_col = safe_pivot.columns[0]
+            if "Total" in safe_pivot[x_col].astype(str).values:
+                plot_df_chart = safe_pivot[safe_pivot[x_col].astype(str)!= "Total"]
             else:
-                plot_df_chart = plot_df
-            x_col = plot_df_chart.columns[0]
-            y_col = plot_df_chart.select_dtypes(include=[np.number]).columns.tolist()[0]
+                plot_df_chart = safe_pivot
+
+            # Find numeric column
+            numeric_cols = [c for c in plot_df_chart.columns if c!= x_col]
+            # Try to get numeric
+            y_col = None
+            for c in numeric_cols:
+                try:
+                    pd.to_numeric(plot_df_chart[c])
+                    y_col = c
+                    break
+                except:
+                    continue
+            if y_col is None:
+                y_col = numeric_cols[0] if numeric_cols else safe_pivot.columns[1]
+
+            # Ensure y is numeric for chart
+            plot_df_chart[y_col] = pd.to_numeric(plot_df_chart[y_col], errors='coerce').fillna(0)
+
             if chart_type=="Bar Chart": fig = px.bar(plot_df_chart, x=x_col, y=y_col, color=x_col, title=f"PIVOTED: {agg} of {values} by {x_col}")
             elif chart_type=="Pie Chart": fig = px.pie(plot_df_chart, names=x_col, values=y_col, hole=0.3, title=f"PIVOTED: {values}")
             elif chart_type=="Line Chart": fig = px.line(plot_df_chart, x=x_col, y=y_col, markers=True, title=f"PIVOTED: {values}")
-            else: st.dataframe(pivot_df, use_container_width=True); fig=None
+            else:
+                st.dataframe(safe_pivot, use_container_width=True)
+                fig=None
             if fig is not None: st.plotly_chart(fig, use_container_width=True)
             st.success(auto_interpret_pivot(pivot_df, rows, values, agg))
         except Exception as e:
             st.error(f"Pivoted chart error: {e}")
+            # Fallback show cleaned table
+            st.dataframe(clean_pivot_for_display(pivot_df), use_container_width=True)
 
 # --- ALL YOUR ORIGINAL PAGES - 100% UNTOUCHED BELOW ---
 if st.session_state.page == "9 Master Datasets - TIMAR REAL":
@@ -498,7 +555,14 @@ elif st.session_state.page == "Pivot Table - Both Options (NEW)":
     st.divider()
     if st.session_state.pivot_df is not None:
         st.subheader("📊 Current Pivoted Table")
-        st.dataframe(st.session_state.pivot_df, use_container_width=True)
+        # CLEANED: Fixed pyarrow error with safe display
+        st.dataframe(clean_pivot_for_display(st.session_state.pivot_df), use_container_width=True)
+        # CLEANED: Download also uses safe version
+        try:
+            csv = clean_pivot_for_display(st.session_state.pivot_df).to_csv(index=False).encode('utf-8')
+            st.download_button("📥 Download Pivoted Table (CSV)", csv, "TIMAR_Pivoted.csv", "text/csv")
+        except:
+            pass
     else:
         st.info("👆 Build pivot above first")
     st.divider()
@@ -796,7 +860,6 @@ elif st.session_state.page == "Research Module":
 
 else:
     st.header(f"{st.session_state.page}")
-    # --- NEW: Show both options for all other pages too ---
     if st.session_state.pivot_df is not None and st.session_state.pivot_config is not None:
         st.info(f"📊 BOTH OPTIONS available - Raw ({len(df)} rows) + Pivoted ({st.session_state.pivot_df.shape[0]-1} groups)")
         render_chart_both_options(df, st.session_state.pivot_df, st.session_state.chart, df.columns[0], st.session_state.pivot_config)
